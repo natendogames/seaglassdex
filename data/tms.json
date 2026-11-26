@@ -1,0 +1,5993 @@
+{
+ "HM01": {
+  "move": "Cut",
+  "reusable": true,
+  "sources": [
+   {
+    "loc": "rustboro-city",
+    "how": "gift",
+    "where": "Cutter's House",
+    "from": "Cutter"
+   }
+  ]
+ },
+ "HM02": {
+  "move": "Fly",
+  "reusable": true,
+  "sources": [
+   {
+    "loc": "route-119",
+    "how": "gift",
+    "where": "Outside",
+    "from": "Your rival (after battling)"
+   }
+  ]
+ },
+ "HM03": {
+  "move": "Surf",
+  "reusable": true,
+  "sources": [
+   {
+    "loc": "petalburg-city",
+    "how": "gift",
+    "where": "Wally's House",
+    "from": "Wally's father (after you beat Norman)"
+   }
+  ]
+ },
+ "HM04": {
+  "move": "Strength",
+  "reusable": true,
+  "sources": [
+   {
+    "loc": "rusturf-tunnel",
+    "how": "gift",
+    "where": "Outside",
+    "from": "Wanda's boyfriend (once the tunnel is open)"
+   }
+  ]
+ },
+ "HM05": {
+  "move": "Flash",
+  "reusable": true,
+  "sources": [
+   {
+    "loc": "granite-cave",
+    "how": "gift",
+    "where": "1F",
+    "from": "Hiker"
+   }
+  ]
+ },
+ "HM06": {
+  "move": "Rock Smash",
+  "reusable": true,
+  "sources": [
+   {
+    "loc": "mauville-city",
+    "how": "gift",
+    "where": "House 1",
+    "from": "Rock Smash Guy"
+   }
+  ]
+ },
+ "HM07": {
+  "move": "Waterfall",
+  "reusable": true,
+  "sources": [
+   {
+    "loc": "pacifidlog-town",
+    "how": "gift",
+    "where": "Outside",
+    "from": "Scuba Safari (your first high score)"
+   }
+  ]
+ },
+ "HM08": {
+  "move": "Dive",
+  "reusable": true,
+  "sources": [
+   {
+    "loc": "mossdeep-city",
+    "how": "gift",
+    "where": "Steven's House",
+    "from": "Steven"
+   }
+  ]
+ },
+ "TM01": {
+  "move": "Focus Punch",
+  "reusable": true,
+  "sources": [
+   {
+    "loc": "oldale-town",
+    "how": "buy",
+    "where": "TM clerk · 7 badges",
+    "cost": "₽3,000",
+    "stage": 52.5,
+    "badges": 7
+   },
+   {
+    "loc": "petalburg-city",
+    "how": "buy",
+    "where": "TM clerk · 7 badges",
+    "cost": "₽3,000",
+    "stage": 52.5,
+    "badges": 7
+   },
+   {
+    "loc": "rustboro-city",
+    "how": "buy",
+    "where": "TM clerk · 7 badges",
+    "cost": "₽3,000",
+    "stage": 52.5,
+    "badges": 7
+   },
+   {
+    "loc": "slateport-city",
+    "how": "buy",
+    "where": "TM clerk · 7 badges",
+    "cost": "₽3,000",
+    "stage": 52.5,
+    "badges": 7
+   },
+   {
+    "loc": "mauville-city",
+    "how": "buy",
+    "where": "TM clerk · 7 badges",
+    "cost": "₽3,000",
+    "stage": 52.5,
+    "badges": 7
+   },
+   {
+    "loc": "verdanturf-town",
+    "how": "buy",
+    "where": "TM clerk · 7 badges",
+    "cost": "₽3,000",
+    "stage": 52.5,
+    "badges": 7
+   },
+   {
+    "loc": "fallarbor-town",
+    "how": "buy",
+    "where": "TM clerk · 7 badges",
+    "cost": "₽3,000",
+    "stage": 52.5,
+    "badges": 7
+   },
+   {
+    "loc": "route-115",
+    "how": "found",
+    "where": "Outside",
+    "stage": 30.5,
+    "need": "Surf (HM03 from Wally's father after you beat Norman in Petalburg City)"
+   },
+   {
+    "loc": "lavaridge-town",
+    "how": "buy",
+    "where": "TM clerk · 7 badges",
+    "cost": "₽3,000",
+    "stage": 52.5,
+    "badges": 7
+   },
+   {
+    "loc": "fortree-city",
+    "how": "buy",
+    "where": "TM clerk · 7 badges",
+    "cost": "₽3,000",
+    "stage": 52.5,
+    "badges": 7
+   },
+   {
+    "loc": "mossdeep-city",
+    "how": "buy",
+    "where": "TM clerk · 7 badges",
+    "cost": "₽3,000",
+    "stage": 52.5,
+    "badges": 7
+   },
+   {
+    "loc": "sootopolis-city",
+    "how": "buy",
+    "where": "TM clerk · 7 badges",
+    "cost": "₽3,000",
+    "stage": 59,
+    "badges": 7
+   }
+  ]
+ },
+ "TM02": {
+  "move": "Dragon Claw",
+  "reusable": true,
+  "sources": [
+   {
+    "loc": "oldale-town",
+    "how": "buy",
+    "where": "TM clerk · 5 badges",
+    "cost": "₽3,500",
+    "stage": 30.5,
+    "badges": 5
+   },
+   {
+    "loc": "petalburg-city",
+    "how": "buy",
+    "where": "TM clerk · 5 badges",
+    "cost": "₽3,500",
+    "stage": 30.5,
+    "badges": 5
+   },
+   {
+    "loc": "rustboro-city",
+    "how": "buy",
+    "where": "TM clerk · 5 badges",
+    "cost": "₽3,500",
+    "stage": 30.5,
+    "badges": 5
+   },
+   {
+    "loc": "slateport-city",
+    "how": "buy",
+    "where": "TM clerk · 5 badges",
+    "cost": "₽3,500",
+    "stage": 30.5,
+    "badges": 5
+   },
+   {
+    "loc": "mauville-city",
+    "how": "buy",
+    "where": "TM clerk · 5 badges",
+    "cost": "₽3,500",
+    "stage": 30.5,
+    "badges": 5
+   },
+   {
+    "loc": "verdanturf-town",
+    "how": "buy",
+    "where": "TM clerk · 5 badges",
+    "cost": "₽3,500",
+    "stage": 30.5,
+    "badges": 5
+   },
+   {
+    "loc": "fallarbor-town",
+    "how": "buy",
+    "where": "TM clerk · 5 badges",
+    "cost": "₽3,500",
+    "stage": 30.5,
+    "badges": 5
+   },
+   {
+    "loc": "meteor-falls",
+    "how": "found",
+    "where": "B1F 2R",
+    "stage": 64.5,
+    "need": "Waterfall (HM07 from the Scuba Safari in Pacifidlog Town; usable outside battle once you have all 8 badges)"
+   },
+   {
+    "loc": "lavaridge-town",
+    "how": "buy",
+    "where": "TM clerk · 5 badges",
+    "cost": "₽3,500",
+    "stage": 30.5,
+    "badges": 5
+   },
+   {
+    "loc": "fortree-city",
+    "how": "buy",
+    "where": "TM clerk · 5 badges",
+    "cost": "₽3,500",
+    "stage": 40,
+    "badges": 5
+   },
+   {
+    "loc": "mossdeep-city",
+    "how": "buy",
+    "where": "TM clerk · 5 badges",
+    "cost": "₽3,500",
+    "stage": 52,
+    "badges": 5
+   },
+   {
+    "loc": "sootopolis-city",
+    "how": "buy",
+    "where": "TM clerk · 7 badges",
+    "cost": "₽3,500",
+    "stage": 59,
+    "badges": 7
+   }
+  ]
+ },
+ "TM03": {
+  "move": "Water Pulse",
+  "reusable": true,
+  "sources": [
+   {
+    "loc": "oldale-town",
+    "how": "buy",
+    "where": "TM clerk · 2 badges",
+    "cost": "₽2,000",
+    "stage": 11.5,
+    "badges": 2
+   },
+   {
+    "loc": "petalburg-city",
+    "how": "buy",
+    "where": "TM clerk · 2 badges",
+    "cost": "₽2,000",
+    "stage": 11.5,
+    "badges": 2
+   },
+   {
+    "loc": "rustboro-city",
+    "how": "buy",
+    "where": "TM clerk · 2 badges",
+    "cost": "₽2,000",
+    "stage": 11.5,
+    "badges": 2
+   },
+   {
+    "loc": "slateport-city",
+    "how": "buy",
+    "where": "TM clerk · 2 badges",
+    "cost": "₽2,000",
+    "stage": 14,
+    "badges": 2
+   },
+   {
+    "loc": "mauville-city",
+    "how": "buy",
+    "where": "TM clerk · 2 badges",
+    "cost": "₽2,000",
+    "stage": 17,
+    "badges": 2
+   },
+   {
+    "loc": "verdanturf-town",
+    "how": "buy",
+    "where": "TM clerk · 2 badges",
+    "cost": "₽2,000",
+    "stage": 19,
+    "badges": 2
+   },
+   {
+    "loc": "fallarbor-town",
+    "how": "buy",
+    "where": "TM clerk · 2 badges",
+    "cost": "₽2,000",
+    "stage": 24,
+    "badges": 2
+   },
+   {
+    "loc": "lavaridge-town",
+    "how": "buy",
+    "where": "TM clerk · 2 badges",
+    "cost": "₽2,000",
+    "stage": 30,
+    "badges": 2
+   },
+   {
+    "loc": "fortree-city",
+    "how": "buy",
+    "where": "TM clerk · 2 badges",
+    "cost": "₽2,000",
+    "stage": 40,
+    "badges": 2
+   },
+   {
+    "loc": "mossdeep-city",
+    "how": "buy",
+    "where": "TM clerk · 2 badges",
+    "cost": "₽2,000",
+    "stage": 52,
+    "badges": 2
+   },
+   {
+    "loc": "sootopolis-city",
+    "how": "buy",
+    "where": "TM clerk · 7 badges",
+    "cost": "₽2,000",
+    "stage": 59,
+    "badges": 7
+   }
+  ]
+ },
+ "TM04": {
+  "move": "Calm Mind",
+  "reusable": true,
+  "sources": [
+   {
+    "loc": "oldale-town",
+    "how": "buy",
+    "where": "TM clerk · 7 badges",
+    "cost": "₽3,000",
+    "stage": 52.5,
+    "badges": 7
+   },
+   {
+    "loc": "petalburg-city",
+    "how": "buy",
+    "where": "TM clerk · 7 badges",
+    "cost": "₽3,000",
+    "stage": 52.5,
+    "badges": 7
+   },
+   {
+    "loc": "rustboro-city",
+    "how": "buy",
+    "where": "TM clerk · 7 badges",
+    "cost": "₽3,000",
+    "stage": 52.5,
+    "badges": 7
+   },
+   {
+    "loc": "slateport-city",
+    "how": "buy",
+    "where": "TM clerk · 7 badges",
+    "cost": "₽3,000",
+    "stage": 52.5,
+    "badges": 7
+   },
+   {
+    "loc": "mauville-city",
+    "how": "buy",
+    "where": "TM clerk · 7 badges",
+    "cost": "₽3,000",
+    "stage": 52.5,
+    "badges": 7
+   },
+   {
+    "loc": "verdanturf-town",
+    "how": "buy",
+    "where": "TM clerk · 7 badges",
+    "cost": "₽3,000",
+    "stage": 52.5,
+    "badges": 7
+   },
+   {
+    "loc": "fallarbor-town",
+    "how": "buy",
+    "where": "TM clerk · 7 badges",
+    "cost": "₽3,000",
+    "stage": 52.5,
+    "badges": 7
+   },
+   {
+    "loc": "lavaridge-town",
+    "how": "buy",
+    "where": "TM clerk · 7 badges",
+    "cost": "₽3,000",
+    "stage": 52.5,
+    "badges": 7
+   },
+   {
+    "loc": "fortree-city",
+    "how": "buy",
+    "where": "TM clerk · 7 badges",
+    "cost": "₽3,000",
+    "stage": 52.5,
+    "badges": 7
+   },
+   {
+    "loc": "mossdeep-city",
+    "how": "gift",
+    "where": "Gym",
+    "from": "Tate and Liza (after winning)"
+   },
+   {
+    "loc": "mossdeep-city",
+    "how": "buy",
+    "where": "TM clerk · 7 badges",
+    "cost": "₽3,000",
+    "stage": 52.5,
+    "badges": 7
+   },
+   {
+    "loc": "sootopolis-city",
+    "how": "buy",
+    "where": "TM clerk · 7 badges",
+    "cost": "₽3,000",
+    "stage": 59,
+    "badges": 7
+   }
+  ]
+ },
+ "TM05": {
+  "move": "Roar",
+  "reusable": true,
+  "sources": [
+   {
+    "loc": "oldale-town",
+    "how": "buy",
+    "where": "TM clerk · no badges",
+    "cost": "₽1,000"
+   },
+   {
+    "loc": "petalburg-city",
+    "how": "buy",
+    "where": "TM clerk · no badges",
+    "cost": "₽1,000"
+   },
+   {
+    "loc": "rustboro-city",
+    "how": "buy",
+    "where": "TM clerk · no badges",
+    "cost": "₽1,000"
+   },
+   {
+    "loc": "slateport-city",
+    "how": "buy",
+    "where": "TM clerk · no badges",
+    "cost": "₽1,000"
+   },
+   {
+    "loc": "mauville-city",
+    "how": "buy",
+    "where": "TM clerk · no badges",
+    "cost": "₽1,000"
+   },
+   {
+    "loc": "verdanturf-town",
+    "how": "buy",
+    "where": "TM clerk · no badges",
+    "cost": "₽1,000"
+   },
+   {
+    "loc": "fallarbor-town",
+    "how": "buy",
+    "where": "TM clerk · no badges",
+    "cost": "₽1,000"
+   },
+   {
+    "loc": "route-114",
+    "how": "gift",
+    "where": "Outside",
+    "from": "Gentleman"
+   },
+   {
+    "loc": "lavaridge-town",
+    "how": "buy",
+    "where": "TM clerk · no badges",
+    "cost": "₽1,000"
+   },
+   {
+    "loc": "fortree-city",
+    "how": "buy",
+    "where": "TM clerk · no badges",
+    "cost": "₽1,000"
+   },
+   {
+    "loc": "mossdeep-city",
+    "how": "buy",
+    "where": "TM clerk · no badges",
+    "cost": "₽1,000"
+   },
+   {
+    "loc": "sootopolis-city",
+    "how": "buy",
+    "where": "TM clerk · 7 badges",
+    "cost": "₽1,000",
+    "stage": 59,
+    "badges": 7
+   }
+  ]
+ },
+ "TM06": {
+  "move": "Toxic",
+  "reusable": true,
+  "sources": [
+   {
+    "loc": "oldale-town",
+    "how": "buy",
+    "where": "TM clerk · 4 badges",
+    "cost": "₽3,500",
+    "stage": 30.5,
+    "badges": 4
+   },
+   {
+    "loc": "petalburg-city",
+    "how": "buy",
+    "where": "TM clerk · 4 badges",
+    "cost": "₽3,500",
+    "stage": 30.5,
+    "badges": 4
+   },
+   {
+    "loc": "rustboro-city",
+    "how": "buy",
+    "where": "TM clerk · 4 badges",
+    "cost": "₽3,500",
+    "stage": 30.5,
+    "badges": 4
+   },
+   {
+    "loc": "slateport-city",
+    "how": "buy",
+    "where": "TM clerk · 4 badges",
+    "cost": "₽3,500",
+    "stage": 30.5,
+    "badges": 4
+   },
+   {
+    "loc": "mauville-city",
+    "how": "buy",
+    "where": "TM clerk · 4 badges",
+    "cost": "₽3,500",
+    "stage": 30.5,
+    "badges": 4
+   },
+   {
+    "loc": "verdanturf-town",
+    "how": "buy",
+    "where": "TM clerk · 4 badges",
+    "cost": "₽3,500",
+    "stage": 30.5,
+    "badges": 4
+   },
+   {
+    "loc": "fiery-path",
+    "how": "found",
+    "where": "Outside",
+    "stage": 30.5,
+    "need": "Strength (HM04 from Rusturf Tunnel, used with the Heat Badge)"
+   },
+   {
+    "loc": "fallarbor-town",
+    "how": "buy",
+    "where": "TM clerk · 4 badges",
+    "cost": "₽3,500",
+    "stage": 30.5,
+    "badges": 4
+   },
+   {
+    "loc": "lavaridge-town",
+    "how": "buy",
+    "where": "TM clerk · 4 badges",
+    "cost": "₽3,500",
+    "stage": 30.5,
+    "badges": 4
+   },
+   {
+    "loc": "fortree-city",
+    "how": "buy",
+    "where": "TM clerk · 4 badges",
+    "cost": "₽3,500",
+    "stage": 40,
+    "badges": 4
+   },
+   {
+    "loc": "mossdeep-city",
+    "how": "buy",
+    "where": "TM clerk · 4 badges",
+    "cost": "₽3,500",
+    "stage": 52,
+    "badges": 4
+   },
+   {
+    "loc": "sootopolis-city",
+    "how": "buy",
+    "where": "TM clerk · 7 badges",
+    "cost": "₽3,500",
+    "stage": 59,
+    "badges": 7
+   }
+  ]
+ },
+ "TM07": {
+  "move": "Hail",
+  "reusable": true,
+  "sources": [
+   {
+    "loc": "oldale-town",
+    "how": "buy",
+    "where": "TM clerk · no badges",
+    "cost": "₽2,000"
+   },
+   {
+    "loc": "petalburg-city",
+    "how": "buy",
+    "where": "TM clerk · no badges",
+    "cost": "₽2,000"
+   },
+   {
+    "loc": "rustboro-city",
+    "how": "buy",
+    "where": "TM clerk · no badges",
+    "cost": "₽2,000"
+   },
+   {
+    "loc": "slateport-city",
+    "how": "buy",
+    "where": "TM clerk · no badges",
+    "cost": "₽2,000"
+   },
+   {
+    "loc": "mauville-city",
+    "how": "buy",
+    "where": "TM clerk · no badges",
+    "cost": "₽2,000"
+   },
+   {
+    "loc": "verdanturf-town",
+    "how": "buy",
+    "where": "TM clerk · no badges",
+    "cost": "₽2,000"
+   },
+   {
+    "loc": "fallarbor-town",
+    "how": "buy",
+    "where": "TM clerk · no badges",
+    "cost": "₽2,000"
+   },
+   {
+    "loc": "lavaridge-town",
+    "how": "buy",
+    "where": "TM clerk · no badges",
+    "cost": "₽2,000"
+   },
+   {
+    "loc": "fortree-city",
+    "how": "buy",
+    "where": "TM clerk · no badges",
+    "cost": "₽2,000"
+   },
+   {
+    "loc": "mossdeep-city",
+    "how": "buy",
+    "where": "TM clerk · no badges",
+    "cost": "₽2,000"
+   },
+   {
+    "loc": "shoal-cave",
+    "how": "found",
+    "where": "Low Tide Ice Room"
+   },
+   {
+    "loc": "sootopolis-city",
+    "how": "buy",
+    "where": "TM clerk · 7 badges",
+    "cost": "₽2,000",
+    "stage": 59,
+    "badges": 7
+   }
+  ]
+ },
+ "TM08": {
+  "move": "Bulk Up",
+  "reusable": true,
+  "sources": [
+   {
+    "loc": "oldale-town",
+    "how": "buy",
+    "where": "TM clerk · 3 badges",
+    "cost": "₽3,000",
+    "stage": 17.5,
+    "badges": 3
+   },
+   {
+    "loc": "petalburg-city",
+    "how": "buy",
+    "where": "TM clerk · 3 badges",
+    "cost": "₽3,000",
+    "stage": 17.5,
+    "badges": 3
+   },
+   {
+    "loc": "rustboro-city",
+    "how": "buy",
+    "where": "TM clerk · 3 badges",
+    "cost": "₽3,000",
+    "stage": 17.5,
+    "badges": 3
+   },
+   {
+    "loc": "dewford-town",
+    "how": "gift",
+    "where": "Gym",
+    "from": "Brawly (after winning)"
+   },
+   {
+    "loc": "slateport-city",
+    "how": "buy",
+    "where": "TM clerk · 3 badges",
+    "cost": "₽3,000",
+    "stage": 17.5,
+    "badges": 3
+   },
+   {
+    "loc": "mauville-city",
+    "how": "buy",
+    "where": "TM clerk · 3 badges",
+    "cost": "₽3,000",
+    "stage": 17.5,
+    "badges": 3
+   },
+   {
+    "loc": "verdanturf-town",
+    "how": "buy",
+    "where": "TM clerk · 3 badges",
+    "cost": "₽3,000",
+    "stage": 19,
+    "badges": 3
+   },
+   {
+    "loc": "fallarbor-town",
+    "how": "buy",
+    "where": "TM clerk · 3 badges",
+    "cost": "₽3,000",
+    "stage": 24,
+    "badges": 3
+   },
+   {
+    "loc": "lavaridge-town",
+    "how": "buy",
+    "where": "TM clerk · 3 badges",
+    "cost": "₽3,000",
+    "stage": 30,
+    "badges": 3
+   },
+   {
+    "loc": "fortree-city",
+    "how": "buy",
+    "where": "TM clerk · 3 badges",
+    "cost": "₽3,000",
+    "stage": 40,
+    "badges": 3
+   },
+   {
+    "loc": "mossdeep-city",
+    "how": "buy",
+    "where": "TM clerk · 3 badges",
+    "cost": "₽3,000",
+    "stage": 52,
+    "badges": 3
+   },
+   {
+    "loc": "sootopolis-city",
+    "how": "buy",
+    "where": "TM clerk · 7 badges",
+    "cost": "₽3,000",
+    "stage": 59,
+    "badges": 7
+   }
+  ]
+ },
+ "TM09": {
+  "move": "Bullet Seed",
+  "reusable": true,
+  "sources": [
+   {
+    "loc": "oldale-town",
+    "how": "buy",
+    "where": "TM clerk · 2 badges",
+    "cost": "₽2,000",
+    "stage": 11.5,
+    "badges": 2
+   },
+   {
+    "loc": "petalburg-city",
+    "how": "buy",
+    "where": "TM clerk · 2 badges",
+    "cost": "₽2,000",
+    "stage": 11.5,
+    "badges": 2
+   },
+   {
+    "loc": "route-104",
+    "how": "gift",
+    "where": "Outside",
+    "from": "Boy"
+   },
+   {
+    "loc": "rustboro-city",
+    "how": "buy",
+    "where": "TM clerk · 2 badges",
+    "cost": "₽2,000",
+    "stage": 11.5,
+    "badges": 2
+   },
+   {
+    "loc": "slateport-city",
+    "how": "buy",
+    "where": "TM clerk · 2 badges",
+    "cost": "₽2,000",
+    "stage": 14,
+    "badges": 2
+   },
+   {
+    "loc": "mauville-city",
+    "how": "buy",
+    "where": "TM clerk · 2 badges",
+    "cost": "₽2,000",
+    "stage": 17,
+    "badges": 2
+   },
+   {
+    "loc": "verdanturf-town",
+    "how": "buy",
+    "where": "TM clerk · 2 badges",
+    "cost": "₽2,000",
+    "stage": 19,
+    "badges": 2
+   },
+   {
+    "loc": "fallarbor-town",
+    "how": "buy",
+    "where": "TM clerk · 2 badges",
+    "cost": "₽2,000",
+    "stage": 24,
+    "badges": 2
+   },
+   {
+    "loc": "lavaridge-town",
+    "how": "buy",
+    "where": "TM clerk · 2 badges",
+    "cost": "₽2,000",
+    "stage": 30,
+    "badges": 2
+   },
+   {
+    "loc": "fortree-city",
+    "how": "buy",
+    "where": "TM clerk · 2 badges",
+    "cost": "₽2,000",
+    "stage": 40,
+    "badges": 2
+   },
+   {
+    "loc": "mossdeep-city",
+    "how": "buy",
+    "where": "TM clerk · 2 badges",
+    "cost": "₽2,000",
+    "stage": 52,
+    "badges": 2
+   },
+   {
+    "loc": "sootopolis-city",
+    "how": "buy",
+    "where": "TM clerk · 7 badges",
+    "cost": "₽2,000",
+    "stage": 59,
+    "badges": 7
+   }
+  ]
+ },
+ "TM10": {
+  "move": "Hidden Power",
+  "reusable": true,
+  "sources": [
+   {
+    "loc": "oldale-town",
+    "how": "buy",
+    "where": "TM clerk · 4 badges",
+    "cost": "₽2,500",
+    "stage": 30.5,
+    "badges": 4
+   },
+   {
+    "loc": "petalburg-city",
+    "how": "buy",
+    "where": "TM clerk · 4 badges",
+    "cost": "₽2,500",
+    "stage": 30.5,
+    "badges": 4
+   },
+   {
+    "loc": "rustboro-city",
+    "how": "buy",
+    "where": "TM clerk · 4 badges",
+    "cost": "₽2,500",
+    "stage": 30.5,
+    "badges": 4
+   },
+   {
+    "loc": "slateport-city",
+    "how": "buy",
+    "where": "Outside",
+    "cost": "₽2,500",
+    "stage": 22
+   },
+   {
+    "loc": "mauville-city",
+    "how": "buy",
+    "where": "TM clerk · 4 badges",
+    "cost": "₽2,500",
+    "stage": 30.5,
+    "badges": 4
+   },
+   {
+    "loc": "verdanturf-town",
+    "how": "buy",
+    "where": "TM clerk · 4 badges",
+    "cost": "₽2,500",
+    "stage": 30.5,
+    "badges": 4
+   },
+   {
+    "loc": "fallarbor-town",
+    "how": "buy",
+    "where": "TM clerk · 4 badges",
+    "cost": "₽2,500",
+    "stage": 30.5,
+    "badges": 4
+   },
+   {
+    "loc": "lavaridge-town",
+    "how": "buy",
+    "where": "TM clerk · 4 badges",
+    "cost": "₽2,500",
+    "stage": 30.5,
+    "badges": 4
+   },
+   {
+    "loc": "fortree-city",
+    "how": "gift",
+    "where": "House 2",
+    "from": "Old woman (guess the coin)"
+   },
+   {
+    "loc": "fortree-city",
+    "how": "buy",
+    "where": "TM clerk · 4 badges",
+    "cost": "₽2,500",
+    "stage": 40,
+    "badges": 4
+   },
+   {
+    "loc": "mossdeep-city",
+    "how": "buy",
+    "where": "TM clerk · 4 badges",
+    "cost": "₽2,500",
+    "stage": 52,
+    "badges": 4
+   },
+   {
+    "loc": "sootopolis-city",
+    "how": "buy",
+    "where": "TM clerk · 7 badges",
+    "cost": "₽2,500",
+    "stage": 59,
+    "badges": 7
+   }
+  ]
+ },
+ "TM11": {
+  "move": "Sunny Day",
+  "reusable": true,
+  "sources": [
+   {
+    "loc": "oldale-town",
+    "how": "buy",
+    "where": "TM clerk · no badges",
+    "cost": "₽2,000"
+   },
+   {
+    "loc": "petalburg-city",
+    "how": "buy",
+    "where": "TM clerk · no badges",
+    "cost": "₽2,000"
+   },
+   {
+    "loc": "rustboro-city",
+    "how": "buy",
+    "where": "TM clerk · no badges",
+    "cost": "₽2,000"
+   },
+   {
+    "loc": "slateport-city",
+    "how": "buy",
+    "where": "TM clerk · no badges",
+    "cost": "₽2,000"
+   },
+   {
+    "loc": "mauville-city",
+    "how": "buy",
+    "where": "TM clerk · no badges",
+    "cost": "₽2,000"
+   },
+   {
+    "loc": "verdanturf-town",
+    "how": "buy",
+    "where": "TM clerk · no badges",
+    "cost": "₽2,000"
+   },
+   {
+    "loc": "fallarbor-town",
+    "how": "buy",
+    "where": "TM clerk · no badges",
+    "cost": "₽2,000"
+   },
+   {
+    "loc": "lavaridge-town",
+    "how": "buy",
+    "where": "TM clerk · no badges",
+    "cost": "₽2,000"
+   },
+   {
+    "loc": "fortree-city",
+    "how": "buy",
+    "where": "TM clerk · no badges",
+    "cost": "₽2,000"
+   },
+   {
+    "loc": "scorched-slab",
+    "how": "found",
+    "where": "Outside"
+   },
+   {
+    "loc": "mossdeep-city",
+    "how": "buy",
+    "where": "TM clerk · no badges",
+    "cost": "₽2,000"
+   },
+   {
+    "loc": "sootopolis-city",
+    "how": "buy",
+    "where": "TM clerk · 7 badges",
+    "cost": "₽2,000",
+    "stage": 59,
+    "badges": 7
+   }
+  ]
+ },
+ "TM12": {
+  "move": "Taunt",
+  "reusable": true,
+  "sources": [
+   {
+    "loc": "oldale-town",
+    "how": "buy",
+    "where": "TM clerk · 1 badge",
+    "cost": "₽3,000",
+    "stage": 8.5,
+    "badges": 1
+   },
+   {
+    "loc": "petalburg-city",
+    "how": "buy",
+    "where": "TM clerk · 1 badge",
+    "cost": "₽3,000",
+    "stage": 8.5,
+    "badges": 1
+   },
+   {
+    "loc": "rustboro-city",
+    "how": "buy",
+    "where": "TM clerk · 1 badge",
+    "cost": "₽3,000",
+    "stage": 8.5,
+    "badges": 1
+   },
+   {
+    "loc": "slateport-city",
+    "how": "buy",
+    "where": "TM clerk · 1 badge",
+    "cost": "₽3,000",
+    "stage": 14,
+    "badges": 1
+   },
+   {
+    "loc": "route-110",
+    "how": "gift",
+    "where": "Trick House End",
+    "from": "Trick Master (finish a Trick House puzzle)"
+   },
+   {
+    "loc": "mauville-city",
+    "how": "buy",
+    "where": "TM clerk · 1 badge",
+    "cost": "₽3,000",
+    "stage": 17,
+    "badges": 1
+   },
+   {
+    "loc": "verdanturf-town",
+    "how": "buy",
+    "where": "TM clerk · 1 badge",
+    "cost": "₽3,000",
+    "stage": 19,
+    "badges": 1
+   },
+   {
+    "loc": "fallarbor-town",
+    "how": "buy",
+    "where": "TM clerk · 1 badge",
+    "cost": "₽3,000",
+    "stage": 24,
+    "badges": 1
+   },
+   {
+    "loc": "lavaridge-town",
+    "how": "buy",
+    "where": "TM clerk · 1 badge",
+    "cost": "₽3,000",
+    "stage": 30,
+    "badges": 1
+   },
+   {
+    "loc": "fortree-city",
+    "how": "buy",
+    "where": "TM clerk · 1 badge",
+    "cost": "₽3,000",
+    "stage": 40,
+    "badges": 1
+   },
+   {
+    "loc": "mossdeep-city",
+    "how": "buy",
+    "where": "TM clerk · 1 badge",
+    "cost": "₽3,000",
+    "stage": 52,
+    "badges": 1
+   },
+   {
+    "loc": "sootopolis-city",
+    "how": "buy",
+    "where": "TM clerk · 7 badges",
+    "cost": "₽3,000",
+    "stage": 59,
+    "badges": 7
+   }
+  ]
+ },
+ "TM13": {
+  "move": "Ice Beam",
+  "reusable": true,
+  "sources": [
+   {
+    "loc": "oldale-town",
+    "how": "buy",
+    "where": "TM clerk · 6 badges",
+    "cost": "₽4,000",
+    "stage": 40.5,
+    "badges": 6
+   },
+   {
+    "loc": "petalburg-city",
+    "how": "buy",
+    "where": "TM clerk · 6 badges",
+    "cost": "₽4,000",
+    "stage": 40.5,
+    "badges": 6
+   },
+   {
+    "loc": "rustboro-city",
+    "how": "buy",
+    "where": "TM clerk · 6 badges",
+    "cost": "₽4,000",
+    "stage": 40.5,
+    "badges": 6
+   },
+   {
+    "loc": "slateport-city",
+    "how": "buy",
+    "where": "TM clerk · 6 badges",
+    "cost": "₽4,000",
+    "stage": 40.5,
+    "badges": 6
+   },
+   {
+    "loc": "mauville-city",
+    "how": "buy",
+    "where": "TM clerk · 6 badges",
+    "cost": "₽4,000",
+    "stage": 40.5,
+    "badges": 6
+   },
+   {
+    "loc": "mauville-city",
+    "how": "prize",
+    "where": "Game Corner prize counter",
+    "cost": "4,000 coins"
+   },
+   {
+    "loc": "verdanturf-town",
+    "how": "buy",
+    "where": "TM clerk · 6 badges",
+    "cost": "₽4,000",
+    "stage": 40.5,
+    "badges": 6
+   },
+   {
+    "loc": "fallarbor-town",
+    "how": "buy",
+    "where": "TM clerk · 6 badges",
+    "cost": "₽4,000",
+    "stage": 40.5,
+    "badges": 6
+   },
+   {
+    "loc": "lavaridge-town",
+    "how": "buy",
+    "where": "TM clerk · 6 badges",
+    "cost": "₽4,000",
+    "stage": 40.5,
+    "badges": 6
+   },
+   {
+    "loc": "abandoned-ship",
+    "how": "found",
+    "where": "Room B1F"
+   },
+   {
+    "loc": "fortree-city",
+    "how": "buy",
+    "where": "TM clerk · 6 badges",
+    "cost": "₽4,000",
+    "stage": 40.5,
+    "badges": 6
+   },
+   {
+    "loc": "mossdeep-city",
+    "how": "buy",
+    "where": "TM clerk · 6 badges",
+    "cost": "₽4,000",
+    "stage": 52,
+    "badges": 6
+   },
+   {
+    "loc": "sootopolis-city",
+    "how": "gift",
+    "where": "Gym 1F",
+    "from": "Juan (after winning)"
+   },
+   {
+    "loc": "sootopolis-city",
+    "how": "buy",
+    "where": "TM clerk · 7 badges",
+    "cost": "₽4,000",
+    "stage": 59,
+    "badges": 7
+   }
+  ]
+ },
+ "TM14": {
+  "move": "Blizzard",
+  "reusable": true,
+  "sources": [
+   {
+    "loc": "oldale-town",
+    "how": "buy",
+    "where": "TM clerk · 7 badges",
+    "cost": "₽6,500",
+    "stage": 52.5,
+    "badges": 7
+   },
+   {
+    "loc": "petalburg-city",
+    "how": "buy",
+    "where": "TM clerk · 7 badges",
+    "cost": "₽6,500",
+    "stage": 52.5,
+    "badges": 7
+   },
+   {
+    "loc": "rustboro-city",
+    "how": "buy",
+    "where": "TM clerk · 7 badges",
+    "cost": "₽6,500",
+    "stage": 52.5,
+    "badges": 7
+   },
+   {
+    "loc": "slateport-city",
+    "how": "buy",
+    "where": "TM clerk · 7 badges",
+    "cost": "₽6,500",
+    "stage": 52.5,
+    "badges": 7
+   },
+   {
+    "loc": "mauville-city",
+    "how": "buy",
+    "where": "TM clerk · 7 badges",
+    "cost": "₽6,500",
+    "stage": 52.5,
+    "badges": 7
+   },
+   {
+    "loc": "verdanturf-town",
+    "how": "buy",
+    "where": "TM clerk · 7 badges",
+    "cost": "₽6,500",
+    "stage": 52.5,
+    "badges": 7
+   },
+   {
+    "loc": "fallarbor-town",
+    "how": "buy",
+    "where": "TM clerk · 7 badges",
+    "cost": "₽6,500",
+    "stage": 52.5,
+    "badges": 7
+   },
+   {
+    "loc": "lavaridge-town",
+    "how": "buy",
+    "where": "TM clerk · 7 badges",
+    "cost": "₽6,500",
+    "stage": 52.5,
+    "badges": 7
+   },
+   {
+    "loc": "fortree-city",
+    "how": "buy",
+    "where": "TM clerk · 7 badges",
+    "cost": "₽6,500",
+    "stage": 52.5,
+    "badges": 7
+   },
+   {
+    "loc": "lilycove-city",
+    "how": "buy",
+    "where": "Department Store 4F",
+    "cost": "₽6,500"
+   },
+   {
+    "loc": "mossdeep-city",
+    "how": "buy",
+    "where": "TM clerk · 7 badges",
+    "cost": "₽6,500",
+    "stage": 52.5,
+    "badges": 7
+   },
+   {
+    "loc": "sootopolis-city",
+    "how": "buy",
+    "where": "TM clerk · 7 badges",
+    "cost": "₽6,500",
+    "stage": 59,
+    "badges": 7
+   }
+  ]
+ },
+ "TM15": {
+  "move": "Hyper Beam",
+  "reusable": true,
+  "sources": [
+   {
+    "loc": "oldale-town",
+    "how": "buy",
+    "where": "TM clerk · 6 badges",
+    "cost": "₽7,500",
+    "stage": 40.5,
+    "badges": 6
+   },
+   {
+    "loc": "petalburg-city",
+    "how": "buy",
+    "where": "TM clerk · 6 badges",
+    "cost": "₽7,500",
+    "stage": 40.5,
+    "badges": 6
+   },
+   {
+    "loc": "rustboro-city",
+    "how": "buy",
+    "where": "TM clerk · 6 badges",
+    "cost": "₽7,500",
+    "stage": 40.5,
+    "badges": 6
+   },
+   {
+    "loc": "slateport-city",
+    "how": "buy",
+    "where": "TM clerk · 6 badges",
+    "cost": "₽7,500",
+    "stage": 40.5,
+    "badges": 6
+   },
+   {
+    "loc": "mauville-city",
+    "how": "buy",
+    "where": "TM clerk · 6 badges",
+    "cost": "₽7,500",
+    "stage": 40.5,
+    "badges": 6
+   },
+   {
+    "loc": "verdanturf-town",
+    "how": "buy",
+    "where": "TM clerk · 6 badges",
+    "cost": "₽7,500",
+    "stage": 40.5,
+    "badges": 6
+   },
+   {
+    "loc": "fallarbor-town",
+    "how": "buy",
+    "where": "TM clerk · 6 badges",
+    "cost": "₽7,500",
+    "stage": 40.5,
+    "badges": 6
+   },
+   {
+    "loc": "lavaridge-town",
+    "how": "buy",
+    "where": "TM clerk · 6 badges",
+    "cost": "₽7,500",
+    "stage": 40.5,
+    "badges": 6
+   },
+   {
+    "loc": "fortree-city",
+    "how": "buy",
+    "where": "TM clerk · 6 badges",
+    "cost": "₽7,500",
+    "stage": 40.5,
+    "badges": 6
+   },
+   {
+    "loc": "lilycove-city",
+    "how": "buy",
+    "where": "Department Store 4F",
+    "cost": "₽7,500"
+   },
+   {
+    "loc": "mossdeep-city",
+    "how": "buy",
+    "where": "TM clerk · 6 badges",
+    "cost": "₽7,500",
+    "stage": 52,
+    "badges": 6
+   },
+   {
+    "loc": "sootopolis-city",
+    "how": "buy",
+    "where": "TM clerk · 7 badges",
+    "cost": "₽7,500",
+    "stage": 59,
+    "badges": 7
+   }
+  ]
+ },
+ "TM16": {
+  "move": "Light Screen",
+  "reusable": true,
+  "sources": [
+   {
+    "loc": "oldale-town",
+    "how": "buy",
+    "where": "TM clerk · 3 badges",
+    "cost": "₽3,000",
+    "stage": 17.5,
+    "badges": 3
+   },
+   {
+    "loc": "petalburg-city",
+    "how": "buy",
+    "where": "TM clerk · 3 badges",
+    "cost": "₽3,000",
+    "stage": 17.5,
+    "badges": 3
+   },
+   {
+    "loc": "rustboro-city",
+    "how": "buy",
+    "where": "TM clerk · 3 badges",
+    "cost": "₽3,000",
+    "stage": 17.5,
+    "badges": 3
+   },
+   {
+    "loc": "slateport-city",
+    "how": "buy",
+    "where": "TM clerk · 3 badges",
+    "cost": "₽3,000",
+    "stage": 17.5,
+    "badges": 3
+   },
+   {
+    "loc": "mauville-city",
+    "how": "buy",
+    "where": "TM clerk · 3 badges",
+    "cost": "₽3,000",
+    "stage": 17.5,
+    "badges": 3
+   },
+   {
+    "loc": "verdanturf-town",
+    "how": "buy",
+    "where": "TM clerk · 3 badges",
+    "cost": "₽3,000",
+    "stage": 19,
+    "badges": 3
+   },
+   {
+    "loc": "fallarbor-town",
+    "how": "buy",
+    "where": "TM clerk · 3 badges",
+    "cost": "₽3,000",
+    "stage": 24,
+    "badges": 3
+   },
+   {
+    "loc": "lavaridge-town",
+    "how": "buy",
+    "where": "TM clerk · 3 badges",
+    "cost": "₽3,000",
+    "stage": 30,
+    "badges": 3
+   },
+   {
+    "loc": "fortree-city",
+    "how": "buy",
+    "where": "TM clerk · 3 badges",
+    "cost": "₽3,000",
+    "stage": 40,
+    "badges": 3
+   },
+   {
+    "loc": "lilycove-city",
+    "how": "buy",
+    "where": "Department Store 4F",
+    "cost": "₽3,000"
+   },
+   {
+    "loc": "mossdeep-city",
+    "how": "buy",
+    "where": "TM clerk · 3 badges",
+    "cost": "₽3,000",
+    "stage": 52,
+    "badges": 3
+   },
+   {
+    "loc": "sootopolis-city",
+    "how": "buy",
+    "where": "TM clerk · 7 badges",
+    "cost": "₽3,000",
+    "stage": 59,
+    "badges": 7
+   }
+  ]
+ },
+ "TM17": {
+  "move": "Protect",
+  "reusable": true,
+  "sources": [
+   {
+    "loc": "oldale-town",
+    "how": "buy",
+    "where": "TM clerk · 1 badge",
+    "cost": "₽3,000",
+    "stage": 8.5,
+    "badges": 1
+   },
+   {
+    "loc": "petalburg-city",
+    "how": "buy",
+    "where": "TM clerk · 1 badge",
+    "cost": "₽3,000",
+    "stage": 8.5,
+    "badges": 1
+   },
+   {
+    "loc": "rustboro-city",
+    "how": "buy",
+    "where": "TM clerk · 1 badge",
+    "cost": "₽3,000",
+    "stage": 8.5,
+    "badges": 1
+   },
+   {
+    "loc": "slateport-city",
+    "how": "buy",
+    "where": "TM clerk · 1 badge",
+    "cost": "₽3,000",
+    "stage": 14,
+    "badges": 1
+   },
+   {
+    "loc": "mauville-city",
+    "how": "buy",
+    "where": "TM clerk · 1 badge",
+    "cost": "₽3,000",
+    "stage": 17,
+    "badges": 1
+   },
+   {
+    "loc": "verdanturf-town",
+    "how": "buy",
+    "where": "TM clerk · 1 badge",
+    "cost": "₽3,000",
+    "stage": 19,
+    "badges": 1
+   },
+   {
+    "loc": "fallarbor-town",
+    "how": "buy",
+    "where": "TM clerk · 1 badge",
+    "cost": "₽3,000",
+    "stage": 24,
+    "badges": 1
+   },
+   {
+    "loc": "lavaridge-town",
+    "how": "buy",
+    "where": "TM clerk · 1 badge",
+    "cost": "₽3,000",
+    "stage": 30,
+    "badges": 1
+   },
+   {
+    "loc": "fortree-city",
+    "how": "buy",
+    "where": "TM clerk · 1 badge",
+    "cost": "₽3,000",
+    "stage": 40,
+    "badges": 1
+   },
+   {
+    "loc": "lilycove-city",
+    "how": "buy",
+    "where": "Department Store 4F",
+    "cost": "₽3,000"
+   },
+   {
+    "loc": "mossdeep-city",
+    "how": "buy",
+    "where": "TM clerk · 1 badge",
+    "cost": "₽3,000",
+    "stage": 52,
+    "badges": 1
+   },
+   {
+    "loc": "sootopolis-city",
+    "how": "buy",
+    "where": "TM clerk · 7 badges",
+    "cost": "₽3,000",
+    "stage": 59,
+    "badges": 7
+   }
+  ]
+ },
+ "TM18": {
+  "move": "Rain Dance",
+  "reusable": true,
+  "sources": [
+   {
+    "loc": "oldale-town",
+    "how": "buy",
+    "where": "TM clerk · no badges",
+    "cost": "₽2,000"
+   },
+   {
+    "loc": "petalburg-city",
+    "how": "buy",
+    "where": "TM clerk · no badges",
+    "cost": "₽2,000"
+   },
+   {
+    "loc": "rustboro-city",
+    "how": "buy",
+    "where": "TM clerk · no badges",
+    "cost": "₽2,000"
+   },
+   {
+    "loc": "slateport-city",
+    "how": "buy",
+    "where": "TM clerk · no badges",
+    "cost": "₽2,000"
+   },
+   {
+    "loc": "mauville-city",
+    "how": "buy",
+    "where": "TM clerk · no badges",
+    "cost": "₽2,000"
+   },
+   {
+    "loc": "verdanturf-town",
+    "how": "buy",
+    "where": "TM clerk · no badges",
+    "cost": "₽2,000"
+   },
+   {
+    "loc": "fallarbor-town",
+    "how": "buy",
+    "where": "TM clerk · no badges",
+    "cost": "₽2,000"
+   },
+   {
+    "loc": "lavaridge-town",
+    "how": "buy",
+    "where": "TM clerk · no badges",
+    "cost": "₽2,000"
+   },
+   {
+    "loc": "abandoned-ship",
+    "how": "found",
+    "where": "Hidden Floor Rooms",
+    "stage": 52.5,
+    "need": "Dive (HM08 from Steven in Mossdeep City, after the Mind Badge)"
+   },
+   {
+    "loc": "fortree-city",
+    "how": "buy",
+    "where": "TM clerk · no badges",
+    "cost": "₽2,000"
+   },
+   {
+    "loc": "mossdeep-city",
+    "how": "buy",
+    "where": "TM clerk · no badges",
+    "cost": "₽2,000"
+   },
+   {
+    "loc": "sootopolis-city",
+    "how": "buy",
+    "where": "TM clerk · 7 badges",
+    "cost": "₽2,000",
+    "stage": 59,
+    "badges": 7
+   }
+  ]
+ },
+ "TM19": {
+  "move": "Giga Drain",
+  "reusable": true,
+  "sources": [
+   {
+    "loc": "oldale-town",
+    "how": "buy",
+    "where": "TM clerk · 5 badges",
+    "cost": "₽2,500",
+    "stage": 30.5,
+    "badges": 5
+   },
+   {
+    "loc": "petalburg-city",
+    "how": "buy",
+    "where": "TM clerk · 5 badges",
+    "cost": "₽2,500",
+    "stage": 30.5,
+    "badges": 5
+   },
+   {
+    "loc": "rustboro-city",
+    "how": "buy",
+    "where": "TM clerk · 5 badges",
+    "cost": "₽2,500",
+    "stage": 30.5,
+    "badges": 5
+   },
+   {
+    "loc": "slateport-city",
+    "how": "buy",
+    "where": "TM clerk · 5 badges",
+    "cost": "₽2,500",
+    "stage": 30.5,
+    "badges": 5
+   },
+   {
+    "loc": "mauville-city",
+    "how": "buy",
+    "where": "TM clerk · 5 badges",
+    "cost": "₽2,500",
+    "stage": 30.5,
+    "badges": 5
+   },
+   {
+    "loc": "verdanturf-town",
+    "how": "buy",
+    "where": "TM clerk · 5 badges",
+    "cost": "₽2,500",
+    "stage": 30.5,
+    "badges": 5
+   },
+   {
+    "loc": "fallarbor-town",
+    "how": "buy",
+    "where": "TM clerk · 5 badges",
+    "cost": "₽2,500",
+    "stage": 30.5,
+    "badges": 5
+   },
+   {
+    "loc": "lavaridge-town",
+    "how": "buy",
+    "where": "TM clerk · 5 badges",
+    "cost": "₽2,500",
+    "stage": 30.5,
+    "badges": 5
+   },
+   {
+    "loc": "fortree-city",
+    "how": "buy",
+    "where": "TM clerk · 5 badges",
+    "cost": "₽2,500",
+    "stage": 40,
+    "badges": 5
+   },
+   {
+    "loc": "route-123",
+    "how": "gift",
+    "where": "Outside",
+    "from": "Girl (if your lead knows a Grass move)"
+   },
+   {
+    "loc": "mossdeep-city",
+    "how": "buy",
+    "where": "TM clerk · 5 badges",
+    "cost": "₽2,500",
+    "stage": 52,
+    "badges": 5
+   },
+   {
+    "loc": "sootopolis-city",
+    "how": "buy",
+    "where": "TM clerk · 7 badges",
+    "cost": "₽2,500",
+    "stage": 59,
+    "badges": 7
+   }
+  ]
+ },
+ "TM20": {
+  "move": "Safeguard",
+  "reusable": true,
+  "sources": [
+   {
+    "loc": "oldale-town",
+    "how": "buy",
+    "where": "TM clerk · 2 badges",
+    "cost": "₽2,000",
+    "stage": 11.5,
+    "badges": 2
+   },
+   {
+    "loc": "petalburg-city",
+    "how": "buy",
+    "where": "TM clerk · 2 badges",
+    "cost": "₽2,000",
+    "stage": 11.5,
+    "badges": 2
+   },
+   {
+    "loc": "rustboro-city",
+    "how": "buy",
+    "where": "TM clerk · 2 badges",
+    "cost": "₽2,000",
+    "stage": 11.5,
+    "badges": 2
+   },
+   {
+    "loc": "slateport-city",
+    "how": "buy",
+    "where": "TM clerk · 2 badges",
+    "cost": "₽2,000",
+    "stage": 14,
+    "badges": 2
+   },
+   {
+    "loc": "mauville-city",
+    "how": "buy",
+    "where": "TM clerk · 2 badges",
+    "cost": "₽2,000",
+    "stage": 17,
+    "badges": 2
+   },
+   {
+    "loc": "verdanturf-town",
+    "how": "buy",
+    "where": "TM clerk · 2 badges",
+    "cost": "₽2,000",
+    "stage": 19,
+    "badges": 2
+   },
+   {
+    "loc": "fallarbor-town",
+    "how": "buy",
+    "where": "TM clerk · 2 badges",
+    "cost": "₽2,000",
+    "stage": 24,
+    "badges": 2
+   },
+   {
+    "loc": "lavaridge-town",
+    "how": "buy",
+    "where": "TM clerk · 2 badges",
+    "cost": "₽2,000",
+    "stage": 30,
+    "badges": 2
+   },
+   {
+    "loc": "fortree-city",
+    "how": "buy",
+    "where": "TM clerk · 2 badges",
+    "cost": "₽2,000",
+    "stage": 40,
+    "badges": 2
+   },
+   {
+    "loc": "lilycove-city",
+    "how": "buy",
+    "where": "Department Store 4F",
+    "cost": "₽2,000"
+   },
+   {
+    "loc": "mossdeep-city",
+    "how": "buy",
+    "where": "TM clerk · 2 badges",
+    "cost": "₽2,000",
+    "stage": 52,
+    "badges": 2
+   },
+   {
+    "loc": "sootopolis-city",
+    "how": "buy",
+    "where": "TM clerk · 7 badges",
+    "cost": "₽2,000",
+    "stage": 59,
+    "badges": 7
+   }
+  ]
+ },
+ "TM21": {
+  "move": "Frustration",
+  "reusable": true,
+  "sources": [
+   {
+    "loc": "oldale-town",
+    "how": "buy",
+    "where": "TM clerk · 4 badges",
+    "cost": "₽1,000",
+    "stage": 30.5,
+    "badges": 4
+   },
+   {
+    "loc": "petalburg-city",
+    "how": "buy",
+    "where": "TM clerk · 4 badges",
+    "cost": "₽1,000",
+    "stage": 30.5,
+    "badges": 4
+   },
+   {
+    "loc": "rustboro-city",
+    "how": "buy",
+    "where": "TM clerk · 4 badges",
+    "cost": "₽1,000",
+    "stage": 30.5,
+    "badges": 4
+   },
+   {
+    "loc": "slateport-city",
+    "how": "buy",
+    "where": "TM clerk · 4 badges",
+    "cost": "₽1,000",
+    "stage": 30.5,
+    "badges": 4
+   },
+   {
+    "loc": "pacifidlog-town",
+    "how": "gift",
+    "where": "House 2",
+    "from": "Woman (if your lead Pokémon is unfriendly)"
+   },
+   {
+    "loc": "mauville-city",
+    "how": "buy",
+    "where": "TM clerk · 4 badges",
+    "cost": "₽1,000",
+    "stage": 30.5,
+    "badges": 4
+   },
+   {
+    "loc": "verdanturf-town",
+    "how": "buy",
+    "where": "TM clerk · 4 badges",
+    "cost": "₽1,000",
+    "stage": 30.5,
+    "badges": 4
+   },
+   {
+    "loc": "fallarbor-town",
+    "how": "buy",
+    "where": "TM clerk · 4 badges",
+    "cost": "₽1,000",
+    "stage": 30.5,
+    "badges": 4
+   },
+   {
+    "loc": "lavaridge-town",
+    "how": "buy",
+    "where": "TM clerk · 4 badges",
+    "cost": "₽1,000",
+    "stage": 30.5,
+    "badges": 4
+   },
+   {
+    "loc": "fortree-city",
+    "how": "buy",
+    "where": "TM clerk · 4 badges",
+    "cost": "₽1,000",
+    "stage": 40,
+    "badges": 4
+   },
+   {
+    "loc": "mossdeep-city",
+    "how": "buy",
+    "where": "TM clerk · 4 badges",
+    "cost": "₽1,000",
+    "stage": 52,
+    "badges": 4
+   },
+   {
+    "loc": "sootopolis-city",
+    "how": "buy",
+    "where": "TM clerk · 7 badges",
+    "cost": "₽1,000",
+    "stage": 59,
+    "badges": 7
+   }
+  ]
+ },
+ "TM22": {
+  "move": "Solar Beam",
+  "reusable": true,
+  "sources": [
+   {
+    "loc": "oldale-town",
+    "how": "buy",
+    "where": "TM clerk · 6 badges",
+    "cost": "₽3,000",
+    "stage": 40.5,
+    "badges": 6
+   },
+   {
+    "loc": "petalburg-city",
+    "how": "buy",
+    "where": "TM clerk · 6 badges",
+    "cost": "₽3,000",
+    "stage": 40.5,
+    "badges": 6
+   },
+   {
+    "loc": "rustboro-city",
+    "how": "buy",
+    "where": "TM clerk · 6 badges",
+    "cost": "₽3,000",
+    "stage": 40.5,
+    "badges": 6
+   },
+   {
+    "loc": "slateport-city",
+    "how": "buy",
+    "where": "TM clerk · 6 badges",
+    "cost": "₽3,000",
+    "stage": 40.5,
+    "badges": 6
+   },
+   {
+    "loc": "mauville-city",
+    "how": "buy",
+    "where": "TM clerk · 6 badges",
+    "cost": "₽3,000",
+    "stage": 40.5,
+    "badges": 6
+   },
+   {
+    "loc": "verdanturf-town",
+    "how": "buy",
+    "where": "TM clerk · 6 badges",
+    "cost": "₽3,000",
+    "stage": 40.5,
+    "badges": 6
+   },
+   {
+    "loc": "fallarbor-town",
+    "how": "buy",
+    "where": "TM clerk · 6 badges",
+    "cost": "₽3,000",
+    "stage": 40.5,
+    "badges": 6
+   },
+   {
+    "loc": "lavaridge-town",
+    "how": "buy",
+    "where": "TM clerk · 6 badges",
+    "cost": "₽3,000",
+    "stage": 40.5,
+    "badges": 6
+   },
+   {
+    "loc": "fortree-city",
+    "how": "buy",
+    "where": "TM clerk · 6 badges",
+    "cost": "₽3,000",
+    "stage": 40.5,
+    "badges": 6
+   },
+   {
+    "loc": "safari-zone",
+    "how": "found",
+    "where": "Northwest"
+   },
+   {
+    "loc": "mossdeep-city",
+    "how": "buy",
+    "where": "TM clerk · 6 badges",
+    "cost": "₽3,000",
+    "stage": 52,
+    "badges": 6
+   },
+   {
+    "loc": "sootopolis-city",
+    "how": "buy",
+    "where": "TM clerk · 7 badges",
+    "cost": "₽3,000",
+    "stage": 59,
+    "badges": 7
+   }
+  ]
+ },
+ "TM23": {
+  "move": "Iron Tail",
+  "reusable": true,
+  "sources": [
+   {
+    "loc": "oldale-town",
+    "how": "buy",
+    "where": "TM clerk · 4 badges",
+    "cost": "₽2,500",
+    "stage": 30.5,
+    "badges": 4
+   },
+   {
+    "loc": "petalburg-city",
+    "how": "buy",
+    "where": "TM clerk · 4 badges",
+    "cost": "₽2,500",
+    "stage": 30.5,
+    "badges": 4
+   },
+   {
+    "loc": "rustboro-city",
+    "how": "buy",
+    "where": "TM clerk · 4 badges",
+    "cost": "₽2,500",
+    "stage": 30.5,
+    "badges": 4
+   },
+   {
+    "loc": "slateport-city",
+    "how": "buy",
+    "where": "TM clerk · 4 badges",
+    "cost": "₽2,500",
+    "stage": 30.5,
+    "badges": 4
+   },
+   {
+    "loc": "mauville-city",
+    "how": "buy",
+    "where": "TM clerk · 4 badges",
+    "cost": "₽2,500",
+    "stage": 30.5,
+    "badges": 4
+   },
+   {
+    "loc": "verdanturf-town",
+    "how": "buy",
+    "where": "TM clerk · 4 badges",
+    "cost": "₽2,500",
+    "stage": 30.5,
+    "badges": 4
+   },
+   {
+    "loc": "fallarbor-town",
+    "how": "buy",
+    "where": "TM clerk · 4 badges",
+    "cost": "₽2,500",
+    "stage": 30.5,
+    "badges": 4
+   },
+   {
+    "loc": "meteor-falls",
+    "how": "found",
+    "where": "1F 1R",
+    "stage": 64.5,
+    "need": "Waterfall (HM07 from the Scuba Safari in Pacifidlog Town; usable outside battle once you have all 8 badges)"
+   },
+   {
+    "loc": "lavaridge-town",
+    "how": "buy",
+    "where": "TM clerk · 4 badges",
+    "cost": "₽2,500",
+    "stage": 30.5,
+    "badges": 4
+   },
+   {
+    "loc": "fortree-city",
+    "how": "buy",
+    "where": "TM clerk · 4 badges",
+    "cost": "₽2,500",
+    "stage": 40,
+    "badges": 4
+   },
+   {
+    "loc": "mossdeep-city",
+    "how": "buy",
+    "where": "TM clerk · 4 badges",
+    "cost": "₽2,500",
+    "stage": 52,
+    "badges": 4
+   },
+   {
+    "loc": "sootopolis-city",
+    "how": "buy",
+    "where": "TM clerk · 7 badges",
+    "cost": "₽2,500",
+    "stage": 59,
+    "badges": 7
+   }
+  ]
+ },
+ "TM24": {
+  "move": "Thunderbolt",
+  "reusable": true,
+  "sources": [
+   {
+    "loc": "oldale-town",
+    "how": "buy",
+    "where": "TM clerk · 6 badges",
+    "cost": "₽4,000",
+    "stage": 40.5,
+    "badges": 6
+   },
+   {
+    "loc": "petalburg-city",
+    "how": "buy",
+    "where": "TM clerk · 6 badges",
+    "cost": "₽4,000",
+    "stage": 40.5,
+    "badges": 6
+   },
+   {
+    "loc": "rustboro-city",
+    "how": "buy",
+    "where": "TM clerk · 6 badges",
+    "cost": "₽4,000",
+    "stage": 40.5,
+    "badges": 6
+   },
+   {
+    "loc": "slateport-city",
+    "how": "buy",
+    "where": "TM clerk · 6 badges",
+    "cost": "₽4,000",
+    "stage": 40.5,
+    "badges": 6
+   },
+   {
+    "loc": "mauville-city",
+    "how": "gift",
+    "where": "Outside",
+    "from": "Wattson",
+    "stage": 30,
+    "need": "After Lavaridge Town"
+   },
+   {
+    "loc": "mauville-city",
+    "how": "buy",
+    "where": "TM clerk · 6 badges",
+    "cost": "₽4,000",
+    "stage": 40.5,
+    "badges": 6
+   },
+   {
+    "loc": "mauville-city",
+    "how": "prize",
+    "where": "Game Corner prize counter",
+    "cost": "4,000 coins"
+   },
+   {
+    "loc": "verdanturf-town",
+    "how": "buy",
+    "where": "TM clerk · 6 badges",
+    "cost": "₽4,000",
+    "stage": 40.5,
+    "badges": 6
+   },
+   {
+    "loc": "fallarbor-town",
+    "how": "buy",
+    "where": "TM clerk · 6 badges",
+    "cost": "₽4,000",
+    "stage": 40.5,
+    "badges": 6
+   },
+   {
+    "loc": "lavaridge-town",
+    "how": "buy",
+    "where": "TM clerk · 6 badges",
+    "cost": "₽4,000",
+    "stage": 40.5,
+    "badges": 6
+   },
+   {
+    "loc": "fortree-city",
+    "how": "buy",
+    "where": "TM clerk · 6 badges",
+    "cost": "₽4,000",
+    "stage": 40.5,
+    "badges": 6
+   },
+   {
+    "loc": "mossdeep-city",
+    "how": "buy",
+    "where": "TM clerk · 6 badges",
+    "cost": "₽4,000",
+    "stage": 52,
+    "badges": 6
+   },
+   {
+    "loc": "sootopolis-city",
+    "how": "buy",
+    "where": "TM clerk · 7 badges",
+    "cost": "₽4,000",
+    "stage": 59,
+    "badges": 7
+   }
+  ]
+ },
+ "TM25": {
+  "move": "Thunder",
+  "reusable": true,
+  "sources": [
+   {
+    "loc": "oldale-town",
+    "how": "buy",
+    "where": "TM clerk · 7 badges",
+    "cost": "₽6,500",
+    "stage": 52.5,
+    "badges": 7
+   },
+   {
+    "loc": "petalburg-city",
+    "how": "buy",
+    "where": "TM clerk · 7 badges",
+    "cost": "₽6,500",
+    "stage": 52.5,
+    "badges": 7
+   },
+   {
+    "loc": "rustboro-city",
+    "how": "buy",
+    "where": "TM clerk · 7 badges",
+    "cost": "₽6,500",
+    "stage": 52.5,
+    "badges": 7
+   },
+   {
+    "loc": "slateport-city",
+    "how": "buy",
+    "where": "TM clerk · 7 badges",
+    "cost": "₽6,500",
+    "stage": 52.5,
+    "badges": 7
+   },
+   {
+    "loc": "mauville-city",
+    "how": "buy",
+    "where": "TM clerk · 7 badges",
+    "cost": "₽6,500",
+    "stage": 52.5,
+    "badges": 7
+   },
+   {
+    "loc": "verdanturf-town",
+    "how": "buy",
+    "where": "TM clerk · 7 badges",
+    "cost": "₽6,500",
+    "stage": 52.5,
+    "badges": 7
+   },
+   {
+    "loc": "fallarbor-town",
+    "how": "buy",
+    "where": "TM clerk · 7 badges",
+    "cost": "₽6,500",
+    "stage": 52.5,
+    "badges": 7
+   },
+   {
+    "loc": "lavaridge-town",
+    "how": "buy",
+    "where": "TM clerk · 7 badges",
+    "cost": "₽6,500",
+    "stage": 52.5,
+    "badges": 7
+   },
+   {
+    "loc": "fortree-city",
+    "how": "buy",
+    "where": "TM clerk · 7 badges",
+    "cost": "₽6,500",
+    "stage": 52.5,
+    "badges": 7
+   },
+   {
+    "loc": "lilycove-city",
+    "how": "buy",
+    "where": "Department Store 4F",
+    "cost": "₽6,500"
+   },
+   {
+    "loc": "mossdeep-city",
+    "how": "buy",
+    "where": "TM clerk · 7 badges",
+    "cost": "₽6,500",
+    "stage": 52.5,
+    "badges": 7
+   },
+   {
+    "loc": "sootopolis-city",
+    "how": "buy",
+    "where": "TM clerk · 7 badges",
+    "cost": "₽6,500",
+    "stage": 59,
+    "badges": 7
+   }
+  ]
+ },
+ "TM26": {
+  "move": "Earthquake",
+  "reusable": true,
+  "sources": [
+   {
+    "loc": "oldale-town",
+    "how": "buy",
+    "where": "TM clerk · 7 badges",
+    "cost": "₽5,000",
+    "stage": 52.5,
+    "badges": 7
+   },
+   {
+    "loc": "petalburg-city",
+    "how": "buy",
+    "where": "TM clerk · 7 badges",
+    "cost": "₽5,000",
+    "stage": 52.5,
+    "badges": 7
+   },
+   {
+    "loc": "rustboro-city",
+    "how": "buy",
+    "where": "TM clerk · 7 badges",
+    "cost": "₽5,000",
+    "stage": 52.5,
+    "badges": 7
+   },
+   {
+    "loc": "slateport-city",
+    "how": "buy",
+    "where": "TM clerk · 7 badges",
+    "cost": "₽5,000",
+    "stage": 52.5,
+    "badges": 7
+   },
+   {
+    "loc": "mauville-city",
+    "how": "buy",
+    "where": "TM clerk · 7 badges",
+    "cost": "₽5,000",
+    "stage": 52.5,
+    "badges": 7
+   },
+   {
+    "loc": "verdanturf-town",
+    "how": "buy",
+    "where": "TM clerk · 7 badges",
+    "cost": "₽5,000",
+    "stage": 52.5,
+    "badges": 7
+   },
+   {
+    "loc": "fallarbor-town",
+    "how": "buy",
+    "where": "TM clerk · 7 badges",
+    "cost": "₽5,000",
+    "stage": 52.5,
+    "badges": 7
+   },
+   {
+    "loc": "lavaridge-town",
+    "how": "buy",
+    "where": "TM clerk · 7 badges",
+    "cost": "₽5,000",
+    "stage": 52.5,
+    "badges": 7
+   },
+   {
+    "loc": "fortree-city",
+    "how": "buy",
+    "where": "TM clerk · 7 badges",
+    "cost": "₽5,000",
+    "stage": 52.5,
+    "badges": 7
+   },
+   {
+    "loc": "mossdeep-city",
+    "how": "buy",
+    "where": "TM clerk · 7 badges",
+    "cost": "₽5,000",
+    "stage": 52.5,
+    "badges": 7
+   },
+   {
+    "loc": "seafloor-cavern",
+    "how": "found",
+    "where": "Room 9"
+   },
+   {
+    "loc": "sootopolis-city",
+    "how": "buy",
+    "where": "TM clerk · 7 badges",
+    "cost": "₽5,000",
+    "stage": 59,
+    "badges": 7
+   }
+  ]
+ },
+ "TM27": {
+  "move": "Return",
+  "reusable": true,
+  "sources": [
+   {
+    "loc": "oldale-town",
+    "how": "buy",
+    "where": "TM clerk · 4 badges",
+    "cost": "₽1,500",
+    "stage": 30.5,
+    "badges": 4
+   },
+   {
+    "loc": "petalburg-city",
+    "how": "buy",
+    "where": "TM clerk · 4 badges",
+    "cost": "₽1,500",
+    "stage": 30.5,
+    "badges": 4
+   },
+   {
+    "loc": "rustboro-city",
+    "how": "buy",
+    "where": "TM clerk · 4 badges",
+    "cost": "₽1,500",
+    "stage": 30.5,
+    "badges": 4
+   },
+   {
+    "loc": "slateport-city",
+    "how": "buy",
+    "where": "TM clerk · 4 badges",
+    "cost": "₽1,500",
+    "stage": 30.5,
+    "badges": 4
+   },
+   {
+    "loc": "pacifidlog-town",
+    "how": "gift",
+    "where": "House 2",
+    "from": "Woman (if your lead Pokémon is friendly)"
+   },
+   {
+    "loc": "mauville-city",
+    "how": "buy",
+    "where": "TM clerk · 4 badges",
+    "cost": "₽1,500",
+    "stage": 30.5,
+    "badges": 4
+   },
+   {
+    "loc": "verdanturf-town",
+    "how": "buy",
+    "where": "TM clerk · 4 badges",
+    "cost": "₽1,500",
+    "stage": 30.5,
+    "badges": 4
+   },
+   {
+    "loc": "fallarbor-town",
+    "how": "gift",
+    "where": "Cozmo's House",
+    "from": "Professor Cozmo (return the Meteorite)",
+    "stage": 28,
+    "need": "After Mt. Chimney"
+   },
+   {
+    "loc": "fallarbor-town",
+    "how": "buy",
+    "where": "TM clerk · 4 badges",
+    "cost": "₽1,500",
+    "stage": 30.5,
+    "badges": 4
+   },
+   {
+    "loc": "lavaridge-town",
+    "how": "buy",
+    "where": "TM clerk · 4 badges",
+    "cost": "₽1,500",
+    "stage": 30.5,
+    "badges": 4
+   },
+   {
+    "loc": "fortree-city",
+    "how": "buy",
+    "where": "TM clerk · 4 badges",
+    "cost": "₽1,500",
+    "stage": 40,
+    "badges": 4
+   },
+   {
+    "loc": "mossdeep-city",
+    "how": "buy",
+    "where": "TM clerk · 4 badges",
+    "cost": "₽1,500",
+    "stage": 52,
+    "badges": 4
+   },
+   {
+    "loc": "sootopolis-city",
+    "how": "buy",
+    "where": "TM clerk · 7 badges",
+    "cost": "₽1,500",
+    "stage": 59,
+    "badges": 7
+   }
+  ]
+ },
+ "TM28": {
+  "move": "Dig",
+  "reusable": true,
+  "sources": [
+   {
+    "loc": "oldale-town",
+    "how": "buy",
+    "where": "TM clerk · 4 badges",
+    "cost": "₽2,000",
+    "stage": 30.5,
+    "badges": 4
+   },
+   {
+    "loc": "petalburg-city",
+    "how": "buy",
+    "where": "TM clerk · 4 badges",
+    "cost": "₽2,000",
+    "stage": 30.5,
+    "badges": 4
+   },
+   {
+    "loc": "rustboro-city",
+    "how": "buy",
+    "where": "TM clerk · 4 badges",
+    "cost": "₽2,000",
+    "stage": 30.5,
+    "badges": 4
+   },
+   {
+    "loc": "slateport-city",
+    "how": "buy",
+    "where": "TM clerk · 4 badges",
+    "cost": "₽2,000",
+    "stage": 30.5,
+    "badges": 4
+   },
+   {
+    "loc": "mauville-city",
+    "how": "buy",
+    "where": "TM clerk · 4 badges",
+    "cost": "₽2,000",
+    "stage": 30.5,
+    "badges": 4
+   },
+   {
+    "loc": "verdanturf-town",
+    "how": "buy",
+    "where": "TM clerk · 4 badges",
+    "cost": "₽2,000",
+    "stage": 30.5,
+    "badges": 4
+   },
+   {
+    "loc": "fallarbor-town",
+    "how": "buy",
+    "where": "TM clerk · 4 badges",
+    "cost": "₽2,000",
+    "stage": 30.5,
+    "badges": 4
+   },
+   {
+    "loc": "route-114",
+    "how": "gift",
+    "where": "Fossil Maniac's House",
+    "from": "Fossil Maniac's brother"
+   },
+   {
+    "loc": "lavaridge-town",
+    "how": "buy",
+    "where": "TM clerk · 4 badges",
+    "cost": "₽2,000",
+    "stage": 30.5,
+    "badges": 4
+   },
+   {
+    "loc": "fortree-city",
+    "how": "buy",
+    "where": "TM clerk · 4 badges",
+    "cost": "₽2,000",
+    "stage": 40,
+    "badges": 4
+   },
+   {
+    "loc": "mossdeep-city",
+    "how": "buy",
+    "where": "TM clerk · 4 badges",
+    "cost": "₽2,000",
+    "stage": 52,
+    "badges": 4
+   },
+   {
+    "loc": "sootopolis-city",
+    "how": "buy",
+    "where": "TM clerk · 7 badges",
+    "cost": "₽2,000",
+    "stage": 59,
+    "badges": 7
+   }
+  ]
+ },
+ "TM29": {
+  "move": "Psychic",
+  "reusable": true,
+  "sources": [
+   {
+    "loc": "oldale-town",
+    "how": "buy",
+    "where": "TM clerk · 7 badges",
+    "cost": "₽3,500",
+    "stage": 52.5,
+    "badges": 7
+   },
+   {
+    "loc": "petalburg-city",
+    "how": "buy",
+    "where": "TM clerk · 7 badges",
+    "cost": "₽3,500",
+    "stage": 52.5,
+    "badges": 7
+   },
+   {
+    "loc": "rustboro-city",
+    "how": "buy",
+    "where": "TM clerk · 7 badges",
+    "cost": "₽3,500",
+    "stage": 52.5,
+    "badges": 7
+   },
+   {
+    "loc": "slateport-city",
+    "how": "buy",
+    "where": "TM clerk · 7 badges",
+    "cost": "₽3,500",
+    "stage": 52.5,
+    "badges": 7
+   },
+   {
+    "loc": "mauville-city",
+    "how": "buy",
+    "where": "TM clerk · 7 badges",
+    "cost": "₽3,500",
+    "stage": 52.5,
+    "badges": 7
+   },
+   {
+    "loc": "mauville-city",
+    "how": "prize",
+    "where": "Game Corner prize counter",
+    "cost": "3,500 coins"
+   },
+   {
+    "loc": "verdanturf-town",
+    "how": "buy",
+    "where": "TM clerk · 7 badges",
+    "cost": "₽3,500",
+    "stage": 52.5,
+    "badges": 7
+   },
+   {
+    "loc": "fallarbor-town",
+    "how": "buy",
+    "where": "TM clerk · 7 badges",
+    "cost": "₽3,500",
+    "stage": 52.5,
+    "badges": 7
+   },
+   {
+    "loc": "lavaridge-town",
+    "how": "buy",
+    "where": "TM clerk · 7 badges",
+    "cost": "₽3,500",
+    "stage": 52.5,
+    "badges": 7
+   },
+   {
+    "loc": "fortree-city",
+    "how": "buy",
+    "where": "TM clerk · 7 badges",
+    "cost": "₽3,500",
+    "stage": 52.5,
+    "badges": 7
+   },
+   {
+    "loc": "mossdeep-city",
+    "how": "buy",
+    "where": "TM clerk · 7 badges",
+    "cost": "₽3,500",
+    "stage": 52.5,
+    "badges": 7
+   },
+   {
+    "loc": "sootopolis-city",
+    "how": "buy",
+    "where": "TM clerk · 7 badges",
+    "cost": "₽3,500",
+    "stage": 59,
+    "badges": 7
+   },
+   {
+    "loc": "victory-road",
+    "how": "found",
+    "where": "B1F"
+   }
+  ]
+ },
+ "TM30": {
+  "move": "Shadow Ball",
+  "reusable": true,
+  "sources": [
+   {
+    "loc": "oldale-town",
+    "how": "buy",
+    "where": "TM clerk · 6 badges",
+    "cost": "₽3,500",
+    "stage": 40.5,
+    "badges": 6
+   },
+   {
+    "loc": "petalburg-city",
+    "how": "buy",
+    "where": "TM clerk · 6 badges",
+    "cost": "₽3,500",
+    "stage": 40.5,
+    "badges": 6
+   },
+   {
+    "loc": "rustboro-city",
+    "how": "buy",
+    "where": "TM clerk · 6 badges",
+    "cost": "₽3,500",
+    "stage": 40.5,
+    "badges": 6
+   },
+   {
+    "loc": "slateport-city",
+    "how": "buy",
+    "where": "TM clerk · 6 badges",
+    "cost": "₽3,500",
+    "stage": 40.5,
+    "badges": 6
+   },
+   {
+    "loc": "mauville-city",
+    "how": "buy",
+    "where": "TM clerk · 6 badges",
+    "cost": "₽3,500",
+    "stage": 40.5,
+    "badges": 6
+   },
+   {
+    "loc": "verdanturf-town",
+    "how": "buy",
+    "where": "TM clerk · 6 badges",
+    "cost": "₽3,500",
+    "stage": 40.5,
+    "badges": 6
+   },
+   {
+    "loc": "fallarbor-town",
+    "how": "buy",
+    "where": "TM clerk · 6 badges",
+    "cost": "₽3,500",
+    "stage": 40.5,
+    "badges": 6
+   },
+   {
+    "loc": "lavaridge-town",
+    "how": "buy",
+    "where": "TM clerk · 6 badges",
+    "cost": "₽3,500",
+    "stage": 40.5,
+    "badges": 6
+   },
+   {
+    "loc": "fortree-city",
+    "how": "buy",
+    "where": "TM clerk · 6 badges",
+    "cost": "₽3,500",
+    "stage": 40.5,
+    "badges": 6
+   },
+   {
+    "loc": "mt-pyre",
+    "how": "found",
+    "where": "6F"
+   },
+   {
+    "loc": "mossdeep-city",
+    "how": "buy",
+    "where": "TM clerk · 6 badges",
+    "cost": "₽3,500",
+    "stage": 52,
+    "badges": 6
+   },
+   {
+    "loc": "sootopolis-city",
+    "how": "buy",
+    "where": "TM clerk · 7 badges",
+    "cost": "₽3,500",
+    "stage": 59,
+    "badges": 7
+   }
+  ]
+ },
+ "TM31": {
+  "move": "Brick Break",
+  "reusable": true,
+  "sources": [
+   {
+    "loc": "oldale-town",
+    "how": "buy",
+    "where": "TM clerk · 5 badges",
+    "cost": "₽3,000",
+    "stage": 30.5,
+    "badges": 5
+   },
+   {
+    "loc": "petalburg-city",
+    "how": "buy",
+    "where": "TM clerk · 5 badges",
+    "cost": "₽3,000",
+    "stage": 30.5,
+    "badges": 5
+   },
+   {
+    "loc": "rustboro-city",
+    "how": "buy",
+    "where": "TM clerk · 5 badges",
+    "cost": "₽3,000",
+    "stage": 30.5,
+    "badges": 5
+   },
+   {
+    "loc": "slateport-city",
+    "how": "buy",
+    "where": "TM clerk · 5 badges",
+    "cost": "₽3,000",
+    "stage": 30.5,
+    "badges": 5
+   },
+   {
+    "loc": "mauville-city",
+    "how": "buy",
+    "where": "TM clerk · 5 badges",
+    "cost": "₽3,000",
+    "stage": 30.5,
+    "badges": 5
+   },
+   {
+    "loc": "verdanturf-town",
+    "how": "buy",
+    "where": "TM clerk · 5 badges",
+    "cost": "₽3,000",
+    "stage": 30.5,
+    "badges": 5
+   },
+   {
+    "loc": "fallarbor-town",
+    "how": "buy",
+    "where": "TM clerk · 5 badges",
+    "cost": "₽3,000",
+    "stage": 30.5,
+    "badges": 5
+   },
+   {
+    "loc": "lavaridge-town",
+    "how": "buy",
+    "where": "TM clerk · 5 badges",
+    "cost": "₽3,000",
+    "stage": 30.5,
+    "badges": 5
+   },
+   {
+    "loc": "fortree-city",
+    "how": "buy",
+    "where": "TM clerk · 5 badges",
+    "cost": "₽3,000",
+    "stage": 40,
+    "badges": 5
+   },
+   {
+    "loc": "mossdeep-city",
+    "how": "buy",
+    "where": "TM clerk · 5 badges",
+    "cost": "₽3,000",
+    "stage": 52,
+    "badges": 5
+   },
+   {
+    "loc": "sootopolis-city",
+    "how": "gift",
+    "where": "House 1",
+    "from": "Black Belt"
+   },
+   {
+    "loc": "sootopolis-city",
+    "how": "buy",
+    "where": "TM clerk · 7 badges",
+    "cost": "₽3,000",
+    "stage": 59,
+    "badges": 7
+   }
+  ]
+ },
+ "TM32": {
+  "move": "Double Team",
+  "reusable": true,
+  "sources": [
+   {
+    "loc": "oldale-town",
+    "how": "buy",
+    "where": "TM clerk · 2 badges",
+    "cost": "₽2,000",
+    "stage": 11.5,
+    "badges": 2
+   },
+   {
+    "loc": "petalburg-city",
+    "how": "buy",
+    "where": "TM clerk · 2 badges",
+    "cost": "₽2,000",
+    "stage": 11.5,
+    "badges": 2
+   },
+   {
+    "loc": "rustboro-city",
+    "how": "buy",
+    "where": "TM clerk · 2 badges",
+    "cost": "₽2,000",
+    "stage": 11.5,
+    "badges": 2
+   },
+   {
+    "loc": "slateport-city",
+    "how": "buy",
+    "where": "TM clerk · 2 badges",
+    "cost": "₽2,000",
+    "stage": 14,
+    "badges": 2
+   },
+   {
+    "loc": "mauville-city",
+    "how": "buy",
+    "where": "TM clerk · 2 badges",
+    "cost": "₽2,000",
+    "stage": 17,
+    "badges": 2
+   },
+   {
+    "loc": "mauville-city",
+    "how": "prize",
+    "where": "Game Corner prize counter",
+    "cost": "1,500 coins"
+   },
+   {
+    "loc": "verdanturf-town",
+    "how": "buy",
+    "where": "TM clerk · 2 badges",
+    "cost": "₽2,000",
+    "stage": 19,
+    "badges": 2
+   },
+   {
+    "loc": "route-113",
+    "how": "found",
+    "where": "Outside"
+   },
+   {
+    "loc": "fallarbor-town",
+    "how": "buy",
+    "where": "TM clerk · 2 badges",
+    "cost": "₽2,000",
+    "stage": 24,
+    "badges": 2
+   },
+   {
+    "loc": "lavaridge-town",
+    "how": "buy",
+    "where": "TM clerk · 2 badges",
+    "cost": "₽2,000",
+    "stage": 30,
+    "badges": 2
+   },
+   {
+    "loc": "fortree-city",
+    "how": "buy",
+    "where": "TM clerk · 2 badges",
+    "cost": "₽2,000",
+    "stage": 40,
+    "badges": 2
+   },
+   {
+    "loc": "mossdeep-city",
+    "how": "buy",
+    "where": "TM clerk · 2 badges",
+    "cost": "₽2,000",
+    "stage": 52,
+    "badges": 2
+   },
+   {
+    "loc": "sootopolis-city",
+    "how": "buy",
+    "where": "TM clerk · 7 badges",
+    "cost": "₽2,000",
+    "stage": 59,
+    "badges": 7
+   }
+  ]
+ },
+ "TM33": {
+  "move": "Reflect",
+  "reusable": true,
+  "sources": [
+   {
+    "loc": "oldale-town",
+    "how": "buy",
+    "where": "TM clerk · 3 badges",
+    "cost": "₽3,000",
+    "stage": 17.5,
+    "badges": 3
+   },
+   {
+    "loc": "petalburg-city",
+    "how": "buy",
+    "where": "TM clerk · 3 badges",
+    "cost": "₽3,000",
+    "stage": 17.5,
+    "badges": 3
+   },
+   {
+    "loc": "rustboro-city",
+    "how": "buy",
+    "where": "TM clerk · 3 badges",
+    "cost": "₽3,000",
+    "stage": 17.5,
+    "badges": 3
+   },
+   {
+    "loc": "slateport-city",
+    "how": "buy",
+    "where": "TM clerk · 3 badges",
+    "cost": "₽3,000",
+    "stage": 17.5,
+    "badges": 3
+   },
+   {
+    "loc": "mauville-city",
+    "how": "buy",
+    "where": "TM clerk · 3 badges",
+    "cost": "₽3,000",
+    "stage": 17.5,
+    "badges": 3
+   },
+   {
+    "loc": "verdanturf-town",
+    "how": "buy",
+    "where": "TM clerk · 3 badges",
+    "cost": "₽3,000",
+    "stage": 19,
+    "badges": 3
+   },
+   {
+    "loc": "fallarbor-town",
+    "how": "buy",
+    "where": "TM clerk · 3 badges",
+    "cost": "₽3,000",
+    "stage": 24,
+    "badges": 3
+   },
+   {
+    "loc": "lavaridge-town",
+    "how": "buy",
+    "where": "TM clerk · 3 badges",
+    "cost": "₽3,000",
+    "stage": 30,
+    "badges": 3
+   },
+   {
+    "loc": "fortree-city",
+    "how": "buy",
+    "where": "TM clerk · 3 badges",
+    "cost": "₽3,000",
+    "stage": 40,
+    "badges": 3
+   },
+   {
+    "loc": "lilycove-city",
+    "how": "buy",
+    "where": "Department Store 4F",
+    "cost": "₽3,000"
+   },
+   {
+    "loc": "mossdeep-city",
+    "how": "buy",
+    "where": "TM clerk · 3 badges",
+    "cost": "₽3,000",
+    "stage": 52,
+    "badges": 3
+   },
+   {
+    "loc": "sootopolis-city",
+    "how": "buy",
+    "where": "TM clerk · 7 badges",
+    "cost": "₽3,000",
+    "stage": 59,
+    "badges": 7
+   }
+  ]
+ },
+ "TM34": {
+  "move": "Shock Wave",
+  "reusable": true,
+  "sources": [
+   {
+    "loc": "oldale-town",
+    "how": "buy",
+    "where": "TM clerk · 3 badges",
+    "cost": "₽3,000",
+    "stage": 17.5,
+    "badges": 3
+   },
+   {
+    "loc": "petalburg-city",
+    "how": "buy",
+    "where": "TM clerk · 3 badges",
+    "cost": "₽3,000",
+    "stage": 17.5,
+    "badges": 3
+   },
+   {
+    "loc": "rustboro-city",
+    "how": "buy",
+    "where": "TM clerk · 3 badges",
+    "cost": "₽3,000",
+    "stage": 17.5,
+    "badges": 3
+   },
+   {
+    "loc": "slateport-city",
+    "how": "buy",
+    "where": "TM clerk · 3 badges",
+    "cost": "₽3,000",
+    "stage": 17.5,
+    "badges": 3
+   },
+   {
+    "loc": "mauville-city",
+    "how": "gift",
+    "where": "Gym",
+    "from": "Wattson (after winning)"
+   },
+   {
+    "loc": "mauville-city",
+    "how": "buy",
+    "where": "TM clerk · 3 badges",
+    "cost": "₽3,000",
+    "stage": 17.5,
+    "badges": 3
+   },
+   {
+    "loc": "verdanturf-town",
+    "how": "buy",
+    "where": "TM clerk · 3 badges",
+    "cost": "₽3,000",
+    "stage": 19,
+    "badges": 3
+   },
+   {
+    "loc": "fallarbor-town",
+    "how": "buy",
+    "where": "TM clerk · 3 badges",
+    "cost": "₽3,000",
+    "stage": 24,
+    "badges": 3
+   },
+   {
+    "loc": "lavaridge-town",
+    "how": "buy",
+    "where": "TM clerk · 3 badges",
+    "cost": "₽3,000",
+    "stage": 30,
+    "badges": 3
+   },
+   {
+    "loc": "fortree-city",
+    "how": "buy",
+    "where": "TM clerk · 3 badges",
+    "cost": "₽3,000",
+    "stage": 40,
+    "badges": 3
+   },
+   {
+    "loc": "mossdeep-city",
+    "how": "buy",
+    "where": "TM clerk · 3 badges",
+    "cost": "₽3,000",
+    "stage": 52,
+    "badges": 3
+   },
+   {
+    "loc": "sootopolis-city",
+    "how": "buy",
+    "where": "TM clerk · 7 badges",
+    "cost": "₽3,000",
+    "stage": 59,
+    "badges": 7
+   }
+  ]
+ },
+ "TM35": {
+  "move": "Flamethrower",
+  "reusable": true,
+  "sources": [
+   {
+    "loc": "oldale-town",
+    "how": "buy",
+    "where": "TM clerk · 6 badges",
+    "cost": "₽4,500",
+    "stage": 40.5,
+    "badges": 6
+   },
+   {
+    "loc": "petalburg-city",
+    "how": "buy",
+    "where": "TM clerk · 6 badges",
+    "cost": "₽4,500",
+    "stage": 40.5,
+    "badges": 6
+   },
+   {
+    "loc": "rustboro-city",
+    "how": "buy",
+    "where": "TM clerk · 6 badges",
+    "cost": "₽4,500",
+    "stage": 40.5,
+    "badges": 6
+   },
+   {
+    "loc": "slateport-city",
+    "how": "buy",
+    "where": "TM clerk · 6 badges",
+    "cost": "₽4,500",
+    "stage": 40.5,
+    "badges": 6
+   },
+   {
+    "loc": "mauville-city",
+    "how": "buy",
+    "where": "TM clerk · 6 badges",
+    "cost": "₽4,500",
+    "stage": 40.5,
+    "badges": 6
+   },
+   {
+    "loc": "mauville-city",
+    "how": "prize",
+    "where": "Game Corner prize counter",
+    "cost": "4,000 coins"
+   },
+   {
+    "loc": "verdanturf-town",
+    "how": "buy",
+    "where": "TM clerk · 6 badges",
+    "cost": "₽4,500",
+    "stage": 40.5,
+    "badges": 6
+   },
+   {
+    "loc": "fallarbor-town",
+    "how": "buy",
+    "where": "TM clerk · 6 badges",
+    "cost": "₽4,500",
+    "stage": 40.5,
+    "badges": 6
+   },
+   {
+    "loc": "lavaridge-town",
+    "how": "buy",
+    "where": "TM clerk · 6 badges",
+    "cost": "₽4,500",
+    "stage": 40.5,
+    "badges": 6
+   },
+   {
+    "loc": "fortree-city",
+    "how": "buy",
+    "where": "TM clerk · 6 badges",
+    "cost": "₽4,500",
+    "stage": 40.5,
+    "badges": 6
+   },
+   {
+    "loc": "mossdeep-city",
+    "how": "buy",
+    "where": "TM clerk · 6 badges",
+    "cost": "₽4,500",
+    "stage": 52,
+    "badges": 6
+   },
+   {
+    "loc": "sootopolis-city",
+    "how": "buy",
+    "where": "TM clerk · 7 badges",
+    "cost": "₽4,500",
+    "stage": 59,
+    "badges": 7
+   }
+  ]
+ },
+ "TM36": {
+  "move": "Sludge Bomb",
+  "reusable": true,
+  "sources": [
+   {
+    "loc": "oldale-town",
+    "how": "buy",
+    "where": "TM clerk · 4 badges",
+    "cost": "₽3,500",
+    "stage": 30.5,
+    "badges": 4
+   },
+   {
+    "loc": "petalburg-city",
+    "how": "buy",
+    "where": "TM clerk · 4 badges",
+    "cost": "₽3,500",
+    "stage": 30.5,
+    "badges": 4
+   },
+   {
+    "loc": "rustboro-city",
+    "how": "buy",
+    "where": "TM clerk · 4 badges",
+    "cost": "₽3,500",
+    "stage": 30.5,
+    "badges": 4
+   },
+   {
+    "loc": "dewford-town",
+    "how": "gift",
+    "where": "Hall",
+    "from": "Man",
+    "stage": 30,
+    "need": "After Lavaridge Town"
+   },
+   {
+    "loc": "slateport-city",
+    "how": "buy",
+    "where": "TM clerk · 4 badges",
+    "cost": "₽3,500",
+    "stage": 30.5,
+    "badges": 4
+   },
+   {
+    "loc": "mauville-city",
+    "how": "buy",
+    "where": "TM clerk · 4 badges",
+    "cost": "₽3,500",
+    "stage": 30.5,
+    "badges": 4
+   },
+   {
+    "loc": "verdanturf-town",
+    "how": "buy",
+    "where": "TM clerk · 4 badges",
+    "cost": "₽3,500",
+    "stage": 30.5,
+    "badges": 4
+   },
+   {
+    "loc": "fallarbor-town",
+    "how": "buy",
+    "where": "TM clerk · 4 badges",
+    "cost": "₽3,500",
+    "stage": 30.5,
+    "badges": 4
+   },
+   {
+    "loc": "lavaridge-town",
+    "how": "buy",
+    "where": "TM clerk · 4 badges",
+    "cost": "₽3,500",
+    "stage": 30.5,
+    "badges": 4
+   },
+   {
+    "loc": "fortree-city",
+    "how": "buy",
+    "where": "TM clerk · 4 badges",
+    "cost": "₽3,500",
+    "stage": 40,
+    "badges": 4
+   },
+   {
+    "loc": "mossdeep-city",
+    "how": "buy",
+    "where": "TM clerk · 4 badges",
+    "cost": "₽3,500",
+    "stage": 52,
+    "badges": 4
+   },
+   {
+    "loc": "sootopolis-city",
+    "how": "buy",
+    "where": "TM clerk · 7 badges",
+    "cost": "₽3,500",
+    "stage": 59,
+    "badges": 7
+   }
+  ]
+ },
+ "TM37": {
+  "move": "Sandstorm",
+  "reusable": true,
+  "sources": [
+   {
+    "loc": "oldale-town",
+    "how": "buy",
+    "where": "TM clerk · 1 badge",
+    "cost": "₽2,000",
+    "stage": 8.5,
+    "badges": 1
+   },
+   {
+    "loc": "petalburg-city",
+    "how": "buy",
+    "where": "TM clerk · 1 badge",
+    "cost": "₽2,000",
+    "stage": 8.5,
+    "badges": 1
+   },
+   {
+    "loc": "rustboro-city",
+    "how": "buy",
+    "where": "TM clerk · 1 badge",
+    "cost": "₽2,000",
+    "stage": 8.5,
+    "badges": 1
+   },
+   {
+    "loc": "slateport-city",
+    "how": "buy",
+    "where": "TM clerk · 1 badge",
+    "cost": "₽2,000",
+    "stage": 14,
+    "badges": 1
+   },
+   {
+    "loc": "mauville-city",
+    "how": "buy",
+    "where": "TM clerk · 1 badge",
+    "cost": "₽2,000",
+    "stage": 17,
+    "badges": 1
+   },
+   {
+    "loc": "verdanturf-town",
+    "how": "buy",
+    "where": "TM clerk · 1 badge",
+    "cost": "₽2,000",
+    "stage": 19,
+    "badges": 1
+   },
+   {
+    "loc": "route-111",
+    "how": "found",
+    "where": "Outside",
+    "stage": 30.5,
+    "need": "the Go-Goggles from your rival in Lavaridge Town"
+   },
+   {
+    "loc": "fallarbor-town",
+    "how": "buy",
+    "where": "TM clerk · 1 badge",
+    "cost": "₽2,000",
+    "stage": 24,
+    "badges": 1
+   },
+   {
+    "loc": "lavaridge-town",
+    "how": "buy",
+    "where": "TM clerk · 1 badge",
+    "cost": "₽2,000",
+    "stage": 30,
+    "badges": 1
+   },
+   {
+    "loc": "fortree-city",
+    "how": "buy",
+    "where": "TM clerk · 1 badge",
+    "cost": "₽2,000",
+    "stage": 40,
+    "badges": 1
+   },
+   {
+    "loc": "mossdeep-city",
+    "how": "buy",
+    "where": "TM clerk · 1 badge",
+    "cost": "₽2,000",
+    "stage": 52,
+    "badges": 1
+   },
+   {
+    "loc": "sootopolis-city",
+    "how": "buy",
+    "where": "TM clerk · 7 badges",
+    "cost": "₽2,000",
+    "stage": 59,
+    "badges": 7
+   }
+  ]
+ },
+ "TM38": {
+  "move": "Fire Blast",
+  "reusable": true,
+  "sources": [
+   {
+    "loc": "oldale-town",
+    "how": "buy",
+    "where": "TM clerk · 7 badges",
+    "cost": "₽6,000",
+    "stage": 52.5,
+    "badges": 7
+   },
+   {
+    "loc": "petalburg-city",
+    "how": "buy",
+    "where": "TM clerk · 7 badges",
+    "cost": "₽6,000",
+    "stage": 52.5,
+    "badges": 7
+   },
+   {
+    "loc": "rustboro-city",
+    "how": "buy",
+    "where": "TM clerk · 7 badges",
+    "cost": "₽6,000",
+    "stage": 52.5,
+    "badges": 7
+   },
+   {
+    "loc": "slateport-city",
+    "how": "buy",
+    "where": "TM clerk · 7 badges",
+    "cost": "₽6,000",
+    "stage": 52.5,
+    "badges": 7
+   },
+   {
+    "loc": "mauville-city",
+    "how": "buy",
+    "where": "TM clerk · 7 badges",
+    "cost": "₽6,000",
+    "stage": 52.5,
+    "badges": 7
+   },
+   {
+    "loc": "verdanturf-town",
+    "how": "buy",
+    "where": "TM clerk · 7 badges",
+    "cost": "₽6,000",
+    "stage": 52.5,
+    "badges": 7
+   },
+   {
+    "loc": "fallarbor-town",
+    "how": "buy",
+    "where": "TM clerk · 7 badges",
+    "cost": "₽6,000",
+    "stage": 52.5,
+    "badges": 7
+   },
+   {
+    "loc": "lavaridge-town",
+    "how": "buy",
+    "where": "TM clerk · 7 badges",
+    "cost": "₽6,000",
+    "stage": 52.5,
+    "badges": 7
+   },
+   {
+    "loc": "fortree-city",
+    "how": "buy",
+    "where": "TM clerk · 7 badges",
+    "cost": "₽6,000",
+    "stage": 52.5,
+    "badges": 7
+   },
+   {
+    "loc": "lilycove-city",
+    "how": "buy",
+    "where": "Department Store 4F",
+    "cost": "₽6,000"
+   },
+   {
+    "loc": "mossdeep-city",
+    "how": "buy",
+    "where": "TM clerk · 7 badges",
+    "cost": "₽6,000",
+    "stage": 52.5,
+    "badges": 7
+   },
+   {
+    "loc": "sootopolis-city",
+    "how": "buy",
+    "where": "TM clerk · 7 badges",
+    "cost": "₽6,000",
+    "stage": 59,
+    "badges": 7
+   }
+  ]
+ },
+ "TM39": {
+  "move": "Rock Tomb",
+  "reusable": true,
+  "sources": [
+   {
+    "loc": "oldale-town",
+    "how": "buy",
+    "where": "TM clerk · 2 badges",
+    "cost": "₽3,000",
+    "stage": 11.5,
+    "badges": 2
+   },
+   {
+    "loc": "petalburg-city",
+    "how": "buy",
+    "where": "TM clerk · 2 badges",
+    "cost": "₽3,000",
+    "stage": 11.5,
+    "badges": 2
+   },
+   {
+    "loc": "rustboro-city",
+    "how": "gift",
+    "where": "Gym",
+    "from": "Roxanne (after winning)"
+   },
+   {
+    "loc": "rustboro-city",
+    "how": "buy",
+    "where": "TM clerk · 2 badges",
+    "cost": "₽3,000",
+    "stage": 11.5,
+    "badges": 2
+   },
+   {
+    "loc": "slateport-city",
+    "how": "buy",
+    "where": "TM clerk · 2 badges",
+    "cost": "₽3,000",
+    "stage": 14,
+    "badges": 2
+   },
+   {
+    "loc": "mauville-city",
+    "how": "buy",
+    "where": "TM clerk · 2 badges",
+    "cost": "₽3,000",
+    "stage": 17,
+    "badges": 2
+   },
+   {
+    "loc": "verdanturf-town",
+    "how": "buy",
+    "where": "TM clerk · 2 badges",
+    "cost": "₽3,000",
+    "stage": 19,
+    "badges": 2
+   },
+   {
+    "loc": "fallarbor-town",
+    "how": "buy",
+    "where": "TM clerk · 2 badges",
+    "cost": "₽3,000",
+    "stage": 24,
+    "badges": 2
+   },
+   {
+    "loc": "lavaridge-town",
+    "how": "buy",
+    "where": "TM clerk · 2 badges",
+    "cost": "₽3,000",
+    "stage": 30,
+    "badges": 2
+   },
+   {
+    "loc": "fortree-city",
+    "how": "buy",
+    "where": "TM clerk · 2 badges",
+    "cost": "₽3,000",
+    "stage": 40,
+    "badges": 2
+   },
+   {
+    "loc": "mossdeep-city",
+    "how": "buy",
+    "where": "TM clerk · 2 badges",
+    "cost": "₽3,000",
+    "stage": 52,
+    "badges": 2
+   },
+   {
+    "loc": "sootopolis-city",
+    "how": "buy",
+    "where": "TM clerk · 7 badges",
+    "cost": "₽3,000",
+    "stage": 59,
+    "badges": 7
+   }
+  ]
+ },
+ "TM40": {
+  "move": "Aerial Ace",
+  "reusable": true,
+  "sources": [
+   {
+    "loc": "oldale-town",
+    "how": "buy",
+    "where": "TM clerk · 4 badges",
+    "cost": "₽2,500",
+    "stage": 30.5,
+    "badges": 4
+   },
+   {
+    "loc": "petalburg-city",
+    "how": "buy",
+    "where": "TM clerk · 4 badges",
+    "cost": "₽2,500",
+    "stage": 30.5,
+    "badges": 4
+   },
+   {
+    "loc": "rustboro-city",
+    "how": "buy",
+    "where": "TM clerk · 4 badges",
+    "cost": "₽2,500",
+    "stage": 30.5,
+    "badges": 4
+   },
+   {
+    "loc": "slateport-city",
+    "how": "buy",
+    "where": "TM clerk · 4 badges",
+    "cost": "₽2,500",
+    "stage": 30.5,
+    "badges": 4
+   },
+   {
+    "loc": "mauville-city",
+    "how": "buy",
+    "where": "TM clerk · 4 badges",
+    "cost": "₽2,500",
+    "stage": 30.5,
+    "badges": 4
+   },
+   {
+    "loc": "verdanturf-town",
+    "how": "buy",
+    "where": "TM clerk · 4 badges",
+    "cost": "₽2,500",
+    "stage": 30.5,
+    "badges": 4
+   },
+   {
+    "loc": "fallarbor-town",
+    "how": "buy",
+    "where": "TM clerk · 4 badges",
+    "cost": "₽2,500",
+    "stage": 30.5,
+    "badges": 4
+   },
+   {
+    "loc": "lavaridge-town",
+    "how": "buy",
+    "where": "TM clerk · 4 badges",
+    "cost": "₽2,500",
+    "stage": 30.5,
+    "badges": 4
+   },
+   {
+    "loc": "fortree-city",
+    "how": "gift",
+    "where": "Gym",
+    "from": "Winona (after winning)",
+    "stage": 41,
+    "need": "the Devon Scope (from Steven on the Route 120 bridge) to reveal the hidden Kecleon"
+   },
+   {
+    "loc": "fortree-city",
+    "how": "buy",
+    "where": "TM clerk · 4 badges",
+    "cost": "₽2,500",
+    "stage": 40,
+    "badges": 4
+   },
+   {
+    "loc": "mossdeep-city",
+    "how": "buy",
+    "where": "TM clerk · 4 badges",
+    "cost": "₽2,500",
+    "stage": 52,
+    "badges": 4
+   },
+   {
+    "loc": "sootopolis-city",
+    "how": "buy",
+    "where": "TM clerk · 7 badges",
+    "cost": "₽2,500",
+    "stage": 59,
+    "badges": 7
+   }
+  ]
+ },
+ "TM41": {
+  "move": "Torment",
+  "reusable": true,
+  "sources": [
+   {
+    "loc": "oldale-town",
+    "how": "buy",
+    "where": "TM clerk · 3 badges",
+    "cost": "₽2,000",
+    "stage": 17.5,
+    "badges": 3
+   },
+   {
+    "loc": "petalburg-city",
+    "how": "buy",
+    "where": "TM clerk · 3 badges",
+    "cost": "₽2,000",
+    "stage": 17.5,
+    "badges": 3
+   },
+   {
+    "loc": "rustboro-city",
+    "how": "buy",
+    "where": "TM clerk · 3 badges",
+    "cost": "₽2,000",
+    "stage": 17.5,
+    "badges": 3
+   },
+   {
+    "loc": "slateport-city",
+    "how": "gift",
+    "where": "Battle Tent Lobby",
+    "from": "Battle Tent lobby"
+   },
+   {
+    "loc": "slateport-city",
+    "how": "buy",
+    "where": "TM clerk · 3 badges",
+    "cost": "₽2,000",
+    "stage": 17.5,
+    "badges": 3
+   },
+   {
+    "loc": "mauville-city",
+    "how": "buy",
+    "where": "TM clerk · 3 badges",
+    "cost": "₽2,000",
+    "stage": 17.5,
+    "badges": 3
+   },
+   {
+    "loc": "verdanturf-town",
+    "how": "buy",
+    "where": "TM clerk · 3 badges",
+    "cost": "₽2,000",
+    "stage": 19,
+    "badges": 3
+   },
+   {
+    "loc": "fallarbor-town",
+    "how": "buy",
+    "where": "TM clerk · 3 badges",
+    "cost": "₽2,000",
+    "stage": 24,
+    "badges": 3
+   },
+   {
+    "loc": "lavaridge-town",
+    "how": "buy",
+    "where": "TM clerk · 3 badges",
+    "cost": "₽2,000",
+    "stage": 30,
+    "badges": 3
+   },
+   {
+    "loc": "fortree-city",
+    "how": "buy",
+    "where": "TM clerk · 3 badges",
+    "cost": "₽2,000",
+    "stage": 40,
+    "badges": 3
+   },
+   {
+    "loc": "mossdeep-city",
+    "how": "buy",
+    "where": "TM clerk · 3 badges",
+    "cost": "₽2,000",
+    "stage": 52,
+    "badges": 3
+   },
+   {
+    "loc": "sootopolis-city",
+    "how": "buy",
+    "where": "TM clerk · 7 badges",
+    "cost": "₽2,000",
+    "stage": 59,
+    "badges": 7
+   }
+  ]
+ },
+ "TM42": {
+  "move": "Facade",
+  "reusable": true,
+  "sources": [
+   {
+    "loc": "oldale-town",
+    "how": "buy",
+    "where": "TM clerk · 5 badges",
+    "cost": "₽3,500",
+    "stage": 30.5,
+    "badges": 5
+   },
+   {
+    "loc": "petalburg-city",
+    "how": "gift",
+    "where": "Gym",
+    "from": "Norman (after winning)",
+    "stage": 30,
+    "need": "four badges: your father won't battle you before then"
+   },
+   {
+    "loc": "petalburg-city",
+    "how": "buy",
+    "where": "TM clerk · 5 badges",
+    "cost": "₽3,500",
+    "stage": 30.5,
+    "badges": 5
+   },
+   {
+    "loc": "rustboro-city",
+    "how": "buy",
+    "where": "TM clerk · 5 badges",
+    "cost": "₽3,500",
+    "stage": 30.5,
+    "badges": 5
+   },
+   {
+    "loc": "slateport-city",
+    "how": "buy",
+    "where": "TM clerk · 5 badges",
+    "cost": "₽3,500",
+    "stage": 30.5,
+    "badges": 5
+   },
+   {
+    "loc": "mauville-city",
+    "how": "buy",
+    "where": "TM clerk · 5 badges",
+    "cost": "₽3,500",
+    "stage": 30.5,
+    "badges": 5
+   },
+   {
+    "loc": "verdanturf-town",
+    "how": "buy",
+    "where": "TM clerk · 5 badges",
+    "cost": "₽3,500",
+    "stage": 30.5,
+    "badges": 5
+   },
+   {
+    "loc": "fallarbor-town",
+    "how": "buy",
+    "where": "TM clerk · 5 badges",
+    "cost": "₽3,500",
+    "stage": 30.5,
+    "badges": 5
+   },
+   {
+    "loc": "lavaridge-town",
+    "how": "buy",
+    "where": "TM clerk · 5 badges",
+    "cost": "₽3,500",
+    "stage": 30.5,
+    "badges": 5
+   },
+   {
+    "loc": "fortree-city",
+    "how": "buy",
+    "where": "TM clerk · 5 badges",
+    "cost": "₽3,500",
+    "stage": 40,
+    "badges": 5
+   },
+   {
+    "loc": "mossdeep-city",
+    "how": "buy",
+    "where": "TM clerk · 5 badges",
+    "cost": "₽3,500",
+    "stage": 52,
+    "badges": 5
+   },
+   {
+    "loc": "sootopolis-city",
+    "how": "buy",
+    "where": "TM clerk · 7 badges",
+    "cost": "₽3,500",
+    "stage": 59,
+    "badges": 7
+   }
+  ]
+ },
+ "TM43": {
+  "move": "Secret Power",
+  "reusable": true,
+  "sources": [
+   {
+    "loc": "oldale-town",
+    "how": "buy",
+    "where": "TM clerk · 4 badges",
+    "cost": "₽2,000",
+    "stage": 30.5,
+    "badges": 4
+   },
+   {
+    "loc": "petalburg-city",
+    "how": "buy",
+    "where": "TM clerk · 4 badges",
+    "cost": "₽2,000",
+    "stage": 30.5,
+    "badges": 4
+   },
+   {
+    "loc": "rustboro-city",
+    "how": "buy",
+    "where": "TM clerk · 4 badges",
+    "cost": "₽2,000",
+    "stage": 30.5,
+    "badges": 4
+   },
+   {
+    "loc": "slateport-city",
+    "how": "buy",
+    "where": "Outside",
+    "cost": "₽2,000",
+    "stage": 22
+   },
+   {
+    "loc": "mauville-city",
+    "how": "buy",
+    "where": "TM clerk · 4 badges",
+    "cost": "₽2,000",
+    "stage": 30.5,
+    "badges": 4
+   },
+   {
+    "loc": "verdanturf-town",
+    "how": "buy",
+    "where": "TM clerk · 4 badges",
+    "cost": "₽2,000",
+    "stage": 30.5,
+    "badges": 4
+   },
+   {
+    "loc": "route-111",
+    "how": "gift",
+    "where": "Outside",
+    "from": "Boy"
+   },
+   {
+    "loc": "fallarbor-town",
+    "how": "buy",
+    "where": "TM clerk · 4 badges",
+    "cost": "₽2,000",
+    "stage": 30.5,
+    "badges": 4
+   },
+   {
+    "loc": "lavaridge-town",
+    "how": "buy",
+    "where": "TM clerk · 4 badges",
+    "cost": "₽2,000",
+    "stage": 30.5,
+    "badges": 4
+   },
+   {
+    "loc": "fortree-city",
+    "how": "buy",
+    "where": "TM clerk · 4 badges",
+    "cost": "₽2,000",
+    "stage": 40,
+    "badges": 4
+   },
+   {
+    "loc": "mossdeep-city",
+    "how": "buy",
+    "where": "TM clerk · 4 badges",
+    "cost": "₽2,000",
+    "stage": 52,
+    "badges": 4
+   },
+   {
+    "loc": "sootopolis-city",
+    "how": "buy",
+    "where": "TM clerk · 7 badges",
+    "cost": "₽2,000",
+    "stage": 59,
+    "badges": 7
+   }
+  ]
+ },
+ "TM44": {
+  "move": "Rest",
+  "reusable": true,
+  "sources": [
+   {
+    "loc": "oldale-town",
+    "how": "buy",
+    "where": "TM clerk · 5 badges",
+    "cost": "₽2,500",
+    "stage": 30.5,
+    "badges": 5
+   },
+   {
+    "loc": "petalburg-city",
+    "how": "buy",
+    "where": "TM clerk · 5 badges",
+    "cost": "₽2,500",
+    "stage": 30.5,
+    "badges": 5
+   },
+   {
+    "loc": "rustboro-city",
+    "how": "buy",
+    "where": "TM clerk · 5 badges",
+    "cost": "₽2,500",
+    "stage": 30.5,
+    "badges": 5
+   },
+   {
+    "loc": "slateport-city",
+    "how": "buy",
+    "where": "TM clerk · 5 badges",
+    "cost": "₽2,500",
+    "stage": 30.5,
+    "badges": 5
+   },
+   {
+    "loc": "mauville-city",
+    "how": "buy",
+    "where": "TM clerk · 5 badges",
+    "cost": "₽2,500",
+    "stage": 30.5,
+    "badges": 5
+   },
+   {
+    "loc": "verdanturf-town",
+    "how": "buy",
+    "where": "TM clerk · 5 badges",
+    "cost": "₽2,500",
+    "stage": 30.5,
+    "badges": 5
+   },
+   {
+    "loc": "fallarbor-town",
+    "how": "buy",
+    "where": "TM clerk · 5 badges",
+    "cost": "₽2,500",
+    "stage": 30.5,
+    "badges": 5
+   },
+   {
+    "loc": "lavaridge-town",
+    "how": "buy",
+    "where": "TM clerk · 5 badges",
+    "cost": "₽2,500",
+    "stage": 30.5,
+    "badges": 5
+   },
+   {
+    "loc": "fortree-city",
+    "how": "buy",
+    "where": "TM clerk · 5 badges",
+    "cost": "₽2,500",
+    "stage": 40,
+    "badges": 5
+   },
+   {
+    "loc": "lilycove-city",
+    "how": "gift",
+    "where": "House 2",
+    "from": "Fat Man"
+   },
+   {
+    "loc": "mossdeep-city",
+    "how": "buy",
+    "where": "TM clerk · 5 badges",
+    "cost": "₽2,500",
+    "stage": 52,
+    "badges": 5
+   },
+   {
+    "loc": "sootopolis-city",
+    "how": "buy",
+    "where": "TM clerk · 7 badges",
+    "cost": "₽2,500",
+    "stage": 59,
+    "badges": 7
+   }
+  ]
+ },
+ "TM45": {
+  "move": "Attract",
+  "reusable": true,
+  "sources": [
+   {
+    "loc": "oldale-town",
+    "how": "buy",
+    "where": "TM clerk · 3 badges",
+    "cost": "₽1,500",
+    "stage": 17.5,
+    "badges": 3
+   },
+   {
+    "loc": "petalburg-city",
+    "how": "buy",
+    "where": "TM clerk · 3 badges",
+    "cost": "₽1,500",
+    "stage": 17.5,
+    "badges": 3
+   },
+   {
+    "loc": "rustboro-city",
+    "how": "buy",
+    "where": "TM clerk · 3 badges",
+    "cost": "₽1,500",
+    "stage": 17.5,
+    "badges": 3
+   },
+   {
+    "loc": "slateport-city",
+    "how": "buy",
+    "where": "TM clerk · 3 badges",
+    "cost": "₽1,500",
+    "stage": 17.5,
+    "badges": 3
+   },
+   {
+    "loc": "mauville-city",
+    "how": "buy",
+    "where": "TM clerk · 3 badges",
+    "cost": "₽1,500",
+    "stage": 17.5,
+    "badges": 3
+   },
+   {
+    "loc": "verdanturf-town",
+    "how": "buy",
+    "where": "TM clerk · 3 badges",
+    "cost": "₽1,500",
+    "stage": 19,
+    "badges": 3
+   },
+   {
+    "loc": "fallarbor-town",
+    "how": "buy",
+    "where": "TM clerk · 3 badges",
+    "cost": "₽1,500",
+    "stage": 24,
+    "badges": 3
+   },
+   {
+    "loc": "lavaridge-town",
+    "how": "buy",
+    "where": "TM clerk · 3 badges",
+    "cost": "₽1,500",
+    "stage": 30,
+    "badges": 3
+   },
+   {
+    "loc": "fortree-city",
+    "how": "buy",
+    "where": "TM clerk · 3 badges",
+    "cost": "₽1,500",
+    "stage": 40,
+    "badges": 3
+   },
+   {
+    "loc": "lilycove-city",
+    "how": "gift",
+    "where": "Battle Tent Lobby",
+    "from": "Woman"
+   },
+   {
+    "loc": "mossdeep-city",
+    "how": "buy",
+    "where": "TM clerk · 3 badges",
+    "cost": "₽1,500",
+    "stage": 52,
+    "badges": 3
+   },
+   {
+    "loc": "sootopolis-city",
+    "how": "buy",
+    "where": "TM clerk · 7 badges",
+    "cost": "₽1,500",
+    "stage": 59,
+    "badges": 7
+   }
+  ]
+ },
+ "TM46": {
+  "move": "Thief",
+  "reusable": true,
+  "sources": [
+   {
+    "loc": "oldale-town",
+    "how": "buy",
+    "where": "TM clerk · 3 badges",
+    "cost": "₽2,500",
+    "stage": 17.5,
+    "badges": 3
+   },
+   {
+    "loc": "petalburg-city",
+    "how": "buy",
+    "where": "TM clerk · 3 badges",
+    "cost": "₽2,500",
+    "stage": 17.5,
+    "badges": 3
+   },
+   {
+    "loc": "rustboro-city",
+    "how": "buy",
+    "where": "TM clerk · 3 badges",
+    "cost": "₽2,500",
+    "stage": 17.5,
+    "badges": 3
+   },
+   {
+    "loc": "slateport-city",
+    "how": "gift",
+    "where": "Oceanic Museum 1F",
+    "from": "Aqua Grunt (after you beat him)"
+   },
+   {
+    "loc": "slateport-city",
+    "how": "buy",
+    "where": "TM clerk · 3 badges",
+    "cost": "₽2,500",
+    "stage": 17.5,
+    "badges": 3
+   },
+   {
+    "loc": "mauville-city",
+    "how": "buy",
+    "where": "TM clerk · 3 badges",
+    "cost": "₽2,500",
+    "stage": 17.5,
+    "badges": 3
+   },
+   {
+    "loc": "verdanturf-town",
+    "how": "buy",
+    "where": "TM clerk · 3 badges",
+    "cost": "₽2,500",
+    "stage": 19,
+    "badges": 3
+   },
+   {
+    "loc": "fallarbor-town",
+    "how": "buy",
+    "where": "TM clerk · 3 badges",
+    "cost": "₽2,500",
+    "stage": 24,
+    "badges": 3
+   },
+   {
+    "loc": "lavaridge-town",
+    "how": "buy",
+    "where": "TM clerk · 3 badges",
+    "cost": "₽2,500",
+    "stage": 30,
+    "badges": 3
+   },
+   {
+    "loc": "fortree-city",
+    "how": "buy",
+    "where": "TM clerk · 3 badges",
+    "cost": "₽2,500",
+    "stage": 40,
+    "badges": 3
+   },
+   {
+    "loc": "mossdeep-city",
+    "how": "buy",
+    "where": "TM clerk · 3 badges",
+    "cost": "₽2,500",
+    "stage": 52,
+    "badges": 3
+   },
+   {
+    "loc": "sootopolis-city",
+    "how": "buy",
+    "where": "TM clerk · 7 badges",
+    "cost": "₽2,500",
+    "stage": 59,
+    "badges": 7
+   }
+  ]
+ },
+ "TM47": {
+  "move": "Steel Wing",
+  "reusable": true,
+  "sources": [
+   {
+    "loc": "oldale-town",
+    "how": "buy",
+    "where": "TM clerk · 3 badges",
+    "cost": "₽3,000",
+    "stage": 17.5,
+    "badges": 3
+   },
+   {
+    "loc": "petalburg-city",
+    "how": "buy",
+    "where": "TM clerk · 3 badges",
+    "cost": "₽3,000",
+    "stage": 17.5,
+    "badges": 3
+   },
+   {
+    "loc": "rustboro-city",
+    "how": "buy",
+    "where": "TM clerk · 3 badges",
+    "cost": "₽3,000",
+    "stage": 17.5,
+    "badges": 3
+   },
+   {
+    "loc": "granite-cave",
+    "how": "gift",
+    "where": "Steven's Room",
+    "from": "Steven"
+   },
+   {
+    "loc": "slateport-city",
+    "how": "buy",
+    "where": "TM clerk · 3 badges",
+    "cost": "₽3,000",
+    "stage": 17.5,
+    "badges": 3
+   },
+   {
+    "loc": "mauville-city",
+    "how": "buy",
+    "where": "TM clerk · 3 badges",
+    "cost": "₽3,000",
+    "stage": 17.5,
+    "badges": 3
+   },
+   {
+    "loc": "verdanturf-town",
+    "how": "buy",
+    "where": "TM clerk · 3 badges",
+    "cost": "₽3,000",
+    "stage": 19,
+    "badges": 3
+   },
+   {
+    "loc": "fallarbor-town",
+    "how": "buy",
+    "where": "TM clerk · 3 badges",
+    "cost": "₽3,000",
+    "stage": 24,
+    "badges": 3
+   },
+   {
+    "loc": "lavaridge-town",
+    "how": "buy",
+    "where": "TM clerk · 3 badges",
+    "cost": "₽3,000",
+    "stage": 30,
+    "badges": 3
+   },
+   {
+    "loc": "fortree-city",
+    "how": "buy",
+    "where": "TM clerk · 3 badges",
+    "cost": "₽3,000",
+    "stage": 40,
+    "badges": 3
+   },
+   {
+    "loc": "mossdeep-city",
+    "how": "buy",
+    "where": "TM clerk · 3 badges",
+    "cost": "₽3,000",
+    "stage": 52,
+    "badges": 3
+   },
+   {
+    "loc": "sootopolis-city",
+    "how": "buy",
+    "where": "TM clerk · 7 badges",
+    "cost": "₽3,000",
+    "stage": 59,
+    "badges": 7
+   }
+  ]
+ },
+ "TM48": {
+  "move": "Skill Swap",
+  "reusable": true,
+  "sources": [
+   {
+    "loc": "oldale-town",
+    "how": "buy",
+    "where": "TM clerk · 6 badges",
+    "cost": "₽3,000",
+    "stage": 40.5,
+    "badges": 6
+   },
+   {
+    "loc": "petalburg-city",
+    "how": "buy",
+    "where": "TM clerk · 6 badges",
+    "cost": "₽3,000",
+    "stage": 40.5,
+    "badges": 6
+   },
+   {
+    "loc": "rustboro-city",
+    "how": "buy",
+    "where": "TM clerk · 6 badges",
+    "cost": "₽3,000",
+    "stage": 40.5,
+    "badges": 6
+   },
+   {
+    "loc": "slateport-city",
+    "how": "buy",
+    "where": "TM clerk · 6 badges",
+    "cost": "₽3,000",
+    "stage": 40.5,
+    "badges": 6
+   },
+   {
+    "loc": "mauville-city",
+    "how": "buy",
+    "where": "TM clerk · 6 badges",
+    "cost": "₽3,000",
+    "stage": 40.5,
+    "badges": 6
+   },
+   {
+    "loc": "verdanturf-town",
+    "how": "buy",
+    "where": "TM clerk · 6 badges",
+    "cost": "₽3,000",
+    "stage": 40.5,
+    "badges": 6
+   },
+   {
+    "loc": "fallarbor-town",
+    "how": "buy",
+    "where": "TM clerk · 6 badges",
+    "cost": "₽3,000",
+    "stage": 40.5,
+    "badges": 6
+   },
+   {
+    "loc": "lavaridge-town",
+    "how": "buy",
+    "where": "TM clerk · 6 badges",
+    "cost": "₽3,000",
+    "stage": 40.5,
+    "badges": 6
+   },
+   {
+    "loc": "fortree-city",
+    "how": "buy",
+    "where": "TM clerk · 6 badges",
+    "cost": "₽3,000",
+    "stage": 40.5,
+    "badges": 6
+   },
+   {
+    "loc": "mt-pyre",
+    "how": "found",
+    "where": "Exterior"
+   },
+   {
+    "loc": "mossdeep-city",
+    "how": "buy",
+    "where": "TM clerk · 6 badges",
+    "cost": "₽3,000",
+    "stage": 52,
+    "badges": 6
+   },
+   {
+    "loc": "sootopolis-city",
+    "how": "buy",
+    "where": "TM clerk · 7 badges",
+    "cost": "₽3,000",
+    "stage": 59,
+    "badges": 7
+   }
+  ]
+ },
+ "TM49": {
+  "move": "Snatch",
+  "reusable": true,
+  "sources": [
+   {
+    "loc": "oldale-town",
+    "how": "buy",
+    "where": "TM clerk · 4 badges",
+    "cost": "₽3,000",
+    "stage": 30.5,
+    "badges": 4
+   },
+   {
+    "loc": "petalburg-city",
+    "how": "buy",
+    "where": "TM clerk · 4 badges",
+    "cost": "₽3,000",
+    "stage": 30.5,
+    "badges": 4
+   },
+   {
+    "loc": "rustboro-city",
+    "how": "buy",
+    "where": "TM clerk · 4 badges",
+    "cost": "₽3,000",
+    "stage": 30.5,
+    "badges": 4
+   },
+   {
+    "loc": "slateport-city",
+    "how": "buy",
+    "where": "TM clerk · 4 badges",
+    "cost": "₽3,000",
+    "stage": 30.5,
+    "badges": 4
+   },
+   {
+    "loc": "mauville-city",
+    "how": "buy",
+    "where": "TM clerk · 4 badges",
+    "cost": "₽3,000",
+    "stage": 30.5,
+    "badges": 4
+   },
+   {
+    "loc": "verdanturf-town",
+    "how": "buy",
+    "where": "TM clerk · 4 badges",
+    "cost": "₽3,000",
+    "stage": 30.5,
+    "badges": 4
+   },
+   {
+    "loc": "fallarbor-town",
+    "how": "buy",
+    "where": "TM clerk · 4 badges",
+    "cost": "₽3,000",
+    "stage": 30.5,
+    "badges": 4
+   },
+   {
+    "loc": "lavaridge-town",
+    "how": "buy",
+    "where": "TM clerk · 4 badges",
+    "cost": "₽3,000",
+    "stage": 30.5,
+    "badges": 4
+   },
+   {
+    "loc": "fortree-city",
+    "how": "buy",
+    "where": "TM clerk · 4 badges",
+    "cost": "₽3,000",
+    "stage": 40,
+    "badges": 4
+   },
+   {
+    "loc": "mossdeep-city",
+    "how": "buy",
+    "where": "TM clerk · 4 badges",
+    "cost": "₽3,000",
+    "stage": 52,
+    "badges": 4
+   },
+   {
+    "loc": "sootopolis-city",
+    "how": "buy",
+    "where": "TM clerk · 7 badges",
+    "cost": "₽3,000",
+    "stage": 59,
+    "badges": 7
+   },
+   {
+    "loc": "ss-tidal",
+    "how": "gift",
+    "where": "Outside",
+    "from": "Man in the cabin"
+   }
+  ]
+ },
+ "TM50": {
+  "move": "Overheat",
+  "reusable": true,
+  "sources": [
+   {
+    "loc": "oldale-town",
+    "how": "buy",
+    "where": "TM clerk · 5 badges",
+    "cost": "₽5,000",
+    "stage": 30.5,
+    "badges": 5
+   },
+   {
+    "loc": "petalburg-city",
+    "how": "buy",
+    "where": "TM clerk · 5 badges",
+    "cost": "₽5,000",
+    "stage": 30.5,
+    "badges": 5
+   },
+   {
+    "loc": "rustboro-city",
+    "how": "buy",
+    "where": "TM clerk · 5 badges",
+    "cost": "₽5,000",
+    "stage": 30.5,
+    "badges": 5
+   },
+   {
+    "loc": "slateport-city",
+    "how": "buy",
+    "where": "TM clerk · 5 badges",
+    "cost": "₽5,000",
+    "stage": 30.5,
+    "badges": 5
+   },
+   {
+    "loc": "mauville-city",
+    "how": "buy",
+    "where": "TM clerk · 5 badges",
+    "cost": "₽5,000",
+    "stage": 30.5,
+    "badges": 5
+   },
+   {
+    "loc": "verdanturf-town",
+    "how": "buy",
+    "where": "TM clerk · 5 badges",
+    "cost": "₽5,000",
+    "stage": 30.5,
+    "badges": 5
+   },
+   {
+    "loc": "fallarbor-town",
+    "how": "buy",
+    "where": "TM clerk · 5 badges",
+    "cost": "₽5,000",
+    "stage": 30.5,
+    "badges": 5
+   },
+   {
+    "loc": "lavaridge-town",
+    "how": "gift",
+    "where": "Gym 1F",
+    "from": "Flannery (after winning)"
+   },
+   {
+    "loc": "lavaridge-town",
+    "how": "buy",
+    "where": "TM clerk · 5 badges",
+    "cost": "₽5,000",
+    "stage": 30.5,
+    "badges": 5
+   },
+   {
+    "loc": "fortree-city",
+    "how": "buy",
+    "where": "TM clerk · 5 badges",
+    "cost": "₽5,000",
+    "stage": 40,
+    "badges": 5
+   },
+   {
+    "loc": "mossdeep-city",
+    "how": "buy",
+    "where": "TM clerk · 5 badges",
+    "cost": "₽5,000",
+    "stage": 52,
+    "badges": 5
+   },
+   {
+    "loc": "sootopolis-city",
+    "how": "buy",
+    "where": "TM clerk · 7 badges",
+    "cost": "₽5,000",
+    "stage": 59,
+    "badges": 7
+   }
+  ]
+ },
+ "TM51": {
+  "move": "Poison Fang",
+  "reusable": true,
+  "sources": [
+   {
+    "loc": "oldale-town",
+    "how": "buy",
+    "where": "TM clerk · 5 badges",
+    "cost": "₽3,000",
+    "stage": 30.5,
+    "badges": 5
+   },
+   {
+    "loc": "petalburg-city",
+    "how": "buy",
+    "where": "TM clerk · 5 badges",
+    "cost": "₽3,000",
+    "stage": 30.5,
+    "badges": 5
+   },
+   {
+    "loc": "rustboro-city",
+    "how": "buy",
+    "where": "TM clerk · 5 badges",
+    "cost": "₽3,000",
+    "stage": 30.5,
+    "badges": 5
+   },
+   {
+    "loc": "slateport-city",
+    "how": "buy",
+    "where": "TM clerk · 5 badges",
+    "cost": "₽3,000",
+    "stage": 30.5,
+    "badges": 5
+   },
+   {
+    "loc": "mauville-city",
+    "how": "buy",
+    "where": "TM clerk · 5 badges",
+    "cost": "₽3,000",
+    "stage": 30.5,
+    "badges": 5
+   },
+   {
+    "loc": "verdanturf-town",
+    "how": "buy",
+    "where": "TM clerk · 5 badges",
+    "cost": "₽3,000",
+    "stage": 30.5,
+    "badges": 5
+   },
+   {
+    "loc": "fallarbor-town",
+    "how": "buy",
+    "where": "TM clerk · 5 badges",
+    "cost": "₽3,000",
+    "stage": 30.5,
+    "badges": 5
+   },
+   {
+    "loc": "lavaridge-town",
+    "how": "buy",
+    "where": "TM clerk · 5 badges",
+    "cost": "₽3,000",
+    "stage": 30.5,
+    "badges": 5
+   },
+   {
+    "loc": "fortree-city",
+    "how": "buy",
+    "where": "TM clerk · 5 badges",
+    "cost": "₽3,000",
+    "stage": 40,
+    "badges": 5
+   },
+   {
+    "loc": "mossdeep-city",
+    "how": "buy",
+    "where": "TM clerk · 5 badges",
+    "cost": "₽3,000",
+    "stage": 52,
+    "badges": 5
+   },
+   {
+    "loc": "sootopolis-city",
+    "how": "buy",
+    "where": "TM clerk · 7 badges",
+    "cost": "₽3,000",
+    "stage": 59,
+    "badges": 7
+   }
+  ]
+ },
+ "TM52": {
+  "move": "Thunder Fang",
+  "reusable": true,
+  "sources": [
+   {
+    "loc": "oldale-town",
+    "how": "buy",
+    "where": "TM clerk · 4 badges",
+    "cost": "₽3,000",
+    "stage": 30.5,
+    "badges": 4
+   },
+   {
+    "loc": "petalburg-city",
+    "how": "buy",
+    "where": "TM clerk · 4 badges",
+    "cost": "₽3,000",
+    "stage": 30.5,
+    "badges": 4
+   },
+   {
+    "loc": "rustboro-city",
+    "how": "buy",
+    "where": "TM clerk · 4 badges",
+    "cost": "₽3,000",
+    "stage": 30.5,
+    "badges": 4
+   },
+   {
+    "loc": "slateport-city",
+    "how": "buy",
+    "where": "TM clerk · 4 badges",
+    "cost": "₽3,000",
+    "stage": 30.5,
+    "badges": 4
+   },
+   {
+    "loc": "mauville-city",
+    "how": "buy",
+    "where": "TM clerk · 4 badges",
+    "cost": "₽3,000",
+    "stage": 30.5,
+    "badges": 4
+   },
+   {
+    "loc": "verdanturf-town",
+    "how": "buy",
+    "where": "TM clerk · 4 badges",
+    "cost": "₽3,000",
+    "stage": 30.5,
+    "badges": 4
+   },
+   {
+    "loc": "fallarbor-town",
+    "how": "buy",
+    "where": "TM clerk · 4 badges",
+    "cost": "₽3,000",
+    "stage": 30.5,
+    "badges": 4
+   },
+   {
+    "loc": "lavaridge-town",
+    "how": "buy",
+    "where": "TM clerk · 4 badges",
+    "cost": "₽3,000",
+    "stage": 30.5,
+    "badges": 4
+   },
+   {
+    "loc": "fortree-city",
+    "how": "buy",
+    "where": "TM clerk · 4 badges",
+    "cost": "₽3,000",
+    "stage": 40,
+    "badges": 4
+   },
+   {
+    "loc": "mossdeep-city",
+    "how": "buy",
+    "where": "TM clerk · 4 badges",
+    "cost": "₽3,000",
+    "stage": 52,
+    "badges": 4
+   },
+   {
+    "loc": "sootopolis-city",
+    "how": "buy",
+    "where": "TM clerk · 7 badges",
+    "cost": "₽3,000",
+    "stage": 59,
+    "badges": 7
+   }
+  ]
+ },
+ "TM53": {
+  "move": "Ice Fang",
+  "reusable": true,
+  "sources": [
+   {
+    "loc": "oldale-town",
+    "how": "buy",
+    "where": "TM clerk · 4 badges",
+    "cost": "₽3,000",
+    "stage": 30.5,
+    "badges": 4
+   },
+   {
+    "loc": "petalburg-city",
+    "how": "buy",
+    "where": "TM clerk · 4 badges",
+    "cost": "₽3,000",
+    "stage": 30.5,
+    "badges": 4
+   },
+   {
+    "loc": "rustboro-city",
+    "how": "buy",
+    "where": "TM clerk · 4 badges",
+    "cost": "₽3,000",
+    "stage": 30.5,
+    "badges": 4
+   },
+   {
+    "loc": "slateport-city",
+    "how": "buy",
+    "where": "TM clerk · 4 badges",
+    "cost": "₽3,000",
+    "stage": 30.5,
+    "badges": 4
+   },
+   {
+    "loc": "mauville-city",
+    "how": "buy",
+    "where": "TM clerk · 4 badges",
+    "cost": "₽3,000",
+    "stage": 30.5,
+    "badges": 4
+   },
+   {
+    "loc": "verdanturf-town",
+    "how": "buy",
+    "where": "TM clerk · 4 badges",
+    "cost": "₽3,000",
+    "stage": 30.5,
+    "badges": 4
+   },
+   {
+    "loc": "fallarbor-town",
+    "how": "buy",
+    "where": "TM clerk · 4 badges",
+    "cost": "₽3,000",
+    "stage": 30.5,
+    "badges": 4
+   },
+   {
+    "loc": "lavaridge-town",
+    "how": "buy",
+    "where": "TM clerk · 4 badges",
+    "cost": "₽3,000",
+    "stage": 30.5,
+    "badges": 4
+   },
+   {
+    "loc": "fortree-city",
+    "how": "buy",
+    "where": "TM clerk · 4 badges",
+    "cost": "₽3,000",
+    "stage": 40,
+    "badges": 4
+   },
+   {
+    "loc": "mossdeep-city",
+    "how": "buy",
+    "where": "TM clerk · 4 badges",
+    "cost": "₽3,000",
+    "stage": 52,
+    "badges": 4
+   },
+   {
+    "loc": "sootopolis-city",
+    "how": "buy",
+    "where": "TM clerk · 7 badges",
+    "cost": "₽3,000",
+    "stage": 59,
+    "badges": 7
+   }
+  ]
+ },
+ "TM54": {
+  "move": "Fire Fang",
+  "reusable": true,
+  "sources": [
+   {
+    "loc": "oldale-town",
+    "how": "buy",
+    "where": "TM clerk · 4 badges",
+    "cost": "₽3,000",
+    "stage": 30.5,
+    "badges": 4
+   },
+   {
+    "loc": "petalburg-city",
+    "how": "buy",
+    "where": "TM clerk · 4 badges",
+    "cost": "₽3,000",
+    "stage": 30.5,
+    "badges": 4
+   },
+   {
+    "loc": "rustboro-city",
+    "how": "buy",
+    "where": "TM clerk · 4 badges",
+    "cost": "₽3,000",
+    "stage": 30.5,
+    "badges": 4
+   },
+   {
+    "loc": "slateport-city",
+    "how": "buy",
+    "where": "TM clerk · 4 badges",
+    "cost": "₽3,000",
+    "stage": 30.5,
+    "badges": 4
+   },
+   {
+    "loc": "mauville-city",
+    "how": "buy",
+    "where": "TM clerk · 4 badges",
+    "cost": "₽3,000",
+    "stage": 30.5,
+    "badges": 4
+   },
+   {
+    "loc": "verdanturf-town",
+    "how": "buy",
+    "where": "TM clerk · 4 badges",
+    "cost": "₽3,000",
+    "stage": 30.5,
+    "badges": 4
+   },
+   {
+    "loc": "fallarbor-town",
+    "how": "buy",
+    "where": "TM clerk · 4 badges",
+    "cost": "₽3,000",
+    "stage": 30.5,
+    "badges": 4
+   },
+   {
+    "loc": "lavaridge-town",
+    "how": "buy",
+    "where": "TM clerk · 4 badges",
+    "cost": "₽3,000",
+    "stage": 30.5,
+    "badges": 4
+   },
+   {
+    "loc": "fortree-city",
+    "how": "buy",
+    "where": "TM clerk · 4 badges",
+    "cost": "₽3,000",
+    "stage": 40,
+    "badges": 4
+   },
+   {
+    "loc": "mossdeep-city",
+    "how": "buy",
+    "where": "TM clerk · 4 badges",
+    "cost": "₽3,000",
+    "stage": 52,
+    "badges": 4
+   },
+   {
+    "loc": "sootopolis-city",
+    "how": "buy",
+    "where": "TM clerk · 7 badges",
+    "cost": "₽3,000",
+    "stage": 59,
+    "badges": 7
+   }
+  ]
+ },
+ "TM55": {
+  "move": "Psychic Fangs",
+  "reusable": true,
+  "sources": [
+   {
+    "loc": "oldale-town",
+    "how": "buy",
+    "where": "TM clerk · 6 badges",
+    "cost": "₽3,500",
+    "stage": 40.5,
+    "badges": 6
+   },
+   {
+    "loc": "petalburg-city",
+    "how": "buy",
+    "where": "TM clerk · 6 badges",
+    "cost": "₽3,500",
+    "stage": 40.5,
+    "badges": 6
+   },
+   {
+    "loc": "rustboro-city",
+    "how": "buy",
+    "where": "TM clerk · 6 badges",
+    "cost": "₽3,500",
+    "stage": 40.5,
+    "badges": 6
+   },
+   {
+    "loc": "slateport-city",
+    "how": "buy",
+    "where": "TM clerk · 6 badges",
+    "cost": "₽3,500",
+    "stage": 40.5,
+    "badges": 6
+   },
+   {
+    "loc": "mauville-city",
+    "how": "buy",
+    "where": "TM clerk · 6 badges",
+    "cost": "₽3,500",
+    "stage": 40.5,
+    "badges": 6
+   },
+   {
+    "loc": "verdanturf-town",
+    "how": "buy",
+    "where": "TM clerk · 6 badges",
+    "cost": "₽3,500",
+    "stage": 40.5,
+    "badges": 6
+   },
+   {
+    "loc": "fallarbor-town",
+    "how": "buy",
+    "where": "TM clerk · 6 badges",
+    "cost": "₽3,500",
+    "stage": 40.5,
+    "badges": 6
+   },
+   {
+    "loc": "lavaridge-town",
+    "how": "buy",
+    "where": "TM clerk · 6 badges",
+    "cost": "₽3,500",
+    "stage": 40.5,
+    "badges": 6
+   },
+   {
+    "loc": "fortree-city",
+    "how": "buy",
+    "where": "TM clerk · 6 badges",
+    "cost": "₽3,500",
+    "stage": 40.5,
+    "badges": 6
+   },
+   {
+    "loc": "mossdeep-city",
+    "how": "buy",
+    "where": "TM clerk · 6 badges",
+    "cost": "₽3,500",
+    "stage": 52,
+    "badges": 6
+   },
+   {
+    "loc": "sootopolis-city",
+    "how": "buy",
+    "where": "TM clerk · 7 badges",
+    "cost": "₽3,500",
+    "stage": 59,
+    "badges": 7
+   }
+  ]
+ },
+ "TM56": {
+  "move": "Stomping Tantrum",
+  "reusable": true,
+  "sources": [
+   {
+    "loc": "oldale-town",
+    "how": "buy",
+    "where": "TM clerk · 5 badges",
+    "cost": "₽3,000",
+    "stage": 30.5,
+    "badges": 5
+   },
+   {
+    "loc": "petalburg-city",
+    "how": "buy",
+    "where": "TM clerk · 5 badges",
+    "cost": "₽3,000",
+    "stage": 30.5,
+    "badges": 5
+   },
+   {
+    "loc": "rustboro-city",
+    "how": "buy",
+    "where": "TM clerk · 5 badges",
+    "cost": "₽3,000",
+    "stage": 30.5,
+    "badges": 5
+   },
+   {
+    "loc": "slateport-city",
+    "how": "buy",
+    "where": "TM clerk · 5 badges",
+    "cost": "₽3,000",
+    "stage": 30.5,
+    "badges": 5
+   },
+   {
+    "loc": "mauville-city",
+    "how": "buy",
+    "where": "TM clerk · 5 badges",
+    "cost": "₽3,000",
+    "stage": 30.5,
+    "badges": 5
+   },
+   {
+    "loc": "verdanturf-town",
+    "how": "buy",
+    "where": "TM clerk · 5 badges",
+    "cost": "₽3,000",
+    "stage": 30.5,
+    "badges": 5
+   },
+   {
+    "loc": "fallarbor-town",
+    "how": "buy",
+    "where": "TM clerk · 5 badges",
+    "cost": "₽3,000",
+    "stage": 30.5,
+    "badges": 5
+   },
+   {
+    "loc": "lavaridge-town",
+    "how": "buy",
+    "where": "TM clerk · 5 badges",
+    "cost": "₽3,000",
+    "stage": 30.5,
+    "badges": 5
+   },
+   {
+    "loc": "fortree-city",
+    "how": "buy",
+    "where": "TM clerk · 5 badges",
+    "cost": "₽3,000",
+    "stage": 40,
+    "badges": 5
+   },
+   {
+    "loc": "mossdeep-city",
+    "how": "buy",
+    "where": "TM clerk · 5 badges",
+    "cost": "₽3,000",
+    "stage": 52,
+    "badges": 5
+   },
+   {
+    "loc": "sootopolis-city",
+    "how": "buy",
+    "where": "TM clerk · 7 badges",
+    "cost": "₽3,000",
+    "stage": 59,
+    "badges": 7
+   }
+  ]
+ },
+ "TM57": {
+  "move": "Dazzling Gleam",
+  "reusable": true,
+  "sources": [
+   {
+    "loc": "oldale-town",
+    "how": "buy",
+    "where": "TM clerk · 4 badges",
+    "cost": "₽3,000",
+    "stage": 30.5,
+    "badges": 4
+   },
+   {
+    "loc": "petalburg-city",
+    "how": "buy",
+    "where": "TM clerk · 4 badges",
+    "cost": "₽3,000",
+    "stage": 30.5,
+    "badges": 4
+   },
+   {
+    "loc": "rustboro-city",
+    "how": "buy",
+    "where": "TM clerk · 4 badges",
+    "cost": "₽3,000",
+    "stage": 30.5,
+    "badges": 4
+   },
+   {
+    "loc": "slateport-city",
+    "how": "buy",
+    "where": "TM clerk · 4 badges",
+    "cost": "₽3,000",
+    "stage": 30.5,
+    "badges": 4
+   },
+   {
+    "loc": "mauville-city",
+    "how": "buy",
+    "where": "TM clerk · 4 badges",
+    "cost": "₽3,000",
+    "stage": 30.5,
+    "badges": 4
+   },
+   {
+    "loc": "verdanturf-town",
+    "how": "buy",
+    "where": "TM clerk · 4 badges",
+    "cost": "₽3,000",
+    "stage": 30.5,
+    "badges": 4
+   },
+   {
+    "loc": "fallarbor-town",
+    "how": "buy",
+    "where": "TM clerk · 4 badges",
+    "cost": "₽3,000",
+    "stage": 30.5,
+    "badges": 4
+   },
+   {
+    "loc": "lavaridge-town",
+    "how": "buy",
+    "where": "TM clerk · 4 badges",
+    "cost": "₽3,000",
+    "stage": 30.5,
+    "badges": 4
+   },
+   {
+    "loc": "fortree-city",
+    "how": "buy",
+    "where": "TM clerk · 4 badges",
+    "cost": "₽3,000",
+    "stage": 40,
+    "badges": 4
+   },
+   {
+    "loc": "mossdeep-city",
+    "how": "buy",
+    "where": "TM clerk · 4 badges",
+    "cost": "₽3,000",
+    "stage": 52,
+    "badges": 4
+   },
+   {
+    "loc": "sootopolis-city",
+    "how": "buy",
+    "where": "TM clerk · 7 badges",
+    "cost": "₽3,000",
+    "stage": 59,
+    "badges": 7
+   }
+  ]
+ },
+ "TM58": {
+  "move": "Play Rough",
+  "reusable": true,
+  "sources": [
+   {
+    "loc": "oldale-town",
+    "how": "buy",
+    "where": "TM clerk · 6 badges",
+    "cost": "₽4,000",
+    "stage": 40.5,
+    "badges": 6
+   },
+   {
+    "loc": "petalburg-city",
+    "how": "buy",
+    "where": "TM clerk · 6 badges",
+    "cost": "₽4,000",
+    "stage": 40.5,
+    "badges": 6
+   },
+   {
+    "loc": "rustboro-city",
+    "how": "buy",
+    "where": "TM clerk · 6 badges",
+    "cost": "₽4,000",
+    "stage": 40.5,
+    "badges": 6
+   },
+   {
+    "loc": "slateport-city",
+    "how": "buy",
+    "where": "TM clerk · 6 badges",
+    "cost": "₽4,000",
+    "stage": 40.5,
+    "badges": 6
+   },
+   {
+    "loc": "mauville-city",
+    "how": "buy",
+    "where": "TM clerk · 6 badges",
+    "cost": "₽4,000",
+    "stage": 40.5,
+    "badges": 6
+   },
+   {
+    "loc": "verdanturf-town",
+    "how": "buy",
+    "where": "TM clerk · 6 badges",
+    "cost": "₽4,000",
+    "stage": 40.5,
+    "badges": 6
+   },
+   {
+    "loc": "fallarbor-town",
+    "how": "buy",
+    "where": "TM clerk · 6 badges",
+    "cost": "₽4,000",
+    "stage": 40.5,
+    "badges": 6
+   },
+   {
+    "loc": "lavaridge-town",
+    "how": "buy",
+    "where": "TM clerk · 6 badges",
+    "cost": "₽4,000",
+    "stage": 40.5,
+    "badges": 6
+   },
+   {
+    "loc": "fortree-city",
+    "how": "buy",
+    "where": "TM clerk · 6 badges",
+    "cost": "₽4,000",
+    "stage": 40.5,
+    "badges": 6
+   },
+   {
+    "loc": "mossdeep-city",
+    "how": "buy",
+    "where": "TM clerk · 6 badges",
+    "cost": "₽4,000",
+    "stage": 52,
+    "badges": 6
+   },
+   {
+    "loc": "sootopolis-city",
+    "how": "buy",
+    "where": "TM clerk · 7 badges",
+    "cost": "₽4,000",
+    "stage": 59,
+    "badges": 7
+   }
+  ]
+ },
+ "TM59": {
+  "move": "Volt Switch",
+  "reusable": true,
+  "sources": [
+   {
+    "loc": "oldale-town",
+    "how": "buy",
+    "where": "TM clerk · 3 badges",
+    "cost": "₽3,000",
+    "stage": 17.5,
+    "badges": 3
+   },
+   {
+    "loc": "petalburg-city",
+    "how": "buy",
+    "where": "TM clerk · 3 badges",
+    "cost": "₽3,000",
+    "stage": 17.5,
+    "badges": 3
+   },
+   {
+    "loc": "rustboro-city",
+    "how": "buy",
+    "where": "TM clerk · 3 badges",
+    "cost": "₽3,000",
+    "stage": 17.5,
+    "badges": 3
+   },
+   {
+    "loc": "slateport-city",
+    "how": "buy",
+    "where": "TM clerk · 3 badges",
+    "cost": "₽3,000",
+    "stage": 17.5,
+    "badges": 3
+   },
+   {
+    "loc": "mauville-city",
+    "how": "buy",
+    "where": "TM clerk · 3 badges",
+    "cost": "₽3,000",
+    "stage": 17.5,
+    "badges": 3
+   },
+   {
+    "loc": "verdanturf-town",
+    "how": "buy",
+    "where": "TM clerk · 3 badges",
+    "cost": "₽3,000",
+    "stage": 19,
+    "badges": 3
+   },
+   {
+    "loc": "fallarbor-town",
+    "how": "buy",
+    "where": "TM clerk · 3 badges",
+    "cost": "₽3,000",
+    "stage": 24,
+    "badges": 3
+   },
+   {
+    "loc": "lavaridge-town",
+    "how": "buy",
+    "where": "TM clerk · 3 badges",
+    "cost": "₽3,000",
+    "stage": 30,
+    "badges": 3
+   },
+   {
+    "loc": "fortree-city",
+    "how": "buy",
+    "where": "TM clerk · 3 badges",
+    "cost": "₽3,000",
+    "stage": 40,
+    "badges": 3
+   },
+   {
+    "loc": "mossdeep-city",
+    "how": "buy",
+    "where": "TM clerk · 3 badges",
+    "cost": "₽3,000",
+    "stage": 52,
+    "badges": 3
+   },
+   {
+    "loc": "sootopolis-city",
+    "how": "buy",
+    "where": "TM clerk · 7 badges",
+    "cost": "₽3,000",
+    "stage": 59,
+    "badges": 7
+   }
+  ]
+ },
+ "TM60": {
+  "move": "U-turn",
+  "reusable": true,
+  "sources": [
+   {
+    "loc": "oldale-town",
+    "how": "buy",
+    "where": "TM clerk · 3 badges",
+    "cost": "₽3,000",
+    "stage": 17.5,
+    "badges": 3
+   },
+   {
+    "loc": "petalburg-city",
+    "how": "buy",
+    "where": "TM clerk · 3 badges",
+    "cost": "₽3,000",
+    "stage": 17.5,
+    "badges": 3
+   },
+   {
+    "loc": "rustboro-city",
+    "how": "buy",
+    "where": "TM clerk · 3 badges",
+    "cost": "₽3,000",
+    "stage": 17.5,
+    "badges": 3
+   },
+   {
+    "loc": "slateport-city",
+    "how": "buy",
+    "where": "TM clerk · 3 badges",
+    "cost": "₽3,000",
+    "stage": 17.5,
+    "badges": 3
+   },
+   {
+    "loc": "mauville-city",
+    "how": "buy",
+    "where": "TM clerk · 3 badges",
+    "cost": "₽3,000",
+    "stage": 17.5,
+    "badges": 3
+   },
+   {
+    "loc": "verdanturf-town",
+    "how": "buy",
+    "where": "TM clerk · 3 badges",
+    "cost": "₽3,000",
+    "stage": 19,
+    "badges": 3
+   },
+   {
+    "loc": "fallarbor-town",
+    "how": "buy",
+    "where": "TM clerk · 3 badges",
+    "cost": "₽3,000",
+    "stage": 24,
+    "badges": 3
+   },
+   {
+    "loc": "lavaridge-town",
+    "how": "buy",
+    "where": "TM clerk · 3 badges",
+    "cost": "₽3,000",
+    "stage": 30,
+    "badges": 3
+   },
+   {
+    "loc": "fortree-city",
+    "how": "buy",
+    "where": "TM clerk · 3 badges",
+    "cost": "₽3,000",
+    "stage": 40,
+    "badges": 3
+   },
+   {
+    "loc": "mossdeep-city",
+    "how": "buy",
+    "where": "TM clerk · 3 badges",
+    "cost": "₽3,000",
+    "stage": 52,
+    "badges": 3
+   },
+   {
+    "loc": "sootopolis-city",
+    "how": "buy",
+    "where": "TM clerk · 7 badges",
+    "cost": "₽3,000",
+    "stage": 59,
+    "badges": 7
+   }
+  ]
+ }
+}

@@ -1,0 +1,49 @@
+{
+ "id": "fallarbor-town",
+ "name": "Fallarbor Town",
+ "encounters": [
+  {
+   "dex": 433,
+   "name": "Spiky-eared Pichu",
+   "method": "gift",
+   "levels": "5",
+   "notes": "Spiky-eared Pichu (Lv 5) · Professor Elm (catch 50 species; he checks your Pokédex)",
+   "after": "fallarbor-town"
+  }
+ ],
+ "items": [
+  {
+   "id": "hidden-outside-nugget",
+   "name": "Nugget",
+   "hidden": true,
+   "where": "Outside"
+  }
+ ],
+ "gifts": [
+  {
+   "id": "mon-outside-spiky-eared-pichu-lv-5",
+   "name": "Spiky-eared Pichu (Lv 5)",
+   "from": "Professor Elm (catch 50 species; he checks your Pokédex)",
+   "where": "Outside",
+   "later": true,
+   "need": "50 species caught in your Pokédex",
+   "after": "fallarbor-town",
+   "stage": 24.5
+  },
+  {
+   "id": "item-cozmo-s-house-tm27",
+   "name": "TM27",
+   "from": "Professor Cozmo (return the Meteorite)",
+   "where": "Cozmo's House",
+   "later": true,
+   "need": "After Mt. Chimney",
+   "after": "mt-chimney",
+   "stage": 28
+  }
+ ],
+ "trainers": [],
+ "verified": true,
+ "sources": [
+  "https://mrwalkthroughs.com/pokemon-emerald-seaglass/"
+ ]
+}

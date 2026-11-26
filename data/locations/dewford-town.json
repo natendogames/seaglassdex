@@ -1,0 +1,536 @@
+{
+ "id": "dewford-town",
+ "name": "Dewford Town",
+ "encounters": [
+  {
+   "dex": 307,
+   "name": "Taillow",
+   "method": "grass",
+   "levels": "9-12",
+   "rate": "20%",
+   "area": "Outside"
+  },
+  {
+   "dex": 309,
+   "name": "Wingull",
+   "method": "grass",
+   "levels": "9-12",
+   "rate": "20%",
+   "area": "Outside"
+  },
+  {
+   "dex": 322,
+   "name": "Nincada",
+   "method": "grass",
+   "levels": "9-12",
+   "rate": "20%",
+   "area": "Outside"
+  },
+  {
+   "dex": 73,
+   "name": "Machop",
+   "method": "grass",
+   "levels": "9-12",
+   "rate": "10%",
+   "area": "Outside"
+  },
+  {
+   "dex": 225,
+   "name": "Yanma",
+   "method": "grass",
+   "levels": "9-12",
+   "rate": "10%",
+   "area": "Outside"
+  },
+  {
+   "dex": 362,
+   "name": "Trapinch",
+   "method": "grass",
+   "levels": "9-12",
+   "rate": "10%",
+   "area": "Outside"
+  },
+  {
+   "dex": 39,
+   "name": "Vulpix",
+   "method": "grass",
+   "levels": "9-12",
+   "rate": "5%",
+   "area": "Outside"
+  },
+  {
+   "dex": 247,
+   "name": "Shuckle",
+   "method": "grass",
+   "levels": "9-12",
+   "rate": "4%",
+   "area": "Outside"
+  },
+  {
+   "dex": 259,
+   "name": "Corsola",
+   "method": "grass",
+   "levels": "9-12",
+   "rate": "1%",
+   "area": "Outside"
+  },
+  {
+   "dex": 79,
+   "name": "Tentacool",
+   "method": "surf",
+   "levels": "5-35",
+   "rate": "60%",
+   "area": "Outside"
+  },
+  {
+   "dex": 309,
+   "name": "Wingull",
+   "method": "surf",
+   "levels": "10-30",
+   "rate": "35%",
+   "area": "Outside"
+  },
+  {
+   "dex": 310,
+   "name": "Pelipper",
+   "method": "surf",
+   "levels": "25-30",
+   "rate": "5%",
+   "area": "Outside"
+  },
+  {
+   "dex": 155,
+   "name": "Magikarp",
+   "method": "old-rod",
+   "levels": "5-10",
+   "rate": "70%",
+   "area": "Outside"
+  },
+  {
+   "dex": 227,
+   "name": "Wooper",
+   "method": "old-rod",
+   "levels": "5-10",
+   "rate": "30%",
+   "area": "Outside"
+  },
+  {
+   "dex": 155,
+   "name": "Magikarp",
+   "method": "good-rod",
+   "levels": "10-30",
+   "rate": "60%",
+   "area": "Outside"
+  },
+  {
+   "dex": 79,
+   "name": "Tentacool",
+   "method": "good-rod",
+   "levels": "10-30",
+   "rate": "20%",
+   "area": "Outside"
+  },
+  {
+   "dex": 354,
+   "name": "Wailmer",
+   "method": "good-rod",
+   "levels": "10-30",
+   "rate": "20%",
+   "area": "Outside"
+  },
+  {
+   "dex": 354,
+   "name": "Wailmer",
+   "method": "super-rod",
+   "levels": "20-45",
+   "rate": "100%",
+   "area": "Outside"
+  }
+ ],
+ "items": [],
+ "gifts": [
+  {
+   "id": "item-outside-old-rod",
+   "name": "Old Rod",
+   "from": "Fisherman",
+   "where": "Outside"
+  },
+  {
+   "id": "item-outside-salac-berry",
+   "name": "Salac Berry",
+   "from": "Old woman",
+   "where": "Outside"
+  },
+  {
+   "id": "item-gym-tm08",
+   "name": "TM08",
+   "from": "Brawly (after winning)",
+   "where": "Gym"
+  },
+  {
+   "id": "item-hall-tm36",
+   "name": "TM36",
+   "from": "Man",
+   "where": "Hall",
+   "later": true,
+   "need": "After Lavaridge Town",
+   "after": "lavaridge-town",
+   "stage": 30
+  },
+  {
+   "id": "item-house-2-silk-scarf",
+   "name": "Silk Scarf",
+   "from": "Man in the house",
+   "where": "House 2"
+  }
+ ],
+ "trainers": [
+  {
+   "class": "Battle Girl",
+   "name": "Laura",
+   "prize": 312,
+   "party": [
+    {
+     "dex": 249,
+     "name": "Sneasel",
+     "level": 13,
+     "iv": 18,
+     "moves": [
+      {
+       "name": "Leer",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Taunt",
+       "type": "Dark",
+       "category": "status"
+      },
+      {
+       "name": "Quick Attack",
+       "type": "Normal",
+       "power": 40,
+       "category": "physical"
+      },
+      {
+       "name": "Feint Attack",
+       "type": "Dark",
+       "power": 60,
+       "category": "physical"
+      }
+     ]
+    }
+   ],
+   "id": "laura",
+   "area": "Gym"
+  },
+  {
+   "class": "Sailor",
+   "name": "Brenden",
+   "prize": 416,
+   "party": [
+    {
+     "dex": 73,
+     "name": "Machop",
+     "level": 13,
+     "iv": 12,
+     "moves": [
+      {
+       "name": "Focus Energy",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Karate Chop",
+       "type": "Fighting",
+       "power": 50,
+       "category": "physical"
+      },
+      {
+       "name": "Foresight",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Low Sweep",
+       "type": "Fighting",
+       "power": 65,
+       "category": "physical"
+      }
+     ]
+    }
+   ],
+   "id": "brenden",
+   "area": "Gym"
+  },
+  {
+   "class": "Black Belt",
+   "name": "Cristian",
+   "prize": 416,
+   "party": [
+    {
+     "dex": 328,
+     "name": "Makuhita",
+     "level": 13,
+     "iv": 24,
+     "moves": [
+      {
+       "name": "Sand Attack",
+       "type": "Ground",
+       "category": "status"
+      },
+      {
+       "name": "Arm Thrust",
+       "type": "Fighting",
+       "power": 15,
+       "category": "physical"
+      },
+      {
+       "name": "Fake Out",
+       "type": "Normal",
+       "power": 40,
+       "category": "physical"
+      },
+      {
+       "name": "Force Palm",
+       "type": "Fighting",
+       "power": 60,
+       "category": "physical"
+      }
+     ]
+    }
+   ],
+   "id": "cristian",
+   "area": "Gym"
+  },
+  {
+   "class": "Battle Girl",
+   "name": "Lilith",
+   "prize": 312,
+   "party": [
+    {
+     "dex": 339,
+     "name": "Meditite",
+     "level": 13,
+     "iv": 18,
+     "moves": [
+      {
+       "name": "Meditate",
+       "type": "Psychic",
+       "category": "status"
+      },
+      {
+       "name": "Confusion",
+       "type": "Psychic",
+       "power": 50,
+       "category": "special"
+      },
+      {
+       "name": "Detect",
+       "type": "Fighting",
+       "category": "status"
+      },
+      {
+       "name": "Endure",
+       "type": "Normal",
+       "category": "status"
+      }
+     ]
+    }
+   ],
+   "id": "lilith",
+   "area": "Gym"
+  },
+  {
+   "class": "Black Belt",
+   "name": "Takao",
+   "prize": 416,
+   "party": [
+    {
+     "dex": 73,
+     "name": "Machop",
+     "level": 13,
+     "iv": 15,
+     "moves": [
+      {
+       "name": "Focus Energy",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Karate Chop",
+       "type": "Fighting",
+       "power": 50,
+       "category": "physical"
+      },
+      {
+       "name": "Foresight",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Low Sweep",
+       "type": "Fighting",
+       "power": 65,
+       "category": "physical"
+      }
+     ]
+    }
+   ],
+   "id": "takao",
+   "area": "Gym"
+  },
+  {
+   "class": "Battle Girl",
+   "name": "Jocelyn",
+   "prize": 312,
+   "party": [
+    {
+     "dex": 244,
+     "name": "Snubbull",
+     "level": 13,
+     "iv": 15,
+     "moves": [
+      {
+       "name": "Tail Whip",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Charm",
+       "type": "Fairy",
+       "category": "status"
+      },
+      {
+       "name": "Bite",
+       "type": "Dark",
+       "power": 60,
+       "category": "physical"
+      },
+      {
+       "name": "Lick",
+       "type": "Ghost",
+       "power": 30,
+       "category": "physical"
+      }
+     ]
+    }
+   ],
+   "id": "jocelyn",
+   "area": "Gym"
+  },
+  {
+   "class": "Leader",
+   "name": "Brawly",
+   "prize": 1900,
+   "party": [
+    {
+     "dex": 328,
+     "name": "Makuhita",
+     "level": 16,
+     "iv": 12,
+     "moves": [
+      {
+       "name": "Arm Thrust",
+       "type": "Fighting",
+       "power": 15,
+       "category": "physical"
+      },
+      {
+       "name": "Vital Throw",
+       "type": "Fighting",
+       "power": 70,
+       "category": "physical"
+      },
+      {
+       "name": "Knock Off",
+       "type": "Dark",
+       "power": 65,
+       "category": "physical"
+      },
+      {
+       "name": "Bulk Up",
+       "type": "Fighting",
+       "category": "status"
+      }
+     ],
+     "item": "Sitrus Berry"
+    },
+    {
+     "dex": 339,
+     "name": "Meditite",
+     "level": 16,
+     "iv": 12,
+     "moves": [
+      {
+       "name": "Force Palm",
+       "type": "Fighting",
+       "power": 60,
+       "category": "physical"
+      },
+      {
+       "name": "Light Screen",
+       "type": "Psychic",
+       "category": "status"
+      },
+      {
+       "name": "Reflect",
+       "type": "Psychic",
+       "category": "status"
+      },
+      {
+       "name": "Bulk Up",
+       "type": "Fighting",
+       "category": "status"
+      }
+     ]
+    },
+    {
+     "dex": 248,
+     "name": "Heracross",
+     "level": 19,
+     "iv": 24,
+     "moves": [
+      {
+       "name": "Arm Thrust",
+       "type": "Fighting",
+       "power": 15,
+       "category": "physical"
+      },
+      {
+       "name": "Bullet Seed",
+       "type": "Grass",
+       "power": 25,
+       "category": "physical"
+      },
+      {
+       "name": "Knock Off",
+       "type": "Dark",
+       "power": 65,
+       "category": "physical"
+      },
+      {
+       "name": "Bulk Up",
+       "type": "Fighting",
+       "category": "status"
+      }
+     ],
+     "item": "Sitrus Berry"
+    }
+   ],
+   "uses": [
+    "Super Potion ×2"
+   ],
+   "rewards": [
+    "Knuckle Badge",
+    "TM08"
+   ],
+   "id": "brawly",
+   "area": "Gym"
+  }
+ ],
+ "verified": true,
+ "sources": [
+  "https://mrwalkthroughs.com/pokemon-emerald-seaglass/"
+ ]
+}

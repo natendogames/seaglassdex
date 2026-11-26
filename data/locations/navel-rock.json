@@ -1,0 +1,19 @@
+{
+ "id": "navel-rock",
+ "name": "Navel Rock",
+ "encounters": [],
+ "items": [
+  {
+   "id": "hidden-top-sacred-ash",
+   "name": "Sacred Ash",
+   "hidden": true,
+   "where": "Top"
+  }
+ ],
+ "gifts": [],
+ "trainers": [],
+ "verified": true,
+ "sources": [
+  "https://mrwalkthroughs.com/pokemon-emerald-seaglass/"
+ ]
+}

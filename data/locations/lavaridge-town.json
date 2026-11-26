@@ -1,0 +1,580 @@
+{
+ "id": "lavaridge-town",
+ "name": "Lavaridge Town",
+ "encounters": [
+  {
+   "dex": 234,
+   "name": "Wynaut",
+   "method": "gift",
+   "area": "Outside",
+   "levels": "5",
+   "notes": "Wynaut Egg · Old woman by the hot springs"
+  }
+ ],
+ "items": [
+  {
+   "id": "hidden-outside-ice-heal",
+   "name": "Ice Heal",
+   "hidden": true,
+   "where": "Outside"
+  }
+ ],
+ "gifts": [
+  {
+   "id": "item-outside-go-goggles",
+   "name": "Go-Goggles",
+   "from": "Your rival",
+   "where": "Outside"
+  },
+  {
+   "id": "mon-outside-wynaut-egg",
+   "name": "Wynaut Egg",
+   "from": "Old woman by the hot springs",
+   "where": "Outside"
+  },
+  {
+   "id": "item-gym-1f-tm50",
+   "name": "TM50",
+   "from": "Flannery (after winning)",
+   "where": "Gym 1F"
+  },
+  {
+   "id": "item-herb-shop-charcoal",
+   "name": "Charcoal",
+   "from": "Old Man",
+   "where": "Herb Shop"
+  }
+ ],
+ "trainers": [
+  {
+   "class": "Cool Trainer",
+   "name": "Gerald",
+   "prize": 1104,
+   "party": [
+    {
+     "dex": 386,
+     "name": "Kecleon",
+     "level": 23,
+     "iv": 12,
+     "moves": [
+      {
+       "name": "Flamethrower",
+       "type": "Fire",
+       "power": 90,
+       "category": "special"
+      },
+      {
+       "name": "Fury Swipes",
+       "type": "Normal",
+       "power": 18,
+       "category": "physical"
+      },
+      {
+       "name": "Feint Attack",
+       "type": "Dark",
+       "power": 60,
+       "category": "physical"
+      },
+      {
+       "name": "Bind",
+       "type": "Normal",
+       "power": 15,
+       "category": "physical"
+      }
+     ]
+    }
+   ],
+   "uses": [
+    "Hyper Potion"
+   ],
+   "id": "gerald",
+   "area": "Gym 1F"
+  },
+  {
+   "class": "Kindler",
+   "name": "Cole",
+   "prize": 736,
+   "party": [
+    {
+     "dex": 210,
+     "name": "Mareep",
+     "level": 21,
+     "iv": 12,
+     "moves": [
+      {
+       "name": "Thunder Shock",
+       "type": "Electric",
+       "power": 40,
+       "category": "special"
+      },
+      {
+       "name": "Cotton Spore",
+       "type": "Grass",
+       "category": "status"
+      },
+      {
+       "name": "Charge",
+       "type": "Electric",
+       "category": "status"
+      },
+      {
+       "name": "Take Down",
+       "type": "Normal",
+       "power": 90,
+       "category": "physical"
+      }
+     ]
+    },
+    {
+     "dex": 211,
+     "name": "Flaaffy",
+     "level": 23,
+     "iv": 12,
+     "moves": [
+      {
+       "name": "Thunder Shock",
+       "type": "Electric",
+       "power": 40,
+       "category": "special"
+      },
+      {
+       "name": "Cotton Spore",
+       "type": "Grass",
+       "category": "status"
+      },
+      {
+       "name": "Charge",
+       "type": "Electric",
+       "category": "status"
+      },
+      {
+       "name": "Take Down",
+       "type": "Normal",
+       "power": 90,
+       "category": "physical"
+      }
+     ]
+    }
+   ],
+   "id": "cole",
+   "area": "Gym 1F"
+  },
+  {
+   "class": "Kindler",
+   "name": "Axle",
+   "prize": 736,
+   "party": [
+    {
+     "dex": 39,
+     "name": "Vulpix",
+     "level": 23,
+     "iv": 12,
+     "moves": [
+      {
+       "name": "Fire Spin",
+       "type": "Fire",
+       "power": 35,
+       "category": "special"
+      },
+      {
+       "name": "Disarming Voice",
+       "type": "Fairy",
+       "power": 40,
+       "category": "special"
+      },
+      {
+       "name": "Will-O-Wisp",
+       "type": "Fire",
+       "category": "status"
+      },
+      {
+       "name": "Feint Attack",
+       "type": "Dark",
+       "power": 60,
+       "category": "physical"
+      }
+     ]
+    }
+   ],
+   "id": "axle",
+   "area": "Gym 1F"
+  },
+  {
+   "class": "Battle Girl",
+   "name": "Danielle",
+   "prize": 552,
+   "party": [
+    {
+     "dex": 339,
+     "name": "Meditite",
+     "level": 23,
+     "iv": 12,
+     "moves": [
+      {
+       "name": "Bide",
+       "type": "Normal",
+       "power": 1,
+       "category": "physical"
+      },
+      {
+       "name": "Detect",
+       "type": "Fighting",
+       "category": "status"
+      },
+      {
+       "name": "Confusion",
+       "type": "Psychic",
+       "power": 50,
+       "category": "special"
+      },
+      {
+       "name": "Fire Punch",
+       "type": "Fire",
+       "power": 75,
+       "category": "physical"
+      }
+     ]
+    }
+   ],
+   "id": "danielle",
+   "area": "Gym 1F"
+  },
+  {
+   "class": "Leader",
+   "name": "Flannery",
+   "prize": 2900,
+   "party": [
+    {
+     "dex": 254,
+     "name": "Slugma",
+     "level": 24,
+     "iv": 24,
+     "moves": [
+      {
+       "name": "Overheat",
+       "type": "Fire",
+       "power": 130,
+       "category": "special"
+      },
+      {
+       "name": "Smog",
+       "type": "Poison",
+       "power": 30,
+       "category": "special"
+      },
+      {
+       "name": "Light Screen",
+       "type": "Psychic",
+       "category": "status"
+      },
+      {
+       "name": "Sunny Day",
+       "type": "Fire",
+       "category": "status"
+      }
+     ]
+    },
+    {
+     "dex": 162,
+     "name": "Flareon",
+     "level": 24,
+     "iv": 24,
+     "moves": [
+      {
+       "name": "Overheat",
+       "type": "Fire",
+       "power": 130,
+       "category": "special"
+      },
+      {
+       "name": "Take Down",
+       "type": "Normal",
+       "power": 90,
+       "category": "physical"
+      },
+      {
+       "name": "Trop Kick",
+       "type": "Grass",
+       "power": 70,
+       "category": "physical"
+      },
+      {
+       "name": "Sunny Day",
+       "type": "Fire",
+       "category": "status"
+      }
+     ],
+     "item": "Sitrus Berry"
+    },
+    {
+     "dex": 357,
+     "name": "Camerupt",
+     "level": 26,
+     "iv": 30,
+     "moves": [
+      {
+       "name": "Overheat",
+       "type": "Fire",
+       "power": 130,
+       "category": "special"
+      },
+      {
+       "name": "Take Down",
+       "type": "Normal",
+       "power": 90,
+       "category": "physical"
+      },
+      {
+       "name": "Sunny Day",
+       "type": "Fire",
+       "category": "status"
+      },
+      {
+       "name": "Magnitude",
+       "type": "Ground",
+       "power": 1,
+       "category": "physical"
+      }
+     ]
+    },
+    {
+     "dex": 358,
+     "name": "Torkoal",
+     "level": 29,
+     "iv": 30,
+     "moves": [
+      {
+       "name": "Overheat",
+       "type": "Fire",
+       "power": 130,
+       "category": "special"
+      },
+      {
+       "name": "Sunny Day",
+       "type": "Fire",
+       "category": "status"
+      },
+      {
+       "name": "Body Slam",
+       "type": "Normal",
+       "power": 85,
+       "category": "physical"
+      },
+      {
+       "name": "Attract",
+       "type": "Normal",
+       "category": "status"
+      }
+     ],
+     "item": "White Herb"
+    }
+   ],
+   "uses": [
+    "Hyper Potion ×2"
+   ],
+   "rewards": [
+    "Heat Badge",
+    "TM50"
+   ],
+   "id": "flannery",
+   "area": "Gym 1F"
+  },
+  {
+   "class": "Kindler",
+   "name": "Jace",
+   "prize": 736,
+   "party": [
+    {
+     "dex": 254,
+     "name": "Slugma",
+     "level": 23,
+     "iv": 12,
+     "moves": [
+      {
+       "name": "Harden",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Incinerate",
+       "type": "Fire",
+       "power": 60,
+       "category": "special"
+      },
+      {
+       "name": "Clear Smog",
+       "type": "Poison",
+       "power": 50,
+       "category": "special"
+      },
+      {
+       "name": "Ancient Power",
+       "type": "Rock",
+       "power": 60,
+       "category": "special"
+      }
+     ]
+    }
+   ],
+   "id": "jace",
+   "area": "Gym B1F"
+  },
+  {
+   "class": "Hiker",
+   "name": "Eli",
+   "prize": 920,
+   "party": [
+    {
+     "dex": 84,
+     "name": "Ponyta",
+     "level": 23,
+     "iv": 12,
+     "moves": [
+      {
+       "name": "Ember",
+       "type": "Fire",
+       "power": 40,
+       "category": "special"
+      },
+      {
+       "name": "Flame Wheel",
+       "type": "Fire",
+       "power": 60,
+       "category": "physical"
+      },
+      {
+       "name": "Stomp",
+       "type": "Normal",
+       "power": 65,
+       "category": "physical"
+      },
+      {
+       "name": "Flame Charge",
+       "type": "Fire",
+       "power": 50,
+       "category": "physical"
+      }
+     ]
+    }
+   ],
+   "id": "eli",
+   "area": "Gym B1F"
+  },
+  {
+   "class": "Kindler",
+   "name": "Keegan",
+   "prize": 736,
+   "party": [
+    {
+     "dex": 151,
+     "name": "Magmar",
+     "level": 23,
+     "iv": 14,
+     "moves": [
+      {
+       "name": "Feint Attack",
+       "type": "Dark",
+       "power": 60,
+       "category": "physical"
+      },
+      {
+       "name": "Fire Spin",
+       "type": "Fire",
+       "power": 35,
+       "category": "special"
+      },
+      {
+       "name": "Clear Smog",
+       "type": "Poison",
+       "power": 50,
+       "category": "special"
+      },
+      {
+       "name": "Flame Burst",
+       "type": "Fire",
+       "power": 70,
+       "category": "special"
+      }
+     ]
+    }
+   ],
+   "id": "keegan",
+   "area": "Gym B1F"
+  },
+  {
+   "class": "Kindler",
+   "name": "Jeff",
+   "prize": 704,
+   "party": [
+    {
+     "dex": 64,
+     "name": "Growlithe",
+     "level": 22,
+     "iv": 12,
+     "moves": [
+      {
+       "name": "Helping Hand",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Flame Wheel",
+       "type": "Fire",
+       "power": 60,
+       "category": "physical"
+      },
+      {
+       "name": "Reversal",
+       "type": "Fighting",
+       "power": 1,
+       "category": "physical"
+      },
+      {
+       "name": "Fire Fang",
+       "type": "Fire",
+       "power": 65,
+       "category": "physical"
+      }
+     ]
+    },
+    {
+     "dex": 254,
+     "name": "Slugma",
+     "level": 22,
+     "iv": 12,
+     "moves": [
+      {
+       "name": "Harden",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Incinerate",
+       "type": "Fire",
+       "power": 60,
+       "category": "special"
+      },
+      {
+       "name": "Clear Smog",
+       "type": "Poison",
+       "power": 50,
+       "category": "special"
+      },
+      {
+       "name": "Ancient Power",
+       "type": "Rock",
+       "power": 60,
+       "category": "special"
+      }
+     ]
+    }
+   ],
+   "id": "jeff",
+   "area": "Gym B1F"
+  }
+ ],
+ "verified": true,
+ "sources": [
+  "https://mrwalkthroughs.com/pokemon-emerald-seaglass/"
+ ]
+}

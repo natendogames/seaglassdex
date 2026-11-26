@@ -1,0 +1,140 @@
+{
+ "id": "new-mauville",
+ "name": "New Mauville",
+ "encounters": [
+  {
+   "dex": 89,
+   "name": "Magnemite",
+   "method": "grass",
+   "levels": "22-26",
+   "rate": "50%",
+   "area": "Entrance"
+  },
+  {
+   "dex": 110,
+   "name": "Voltorb",
+   "method": "grass",
+   "levels": "22-26",
+   "rate": "50%",
+   "area": "Entrance"
+  },
+  {
+   "dex": 89,
+   "name": "Magnemite",
+   "method": "grass",
+   "levels": "24-25",
+   "rate": "30%",
+   "area": "Inside"
+  },
+  {
+   "dex": 110,
+   "name": "Voltorb",
+   "method": "grass",
+   "levels": "24-25",
+   "rate": "30%",
+   "area": "Inside"
+  },
+  {
+   "dex": 25,
+   "name": "Pichu",
+   "method": "grass",
+   "levels": "23",
+   "rate": "10%",
+   "area": "Inside"
+  },
+  {
+   "dex": 168,
+   "name": "Porygon",
+   "method": "grass",
+   "levels": "23",
+   "rate": "10%",
+   "area": "Inside"
+  },
+  {
+   "dex": 26,
+   "name": "Pikachu",
+   "method": "grass",
+   "levels": "26",
+   "rate": "5%",
+   "area": "Inside"
+  },
+  {
+   "dex": 27,
+   "name": "Raichu",
+   "method": "grass",
+   "levels": "26",
+   "rate": "5%",
+   "area": "Inside"
+  },
+  {
+   "dex": 90,
+   "name": "Magneton",
+   "method": "grass",
+   "levels": "22",
+   "rate": "4%",
+   "area": "Inside"
+  },
+  {
+   "dex": 111,
+   "name": "Electrode",
+   "method": "grass",
+   "levels": "22",
+   "rate": "4%",
+   "area": "Inside"
+  },
+  {
+   "dex": 410,
+   "name": "Beldum",
+   "method": "grass",
+   "levels": "20",
+   "rate": "2%",
+   "area": "Inside"
+  },
+  {
+   "dex": 110,
+   "name": "Voltorb",
+   "method": "static",
+   "levels": "25",
+   "area": "Inside",
+   "notes": "One chance: save first"
+  }
+ ],
+ "items": [
+  {
+   "id": "inside-electirizer",
+   "name": "Electirizer",
+   "hidden": false,
+   "where": "Inside"
+  },
+  {
+   "id": "inside-escape-rope",
+   "name": "Escape Rope",
+   "hidden": false,
+   "where": "Inside"
+  },
+  {
+   "id": "inside-thunder-stone",
+   "name": "Thunder Stone",
+   "hidden": false,
+   "where": "Inside"
+  },
+  {
+   "id": "inside-full-heal",
+   "name": "Full Heal",
+   "hidden": false,
+   "where": "Inside"
+  },
+  {
+   "id": "inside-paralyze-heal",
+   "name": "Paralyze Heal",
+   "hidden": false,
+   "where": "Inside"
+  }
+ ],
+ "gifts": [],
+ "trainers": [],
+ "verified": true,
+ "sources": [
+  "https://mrwalkthroughs.com/pokemon-emerald-seaglass/"
+ ]
+}

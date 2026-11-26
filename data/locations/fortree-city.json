@@ -1,0 +1,763 @@
+{
+ "id": "fortree-city",
+ "name": "Fortree City",
+ "encounters": [
+  {
+   "dex": 260,
+   "name": "Remoraid",
+   "method": "surf",
+   "levels": "10-30",
+   "rate": "60%",
+   "area": "Outside"
+  },
+  {
+   "dex": 203,
+   "name": "Chinchou",
+   "method": "surf",
+   "levels": "10-30",
+   "rate": "30%",
+   "area": "Outside"
+  },
+  {
+   "dex": 99,
+   "name": "Shellder",
+   "method": "surf",
+   "levels": "10-30",
+   "rate": "10%",
+   "area": "Outside"
+  },
+  {
+   "dex": 155,
+   "name": "Magikarp",
+   "method": "old-rod",
+   "levels": "5-10",
+   "rate": "70%",
+   "area": "Outside"
+  },
+  {
+   "dex": 136,
+   "name": "Goldeen",
+   "method": "old-rod",
+   "levels": "5-10",
+   "rate": "30%",
+   "area": "Outside"
+  },
+  {
+   "dex": 352,
+   "name": "Carvanha",
+   "method": "good-rod",
+   "levels": "5-20",
+   "rate": "60%",
+   "area": "Outside"
+  },
+  {
+   "dex": 171,
+   "name": "Omanyte",
+   "method": "good-rod",
+   "levels": "5-20",
+   "rate": "20%",
+   "area": "Outside"
+  },
+  {
+   "dex": 173,
+   "name": "Kabuto",
+   "method": "good-rod",
+   "levels": "5-20",
+   "rate": "20%",
+   "area": "Outside"
+  },
+  {
+   "dex": 171,
+   "name": "Omanyte",
+   "method": "super-rod",
+   "levels": "5-30",
+   "rate": "40%",
+   "area": "Outside"
+  },
+  {
+   "dex": 173,
+   "name": "Kabuto",
+   "method": "super-rod",
+   "levels": "5-30",
+   "rate": "40%",
+   "area": "Outside"
+  },
+  {
+   "dex": 352,
+   "name": "Carvanha",
+   "method": "super-rod",
+   "levels": "5-30",
+   "rate": "20%",
+   "area": "Outside"
+  },
+  {
+   "dex": 343,
+   "name": "Plusle",
+   "method": "trade",
+   "area": "House 1",
+   "notes": "Trade: give Volbeat, get Plusle (\"Pluses\") · Trader"
+  }
+ ],
+ "items": [],
+ "gifts": [
+  {
+   "id": "item-outside-shiny-charm",
+   "name": "Shiny Charm",
+   "from": "The little shrines around Fortree (follow the glimmers from shrine to shrine)",
+   "where": "Outside"
+  },
+  {
+   "id": "item-gym-tm40",
+   "name": "TM40",
+   "from": "Winona (after winning)",
+   "where": "Gym",
+   "later": true,
+   "need": "the Devon Scope (from Steven on the Route 120 bridge) to reveal the hidden Kecleon",
+   "after": "route-120",
+   "stage": 41
+  },
+  {
+   "id": "trade-house-1-trade-give-volbeat-get-plusle-pluses",
+   "name": "Trade: give Volbeat, get Plusle (\"Pluses\")",
+   "from": "Trader",
+   "where": "House 1"
+  },
+  {
+   "id": "item-house-2-tm10",
+   "name": "TM10",
+   "from": "Old woman (guess the coin)",
+   "where": "House 2"
+  },
+  {
+   "id": "item-house-4-mental-herb",
+   "name": "Mental Herb",
+   "from": "Girl (after her Wingull delivers the mail)",
+   "where": "House 4"
+  }
+ ],
+ "trainers": [
+  {
+   "class": "Bird Keeper",
+   "name": "Humberto",
+   "prize": 960,
+   "party": [
+    {
+     "dex": 265,
+     "name": "Skarmory",
+     "level": 30,
+     "iv": 30,
+     "moves": [
+      {
+       "name": "Pin Missile",
+       "type": "Bug",
+       "power": 25,
+       "category": "physical"
+      },
+      {
+       "name": "Accelerock",
+       "type": "Rock",
+       "power": 40,
+       "category": "physical"
+      },
+      {
+       "name": "Headbutt",
+       "type": "Normal",
+       "power": 70,
+       "category": "physical"
+      },
+      {
+       "name": "Spikes",
+       "type": "Ground",
+       "category": "status"
+      }
+     ]
+    }
+   ],
+   "id": "humberto",
+   "area": "Gym",
+   "stage": "route-120",
+   "later": true,
+   "reach": "the Devon Scope (from Steven on the Route 120 bridge) to reveal the hidden Kecleon"
+  },
+  {
+   "class": "Picnicker",
+   "name": "Ashley",
+   "prize": 432,
+   "party": [
+    {
+     "dex": 367,
+     "name": "Swablu",
+     "level": 27,
+     "iv": 12,
+     "moves": [
+      {
+       "name": "Round",
+       "type": "Normal",
+       "power": 60,
+       "category": "special"
+      },
+      {
+       "name": "Natural Gift",
+       "type": "Normal",
+       "power": 1,
+       "category": "physical"
+      },
+      {
+       "name": "Draining Kiss",
+       "type": "Fairy",
+       "power": 55,
+       "category": "special"
+      },
+      {
+       "name": "Refresh",
+       "type": "Normal",
+       "category": "status"
+      }
+     ]
+    },
+    {
+     "dex": 198,
+     "name": "Noctowl",
+     "level": 27,
+     "iv": 12,
+     "moves": [
+      {
+       "name": "Hex",
+       "type": "Ghost",
+       "power": 65,
+       "category": "special"
+      },
+      {
+       "name": "Psycho Shift",
+       "type": "Psychic",
+       "category": "status"
+      },
+      {
+       "name": "Extrasensory",
+       "type": "Psychic",
+       "power": 80,
+       "category": "special"
+      },
+      {
+       "name": "Relic Song",
+       "type": "Normal",
+       "power": 75,
+       "category": "special"
+      }
+     ]
+    },
+    {
+     "dex": 308,
+     "name": "Swellow",
+     "level": 27,
+     "iv": 12,
+     "moves": [
+      {
+       "name": "Wing Attack",
+       "type": "Flying",
+       "power": 60,
+       "category": "physical"
+      },
+      {
+       "name": "Double Team",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Aerial Ace",
+       "type": "Flying",
+       "power": 60,
+       "category": "physical"
+      },
+      {
+       "name": "Quick Guard",
+       "type": "Fighting",
+       "category": "status"
+      }
+     ]
+    }
+   ],
+   "id": "ashley",
+   "area": "Gym",
+   "stage": "route-120",
+   "later": true,
+   "reach": "the Devon Scope (from Steven on the Route 120 bridge) to reveal the hidden Kecleon"
+  },
+  {
+   "class": "Bird Keeper",
+   "name": "Jared",
+   "prize": 864,
+   "party": [
+    {
+     "dex": 93,
+     "name": "Doduo",
+     "level": 27,
+     "iv": 12,
+     "moves": [
+      {
+       "name": "Pursuit",
+       "type": "Dark",
+       "power": 40,
+       "category": "physical"
+      },
+      {
+       "name": "Pluck",
+       "type": "Flying",
+       "power": 60,
+       "category": "physical"
+      },
+      {
+       "name": "Double Hit",
+       "type": "Normal",
+       "power": 40,
+       "category": "physical"
+      },
+      {
+       "name": "Bulldoze",
+       "type": "Ground",
+       "power": 60,
+       "category": "physical"
+      }
+     ]
+    },
+    {
+     "dex": 265,
+     "name": "Skarmory",
+     "level": 27,
+     "iv": 12,
+     "moves": [
+      {
+       "name": "Fury Attack",
+       "type": "Normal",
+       "power": 15,
+       "category": "physical"
+      },
+      {
+       "name": "Pin Missile",
+       "type": "Bug",
+       "power": 25,
+       "category": "physical"
+      },
+      {
+       "name": "Accelerock",
+       "type": "Rock",
+       "power": 40,
+       "category": "physical"
+      },
+      {
+       "name": "Headbutt",
+       "type": "Normal",
+       "power": 70,
+       "category": "physical"
+      }
+     ]
+    },
+    {
+     "dex": 392,
+     "name": "Tropius",
+     "level": 27,
+     "iv": 12,
+     "moves": [
+      {
+       "name": "Headbutt",
+       "type": "Normal",
+       "power": 70,
+       "category": "physical"
+      },
+      {
+       "name": "Whirlwind",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Dragon Breath",
+       "type": "Dragon",
+       "power": 60,
+       "category": "special"
+      },
+      {
+       "name": "Leaf Tornado",
+       "type": "Grass",
+       "power": 65,
+       "category": "special"
+      }
+     ]
+    }
+   ],
+   "id": "jared",
+   "area": "Gym",
+   "stage": "route-120",
+   "later": true,
+   "reach": "the Devon Scope (from Steven on the Route 120 bridge) to reveal the hidden Kecleon"
+  },
+  {
+   "class": "Camper",
+   "name": "Flint",
+   "prize": 464,
+   "party": [
+    {
+     "dex": 18,
+     "name": "Pidgeot",
+     "level": 29,
+     "iv": 18,
+     "moves": [
+      {
+       "name": "Quick Attack",
+       "type": "Normal",
+       "power": 40,
+       "category": "physical"
+      },
+      {
+       "name": "Whirlwind",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Twister",
+       "type": "Dragon",
+       "power": 40,
+       "category": "special"
+      },
+      {
+       "name": "Wing Attack",
+       "type": "Flying",
+       "power": 60,
+       "category": "physical"
+      }
+     ]
+    },
+    {
+     "dex": 209,
+     "name": "Xatu",
+     "level": 29,
+     "iv": 18,
+     "moves": [
+      {
+       "name": "Stored Power",
+       "type": "Psychic",
+       "power": 20,
+       "category": "special"
+      },
+      {
+       "name": "Ominous Wind",
+       "type": "Ghost",
+       "power": 60,
+       "category": "special"
+      },
+      {
+       "name": "Confuse Ray",
+       "type": "Ghost",
+       "category": "status"
+      },
+      {
+       "name": "Wish",
+       "type": "Normal",
+       "category": "status"
+      }
+     ]
+    }
+   ],
+   "id": "flint",
+   "area": "Gym",
+   "stage": "route-120",
+   "later": true,
+   "reach": "the Devon Scope (from Steven on the Route 120 bridge) to reveal the hidden Kecleon"
+  },
+  {
+   "class": "Bird Keeper",
+   "name": "Edwardo",
+   "prize": 928,
+   "party": [
+    {
+     "dex": 175,
+     "name": "Aerodactyl",
+     "level": 29,
+     "iv": 18,
+     "moves": [
+      {
+       "name": "Agility",
+       "type": "Psychic",
+       "category": "status"
+      },
+      {
+       "name": "Iron Head",
+       "type": "Steel",
+       "power": 80,
+       "category": "physical"
+      },
+      {
+       "name": "Ancient Power",
+       "type": "Rock",
+       "power": 60,
+       "category": "special"
+      },
+      {
+       "name": "Wing Attack",
+       "type": "Flying",
+       "power": 60,
+       "category": "physical"
+      }
+     ]
+    },
+    {
+     "dex": 310,
+     "name": "Pelipper",
+     "level": 29,
+     "iv": 18,
+     "moves": [
+      {
+       "name": "Water Pulse",
+       "type": "Water",
+       "power": 60,
+       "category": "special"
+      },
+      {
+       "name": "Payback",
+       "type": "Dark",
+       "power": 50,
+       "category": "physical"
+      },
+      {
+       "name": "Brine",
+       "type": "Water",
+       "power": 65,
+       "category": "special"
+      },
+      {
+       "name": "Fling",
+       "type": "Dark",
+       "power": 1,
+       "category": "physical"
+      }
+     ]
+    }
+   ],
+   "id": "edwardo",
+   "area": "Gym",
+   "stage": "route-120",
+   "later": true,
+   "reach": "the Devon Scope (from Steven on the Route 120 bridge) to reveal the hidden Kecleon"
+  },
+  {
+   "class": "Bird Keeper",
+   "name": "Darius",
+   "prize": 960,
+   "party": [
+    {
+     "dex": 392,
+     "name": "Tropius",
+     "level": 30,
+     "iv": 24,
+     "moves": [
+      {
+       "name": "Whirlwind",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Dragon Breath",
+       "type": "Dragon",
+       "power": 60,
+       "category": "special"
+      },
+      {
+       "name": "Leaf Tornado",
+       "type": "Grass",
+       "power": 65,
+       "category": "special"
+      },
+      {
+       "name": "Natural Gift",
+       "type": "Normal",
+       "power": 1,
+       "category": "physical"
+      }
+     ]
+    }
+   ],
+   "id": "darius",
+   "area": "Gym",
+   "stage": "route-120",
+   "later": true,
+   "reach": "the Devon Scope (from Steven on the Route 120 bridge) to reveal the hidden Kecleon"
+  },
+  {
+   "class": "Leader",
+   "name": "Winona",
+   "prize": 3300,
+   "party": [
+    {
+     "dex": 22,
+     "name": "Fearow",
+     "level": 29,
+     "iv": 25,
+     "moves": [
+      {
+       "name": "Drill Run",
+       "type": "Ground",
+       "power": 80,
+       "category": "physical"
+      },
+      {
+       "name": "Roost",
+       "type": "Flying",
+       "category": "status"
+      },
+      {
+       "name": "Quick Attack",
+       "type": "Normal",
+       "power": 40,
+       "category": "physical"
+      },
+      {
+       "name": "Aerial Ace",
+       "type": "Flying",
+       "power": 60,
+       "category": "physical"
+      }
+     ]
+    },
+    {
+     "dex": 392,
+     "name": "Tropius",
+     "level": 29,
+     "iv": 25,
+     "moves": [
+      {
+       "name": "Sunny Day",
+       "type": "Fire",
+       "category": "status"
+      },
+      {
+       "name": "Aerial Ace",
+       "type": "Flying",
+       "power": 60,
+       "category": "physical"
+      },
+      {
+       "name": "Solar Beam",
+       "type": "Grass",
+       "power": 120,
+       "category": "special"
+      },
+      {
+       "name": "Synthesis",
+       "type": "Grass",
+       "category": "status"
+      }
+     ]
+    },
+    {
+     "dex": 310,
+     "name": "Pelipper",
+     "level": 30,
+     "iv": 25,
+     "moves": [
+      {
+       "name": "Water Pulse",
+       "type": "Water",
+       "power": 60,
+       "category": "special"
+      },
+      {
+       "name": "Supersonic",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Protect",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Aerial Ace",
+       "type": "Flying",
+       "power": 60,
+       "category": "physical"
+      }
+     ]
+    },
+    {
+     "dex": 265,
+     "name": "Skarmory",
+     "level": 31,
+     "iv": 26,
+     "moves": [
+      {
+       "name": "Sand Attack",
+       "type": "Ground",
+       "category": "status"
+      },
+      {
+       "name": "Fury Attack",
+       "type": "Normal",
+       "power": 15,
+       "category": "physical"
+      },
+      {
+       "name": "Steel Wing",
+       "type": "Steel",
+       "power": 70,
+       "category": "physical"
+      },
+      {
+       "name": "Aerial Ace",
+       "type": "Flying",
+       "power": 60,
+       "category": "physical"
+      }
+     ],
+     "item": "Flying Gem"
+    },
+    {
+     "dex": 368,
+     "name": "Altaria",
+     "level": 33,
+     "iv": 31,
+     "moves": [
+      {
+       "name": "Earthquake",
+       "type": "Ground",
+       "power": 100,
+       "category": "physical"
+      },
+      {
+       "name": "Dragon Breath",
+       "type": "Dragon",
+       "power": 60,
+       "category": "special"
+      },
+      {
+       "name": "Dragon Dance",
+       "type": "Dragon",
+       "category": "status"
+      },
+      {
+       "name": "Aerial Ace",
+       "type": "Flying",
+       "power": 60,
+       "category": "physical"
+      }
+     ],
+     "item": "Sitrus Berry"
+    }
+   ],
+   "uses": [
+    "Hyper Potion ×2"
+   ],
+   "rewards": [
+    "Feather Badge",
+    "TM40"
+   ],
+   "id": "winona",
+   "area": "Gym",
+   "stage": "route-120",
+   "later": true,
+   "reach": "the Devon Scope (from Steven on the Route 120 bridge) to reveal the hidden Kecleon"
+  }
+ ],
+ "verified": true,
+ "sources": [
+  "https://mrwalkthroughs.com/pokemon-emerald-seaglass/"
+ ]
+}

@@ -1,0 +1,370 @@
+{
+ "id": "route-106",
+ "name": "Route 106",
+ "encounters": [
+  {
+   "dex": 28,
+   "name": "Sandshrew",
+   "method": "grass",
+   "levels": "8-11",
+   "rate": "20%"
+  },
+  {
+   "dex": 59,
+   "name": "Psyduck",
+   "method": "grass",
+   "levels": "8-11",
+   "rate": "20%"
+  },
+  {
+   "dex": 195,
+   "name": "Sentret",
+   "method": "grass",
+   "levels": "8-11",
+   "rate": "20%"
+  },
+  {
+   "dex": 39,
+   "name": "Vulpix",
+   "method": "grass",
+   "levels": "8-11",
+   "rate": "10%"
+  },
+  {
+   "dex": 64,
+   "name": "Growlithe",
+   "method": "grass",
+   "levels": "8-11",
+   "rate": "10%"
+  },
+  {
+   "dex": 99,
+   "name": "Shellder",
+   "method": "grass",
+   "levels": "8-11",
+   "rate": "10%"
+  },
+  {
+   "dex": 108,
+   "name": "Krabby",
+   "method": "grass",
+   "levels": "8-11",
+   "rate": "5%"
+  },
+  {
+   "dex": 304,
+   "name": "Seedot",
+   "method": "grass",
+   "levels": "8-11",
+   "rate": "5%"
+  },
+  {
+   "dex": 263,
+   "name": "Mantyke",
+   "method": "surf",
+   "levels": "5-35",
+   "rate": "60%"
+  },
+  {
+   "dex": 108,
+   "name": "Krabby",
+   "method": "surf",
+   "levels": "10-30",
+   "rate": "30%"
+  },
+  {
+   "dex": 309,
+   "name": "Wingull",
+   "method": "surf",
+   "levels": "15-25",
+   "rate": "5%"
+  },
+  {
+   "dex": 310,
+   "name": "Pelipper",
+   "method": "surf",
+   "levels": "25-30",
+   "rate": "5%"
+  },
+  {
+   "dex": 133,
+   "name": "Horsea",
+   "method": "old-rod",
+   "levels": "5-10",
+   "rate": "70%"
+  },
+  {
+   "dex": 155,
+   "name": "Magikarp",
+   "method": "old-rod",
+   "levels": "5-10",
+   "rate": "30%"
+  },
+  {
+   "dex": 155,
+   "name": "Magikarp",
+   "method": "good-rod",
+   "levels": "10-30",
+   "rate": "60%"
+  },
+  {
+   "dex": 79,
+   "name": "Tentacool",
+   "method": "good-rod",
+   "levels": "10-30",
+   "rate": "20%"
+  },
+  {
+   "dex": 354,
+   "name": "Wailmer",
+   "method": "good-rod",
+   "levels": "10-30",
+   "rate": "20%"
+  },
+  {
+   "dex": 354,
+   "name": "Wailmer",
+   "method": "super-rod",
+   "levels": "20-45",
+   "rate": "100%"
+  }
+ ],
+ "items": [
+  {
+   "id": "outside-protein",
+   "name": "Protein",
+   "hidden": false,
+   "where": "Outside"
+  },
+  {
+   "id": "outside-king-s-rock",
+   "name": "King's Rock",
+   "hidden": false,
+   "where": "Outside"
+  },
+  {
+   "id": "hidden-outside-stardust",
+   "name": "Stardust",
+   "hidden": true,
+   "where": "Outside"
+  },
+  {
+   "id": "hidden-outside-heart-scale",
+   "name": "Heart Scale",
+   "hidden": true,
+   "where": "Outside"
+  }
+ ],
+ "gifts": [],
+ "trainers": [
+  {
+   "class": "Swimmer♂",
+   "name": "Douglas",
+   "prize": 192,
+   "party": [
+    {
+     "dex": 95,
+     "name": "Seel",
+     "level": 24,
+     "iv": 1,
+     "moves": [
+      {
+       "name": "Encore",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Ice Shard",
+       "type": "Ice",
+       "power": 40,
+       "category": "physical"
+      },
+      {
+       "name": "Rest",
+       "type": "Psychic",
+       "category": "status"
+      },
+      {
+       "name": "Aqua Ring",
+       "type": "Water",
+       "category": "status"
+      }
+     ]
+    },
+    {
+     "dex": 134,
+     "name": "Seadra",
+     "level": 24,
+     "iv": 1,
+     "moves": [
+      {
+       "name": "Leer",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Water Gun",
+       "type": "Water",
+       "power": 40,
+       "category": "special"
+      },
+      {
+       "name": "Twister",
+       "type": "Dragon",
+       "power": 40,
+       "category": "special"
+      },
+      {
+       "name": "Water Pulse",
+       "type": "Water",
+       "power": 60,
+       "category": "special"
+      }
+     ]
+    }
+   ],
+   "id": "douglas"
+  },
+  {
+   "class": "Swimmer♀",
+   "name": "Kyla",
+   "prize": 216,
+   "party": [
+    {
+     "dex": 136,
+     "name": "Goldeen",
+     "level": 27,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Water Pulse",
+       "type": "Water",
+       "power": 60,
+       "category": "special"
+      },
+      {
+       "name": "Aqua Ring",
+       "type": "Water",
+       "category": "status"
+      },
+      {
+       "name": "Fury Attack",
+       "type": "Normal",
+       "power": 15,
+       "category": "physical"
+      },
+      {
+       "name": "Psycho Cut",
+       "type": "Psychic",
+       "power": 70,
+       "category": "physical"
+      }
+     ]
+    }
+   ],
+   "id": "kyla"
+  },
+  {
+   "class": "Fisherman",
+   "name": "Elliot",
+   "prize": 400,
+   "party": [
+    {
+     "dex": 155,
+     "name": "Magikarp",
+     "level": 10,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Splash",
+       "type": "Normal",
+       "category": "status"
+      }
+     ]
+    },
+    {
+     "dex": 79,
+     "name": "Tentacool",
+     "level": 7,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Poison Sting",
+       "type": "Poison",
+       "power": 15,
+       "category": "physical"
+      },
+      {
+       "name": "Supersonic",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Constrict",
+       "type": "Normal",
+       "power": 10,
+       "category": "physical"
+      }
+     ]
+    },
+    {
+     "dex": 155,
+     "name": "Magikarp",
+     "level": 10,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Splash",
+       "type": "Normal",
+       "category": "status"
+      }
+     ]
+    }
+   ],
+   "id": "elliot"
+  },
+  {
+   "class": "Fisherman",
+   "name": "Ned",
+   "prize": 440,
+   "party": [
+    {
+     "dex": 59,
+     "name": "Psyduck",
+     "level": 11,
+     "iv": 1,
+     "moves": [
+      {
+       "name": "Scratch",
+       "type": "Normal",
+       "power": 40,
+       "category": "physical"
+      },
+      {
+       "name": "Tail Whip",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Water Gun",
+       "type": "Water",
+       "power": 40,
+       "category": "special"
+      },
+      {
+       "name": "Confusion",
+       "type": "Psychic",
+       "power": 50,
+       "category": "special"
+      }
+     ]
+    }
+   ],
+   "id": "ned"
+  }
+ ],
+ "verified": true,
+ "sources": [
+  "https://mrwalkthroughs.com/pokemon-emerald-seaglass/"
+ ]
+}

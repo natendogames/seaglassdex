@@ -1,0 +1,692 @@
+{
+ "id": "route-124",
+ "name": "Route 124",
+ "encounters": [
+  {
+   "dex": 99,
+   "name": "Shellder",
+   "method": "surf",
+   "levels": "5-35",
+   "rate": "60%",
+   "area": "Outside"
+  },
+  {
+   "dex": 133,
+   "name": "Horsea",
+   "method": "surf",
+   "levels": "10-30",
+   "rate": "30%",
+   "area": "Outside"
+  },
+  {
+   "dex": 134,
+   "name": "Seadra",
+   "method": "surf",
+   "levels": "25-35",
+   "rate": "10%",
+   "area": "Outside"
+  },
+  {
+   "dex": 155,
+   "name": "Magikarp",
+   "method": "old-rod",
+   "levels": "5-10",
+   "rate": "70%",
+   "area": "Outside"
+  },
+  {
+   "dex": 79,
+   "name": "Tentacool",
+   "method": "old-rod",
+   "levels": "5-10",
+   "rate": "30%",
+   "area": "Outside"
+  },
+  {
+   "dex": 155,
+   "name": "Magikarp",
+   "method": "good-rod",
+   "levels": "10-30",
+   "rate": "60%",
+   "area": "Outside"
+  },
+  {
+   "dex": 79,
+   "name": "Tentacool",
+   "method": "good-rod",
+   "levels": "10-30",
+   "rate": "20%",
+   "area": "Outside"
+  },
+  {
+   "dex": 354,
+   "name": "Wailmer",
+   "method": "good-rod",
+   "levels": "10-30",
+   "rate": "20%",
+   "area": "Outside"
+  },
+  {
+   "dex": 156,
+   "name": "Gyarados",
+   "method": "super-rod",
+   "levels": "30-35",
+   "rate": "40%",
+   "area": "Outside"
+  },
+  {
+   "dex": 353,
+   "name": "Sharpedo",
+   "method": "super-rod",
+   "levels": "30-35",
+   "rate": "40%",
+   "area": "Outside"
+  },
+  {
+   "dex": 354,
+   "name": "Wailmer",
+   "method": "super-rod",
+   "levels": "25-45",
+   "rate": "20%",
+   "area": "Outside"
+  },
+  {
+   "dex": 155,
+   "name": "Magikarp",
+   "method": "dexnav-surf",
+   "levels": "10-30",
+   "rate": "33%",
+   "area": "Outside"
+  },
+  {
+   "dex": 246,
+   "name": "Qwilfish",
+   "method": "dexnav-surf",
+   "levels": "10-30",
+   "rate": "33%",
+   "area": "Outside"
+  },
+  {
+   "dex": 354,
+   "name": "Wailmer",
+   "method": "dexnav-surf",
+   "levels": "10-30",
+   "rate": "33%",
+   "area": "Outside"
+  },
+  {
+   "dex": 402,
+   "name": "Clamperl",
+   "method": "dive",
+   "levels": "20-35",
+   "rate": "65%",
+   "area": "Underwater"
+  },
+  {
+   "dex": 203,
+   "name": "Chinchou",
+   "method": "dive",
+   "levels": "20-30",
+   "rate": "30%",
+   "area": "Underwater"
+  },
+  {
+   "dex": 405,
+   "name": "Relicanth",
+   "method": "dive",
+   "levels": "30-35",
+   "rate": "5%",
+   "area": "Underwater"
+  }
+ ],
+ "items": [
+  {
+   "id": "outside-red-shard",
+   "name": "Red Shard",
+   "hidden": false,
+   "where": "Outside",
+   "later": true,
+   "need": "Dive (HM08 from Steven in Mossdeep City, after the Mind Badge)",
+   "after": "mossdeep-city",
+   "stage": 52.5
+  },
+  {
+   "id": "outside-blue-shard",
+   "name": "Blue Shard",
+   "hidden": false,
+   "where": "Outside",
+   "later": true,
+   "need": "Dive (HM08 from Steven in Mossdeep City, after the Mind Badge)",
+   "after": "mossdeep-city",
+   "stage": 52.5
+  },
+  {
+   "id": "outside-yellow-shard",
+   "name": "Yellow Shard",
+   "hidden": false,
+   "where": "Outside",
+   "later": true,
+   "need": "Dive (HM08 from Steven in Mossdeep City, after the Mind Badge)",
+   "after": "mossdeep-city",
+   "stage": 52.5
+  },
+  {
+   "id": "hidden-underwater-carbos",
+   "name": "Carbos",
+   "hidden": true,
+   "where": "Underwater",
+   "later": true,
+   "need": "Dive (HM08 from Steven in Mossdeep City, after the Mind Badge)",
+   "after": "mossdeep-city",
+   "stage": 52.5
+  },
+  {
+   "id": "hidden-underwater-green-shard",
+   "name": "Green Shard",
+   "hidden": true,
+   "where": "Underwater",
+   "later": true,
+   "need": "Dive (HM08 from Steven in Mossdeep City, after the Mind Badge)",
+   "after": "mossdeep-city",
+   "stage": 52.5
+  },
+  {
+   "id": "hidden-underwater-pearl",
+   "name": "Pearl",
+   "hidden": true,
+   "where": "Underwater",
+   "later": true,
+   "need": "Dive (HM08 from Steven in Mossdeep City, after the Mind Badge)",
+   "after": "mossdeep-city",
+   "stage": 52.5
+  },
+  {
+   "id": "hidden-underwater-big-pearl",
+   "name": "Big Pearl",
+   "hidden": true,
+   "where": "Underwater",
+   "later": true,
+   "need": "Dive (HM08 from Steven in Mossdeep City, after the Mind Badge)",
+   "after": "mossdeep-city",
+   "stage": 52.5
+  },
+  {
+   "id": "hidden-underwater-heart-scale",
+   "name": "Heart Scale",
+   "hidden": true,
+   "where": "Underwater",
+   "later": true,
+   "need": "Dive (HM08 from Steven in Mossdeep City, after the Mind Badge)",
+   "after": "mossdeep-city",
+   "stage": 52.5
+  },
+  {
+   "id": "hidden-underwater-calcium",
+   "name": "Calcium",
+   "hidden": true,
+   "where": "Underwater",
+   "later": true,
+   "need": "Dive (HM08 from Steven in Mossdeep City, after the Mind Badge)",
+   "after": "mossdeep-city",
+   "stage": 52.5
+  },
+  {
+   "id": "hidden-underwater-heart-scale-2",
+   "name": "Heart Scale",
+   "hidden": true,
+   "where": "Underwater",
+   "later": true,
+   "need": "Dive (HM08 from Steven in Mossdeep City, after the Mind Badge)",
+   "after": "mossdeep-city",
+   "stage": 52.5
+  }
+ ],
+ "gifts": [],
+ "trainers": [
+  {
+   "class": "Swimmer♀",
+   "name": "Grace",
+   "prize": 272,
+   "party": [
+    {
+     "dex": 86,
+     "name": "Slowpoke",
+     "level": 34,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Disable",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Headbutt",
+       "type": "Normal",
+       "power": 70,
+       "category": "physical"
+      },
+      {
+       "name": "Water Pulse",
+       "type": "Water",
+       "power": 60,
+       "category": "special"
+      },
+      {
+       "name": "Zen Headbutt",
+       "type": "Psychic",
+       "power": 80,
+       "category": "physical"
+      }
+     ]
+    }
+   ],
+   "id": "grace",
+   "area": "Outside"
+  },
+  {
+   "class": "Swimmer♂",
+   "name": "Declan",
+   "prize": 272,
+   "party": [
+    {
+     "dex": 156,
+     "name": "Gyarados",
+     "level": 34,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Twister",
+       "type": "Dragon",
+       "power": 40,
+       "category": "special"
+      },
+      {
+       "name": "Ice Fang",
+       "type": "Ice",
+       "power": 65,
+       "category": "physical"
+      },
+      {
+       "name": "Aqua Tail",
+       "type": "Water",
+       "power": 90,
+       "category": "physical"
+      },
+      {
+       "name": "Scary Face",
+       "type": "Normal",
+       "category": "status"
+      }
+     ]
+    }
+   ],
+   "id": "declan",
+   "area": "Outside"
+  },
+  {
+   "class": "Swimmer♂",
+   "name": "Spencer",
+   "prize": 264,
+   "party": [
+    {
+     "dex": 228,
+     "name": "Quagsire",
+     "level": 33,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Amnesia",
+       "type": "Psychic",
+       "category": "status"
+      },
+      {
+       "name": "Triple Dive",
+       "type": "Water",
+       "power": 30,
+       "category": "physical"
+      },
+      {
+       "name": "Body Slam",
+       "type": "Normal",
+       "power": 85,
+       "category": "physical"
+      },
+      {
+       "name": "Yawn",
+       "type": "Normal",
+       "category": "status"
+      }
+     ]
+    },
+    {
+     "dex": 261,
+     "name": "Octillery",
+     "level": 33,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Bubble Beam",
+       "type": "Water",
+       "power": 65,
+       "category": "special"
+      },
+      {
+       "name": "Focus Energy",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Wring Out",
+       "type": "Normal",
+       "power": 1,
+       "category": "special"
+      },
+      {
+       "name": "Flame Burst",
+       "type": "Fire",
+       "power": 70,
+       "category": "special"
+      }
+     ]
+    }
+   ],
+   "id": "spencer",
+   "area": "Outside"
+  },
+  {
+   "class": "Sis and Bro",
+   "name": "Lila ~ Roy",
+   "prize": 792,
+   "party": [
+    {
+     "dex": 203,
+     "name": "Chinchou",
+     "level": 34,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Spark",
+       "type": "Electric",
+       "power": 65,
+       "category": "physical"
+      },
+      {
+       "name": "Signal Beam",
+       "type": "Bug",
+       "power": 75,
+       "category": "special"
+      },
+      {
+       "name": "Flail",
+       "type": "Normal",
+       "power": 1,
+       "category": "physical"
+      },
+      {
+       "name": "Discharge",
+       "type": "Electric",
+       "power": 80,
+       "category": "special"
+      }
+     ]
+    },
+    {
+     "dex": 157,
+     "name": "Lapras",
+     "level": 33,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Body Slam",
+       "type": "Normal",
+       "power": 85,
+       "category": "physical"
+      },
+      {
+       "name": "Rain Dance",
+       "type": "Water",
+       "category": "status"
+      },
+      {
+       "name": "Perish Song",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Ice Beam",
+       "type": "Ice",
+       "power": 90,
+       "category": "special"
+      }
+     ]
+    }
+   ],
+   "double": true,
+   "id": "lila-and-roy",
+   "area": "Outside"
+  },
+  {
+   "class": "Swimmer♀",
+   "name": "Jenny",
+   "prize": 264,
+   "party": [
+    {
+     "dex": 354,
+     "name": "Wailmer",
+     "level": 32,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Echoed Voice",
+       "type": "Normal",
+       "power": 40,
+       "category": "special"
+      },
+      {
+       "name": "Mist",
+       "type": "Ice",
+       "category": "status"
+      },
+      {
+       "name": "Brine",
+       "type": "Water",
+       "power": 65,
+       "category": "special"
+      },
+      {
+       "name": "Rest",
+       "type": "Psychic",
+       "category": "status"
+      }
+     ]
+    },
+    {
+     "dex": 228,
+     "name": "Quagsire",
+     "level": 33,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Amnesia",
+       "type": "Psychic",
+       "category": "status"
+      },
+      {
+       "name": "Triple Dive",
+       "type": "Water",
+       "power": 30,
+       "category": "physical"
+      },
+      {
+       "name": "Body Slam",
+       "type": "Normal",
+       "power": 85,
+       "category": "physical"
+      },
+      {
+       "name": "Yawn",
+       "type": "Normal",
+       "category": "status"
+      }
+     ]
+    }
+   ],
+   "id": "jenny",
+   "area": "Outside"
+  },
+  {
+   "class": "Swimmer♂",
+   "name": "Chad",
+   "prize": 264,
+   "party": [
+    {
+     "dex": 259,
+     "name": "Corsola",
+     "level": 33,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Pin Missile",
+       "type": "Bug",
+       "power": 25,
+       "category": "physical"
+      },
+      {
+       "name": "Brine",
+       "type": "Water",
+       "power": 65,
+       "category": "special"
+      },
+      {
+       "name": "Iron Defense",
+       "type": "Steel",
+       "category": "status"
+      },
+      {
+       "name": "Rock Blast",
+       "type": "Rock",
+       "power": 25,
+       "category": "physical"
+      }
+     ]
+    },
+    {
+     "dex": 69,
+     "name": "Politoed",
+     "level": 33,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Hypnosis",
+       "type": "Psychic",
+       "category": "status"
+      },
+      {
+       "name": "Double Slap",
+       "type": "Normal",
+       "power": 15,
+       "category": "physical"
+      },
+      {
+       "name": "Perish Song",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Swagger",
+       "type": "Normal",
+       "category": "status"
+      }
+     ]
+    }
+   ],
+   "id": "chad",
+   "area": "Outside"
+  },
+  {
+   "class": "Swimmer♂",
+   "name": "Roland",
+   "prize": 272,
+   "party": [
+    {
+     "dex": 376,
+     "name": "Crawdaunt",
+     "level": 34,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Double Hit",
+       "type": "Normal",
+       "power": 40,
+       "category": "physical"
+      },
+      {
+       "name": "Knock Off",
+       "type": "Dark",
+       "power": 65,
+       "category": "physical"
+      },
+      {
+       "name": "Night Slash",
+       "type": "Dark",
+       "power": 70,
+       "category": "physical"
+      },
+      {
+       "name": "Razor Shell",
+       "type": "Water",
+       "power": 75,
+       "category": "physical"
+      }
+     ]
+    }
+   ],
+   "id": "roland",
+   "area": "Outside"
+  },
+  {
+   "class": "Triathlete",
+   "name": "Isabella",
+   "prize": 1360,
+   "party": [
+    {
+     "dex": 109,
+     "name": "Kingler",
+     "level": 34,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Metal Claw",
+       "type": "Steel",
+       "power": 50,
+       "category": "physical"
+      },
+      {
+       "name": "Stomp",
+       "type": "Normal",
+       "power": 65,
+       "category": "physical"
+      },
+      {
+       "name": "Shadow Claw",
+       "type": "Ghost",
+       "power": 70,
+       "category": "physical"
+      },
+      {
+       "name": "Protect",
+       "type": "Normal",
+       "category": "status"
+      }
+     ]
+    }
+   ],
+   "id": "isabella",
+   "area": "Outside"
+  }
+ ],
+ "verified": true,
+ "sources": [
+  "https://mrwalkthroughs.com/pokemon-emerald-seaglass/"
+ ]
+}

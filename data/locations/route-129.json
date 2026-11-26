@@ -1,0 +1,434 @@
+{
+ "id": "route-129",
+ "name": "Route 129",
+ "encounters": [
+  {
+   "dex": 309,
+   "name": "Wingull",
+   "method": "surf",
+   "levels": "5-35",
+   "rate": "60%"
+  },
+  {
+   "dex": 354,
+   "name": "Wailmer",
+   "method": "surf",
+   "levels": "10-30",
+   "rate": "35%"
+  },
+  {
+   "dex": 355,
+   "name": "Wailord",
+   "method": "surf",
+   "levels": "25-30",
+   "rate": "5%"
+  },
+  {
+   "dex": 155,
+   "name": "Magikarp",
+   "method": "old-rod",
+   "levels": "5-10",
+   "rate": "70%"
+  },
+  {
+   "dex": 79,
+   "name": "Tentacool",
+   "method": "old-rod",
+   "levels": "5-10",
+   "rate": "30%"
+  },
+  {
+   "dex": 155,
+   "name": "Magikarp",
+   "method": "good-rod",
+   "levels": "10-30",
+   "rate": "60%"
+  },
+  {
+   "dex": 79,
+   "name": "Tentacool",
+   "method": "good-rod",
+   "levels": "10-30",
+   "rate": "20%"
+  },
+  {
+   "dex": 354,
+   "name": "Wailmer",
+   "method": "good-rod",
+   "levels": "10-30",
+   "rate": "20%"
+  },
+  {
+   "dex": 354,
+   "name": "Wailmer",
+   "method": "super-rod",
+   "levels": "25-45",
+   "rate": "60%"
+  },
+  {
+   "dex": 353,
+   "name": "Sharpedo",
+   "method": "super-rod",
+   "levels": "30-35",
+   "rate": "40%"
+  }
+ ],
+ "items": [],
+ "gifts": [],
+ "trainers": [
+  {
+   "class": "Swimmer♂",
+   "name": "Reed",
+   "prize": 264,
+   "party": [
+    {
+     "dex": 400,
+     "name": "Sealeo",
+     "level": 33,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Body Slam",
+       "type": "Normal",
+       "power": 85,
+       "category": "physical"
+      },
+      {
+       "name": "Anchor Shot",
+       "type": "Steel",
+       "power": 80,
+       "category": "physical"
+      },
+      {
+       "name": "Rest",
+       "type": "Psychic",
+       "category": "status"
+      },
+      {
+       "name": "Snore",
+       "type": "Normal",
+       "power": 50,
+       "category": "special"
+      }
+     ]
+    },
+    {
+     "dex": 353,
+     "name": "Sharpedo",
+     "level": 33,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Swagger",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Ice Fang",
+       "type": "Ice",
+       "power": 65,
+       "category": "physical"
+      },
+      {
+       "name": "Flip Turn",
+       "type": "Water",
+       "power": 60,
+       "category": "physical"
+      },
+      {
+       "name": "Scary Face",
+       "type": "Normal",
+       "category": "status"
+      }
+     ]
+    }
+   ],
+   "id": "reed"
+  },
+  {
+   "class": "Triathlete",
+   "name": "Chase",
+   "prize": 1360,
+   "party": [
+    {
+     "dex": 264,
+     "name": "Mantine",
+     "level": 34,
+     "iv": 9,
+     "moves": [
+      {
+       "name": "Wide Guard",
+       "type": "Rock",
+       "category": "status"
+      },
+      {
+       "name": "Take Down",
+       "type": "Normal",
+       "power": 90,
+       "category": "physical"
+      },
+      {
+       "name": "Agility",
+       "type": "Psychic",
+       "category": "status"
+      },
+      {
+       "name": "Air Slash",
+       "type": "Flying",
+       "power": 75,
+       "category": "special"
+      }
+     ]
+    },
+    {
+     "dex": 96,
+     "name": "Dewgong",
+     "level": 34,
+     "iv": 9,
+     "moves": [
+      {
+       "name": "Aqua Ring",
+       "type": "Water",
+       "category": "status"
+      },
+      {
+       "name": "Aurora Beam",
+       "type": "Ice",
+       "power": 65,
+       "category": "special"
+      },
+      {
+       "name": "Aqua Jet",
+       "type": "Water",
+       "power": 40,
+       "category": "physical"
+      },
+      {
+       "name": "Brine",
+       "type": "Water",
+       "power": 65,
+       "category": "special"
+      }
+     ]
+    }
+   ],
+   "id": "chase"
+  },
+  {
+   "class": "Swimmer♀",
+   "name": "Tisha",
+   "prize": 272,
+   "party": [
+    {
+     "dex": 204,
+     "name": "Lanturn",
+     "level": 34,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Spark",
+       "type": "Electric",
+       "power": 65,
+       "category": "physical"
+      },
+      {
+       "name": "Signal Beam",
+       "type": "Bug",
+       "power": 75,
+       "category": "special"
+      },
+      {
+       "name": "Flail",
+       "type": "Normal",
+       "power": 1,
+       "category": "physical"
+      },
+      {
+       "name": "Discharge",
+       "type": "Electric",
+       "power": 80,
+       "category": "special"
+      }
+     ]
+    },
+    {
+     "dex": 406,
+     "name": "Luvdisc",
+     "level": 34,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Flail",
+       "type": "Normal",
+       "power": 1,
+       "category": "physical"
+      },
+      {
+       "name": "Dazzling Gleam",
+       "type": "Fairy",
+       "power": 80,
+       "category": "special"
+      },
+      {
+       "name": "Sweet Kiss",
+       "type": "Fairy",
+       "category": "status"
+      },
+      {
+       "name": "Take Down",
+       "type": "Normal",
+       "power": 90,
+       "category": "physical"
+      }
+     ]
+    }
+   ],
+   "id": "tisha"
+  },
+  {
+   "class": "Swimmer♂",
+   "name": "Clarence",
+   "prize": 272,
+   "party": [
+    {
+     "dex": 353,
+     "name": "Sharpedo",
+     "level": 34,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Ice Fang",
+       "type": "Ice",
+       "power": 65,
+       "category": "physical"
+      },
+      {
+       "name": "Flip Turn",
+       "type": "Water",
+       "power": 60,
+       "category": "physical"
+      },
+      {
+       "name": "Scary Face",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Poison Fang",
+       "type": "Poison",
+       "power": 50,
+       "category": "physical"
+      }
+     ]
+    },
+    {
+     "dex": 134,
+     "name": "Seadra",
+     "level": 34,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Water Pulse",
+       "type": "Water",
+       "power": 60,
+       "category": "special"
+      },
+      {
+       "name": "Focus Energy",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Brine",
+       "type": "Water",
+       "power": 65,
+       "category": "special"
+      },
+      {
+       "name": "Aura Sphere",
+       "type": "Fighting",
+       "power": 80,
+       "category": "special"
+      }
+     ]
+    }
+   ],
+   "id": "clarence"
+  },
+  {
+   "class": "Triathlete",
+   "name": "Allison",
+   "prize": 1320,
+   "party": [
+    {
+     "dex": 17,
+     "name": "Pidgeotto",
+     "level": 27,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Quick Attack",
+       "type": "Normal",
+       "power": 40,
+       "category": "physical"
+      },
+      {
+       "name": "Whirlwind",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Twister",
+       "type": "Dragon",
+       "power": 40,
+       "category": "special"
+      },
+      {
+       "name": "Wing Attack",
+       "type": "Flying",
+       "power": 60,
+       "category": "physical"
+      }
+     ]
+    },
+    {
+     "dex": 60,
+     "name": "Golduck",
+     "level": 33,
+     "iv": 29,
+     "moves": [
+      {
+       "name": "Zen Headbutt",
+       "type": "Psychic",
+       "power": 80,
+       "category": "physical"
+      },
+      {
+       "name": "Aqua Tail",
+       "type": "Water",
+       "power": 90,
+       "category": "physical"
+      },
+      {
+       "name": "Aqua Jet",
+       "type": "Water",
+       "power": 40,
+       "category": "physical"
+      },
+      {
+       "name": "Psybeam",
+       "type": "Psychic",
+       "power": 65,
+       "category": "special"
+      }
+     ]
+    }
+   ],
+   "id": "allison"
+  }
+ ],
+ "verified": true,
+ "sources": [
+  "https://mrwalkthroughs.com/pokemon-emerald-seaglass/"
+ ]
+}

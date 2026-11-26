@@ -1,0 +1,970 @@
+{
+ "id": "route-114",
+ "name": "Route 114",
+ "encounters": [
+  {
+   "dex": 367,
+   "name": "Swablu",
+   "method": "grass",
+   "levels": "15-16",
+   "rate": "30%"
+  },
+  {
+   "dex": 301,
+   "name": "Lotad",
+   "method": "grass",
+   "levels": "16",
+   "rate": "20%"
+  },
+  {
+   "dex": 197,
+   "name": "Hoothoot",
+   "method": "grass",
+   "levels": "15",
+   "rate": "10%"
+  },
+  {
+   "dex": 270,
+   "name": "Stantler",
+   "method": "grass",
+   "levels": "16-18",
+   "rate": "10%"
+  },
+  {
+   "dex": 273,
+   "name": "Miltank",
+   "method": "grass",
+   "levels": "16",
+   "rate": "10%"
+  },
+  {
+   "dex": 302,
+   "name": "Lombre",
+   "method": "grass",
+   "levels": "17",
+   "rate": "10%"
+  },
+  {
+   "dex": 369,
+   "name": "Zangoose",
+   "method": "grass",
+   "levels": "15",
+   "rate": "4%"
+  },
+  {
+   "dex": 370,
+   "name": "Seviper",
+   "method": "grass",
+   "levels": "17",
+   "rate": "4%"
+  },
+  {
+   "dex": 1,
+   "name": "Bulbasaur",
+   "method": "grass",
+   "levels": "15-17",
+   "rate": "2%"
+  },
+  {
+   "dex": 374,
+   "name": "Whiscash",
+   "method": "surf",
+   "levels": "20-30",
+   "rate": "60%"
+  },
+  {
+   "dex": 373,
+   "name": "Barboach",
+   "method": "surf",
+   "levels": "10-20",
+   "rate": "30%"
+  },
+  {
+   "dex": 214,
+   "name": "Marill",
+   "method": "surf",
+   "levels": "5-35",
+   "rate": "9%"
+  },
+  {
+   "dex": 136,
+   "name": "Goldeen",
+   "method": "surf",
+   "levels": "20-30",
+   "rate": "1%"
+  },
+  {
+   "dex": 155,
+   "name": "Magikarp",
+   "method": "old-rod",
+   "levels": "5-10",
+   "rate": "70%"
+  },
+  {
+   "dex": 373,
+   "name": "Barboach",
+   "method": "old-rod",
+   "levels": "5-10",
+   "rate": "30%"
+  },
+  {
+   "dex": 99,
+   "name": "Shellder",
+   "method": "good-rod",
+   "levels": "10-30",
+   "rate": "60%"
+  },
+  {
+   "dex": 373,
+   "name": "Barboach",
+   "method": "good-rod",
+   "levels": "10-30",
+   "rate": "40%"
+  },
+  {
+   "dex": 373,
+   "name": "Barboach",
+   "method": "super-rod",
+   "levels": "20-45",
+   "rate": "100%"
+  },
+  {
+   "dex": 81,
+   "name": "Geodude",
+   "method": "rock-smash",
+   "levels": "5-20",
+   "rate": "100%"
+  },
+  {
+   "dex": 61,
+   "name": "Mankey",
+   "method": "dexnav",
+   "levels": "16-18",
+   "rate": "33%"
+  },
+  {
+   "dex": 104,
+   "name": "Onix",
+   "method": "dexnav",
+   "levels": "16-18",
+   "rate": "33%"
+  },
+  {
+   "dex": 114,
+   "name": "Cubone",
+   "method": "dexnav",
+   "levels": "16-18",
+   "rate": "33%"
+  }
+ ],
+ "items": [
+  {
+   "id": "outside-rare-candy",
+   "name": "Rare Candy",
+   "hidden": false,
+   "where": "Outside",
+   "later": true,
+   "need": "Waterfall (HM07 from the Scuba Safari in Pacifidlog Town; usable outside battle once you have all 8 badges)",
+   "after": "sky-pillar",
+   "stage": 64.5
+  },
+  {
+   "id": "outside-protein",
+   "name": "Protein",
+   "hidden": false,
+   "where": "Outside"
+  },
+  {
+   "id": "outside-energy-powder",
+   "name": "Energy Powder",
+   "hidden": false,
+   "where": "Outside"
+  },
+  {
+   "id": "outside-wishing-star",
+   "name": "Wishing Star",
+   "hidden": false,
+   "where": "Outside"
+  },
+  {
+   "id": "hidden-outside-carbos",
+   "name": "Carbos",
+   "hidden": true,
+   "where": "Outside"
+  },
+  {
+   "id": "hidden-outside-revive",
+   "name": "Revive",
+   "hidden": true,
+   "where": "Outside"
+  },
+  {
+   "id": "lanette-s-house-linking-cord",
+   "name": "Linking Cord",
+   "hidden": false,
+   "where": "Lanette's House"
+  }
+ ],
+ "gifts": [
+  {
+   "id": "item-outside-tm05",
+   "name": "TM05",
+   "from": "Gentleman",
+   "where": "Outside"
+  },
+  {
+   "id": "item-fossil-maniac-s-house-tm28",
+   "name": "TM28",
+   "from": "Fossil Maniac's brother",
+   "where": "Fossil Maniac's House"
+  }
+ ],
+ "trainers": [
+  {
+   "class": "Picnicker",
+   "name": "Angelina",
+   "prize": 288,
+   "party": [
+    {
+     "dex": 302,
+     "name": "Lombre",
+     "level": 18,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Bubble",
+       "type": "Water",
+       "power": 30,
+       "category": "special"
+      },
+      {
+       "name": "Fury Swipes",
+       "type": "Normal",
+       "power": 18,
+       "category": "physical"
+      },
+      {
+       "name": "Fake Out",
+       "type": "Normal",
+       "power": 40,
+       "category": "physical"
+      },
+      {
+       "name": "Mega Drain",
+       "type": "Grass",
+       "power": 50,
+       "category": "special"
+      }
+     ]
+    },
+    {
+     "dex": 227,
+     "name": "Wooper",
+     "level": 18,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Tail Whip",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Mud Sport",
+       "type": "Ground",
+       "category": "status"
+      },
+      {
+       "name": "Mud Shot",
+       "type": "Ground",
+       "power": 55,
+       "category": "special"
+      },
+      {
+       "name": "Slam",
+       "type": "Normal",
+       "power": 75,
+       "category": "physical"
+      }
+     ]
+    }
+   ],
+   "id": "angelina"
+  },
+  {
+   "class": "Hiker",
+   "name": "Lucas",
+   "prize": 720,
+   "party": [
+    {
+     "dex": 124,
+     "name": "Rhyhorn",
+     "level": 18,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Fury Attack",
+       "type": "Normal",
+       "power": 15,
+       "category": "physical"
+      },
+      {
+       "name": "Scary Face",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Smack Down",
+       "type": "Rock",
+       "power": 50,
+       "category": "physical"
+      },
+      {
+       "name": "Stomp",
+       "type": "Normal",
+       "power": 65,
+       "category": "physical"
+      }
+     ]
+    },
+    {
+     "dex": 356,
+     "name": "Numel",
+     "level": 18,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Focus Energy",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Magnitude",
+       "type": "Ground",
+       "power": 1,
+       "category": "physical"
+      },
+      {
+       "name": "Flame Burst",
+       "type": "Fire",
+       "power": 70,
+       "category": "special"
+      },
+      {
+       "name": "Headbutt",
+       "type": "Normal",
+       "power": 70,
+       "category": "physical"
+      }
+     ]
+    }
+   ],
+   "id": "lucas"
+  },
+  {
+   "class": "Hiker",
+   "name": "Lenny",
+   "prize": 720,
+   "party": [
+    {
+     "dex": 81,
+     "name": "Geodude",
+     "level": 18,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Rollout",
+       "type": "Rock",
+       "power": 30,
+       "category": "physical"
+      },
+      {
+       "name": "Magnitude",
+       "type": "Ground",
+       "power": 1,
+       "category": "physical"
+      },
+      {
+       "name": "Rock Throw",
+       "type": "Rock",
+       "power": 50,
+       "category": "physical"
+      },
+      {
+       "name": "Smack Down",
+       "type": "Rock",
+       "power": 50,
+       "category": "physical"
+      }
+     ]
+    },
+    {
+     "dex": 73,
+     "name": "Machop",
+     "level": 18,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Karate Chop",
+       "type": "Fighting",
+       "power": 50,
+       "category": "physical"
+      },
+      {
+       "name": "Foresight",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Low Sweep",
+       "type": "Fighting",
+       "power": 65,
+       "category": "physical"
+      },
+      {
+       "name": "Seismic Toss",
+       "type": "Fighting",
+       "power": 1,
+       "category": "physical"
+      }
+     ]
+    }
+   ],
+   "id": "lenny"
+  },
+  {
+   "class": "Kindler",
+   "name": "Bernie",
+   "prize": 576,
+   "party": [
+    {
+     "dex": 254,
+     "name": "Slugma",
+     "level": 18,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Ember",
+       "type": "Fire",
+       "power": 40,
+       "category": "special"
+      },
+      {
+       "name": "Rock Throw",
+       "type": "Rock",
+       "power": 50,
+       "category": "physical"
+      },
+      {
+       "name": "Harden",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Incinerate",
+       "type": "Fire",
+       "power": 60,
+       "category": "special"
+      }
+     ]
+    },
+    {
+     "dex": 309,
+     "name": "Wingull",
+     "level": 18,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Supersonic",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Wing Attack",
+       "type": "Flying",
+       "power": 60,
+       "category": "physical"
+      },
+      {
+       "name": "Mist",
+       "type": "Ice",
+       "category": "status"
+      },
+      {
+       "name": "Water Pulse",
+       "type": "Water",
+       "power": 60,
+       "category": "special"
+      }
+     ]
+    }
+   ],
+   "id": "bernie"
+  },
+  {
+   "class": "Poké Maniac",
+   "name": "Steve",
+   "prize": 1140,
+   "party": [
+    {
+     "dex": 336,
+     "name": "Aron",
+     "level": 19,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Metal Claw",
+       "type": "Steel",
+       "power": 50,
+       "category": "physical"
+      },
+      {
+       "name": "Rock Tomb",
+       "type": "Rock",
+       "power": 60,
+       "category": "physical"
+      },
+      {
+       "name": "Protect",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Roar",
+       "type": "Normal",
+       "category": "status"
+      }
+     ]
+    }
+   ],
+   "id": "steve"
+  },
+  {
+   "class": "Camper",
+   "name": "Shane",
+   "prize": 288,
+   "party": [
+    {
+     "dex": 268,
+     "name": "Phanpy",
+     "level": 18,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Flail",
+       "type": "Normal",
+       "power": 1,
+       "category": "physical"
+      },
+      {
+       "name": "Rollout",
+       "type": "Rock",
+       "power": 30,
+       "category": "physical"
+      },
+      {
+       "name": "Natural Gift",
+       "type": "Normal",
+       "power": 1,
+       "category": "physical"
+      },
+      {
+       "name": "Magnitude",
+       "type": "Ground",
+       "power": 1,
+       "category": "physical"
+      }
+     ]
+    },
+    {
+     "dex": 305,
+     "name": "Nuzleaf",
+     "level": 18,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Growth",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Torment",
+       "type": "Dark",
+       "category": "status"
+      },
+      {
+       "name": "Fake Out",
+       "type": "Normal",
+       "power": 40,
+       "category": "physical"
+      },
+      {
+       "name": "Nature Power",
+       "type": "Normal",
+       "power": 1,
+       "category": "status"
+      }
+     ]
+    }
+   ],
+   "id": "shane"
+  },
+  {
+   "class": "Sr. and Jr.",
+   "name": "Tyra ~ Ivy",
+   "prize": 640,
+   "party": [
+    {
+     "dex": 130,
+     "name": "Tangela",
+     "level": 18,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Growth",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Knock Off",
+       "type": "Dark",
+       "power": 65,
+       "category": "physical"
+      },
+      {
+       "name": "Mega Drain",
+       "type": "Grass",
+       "power": 50,
+       "category": "special"
+      },
+      {
+       "name": "Sleep Powder",
+       "type": "Grass",
+       "category": "status"
+      }
+     ]
+    },
+    {
+     "dex": 82,
+     "name": "Graveler",
+     "level": 20,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Defense Curl",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Rollout",
+       "type": "Rock",
+       "power": 30,
+       "category": "physical"
+      },
+      {
+       "name": "Mud Sport",
+       "type": "Ground",
+       "category": "status"
+      },
+      {
+       "name": "Rock Throw",
+       "type": "Rock",
+       "power": 50,
+       "category": "physical"
+      }
+     ]
+    }
+   ],
+   "double": true,
+   "id": "tyra-and-ivy"
+  },
+  {
+   "class": "Picnicker",
+   "name": "Nancy",
+   "prize": 288,
+   "party": [
+    {
+     "dex": 214,
+     "name": "Marill",
+     "level": 18,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Defense Curl",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Rollout",
+       "type": "Rock",
+       "power": 30,
+       "category": "physical"
+      },
+      {
+       "name": "Bubble Beam",
+       "type": "Water",
+       "power": 65,
+       "category": "special"
+      },
+      {
+       "name": "Helping Hand",
+       "type": "Normal",
+       "category": "status"
+      }
+     ]
+    },
+    {
+     "dex": 153,
+     "name": "Pinsir",
+     "level": 18,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Seismic Toss",
+       "type": "Fighting",
+       "power": 1,
+       "category": "physical"
+      },
+      {
+       "name": "Harden",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Revenge",
+       "type": "Fighting",
+       "power": 60,
+       "category": "physical"
+      },
+      {
+       "name": "Vital Throw",
+       "type": "Fighting",
+       "power": 70,
+       "category": "physical"
+      }
+     ]
+    }
+   ],
+   "id": "nancy"
+  },
+  {
+   "class": "Fisherman",
+   "name": "Claude",
+   "prize": 720,
+   "party": [
+    {
+     "dex": 136,
+     "name": "Goldeen",
+     "level": 16,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Supersonic",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Horn Attack",
+       "type": "Normal",
+       "power": 65,
+       "category": "physical"
+      },
+      {
+       "name": "Flail",
+       "type": "Normal",
+       "power": 1,
+       "category": "physical"
+      },
+      {
+       "name": "Water Pulse",
+       "type": "Water",
+       "power": 60,
+       "category": "special"
+      }
+     ]
+    },
+    {
+     "dex": 181,
+     "name": "Dratini",
+     "level": 17,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Leer",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Thunder Wave",
+       "type": "Electric",
+       "category": "status"
+      },
+      {
+       "name": "Twister",
+       "type": "Dragon",
+       "power": 40,
+       "category": "special"
+      },
+      {
+       "name": "Dragon Rage",
+       "type": "Dragon",
+       "power": 1,
+       "category": "special"
+      }
+     ]
+    },
+    {
+     "dex": 373,
+     "name": "Barboach",
+     "level": 18,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Water Gun",
+       "type": "Water",
+       "power": 40,
+       "category": "special"
+      },
+      {
+       "name": "Mud Bomb",
+       "type": "Ground",
+       "power": 65,
+       "category": "special"
+      },
+      {
+       "name": "Amnesia",
+       "type": "Psychic",
+       "category": "status"
+      },
+      {
+       "name": "Water Pulse",
+       "type": "Water",
+       "power": 60,
+       "category": "special"
+      }
+     ]
+    }
+   ],
+   "id": "claude"
+  },
+  {
+   "class": "Picnicker",
+   "name": "Charlotte",
+   "prize": 304,
+   "party": [
+    {
+     "dex": 305,
+     "name": "Nuzleaf",
+     "level": 19,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Growth",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Torment",
+       "type": "Dark",
+       "category": "status"
+      },
+      {
+       "name": "Fake Out",
+       "type": "Normal",
+       "power": 40,
+       "category": "physical"
+      },
+      {
+       "name": "Nature Power",
+       "type": "Normal",
+       "power": 1,
+       "category": "status"
+      }
+     ]
+    }
+   ],
+   "id": "charlotte"
+  },
+  {
+   "class": "Fisherman",
+   "name": "Kai",
+   "prize": 760,
+   "party": [
+    {
+     "dex": 373,
+     "name": "Barboach",
+     "level": 19,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Water Gun",
+       "type": "Water",
+       "power": 40,
+       "category": "special"
+      },
+      {
+       "name": "Mud Bomb",
+       "type": "Ground",
+       "power": 65,
+       "category": "special"
+      },
+      {
+       "name": "Amnesia",
+       "type": "Psychic",
+       "category": "status"
+      },
+      {
+       "name": "Water Pulse",
+       "type": "Water",
+       "power": 60,
+       "category": "special"
+      }
+     ]
+    }
+   ],
+   "id": "kai"
+  },
+  {
+   "class": "Fisherman",
+   "name": "Nolan",
+   "prize": 760,
+   "party": [
+    {
+     "dex": 373,
+     "name": "Barboach",
+     "level": 19,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Water Gun",
+       "type": "Water",
+       "power": 40,
+       "category": "special"
+      },
+      {
+       "name": "Mud Bomb",
+       "type": "Ground",
+       "power": 65,
+       "category": "special"
+      },
+      {
+       "name": "Amnesia",
+       "type": "Psychic",
+       "category": "status"
+      },
+      {
+       "name": "Water Pulse",
+       "type": "Water",
+       "power": 60,
+       "category": "special"
+      }
+     ]
+    }
+   ],
+   "id": "nolan"
+  }
+ ],
+ "verified": true,
+ "sources": [
+  "https://mrwalkthroughs.com/pokemon-emerald-seaglass/"
+ ]
+}

@@ -1,0 +1,491 @@
+{
+ "id": "route-108",
+ "name": "Route 108",
+ "encounters": [
+  {
+   "dex": 79,
+   "name": "Tentacool",
+   "method": "surf",
+   "levels": "5-35",
+   "rate": "60%"
+  },
+  {
+   "dex": 138,
+   "name": "Staryu",
+   "method": "surf",
+   "levels": "10-30",
+   "rate": "34%"
+  },
+  {
+   "dex": 309,
+   "name": "Wingull",
+   "method": "surf",
+   "levels": "15-25",
+   "rate": "5%"
+  },
+  {
+   "dex": 310,
+   "name": "Pelipper",
+   "method": "surf",
+   "levels": "25-30",
+   "rate": "1%"
+  },
+  {
+   "dex": 155,
+   "name": "Magikarp",
+   "method": "old-rod",
+   "levels": "5-10",
+   "rate": "70%"
+  },
+  {
+   "dex": 79,
+   "name": "Tentacool",
+   "method": "old-rod",
+   "levels": "5-10",
+   "rate": "30%"
+  },
+  {
+   "dex": 155,
+   "name": "Magikarp",
+   "method": "good-rod",
+   "levels": "10-30",
+   "rate": "60%"
+  },
+  {
+   "dex": 79,
+   "name": "Tentacool",
+   "method": "good-rod",
+   "levels": "10-30",
+   "rate": "20%"
+  },
+  {
+   "dex": 354,
+   "name": "Wailmer",
+   "method": "good-rod",
+   "levels": "10-30",
+   "rate": "20%"
+  },
+  {
+   "dex": 354,
+   "name": "Wailmer",
+   "method": "super-rod",
+   "levels": "20-45",
+   "rate": "100%"
+  }
+ ],
+ "items": [
+  {
+   "id": "outside-star-piece",
+   "name": "Star Piece",
+   "hidden": false,
+   "where": "Outside"
+  },
+  {
+   "id": "hidden-outside-rare-candy",
+   "name": "Rare Candy",
+   "hidden": true,
+   "where": "Outside"
+  }
+ ],
+ "gifts": [],
+ "trainers": [
+  {
+   "class": "Swimmer♀",
+   "name": "Missy",
+   "prize": 208,
+   "party": [
+    {
+     "dex": 108,
+     "name": "Krabby",
+     "level": 26,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Bubble Beam",
+       "type": "Water",
+       "power": 65,
+       "category": "special"
+      },
+      {
+       "name": "Mud Shot",
+       "type": "Ground",
+       "power": 55,
+       "category": "special"
+      },
+      {
+       "name": "Metal Claw",
+       "type": "Steel",
+       "power": 50,
+       "category": "physical"
+      },
+      {
+       "name": "Stomp",
+       "type": "Normal",
+       "power": 65,
+       "category": "physical"
+      }
+     ]
+    }
+   ],
+   "id": "missy"
+  },
+  {
+   "class": "Swimmer♂",
+   "name": "Matthew",
+   "prize": 208,
+   "party": [
+    {
+     "dex": 156,
+     "name": "Gyarados",
+     "level": 26,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Bite",
+       "type": "Dark",
+       "power": 60,
+       "category": "physical"
+      },
+      {
+       "name": "Thrash",
+       "type": "Normal",
+       "power": 120,
+       "category": "physical"
+      },
+      {
+       "name": "Leer",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Twister",
+       "type": "Dragon",
+       "power": 40,
+       "category": "special"
+      }
+     ]
+    }
+   ],
+   "id": "matthew"
+  },
+  {
+   "class": "Swimmer♀",
+   "name": "Tara",
+   "prize": 200,
+   "party": [
+    {
+     "dex": 133,
+     "name": "Horsea",
+     "level": 25,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Leer",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Water Gun",
+       "type": "Water",
+       "power": 40,
+       "category": "special"
+      },
+      {
+       "name": "Twister",
+       "type": "Dragon",
+       "power": 40,
+       "category": "special"
+      },
+      {
+       "name": "Water Pulse",
+       "type": "Water",
+       "power": 60,
+       "category": "special"
+      }
+     ]
+    },
+    {
+     "dex": 134,
+     "name": "Seadra",
+     "level": 25,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Leer",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Water Gun",
+       "type": "Water",
+       "power": 40,
+       "category": "special"
+      },
+      {
+       "name": "Twister",
+       "type": "Dragon",
+       "power": 40,
+       "category": "special"
+      },
+      {
+       "name": "Water Pulse",
+       "type": "Water",
+       "power": 60,
+       "category": "special"
+      }
+     ]
+    }
+   ],
+   "id": "tara"
+  },
+  {
+   "class": "Cool Trainer",
+   "name": "Carolina",
+   "prize": 1152,
+   "party": [
+    {
+     "dex": 342,
+     "name": "Manectric",
+     "level": 24,
+     "iv": 6,
+     "moves": [
+      {
+       "name": "Spark",
+       "type": "Electric",
+       "power": 65,
+       "category": "physical"
+      },
+      {
+       "name": "Odor Sleuth",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Thunder Fang",
+       "type": "Electric",
+       "power": 65,
+       "category": "physical"
+      },
+      {
+       "name": "Bite",
+       "type": "Dark",
+       "power": 60,
+       "category": "physical"
+      }
+     ]
+    },
+    {
+     "dex": 308,
+     "name": "Swellow",
+     "level": 24,
+     "iv": 6,
+     "moves": [
+      {
+       "name": "Quick Attack",
+       "type": "Normal",
+       "power": 40,
+       "category": "physical"
+      },
+      {
+       "name": "Wing Attack",
+       "type": "Flying",
+       "power": 60,
+       "category": "physical"
+      },
+      {
+       "name": "Double Team",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Aerial Ace",
+       "type": "Flying",
+       "power": 60,
+       "category": "physical"
+      }
+     ]
+    },
+    {
+     "dex": 211,
+     "name": "Flaaffy",
+     "level": 24,
+     "iv": 6,
+     "moves": [
+      {
+       "name": "Thunder Shock",
+       "type": "Electric",
+       "power": 40,
+       "category": "special"
+      },
+      {
+       "name": "Cotton Spore",
+       "type": "Grass",
+       "category": "status"
+      },
+      {
+       "name": "Charge",
+       "type": "Electric",
+       "category": "status"
+      },
+      {
+       "name": "Take Down",
+       "type": "Normal",
+       "power": 90,
+       "category": "physical"
+      }
+     ]
+    }
+   ],
+   "uses": [
+    "Hyper Potion"
+   ],
+   "id": "carolina"
+  },
+  {
+   "class": "Sailor",
+   "name": "Cory",
+   "prize": 768,
+   "party": [
+    {
+     "dex": 309,
+     "name": "Wingull",
+     "level": 24,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Mist",
+       "type": "Ice",
+       "category": "status"
+      },
+      {
+       "name": "Water Pulse",
+       "type": "Water",
+       "power": 60,
+       "category": "special"
+      },
+      {
+       "name": "Quick Attack",
+       "type": "Normal",
+       "power": 40,
+       "category": "physical"
+      },
+      {
+       "name": "Air Cutter",
+       "type": "Flying",
+       "power": 60,
+       "category": "special"
+      }
+     ]
+    },
+    {
+     "dex": 73,
+     "name": "Machop",
+     "level": 24,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Low Sweep",
+       "type": "Fighting",
+       "power": 65,
+       "category": "physical"
+      },
+      {
+       "name": "Seismic Toss",
+       "type": "Fighting",
+       "power": 1,
+       "category": "physical"
+      },
+      {
+       "name": "Revenge",
+       "type": "Fighting",
+       "power": 60,
+       "category": "physical"
+      },
+      {
+       "name": "Knock Off",
+       "type": "Dark",
+       "power": 65,
+       "category": "physical"
+      }
+     ]
+    },
+    {
+     "dex": 375,
+     "name": "Corphish",
+     "level": 24,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Bubble Beam",
+       "type": "Water",
+       "power": 65,
+       "category": "special"
+      },
+      {
+       "name": "Protect",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Double Hit",
+       "type": "Normal",
+       "power": 40,
+       "category": "physical"
+      },
+      {
+       "name": "Knock Off",
+       "type": "Dark",
+       "power": 65,
+       "category": "physical"
+      }
+     ]
+    }
+   ],
+   "id": "cory"
+  },
+  {
+   "class": "Swimmer♂",
+   "name": "Jerome",
+   "prize": 208,
+   "party": [
+    {
+     "dex": 80,
+     "name": "Tentacruel",
+     "level": 26,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Water Pulse",
+       "type": "Water",
+       "power": 60,
+       "category": "special"
+      },
+      {
+       "name": "Wrap",
+       "type": "Normal",
+       "power": 15,
+       "category": "physical"
+      },
+      {
+       "name": "Acid Spray",
+       "type": "Poison",
+       "power": 40,
+       "category": "special"
+      },
+      {
+       "name": "Bubble Beam",
+       "type": "Water",
+       "power": 65,
+       "category": "special"
+      }
+     ]
+    }
+   ],
+   "id": "jerome"
+  }
+ ],
+ "verified": true,
+ "sources": [
+  "https://mrwalkthroughs.com/pokemon-emerald-seaglass/"
+ ]
+}

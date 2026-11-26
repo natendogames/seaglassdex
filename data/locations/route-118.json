@@ -1,0 +1,677 @@
+{
+ "id": "route-118",
+ "name": "Route 118",
+ "encounters": [
+  {
+   "dex": 294,
+   "name": "Zigzagoon",
+   "method": "grass",
+   "levels": "24",
+   "rate": "20%"
+  },
+  {
+   "dex": 341,
+   "name": "Electrike",
+   "method": "grass",
+   "levels": "24",
+   "rate": "20%"
+  },
+  {
+   "dex": 196,
+   "name": "Furret",
+   "method": "grass",
+   "levels": "26",
+   "rate": "14%"
+  },
+  {
+   "dex": 53,
+   "name": "Venonat",
+   "method": "grass",
+   "levels": "26",
+   "rate": "10%"
+  },
+  {
+   "dex": 59,
+   "name": "Psyduck",
+   "method": "grass",
+   "levels": "26",
+   "rate": "10%"
+  },
+  {
+   "dex": 342,
+   "name": "Manectric",
+   "method": "grass",
+   "levels": "26",
+   "rate": "10%"
+  },
+  {
+   "dex": 93,
+   "name": "Doduo",
+   "method": "grass",
+   "levels": "25",
+   "rate": "5%"
+  },
+  {
+   "dex": 225,
+   "name": "Yanma",
+   "method": "grass",
+   "levels": "25",
+   "rate": "5%"
+  },
+  {
+   "dex": 295,
+   "name": "Linoone",
+   "method": "grass",
+   "levels": "26",
+   "rate": "4%"
+  },
+  {
+   "dex": 386,
+   "name": "Kecleon",
+   "method": "grass",
+   "levels": "25-27",
+   "rate": "2%"
+  },
+  {
+   "dex": 79,
+   "name": "Tentacool",
+   "method": "surf",
+   "levels": "5-35",
+   "rate": "60%"
+  },
+  {
+   "dex": 309,
+   "name": "Wingull",
+   "method": "surf",
+   "levels": "10-30",
+   "rate": "35%"
+  },
+  {
+   "dex": 310,
+   "name": "Pelipper",
+   "method": "surf",
+   "levels": "25-30",
+   "rate": "5%"
+  },
+  {
+   "dex": 155,
+   "name": "Magikarp",
+   "method": "old-rod",
+   "levels": "5-10",
+   "rate": "70%"
+  },
+  {
+   "dex": 79,
+   "name": "Tentacool",
+   "method": "old-rod",
+   "levels": "5-10",
+   "rate": "30%"
+  },
+  {
+   "dex": 155,
+   "name": "Magikarp",
+   "method": "good-rod",
+   "levels": "10-30",
+   "rate": "60%"
+  },
+  {
+   "dex": 95,
+   "name": "Seel",
+   "method": "good-rod",
+   "levels": "10-30",
+   "rate": "20%"
+  },
+  {
+   "dex": 352,
+   "name": "Carvanha",
+   "method": "good-rod",
+   "levels": "10-30",
+   "rate": "20%"
+  },
+  {
+   "dex": 352,
+   "name": "Carvanha",
+   "method": "super-rod",
+   "levels": "20-45",
+   "rate": "60%"
+  },
+  {
+   "dex": 353,
+   "name": "Sharpedo",
+   "method": "super-rod",
+   "levels": "30-35",
+   "rate": "40%"
+  },
+  {
+   "dex": 89,
+   "name": "Magnemite",
+   "method": "dexnav",
+   "levels": "24-27",
+   "rate": "33%"
+  },
+  {
+   "dex": 248,
+   "name": "Heracross",
+   "method": "dexnav",
+   "levels": "24-27",
+   "rate": "33%"
+  },
+  {
+   "dex": 270,
+   "name": "Stantler",
+   "method": "dexnav",
+   "levels": "24-27",
+   "rate": "33%"
+  }
+ ],
+ "items": [
+  {
+   "id": "outside-dragon-scale",
+   "name": "Dragon Scale",
+   "hidden": false,
+   "where": "Outside"
+  },
+  {
+   "id": "hidden-outside-iron",
+   "name": "Iron",
+   "hidden": true,
+   "where": "Outside"
+  },
+  {
+   "id": "hidden-outside-heart-scale",
+   "name": "Heart Scale",
+   "hidden": true,
+   "where": "Outside"
+  }
+ ],
+ "gifts": [
+  {
+   "id": "item-outside-good-rod",
+   "name": "Good Rod",
+   "from": "Fisherman",
+   "where": "Outside"
+  }
+ ],
+ "trainers": [
+  {
+   "class": "Youngster",
+   "name": "Deandre",
+   "prize": 224,
+   "party": [
+    {
+     "dex": 304,
+     "name": "Seedot",
+     "level": 14,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Bide",
+       "type": "Normal",
+       "power": 1,
+       "category": "physical"
+      },
+      {
+       "name": "Harden",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Growth",
+       "type": "Normal",
+       "category": "status"
+      }
+     ]
+    },
+    {
+     "dex": 336,
+     "name": "Aron",
+     "level": 14,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Mud-Slap",
+       "type": "Ground",
+       "power": 20,
+       "category": "special"
+      },
+      {
+       "name": "Headbutt",
+       "type": "Normal",
+       "power": 70,
+       "category": "physical"
+      },
+      {
+       "name": "Metal Claw",
+       "type": "Steel",
+       "power": 50,
+       "category": "physical"
+      },
+      {
+       "name": "Rock Tomb",
+       "type": "Rock",
+       "power": 60,
+       "category": "physical"
+      }
+     ]
+    },
+    {
+     "dex": 210,
+     "name": "Mareep",
+     "level": 14,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Growl",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Thunder Wave",
+       "type": "Electric",
+       "category": "status"
+      },
+      {
+       "name": "Thunder Shock",
+       "type": "Electric",
+       "power": 40,
+       "category": "special"
+      },
+      {
+       "name": "Cotton Spore",
+       "type": "Grass",
+       "category": "status"
+      }
+     ]
+    }
+   ],
+   "id": "deandre"
+  },
+  {
+   "class": "Aroma Lady",
+   "name": "Rose",
+   "prize": 560,
+   "party": [
+    {
+     "dex": 76,
+     "name": "Bellsprout",
+     "level": 14,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Vine Whip",
+       "type": "Grass",
+       "power": 45,
+       "category": "physical"
+      },
+      {
+       "name": "Growth",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Wrap",
+       "type": "Normal",
+       "power": 15,
+       "category": "physical"
+      },
+      {
+       "name": "Sleep Powder",
+       "type": "Grass",
+       "category": "status"
+      }
+     ]
+    },
+    {
+     "dex": 317,
+     "name": "Shroomish",
+     "level": 14,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Tackle",
+       "type": "Normal",
+       "power": 40,
+       "category": "physical"
+      },
+      {
+       "name": "Stun Spore",
+       "type": "Grass",
+       "category": "status"
+      },
+      {
+       "name": "Leech Seed",
+       "type": "Grass",
+       "category": "status"
+      },
+      {
+       "name": "Mega Drain",
+       "type": "Grass",
+       "power": 50,
+       "category": "special"
+      }
+     ]
+    },
+    {
+     "dex": 348,
+     "name": "Roselia",
+     "level": 14,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Growth",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Poison Sting",
+       "type": "Poison",
+       "power": 15,
+       "category": "physical"
+      },
+      {
+       "name": "Stun Spore",
+       "type": "Grass",
+       "category": "status"
+      },
+      {
+       "name": "Mega Drain",
+       "type": "Grass",
+       "power": 50,
+       "category": "special"
+      }
+     ]
+    }
+   ],
+   "id": "rose"
+  },
+  {
+   "class": "Fisherman",
+   "name": "Wade",
+   "prize": 640,
+   "party": [
+    {
+     "dex": 86,
+     "name": "Slowpoke",
+     "level": 16,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Tackle",
+       "type": "Normal",
+       "power": 40,
+       "category": "physical"
+      },
+      {
+       "name": "Growl",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Water Gun",
+       "type": "Water",
+       "power": 40,
+       "category": "special"
+      },
+      {
+       "name": "Confusion",
+       "type": "Psychic",
+       "power": 50,
+       "category": "special"
+      }
+     ]
+    }
+   ],
+   "id": "wade"
+  },
+  {
+   "class": "Guitarist",
+   "name": "Dalton",
+   "prize": 480,
+   "party": [
+    {
+     "dex": 211,
+     "name": "Flaaffy",
+     "level": 15,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Growl",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Thunder Wave",
+       "type": "Electric",
+       "category": "status"
+      },
+      {
+       "name": "Thunder Shock",
+       "type": "Electric",
+       "power": 40,
+       "category": "special"
+      },
+      {
+       "name": "Cotton Spore",
+       "type": "Grass",
+       "category": "status"
+      }
+     ]
+    },
+    {
+     "dex": 325,
+     "name": "Whismur",
+     "level": 15,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Echoed Voice",
+       "type": "Normal",
+       "power": 40,
+       "category": "special"
+      },
+      {
+       "name": "Astonish",
+       "type": "Ghost",
+       "power": 30,
+       "category": "physical"
+      },
+      {
+       "name": "Howl",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Screech",
+       "type": "Normal",
+       "category": "status"
+      }
+     ]
+    }
+   ],
+   "id": "dalton"
+  },
+  {
+   "class": "Fisherman",
+   "name": "Barny",
+   "prize": 1000,
+   "party": [
+    {
+     "dex": 225,
+     "name": "Yanma",
+     "level": 25,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Sonic Boom",
+       "type": "Normal",
+       "power": 1,
+       "category": "special"
+      },
+      {
+       "name": "Detect",
+       "type": "Fighting",
+       "category": "status"
+      },
+      {
+       "name": "Bug Bite",
+       "type": "Bug",
+       "power": 60,
+       "category": "physical"
+      },
+      {
+       "name": "Uproar",
+       "type": "Normal",
+       "power": 90,
+       "category": "special"
+      }
+     ]
+    },
+    {
+     "dex": 86,
+     "name": "Slowpoke",
+     "level": 25,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Water Gun",
+       "type": "Water",
+       "power": 40,
+       "category": "special"
+      },
+      {
+       "name": "Confusion",
+       "type": "Psychic",
+       "power": 50,
+       "category": "special"
+      },
+      {
+       "name": "Disable",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Headbutt",
+       "type": "Normal",
+       "power": 70,
+       "category": "physical"
+      }
+     ]
+    }
+   ],
+   "id": "barny"
+  },
+  {
+   "class": "Bird Keeper",
+   "name": "Chester",
+   "prize": 800,
+   "party": [
+    {
+     "dex": 22,
+     "name": "Fearow",
+     "level": 25,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Fury Attack",
+       "type": "Normal",
+       "power": 15,
+       "category": "physical"
+      },
+      {
+       "name": "Aerial Ace",
+       "type": "Flying",
+       "power": 60,
+       "category": "physical"
+      },
+      {
+       "name": "Mirror Move",
+       "type": "Flying",
+       "category": "status"
+      },
+      {
+       "name": "Assurance",
+       "type": "Dark",
+       "power": 60,
+       "category": "physical"
+      }
+     ]
+    },
+    {
+     "dex": 308,
+     "name": "Swellow",
+     "level": 25,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Quick Attack",
+       "type": "Normal",
+       "power": 40,
+       "category": "physical"
+      },
+      {
+       "name": "Wing Attack",
+       "type": "Flying",
+       "power": 60,
+       "category": "physical"
+      },
+      {
+       "name": "Double Team",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Aerial Ace",
+       "type": "Flying",
+       "power": 60,
+       "category": "physical"
+      }
+     ]
+    }
+   ],
+   "id": "chester"
+  },
+  {
+   "class": "Bird Keeper",
+   "name": "Perry",
+   "prize": 832,
+   "party": [
+    {
+     "dex": 17,
+     "name": "Pidgeotto",
+     "level": 26,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Gust",
+       "type": "Flying",
+       "power": 40,
+       "category": "special"
+      },
+      {
+       "name": "Quick Attack",
+       "type": "Normal",
+       "power": 40,
+       "category": "physical"
+      },
+      {
+       "name": "Whirlwind",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Twister",
+       "type": "Dragon",
+       "power": 40,
+       "category": "special"
+      }
+     ]
+    }
+   ],
+   "id": "perry"
+  }
+ ],
+ "verified": true,
+ "sources": [
+  "https://mrwalkthroughs.com/pokemon-emerald-seaglass/"
+ ]
+}

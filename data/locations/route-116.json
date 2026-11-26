@@ -1,0 +1,652 @@
+{
+ "id": "route-116",
+ "name": "Route 116",
+ "encounters": [
+  {
+   "dex": 25,
+   "name": "Pichu",
+   "method": "grass",
+   "levels": "6",
+   "rate": "20%"
+  },
+  {
+   "dex": 221,
+   "name": "Aipom",
+   "method": "grass",
+   "levels": "6",
+   "rate": "20%"
+  },
+  {
+   "dex": 322,
+   "name": "Nincada",
+   "method": "grass",
+   "levels": "6-7",
+   "rate": "14%"
+  },
+  {
+   "dex": 30,
+   "name": "Nidoran♀",
+   "method": "grass",
+   "levels": "7",
+   "rate": "10%"
+  },
+  {
+   "dex": 33,
+   "name": "Nidoran♂",
+   "method": "grass",
+   "levels": "6",
+   "rate": "10%"
+  },
+  {
+   "dex": 70,
+   "name": "Abra",
+   "method": "grass",
+   "levels": "7",
+   "rate": "10%"
+  },
+  {
+   "dex": 307,
+   "name": "Taillow",
+   "method": "grass",
+   "levels": "7-8",
+   "rate": "10%"
+  },
+  {
+   "dex": 332,
+   "name": "Skitty",
+   "method": "grass",
+   "levels": "7-8",
+   "rate": "6%"
+  },
+  {
+   "dex": 28,
+   "name": "Sandshrew",
+   "method": "dexnav",
+   "levels": "5-8",
+   "rate": "33%"
+  },
+  {
+   "dex": 216,
+   "name": "Bonsly",
+   "method": "dexnav",
+   "levels": "5-8",
+   "rate": "33%"
+  },
+  {
+   "dex": 386,
+   "name": "Kecleon",
+   "method": "dexnav",
+   "levels": "5-8",
+   "rate": "33%"
+  }
+ ],
+ "items": [
+  {
+   "id": "outside-ether",
+   "name": "Ether",
+   "hidden": false,
+   "where": "Outside"
+  },
+  {
+   "id": "outside-repel",
+   "name": "Repel",
+   "hidden": false,
+   "where": "Outside"
+  },
+  {
+   "id": "outside-hp-up",
+   "name": "HP Up",
+   "hidden": false,
+   "where": "Outside",
+   "later": true,
+   "need": "Rock Smash (HM06 from the Rock Smash Guy in Mauville City, used with the Dynamo Badge)",
+   "after": "mauville-city",
+   "stage": 17.5
+  },
+  {
+   "id": "outside-x-sp-atk",
+   "name": "X Sp. Atk",
+   "hidden": false,
+   "where": "Outside"
+  },
+  {
+   "id": "outside-potion",
+   "name": "Potion",
+   "hidden": false,
+   "where": "Outside"
+  },
+  {
+   "id": "hidden-outside-super-potion",
+   "name": "Super Potion",
+   "hidden": true,
+   "where": "Outside"
+  },
+  {
+   "id": "hidden-outside-black-glasses",
+   "name": "Black Glasses",
+   "hidden": true,
+   "where": "Outside",
+   "later": true,
+   "need": "Rock Smash (HM06 from the Rock Smash Guy in Mauville City, used with the Dynamo Badge)",
+   "after": "mauville-city",
+   "stage": 17.5
+  }
+ ],
+ "gifts": [
+  {
+   "id": "item-outside-repeat-ball",
+   "name": "Repeat Ball",
+   "from": "Devon researcher",
+   "where": "Outside",
+   "later": true,
+   "need": "After Slateport City",
+   "after": "slateport-city",
+   "stage": 14
+  }
+ ],
+ "trainers": [
+  {
+   "class": "Youngster",
+   "name": "Joey",
+   "prize": 144,
+   "party": [
+    {
+     "dex": 116,
+     "name": "Tyrogue",
+     "level": 9,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Tackle",
+       "type": "Normal",
+       "power": 40,
+       "category": "physical"
+      },
+      {
+       "name": "Helping Hand",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Fake Out",
+       "type": "Normal",
+       "power": 40,
+       "category": "physical"
+      },
+      {
+       "name": "Foresight",
+       "type": "Normal",
+       "category": "status"
+      }
+     ]
+    }
+   ],
+   "id": "joey"
+  },
+  {
+   "class": "Bug Catcher",
+   "name": "Jose",
+   "prize": 128,
+   "party": [
+    {
+     "dex": 296,
+     "name": "Wurmple",
+     "level": 8,
+     "iv": 6,
+     "moves": [
+      {
+       "name": "Tackle",
+       "type": "Normal",
+       "power": 40,
+       "category": "physical"
+      },
+      {
+       "name": "String Shot",
+       "type": "Bug",
+       "category": "status"
+      },
+      {
+       "name": "Poison Sting",
+       "type": "Poison",
+       "power": 15,
+       "category": "physical"
+      }
+     ]
+    },
+    {
+     "dex": 322,
+     "name": "Nincada",
+     "level": 8,
+     "iv": 6,
+     "moves": [
+      {
+       "name": "Scratch",
+       "type": "Normal",
+       "power": 40,
+       "category": "physical"
+      },
+      {
+       "name": "Harden",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Absorb",
+       "type": "Grass",
+       "power": 30,
+       "category": "special"
+      }
+     ]
+    }
+   ],
+   "id": "jose"
+  },
+  {
+   "class": "School Kid",
+   "name": "Karen",
+   "prize": 180,
+   "party": [
+    {
+     "dex": 317,
+     "name": "Shroomish",
+     "level": 9,
+     "iv": 1,
+     "moves": [
+      {
+       "name": "Absorb",
+       "type": "Grass",
+       "power": 30,
+       "category": "special"
+      },
+      {
+       "name": "Tackle",
+       "type": "Normal",
+       "power": 40,
+       "category": "physical"
+      },
+      {
+       "name": "Stun Spore",
+       "type": "Grass",
+       "category": "status"
+      },
+      {
+       "name": "Leech Seed",
+       "type": "Grass",
+       "category": "status"
+      }
+     ]
+    }
+   ],
+   "id": "karen"
+  },
+  {
+   "class": "Hiker",
+   "name": "Clark",
+   "prize": 320,
+   "party": [
+    {
+     "dex": 81,
+     "name": "Geodude",
+     "level": 8,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Tackle",
+       "type": "Normal",
+       "power": 40,
+       "category": "physical"
+      },
+      {
+       "name": "Defense Curl",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Mud Sport",
+       "type": "Ground",
+       "category": "status"
+      },
+      {
+       "name": "Rock Polish",
+       "type": "Rock",
+       "category": "status"
+      }
+     ]
+    }
+   ],
+   "id": "clark"
+  },
+  {
+   "class": "Youngster",
+   "name": "Johnson",
+   "prize": 128,
+   "party": [
+    {
+     "dex": 317,
+     "name": "Shroomish",
+     "level": 8,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Absorb",
+       "type": "Grass",
+       "power": 30,
+       "category": "special"
+      },
+      {
+       "name": "Tackle",
+       "type": "Normal",
+       "power": 40,
+       "category": "physical"
+      },
+      {
+       "name": "Stun Spore",
+       "type": "Grass",
+       "category": "status"
+      },
+      {
+       "name": "Leech Seed",
+       "type": "Grass",
+       "category": "status"
+      }
+     ]
+    },
+    {
+     "dex": 301,
+     "name": "Lotad",
+     "level": 8,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Astonish",
+       "type": "Ghost",
+       "power": 30,
+       "category": "physical"
+      },
+      {
+       "name": "Growl",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Absorb",
+       "type": "Grass",
+       "power": 30,
+       "category": "special"
+      }
+     ]
+    }
+   ],
+   "id": "johnson"
+  },
+  {
+   "class": "Hiker",
+   "name": "Devan",
+   "prize": 320,
+   "party": [
+    {
+     "dex": 81,
+     "name": "Geodude",
+     "level": 8,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Tackle",
+       "type": "Normal",
+       "power": 40,
+       "category": "physical"
+      },
+      {
+       "name": "Defense Curl",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Mud Sport",
+       "type": "Ground",
+       "category": "status"
+      },
+      {
+       "name": "Rock Polish",
+       "type": "Rock",
+       "category": "status"
+      }
+     ]
+    },
+    {
+     "dex": 330,
+     "name": "Nosepass",
+     "level": 8,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Tackle",
+       "type": "Normal",
+       "power": 40,
+       "category": "physical"
+      },
+      {
+       "name": "Harden",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Block",
+       "type": "Normal",
+       "category": "status"
+      }
+     ]
+    }
+   ],
+   "id": "devan"
+  },
+  {
+   "class": "Lady",
+   "name": "Sarah",
+   "prize": 1600,
+   "party": [
+    {
+     "dex": 301,
+     "name": "Lotad",
+     "level": 8,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Astonish",
+       "type": "Ghost",
+       "power": 30,
+       "category": "physical"
+      },
+      {
+       "name": "Growl",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Absorb",
+       "type": "Grass",
+       "power": 30,
+       "category": "special"
+      }
+     ]
+    },
+    {
+     "dex": 294,
+     "name": "Zigzagoon",
+     "level": 8,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Tackle",
+       "type": "Normal",
+       "power": 40,
+       "category": "physical"
+      },
+      {
+       "name": "Growl",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Tail Whip",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Sand Attack",
+       "type": "Ground",
+       "category": "status"
+      }
+     ],
+     "item": "Nugget"
+    }
+   ],
+   "uses": [
+    "Full Restore"
+   ],
+   "id": "sarah"
+  },
+  {
+   "class": "School Kid",
+   "name": "Jerry",
+   "prize": 180,
+   "party": [
+    {
+     "dex": 311,
+     "name": "Ralts",
+     "level": 9,
+     "iv": 1,
+     "moves": [
+      {
+       "name": "Growl",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Confusion",
+       "type": "Psychic",
+       "power": 50,
+       "category": "special"
+      },
+      {
+       "name": "Double Team",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Teleport",
+       "type": "Psychic",
+       "category": "status"
+      }
+     ]
+    }
+   ],
+   "id": "jerry"
+  },
+  {
+   "class": "Lass",
+   "name": "Janice",
+   "prize": 144,
+   "party": [
+    {
+     "dex": 214,
+     "name": "Marill",
+     "level": 9,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Water Gun",
+       "type": "Water",
+       "power": 40,
+       "category": "special"
+      },
+      {
+       "name": "Tail Whip",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Water Sport",
+       "type": "Water",
+       "category": "status"
+      },
+      {
+       "name": "Bubble",
+       "type": "Water",
+       "power": 30,
+       "category": "special"
+      }
+     ]
+    }
+   ],
+   "id": "janice"
+  },
+  {
+   "class": "Rich Boy",
+   "name": "Dawson",
+   "prize": 1600,
+   "party": [
+    {
+     "dex": 268,
+     "name": "Phanpy",
+     "level": 8,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Tackle",
+       "type": "Normal",
+       "power": 40,
+       "category": "physical"
+      },
+      {
+       "name": "Growl",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Defense Curl",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Flail",
+       "type": "Normal",
+       "power": 1,
+       "category": "physical"
+      }
+     ],
+     "item": "Nugget"
+    },
+    {
+     "dex": 292,
+     "name": "Poochyena",
+     "level": 8,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Tackle",
+       "type": "Normal",
+       "power": 40,
+       "category": "physical"
+      },
+      {
+       "name": "Howl",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Sand Attack",
+       "type": "Ground",
+       "category": "status"
+      }
+     ]
+    }
+   ],
+   "id": "dawson"
+  }
+ ],
+ "verified": true,
+ "sources": [
+  "https://mrwalkthroughs.com/pokemon-emerald-seaglass/"
+ ]
+}

@@ -1,0 +1,1191 @@
+{
+ "id": "route-109",
+ "name": "Route 109",
+ "encounters": [
+  {
+   "dex": 79,
+   "name": "Tentacool",
+   "method": "surf",
+   "levels": "5-35",
+   "rate": "60%",
+   "area": "Outside"
+  },
+  {
+   "dex": 309,
+   "name": "Wingull",
+   "method": "surf",
+   "levels": "10-30",
+   "rate": "30%",
+   "area": "Outside"
+  },
+  {
+   "dex": 138,
+   "name": "Staryu",
+   "method": "surf",
+   "levels": "15-25",
+   "rate": "5%",
+   "area": "Outside"
+  },
+  {
+   "dex": 139,
+   "name": "Starmie",
+   "method": "surf",
+   "levels": "25-30",
+   "rate": "5%",
+   "area": "Outside"
+  },
+  {
+   "dex": 155,
+   "name": "Magikarp",
+   "method": "old-rod",
+   "levels": "5-10",
+   "rate": "70%",
+   "area": "Outside"
+  },
+  {
+   "dex": 79,
+   "name": "Tentacool",
+   "method": "old-rod",
+   "levels": "5-10",
+   "rate": "30%",
+   "area": "Outside"
+  },
+  {
+   "dex": 59,
+   "name": "Psyduck",
+   "method": "good-rod",
+   "levels": "10-30",
+   "rate": "60%",
+   "area": "Outside"
+  },
+  {
+   "dex": 79,
+   "name": "Tentacool",
+   "method": "good-rod",
+   "levels": "10-30",
+   "rate": "20%",
+   "area": "Outside"
+  },
+  {
+   "dex": 354,
+   "name": "Wailmer",
+   "method": "good-rod",
+   "levels": "10-30",
+   "rate": "20%",
+   "area": "Outside"
+  },
+  {
+   "dex": 354,
+   "name": "Wailmer",
+   "method": "super-rod",
+   "levels": "20-45",
+   "rate": "100%",
+   "area": "Outside"
+  }
+ ],
+ "items": [
+  {
+   "id": "outside-pp-up",
+   "name": "PP Up",
+   "hidden": false,
+   "where": "Outside",
+   "later": true,
+   "need": "Surf (HM03 from Wally's father after you beat Norman in Petalburg City)",
+   "after": "lavaridge-town",
+   "stage": 30.5
+  },
+  {
+   "id": "outside-potion",
+   "name": "Potion",
+   "hidden": false,
+   "where": "Outside"
+  },
+  {
+   "id": "hidden-outside-revive",
+   "name": "Revive",
+   "hidden": true,
+   "where": "Outside"
+  },
+  {
+   "id": "hidden-outside-heart-scale",
+   "name": "Heart Scale",
+   "hidden": true,
+   "where": "Outside"
+  },
+  {
+   "id": "hidden-outside-great-ball",
+   "name": "Great Ball",
+   "hidden": true,
+   "where": "Outside"
+  },
+  {
+   "id": "hidden-outside-ether",
+   "name": "Ether",
+   "hidden": true,
+   "where": "Outside"
+  },
+  {
+   "id": "hidden-outside-heart-scale-2",
+   "name": "Heart Scale",
+   "hidden": true,
+   "where": "Outside"
+  },
+  {
+   "id": "hidden-outside-heart-scale-3",
+   "name": "Heart Scale",
+   "hidden": true,
+   "where": "Outside",
+   "later": true,
+   "need": "Surf (HM03 from Wally's father after you beat Norman in Petalburg City)",
+   "after": "lavaridge-town",
+   "stage": 30.5
+  }
+ ],
+ "gifts": [
+  {
+   "id": "item-outside-soft-sand",
+   "name": "Soft Sand",
+   "from": "Girl",
+   "where": "Outside"
+  },
+  {
+   "id": "item-seashore-house-soda-pop-6",
+   "name": "Soda Pop ×6",
+   "from": "Seashore House owner (beat the three trainers)",
+   "where": "Seashore House"
+  },
+  {
+   "id": "item-seashore-house-soda-pop",
+   "name": "Soda Pop",
+   "from": "Seashore House",
+   "where": "Seashore House"
+  }
+ ],
+ "trainers": [
+  {
+   "class": "Bird Keeper",
+   "name": "Elijah",
+   "prize": 800,
+   "party": [
+    {
+     "dex": 265,
+     "name": "Skarmory",
+     "level": 25,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Fury Attack",
+       "type": "Normal",
+       "power": 15,
+       "category": "physical"
+      },
+      {
+       "name": "Pin Missile",
+       "type": "Bug",
+       "power": 25,
+       "category": "physical"
+      },
+      {
+       "name": "Accelerock",
+       "type": "Rock",
+       "power": 40,
+       "category": "physical"
+      },
+      {
+       "name": "Headbutt",
+       "type": "Normal",
+       "power": 70,
+       "category": "physical"
+      }
+     ]
+    },
+    {
+     "dex": 273,
+     "name": "Miltank",
+     "level": 25,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Milk Drink",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Bide",
+       "type": "Normal",
+       "power": 1,
+       "category": "physical"
+      },
+      {
+       "name": "Rollout",
+       "type": "Rock",
+       "power": 30,
+       "category": "physical"
+      },
+      {
+       "name": "Body Slam",
+       "type": "Normal",
+       "power": 85,
+       "category": "physical"
+      }
+     ]
+    }
+   ],
+   "id": "elijah",
+   "area": "Outside",
+   "stage": "lavaridge-town",
+   "later": true,
+   "reach": "Surf (HM03 from Wally's father after you beat Norman in Petalburg City)"
+  },
+  {
+   "class": "Fisherman",
+   "name": "Carter",
+   "prize": 1000,
+   "party": [
+    {
+     "dex": 354,
+     "name": "Wailmer",
+     "level": 25,
+     "iv": 1,
+     "moves": [
+      {
+       "name": "Water Pulse",
+       "type": "Water",
+       "power": 60,
+       "category": "special"
+      },
+      {
+       "name": "Echoed Voice",
+       "type": "Normal",
+       "power": 40,
+       "category": "special"
+      },
+      {
+       "name": "Mist",
+       "type": "Ice",
+       "category": "status"
+      },
+      {
+       "name": "Brine",
+       "type": "Water",
+       "power": 65,
+       "category": "special"
+      }
+     ]
+    },
+    {
+     "dex": 80,
+     "name": "Tentacruel",
+     "level": 25,
+     "iv": 1,
+     "moves": [
+      {
+       "name": "Water Pulse",
+       "type": "Water",
+       "power": 60,
+       "category": "special"
+      },
+      {
+       "name": "Wrap",
+       "type": "Normal",
+       "power": 15,
+       "category": "physical"
+      },
+      {
+       "name": "Acid Spray",
+       "type": "Poison",
+       "power": 40,
+       "category": "special"
+      },
+      {
+       "name": "Bubble Beam",
+       "type": "Water",
+       "power": 65,
+       "category": "special"
+      }
+     ]
+    }
+   ],
+   "id": "carter",
+   "area": "Outside",
+   "stage": "lavaridge-town",
+   "later": true,
+   "reach": "Surf (HM03 from Wally's father after you beat Norman in Petalburg City)"
+  },
+  {
+   "class": "Young Couple",
+   "name": "Mel ~ Paul",
+   "prize": 1728,
+   "party": [
+    {
+     "dex": 300,
+     "name": "Dustox",
+     "level": 27,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Gust",
+       "type": "Flying",
+       "power": 40,
+       "category": "special"
+      },
+      {
+       "name": "Psybeam",
+       "type": "Psychic",
+       "power": 65,
+       "category": "special"
+      },
+      {
+       "name": "Toxic",
+       "type": "Poison",
+       "category": "status"
+      },
+      {
+       "name": "Protect",
+       "type": "Normal",
+       "category": "status"
+      }
+     ]
+    },
+    {
+     "dex": 298,
+     "name": "Beautifly",
+     "level": 27,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Gust",
+       "type": "Flying",
+       "power": 40,
+       "category": "special"
+      },
+      {
+       "name": "Mega Drain",
+       "type": "Grass",
+       "power": 50,
+       "category": "special"
+      },
+      {
+       "name": "Attract",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Stun Spore",
+       "type": "Grass",
+       "category": "status"
+      }
+     ]
+    }
+   ],
+   "double": true,
+   "id": "mel-and-paul",
+   "area": "Outside",
+   "stage": "lavaridge-town",
+   "later": true,
+   "reach": "Surf (HM03 from Wally's father after you beat Norman in Petalburg City)"
+  },
+  {
+   "class": "Swimmer♀",
+   "name": "Alice",
+   "prize": 192,
+   "party": [
+    {
+     "dex": 108,
+     "name": "Krabby",
+     "level": 24,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Harden",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Bubble Beam",
+       "type": "Water",
+       "power": 65,
+       "category": "special"
+      },
+      {
+       "name": "Mud Shot",
+       "type": "Ground",
+       "power": 55,
+       "category": "special"
+      },
+      {
+       "name": "Metal Claw",
+       "type": "Steel",
+       "power": 50,
+       "category": "physical"
+      }
+     ]
+    },
+    {
+     "dex": 309,
+     "name": "Wingull",
+     "level": 24,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Mist",
+       "type": "Ice",
+       "category": "status"
+      },
+      {
+       "name": "Water Pulse",
+       "type": "Water",
+       "power": 60,
+       "category": "special"
+      },
+      {
+       "name": "Quick Attack",
+       "type": "Normal",
+       "power": 40,
+       "category": "physical"
+      },
+      {
+       "name": "Air Cutter",
+       "type": "Flying",
+       "power": 60,
+       "category": "special"
+      }
+     ]
+    },
+    {
+     "dex": 136,
+     "name": "Goldeen",
+     "level": 24,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Flail",
+       "type": "Normal",
+       "power": 1,
+       "category": "physical"
+      },
+      {
+       "name": "Water Pulse",
+       "type": "Water",
+       "power": 60,
+       "category": "special"
+      },
+      {
+       "name": "Aqua Ring",
+       "type": "Water",
+       "category": "status"
+      },
+      {
+       "name": "Fury Attack",
+       "type": "Normal",
+       "power": 15,
+       "category": "physical"
+      }
+     ]
+    }
+   ],
+   "id": "alice",
+   "area": "Outside",
+   "stage": "lavaridge-town",
+   "later": true,
+   "need": "surf"
+  },
+  {
+   "class": "Swimmer♂",
+   "name": "David",
+   "prize": 200,
+   "party": [
+    {
+     "dex": 263,
+     "name": "Mantyke",
+     "level": 25,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Wing Attack",
+       "type": "Flying",
+       "power": 60,
+       "category": "physical"
+      },
+      {
+       "name": "Headbutt",
+       "type": "Normal",
+       "power": 70,
+       "category": "physical"
+      },
+      {
+       "name": "Water Pulse",
+       "type": "Water",
+       "power": 60,
+       "category": "special"
+      },
+      {
+       "name": "Wide Guard",
+       "type": "Rock",
+       "category": "status"
+      }
+     ]
+    },
+    {
+     "dex": 260,
+     "name": "Remoraid",
+     "level": 25,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Psybeam",
+       "type": "Psychic",
+       "power": 65,
+       "category": "special"
+      },
+      {
+       "name": "Aurora Beam",
+       "type": "Ice",
+       "power": 65,
+       "category": "special"
+      },
+      {
+       "name": "Bubble Beam",
+       "type": "Water",
+       "power": 65,
+       "category": "special"
+      },
+      {
+       "name": "Focus Energy",
+       "type": "Normal",
+       "category": "status"
+      }
+     ]
+    }
+   ],
+   "id": "david",
+   "area": "Outside",
+   "stage": "lavaridge-town",
+   "later": true,
+   "need": "surf"
+  },
+  {
+   "class": "Tuber",
+   "name": "Gwen",
+   "prize": 96,
+   "party": [
+    {
+     "dex": 37,
+     "name": "Clefairy",
+     "level": 24,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Defense Curl",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Follow Me",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Bestow",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Wake-Up Slap",
+       "type": "Fighting",
+       "power": 70,
+       "category": "physical"
+      }
+     ]
+    },
+    {
+     "dex": 42,
+     "name": "Jigglypuff",
+     "level": 24,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Disable",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Double Slap",
+       "type": "Normal",
+       "power": 15,
+       "category": "physical"
+      },
+      {
+       "name": "Rollout",
+       "type": "Rock",
+       "power": 30,
+       "category": "physical"
+      },
+      {
+       "name": "Round",
+       "type": "Normal",
+       "power": 60,
+       "category": "special"
+      }
+     ]
+    }
+   ],
+   "id": "gwen",
+   "area": "Outside",
+   "stage": "lavaridge-town",
+   "later": true,
+   "reach": "Surf (HM03 from Wally's father after you beat Norman in Petalburg City)"
+  },
+  {
+   "class": "Tuber",
+   "name": "Austina",
+   "prize": 104,
+   "party": [
+    {
+     "dex": 214,
+     "name": "Marill",
+     "level": 26,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Helping Hand",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Aqua Tail",
+       "type": "Water",
+       "power": 90,
+       "category": "physical"
+      },
+      {
+       "name": "Play Rough",
+       "type": "Fairy",
+       "power": 90,
+       "category": "physical"
+      },
+      {
+       "name": "Aqua Ring",
+       "type": "Water",
+       "category": "status"
+      }
+     ]
+    }
+   ],
+   "id": "austina",
+   "area": "Outside",
+   "stage": "lavaridge-town",
+   "later": true,
+   "reach": "Surf (HM03 from Wally's father after you beat Norman in Petalburg City)"
+  },
+  {
+   "class": "Sailor",
+   "name": "Huey",
+   "prize": 384,
+   "party": [
+    {
+     "dex": 106,
+     "name": "Drowzee",
+     "level": 12,
+     "iv": 1,
+     "moves": [
+      {
+       "name": "Hypnosis",
+       "type": "Psychic",
+       "category": "status"
+      },
+      {
+       "name": "Pursuit",
+       "type": "Dark",
+       "power": 40,
+       "category": "physical"
+      },
+      {
+       "name": "Disable",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Confusion",
+       "type": "Psychic",
+       "power": 50,
+       "category": "special"
+      }
+     ]
+    },
+    {
+     "dex": 73,
+     "name": "Machop",
+     "level": 12,
+     "iv": 1,
+     "moves": [
+      {
+       "name": "Leer",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Focus Energy",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Karate Chop",
+       "type": "Fighting",
+       "power": 50,
+       "category": "physical"
+      },
+      {
+       "name": "Foresight",
+       "type": "Normal",
+       "category": "status"
+      }
+     ]
+    }
+   ],
+   "id": "huey",
+   "area": "Outside"
+  },
+  {
+   "class": "Tuber",
+   "name": "Hailey",
+   "prize": 52,
+   "party": [
+    {
+     "dex": 260,
+     "name": "Remoraid",
+     "level": 13,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Water Gun",
+       "type": "Water",
+       "power": 40,
+       "category": "special"
+      },
+      {
+       "name": "Lock-On",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Psybeam",
+       "type": "Psychic",
+       "power": 65,
+       "category": "special"
+      }
+     ]
+    }
+   ],
+   "id": "hailey",
+   "area": "Outside"
+  },
+  {
+   "class": "Sailor",
+   "name": "Edmond",
+   "prize": 416,
+   "party": [
+    {
+     "dex": 70,
+     "name": "Abra",
+     "level": 13,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Teleport",
+       "type": "Psychic",
+       "category": "status"
+      }
+     ]
+    }
+   ],
+   "id": "edmond",
+   "area": "Outside"
+  },
+  {
+   "class": "Tuber",
+   "name": "Ricky",
+   "prize": 52,
+   "party": [
+    {
+     "dex": 294,
+     "name": "Zigzagoon",
+     "level": 13,
+     "iv": 1,
+     "moves": [
+      {
+       "name": "Sand Attack",
+       "type": "Ground",
+       "category": "status"
+      },
+      {
+       "name": "Headbutt",
+       "type": "Normal",
+       "power": 70,
+       "category": "physical"
+      },
+      {
+       "name": "Tail Whip",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Surf",
+       "type": "Water",
+       "power": 90,
+       "category": "special"
+      }
+     ]
+    }
+   ],
+   "id": "ricky",
+   "area": "Outside"
+  },
+  {
+   "class": "Tuber",
+   "name": "Lola",
+   "prize": 48,
+   "party": [
+    {
+     "dex": 213,
+     "name": "Azurill",
+     "level": 12,
+     "iv": 1,
+     "moves": [
+      {
+       "name": "Tail Whip",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Water Sport",
+       "type": "Water",
+       "category": "status"
+      },
+      {
+       "name": "Bubble",
+       "type": "Water",
+       "power": 30,
+       "category": "special"
+      },
+      {
+       "name": "Charm",
+       "type": "Fairy",
+       "category": "status"
+      }
+     ]
+    },
+    {
+     "dex": 36,
+     "name": "Cleffa",
+     "level": 12,
+     "iv": 1,
+     "moves": [
+      {
+       "name": "Charm",
+       "type": "Fairy",
+       "category": "status"
+      },
+      {
+       "name": "Encore",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Sing",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Sweet Kiss",
+       "type": "Fairy",
+       "category": "status"
+      }
+     ]
+    }
+   ],
+   "id": "lola",
+   "area": "Outside"
+  },
+  {
+   "class": "Tuber",
+   "name": "Chandler",
+   "prize": 48,
+   "party": [
+    {
+     "dex": 246,
+     "name": "Qwilfish",
+     "level": 12,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Tackle",
+       "type": "Normal",
+       "power": 40,
+       "category": "physical"
+      },
+      {
+       "name": "Poison Sting",
+       "type": "Poison",
+       "power": 15,
+       "category": "physical"
+      },
+      {
+       "name": "Harden",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Minimize",
+       "type": "Normal",
+       "category": "status"
+      }
+     ]
+    },
+    {
+     "dex": 79,
+     "name": "Tentacool",
+     "level": 12,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Poison Sting",
+       "type": "Poison",
+       "power": 15,
+       "category": "physical"
+      },
+      {
+       "name": "Supersonic",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Constrict",
+       "type": "Normal",
+       "power": 10,
+       "category": "physical"
+      },
+      {
+       "name": "Acid",
+       "type": "Poison",
+       "power": 40,
+       "category": "special"
+      }
+     ]
+    }
+   ],
+   "id": "chandler",
+   "area": "Outside"
+  },
+  {
+   "class": "Sailor",
+   "name": "Dwayne",
+   "prize": 352,
+   "party": [
+    {
+     "dex": 114,
+     "name": "Cubone",
+     "level": 11,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Growl",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Tail Whip",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Bone Club",
+       "type": "Ground",
+       "power": 65,
+       "category": "physical"
+      },
+      {
+       "name": "Headbutt",
+       "type": "Normal",
+       "power": 70,
+       "category": "physical"
+      }
+     ]
+    },
+    {
+     "dex": 73,
+     "name": "Machop",
+     "level": 11,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Leer",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Focus Energy",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Karate Chop",
+       "type": "Fighting",
+       "power": 50,
+       "category": "physical"
+      },
+      {
+       "name": "Foresight",
+       "type": "Normal",
+       "category": "status"
+      }
+     ]
+    },
+    {
+     "dex": 79,
+     "name": "Tentacool",
+     "level": 11,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Poison Sting",
+       "type": "Poison",
+       "power": 15,
+       "category": "physical"
+      },
+      {
+       "name": "Supersonic",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Constrict",
+       "type": "Normal",
+       "power": 10,
+       "category": "physical"
+      },
+      {
+       "name": "Acid",
+       "type": "Poison",
+       "power": 40,
+       "category": "special"
+      }
+     ]
+    }
+   ],
+   "id": "dwayne",
+   "area": "Seashore House"
+  },
+  {
+   "class": "Beauty",
+   "name": "Johanna",
+   "prize": 1040,
+   "party": [
+    {
+     "dex": 136,
+     "name": "Goldeen",
+     "level": 13,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Water Sport",
+       "type": "Water",
+       "category": "status"
+      },
+      {
+       "name": "Supersonic",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Horn Attack",
+       "type": "Normal",
+       "power": 65,
+       "category": "physical"
+      },
+      {
+       "name": "Flail",
+       "type": "Normal",
+       "power": 1,
+       "category": "physical"
+      }
+     ]
+    }
+   ],
+   "id": "johanna",
+   "area": "Seashore House"
+  },
+  {
+   "class": "Tuber",
+   "name": "Simon",
+   "prize": 48,
+   "party": [
+    {
+     "dex": 41,
+     "name": "Igglybuff",
+     "level": 12,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Defense Curl",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Pound",
+       "type": "Normal",
+       "power": 40,
+       "category": "physical"
+      },
+      {
+       "name": "Sweet Kiss",
+       "type": "Fairy",
+       "category": "status"
+      },
+      {
+       "name": "Copycat",
+       "type": "Normal",
+       "category": "status"
+      }
+     ]
+    },
+    {
+     "dex": 214,
+     "name": "Marill",
+     "level": 12,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Water Sport",
+       "type": "Water",
+       "category": "status"
+      },
+      {
+       "name": "Bubble",
+       "type": "Water",
+       "power": 30,
+       "category": "special"
+      },
+      {
+       "name": "Defense Curl",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Rollout",
+       "type": "Rock",
+       "power": 30,
+       "category": "physical"
+      }
+     ]
+    }
+   ],
+   "id": "simon",
+   "area": "Seashore House"
+  }
+ ],
+ "verified": true,
+ "sources": [
+  "https://mrwalkthroughs.com/pokemon-emerald-seaglass/"
+ ]
+}

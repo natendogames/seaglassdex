@@ -1,0 +1,197 @@
+{
+ "id": "aqua-hideout",
+ "name": "Aqua Hideout",
+ "encounters": [
+  {
+   "dex": 111,
+   "name": "Electrode",
+   "method": "static",
+   "levels": "30",
+   "area": "B1F",
+   "notes": "One chance: save first"
+  }
+ ],
+ "items": [
+  {
+   "id": "1f-dubious-disc",
+   "name": "Dubious Disc",
+   "hidden": false,
+   "where": "1F"
+  },
+  {
+   "id": "b1f-max-elixir",
+   "name": "Max Elixir",
+   "hidden": false,
+   "where": "B1F"
+  },
+  {
+   "id": "b1f-master-ball",
+   "name": "Master Ball",
+   "hidden": false,
+   "where": "B1F"
+  },
+  {
+   "id": "b1f-nugget",
+   "name": "Nugget",
+   "hidden": false,
+   "where": "B1F"
+  },
+  {
+   "id": "b2f-nest-ball",
+   "name": "Nest Ball",
+   "hidden": false,
+   "where": "B2F"
+  }
+ ],
+ "gifts": [],
+ "trainers": [
+  {
+   "class": "Team Aqua",
+   "name": "Grunt",
+   "prize": 600,
+   "party": [
+    {
+     "dex": 318,
+     "name": "Breloom",
+     "level": 29,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Feint",
+       "type": "Normal",
+       "power": 30,
+       "category": "physical"
+      },
+      {
+       "name": "Counter",
+       "type": "Fighting",
+       "power": 1,
+       "category": "physical"
+      },
+      {
+       "name": "Dizzy Punch",
+       "type": "Normal",
+       "power": 60,
+       "category": "physical"
+      },
+      {
+       "name": "Force Palm",
+       "type": "Fighting",
+       "power": 60,
+       "category": "physical"
+      }
+     ]
+    },
+    {
+     "dex": 148,
+     "name": "Electabuzz",
+     "level": 30,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Thunder Wave",
+       "type": "Electric",
+       "category": "status"
+      },
+      {
+       "name": "Electro Ball",
+       "type": "Electric",
+       "power": 1,
+       "category": "special"
+      },
+      {
+       "name": "Light Screen",
+       "type": "Psychic",
+       "category": "status"
+      },
+      {
+       "name": "Thunder Punch",
+       "type": "Electric",
+       "power": 75,
+       "category": "physical"
+      }
+     ]
+    }
+   ],
+   "id": "grunt-aqua-hideout",
+   "area": "1F"
+  },
+  {
+   "class": "Aqua Admin",
+   "name": "Matt",
+   "prize": 1360,
+   "party": [
+    {
+     "dex": 293,
+     "name": "Mightyena",
+     "level": 34,
+     "iv": 6,
+     "moves": [
+      {
+       "name": "Assurance",
+       "type": "Dark",
+       "power": 60,
+       "category": "physical"
+      },
+      {
+       "name": "Scary Face",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Crunch",
+       "type": "Dark",
+       "power": 80,
+       "category": "physical"
+      },
+      {
+       "name": "Embargo",
+       "type": "Dark",
+       "category": "status"
+      }
+     ]
+    },
+    {
+     "dex": 45,
+     "name": "Golbat",
+     "level": 34,
+     "iv": 6,
+     "moves": [
+      {
+       "name": "Air Cutter",
+       "type": "Flying",
+       "power": 60,
+       "category": "special"
+      },
+      {
+       "name": "Swift",
+       "type": "Normal",
+       "power": 60,
+       "category": "special"
+      },
+      {
+       "name": "Poison Fang",
+       "type": "Poison",
+       "power": 50,
+       "category": "physical"
+      },
+      {
+       "name": "Mean Look",
+       "type": "Normal",
+       "category": "status"
+      }
+     ]
+    }
+   ],
+   "uses": [
+    "Super Potion"
+   ],
+   "id": "matt",
+   "area": "B2F"
+  }
+ ],
+ "verified": true,
+ "sources": [
+  "https://mrwalkthroughs.com/pokemon-emerald-seaglass/"
+ ]
+}

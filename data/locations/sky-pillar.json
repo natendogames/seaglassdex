@@ -1,0 +1,126 @@
+{
+ "id": "sky-pillar",
+ "name": "Sky Pillar",
+ "encounters": [
+  {
+   "dex": 45,
+   "name": "Golbat",
+   "method": "grass",
+   "levels": "34-35",
+   "rate": "30%",
+   "area": "1F"
+  },
+  {
+   "dex": 334,
+   "name": "Sableye",
+   "method": "grass",
+   "levels": "33-34",
+   "rate": "30%",
+   "area": "1F"
+  },
+  {
+   "dex": 378,
+   "name": "Claydol",
+   "method": "grass",
+   "levels": "36-38",
+   "rate": "25%",
+   "area": "1F"
+  },
+  {
+   "dex": 388,
+   "name": "Banette",
+   "method": "grass",
+   "levels": "37-38",
+   "rate": "15%",
+   "area": "1F"
+  },
+  {
+   "dex": 45,
+   "name": "Golbat",
+   "method": "grass",
+   "levels": "34-35",
+   "rate": "30%",
+   "area": "3F"
+  },
+  {
+   "dex": 334,
+   "name": "Sableye",
+   "method": "grass",
+   "levels": "33-34",
+   "rate": "30%",
+   "area": "3F"
+  },
+  {
+   "dex": 378,
+   "name": "Claydol",
+   "method": "grass",
+   "levels": "36-38",
+   "rate": "25%",
+   "area": "3F"
+  },
+  {
+   "dex": 388,
+   "name": "Banette",
+   "method": "grass",
+   "levels": "37-38",
+   "rate": "15%",
+   "area": "3F"
+  },
+  {
+   "dex": 45,
+   "name": "Golbat",
+   "method": "grass",
+   "levels": "34-35",
+   "rate": "30%",
+   "area": "5F"
+  },
+  {
+   "dex": 334,
+   "name": "Sableye",
+   "method": "grass",
+   "levels": "33-34",
+   "rate": "30%",
+   "area": "5F"
+  },
+  {
+   "dex": 368,
+   "name": "Altaria",
+   "method": "grass",
+   "levels": "36-39",
+   "rate": "16%",
+   "area": "5F"
+  },
+  {
+   "dex": 388,
+   "name": "Banette",
+   "method": "grass",
+   "levels": "37-38",
+   "rate": "15%",
+   "area": "5F"
+  },
+  {
+   "dex": 378,
+   "name": "Claydol",
+   "method": "grass",
+   "levels": "36-37",
+   "rate": "9%",
+   "area": "5F"
+  },
+  {
+   "dex": 420,
+   "name": "Rayquaza",
+   "method": "static",
+   "levels": "70",
+   "area": "Top",
+   "notes": "Asleep at the top until the story wakes it; back at the top and catchable once it has calmed Groudon and Kyogre in Sootopolis. Needs the Mach Bike. Save first.",
+   "after": "sootopolis-city"
+  }
+ ],
+ "items": [],
+ "gifts": [],
+ "trainers": [],
+ "verified": true,
+ "sources": [
+  "https://mrwalkthroughs.com/pokemon-emerald-seaglass/"
+ ]
+}

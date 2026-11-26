@@ -1,0 +1,659 @@
+{
+ "id": "mauville-city",
+ "name": "Mauville City",
+ "encounters": [
+  {
+   "dex": 448,
+   "name": "Alolan Exeggutor",
+   "method": "gift",
+   "levels": "1",
+   "area": "Game Corner",
+   "notes": "Random Alolan Egg from the sailor (2 Pinball points each; keep trading points in until you get this one)"
+  },
+  {
+   "dex": 446,
+   "name": "Alolan Grimer",
+   "method": "gift",
+   "levels": "1",
+   "area": "Game Corner",
+   "notes": "Random Alolan Egg from the sailor (2 Pinball points each; keep trading points in until you get this one)"
+  },
+  {
+   "dex": 449,
+   "name": "Alolan Marowak",
+   "method": "gift",
+   "levels": "1",
+   "area": "Game Corner",
+   "notes": "Random Alolan Egg from the sailor (2 Pinball points each; keep trading points in until you get this one)"
+  },
+  {
+   "dex": 441,
+   "name": "Alolan Meowth",
+   "method": "gift",
+   "levels": "1",
+   "area": "Game Corner",
+   "notes": "Random Alolan Egg from the sailor (2 Pinball points each; keep trading points in until you get this one)"
+  },
+  {
+   "dex": 434,
+   "name": "Alolan Raichu",
+   "method": "gift",
+   "levels": "1",
+   "area": "Game Corner",
+   "notes": "Random Alolan Egg from the sailor (2 Pinball points each; keep trading points in until you get this one)"
+  },
+  {
+   "dex": 437,
+   "name": "Alolan Vulpix",
+   "method": "gift",
+   "levels": "1",
+   "area": "Game Corner",
+   "notes": "Random Alolan Egg from the sailor (2 Pinball points each; keep trading points in until you get this one)"
+  },
+  {
+   "dex": 435,
+   "name": "Alolan Sandshrew",
+   "method": "gift",
+   "levels": "1",
+   "area": "Game Corner",
+   "notes": "Random Alolan Egg from the sailor (2 Pinball points each; keep trading points in until you get this one)"
+  },
+  {
+   "dex": 439,
+   "name": "Alolan Diglett",
+   "method": "gift",
+   "levels": "1",
+   "area": "Game Corner",
+   "notes": "Random Alolan Egg from the sailor (2 Pinball points each; keep trading points in until you get this one)"
+  },
+  {
+   "dex": 443,
+   "name": "Alolan Geodude",
+   "method": "gift",
+   "levels": "1",
+   "area": "Game Corner",
+   "notes": "Random Alolan Egg from the sailor (2 Pinball points each; keep trading points in until you get this one)"
+  }
+ ],
+ "items": [
+  {
+   "id": "outside-x-speed",
+   "name": "X Speed",
+   "hidden": false,
+   "where": "Outside"
+  }
+ ],
+ "gifts": [
+  {
+   "id": "item-outside-basement-key",
+   "name": "Basement Key",
+   "from": "Wattson",
+   "where": "Outside",
+   "later": true,
+   "need": "After Lavaridge Town",
+   "after": "lavaridge-town",
+   "stage": 30
+  },
+  {
+   "id": "item-outside-tm24",
+   "name": "TM24",
+   "from": "Wattson",
+   "where": "Outside",
+   "later": true,
+   "need": "After Lavaridge Town",
+   "after": "lavaridge-town",
+   "stage": 30
+  },
+  {
+   "id": "item-bike-shop-mach-bike",
+   "name": "Mach Bike",
+   "from": "Rydel (pick the Mach Bike; swap any time)",
+   "where": "Bike Shop"
+  },
+  {
+   "id": "item-bike-shop-acro-bike",
+   "name": "Acro Bike",
+   "from": "Rydel (pick the Acro Bike; swap any time)",
+   "where": "Bike Shop"
+  },
+  {
+   "id": "item-gym-tm34",
+   "name": "TM34",
+   "from": "Wattson (after winning)",
+   "where": "Gym"
+  },
+  {
+   "id": "item-house-1-hm06",
+   "name": "HM06",
+   "from": "Rock Smash Guy",
+   "where": "House 1"
+  },
+  {
+   "id": "item-house-2-coin-case",
+   "name": "Coin Case",
+   "from": "Trader (Harbor Mail for the Coin Case)",
+   "where": "House 2"
+  },
+  {
+   "id": "mon-game-corner-alolan-egg-random-one-of-9",
+   "name": "Alolan Egg (random: one of 9)",
+   "from": "Sailor (2 Pinball points per egg)",
+   "where": "Game Corner"
+  }
+ ],
+ "trainers": [
+  {
+   "class": "Pokémon Trainer",
+   "name": "Wally",
+   "prize": 960,
+   "party": [
+    {
+     "dex": 311,
+     "name": "Ralts",
+     "level": 16,
+     "iv": 3,
+     "moves": [
+      {
+       "name": "Double Team",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Teleport",
+       "type": "Psychic",
+       "category": "status"
+      },
+      {
+       "name": "Disarming Voice",
+       "type": "Fairy",
+       "power": 40,
+       "category": "special"
+      },
+      {
+       "name": "Lucky Chant",
+       "type": "Normal",
+       "category": "status"
+      }
+     ]
+    }
+   ],
+   "id": "wally-mauville",
+   "area": "Outside"
+  },
+  {
+   "class": "Battle Girl",
+   "name": "Vivian",
+   "prize": 408,
+   "party": [
+    {
+     "dex": 339,
+     "name": "Meditite",
+     "level": 17,
+     "iv": 12,
+     "moves": [
+      {
+       "name": "Bide",
+       "type": "Normal",
+       "power": 1,
+       "category": "physical"
+      },
+      {
+       "name": "Detect",
+       "type": "Fighting",
+       "category": "status"
+      },
+      {
+       "name": "Confusion",
+       "type": "Psychic",
+       "power": 50,
+       "category": "special"
+      },
+      {
+       "name": "Thunder Punch",
+       "type": "Electric",
+       "power": 75,
+       "category": "physical"
+      }
+     ]
+    },
+    {
+     "dex": 345,
+     "name": "Volbeat",
+     "level": 17,
+     "iv": 12,
+     "moves": [
+      {
+       "name": "Discharge",
+       "type": "Electric",
+       "power": 80,
+       "category": "special"
+      },
+      {
+       "name": "Infestation",
+       "type": "Bug",
+       "power": 20,
+       "category": "special"
+      },
+      {
+       "name": "Confuse Ray",
+       "type": "Ghost",
+       "category": "status"
+      },
+      {
+       "name": "Moonlight",
+       "type": "Fairy",
+       "category": "status"
+      }
+     ]
+    }
+   ],
+   "id": "vivian",
+   "area": "Gym"
+  },
+  {
+   "class": "Guitarist",
+   "name": "Kirk",
+   "prize": 544,
+   "party": [
+    {
+     "dex": 345,
+     "name": "Volbeat",
+     "level": 17,
+     "iv": 12,
+     "moves": [
+      {
+       "name": "Confuse Ray",
+       "type": "Ghost",
+       "category": "status"
+      },
+      {
+       "name": "Quick Attack",
+       "type": "Normal",
+       "power": 40,
+       "category": "physical"
+      },
+      {
+       "name": "Struggle Bug",
+       "type": "Bug",
+       "power": 50,
+       "category": "special"
+      },
+      {
+       "name": "Thunder Shock",
+       "type": "Electric",
+       "power": 40,
+       "category": "special"
+      }
+     ]
+    },
+    {
+     "dex": 110,
+     "name": "Voltorb",
+     "level": 17,
+     "iv": 12,
+     "moves": [
+      {
+       "name": "Charge",
+       "type": "Electric",
+       "category": "status"
+      },
+      {
+       "name": "Shock Wave",
+       "type": "Electric",
+       "power": 60,
+       "category": "special"
+      },
+      {
+       "name": "Screech",
+       "type": "Normal",
+       "category": "status"
+      }
+     ]
+    }
+   ],
+   "id": "kirk",
+   "area": "Gym"
+  },
+  {
+   "class": "Youngster",
+   "name": "Ben",
+   "prize": 272,
+   "party": [
+    {
+     "dex": 196,
+     "name": "Furret",
+     "level": 17,
+     "iv": 18,
+     "moves": [
+      {
+       "name": "Headbutt",
+       "type": "Normal",
+       "power": 70,
+       "category": "physical"
+      },
+      {
+       "name": "Sand Attack",
+       "type": "Ground",
+       "category": "status"
+      },
+      {
+       "name": "Growl",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Thunderbolt",
+       "type": "Electric",
+       "power": 90,
+       "category": "special"
+      }
+     ]
+    },
+    {
+     "dex": 350,
+     "name": "Gulpin",
+     "level": 17,
+     "iv": 18,
+     "moves": [
+      {
+       "name": "Amnesia",
+       "type": "Psychic",
+       "category": "status"
+      },
+      {
+       "name": "Sludge",
+       "type": "Poison",
+       "power": 65,
+       "category": "special"
+      },
+      {
+       "name": "Yawn",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Pound",
+       "type": "Normal",
+       "power": 40,
+       "category": "physical"
+      }
+     ]
+    }
+   ],
+   "id": "ben",
+   "area": "Gym"
+  },
+  {
+   "class": "Bug Maniac",
+   "name": "Angelo",
+   "prize": 1020,
+   "party": [
+    {
+     "dex": 346,
+     "name": "Illumise",
+     "level": 17,
+     "iv": 12,
+     "moves": [
+      {
+       "name": "Shock Wave",
+       "type": "Electric",
+       "power": 60,
+       "category": "special"
+      },
+      {
+       "name": "Quick Attack",
+       "type": "Normal",
+       "power": 40,
+       "category": "physical"
+      },
+      {
+       "name": "Charm",
+       "type": "Fairy",
+       "category": "status"
+      }
+     ]
+    },
+    {
+     "dex": 345,
+     "name": "Volbeat",
+     "level": 17,
+     "iv": 12,
+     "moves": [
+      {
+       "name": "Shock Wave",
+       "type": "Electric",
+       "power": 60,
+       "category": "special"
+      },
+      {
+       "name": "Quick Attack",
+       "type": "Normal",
+       "power": 40,
+       "category": "physical"
+      },
+      {
+       "name": "Confuse Ray",
+       "type": "Ghost",
+       "category": "status"
+      }
+     ]
+    }
+   ],
+   "id": "angelo",
+   "area": "Gym"
+  },
+  {
+   "class": "Guitarist",
+   "name": "Shawn",
+   "prize": 544,
+   "party": [
+    {
+     "dex": 147,
+     "name": "Elekid",
+     "level": 17,
+     "iv": 12,
+     "moves": [
+      {
+       "name": "Thunder Shock",
+       "type": "Electric",
+       "power": 40,
+       "category": "special"
+      },
+      {
+       "name": "Low Kick",
+       "type": "Fighting",
+       "power": 1,
+       "category": "physical"
+      },
+      {
+       "name": "Swift",
+       "type": "Normal",
+       "power": 60,
+       "category": "special"
+      },
+      {
+       "name": "Shock Wave",
+       "type": "Electric",
+       "power": 60,
+       "category": "special"
+      }
+     ]
+    },
+    {
+     "dex": 89,
+     "name": "Magnemite",
+     "level": 17,
+     "iv": 12,
+     "moves": [
+      {
+       "name": "Thunder Wave",
+       "type": "Electric",
+       "category": "status"
+      },
+      {
+       "name": "Magnet Bomb",
+       "type": "Steel",
+       "power": 60,
+       "category": "physical"
+      },
+      {
+       "name": "Light Screen",
+       "type": "Psychic",
+       "category": "status"
+      },
+      {
+       "name": "Sonic Boom",
+       "type": "Normal",
+       "power": 1,
+       "category": "special"
+      }
+     ]
+    }
+   ],
+   "id": "shawn",
+   "area": "Gym"
+  },
+  {
+   "class": "Leader",
+   "name": "Wattson",
+   "prize": 2400,
+   "party": [
+    {
+     "dex": 345,
+     "name": "Volbeat",
+     "level": 20,
+     "iv": 24,
+     "moves": [
+      {
+       "name": "Infestation",
+       "type": "Bug",
+       "power": 20,
+       "category": "special"
+      },
+      {
+       "name": "Thunder Shock",
+       "type": "Electric",
+       "power": 40,
+       "category": "special"
+      },
+      {
+       "name": "Tail Glow",
+       "type": "Bug",
+       "category": "status"
+      },
+      {
+       "name": "Shock Wave",
+       "type": "Electric",
+       "power": 60,
+       "category": "special"
+      }
+     ]
+    },
+    {
+     "dex": 211,
+     "name": "Flaaffy",
+     "level": 20,
+     "iv": 24,
+     "moves": [
+      {
+       "name": "Shock Wave",
+       "type": "Electric",
+       "power": 60,
+       "category": "special"
+      },
+      {
+       "name": "Thunder Wave",
+       "type": "Electric",
+       "category": "status"
+      },
+      {
+       "name": "Power Gem",
+       "type": "Rock",
+       "power": 80,
+       "category": "special"
+      },
+      {
+       "name": "Cotton Spore",
+       "type": "Grass",
+       "category": "status"
+      }
+     ]
+    },
+    {
+     "dex": 90,
+     "name": "Magneton",
+     "level": 22,
+     "iv": 26,
+     "moves": [
+      {
+       "name": "Supersonic",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Shock Wave",
+       "type": "Electric",
+       "power": 60,
+       "category": "special"
+      },
+      {
+       "name": "Thunder Wave",
+       "type": "Electric",
+       "category": "status"
+      },
+      {
+       "name": "Sonic Boom",
+       "type": "Normal",
+       "power": 1,
+       "category": "special"
+      }
+     ]
+    },
+    {
+     "dex": 342,
+     "name": "Manectric",
+     "level": 24,
+     "iv": 30,
+     "moves": [
+      {
+       "name": "Quick Attack",
+       "type": "Normal",
+       "power": 40,
+       "category": "physical"
+      },
+      {
+       "name": "Thunder Wave",
+       "type": "Electric",
+       "category": "status"
+      },
+      {
+       "name": "Shock Wave",
+       "type": "Electric",
+       "power": 60,
+       "category": "special"
+      },
+      {
+       "name": "Howl",
+       "type": "Normal",
+       "category": "status"
+      }
+     ],
+     "item": "Sitrus Berry"
+    }
+   ],
+   "uses": [
+    "Super Potion ×2"
+   ],
+   "rewards": [
+    "Dynamo Badge",
+    "TM34"
+   ],
+   "id": "wattson",
+   "area": "Gym"
+  }
+ ],
+ "verified": true,
+ "sources": [
+  "https://mrwalkthroughs.com/pokemon-emerald-seaglass/"
+ ]
+}

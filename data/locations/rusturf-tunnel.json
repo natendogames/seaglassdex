@@ -1,0 +1,234 @@
+{
+ "id": "rusturf-tunnel",
+ "name": "Rusturf Tunnel",
+ "encounters": [
+  {
+   "dex": 325,
+   "name": "Whismur",
+   "method": "grass",
+   "levels": "6-7",
+   "rate": "50%"
+  },
+  {
+   "dex": 339,
+   "name": "Meditite",
+   "method": "grass",
+   "levels": "5-8",
+   "rate": "20%"
+  },
+  {
+   "dex": 244,
+   "name": "Snubbull",
+   "method": "grass",
+   "levels": "5-8",
+   "rate": "10%"
+  },
+  {
+   "dex": 256,
+   "name": "Swinub",
+   "method": "grass",
+   "levels": "7",
+   "rate": "10%"
+  },
+  {
+   "dex": 396,
+   "name": "Snorunt",
+   "method": "grass",
+   "levels": "6",
+   "rate": "10%"
+  }
+ ],
+ "items": [
+  {
+   "id": "outside-wishing-star",
+   "name": "Wishing Star",
+   "hidden": false,
+   "where": "Outside"
+  },
+  {
+   "id": "outside-max-ether",
+   "name": "Max Ether",
+   "hidden": false,
+   "where": "Outside",
+   "later": true,
+   "need": "Rock Smash (HM06 from the Rock Smash Guy in Mauville City, used with the Dynamo Badge)",
+   "after": "mauville-city",
+   "stage": 17.5
+  },
+  {
+   "id": "outside-metal-coat",
+   "name": "Metal Coat",
+   "hidden": false,
+   "where": "Outside",
+   "later": true,
+   "need": "Rock Smash (HM06 from the Rock Smash Guy in Mauville City, used with the Dynamo Badge)",
+   "after": "mauville-city",
+   "stage": 17.5
+  }
+ ],
+ "gifts": [
+  {
+   "id": "item-outside-hm04",
+   "name": "HM04",
+   "from": "Wanda's boyfriend (once the tunnel is open)",
+   "where": "Outside"
+  },
+  {
+   "id": "item-outside-devon-parts",
+   "name": "Devon Parts",
+   "from": "Aqua Grunt (after you beat him)",
+   "where": "Outside"
+  }
+ ],
+ "trainers": [
+  {
+   "class": "Hiker",
+   "name": "Mike",
+   "prize": 640,
+   "party": [
+    {
+     "dex": 81,
+     "name": "Geodude",
+     "level": 16,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Rock Polish",
+       "type": "Rock",
+       "category": "status"
+      },
+      {
+       "name": "Rollout",
+       "type": "Rock",
+       "power": 30,
+       "category": "physical"
+      },
+      {
+       "name": "Magnitude",
+       "type": "Ground",
+       "power": 1,
+       "category": "physical"
+      },
+      {
+       "name": "Rock Throw",
+       "type": "Rock",
+       "power": 50,
+       "category": "physical"
+      }
+     ]
+    },
+    {
+     "dex": 81,
+     "name": "Geodude",
+     "level": 16,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Rock Polish",
+       "type": "Rock",
+       "category": "status"
+      },
+      {
+       "name": "Rollout",
+       "type": "Rock",
+       "power": 30,
+       "category": "physical"
+      },
+      {
+       "name": "Magnitude",
+       "type": "Ground",
+       "power": 1,
+       "category": "physical"
+      },
+      {
+       "name": "Rock Throw",
+       "type": "Rock",
+       "power": 50,
+       "category": "physical"
+      }
+     ]
+    },
+    {
+     "dex": 73,
+     "name": "Machop",
+     "level": 16,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Karate Chop",
+       "type": "Fighting",
+       "power": 50,
+       "category": "physical"
+      },
+      {
+       "name": "Foresight",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Low Sweep",
+       "type": "Fighting",
+       "power": 65,
+       "category": "physical"
+      },
+      {
+       "name": "Seismic Toss",
+       "type": "Fighting",
+       "power": 1,
+       "category": "physical"
+      }
+     ]
+    }
+   ],
+   "id": "mike-2",
+   "stage": "mauville-city",
+   "later": true,
+   "reach": "Rock Smash (HM06 from the Rock Smash Guy in Mauville City, used with the Dynamo Badge)"
+  },
+  {
+   "class": "Team Aqua",
+   "name": "Grunt",
+   "prize": 220,
+   "party": [
+    {
+     "dex": 354,
+     "name": "Wailmer",
+     "level": 11,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Splash",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Growl",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Water Gun",
+       "type": "Water",
+       "power": 40,
+       "category": "special"
+      },
+      {
+       "name": "Rollout",
+       "type": "Rock",
+       "power": 30,
+       "category": "physical"
+      }
+     ]
+    }
+   ],
+   "rewards": [
+    "Devon Parts"
+   ],
+   "id": "grunt-rusturf-tunnel"
+  }
+ ],
+ "verified": true,
+ "sources": [
+  "https://mrwalkthroughs.com/pokemon-emerald-seaglass/"
+ ]
+}

@@ -1,0 +1,701 @@
+{
+ "id": "route-126",
+ "name": "Route 126",
+ "encounters": [
+  {
+   "dex": 79,
+   "name": "Tentacool",
+   "method": "surf",
+   "levels": "5-35",
+   "rate": "60%",
+   "area": "Outside"
+  },
+  {
+   "dex": 309,
+   "name": "Wingull",
+   "method": "surf",
+   "levels": "10-30",
+   "rate": "35%",
+   "area": "Outside"
+  },
+  {
+   "dex": 264,
+   "name": "Mantine",
+   "method": "surf",
+   "levels": "25-30",
+   "rate": "5%",
+   "area": "Outside"
+  },
+  {
+   "dex": 155,
+   "name": "Magikarp",
+   "method": "old-rod",
+   "levels": "5-10",
+   "rate": "70%",
+   "area": "Outside"
+  },
+  {
+   "dex": 79,
+   "name": "Tentacool",
+   "method": "old-rod",
+   "levels": "5-10",
+   "rate": "30%",
+   "area": "Outside"
+  },
+  {
+   "dex": 155,
+   "name": "Magikarp",
+   "method": "good-rod",
+   "levels": "10-30",
+   "rate": "60%",
+   "area": "Outside"
+  },
+  {
+   "dex": 79,
+   "name": "Tentacool",
+   "method": "good-rod",
+   "levels": "10-30",
+   "rate": "20%",
+   "area": "Outside"
+  },
+  {
+   "dex": 354,
+   "name": "Wailmer",
+   "method": "good-rod",
+   "levels": "10-30",
+   "rate": "20%",
+   "area": "Outside"
+  },
+  {
+   "dex": 354,
+   "name": "Wailmer",
+   "method": "super-rod",
+   "levels": "25-45",
+   "rate": "60%",
+   "area": "Outside"
+  },
+  {
+   "dex": 353,
+   "name": "Sharpedo",
+   "method": "super-rod",
+   "levels": "30-35",
+   "rate": "40%",
+   "area": "Outside"
+  },
+  {
+   "dex": 134,
+   "name": "Seadra",
+   "method": "dexnav-surf",
+   "levels": "10-30",
+   "rate": "33%",
+   "area": "Outside"
+  },
+  {
+   "dex": 135,
+   "name": "Kingdra",
+   "method": "dexnav-surf",
+   "levels": "30-40",
+   "rate": "33%",
+   "area": "Outside"
+  },
+  {
+   "dex": 263,
+   "name": "Mantyke",
+   "method": "dexnav-surf",
+   "levels": "10-30",
+   "rate": "33%",
+   "area": "Outside"
+  },
+  {
+   "dex": 402,
+   "name": "Clamperl",
+   "method": "dive",
+   "levels": "20-35",
+   "rate": "65%",
+   "area": "Underwater"
+  },
+  {
+   "dex": 203,
+   "name": "Chinchou",
+   "method": "dive",
+   "levels": "20-30",
+   "rate": "30%",
+   "area": "Underwater"
+  },
+  {
+   "dex": 405,
+   "name": "Relicanth",
+   "method": "dive",
+   "levels": "30-35",
+   "rate": "5%",
+   "area": "Underwater"
+  }
+ ],
+ "items": [
+  {
+   "id": "outside-green-shard",
+   "name": "Green Shard",
+   "hidden": false,
+   "where": "Outside"
+  },
+  {
+   "id": "hidden-underwater-heart-scale",
+   "name": "Heart Scale",
+   "hidden": true,
+   "where": "Underwater"
+  },
+  {
+   "id": "hidden-underwater-ultra-ball",
+   "name": "Ultra Ball",
+   "hidden": true,
+   "where": "Underwater"
+  },
+  {
+   "id": "hidden-underwater-stardust",
+   "name": "Stardust",
+   "hidden": true,
+   "where": "Underwater"
+  },
+  {
+   "id": "hidden-underwater-pearl",
+   "name": "Pearl",
+   "hidden": true,
+   "where": "Underwater"
+  },
+  {
+   "id": "hidden-underwater-iron",
+   "name": "Iron",
+   "hidden": true,
+   "where": "Underwater"
+  },
+  {
+   "id": "hidden-underwater-yellow-shard",
+   "name": "Yellow Shard",
+   "hidden": true,
+   "where": "Underwater"
+  },
+  {
+   "id": "hidden-underwater-big-pearl",
+   "name": "Big Pearl",
+   "hidden": true,
+   "where": "Underwater"
+  },
+  {
+   "id": "hidden-underwater-blue-shard",
+   "name": "Blue Shard",
+   "hidden": true,
+   "where": "Underwater"
+  }
+ ],
+ "gifts": [],
+ "trainers": [
+  {
+   "class": "Swimmer♂",
+   "name": "Leonardo",
+   "prize": 272,
+   "party": [
+    {
+     "dex": 259,
+     "name": "Corsola",
+     "level": 34,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Brine",
+       "type": "Water",
+       "power": 65,
+       "category": "special"
+      },
+      {
+       "name": "Iron Defense",
+       "type": "Steel",
+       "category": "status"
+      },
+      {
+       "name": "Rock Blast",
+       "type": "Rock",
+       "power": 25,
+       "category": "physical"
+      },
+      {
+       "name": "Icicle Spear",
+       "type": "Ice",
+       "power": 25,
+       "category": "physical"
+      }
+     ]
+    }
+   ],
+   "id": "leonardo",
+   "area": "Outside"
+  },
+  {
+   "class": "Triathlete",
+   "name": "Isobel",
+   "prize": 1360,
+   "party": [
+    {
+     "dex": 137,
+     "name": "Seaking",
+     "level": 34,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Fury Attack",
+       "type": "Normal",
+       "power": 15,
+       "category": "physical"
+      },
+      {
+       "name": "Psycho Cut",
+       "type": "Psychic",
+       "power": 70,
+       "category": "physical"
+      },
+      {
+       "name": "Agility",
+       "type": "Psychic",
+       "category": "status"
+      },
+      {
+       "name": "Waterfall",
+       "type": "Water",
+       "power": 80,
+       "category": "physical"
+      }
+     ]
+    }
+   ],
+   "id": "isobel",
+   "area": "Outside"
+  },
+  {
+   "class": "Swimmer♂",
+   "name": "Dean",
+   "prize": 248,
+   "party": [
+    {
+     "dex": 352,
+     "name": "Carvanha",
+     "level": 31,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Swagger",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Ice Fang",
+       "type": "Ice",
+       "power": 65,
+       "category": "physical"
+      },
+      {
+       "name": "Flip Turn",
+       "type": "Water",
+       "power": 60,
+       "category": "physical"
+      },
+      {
+       "name": "Scary Face",
+       "type": "Normal",
+       "category": "status"
+      }
+     ]
+    },
+    {
+     "dex": 310,
+     "name": "Pelipper",
+     "level": 31,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Water Pulse",
+       "type": "Water",
+       "power": 60,
+       "category": "special"
+      },
+      {
+       "name": "Payback",
+       "type": "Dark",
+       "power": 50,
+       "category": "physical"
+      },
+      {
+       "name": "Brine",
+       "type": "Water",
+       "power": 65,
+       "category": "special"
+      },
+      {
+       "name": "Fling",
+       "type": "Dark",
+       "power": 1,
+       "category": "physical"
+      }
+     ]
+    },
+    {
+     "dex": 246,
+     "name": "Qwilfish",
+     "level": 31,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Stockpile",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Spit Up",
+       "type": "Normal",
+       "power": 1,
+       "category": "special"
+      },
+      {
+       "name": "Fell Stinger",
+       "type": "Bug",
+       "power": 50,
+       "category": "physical"
+      },
+      {
+       "name": "Revenge",
+       "type": "Fighting",
+       "power": 60,
+       "category": "physical"
+      }
+     ]
+    }
+   ],
+   "id": "dean",
+   "area": "Outside"
+  },
+  {
+   "class": "Swimmer♀",
+   "name": "Nikki",
+   "prize": 264,
+   "party": [
+    {
+     "dex": 100,
+     "name": "Cloyster",
+     "level": 33,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Protect",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Aurora Beam",
+       "type": "Ice",
+       "power": 65,
+       "category": "special"
+      },
+      {
+       "name": "Spike Cannon",
+       "type": "Steel",
+       "power": 20,
+       "category": "physical"
+      },
+      {
+       "name": "Spikes",
+       "type": "Ground",
+       "category": "status"
+      }
+     ]
+    },
+    {
+     "dex": 400,
+     "name": "Sealeo",
+     "level": 33,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Body Slam",
+       "type": "Normal",
+       "power": 85,
+       "category": "physical"
+      },
+      {
+       "name": "Anchor Shot",
+       "type": "Steel",
+       "power": 80,
+       "category": "physical"
+      },
+      {
+       "name": "Rest",
+       "type": "Psychic",
+       "category": "status"
+      },
+      {
+       "name": "Snore",
+       "type": "Normal",
+       "power": 50,
+       "category": "special"
+      }
+     ]
+    }
+   ],
+   "id": "nikki",
+   "area": "Outside"
+  },
+  {
+   "class": "Swimmer♀",
+   "name": "Brenda",
+   "prize": 272,
+   "party": [
+    {
+     "dex": 87,
+     "name": "Slowbro",
+     "level": 34,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Disable",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Headbutt",
+       "type": "Normal",
+       "power": 70,
+       "category": "physical"
+      },
+      {
+       "name": "Water Pulse",
+       "type": "Water",
+       "power": 60,
+       "category": "special"
+      },
+      {
+       "name": "Zen Headbutt",
+       "type": "Psychic",
+       "power": 80,
+       "category": "physical"
+      }
+     ]
+    }
+   ],
+   "id": "brenda",
+   "area": "Outside"
+  },
+  {
+   "class": "Swimmer♂",
+   "name": "Barry",
+   "prize": 272,
+   "party": [
+    {
+     "dex": 156,
+     "name": "Gyarados",
+     "level": 34,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Twister",
+       "type": "Dragon",
+       "power": 40,
+       "category": "special"
+      },
+      {
+       "name": "Ice Fang",
+       "type": "Ice",
+       "power": 65,
+       "category": "physical"
+      },
+      {
+       "name": "Aqua Tail",
+       "type": "Water",
+       "power": 90,
+       "category": "physical"
+      },
+      {
+       "name": "Scary Face",
+       "type": "Normal",
+       "category": "status"
+      }
+     ]
+    },
+    {
+     "dex": 400,
+     "name": "Sealeo",
+     "level": 34,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Body Slam",
+       "type": "Normal",
+       "power": 85,
+       "category": "physical"
+      },
+      {
+       "name": "Anchor Shot",
+       "type": "Steel",
+       "power": 80,
+       "category": "physical"
+      },
+      {
+       "name": "Rest",
+       "type": "Psychic",
+       "category": "status"
+      },
+      {
+       "name": "Snore",
+       "type": "Normal",
+       "power": 50,
+       "category": "special"
+      }
+     ]
+    }
+   ],
+   "id": "barry",
+   "area": "Outside"
+  },
+  {
+   "class": "Triathlete",
+   "name": "Pablo",
+   "prize": 1320,
+   "party": [
+    {
+     "dex": 138,
+     "name": "Staryu",
+     "level": 33,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Camouflage",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Gyro Ball",
+       "type": "Steel",
+       "power": 1,
+       "category": "physical"
+      },
+      {
+       "name": "Brine",
+       "type": "Water",
+       "power": 65,
+       "category": "special"
+      },
+      {
+       "name": "Minimize",
+       "type": "Normal",
+       "category": "status"
+      }
+     ]
+    },
+    {
+     "dex": 96,
+     "name": "Dewgong",
+     "level": 33,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Aqua Ring",
+       "type": "Water",
+       "category": "status"
+      },
+      {
+       "name": "Aurora Beam",
+       "type": "Ice",
+       "power": 65,
+       "category": "special"
+      },
+      {
+       "name": "Aqua Jet",
+       "type": "Water",
+       "power": 40,
+       "category": "physical"
+      },
+      {
+       "name": "Brine",
+       "type": "Water",
+       "power": 65,
+       "category": "special"
+      }
+     ]
+    }
+   ],
+   "id": "pablo",
+   "area": "Outside"
+  },
+  {
+   "class": "Swimmer♀",
+   "name": "Sienna",
+   "prize": 264,
+   "party": [
+    {
+     "dex": 406,
+     "name": "Luvdisc",
+     "level": 33,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Flail",
+       "type": "Normal",
+       "power": 1,
+       "category": "physical"
+      },
+      {
+       "name": "Dazzling Gleam",
+       "type": "Fairy",
+       "power": 80,
+       "category": "special"
+      },
+      {
+       "name": "Sweet Kiss",
+       "type": "Fairy",
+       "category": "status"
+      },
+      {
+       "name": "Take Down",
+       "type": "Normal",
+       "power": 90,
+       "category": "physical"
+      }
+     ]
+    },
+    {
+     "dex": 384,
+     "name": "Milotic",
+     "level": 33,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Dragon Breath",
+       "type": "Dragon",
+       "power": 60,
+       "category": "special"
+      },
+      {
+       "name": "Recover",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Dazzling Gleam",
+       "type": "Fairy",
+       "power": 80,
+       "category": "special"
+      },
+      {
+       "name": "Aqua Tail",
+       "type": "Water",
+       "power": 90,
+       "category": "physical"
+      }
+     ]
+    }
+   ],
+   "id": "sienna",
+   "area": "Outside"
+  }
+ ],
+ "verified": true,
+ "sources": [
+  "https://mrwalkthroughs.com/pokemon-emerald-seaglass/"
+ ]
+}

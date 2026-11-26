@@ -1,0 +1,998 @@
+{
+ "id": "magma-hideout",
+ "name": "Magma Hideout",
+ "encounters": [
+  {
+   "dex": 81,
+   "name": "Geodude",
+   "method": "grass",
+   "levels": "27-30",
+   "rate": "45%",
+   "area": "1F"
+  },
+  {
+   "dex": 358,
+   "name": "Torkoal",
+   "method": "grass",
+   "levels": "28-30",
+   "rate": "30%",
+   "area": "1F"
+  },
+  {
+   "dex": 82,
+   "name": "Graveler",
+   "method": "grass",
+   "levels": "30-33",
+   "rate": "10%",
+   "area": "1F"
+  },
+  {
+   "dex": 267,
+   "name": "Houndoom",
+   "method": "grass",
+   "levels": "30",
+   "rate": "10%",
+   "area": "1F"
+  },
+  {
+   "dex": 357,
+   "name": "Camerupt",
+   "method": "grass",
+   "levels": "30",
+   "rate": "5%",
+   "area": "1F"
+  },
+  {
+   "dex": 81,
+   "name": "Geodude",
+   "method": "grass",
+   "levels": "27-30",
+   "rate": "45%",
+   "area": "2F 1R"
+  },
+  {
+   "dex": 358,
+   "name": "Torkoal",
+   "method": "grass",
+   "levels": "28-30",
+   "rate": "30%",
+   "area": "2F 1R"
+  },
+  {
+   "dex": 82,
+   "name": "Graveler",
+   "method": "grass",
+   "levels": "30-33",
+   "rate": "10%",
+   "area": "2F 1R"
+  },
+  {
+   "dex": 267,
+   "name": "Houndoom",
+   "method": "grass",
+   "levels": "30",
+   "rate": "10%",
+   "area": "2F 1R"
+  },
+  {
+   "dex": 357,
+   "name": "Camerupt",
+   "method": "grass",
+   "levels": "30",
+   "rate": "5%",
+   "area": "2F 1R"
+  },
+  {
+   "dex": 81,
+   "name": "Geodude",
+   "method": "grass",
+   "levels": "27-30",
+   "rate": "45%",
+   "area": "2F 2R"
+  },
+  {
+   "dex": 358,
+   "name": "Torkoal",
+   "method": "grass",
+   "levels": "28-30",
+   "rate": "30%",
+   "area": "2F 2R"
+  },
+  {
+   "dex": 82,
+   "name": "Graveler",
+   "method": "grass",
+   "levels": "30-33",
+   "rate": "10%",
+   "area": "2F 2R"
+  },
+  {
+   "dex": 267,
+   "name": "Houndoom",
+   "method": "grass",
+   "levels": "30",
+   "rate": "10%",
+   "area": "2F 2R"
+  },
+  {
+   "dex": 357,
+   "name": "Camerupt",
+   "method": "grass",
+   "levels": "30",
+   "rate": "5%",
+   "area": "2F 2R"
+  },
+  {
+   "dex": 81,
+   "name": "Geodude",
+   "method": "grass",
+   "levels": "27-30",
+   "rate": "45%",
+   "area": "2F 3R"
+  },
+  {
+   "dex": 358,
+   "name": "Torkoal",
+   "method": "grass",
+   "levels": "28-30",
+   "rate": "30%",
+   "area": "2F 3R"
+  },
+  {
+   "dex": 82,
+   "name": "Graveler",
+   "method": "grass",
+   "levels": "30-33",
+   "rate": "10%",
+   "area": "2F 3R"
+  },
+  {
+   "dex": 267,
+   "name": "Houndoom",
+   "method": "grass",
+   "levels": "30",
+   "rate": "10%",
+   "area": "2F 3R"
+  },
+  {
+   "dex": 357,
+   "name": "Camerupt",
+   "method": "grass",
+   "levels": "30",
+   "rate": "5%",
+   "area": "2F 3R"
+  },
+  {
+   "dex": 81,
+   "name": "Geodude",
+   "method": "grass",
+   "levels": "27-30",
+   "rate": "45%",
+   "area": "3F 1R"
+  },
+  {
+   "dex": 358,
+   "name": "Torkoal",
+   "method": "grass",
+   "levels": "28-30",
+   "rate": "30%",
+   "area": "3F 1R"
+  },
+  {
+   "dex": 82,
+   "name": "Graveler",
+   "method": "grass",
+   "levels": "30-33",
+   "rate": "10%",
+   "area": "3F 1R"
+  },
+  {
+   "dex": 267,
+   "name": "Houndoom",
+   "method": "grass",
+   "levels": "30",
+   "rate": "10%",
+   "area": "3F 1R"
+  },
+  {
+   "dex": 357,
+   "name": "Camerupt",
+   "method": "grass",
+   "levels": "30",
+   "rate": "5%",
+   "area": "3F 1R"
+  },
+  {
+   "dex": 81,
+   "name": "Geodude",
+   "method": "grass",
+   "levels": "27-30",
+   "rate": "45%",
+   "area": "3F 2R"
+  },
+  {
+   "dex": 358,
+   "name": "Torkoal",
+   "method": "grass",
+   "levels": "28-30",
+   "rate": "30%",
+   "area": "3F 2R"
+  },
+  {
+   "dex": 82,
+   "name": "Graveler",
+   "method": "grass",
+   "levels": "30-33",
+   "rate": "10%",
+   "area": "3F 2R"
+  },
+  {
+   "dex": 267,
+   "name": "Houndoom",
+   "method": "grass",
+   "levels": "30",
+   "rate": "10%",
+   "area": "3F 2R"
+  },
+  {
+   "dex": 357,
+   "name": "Camerupt",
+   "method": "grass",
+   "levels": "30",
+   "rate": "5%",
+   "area": "3F 2R"
+  },
+  {
+   "dex": 81,
+   "name": "Geodude",
+   "method": "grass",
+   "levels": "27-30",
+   "rate": "45%",
+   "area": "3F 3R"
+  },
+  {
+   "dex": 358,
+   "name": "Torkoal",
+   "method": "grass",
+   "levels": "28-30",
+   "rate": "30%",
+   "area": "3F 3R"
+  },
+  {
+   "dex": 82,
+   "name": "Graveler",
+   "method": "grass",
+   "levels": "30-33",
+   "rate": "10%",
+   "area": "3F 3R"
+  },
+  {
+   "dex": 267,
+   "name": "Houndoom",
+   "method": "grass",
+   "levels": "30",
+   "rate": "10%",
+   "area": "3F 3R"
+  },
+  {
+   "dex": 357,
+   "name": "Camerupt",
+   "method": "grass",
+   "levels": "30",
+   "rate": "5%",
+   "area": "3F 3R"
+  },
+  {
+   "dex": 81,
+   "name": "Geodude",
+   "method": "grass",
+   "levels": "27-30",
+   "rate": "45%",
+   "area": "4F"
+  },
+  {
+   "dex": 358,
+   "name": "Torkoal",
+   "method": "grass",
+   "levels": "28-30",
+   "rate": "30%",
+   "area": "4F"
+  },
+  {
+   "dex": 82,
+   "name": "Graveler",
+   "method": "grass",
+   "levels": "30-33",
+   "rate": "10%",
+   "area": "4F"
+  },
+  {
+   "dex": 267,
+   "name": "Houndoom",
+   "method": "grass",
+   "levels": "30",
+   "rate": "10%",
+   "area": "4F"
+  },
+  {
+   "dex": 357,
+   "name": "Camerupt",
+   "method": "grass",
+   "levels": "30",
+   "rate": "5%",
+   "area": "4F"
+  }
+ ],
+ "items": [
+  {
+   "id": "1f-rare-candy",
+   "name": "Rare Candy",
+   "hidden": false,
+   "where": "1F"
+  },
+  {
+   "id": "2f-2r-max-elixir",
+   "name": "Max Elixir",
+   "hidden": false,
+   "where": "2F 2R"
+  },
+  {
+   "id": "2f-2r-full-restore",
+   "name": "Full Restore",
+   "hidden": false,
+   "where": "2F 2R"
+  },
+  {
+   "id": "3f-1r-nugget",
+   "name": "Nugget",
+   "hidden": false,
+   "where": "3F 1R"
+  },
+  {
+   "id": "3f-2r-pp-max",
+   "name": "PP Max",
+   "hidden": false,
+   "where": "3F 2R"
+  },
+  {
+   "id": "3f-3r-escape-rope",
+   "name": "Escape Rope",
+   "hidden": false,
+   "where": "3F 3R"
+  },
+  {
+   "id": "4f-max-revive",
+   "name": "Max Revive",
+   "hidden": false,
+   "where": "4F"
+  }
+ ],
+ "gifts": [],
+ "trainers": [
+  {
+   "class": "Team Magma",
+   "name": "Grunt",
+   "prize": 580,
+   "party": [
+    {
+     "dex": 242,
+     "name": "Gligar",
+     "level": 29,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Feint Attack",
+       "type": "Dark",
+       "power": 60,
+       "category": "physical"
+      },
+      {
+       "name": "Acrobatics",
+       "type": "Flying",
+       "power": 55,
+       "category": "physical"
+      },
+      {
+       "name": "Sand Tomb",
+       "type": "Ground",
+       "power": 35,
+       "category": "physical"
+      },
+      {
+       "name": "Slash",
+       "type": "Normal",
+       "power": 70,
+       "category": "physical"
+      }
+     ]
+    }
+   ],
+   "id": "grunt-magma-hideout",
+   "area": "1F"
+  },
+  {
+   "class": "Team Magma",
+   "name": "Grunt",
+   "prize": 580,
+   "party": [
+    {
+     "dex": 293,
+     "name": "Mightyena",
+     "level": 29,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Swagger",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Dig",
+       "type": "Ground",
+       "power": 80,
+       "category": "physical"
+      },
+      {
+       "name": "Assurance",
+       "type": "Dark",
+       "power": 60,
+       "category": "physical"
+      },
+      {
+       "name": "Scary Face",
+       "type": "Normal",
+       "category": "status"
+      }
+     ]
+    }
+   ],
+   "id": "grunt-magma-hideout-14",
+   "area": "2F 1R"
+  },
+  {
+   "class": "Team Magma",
+   "name": "Grunt",
+   "prize": 580,
+   "party": [
+    {
+     "dex": 356,
+     "name": "Numel",
+     "level": 29,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Amnesia",
+       "type": "Psychic",
+       "category": "status"
+      },
+      {
+       "name": "Lava Plume",
+       "type": "Fire",
+       "power": 80,
+       "category": "special"
+      },
+      {
+       "name": "Earth Power",
+       "type": "Ground",
+       "power": 90,
+       "category": "special"
+      },
+      {
+       "name": "Curse",
+       "type": "Ghost",
+       "category": "status"
+      }
+     ]
+    }
+   ],
+   "id": "grunt-magma-hideout-15",
+   "area": "2F 2R"
+  },
+  {
+   "class": "Team Magma",
+   "name": "Grunt",
+   "prize": 580,
+   "party": [
+    {
+     "dex": 269,
+     "name": "Donphan",
+     "level": 29,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Magnitude",
+       "type": "Ground",
+       "power": 1,
+       "category": "physical"
+      },
+      {
+       "name": "Knock Off",
+       "type": "Dark",
+       "power": 65,
+       "category": "physical"
+      },
+      {
+       "name": "Slam",
+       "type": "Normal",
+       "power": 75,
+       "category": "physical"
+      },
+      {
+       "name": "Bulldoze",
+       "type": "Ground",
+       "power": 60,
+       "category": "physical"
+      }
+     ]
+    }
+   ],
+   "id": "grunt-magma-hideout-16",
+   "area": "3F 1R"
+  },
+  {
+   "class": "Team Magma",
+   "name": "Grunt",
+   "prize": 580,
+   "party": [
+    {
+     "dex": 24,
+     "name": "Arbok",
+     "level": 29,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Acid",
+       "type": "Poison",
+       "power": 40,
+       "category": "special"
+      },
+      {
+       "name": "Stockpile",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Swallow",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Spit Up",
+       "type": "Normal",
+       "power": 1,
+       "category": "special"
+      }
+     ]
+    }
+   ],
+   "id": "grunt-magma-hideout-10",
+   "area": "3F 2R"
+  },
+  {
+   "class": "Magma Leader",
+   "name": "Maxie",
+   "prize": 3120,
+   "party": [
+    {
+     "dex": 243,
+     "name": "Gliscor",
+     "level": 37,
+     "iv": 18,
+     "moves": [
+      {
+       "name": "Slash",
+       "type": "Normal",
+       "power": 70,
+       "category": "physical"
+      },
+      {
+       "name": "U-turn",
+       "type": "Bug",
+       "power": 70,
+       "category": "physical"
+      },
+      {
+       "name": "Bulldoze",
+       "type": "Ground",
+       "power": 60,
+       "category": "physical"
+      },
+      {
+       "name": "Screech",
+       "type": "Normal",
+       "category": "status"
+      }
+     ]
+    },
+    {
+     "dex": 46,
+     "name": "Crobat",
+     "level": 38,
+     "iv": 18,
+     "moves": [
+      {
+       "name": "Swift",
+       "type": "Normal",
+       "power": 60,
+       "category": "special"
+      },
+      {
+       "name": "Poison Fang",
+       "type": "Poison",
+       "power": 50,
+       "category": "physical"
+      },
+      {
+       "name": "Mean Look",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Leech Life",
+       "type": "Bug",
+       "power": 80,
+       "category": "physical"
+      }
+     ]
+    },
+    {
+     "dex": 252,
+     "name": "Ursaring",
+     "level": 38,
+     "iv": 18,
+     "moves": [
+      {
+       "name": "Grav Apple",
+       "type": "Grass",
+       "power": 80,
+       "category": "physical"
+      },
+      {
+       "name": "Slash",
+       "type": "Normal",
+       "power": 70,
+       "category": "physical"
+      },
+      {
+       "name": "Bulldoze",
+       "type": "Ground",
+       "power": 60,
+       "category": "physical"
+      },
+      {
+       "name": "Yawn",
+       "type": "Normal",
+       "category": "status"
+      }
+     ]
+    },
+    {
+     "dex": 357,
+     "name": "Camerupt",
+     "level": 39,
+     "iv": 18,
+     "moves": [
+      {
+       "name": "Curse",
+       "type": "Ghost",
+       "category": "status"
+      },
+      {
+       "name": "Body Slam",
+       "type": "Normal",
+       "power": 85,
+       "category": "physical"
+      },
+      {
+       "name": "Yawn",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Scald",
+       "type": "Water",
+       "power": 80,
+       "category": "special"
+      }
+     ]
+    }
+   ],
+   "uses": [
+    "Super Potion ×2"
+   ],
+   "id": "maxie-magma-hideout",
+   "area": "4F"
+  },
+  {
+   "class": "Magma Admin",
+   "name": "Tabitha",
+   "prize": 1320,
+   "party": [
+    {
+     "dex": 356,
+     "name": "Numel",
+     "level": 26,
+     "iv": 9,
+     "moves": [
+      {
+       "name": "Headbutt",
+       "type": "Normal",
+       "power": 70,
+       "category": "physical"
+      },
+      {
+       "name": "Amnesia",
+       "type": "Psychic",
+       "category": "status"
+      },
+      {
+       "name": "Lava Plume",
+       "type": "Fire",
+       "power": 80,
+       "category": "special"
+      },
+      {
+       "name": "Earth Power",
+       "type": "Ground",
+       "power": 90,
+       "category": "special"
+      }
+     ]
+    },
+    {
+     "dex": 94,
+     "name": "Dodrio",
+     "level": 28,
+     "iv": 9,
+     "moves": [
+      {
+       "name": "Pursuit",
+       "type": "Dark",
+       "power": 40,
+       "category": "physical"
+      },
+      {
+       "name": "Pluck",
+       "type": "Flying",
+       "power": 60,
+       "category": "physical"
+      },
+      {
+       "name": "Double Hit",
+       "type": "Normal",
+       "power": 40,
+       "category": "physical"
+      },
+      {
+       "name": "Bulldoze",
+       "type": "Ground",
+       "power": 60,
+       "category": "physical"
+      }
+     ]
+    },
+    {
+     "dex": 229,
+     "name": "Murkrow",
+     "level": 30,
+     "iv": 9,
+     "moves": [
+      {
+       "name": "Wing Attack",
+       "type": "Flying",
+       "power": 60,
+       "category": "physical"
+      },
+      {
+       "name": "Night Shade",
+       "type": "Ghost",
+       "power": 1,
+       "category": "special"
+      },
+      {
+       "name": "Assurance",
+       "type": "Dark",
+       "power": 60,
+       "category": "physical"
+      },
+      {
+       "name": "Dual Wingbeat",
+       "type": "Flying",
+       "power": 40,
+       "category": "physical"
+      }
+     ]
+    },
+    {
+     "dex": 357,
+     "name": "Camerupt",
+     "level": 33,
+     "iv": 9,
+     "moves": [
+      {
+       "name": "Lava Plume",
+       "type": "Fire",
+       "power": 80,
+       "category": "special"
+      },
+      {
+       "name": "Earth Power",
+       "type": "Ground",
+       "power": 90,
+       "category": "special"
+      },
+      {
+       "name": "Curse",
+       "type": "Ghost",
+       "category": "status"
+      },
+      {
+       "name": "Body Slam",
+       "type": "Normal",
+       "power": 85,
+       "category": "physical"
+      }
+     ]
+    }
+   ],
+   "id": "tabitha-magma-hideout",
+   "area": "4F"
+  },
+  {
+   "class": "Team Magma",
+   "name": "Grunt",
+   "prize": 580,
+   "party": [
+    {
+     "dex": 45,
+     "name": "Golbat",
+     "level": 29,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Confuse Ray",
+       "type": "Ghost",
+       "category": "status"
+      },
+      {
+       "name": "Air Cutter",
+       "type": "Flying",
+       "power": 60,
+       "category": "special"
+      },
+      {
+       "name": "Swift",
+       "type": "Normal",
+       "power": 60,
+       "category": "special"
+      },
+      {
+       "name": "Poison Fang",
+       "type": "Poison",
+       "power": 50,
+       "category": "physical"
+      }
+     ]
+    }
+   ],
+   "id": "grunt-magma-hideout-13",
+   "area": "4F"
+  },
+  {
+   "class": "Team Magma",
+   "name": "Grunt",
+   "prize": 580,
+   "party": [
+    {
+     "dex": 356,
+     "name": "Numel",
+     "level": 29,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Amnesia",
+       "type": "Psychic",
+       "category": "status"
+      },
+      {
+       "name": "Lava Plume",
+       "type": "Fire",
+       "power": 80,
+       "category": "special"
+      },
+      {
+       "name": "Earth Power",
+       "type": "Ground",
+       "power": 90,
+       "category": "special"
+      },
+      {
+       "name": "Curse",
+       "type": "Ghost",
+       "category": "status"
+      }
+     ]
+    },
+    {
+     "dex": 229,
+     "name": "Murkrow",
+     "level": 29,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Wing Attack",
+       "type": "Flying",
+       "power": 60,
+       "category": "physical"
+      },
+      {
+       "name": "Night Shade",
+       "type": "Ghost",
+       "power": 1,
+       "category": "special"
+      },
+      {
+       "name": "Assurance",
+       "type": "Dark",
+       "power": 60,
+       "category": "physical"
+      },
+      {
+       "name": "Dual Wingbeat",
+       "type": "Flying",
+       "power": 40,
+       "category": "physical"
+      }
+     ]
+    }
+   ],
+   "id": "grunt-magma-hideout-12",
+   "area": "4F"
+  },
+  {
+   "class": "Team Magma",
+   "name": "Grunt",
+   "prize": 580,
+   "party": [
+    {
+     "dex": 202,
+     "name": "Ariados",
+     "level": 29,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Night Shade",
+       "type": "Ghost",
+       "power": 1,
+       "category": "special"
+      },
+      {
+       "name": "Shadow Sneak",
+       "type": "Ghost",
+       "power": 40,
+       "category": "physical"
+      },
+      {
+       "name": "Bug Bite",
+       "type": "Bug",
+       "power": 60,
+       "category": "physical"
+      },
+      {
+       "name": "Sucker Punch",
+       "type": "Dark",
+       "power": 70,
+       "category": "physical"
+      }
+     ]
+    }
+   ],
+   "id": "grunt-magma-hideout-11",
+   "area": "4F"
+  }
+ ],
+ "verified": true,
+ "sources": [
+  "https://mrwalkthroughs.com/pokemon-emerald-seaglass/"
+ ]
+}

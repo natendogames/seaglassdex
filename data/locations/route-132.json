@@ -1,0 +1,685 @@
+{
+ "id": "route-132",
+ "name": "Route 132",
+ "encounters": [
+  {
+   "dex": 79,
+   "name": "Tentacool",
+   "method": "surf",
+   "levels": "5-35",
+   "rate": "60%"
+  },
+  {
+   "dex": 246,
+   "name": "Qwilfish",
+   "method": "surf",
+   "levels": "10-30",
+   "rate": "30%"
+  },
+  {
+   "dex": 157,
+   "name": "Lapras",
+   "method": "surf",
+   "levels": "25-30",
+   "rate": "5%"
+  },
+  {
+   "dex": 309,
+   "name": "Wingull",
+   "method": "surf",
+   "levels": "15-25",
+   "rate": "5%"
+  },
+  {
+   "dex": 155,
+   "name": "Magikarp",
+   "method": "old-rod",
+   "levels": "5-10",
+   "rate": "70%"
+  },
+  {
+   "dex": 79,
+   "name": "Tentacool",
+   "method": "old-rod",
+   "levels": "5-10",
+   "rate": "30%"
+  },
+  {
+   "dex": 155,
+   "name": "Magikarp",
+   "method": "good-rod",
+   "levels": "10-30",
+   "rate": "60%"
+  },
+  {
+   "dex": 79,
+   "name": "Tentacool",
+   "method": "good-rod",
+   "levels": "10-30",
+   "rate": "20%"
+  },
+  {
+   "dex": 354,
+   "name": "Wailmer",
+   "method": "good-rod",
+   "levels": "10-30",
+   "rate": "20%"
+  },
+  {
+   "dex": 354,
+   "name": "Wailmer",
+   "method": "super-rod",
+   "levels": "30-45",
+   "rate": "45%"
+  },
+  {
+   "dex": 353,
+   "name": "Sharpedo",
+   "method": "super-rod",
+   "levels": "30-35",
+   "rate": "40%"
+  },
+  {
+   "dex": 135,
+   "name": "Kingdra",
+   "method": "super-rod",
+   "levels": "25-30",
+   "rate": "15%"
+  }
+ ],
+ "items": [
+  {
+   "id": "outside-rare-candy",
+   "name": "Rare Candy",
+   "hidden": false,
+   "where": "Outside"
+  },
+  {
+   "id": "outside-protein",
+   "name": "Protein",
+   "hidden": false,
+   "where": "Outside"
+  }
+ ],
+ "gifts": [],
+ "trainers": [
+  {
+   "class": "Fisherman",
+   "name": "Ronald",
+   "prize": 1400,
+   "party": [
+    {
+     "dex": 155,
+     "name": "Magikarp",
+     "level": 19,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Splash",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Tackle",
+       "type": "Normal",
+       "power": 40,
+       "category": "physical"
+      }
+     ]
+    },
+    {
+     "dex": 156,
+     "name": "Gyarados",
+     "level": 21,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Bite",
+       "type": "Dark",
+       "power": 60,
+       "category": "physical"
+      },
+      {
+       "name": "Thrash",
+       "type": "Normal",
+       "power": 120,
+       "category": "physical"
+      },
+      {
+       "name": "Leer",
+       "type": "Normal",
+       "category": "status"
+      }
+     ]
+    },
+    {
+     "dex": 136,
+     "name": "Goldeen",
+     "level": 23,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Horn Attack",
+       "type": "Normal",
+       "power": 65,
+       "category": "physical"
+      },
+      {
+       "name": "Flail",
+       "type": "Normal",
+       "power": 1,
+       "category": "physical"
+      },
+      {
+       "name": "Water Pulse",
+       "type": "Water",
+       "power": 60,
+       "category": "special"
+      },
+      {
+       "name": "Aqua Ring",
+       "type": "Water",
+       "category": "status"
+      }
+     ]
+    },
+    {
+     "dex": 137,
+     "name": "Seaking",
+     "level": 26,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Flail",
+       "type": "Normal",
+       "power": 1,
+       "category": "physical"
+      },
+      {
+       "name": "Water Pulse",
+       "type": "Water",
+       "power": 60,
+       "category": "special"
+      },
+      {
+       "name": "Aqua Ring",
+       "type": "Water",
+       "category": "status"
+      },
+      {
+       "name": "Fury Attack",
+       "type": "Normal",
+       "power": 15,
+       "category": "physical"
+      }
+     ]
+    },
+    {
+     "dex": 228,
+     "name": "Quagsire",
+     "level": 30,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Mud Bomb",
+       "type": "Ground",
+       "power": 65,
+       "category": "special"
+      },
+      {
+       "name": "Amnesia",
+       "type": "Psychic",
+       "category": "status"
+      },
+      {
+       "name": "Triple Dive",
+       "type": "Water",
+       "power": 30,
+       "category": "physical"
+      },
+      {
+       "name": "Body Slam",
+       "type": "Normal",
+       "power": 85,
+       "category": "physical"
+      }
+     ]
+    },
+    {
+     "dex": 156,
+     "name": "Gyarados",
+     "level": 35,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Twister",
+       "type": "Dragon",
+       "power": 40,
+       "category": "special"
+      },
+      {
+       "name": "Ice Fang",
+       "type": "Ice",
+       "power": 65,
+       "category": "physical"
+      },
+      {
+       "name": "Aqua Tail",
+       "type": "Water",
+       "power": 90,
+       "category": "physical"
+      },
+      {
+       "name": "Scary Face",
+       "type": "Normal",
+       "category": "status"
+      }
+     ]
+    }
+   ],
+   "id": "ronald"
+  },
+  {
+   "class": "Cool Trainer",
+   "name": "Darcy",
+   "prize": 1584,
+   "party": [
+    {
+     "dex": 310,
+     "name": "Pelipper",
+     "level": 33,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Fling",
+       "type": "Dark",
+       "power": 1,
+       "category": "physical"
+      },
+      {
+       "name": "Stockpile",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Swallow",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Spit Up",
+       "type": "Normal",
+       "power": 1,
+       "category": "special"
+      }
+     ]
+    },
+    {
+     "dex": 264,
+     "name": "Mantine",
+     "level": 33,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Water Pulse",
+       "type": "Water",
+       "power": 60,
+       "category": "special"
+      },
+      {
+       "name": "Wide Guard",
+       "type": "Rock",
+       "category": "status"
+      },
+      {
+       "name": "Take Down",
+       "type": "Normal",
+       "power": 90,
+       "category": "physical"
+      },
+      {
+       "name": "Agility",
+       "type": "Psychic",
+       "category": "status"
+      }
+     ]
+    }
+   ],
+   "uses": [
+    "Hyper Potion"
+   ],
+   "id": "darcy"
+  },
+  {
+   "class": "Cool Trainer",
+   "name": "Jonathan",
+   "prize": 1584,
+   "party": [
+    {
+     "dex": 386,
+     "name": "Kecleon",
+     "level": 33,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Glare",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Camouflage",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Slack Off",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Shadow Claw",
+       "type": "Ghost",
+       "power": 70,
+       "category": "physical"
+      }
+     ]
+    },
+    {
+     "dex": 326,
+     "name": "Loudred",
+     "level": 33,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Stomp",
+       "type": "Normal",
+       "power": 65,
+       "category": "physical"
+      },
+      {
+       "name": "Uproar",
+       "type": "Normal",
+       "power": 90,
+       "category": "special"
+      },
+      {
+       "name": "Crunch",
+       "type": "Dark",
+       "power": 80,
+       "category": "physical"
+      },
+      {
+       "name": "Roar",
+       "type": "Normal",
+       "category": "status"
+      }
+     ]
+    }
+   ],
+   "uses": [
+    "Hyper Potion"
+   ],
+   "id": "jonathan"
+  },
+  {
+   "class": "Black Belt",
+   "name": "Kiyo",
+   "prize": 1088,
+   "party": [
+    {
+     "dex": 329,
+     "name": "Hariyama",
+     "level": 34,
+     "iv": 12,
+     "moves": [
+      {
+       "name": "Vital Throw",
+       "type": "Fighting",
+       "power": 70,
+       "category": "physical"
+      },
+      {
+       "name": "Belly Drum",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Smelling Salts",
+       "type": "Normal",
+       "power": 70,
+       "category": "physical"
+      },
+      {
+       "name": "Seismic Toss",
+       "type": "Fighting",
+       "power": 1,
+       "category": "physical"
+      }
+     ]
+    }
+   ],
+   "id": "kiyo"
+  },
+  {
+   "class": "Swimmer♂",
+   "name": "Gilbert",
+   "prize": 272,
+   "party": [
+    {
+     "dex": 353,
+     "name": "Sharpedo",
+     "level": 34,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Ice Fang",
+       "type": "Ice",
+       "power": 65,
+       "category": "physical"
+      },
+      {
+       "name": "Flip Turn",
+       "type": "Water",
+       "power": 60,
+       "category": "physical"
+      },
+      {
+       "name": "Scary Face",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Poison Fang",
+       "type": "Poison",
+       "power": 50,
+       "category": "physical"
+      }
+     ]
+    }
+   ],
+   "id": "gilbert"
+  },
+  {
+   "class": "Expert",
+   "name": "Paxton",
+   "prize": 1320,
+   "party": [
+    {
+     "dex": 198,
+     "name": "Noctowl",
+     "level": 33,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Psycho Shift",
+       "type": "Psychic",
+       "category": "status"
+      },
+      {
+       "name": "Extrasensory",
+       "type": "Psychic",
+       "power": 80,
+       "category": "special"
+      },
+      {
+       "name": "Relic Song",
+       "type": "Normal",
+       "power": 75,
+       "category": "special"
+      },
+      {
+       "name": "Reflect",
+       "type": "Psychic",
+       "category": "status"
+      }
+     ]
+    },
+    {
+     "dex": 318,
+     "name": "Breloom",
+     "level": 33,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Dizzy Punch",
+       "type": "Normal",
+       "power": 60,
+       "category": "physical"
+      },
+      {
+       "name": "Force Palm",
+       "type": "Fighting",
+       "power": 60,
+       "category": "physical"
+      },
+      {
+       "name": "Power-Up Punch",
+       "type": "Fighting",
+       "power": 40,
+       "category": "physical"
+      },
+      {
+       "name": "Bullet Seed",
+       "type": "Grass",
+       "power": 25,
+       "category": "physical"
+      }
+     ]
+    }
+   ],
+   "id": "paxton"
+  },
+  {
+   "class": "Expert",
+   "name": "Makayla",
+   "prize": 1320,
+   "party": [
+    {
+     "dex": 349,
+     "name": "Roserade",
+     "level": 33,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Toxic Thread",
+       "type": "Poison",
+       "category": "status"
+      },
+      {
+       "name": "Toxic Spikes",
+       "type": "Poison",
+       "category": "status"
+      },
+      {
+       "name": "Sweet Scent",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Strange Steam",
+       "type": "Fairy",
+       "power": 90,
+       "category": "special"
+      }
+     ]
+    },
+    {
+     "dex": 340,
+     "name": "Medicham",
+     "level": 33,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Mind Reader",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "High Jump Kick",
+       "type": "Fighting",
+       "power": 130,
+       "category": "physical"
+      },
+      {
+       "name": "Psych Up",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Acupressure",
+       "type": "Normal",
+       "category": "status"
+      }
+     ]
+    }
+   ],
+   "uses": [
+    "Hyper Potion"
+   ],
+   "id": "makayla"
+  },
+  {
+   "class": "Swimmer♀",
+   "name": "Dana",
+   "prize": 272,
+   "party": [
+    {
+     "dex": 215,
+     "name": "Azumarill",
+     "level": 34,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Aqua Tail",
+       "type": "Water",
+       "power": 90,
+       "category": "physical"
+      },
+      {
+       "name": "Play Rough",
+       "type": "Fairy",
+       "power": 90,
+       "category": "physical"
+      },
+      {
+       "name": "Aqua Ring",
+       "type": "Water",
+       "category": "status"
+      },
+      {
+       "name": "Body Slam",
+       "type": "Normal",
+       "power": 85,
+       "category": "physical"
+      }
+     ]
+    }
+   ],
+   "id": "dana"
+  }
+ ],
+ "verified": true,
+ "sources": [
+  "https://mrwalkthroughs.com/pokemon-emerald-seaglass/"
+ ]
+}

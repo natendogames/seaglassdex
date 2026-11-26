@@ -1,0 +1,3171 @@
+{
+ "id": "route-110",
+ "name": "Route 110",
+ "encounters": [
+  {
+   "dex": 23,
+   "name": "Ekans",
+   "method": "grass",
+   "levels": "12",
+   "rate": "20%",
+   "area": "Outside"
+  },
+  {
+   "dex": 341,
+   "name": "Electrike",
+   "method": "grass",
+   "levels": "12",
+   "rate": "20%",
+   "area": "Outside"
+  },
+  {
+   "dex": 350,
+   "name": "Gulpin",
+   "method": "grass",
+   "levels": "12-13",
+   "rate": "15%",
+   "area": "Outside"
+  },
+  {
+   "dex": 210,
+   "name": "Mareep",
+   "method": "grass",
+   "levels": "13",
+   "rate": "10%",
+   "area": "Outside"
+  },
+  {
+   "dex": 343,
+   "name": "Plusle",
+   "method": "grass",
+   "levels": "13",
+   "rate": "10%",
+   "area": "Outside"
+  },
+  {
+   "dex": 344,
+   "name": "Minun",
+   "method": "grass",
+   "levels": "13",
+   "rate": "10%",
+   "area": "Outside"
+  },
+  {
+   "dex": 26,
+   "name": "Pikachu",
+   "method": "grass",
+   "levels": "13",
+   "rate": "5%",
+   "area": "Outside"
+  },
+  {
+   "dex": 19,
+   "name": "Rattata",
+   "method": "grass",
+   "levels": "12",
+   "rate": "4%",
+   "area": "Outside"
+  },
+  {
+   "dex": 110,
+   "name": "Voltorb",
+   "method": "grass",
+   "levels": "12",
+   "rate": "4%",
+   "area": "Outside"
+  },
+  {
+   "dex": 186,
+   "name": "Chikorita",
+   "method": "grass",
+   "levels": "12-13",
+   "rate": "2%",
+   "area": "Outside"
+  },
+  {
+   "dex": 79,
+   "name": "Tentacool",
+   "method": "surf",
+   "levels": "5-35",
+   "rate": "60%",
+   "area": "Outside"
+  },
+  {
+   "dex": 309,
+   "name": "Wingull",
+   "method": "surf",
+   "levels": "10-30",
+   "rate": "35%",
+   "area": "Outside"
+  },
+  {
+   "dex": 310,
+   "name": "Pelipper",
+   "method": "surf",
+   "levels": "25-30",
+   "rate": "5%",
+   "area": "Outside"
+  },
+  {
+   "dex": 155,
+   "name": "Magikarp",
+   "method": "old-rod",
+   "levels": "5-10",
+   "rate": "70%",
+   "area": "Outside"
+  },
+  {
+   "dex": 79,
+   "name": "Tentacool",
+   "method": "old-rod",
+   "levels": "5-10",
+   "rate": "30%",
+   "area": "Outside"
+  },
+  {
+   "dex": 155,
+   "name": "Magikarp",
+   "method": "good-rod",
+   "levels": "10-30",
+   "rate": "60%",
+   "area": "Outside"
+  },
+  {
+   "dex": 79,
+   "name": "Tentacool",
+   "method": "good-rod",
+   "levels": "10-30",
+   "rate": "20%",
+   "area": "Outside"
+  },
+  {
+   "dex": 354,
+   "name": "Wailmer",
+   "method": "good-rod",
+   "levels": "10-30",
+   "rate": "20%",
+   "area": "Outside"
+  },
+  {
+   "dex": 354,
+   "name": "Wailmer",
+   "method": "super-rod",
+   "levels": "20-45",
+   "rate": "100%",
+   "area": "Outside"
+  },
+  {
+   "dex": 229,
+   "name": "Murkrow",
+   "method": "dexnav",
+   "levels": "12-15",
+   "rate": "66%",
+   "area": "Outside"
+  },
+  {
+   "dex": 205,
+   "name": "Togepi",
+   "method": "dexnav",
+   "levels": "12-15",
+   "rate": "33%",
+   "area": "Outside"
+  }
+ ],
+ "items": [
+  {
+   "id": "outside-dire-hit",
+   "name": "Dire Hit",
+   "hidden": false,
+   "where": "Outside"
+  },
+  {
+   "id": "outside-rare-candy",
+   "name": "Rare Candy",
+   "hidden": false,
+   "where": "Outside",
+   "later": true,
+   "need": "Surf (HM03 from Wally's father after you beat Norman in Petalburg City)",
+   "after": "lavaridge-town",
+   "stage": 30.5
+  },
+  {
+   "id": "outside-elixir",
+   "name": "Elixir",
+   "hidden": false,
+   "where": "Outside"
+  },
+  {
+   "id": "hidden-outside-revive",
+   "name": "Revive",
+   "hidden": true,
+   "where": "Outside"
+  },
+  {
+   "id": "hidden-outside-wishing-star",
+   "name": "Wishing Star",
+   "hidden": true,
+   "where": "Outside"
+  },
+  {
+   "id": "hidden-outside-wishing-star-2",
+   "name": "Wishing Star",
+   "hidden": true,
+   "where": "Outside"
+  },
+  {
+   "id": "hidden-outside-full-heal",
+   "name": "Full Heal",
+   "hidden": true,
+   "where": "Outside"
+  },
+  {
+   "id": "hidden-trick-house-end-nugget",
+   "name": "Nugget",
+   "hidden": true,
+   "where": "Trick House End"
+  },
+  {
+   "id": "trick-house-puzzle-1-orange-mail",
+   "name": "Orange Mail",
+   "hidden": false,
+   "where": "Trick House Puzzle 1"
+  },
+  {
+   "id": "trick-house-puzzle-2-wave-mail",
+   "name": "Wave Mail",
+   "hidden": false,
+   "where": "Trick House Puzzle 2",
+   "later": true,
+   "need": "the Dynamo Badge (the Trick Master sets this puzzle once you have it)",
+   "after": "mauville-city",
+   "stage": 17.5
+  },
+  {
+   "id": "trick-house-puzzle-2-harbor-mail",
+   "name": "Harbor Mail",
+   "hidden": false,
+   "where": "Trick House Puzzle 2",
+   "later": true,
+   "need": "the Dynamo Badge (the Trick Master sets this puzzle once you have it)",
+   "after": "mauville-city",
+   "stage": 17.5
+  },
+  {
+   "id": "trick-house-puzzle-3-wood-mail",
+   "name": "Wood Mail",
+   "hidden": false,
+   "where": "Trick House Puzzle 3",
+   "later": true,
+   "need": "the Heat Badge (the Trick Master sets this puzzle once you have it)",
+   "after": "lavaridge-town",
+   "stage": 30.5
+  },
+  {
+   "id": "trick-house-puzzle-3-shadow-mail",
+   "name": "Shadow Mail",
+   "hidden": false,
+   "where": "Trick House Puzzle 3",
+   "later": true,
+   "need": "the Heat Badge (the Trick Master sets this puzzle once you have it)",
+   "after": "lavaridge-town",
+   "stage": 30.5
+  },
+  {
+   "id": "trick-house-puzzle-4-mech-mail",
+   "name": "Mech Mail",
+   "hidden": false,
+   "where": "Trick House Puzzle 4",
+   "later": true,
+   "need": "the Balance Badge (the Trick Master sets this puzzle once you have it)",
+   "after": "lavaridge-town",
+   "stage": 30.5
+  },
+  {
+   "id": "trick-house-puzzle-6-glitter-mail",
+   "name": "Glitter Mail",
+   "hidden": false,
+   "where": "Trick House Puzzle 6",
+   "later": true,
+   "need": "the Mind Badge (the Trick Master sets this puzzle once you have it)",
+   "after": "mossdeep-city",
+   "stage": 52.5
+  },
+  {
+   "id": "trick-house-puzzle-7-tropic-mail",
+   "name": "Tropic Mail",
+   "hidden": false,
+   "where": "Trick House Puzzle 7",
+   "later": true,
+   "need": "the Rain Badge (the Trick Master sets this puzzle once you have it)",
+   "after": "sky-pillar",
+   "stage": 64.5
+  },
+  {
+   "id": "trick-house-puzzle-8-bead-mail",
+   "name": "Bead Mail",
+   "hidden": false,
+   "where": "Trick House Puzzle 8",
+   "later": true,
+   "need": "the Rain Badge (the Trick Master sets this puzzle once you have it)",
+   "after": "sky-pillar",
+   "stage": 64.5
+  }
+ ],
+ "gifts": [
+  {
+   "id": "item-outside-itemfinder",
+   "name": "Itemfinder",
+   "from": "Your rival",
+   "where": "Outside"
+  },
+  {
+   "id": "item-trick-house-end-rare-candy",
+   "name": "Rare Candy",
+   "from": "Trick Master (finish a Trick House puzzle)",
+   "where": "Trick House End"
+  },
+  {
+   "id": "item-trick-house-end-timer-ball",
+   "name": "Timer Ball",
+   "from": "Trick Master (finish a Trick House puzzle)",
+   "where": "Trick House End"
+  },
+  {
+   "id": "item-trick-house-end-hard-stone",
+   "name": "Hard Stone",
+   "from": "Trick Master (finish a Trick House puzzle)",
+   "where": "Trick House End"
+  },
+  {
+   "id": "item-trick-house-end-smoke-ball",
+   "name": "Smoke Ball",
+   "from": "Trick Master (finish a Trick House puzzle)",
+   "where": "Trick House End"
+  },
+  {
+   "id": "item-trick-house-end-tm12",
+   "name": "TM12",
+   "from": "Trick Master (finish a Trick House puzzle)",
+   "where": "Trick House End"
+  },
+  {
+   "id": "item-trick-house-end-magnet",
+   "name": "Magnet",
+   "from": "Trick Master (finish a Trick House puzzle)",
+   "where": "Trick House End"
+  },
+  {
+   "id": "item-trick-house-end-pp-max",
+   "name": "PP Max",
+   "from": "Trick Master (finish a Trick House puzzle)",
+   "where": "Trick House End"
+  }
+ ],
+ "trainers": [
+  {
+   "class": "Pokéfan",
+   "name": "Isabel",
+   "prize": 1120,
+   "party": [
+    {
+     "dex": 343,
+     "name": "Plusle",
+     "level": 14,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Helping Hand",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Spark",
+       "type": "Electric",
+       "power": 65,
+       "category": "physical"
+      },
+      {
+       "name": "Encore",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Bestow",
+       "type": "Normal",
+       "category": "status"
+      }
+     ],
+     "item": "Oran Berry"
+    },
+    {
+     "dex": 344,
+     "name": "Minun",
+     "level": 14,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Helping Hand",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Spark",
+       "type": "Electric",
+       "power": 65,
+       "category": "physical"
+      },
+      {
+       "name": "Encore",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Switcheroo",
+       "type": "Dark",
+       "category": "status"
+      }
+     ],
+     "item": "Oran Berry"
+    }
+   ],
+   "id": "isabel",
+   "area": "Outside"
+  },
+  {
+   "class": "Pokéfan",
+   "name": "Kaleb",
+   "prize": 1120,
+   "party": [
+    {
+     "dex": 344,
+     "name": "Minun",
+     "level": 14,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Helping Hand",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Spark",
+       "type": "Electric",
+       "power": 65,
+       "category": "physical"
+      },
+      {
+       "name": "Encore",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Switcheroo",
+       "type": "Dark",
+       "category": "status"
+      }
+     ],
+     "item": "Oran Berry"
+    },
+    {
+     "dex": 343,
+     "name": "Plusle",
+     "level": 14,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Helping Hand",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Spark",
+       "type": "Electric",
+       "power": 65,
+       "category": "physical"
+      },
+      {
+       "name": "Encore",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Bestow",
+       "type": "Normal",
+       "category": "status"
+      }
+     ],
+     "item": "Oran Berry"
+    }
+   ],
+   "id": "kaleb",
+   "area": "Outside"
+  },
+  {
+   "class": "Youngster",
+   "name": "Timmy",
+   "prize": 208,
+   "party": [
+    {
+     "dex": 336,
+     "name": "Aron",
+     "level": 15,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Mud-Slap",
+       "type": "Ground",
+       "power": 20,
+       "category": "special"
+      },
+      {
+       "name": "Headbutt",
+       "type": "Normal",
+       "power": 70,
+       "category": "physical"
+      },
+      {
+       "name": "Metal Claw",
+       "type": "Steel",
+       "power": 50,
+       "category": "physical"
+      },
+      {
+       "name": "Rock Tomb",
+       "type": "Rock",
+       "power": 60,
+       "category": "physical"
+      }
+     ]
+    },
+    {
+     "dex": 147,
+     "name": "Elekid",
+     "level": 13,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Leer",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Thunder Shock",
+       "type": "Electric",
+       "power": 40,
+       "category": "special"
+      },
+      {
+       "name": "Low Kick",
+       "type": "Fighting",
+       "power": 1,
+       "category": "physical"
+      },
+      {
+       "name": "Swift",
+       "type": "Normal",
+       "power": 60,
+       "category": "special"
+      }
+     ]
+    }
+   ],
+   "id": "timmy",
+   "area": "Outside"
+  },
+  {
+   "class": "Collector",
+   "name": "Edwin",
+   "prize": 840,
+   "party": [
+    {
+     "dex": 302,
+     "name": "Lombre",
+     "level": 14,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Growl",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Absorb",
+       "type": "Grass",
+       "power": 30,
+       "category": "special"
+      },
+      {
+       "name": "Bubble",
+       "type": "Water",
+       "power": 30,
+       "category": "special"
+      },
+      {
+       "name": "Fury Swipes",
+       "type": "Normal",
+       "power": 18,
+       "category": "physical"
+      }
+     ]
+    },
+    {
+     "dex": 305,
+     "name": "Nuzleaf",
+     "level": 14,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Harden",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Growth",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Torment",
+       "type": "Dark",
+       "category": "status"
+      },
+      {
+       "name": "Fake Out",
+       "type": "Normal",
+       "power": 40,
+       "category": "physical"
+      }
+     ]
+    }
+   ],
+   "id": "edwin",
+   "area": "Outside"
+  },
+  {
+   "class": "Guitarist",
+   "name": "Joseph",
+   "prize": 448,
+   "party": [
+    {
+     "dex": 210,
+     "name": "Mareep",
+     "level": 14,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Growl",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Thunder Wave",
+       "type": "Electric",
+       "category": "status"
+      },
+      {
+       "name": "Thunder Shock",
+       "type": "Electric",
+       "power": 40,
+       "category": "special"
+      },
+      {
+       "name": "Cotton Spore",
+       "type": "Grass",
+       "category": "status"
+      }
+     ]
+    },
+    {
+     "dex": 110,
+     "name": "Voltorb",
+     "level": 14,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Eerie Impulse",
+       "type": "Electric",
+       "category": "status"
+      },
+      {
+       "name": "Spark",
+       "type": "Electric",
+       "power": 65,
+       "category": "physical"
+      },
+      {
+       "name": "Rollout",
+       "type": "Rock",
+       "power": 30,
+       "category": "physical"
+      },
+      {
+       "name": "Screech",
+       "type": "Normal",
+       "category": "status"
+      }
+     ]
+    }
+   ],
+   "id": "joseph",
+   "area": "Outside"
+  },
+  {
+   "class": "Triathlete",
+   "name": "Alyssa",
+   "prize": 600,
+   "party": [
+    {
+     "dex": 26,
+     "name": "Pikachu",
+     "level": 15,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Growl",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Play Nice",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Quick Attack",
+       "type": "Normal",
+       "power": 40,
+       "category": "physical"
+      },
+      {
+       "name": "Electro Ball",
+       "type": "Electric",
+       "power": 1,
+       "category": "special"
+      }
+     ]
+    }
+   ],
+   "id": "alyssa",
+   "area": "Outside"
+  },
+  {
+   "class": "Psychic",
+   "name": "Edward",
+   "prize": 360,
+   "party": [
+    {
+     "dex": 70,
+     "name": "Abra",
+     "level": 15,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Hidden Power",
+       "type": "Normal",
+       "power": 60,
+       "category": "special"
+      }
+     ]
+    }
+   ],
+   "id": "edward",
+   "area": "Outside"
+  },
+  {
+   "class": "Fisherman",
+   "name": "Dale",
+   "prize": 560,
+   "party": [
+    {
+     "dex": 79,
+     "name": "Tentacool",
+     "level": 11,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Poison Sting",
+       "type": "Poison",
+       "power": 15,
+       "category": "physical"
+      },
+      {
+       "name": "Supersonic",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Constrict",
+       "type": "Normal",
+       "power": 10,
+       "category": "physical"
+      },
+      {
+       "name": "Acid",
+       "type": "Poison",
+       "power": 40,
+       "category": "special"
+      }
+     ]
+    },
+    {
+     "dex": 354,
+     "name": "Wailmer",
+     "level": 14,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Growl",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Water Gun",
+       "type": "Water",
+       "power": 40,
+       "category": "special"
+      },
+      {
+       "name": "Rollout",
+       "type": "Rock",
+       "power": 30,
+       "category": "physical"
+      },
+      {
+       "name": "Whirlpool",
+       "type": "Water",
+       "power": 35,
+       "category": "special"
+      }
+     ]
+    },
+    {
+     "dex": 133,
+     "name": "Horsea",
+     "level": 11,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Bubble",
+       "type": "Water",
+       "power": 30,
+       "category": "special"
+      },
+      {
+       "name": "Smokescreen",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Leer",
+       "type": "Normal",
+       "category": "status"
+      }
+     ]
+    },
+    {
+     "dex": 203,
+     "name": "Chinchou",
+     "level": 14,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Supersonic",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Thunder Wave",
+       "type": "Electric",
+       "category": "status"
+      },
+      {
+       "name": "Electro Ball",
+       "type": "Electric",
+       "power": 1,
+       "category": "special"
+      },
+      {
+       "name": "Water Gun",
+       "type": "Water",
+       "power": 40,
+       "category": "special"
+      }
+     ]
+    }
+   ],
+   "id": "dale",
+   "area": "Outside"
+  },
+  {
+   "class": "Rival",
+   "name": "May or Brendan",
+   "prize": 1200,
+   "byStarter": {
+    "Treecko": [
+     {
+      "dex": 263,
+      "name": "Mantyke",
+      "level": 18,
+      "iv": 6,
+      "moves": [
+       {
+        "name": "Bubble Beam",
+        "type": "Water",
+        "power": 65,
+        "category": "special"
+       },
+       {
+        "name": "Confuse Ray",
+        "type": "Ghost",
+        "category": "status"
+       },
+       {
+        "name": "Wing Attack",
+        "type": "Flying",
+        "power": 60,
+        "category": "physical"
+       },
+       {
+        "name": "Headbutt",
+        "type": "Normal",
+        "power": 70,
+        "category": "physical"
+       }
+      ]
+     },
+     {
+      "dex": 302,
+      "name": "Lombre",
+      "level": 18,
+      "iv": 6,
+      "moves": [
+       {
+        "name": "Bubble",
+        "type": "Water",
+        "power": 30,
+        "category": "special"
+       },
+       {
+        "name": "Fury Swipes",
+        "type": "Normal",
+        "power": 18,
+        "category": "physical"
+       },
+       {
+        "name": "Fake Out",
+        "type": "Normal",
+        "power": 40,
+        "category": "physical"
+       },
+       {
+        "name": "Mega Drain",
+        "type": "Grass",
+        "power": 50,
+        "category": "special"
+       }
+      ]
+     },
+     {
+      "dex": 287,
+      "name": "Combusken",
+      "level": 20,
+      "iv": 12,
+      "moves": [
+       {
+        "name": "Ember",
+        "type": "Fire",
+        "power": 40,
+        "category": "special"
+       },
+       {
+        "name": "Sand Attack",
+        "type": "Ground",
+        "category": "status"
+       },
+       {
+        "name": "Peck",
+        "type": "Flying",
+        "power": 35,
+        "category": "physical"
+       },
+       {
+        "name": "Flame Charge",
+        "type": "Fire",
+        "power": 50,
+        "category": "physical"
+       }
+      ]
+     }
+    ],
+    "Torchic": [
+     {
+      "dex": 302,
+      "name": "Lombre",
+      "level": 18,
+      "iv": 6,
+      "moves": [
+       {
+        "name": "Bubble",
+        "type": "Water",
+        "power": 30,
+        "category": "special"
+       },
+       {
+        "name": "Fury Swipes",
+        "type": "Normal",
+        "power": 18,
+        "category": "physical"
+       },
+       {
+        "name": "Fake Out",
+        "type": "Normal",
+        "power": 40,
+        "category": "physical"
+       },
+       {
+        "name": "Mega Drain",
+        "type": "Grass",
+        "power": 50,
+        "category": "special"
+       }
+      ]
+     },
+     {
+      "dex": 64,
+      "name": "Growlithe",
+      "level": 18,
+      "iv": 6,
+      "moves": [
+       {
+        "name": "Leer",
+        "type": "Normal",
+        "category": "status"
+       },
+       {
+        "name": "Odor Sleuth",
+        "type": "Normal",
+        "category": "status"
+       },
+       {
+        "name": "Helping Hand",
+        "type": "Normal",
+        "category": "status"
+       },
+       {
+        "name": "Flame Wheel",
+        "type": "Fire",
+        "power": 60,
+        "category": "physical"
+       }
+      ]
+     },
+     {
+      "dex": 290,
+      "name": "Marshtomp",
+      "level": 20,
+      "iv": 12,
+      "moves": [
+       {
+        "name": "Water Gun",
+        "type": "Water",
+        "power": 40,
+        "category": "special"
+       },
+       {
+        "name": "Mud-Slap",
+        "type": "Ground",
+        "power": 20,
+        "category": "special"
+       },
+       {
+        "name": "Foresight",
+        "type": "Normal",
+        "category": "status"
+       },
+       {
+        "name": "Bide",
+        "type": "Normal",
+        "power": 1,
+        "category": "physical"
+       }
+      ]
+     }
+    ],
+    "Mudkip": [
+     {
+      "dex": 309,
+      "name": "Wingull",
+      "level": 18,
+      "iv": 6,
+      "moves": [
+       {
+        "name": "Supersonic",
+        "type": "Normal",
+        "category": "status"
+       },
+       {
+        "name": "Wing Attack",
+        "type": "Flying",
+        "power": 60,
+        "category": "physical"
+       },
+       {
+        "name": "Mist",
+        "type": "Ice",
+        "category": "status"
+       },
+       {
+        "name": "Water Pulse",
+        "type": "Water",
+        "power": 60,
+        "category": "special"
+       }
+      ]
+     },
+     {
+      "dex": 64,
+      "name": "Growlithe",
+      "level": 18,
+      "iv": 6,
+      "moves": [
+       {
+        "name": "Leer",
+        "type": "Normal",
+        "category": "status"
+       },
+       {
+        "name": "Odor Sleuth",
+        "type": "Normal",
+        "category": "status"
+       },
+       {
+        "name": "Helping Hand",
+        "type": "Normal",
+        "category": "status"
+       },
+       {
+        "name": "Flame Wheel",
+        "type": "Fire",
+        "power": 60,
+        "category": "physical"
+       }
+      ]
+     },
+     {
+      "dex": 284,
+      "name": "Grovyle",
+      "level": 20,
+      "iv": 12,
+      "moves": [
+       {
+        "name": "Leafage",
+        "type": "Grass",
+        "power": 40,
+        "category": "physical"
+       },
+       {
+        "name": "Quick Attack",
+        "type": "Normal",
+        "power": 40,
+        "category": "physical"
+       },
+       {
+        "name": "Mega Drain",
+        "type": "Grass",
+        "power": 50,
+        "category": "special"
+       },
+       {
+        "name": "Pursuit",
+        "type": "Dark",
+        "power": 40,
+        "category": "physical"
+       }
+      ]
+     }
+    ]
+   },
+   "byStarterBrendan": {
+    "Treecko": [
+     {
+      "dex": 263,
+      "name": "Mantyke",
+      "level": 18,
+      "iv": 6,
+      "moves": [
+       {
+        "name": "Bubble Beam",
+        "type": "Water",
+        "power": 65,
+        "category": "special"
+       },
+       {
+        "name": "Confuse Ray",
+        "type": "Ghost",
+        "category": "status"
+       },
+       {
+        "name": "Wing Attack",
+        "type": "Flying",
+        "power": 60,
+        "category": "physical"
+       },
+       {
+        "name": "Headbutt",
+        "type": "Normal",
+        "power": 70,
+        "category": "physical"
+       }
+      ]
+     },
+     {
+      "dex": 112,
+      "name": "Exeggcute",
+      "level": 18,
+      "iv": 6,
+      "moves": [
+       {
+        "name": "Bullet Seed",
+        "type": "Grass",
+        "power": 25,
+        "category": "physical"
+       },
+       {
+        "name": "Stun Spore",
+        "type": "Grass",
+        "category": "status"
+       },
+       {
+        "name": "Poison Powder",
+        "type": "Poison",
+        "category": "status"
+       },
+       {
+        "name": "Sleep Powder",
+        "type": "Grass",
+        "category": "status"
+       }
+      ]
+     },
+     {
+      "dex": 287,
+      "name": "Combusken",
+      "level": 20,
+      "iv": 12,
+      "moves": [
+       {
+        "name": "Ember",
+        "type": "Fire",
+        "power": 40,
+        "category": "special"
+       },
+       {
+        "name": "Sand Attack",
+        "type": "Ground",
+        "category": "status"
+       },
+       {
+        "name": "Peck",
+        "type": "Flying",
+        "power": 35,
+        "category": "physical"
+       },
+       {
+        "name": "Flame Charge",
+        "type": "Fire",
+        "power": 50,
+        "category": "physical"
+       }
+      ]
+     }
+    ],
+    "Torchic": [
+     {
+      "dex": 219,
+      "name": "Skiploom",
+      "level": 18,
+      "iv": 6,
+      "moves": [
+       {
+        "name": "Fairy Wind",
+        "type": "Fairy",
+        "power": 40,
+        "category": "special"
+       },
+       {
+        "name": "Poison Powder",
+        "type": "Poison",
+        "category": "status"
+       },
+       {
+        "name": "Stun Spore",
+        "type": "Grass",
+        "category": "status"
+       },
+       {
+        "name": "Sleep Powder",
+        "type": "Grass",
+        "category": "status"
+       }
+      ]
+     },
+     {
+      "dex": 64,
+      "name": "Growlithe",
+      "level": 18,
+      "iv": 6,
+      "moves": [
+       {
+        "name": "Leer",
+        "type": "Normal",
+        "category": "status"
+       },
+       {
+        "name": "Odor Sleuth",
+        "type": "Normal",
+        "category": "status"
+       },
+       {
+        "name": "Helping Hand",
+        "type": "Normal",
+        "category": "status"
+       },
+       {
+        "name": "Flame Wheel",
+        "type": "Fire",
+        "power": 60,
+        "category": "physical"
+       }
+      ]
+     },
+     {
+      "dex": 290,
+      "name": "Marshtomp",
+      "level": 20,
+      "iv": 12,
+      "moves": [
+       {
+        "name": "Water Gun",
+        "type": "Water",
+        "power": 40,
+        "category": "special"
+       },
+       {
+        "name": "Mud-Slap",
+        "type": "Ground",
+        "power": 20,
+        "category": "special"
+       },
+       {
+        "name": "Foresight",
+        "type": "Normal",
+        "category": "status"
+       },
+       {
+        "name": "Bide",
+        "type": "Normal",
+        "power": 1,
+        "category": "physical"
+       }
+      ]
+     }
+    ],
+    "Mudkip": [
+     {
+      "dex": 64,
+      "name": "Growlithe",
+      "level": 18,
+      "iv": 6,
+      "moves": [
+       {
+        "name": "Leer",
+        "type": "Normal",
+        "category": "status"
+       },
+       {
+        "name": "Odor Sleuth",
+        "type": "Normal",
+        "category": "status"
+       },
+       {
+        "name": "Helping Hand",
+        "type": "Normal",
+        "category": "status"
+       },
+       {
+        "name": "Flame Wheel",
+        "type": "Fire",
+        "power": 60,
+        "category": "physical"
+       }
+      ]
+     },
+     {
+      "dex": 263,
+      "name": "Mantyke",
+      "level": 18,
+      "iv": 6,
+      "moves": [
+       {
+        "name": "Bubble Beam",
+        "type": "Water",
+        "power": 65,
+        "category": "special"
+       },
+       {
+        "name": "Confuse Ray",
+        "type": "Ghost",
+        "category": "status"
+       },
+       {
+        "name": "Wing Attack",
+        "type": "Flying",
+        "power": 60,
+        "category": "physical"
+       },
+       {
+        "name": "Headbutt",
+        "type": "Normal",
+        "power": 70,
+        "category": "physical"
+       }
+      ]
+     },
+     {
+      "dex": 284,
+      "name": "Grovyle",
+      "level": 20,
+      "iv": 12,
+      "moves": [
+       {
+        "name": "Leafage",
+        "type": "Grass",
+        "power": 40,
+        "category": "physical"
+       },
+       {
+        "name": "Quick Attack",
+        "type": "Normal",
+        "power": 40,
+        "category": "physical"
+       },
+       {
+        "name": "Mega Drain",
+        "type": "Grass",
+        "power": 50,
+        "category": "special"
+       },
+       {
+        "name": "Pursuit",
+        "type": "Dark",
+        "power": 40,
+        "category": "physical"
+       }
+      ]
+     }
+    ]
+   },
+   "rewards": [
+    "Itemfinder"
+   ],
+   "id": "rival-route-110",
+   "area": "Outside"
+  },
+  {
+   "class": "Lass",
+   "name": "Sally",
+   "prize": 256,
+   "party": [
+    {
+     "dex": 47,
+     "name": "Oddish",
+     "level": 16,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Acid",
+       "type": "Poison",
+       "power": 40,
+       "category": "special"
+      },
+      {
+       "name": "Poison Powder",
+       "type": "Poison",
+       "category": "status"
+      },
+      {
+       "name": "Stun Spore",
+       "type": "Grass",
+       "category": "status"
+      },
+      {
+       "name": "Sleep Powder",
+       "type": "Grass",
+       "category": "status"
+      }
+     ]
+    }
+   ],
+   "id": "sally",
+   "area": "Trick House Puzzle 1"
+  },
+  {
+   "class": "Youngster",
+   "name": "Eddie",
+   "prize": 256,
+   "party": [
+    {
+     "dex": 19,
+     "name": "Rattata",
+     "level": 14,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Quick Attack",
+       "type": "Normal",
+       "power": 40,
+       "category": "physical"
+      },
+      {
+       "name": "Focus Energy",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Bite",
+       "type": "Dark",
+       "power": 60,
+       "category": "physical"
+      },
+      {
+       "name": "Pursuit",
+       "type": "Dark",
+       "power": 40,
+       "category": "physical"
+      }
+     ]
+    },
+    {
+     "dex": 294,
+     "name": "Zigzagoon",
+     "level": 16,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Sand Attack",
+       "type": "Ground",
+       "category": "status"
+      },
+      {
+       "name": "Headbutt",
+       "type": "Normal",
+       "power": 70,
+       "category": "physical"
+      },
+      {
+       "name": "Baby-Doll Eyes",
+       "type": "Fairy",
+       "category": "status"
+      },
+      {
+       "name": "Odor Sleuth",
+       "type": "Normal",
+       "category": "status"
+      }
+     ]
+    }
+   ],
+   "id": "eddie",
+   "area": "Trick House Puzzle 1"
+  },
+  {
+   "class": "Lass",
+   "name": "Robin",
+   "prize": 224,
+   "party": [
+    {
+     "dex": 332,
+     "name": "Skitty",
+     "level": 14,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Foresight",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Sing",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Attract",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Disarming Voice",
+       "type": "Fairy",
+       "power": 40,
+       "category": "special"
+      }
+     ]
+    },
+    {
+     "dex": 317,
+     "name": "Shroomish",
+     "level": 14,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Tackle",
+       "type": "Normal",
+       "power": 40,
+       "category": "physical"
+      },
+      {
+       "name": "Stun Spore",
+       "type": "Grass",
+       "category": "status"
+      },
+      {
+       "name": "Leech Seed",
+       "type": "Grass",
+       "category": "status"
+      },
+      {
+       "name": "Mega Drain",
+       "type": "Grass",
+       "power": 50,
+       "category": "special"
+      }
+     ]
+    },
+    {
+     "dex": 244,
+     "name": "Snubbull",
+     "level": 14,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Tail Whip",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Charm",
+       "type": "Fairy",
+       "category": "status"
+      },
+      {
+       "name": "Bite",
+       "type": "Dark",
+       "power": 60,
+       "category": "physical"
+      },
+      {
+       "name": "Lick",
+       "type": "Ghost",
+       "power": 30,
+       "category": "physical"
+      }
+     ]
+    }
+   ],
+   "id": "robin",
+   "area": "Trick House Puzzle 1"
+  },
+  {
+   "class": "School Kid",
+   "name": "Ted",
+   "prize": 340,
+   "party": [
+    {
+     "dex": 42,
+     "name": "Jigglypuff",
+     "level": 17,
+     "iv": 1,
+     "moves": [
+      {
+       "name": "Play Nice",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Disarming Voice",
+       "type": "Fairy",
+       "power": 40,
+       "category": "special"
+      },
+      {
+       "name": "Disable",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Double Slap",
+       "type": "Normal",
+       "power": 15,
+       "category": "physical"
+      }
+     ]
+    }
+   ],
+   "id": "ted",
+   "area": "Trick House Puzzle 2",
+   "stage": "mauville-city",
+   "later": true,
+   "reach": "the Dynamo Badge (the Trick Master sets this puzzle once you have it)"
+  },
+  {
+   "class": "School Kid",
+   "name": "Georgia",
+   "prize": 320,
+   "party": [
+    {
+     "dex": 219,
+     "name": "Skiploom",
+     "level": 16,
+     "iv": 1,
+     "moves": [
+      {
+       "name": "Fairy Wind",
+       "type": "Fairy",
+       "power": 40,
+       "category": "special"
+      },
+      {
+       "name": "Poison Powder",
+       "type": "Poison",
+       "category": "status"
+      },
+      {
+       "name": "Stun Spore",
+       "type": "Grass",
+       "category": "status"
+      },
+      {
+       "name": "Sleep Powder",
+       "type": "Grass",
+       "category": "status"
+      }
+     ]
+    },
+    {
+     "dex": 298,
+     "name": "Beautifly",
+     "level": 16,
+     "iv": 1,
+     "moves": [
+      {
+       "name": "Gust",
+       "type": "Flying",
+       "power": 40,
+       "category": "special"
+      },
+      {
+       "name": "Absorb",
+       "type": "Grass",
+       "power": 30,
+       "category": "special"
+      },
+      {
+       "name": "Stun Spore",
+       "type": "Grass",
+       "category": "status"
+      }
+     ]
+    }
+   ],
+   "id": "georgia",
+   "area": "Trick House Puzzle 2",
+   "stage": "mauville-city",
+   "later": true,
+   "reach": "the Dynamo Badge (the Trick Master sets this puzzle once you have it)"
+  },
+  {
+   "class": "School Kid",
+   "name": "Paul",
+   "prize": 300,
+   "party": [
+    {
+     "dex": 356,
+     "name": "Numel",
+     "level": 15,
+     "iv": 1,
+     "moves": [
+      {
+       "name": "Ember",
+       "type": "Fire",
+       "power": 40,
+       "category": "special"
+      },
+      {
+       "name": "Focus Energy",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Magnitude",
+       "type": "Ground",
+       "power": 1,
+       "category": "physical"
+      },
+      {
+       "name": "Flame Burst",
+       "type": "Fire",
+       "power": 70,
+       "category": "special"
+      }
+     ]
+    },
+    {
+     "dex": 47,
+     "name": "Oddish",
+     "level": 15,
+     "iv": 1,
+     "moves": [
+      {
+       "name": "Acid",
+       "type": "Poison",
+       "power": 40,
+       "category": "special"
+      },
+      {
+       "name": "Poison Powder",
+       "type": "Poison",
+       "category": "status"
+      },
+      {
+       "name": "Stun Spore",
+       "type": "Grass",
+       "category": "status"
+      },
+      {
+       "name": "Sleep Powder",
+       "type": "Grass",
+       "category": "status"
+      }
+     ]
+    },
+    {
+     "dex": 92,
+     "name": "Farfetch'd",
+     "level": 15,
+     "iv": 1,
+     "moves": [
+      {
+       "name": "Fury Cutter",
+       "type": "Bug",
+       "power": 40,
+       "category": "physical"
+      },
+      {
+       "name": "Fury Attack",
+       "type": "Normal",
+       "power": 15,
+       "category": "physical"
+      },
+      {
+       "name": "Aerial Ace",
+       "type": "Flying",
+       "power": 60,
+       "category": "physical"
+      },
+      {
+       "name": "Knock Off",
+       "type": "Dark",
+       "power": 65,
+       "category": "physical"
+      }
+     ]
+    }
+   ],
+   "id": "paul",
+   "area": "Trick House Puzzle 2",
+   "stage": "mauville-city",
+   "later": true,
+   "reach": "the Dynamo Badge (the Trick Master sets this puzzle once you have it)"
+  },
+  {
+   "class": "Camper",
+   "name": "Justin",
+   "prize": 384,
+   "party": [
+    {
+     "dex": 386,
+     "name": "Kecleon",
+     "level": 24,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Feint Attack",
+       "type": "Dark",
+       "power": 60,
+       "category": "physical"
+      },
+      {
+       "name": "Psybeam",
+       "type": "Psychic",
+       "power": 65,
+       "category": "special"
+      },
+      {
+       "name": "Ancient Power",
+       "type": "Rock",
+       "power": 60,
+       "category": "special"
+      },
+      {
+       "name": "Force Palm",
+       "type": "Fighting",
+       "power": 60,
+       "category": "physical"
+      }
+     ]
+    }
+   ],
+   "id": "justin",
+   "area": "Trick House Puzzle 3",
+   "stage": "lavaridge-town",
+   "later": true,
+   "reach": "the Heat Badge (the Trick Master sets this puzzle once you have it)"
+  },
+  {
+   "class": "Hiker",
+   "name": "Alan",
+   "prize": 880,
+   "party": [
+    {
+     "dex": 81,
+     "name": "Geodude",
+     "level": 22,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Magnitude",
+       "type": "Ground",
+       "power": 1,
+       "category": "physical"
+      },
+      {
+       "name": "Rock Throw",
+       "type": "Rock",
+       "power": 50,
+       "category": "physical"
+      },
+      {
+       "name": "Smack Down",
+       "type": "Rock",
+       "power": 50,
+       "category": "physical"
+      },
+      {
+       "name": "Bulldoze",
+       "type": "Ground",
+       "power": 60,
+       "category": "physical"
+      }
+     ]
+    },
+    {
+     "dex": 330,
+     "name": "Nosepass",
+     "level": 22,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Thunder Wave",
+       "type": "Electric",
+       "category": "status"
+      },
+      {
+       "name": "Rest",
+       "type": "Psychic",
+       "category": "status"
+      },
+      {
+       "name": "Spark",
+       "type": "Electric",
+       "power": 65,
+       "category": "physical"
+      },
+      {
+       "name": "Rock Slide",
+       "type": "Rock",
+       "power": 75,
+       "category": "physical"
+      }
+     ]
+    },
+    {
+     "dex": 82,
+     "name": "Graveler",
+     "level": 22,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Magnitude",
+       "type": "Ground",
+       "power": 1,
+       "category": "physical"
+      },
+      {
+       "name": "Rock Throw",
+       "type": "Rock",
+       "power": 50,
+       "category": "physical"
+      },
+      {
+       "name": "Smack Down",
+       "type": "Rock",
+       "power": 50,
+       "category": "physical"
+      },
+      {
+       "name": "Bulldoze",
+       "type": "Ground",
+       "power": 60,
+       "category": "physical"
+      }
+     ]
+    }
+   ],
+   "id": "alan",
+   "area": "Trick House Puzzle 3",
+   "stage": "lavaridge-town",
+   "later": true,
+   "reach": "the Heat Badge (the Trick Master sets this puzzle once you have it)"
+  },
+  {
+   "class": "Picnicker",
+   "name": "Martha",
+   "prize": 368,
+   "party": [
+    {
+     "dex": 37,
+     "name": "Clefairy",
+     "level": 22,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Defense Curl",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Follow Me",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Bestow",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Wake-Up Slap",
+       "type": "Fighting",
+       "power": 70,
+       "category": "physical"
+      }
+     ]
+    },
+    {
+     "dex": 38,
+     "name": "Clefable",
+     "level": 23,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Defense Curl",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Follow Me",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Bestow",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Wake-Up Slap",
+       "type": "Fighting",
+       "power": 70,
+       "category": "physical"
+      }
+     ]
+    }
+   ],
+   "id": "martha",
+   "area": "Trick House Puzzle 3",
+   "stage": "lavaridge-town",
+   "later": true,
+   "reach": "the Heat Badge (the Trick Master sets this puzzle once you have it)"
+  },
+  {
+   "class": "Battle Girl",
+   "name": "Cora",
+   "prize": 648,
+   "party": [
+    {
+     "dex": 249,
+     "name": "Sneasel",
+     "level": 27,
+     "iv": 12,
+     "moves": [
+      {
+       "name": "Agility",
+       "type": "Psychic",
+       "category": "status"
+      },
+      {
+       "name": "Metal Claw",
+       "type": "Steel",
+       "power": 50,
+       "category": "physical"
+      },
+      {
+       "name": "Hone Claws",
+       "type": "Dark",
+       "category": "status"
+      },
+      {
+       "name": "Ice Fang",
+       "type": "Ice",
+       "power": 65,
+       "category": "physical"
+      }
+     ]
+    }
+   ],
+   "id": "cora",
+   "area": "Trick House Puzzle 4",
+   "stage": "lavaridge-town",
+   "later": true,
+   "reach": "the Balance Badge (the Trick Master sets this puzzle once you have it)"
+  },
+  {
+   "class": "Battle Girl",
+   "name": "Paula",
+   "prize": 648,
+   "party": [
+    {
+     "dex": 318,
+     "name": "Breloom",
+     "level": 27,
+     "iv": 12,
+     "moves": [
+      {
+       "name": "Headbutt",
+       "type": "Normal",
+       "power": 70,
+       "category": "physical"
+      },
+      {
+       "name": "Feint",
+       "type": "Normal",
+       "power": 30,
+       "category": "physical"
+      },
+      {
+       "name": "Counter",
+       "type": "Fighting",
+       "power": 1,
+       "category": "physical"
+      },
+      {
+       "name": "Dizzy Punch",
+       "type": "Normal",
+       "power": 60,
+       "category": "physical"
+      }
+     ]
+    }
+   ],
+   "id": "paula",
+   "area": "Trick House Puzzle 4",
+   "stage": "lavaridge-town",
+   "later": true,
+   "reach": "the Balance Badge (the Trick Master sets this puzzle once you have it)"
+  },
+  {
+   "class": "Black Belt",
+   "name": "Yuji",
+   "prize": 832,
+   "party": [
+    {
+     "dex": 92,
+     "name": "Farfetch'd",
+     "level": 26,
+     "iv": 12,
+     "moves": [
+      {
+       "name": "False Swipe",
+       "type": "Normal",
+       "power": 40,
+       "category": "physical"
+      },
+      {
+       "name": "Slash",
+       "type": "Normal",
+       "power": 70,
+       "category": "physical"
+      },
+      {
+       "name": "Air Cutter",
+       "type": "Flying",
+       "power": 60,
+       "category": "special"
+      },
+      {
+       "name": "Swords Dance",
+       "type": "Normal",
+       "category": "status"
+      }
+     ]
+    },
+    {
+     "dex": 74,
+     "name": "Machoke",
+     "level": 26,
+     "iv": 12,
+     "moves": [
+      {
+       "name": "Seismic Toss",
+       "type": "Fighting",
+       "power": 1,
+       "category": "physical"
+      },
+      {
+       "name": "Revenge",
+       "type": "Fighting",
+       "power": 60,
+       "category": "physical"
+      },
+      {
+       "name": "Knock Off",
+       "type": "Dark",
+       "power": 65,
+       "category": "physical"
+      },
+      {
+       "name": "Vital Throw",
+       "type": "Fighting",
+       "power": 70,
+       "category": "physical"
+      }
+     ]
+    }
+   ],
+   "id": "yuji",
+   "area": "Trick House Puzzle 4",
+   "stage": "lavaridge-town",
+   "later": true,
+   "reach": "the Balance Badge (the Trick Master sets this puzzle once you have it)"
+  },
+  {
+   "class": "Pokémon Ranger",
+   "name": "Sebastian",
+   "prize": 1872,
+   "party": [
+    {
+     "dex": 366,
+     "name": "Cacturne",
+     "level": 39,
+     "iv": 6,
+     "moves": [
+      {
+       "name": "Spikes",
+       "type": "Ground",
+       "category": "status"
+      },
+      {
+       "name": "Sucker Punch",
+       "type": "Dark",
+       "power": 70,
+       "category": "physical"
+      },
+      {
+       "name": "Poison Jab",
+       "type": "Poison",
+       "power": 80,
+       "category": "physical"
+      },
+      {
+       "name": "Pin Missile",
+       "type": "Bug",
+       "power": 25,
+       "category": "physical"
+      }
+     ]
+    }
+   ],
+   "uses": [
+    "Full Restore"
+   ],
+   "id": "sebastian",
+   "area": "Trick House Puzzle 6",
+   "stage": "mossdeep-city",
+   "later": true,
+   "reach": "the Mind Badge (the Trick Master sets this puzzle once you have it)"
+  },
+  {
+   "class": "Pokémon Ranger",
+   "name": "Sophia",
+   "prize": 1824,
+   "party": [
+    {
+     "dex": 367,
+     "name": "Swablu",
+     "level": 38,
+     "iv": 6,
+     "moves": [
+      {
+       "name": "Mirror Move",
+       "type": "Flying",
+       "category": "status"
+      },
+      {
+       "name": "Cotton Guard",
+       "type": "Grass",
+       "category": "status"
+      },
+      {
+       "name": "Hyper Voice",
+       "type": "Normal",
+       "power": 90,
+       "category": "special"
+      },
+      {
+       "name": "Dragon Pulse",
+       "type": "Dragon",
+       "power": 85,
+       "category": "special"
+      }
+     ]
+    },
+    {
+     "dex": 349,
+     "name": "Roserade",
+     "level": 38,
+     "iv": 6,
+     "moves": [
+      {
+       "name": "Strange Steam",
+       "type": "Fairy",
+       "power": 90,
+       "category": "special"
+      },
+      {
+       "name": "Ingrain",
+       "type": "Grass",
+       "category": "status"
+      },
+      {
+       "name": "Poison Jab",
+       "type": "Poison",
+       "power": 80,
+       "category": "physical"
+      },
+      {
+       "name": "Petal Blizzard",
+       "type": "Grass",
+       "power": 90,
+       "category": "physical"
+      }
+     ]
+    }
+   ],
+   "uses": [
+    "Full Restore"
+   ],
+   "id": "sophia",
+   "area": "Trick House Puzzle 6",
+   "stage": "mossdeep-city",
+   "later": true,
+   "reach": "the Mind Badge (the Trick Master sets this puzzle once you have it)"
+  },
+  {
+   "class": "Bird Keeper",
+   "name": "Benny",
+   "prize": 1152,
+   "party": [
+    {
+     "dex": 308,
+     "name": "Swellow",
+     "level": 36,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Double Team",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Aerial Ace",
+       "type": "Flying",
+       "power": 60,
+       "category": "physical"
+      },
+      {
+       "name": "Quick Guard",
+       "type": "Fighting",
+       "category": "status"
+      },
+      {
+       "name": "Agility",
+       "type": "Psychic",
+       "category": "status"
+      }
+     ]
+    },
+    {
+     "dex": 310,
+     "name": "Pelipper",
+     "level": 36,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Fling",
+       "type": "Dark",
+       "power": 1,
+       "category": "physical"
+      },
+      {
+       "name": "Stockpile",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Swallow",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Spit Up",
+       "type": "Normal",
+       "power": 1,
+       "category": "special"
+      }
+     ]
+    },
+    {
+     "dex": 206,
+     "name": "Togetic",
+     "level": 36,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Ancient Power",
+       "type": "Rock",
+       "power": 60,
+       "category": "special"
+      },
+      {
+       "name": "Dazzling Gleam",
+       "type": "Fairy",
+       "power": 80,
+       "category": "special"
+      },
+      {
+       "name": "Extrasensory",
+       "type": "Psychic",
+       "power": 80,
+       "category": "special"
+      },
+      {
+       "name": "Moonblast",
+       "type": "Fairy",
+       "power": 95,
+       "category": "special"
+      }
+     ]
+    }
+   ],
+   "id": "benny",
+   "area": "Trick House Puzzle 6",
+   "stage": "mossdeep-city",
+   "later": true,
+   "reach": "the Mind Badge (the Trick Master sets this puzzle once you have it)"
+  },
+  {
+   "class": "Psychic",
+   "name": "Mariela",
+   "prize": 984,
+   "party": [
+    {
+     "dex": 394,
+     "name": "Chimecho",
+     "level": 41,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Uproar",
+       "type": "Normal",
+       "power": 90,
+       "category": "special"
+      },
+      {
+       "name": "Flash Cannon",
+       "type": "Steel",
+       "power": 80,
+       "category": "special"
+      },
+      {
+       "name": "Safeguard",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Charge Beam",
+       "type": "Electric",
+       "power": 50,
+       "category": "special"
+      }
+     ]
+    }
+   ],
+   "id": "mariela",
+   "area": "Trick House Puzzle 7",
+   "stage": "sky-pillar",
+   "later": true,
+   "reach": "the Rain Badge (the Trick Master sets this puzzle once you have it)"
+  },
+  {
+   "class": "Gentleman",
+   "name": "Everett",
+   "prize": 3280,
+   "party": [
+    {
+     "dex": 235,
+     "name": "Wobbuffet",
+     "level": 41,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Counter",
+       "type": "Fighting",
+       "power": 1,
+       "category": "physical"
+      },
+      {
+       "name": "Mirror Coat",
+       "type": "Psychic",
+       "power": 1,
+       "category": "special"
+      },
+      {
+       "name": "Safeguard",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Destiny Bond",
+       "type": "Ghost",
+       "category": "status"
+      }
+     ]
+    }
+   ],
+   "id": "everett",
+   "area": "Trick House Puzzle 7",
+   "stage": "sky-pillar",
+   "later": true,
+   "reach": "the Rain Badge (the Trick Master sets this puzzle once you have it)"
+  },
+  {
+   "class": "Psychic",
+   "name": "Alvaro",
+   "prize": 984,
+   "party": [
+    {
+     "dex": 388,
+     "name": "Banette",
+     "level": 41,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Embargo",
+       "type": "Dark",
+       "category": "status"
+      },
+      {
+       "name": "Body Slam",
+       "type": "Normal",
+       "power": 85,
+       "category": "physical"
+      },
+      {
+       "name": "Sucker Punch",
+       "type": "Dark",
+       "power": 70,
+       "category": "physical"
+      },
+      {
+       "name": "Rage Fist",
+       "type": "Ghost",
+       "power": 50,
+       "category": "physical"
+      }
+     ]
+    },
+    {
+     "dex": 163,
+     "name": "Espeon",
+     "level": 41,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Mystical Fire",
+       "type": "Fire",
+       "power": 75,
+       "category": "special"
+      },
+      {
+       "name": "Morning Sun",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Psychic",
+       "type": "Psychic",
+       "power": 90,
+       "category": "special"
+      },
+      {
+       "name": "Last Resort",
+       "type": "Normal",
+       "power": 140,
+       "category": "physical"
+      }
+     ]
+    }
+   ],
+   "id": "alvaro",
+   "area": "Trick House Puzzle 7",
+   "stage": "sky-pillar",
+   "later": true,
+   "reach": "the Rain Badge (the Trick Master sets this puzzle once you have it)"
+  },
+  {
+   "class": "Psychic",
+   "name": "Alexis",
+   "prize": 984,
+   "party": [
+    {
+     "dex": 314,
+     "name": "Gallade",
+     "level": 41,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Swords Dance",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Psycho Cut",
+       "type": "Psychic",
+       "power": 70,
+       "category": "physical"
+      },
+      {
+       "name": "Helping Hand",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Feint",
+       "type": "Normal",
+       "power": 30,
+       "category": "physical"
+      }
+     ]
+    },
+    {
+     "dex": 209,
+     "name": "Xatu",
+     "level": 41,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Wish",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Psychic",
+       "type": "Psychic",
+       "power": 90,
+       "category": "special"
+      },
+      {
+       "name": "Miracle Eye",
+       "type": "Psychic",
+       "category": "status"
+      },
+      {
+       "name": "Night Daze",
+       "type": "Dark",
+       "power": 85,
+       "category": "special"
+      }
+     ]
+    }
+   ],
+   "id": "alexis",
+   "area": "Trick House Puzzle 7",
+   "stage": "sky-pillar",
+   "later": true,
+   "reach": "the Rain Badge (the Trick Master sets this puzzle once you have it)"
+  },
+  {
+   "class": "Psychic",
+   "name": "Joshua",
+   "prize": 984,
+   "party": [
+    {
+     "dex": 72,
+     "name": "Alakazam",
+     "level": 41,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Telekinesis",
+       "type": "Psychic",
+       "category": "status"
+      },
+      {
+       "name": "Ally Switch",
+       "type": "Psychic",
+       "category": "status"
+      },
+      {
+       "name": "Psychic",
+       "type": "Psychic",
+       "power": 90,
+       "category": "special"
+      },
+      {
+       "name": "Calm Mind",
+       "type": "Psychic",
+       "category": "status"
+      }
+     ]
+    },
+    {
+     "dex": 372,
+     "name": "Solrock",
+     "level": 41,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Heal Block",
+       "type": "Psychic",
+       "category": "status"
+      },
+      {
+       "name": "Fire Lash",
+       "type": "Fire",
+       "power": 80,
+       "category": "physical"
+      },
+      {
+       "name": "Stone Edge",
+       "type": "Rock",
+       "power": 100,
+       "category": "physical"
+      },
+      {
+       "name": "Solar Beam",
+       "type": "Grass",
+       "power": 120,
+       "category": "special"
+      }
+     ]
+    }
+   ],
+   "id": "joshua",
+   "area": "Trick House Puzzle 7",
+   "stage": "sky-pillar",
+   "later": true,
+   "reach": "the Rain Badge (the Trick Master sets this puzzle once you have it)"
+  },
+  {
+   "class": "Hex Maniac",
+   "name": "Patricia",
+   "prize": 984,
+   "party": [
+    {
+     "dex": 388,
+     "name": "Banette",
+     "level": 41,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Embargo",
+       "type": "Dark",
+       "category": "status"
+      },
+      {
+       "name": "Body Slam",
+       "type": "Normal",
+       "power": 85,
+       "category": "physical"
+      },
+      {
+       "name": "Sucker Punch",
+       "type": "Dark",
+       "power": 70,
+       "category": "physical"
+      },
+      {
+       "name": "Rage Fist",
+       "type": "Ghost",
+       "power": 50,
+       "category": "physical"
+      }
+     ]
+    },
+    {
+     "dex": 371,
+     "name": "Lunatone",
+     "level": 41,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Heal Block",
+       "type": "Psychic",
+       "category": "status"
+      },
+      {
+       "name": "Spirit Break",
+       "type": "Fairy",
+       "power": 75,
+       "category": "physical"
+      },
+      {
+       "name": "Stone Edge",
+       "type": "Rock",
+       "power": 100,
+       "category": "physical"
+      },
+      {
+       "name": "Future Sight",
+       "type": "Psychic",
+       "power": 120,
+       "category": "special"
+      }
+     ]
+    },
+    {
+     "dex": 372,
+     "name": "Solrock",
+     "level": 41,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Heal Block",
+       "type": "Psychic",
+       "category": "status"
+      },
+      {
+       "name": "Fire Lash",
+       "type": "Fire",
+       "power": 80,
+       "category": "physical"
+      },
+      {
+       "name": "Stone Edge",
+       "type": "Rock",
+       "power": 100,
+       "category": "physical"
+      },
+      {
+       "name": "Solar Beam",
+       "type": "Grass",
+       "power": 120,
+       "category": "special"
+      }
+     ]
+    }
+   ],
+   "id": "patricia",
+   "area": "Trick House Puzzle 7",
+   "stage": "sky-pillar",
+   "later": true,
+   "reach": "the Rain Badge (the Trick Master sets this puzzle once you have it)"
+  },
+  {
+   "class": "Cool Trainer",
+   "name": "Keira",
+   "prize": 2160,
+   "party": [
+    {
+     "dex": 338,
+     "name": "Aggron",
+     "level": 45,
+     "iv": 12,
+     "moves": [
+      {
+       "name": "Salt Cure",
+       "type": "Rock",
+       "power": 40,
+       "category": "physical"
+      },
+      {
+       "name": "Iron Defense",
+       "type": "Steel",
+       "category": "status"
+      },
+      {
+       "name": "Body Press",
+       "type": "Fighting",
+       "power": 80,
+       "category": "physical"
+      },
+      {
+       "name": "Scale Shot",
+       "type": "Dragon",
+       "power": 25,
+       "category": "physical"
+      }
+     ]
+    },
+    {
+     "dex": 342,
+     "name": "Manectric",
+     "level": 45,
+     "iv": 12,
+     "moves": [
+      {
+       "name": "Fire Fang",
+       "type": "Fire",
+       "power": 65,
+       "category": "physical"
+      },
+      {
+       "name": "Roar",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Rising Voltage",
+       "type": "Electric",
+       "power": 70,
+       "category": "special"
+      },
+      {
+       "name": "Flamethrower",
+       "type": "Fire",
+       "power": 90,
+       "category": "special"
+      }
+     ]
+    }
+   ],
+   "uses": [
+    "Full Restore"
+   ],
+   "id": "keira",
+   "area": "Trick House Puzzle 8",
+   "stage": "sky-pillar",
+   "later": true,
+   "reach": "the Rain Badge (the Trick Master sets this puzzle once you have it)"
+  },
+  {
+   "class": "Cool Trainer",
+   "name": "Vincent",
+   "prize": 2112,
+   "party": [
+    {
+     "dex": 334,
+     "name": "Sableye",
+     "level": 44,
+     "iv": 12,
+     "moves": [
+      {
+       "name": "Power Gem",
+       "type": "Rock",
+       "power": 80,
+       "category": "special"
+      },
+      {
+       "name": "Shadow Ball",
+       "type": "Ghost",
+       "power": 80,
+       "category": "special"
+      },
+      {
+       "name": "Foul Play",
+       "type": "Dark",
+       "power": 95,
+       "category": "physical"
+      },
+      {
+       "name": "Quash",
+       "type": "Dark",
+       "category": "status"
+      }
+     ]
+    },
+    {
+     "dex": 340,
+     "name": "Medicham",
+     "level": 44,
+     "iv": 12,
+     "moves": [
+      {
+       "name": "Power Trick",
+       "type": "Psychic",
+       "category": "status"
+      },
+      {
+       "name": "Psychic",
+       "type": "Psychic",
+       "power": 90,
+       "category": "special"
+      },
+      {
+       "name": "Reversal",
+       "type": "Fighting",
+       "power": 1,
+       "category": "physical"
+      },
+      {
+       "name": "Trop Kick",
+       "type": "Grass",
+       "power": 70,
+       "category": "physical"
+      }
+     ]
+    },
+    {
+     "dex": 261,
+     "name": "Octillery",
+     "level": 44,
+     "iv": 12,
+     "moves": [
+      {
+       "name": "Signal Beam",
+       "type": "Bug",
+       "power": 75,
+       "category": "special"
+      },
+      {
+       "name": "Rock Blast",
+       "type": "Rock",
+       "power": 25,
+       "category": "physical"
+      },
+      {
+       "name": "Ice Beam",
+       "type": "Ice",
+       "power": 90,
+       "category": "special"
+      },
+      {
+       "name": "Aura Sphere",
+       "type": "Fighting",
+       "power": 80,
+       "category": "special"
+      }
+     ]
+    }
+   ],
+   "uses": [
+    "Full Restore"
+   ],
+   "id": "vincent",
+   "area": "Trick House Puzzle 8",
+   "stage": "sky-pillar",
+   "later": true,
+   "reach": "the Rain Badge (the Trick Master sets this puzzle once you have it)"
+  },
+  {
+   "class": "Cool Trainer",
+   "name": "Leroy",
+   "prize": 2208,
+   "party": [
+    {
+     "dex": 335,
+     "name": "Mawile",
+     "level": 46,
+     "iv": 12,
+     "moves": [
+      {
+       "name": "Stockpile",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Swallow",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Spit Up",
+       "type": "Normal",
+       "power": 1,
+       "category": "special"
+      },
+      {
+       "name": "Iron Head",
+       "type": "Steel",
+       "power": 80,
+       "category": "physical"
+      }
+     ]
+    },
+    {
+     "dex": 139,
+     "name": "Starmie",
+     "level": 46,
+     "iv": 12,
+     "moves": [
+      {
+       "name": "Power Gem",
+       "type": "Rock",
+       "power": 80,
+       "category": "special"
+      },
+      {
+       "name": "Confuse Ray",
+       "type": "Ghost",
+       "category": "status"
+      },
+      {
+       "name": "Psychic",
+       "type": "Psychic",
+       "power": 90,
+       "category": "special"
+      },
+      {
+       "name": "Light Screen",
+       "type": "Psychic",
+       "category": "status"
+      }
+     ]
+    }
+   ],
+   "uses": [
+    "Full Restore"
+   ],
+   "id": "leroy",
+   "area": "Trick House Puzzle 8",
+   "stage": "sky-pillar",
+   "later": true,
+   "reach": "the Rain Badge (the Trick Master sets this puzzle once you have it)"
+  }
+ ],
+ "verified": true,
+ "sources": [
+  "https://mrwalkthroughs.com/pokemon-emerald-seaglass/"
+ ]
+}

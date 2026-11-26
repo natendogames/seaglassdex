@@ -1,0 +1,888 @@
+{
+ "id": "route-115",
+ "name": "Route 115",
+ "encounters": [
+  {
+   "dex": 37,
+   "name": "Clefairy",
+   "method": "grass",
+   "levels": "17-21",
+   "rate": "20%"
+  },
+  {
+   "dex": 51,
+   "name": "Paras",
+   "method": "grass",
+   "levels": "17-21",
+   "rate": "20%"
+  },
+  {
+   "dex": 120,
+   "name": "Lickitung",
+   "method": "grass",
+   "levels": "17-21",
+   "rate": "10%"
+  },
+  {
+   "dex": 124,
+   "name": "Rhyhorn",
+   "method": "grass",
+   "levels": "17-21",
+   "rate": "10%"
+  },
+  {
+   "dex": 159,
+   "name": "Eevee",
+   "method": "grass",
+   "levels": "17-21",
+   "rate": "10%"
+  },
+  {
+   "dex": 308,
+   "name": "Swellow",
+   "method": "grass",
+   "levels": "17-21",
+   "rate": "10%"
+  },
+  {
+   "dex": 367,
+   "name": "Swablu",
+   "method": "grass",
+   "levels": "17-21",
+   "rate": "10%"
+  },
+  {
+   "dex": 127,
+   "name": "Happiny",
+   "method": "grass",
+   "levels": "17-21",
+   "rate": "8%"
+  },
+  {
+   "dex": 132,
+   "name": "Kangaskhan",
+   "method": "grass",
+   "levels": "20-22",
+   "rate": "2%"
+  },
+  {
+   "dex": 79,
+   "name": "Tentacool",
+   "method": "surf",
+   "levels": "5-35",
+   "rate": "60%"
+  },
+  {
+   "dex": 133,
+   "name": "Horsea",
+   "method": "surf",
+   "levels": "10-30",
+   "rate": "34%"
+  },
+  {
+   "dex": 309,
+   "name": "Wingull",
+   "method": "surf",
+   "levels": "15-25",
+   "rate": "5%"
+  },
+  {
+   "dex": 310,
+   "name": "Pelipper",
+   "method": "surf",
+   "levels": "25-30",
+   "rate": "1%"
+  },
+  {
+   "dex": 155,
+   "name": "Magikarp",
+   "method": "old-rod",
+   "levels": "5-10",
+   "rate": "70%"
+  },
+  {
+   "dex": 79,
+   "name": "Tentacool",
+   "method": "old-rod",
+   "levels": "5-10",
+   "rate": "30%"
+  },
+  {
+   "dex": 155,
+   "name": "Magikarp",
+   "method": "good-rod",
+   "levels": "10-30",
+   "rate": "60%"
+  },
+  {
+   "dex": 133,
+   "name": "Horsea",
+   "method": "good-rod",
+   "levels": "10-30",
+   "rate": "20%"
+  },
+  {
+   "dex": 203,
+   "name": "Chinchou",
+   "method": "good-rod",
+   "levels": "10-30",
+   "rate": "20%"
+  },
+  {
+   "dex": 354,
+   "name": "Wailmer",
+   "method": "super-rod",
+   "levels": "20-45",
+   "rate": "60%"
+  },
+  {
+   "dex": 203,
+   "name": "Chinchou",
+   "method": "super-rod",
+   "levels": "25-30",
+   "rate": "40%"
+  },
+  {
+   "dex": 240,
+   "name": "Dunsparce",
+   "method": "dexnav",
+   "levels": "18-23",
+   "rate": "66%"
+  },
+  {
+   "dex": 244,
+   "name": "Snubbull",
+   "method": "dexnav",
+   "levels": "18-23",
+   "rate": "33%"
+  },
+  {
+   "dex": 428,
+   "name": "Tinkatink",
+   "method": "gift",
+   "levels": "5",
+   "notes": "Tinkatink Egg · Aqua Grunt"
+  }
+ ],
+ "items": [
+  {
+   "id": "outside-super-potion",
+   "name": "Super Potion",
+   "hidden": false,
+   "where": "Outside"
+  },
+  {
+   "id": "outside-tm01",
+   "name": "TM01",
+   "hidden": false,
+   "where": "Outside",
+   "later": true,
+   "need": "Surf (HM03 from Wally's father after you beat Norman in Petalburg City)",
+   "after": "lavaridge-town",
+   "stage": 30.5
+  },
+  {
+   "id": "outside-iron",
+   "name": "Iron",
+   "hidden": false,
+   "where": "Outside",
+   "later": true,
+   "need": "Surf (HM03 from Wally's father after you beat Norman in Petalburg City)",
+   "after": "lavaridge-town",
+   "stage": 30.5
+  },
+  {
+   "id": "outside-great-ball",
+   "name": "Great Ball",
+   "hidden": false,
+   "where": "Outside"
+  },
+  {
+   "id": "outside-pp-up",
+   "name": "PP Up",
+   "hidden": false,
+   "where": "Outside"
+  },
+  {
+   "id": "outside-heal-powder",
+   "name": "Heal Powder",
+   "hidden": false,
+   "where": "Outside",
+   "later": true,
+   "need": "Surf (HM03 from Wally's father after you beat Norman in Petalburg City)",
+   "after": "lavaridge-town",
+   "stage": 30.5
+  },
+  {
+   "id": "hidden-outside-heart-scale",
+   "name": "Heart Scale",
+   "hidden": true,
+   "where": "Outside"
+  }
+ ],
+ "gifts": [
+  {
+   "id": "mon-outside-tinkatink-egg",
+   "name": "Tinkatink Egg",
+   "from": "Aqua Grunt",
+   "where": "Outside"
+  }
+ ],
+ "trainers": [
+  {
+   "class": "Collector",
+   "name": "Hector",
+   "prize": 1080,
+   "party": [
+    {
+     "dex": 369,
+     "name": "Zangoose",
+     "level": 18,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Quick Attack",
+       "type": "Normal",
+       "power": 40,
+       "category": "physical"
+      },
+      {
+       "name": "Fury Cutter",
+       "type": "Bug",
+       "power": 40,
+       "category": "physical"
+      },
+      {
+       "name": "Pursuit",
+       "type": "Dark",
+       "power": 40,
+       "category": "physical"
+      },
+      {
+       "name": "Hone Claws",
+       "type": "Dark",
+       "category": "status"
+      }
+     ]
+    },
+    {
+     "dex": 370,
+     "name": "Seviper",
+     "level": 18,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Poison Tail",
+       "type": "Poison",
+       "power": 50,
+       "category": "physical"
+      },
+      {
+       "name": "Feint",
+       "type": "Normal",
+       "power": 30,
+       "category": "physical"
+      },
+      {
+       "name": "Screech",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Venoshock",
+       "type": "Poison",
+       "power": 65,
+       "category": "special"
+      }
+     ]
+    }
+   ],
+   "id": "hector"
+  },
+  {
+   "class": "Psychic",
+   "name": "Marlene",
+   "prize": 432,
+   "party": [
+    {
+     "dex": 159,
+     "name": "Eevee",
+     "level": 18,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Baby-Doll Eyes",
+       "type": "Fairy",
+       "category": "status"
+      },
+      {
+       "name": "Quick Attack",
+       "type": "Normal",
+       "power": 40,
+       "category": "physical"
+      },
+      {
+       "name": "Bite",
+       "type": "Dark",
+       "power": 60,
+       "category": "physical"
+      },
+      {
+       "name": "Swift",
+       "type": "Normal",
+       "power": 60,
+       "category": "special"
+      }
+     ]
+    },
+    {
+     "dex": 359,
+     "name": "Spoink",
+     "level": 18,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Odor Sleuth",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Psybeam",
+       "type": "Psychic",
+       "power": 65,
+       "category": "special"
+      },
+      {
+       "name": "Psych Up",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Confuse Ray",
+       "type": "Ghost",
+       "category": "status"
+      }
+     ]
+    }
+   ],
+   "id": "marlene"
+  },
+  {
+   "class": "Black Belt",
+   "name": "Nob",
+   "prize": 608,
+   "party": [
+    {
+     "dex": 73,
+     "name": "Machop",
+     "level": 19,
+     "iv": 12,
+     "moves": [
+      {
+       "name": "Foresight",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Low Sweep",
+       "type": "Fighting",
+       "power": 65,
+       "category": "physical"
+      },
+      {
+       "name": "Seismic Toss",
+       "type": "Fighting",
+       "power": 1,
+       "category": "physical"
+      },
+      {
+       "name": "Revenge",
+       "type": "Fighting",
+       "power": 60,
+       "category": "physical"
+      }
+     ]
+    }
+   ],
+   "id": "nob"
+  },
+  {
+   "class": "Battle Girl",
+   "name": "Cyndy",
+   "prize": 432,
+   "party": [
+    {
+     "dex": 339,
+     "name": "Meditite",
+     "level": 18,
+     "iv": 12,
+     "moves": [
+      {
+       "name": "Detect",
+       "type": "Fighting",
+       "category": "status"
+      },
+      {
+       "name": "Endure",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Feint",
+       "type": "Normal",
+       "power": 30,
+       "category": "physical"
+      },
+      {
+       "name": "Force Palm",
+       "type": "Fighting",
+       "power": 60,
+       "category": "physical"
+      }
+     ]
+    },
+    {
+     "dex": 328,
+     "name": "Makuhita",
+     "level": 18,
+     "iv": 12,
+     "moves": [
+      {
+       "name": "Arm Thrust",
+       "type": "Fighting",
+       "power": 15,
+       "category": "physical"
+      },
+      {
+       "name": "Fake Out",
+       "type": "Normal",
+       "power": 40,
+       "category": "physical"
+      },
+      {
+       "name": "Force Palm",
+       "type": "Fighting",
+       "power": 60,
+       "category": "physical"
+      },
+      {
+       "name": "Whirlwind",
+       "type": "Normal",
+       "category": "status"
+      }
+     ]
+    }
+   ],
+   "id": "cyndy"
+  },
+  {
+   "class": "Expert",
+   "name": "Timothy",
+   "prize": 1080,
+   "party": [
+    {
+     "dex": 329,
+     "name": "Hariyama",
+     "level": 27,
+     "iv": 24,
+     "moves": [
+      {
+       "name": "Whirlwind",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Knock Off",
+       "type": "Dark",
+       "power": 65,
+       "category": "physical"
+      },
+      {
+       "name": "Vital Throw",
+       "type": "Fighting",
+       "power": 70,
+       "category": "physical"
+      },
+      {
+       "name": "Belly Drum",
+       "type": "Normal",
+       "category": "status"
+      }
+     ]
+    }
+   ],
+   "id": "timothy",
+   "stage": "lavaridge-town",
+   "later": true,
+   "reach": "Surf (HM03 from Wally's father after you beat Norman in Petalburg City)"
+  },
+  {
+   "class": "Triathlete",
+   "name": "Kyra",
+   "prize": 1040,
+   "party": [
+    {
+     "dex": 93,
+     "name": "Doduo",
+     "level": 26,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Pursuit",
+       "type": "Dark",
+       "power": 40,
+       "category": "physical"
+      },
+      {
+       "name": "Pluck",
+       "type": "Flying",
+       "power": 60,
+       "category": "physical"
+      },
+      {
+       "name": "Double Hit",
+       "type": "Normal",
+       "power": 40,
+       "category": "physical"
+      },
+      {
+       "name": "Bulldoze",
+       "type": "Ground",
+       "power": 60,
+       "category": "physical"
+      }
+     ]
+    },
+    {
+     "dex": 94,
+     "name": "Dodrio",
+     "level": 26,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Pursuit",
+       "type": "Dark",
+       "power": 40,
+       "category": "physical"
+      },
+      {
+       "name": "Pluck",
+       "type": "Flying",
+       "power": 60,
+       "category": "physical"
+      },
+      {
+       "name": "Double Hit",
+       "type": "Normal",
+       "power": 40,
+       "category": "physical"
+      },
+      {
+       "name": "Bulldoze",
+       "type": "Ground",
+       "power": 60,
+       "category": "physical"
+      }
+     ]
+    }
+   ],
+   "id": "kyra",
+   "stage": "lavaridge-town",
+   "later": true,
+   "reach": "Surf (HM03 from Wally's father after you beat Norman in Petalburg City)"
+  },
+  {
+   "class": "Black Belt",
+   "name": "Koichi",
+   "prize": 896,
+   "party": [
+    {
+     "dex": 222,
+     "name": "Ambipom",
+     "level": 27,
+     "iv": 12,
+     "moves": [
+      {
+       "name": "Tickle",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Fury Swipes",
+       "type": "Normal",
+       "power": 18,
+       "category": "physical"
+      },
+      {
+       "name": "Swift",
+       "type": "Normal",
+       "power": 60,
+       "category": "special"
+      },
+      {
+       "name": "Screech",
+       "type": "Normal",
+       "category": "status"
+      }
+     ]
+    },
+    {
+     "dex": 74,
+     "name": "Machoke",
+     "level": 28,
+     "iv": 18,
+     "moves": [
+      {
+       "name": "Revenge",
+       "type": "Fighting",
+       "power": 60,
+       "category": "physical"
+      },
+      {
+       "name": "Knock Off",
+       "type": "Dark",
+       "power": 65,
+       "category": "physical"
+      },
+      {
+       "name": "Vital Throw",
+       "type": "Fighting",
+       "power": 70,
+       "category": "physical"
+      },
+      {
+       "name": "Wake-Up Slap",
+       "type": "Fighting",
+       "power": 70,
+       "category": "physical"
+      }
+     ]
+    }
+   ],
+   "id": "koichi",
+   "stage": "lavaridge-town",
+   "later": true,
+   "reach": "Surf (HM03 from Wally's father after you beat Norman in Petalburg City)"
+  },
+  {
+   "class": "Ninja Boy",
+   "name": "Jaiden",
+   "prize": 312,
+   "party": [
+    {
+     "dex": 323,
+     "name": "Ninjask",
+     "level": 26,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Fury Swipes",
+       "type": "Normal",
+       "power": 18,
+       "category": "physical"
+      },
+      {
+       "name": "Agility",
+       "type": "Psychic",
+       "category": "status"
+      },
+      {
+       "name": "Slash",
+       "type": "Normal",
+       "power": 70,
+       "category": "physical"
+      },
+      {
+       "name": "Night Slash",
+       "type": "Dark",
+       "power": 70,
+       "category": "physical"
+      }
+     ]
+    },
+    {
+     "dex": 350,
+     "name": "Gulpin",
+     "level": 26,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Amnesia",
+       "type": "Psychic",
+       "category": "status"
+      },
+      {
+       "name": "Acid Spray",
+       "type": "Poison",
+       "power": 40,
+       "category": "special"
+      },
+      {
+       "name": "Encore",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Toxic",
+       "type": "Poison",
+       "category": "status"
+      }
+     ]
+    }
+   ],
+   "id": "jaiden",
+   "stage": "lavaridge-town",
+   "later": true,
+   "reach": "Surf (HM03 from Wally's father after you beat Norman in Petalburg City)"
+  },
+  {
+   "class": "Psychic",
+   "name": "Alix",
+   "prize": 624,
+   "party": [
+    {
+     "dex": 71,
+     "name": "Kadabra",
+     "level": 26,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Disable",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Psybeam",
+       "type": "Psychic",
+       "power": 65,
+       "category": "special"
+      },
+      {
+       "name": "Miracle Eye",
+       "type": "Psychic",
+       "category": "status"
+      },
+      {
+       "name": "Reflect",
+       "type": "Psychic",
+       "category": "status"
+      }
+     ]
+    },
+    {
+     "dex": 231,
+     "name": "Misdreavus",
+     "level": 26,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Confuse Ray",
+       "type": "Ghost",
+       "category": "status"
+      },
+      {
+       "name": "Mean Look",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Draining Kiss",
+       "type": "Fairy",
+       "power": 55,
+       "category": "special"
+      },
+      {
+       "name": "Hex",
+       "type": "Ghost",
+       "power": 65,
+       "category": "special"
+      }
+     ]
+    }
+   ],
+   "id": "alix",
+   "stage": "lavaridge-town",
+   "later": true,
+   "reach": "Surf (HM03 from Wally's father after you beat Norman in Petalburg City)"
+  },
+  {
+   "class": "Battle Girl",
+   "name": "Helene",
+   "prize": 624,
+   "party": [
+    {
+     "dex": 34,
+     "name": "Nidorino",
+     "level": 26,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Double Kick",
+       "type": "Fighting",
+       "power": 30,
+       "category": "physical"
+      },
+      {
+       "name": "Poison Sting",
+       "type": "Poison",
+       "power": 15,
+       "category": "physical"
+      },
+      {
+       "name": "Fury Attack",
+       "type": "Normal",
+       "power": 15,
+       "category": "physical"
+      },
+      {
+       "name": "Horn Attack",
+       "type": "Normal",
+       "power": 65,
+       "category": "physical"
+      }
+     ]
+    },
+    {
+     "dex": 31,
+     "name": "Nidorina",
+     "level": 26,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Double Kick",
+       "type": "Fighting",
+       "power": 30,
+       "category": "physical"
+      },
+      {
+       "name": "Poison Sting",
+       "type": "Poison",
+       "power": 15,
+       "category": "physical"
+      },
+      {
+       "name": "Fury Swipes",
+       "type": "Normal",
+       "power": 18,
+       "category": "physical"
+      },
+      {
+       "name": "Bite",
+       "type": "Dark",
+       "power": 60,
+       "category": "physical"
+      }
+     ]
+    }
+   ],
+   "id": "helene",
+   "stage": "lavaridge-town",
+   "later": true,
+   "reach": "Surf (HM03 from Wally's father after you beat Norman in Petalburg City)"
+  }
+ ],
+ "verified": true,
+ "sources": [
+  "https://mrwalkthroughs.com/pokemon-emerald-seaglass/"
+ ]
+}

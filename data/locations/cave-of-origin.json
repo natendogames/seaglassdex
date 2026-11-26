@@ -1,0 +1,157 @@
+{
+ "id": "cave-of-origin",
+ "name": "Cave Of Origin",
+ "encounters": [
+  {
+   "dex": 44,
+   "name": "Zubat",
+   "method": "grass",
+   "levels": "30-31",
+   "rate": "40%",
+   "area": "1F"
+  },
+  {
+   "dex": 45,
+   "name": "Golbat",
+   "method": "grass",
+   "levels": "32-33",
+   "rate": "15%",
+   "area": "1F"
+  },
+  {
+   "dex": 71,
+   "name": "Kadabra",
+   "method": "grass",
+   "levels": "30",
+   "rate": "10%",
+   "area": "1F"
+  },
+  {
+   "dex": 74,
+   "name": "Machoke",
+   "method": "grass",
+   "levels": "32",
+   "rate": "10%",
+   "area": "1F"
+  },
+  {
+   "dex": 240,
+   "name": "Dunsparce",
+   "method": "grass",
+   "levels": "34",
+   "rate": "10%",
+   "area": "1F"
+  },
+  {
+   "dex": 107,
+   "name": "Hypno",
+   "method": "grass",
+   "levels": "34",
+   "rate": "5%",
+   "area": "1F"
+  },
+  {
+   "dex": 379,
+   "name": "Lileep",
+   "method": "grass",
+   "levels": "34",
+   "rate": "4%",
+   "area": "1F"
+  },
+  {
+   "dex": 381,
+   "name": "Anorith",
+   "method": "grass",
+   "levels": "35",
+   "rate": "4%",
+   "area": "1F"
+  },
+  {
+   "dex": 241,
+   "name": "Dudunsparce",
+   "method": "grass",
+   "levels": "33-36",
+   "rate": "2%",
+   "area": "1F"
+  },
+  {
+   "dex": 44,
+   "name": "Zubat",
+   "method": "grass",
+   "levels": "30-31",
+   "rate": "40%",
+   "area": "Entrance"
+  },
+  {
+   "dex": 45,
+   "name": "Golbat",
+   "method": "grass",
+   "levels": "32-34",
+   "rate": "15%",
+   "area": "Entrance"
+  },
+  {
+   "dex": 71,
+   "name": "Kadabra",
+   "method": "grass",
+   "levels": "33",
+   "rate": "10%",
+   "area": "Entrance"
+  },
+  {
+   "dex": 74,
+   "name": "Machoke",
+   "method": "grass",
+   "levels": "28",
+   "rate": "10%",
+   "area": "Entrance"
+  },
+  {
+   "dex": 240,
+   "name": "Dunsparce",
+   "method": "grass",
+   "levels": "29",
+   "rate": "10%",
+   "area": "Entrance"
+  },
+  {
+   "dex": 107,
+   "name": "Hypno",
+   "method": "grass",
+   "levels": "35",
+   "rate": "5%",
+   "area": "Entrance"
+  },
+  {
+   "dex": 379,
+   "name": "Lileep",
+   "method": "grass",
+   "levels": "34",
+   "rate": "4%",
+   "area": "Entrance"
+  },
+  {
+   "dex": 381,
+   "name": "Anorith",
+   "method": "grass",
+   "levels": "35",
+   "rate": "4%",
+   "area": "Entrance"
+  },
+  {
+   "dex": 241,
+   "name": "Dudunsparce",
+   "method": "grass",
+   "levels": "33-36",
+   "rate": "2%",
+   "area": "Entrance"
+  }
+ ],
+ "items": [],
+ "gifts": [],
+ "trainers": [],
+ "verified": true,
+ "sources": [
+  "https://mrwalkthroughs.com/pokemon-emerald-seaglass/"
+ ]
+}

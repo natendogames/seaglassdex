@@ -1,0 +1,97 @@
+{
+ "id": "fiery-path",
+ "name": "Fiery Path",
+ "encounters": [
+  {
+   "dex": 122,
+   "name": "Koffing",
+   "method": "grass",
+   "levels": "15-16",
+   "rate": "25%"
+  },
+  {
+   "dex": 55,
+   "name": "Diglett",
+   "method": "grass",
+   "levels": "15",
+   "rate": "20%"
+  },
+  {
+   "dex": 64,
+   "name": "Growlithe",
+   "method": "grass",
+   "levels": "16",
+   "rate": "10%"
+  },
+  {
+   "dex": 73,
+   "name": "Machop",
+   "method": "grass",
+   "levels": "15",
+   "rate": "10%"
+  },
+  {
+   "dex": 254,
+   "name": "Slugma",
+   "method": "grass",
+   "levels": "15",
+   "rate": "10%"
+  },
+  {
+   "dex": 358,
+   "name": "Torkoal",
+   "method": "grass",
+   "levels": "15",
+   "rate": "10%"
+  },
+  {
+   "dex": 97,
+   "name": "Grimer",
+   "method": "grass",
+   "levels": "14-16",
+   "rate": "8%"
+  },
+  {
+   "dex": 242,
+   "name": "Gligar",
+   "method": "grass",
+   "levels": "16",
+   "rate": "5%"
+  },
+  {
+   "dex": 189,
+   "name": "Cyndaquil",
+   "method": "grass",
+   "levels": "14",
+   "rate": "2%"
+  }
+ ],
+ "items": [
+  {
+   "id": "outside-tm06",
+   "name": "TM06",
+   "hidden": false,
+   "where": "Outside",
+   "later": true,
+   "need": "Strength (HM04 from Rusturf Tunnel, used with the Heat Badge)",
+   "after": "lavaridge-town",
+   "stage": 30.5
+  },
+  {
+   "id": "outside-fire-stone",
+   "name": "Fire Stone",
+   "hidden": false,
+   "where": "Outside",
+   "later": true,
+   "need": "Strength (HM04 from Rusturf Tunnel, used with the Heat Badge)",
+   "after": "lavaridge-town",
+   "stage": 30.5
+  }
+ ],
+ "gifts": [],
+ "trainers": [],
+ "verified": true,
+ "sources": [
+  "https://mrwalkthroughs.com/pokemon-emerald-seaglass/"
+ ]
+}

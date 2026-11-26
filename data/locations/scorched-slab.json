@@ -1,0 +1,62 @@
+{
+ "id": "scorched-slab",
+ "name": "Scorched Slab",
+ "encounters": [
+  {
+   "dex": 171,
+   "name": "Omanyte",
+   "method": "grass",
+   "levels": "5",
+   "rate": "30%"
+  },
+  {
+   "dex": 173,
+   "name": "Kabuto",
+   "method": "grass",
+   "levels": "5",
+   "rate": "30%"
+  },
+  {
+   "dex": 377,
+   "name": "Baltoy",
+   "method": "grass",
+   "levels": "24-27",
+   "rate": "20%"
+  },
+  {
+   "dex": 114,
+   "name": "Cubone",
+   "method": "grass",
+   "levels": "5",
+   "rate": "10%"
+  },
+  {
+   "dex": 115,
+   "name": "Marowak",
+   "method": "grass",
+   "levels": "24-27",
+   "rate": "8%"
+  },
+  {
+   "dex": 175,
+   "name": "Aerodactyl",
+   "method": "grass",
+   "levels": "24-27",
+   "rate": "2%"
+  }
+ ],
+ "items": [
+  {
+   "id": "outside-tm11",
+   "name": "TM11",
+   "hidden": false,
+   "where": "Outside"
+  }
+ ],
+ "gifts": [],
+ "trainers": [],
+ "verified": true,
+ "sources": [
+  "https://mrwalkthroughs.com/pokemon-emerald-seaglass/"
+ ]
+}

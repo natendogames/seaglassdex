@@ -1,0 +1,435 @@
+{
+ "id": "route-107",
+ "name": "Route 107",
+ "encounters": [
+  {
+   "dex": 138,
+   "name": "Staryu",
+   "method": "surf",
+   "levels": "5-35",
+   "rate": "60%"
+  },
+  {
+   "dex": 309,
+   "name": "Wingull",
+   "method": "surf",
+   "levels": "10-30",
+   "rate": "35%"
+  },
+  {
+   "dex": 310,
+   "name": "Pelipper",
+   "method": "surf",
+   "levels": "25-30",
+   "rate": "5%"
+  },
+  {
+   "dex": 155,
+   "name": "Magikarp",
+   "method": "old-rod",
+   "levels": "5-10",
+   "rate": "70%"
+  },
+  {
+   "dex": 86,
+   "name": "Slowpoke",
+   "method": "old-rod",
+   "levels": "5-10",
+   "rate": "30%"
+  },
+  {
+   "dex": 86,
+   "name": "Slowpoke",
+   "method": "good-rod",
+   "levels": "10-30",
+   "rate": "80%"
+  },
+  {
+   "dex": 354,
+   "name": "Wailmer",
+   "method": "good-rod",
+   "levels": "10-30",
+   "rate": "20%"
+  },
+  {
+   "dex": 354,
+   "name": "Wailmer",
+   "method": "super-rod",
+   "levels": "20-45",
+   "rate": "100%"
+  }
+ ],
+ "items": [
+  {
+   "id": "outside-wishing-star",
+   "name": "Wishing Star",
+   "hidden": false,
+   "where": "Outside"
+  }
+ ],
+ "gifts": [],
+ "trainers": [
+  {
+   "class": "Swimmer♀",
+   "name": "Denise",
+   "prize": 200,
+   "party": [
+    {
+     "dex": 309,
+     "name": "Wingull",
+     "level": 25,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Mist",
+       "type": "Ice",
+       "category": "status"
+      },
+      {
+       "name": "Water Pulse",
+       "type": "Water",
+       "power": 60,
+       "category": "special"
+      },
+      {
+       "name": "Quick Attack",
+       "type": "Normal",
+       "power": 40,
+       "category": "physical"
+      },
+      {
+       "name": "Air Cutter",
+       "type": "Flying",
+       "power": 60,
+       "category": "special"
+      }
+     ]
+    },
+    {
+     "dex": 136,
+     "name": "Goldeen",
+     "level": 25,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Flail",
+       "type": "Normal",
+       "power": 1,
+       "category": "physical"
+      },
+      {
+       "name": "Water Pulse",
+       "type": "Water",
+       "power": 60,
+       "category": "special"
+      },
+      {
+       "name": "Aqua Ring",
+       "type": "Water",
+       "category": "status"
+      },
+      {
+       "name": "Fury Attack",
+       "type": "Normal",
+       "power": 15,
+       "category": "physical"
+      }
+     ]
+    }
+   ],
+   "id": "denise"
+  },
+  {
+   "class": "Swimmer♂",
+   "name": "Tony",
+   "prize": 208,
+   "party": [
+    {
+     "dex": 352,
+     "name": "Carvanha",
+     "level": 26,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Assurance",
+       "type": "Dark",
+       "power": 60,
+       "category": "physical"
+      },
+      {
+       "name": "Screech",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Swagger",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Ice Fang",
+       "type": "Ice",
+       "power": 65,
+       "category": "physical"
+      }
+     ]
+    }
+   ],
+   "id": "tony"
+  },
+  {
+   "class": "Sis and Bro",
+   "name": "Lisa ~ Ray",
+   "prize": 600,
+   "party": [
+    {
+     "dex": 260,
+     "name": "Remoraid",
+     "level": 27,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Aurora Beam",
+       "type": "Ice",
+       "power": 65,
+       "category": "special"
+      },
+      {
+       "name": "Bubble Beam",
+       "type": "Water",
+       "power": 65,
+       "category": "special"
+      },
+      {
+       "name": "Focus Energy",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Water Pulse",
+       "type": "Water",
+       "power": 60,
+       "category": "special"
+      }
+     ]
+    },
+    {
+     "dex": 263,
+     "name": "Mantyke",
+     "level": 25,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Wing Attack",
+       "type": "Flying",
+       "power": 60,
+       "category": "physical"
+      },
+      {
+       "name": "Headbutt",
+       "type": "Normal",
+       "power": 70,
+       "category": "physical"
+      },
+      {
+       "name": "Water Pulse",
+       "type": "Water",
+       "power": 60,
+       "category": "special"
+      },
+      {
+       "name": "Wide Guard",
+       "type": "Rock",
+       "category": "status"
+      }
+     ]
+    }
+   ],
+   "double": true,
+   "id": "lisa-and-ray"
+  },
+  {
+   "class": "Swimmer♂",
+   "name": "Darrin",
+   "prize": 192,
+   "party": [
+    {
+     "dex": 108,
+     "name": "Krabby",
+     "level": 24,
+     "iv": 1,
+     "moves": [
+      {
+       "name": "Harden",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Bubble Beam",
+       "type": "Water",
+       "power": 65,
+       "category": "special"
+      },
+      {
+       "name": "Mud Shot",
+       "type": "Ground",
+       "power": 55,
+       "category": "special"
+      },
+      {
+       "name": "Metal Claw",
+       "type": "Steel",
+       "power": 50,
+       "category": "physical"
+      }
+     ]
+    },
+    {
+     "dex": 309,
+     "name": "Wingull",
+     "level": 24,
+     "iv": 1,
+     "moves": [
+      {
+       "name": "Mist",
+       "type": "Ice",
+       "category": "status"
+      },
+      {
+       "name": "Water Pulse",
+       "type": "Water",
+       "power": 60,
+       "category": "special"
+      },
+      {
+       "name": "Quick Attack",
+       "type": "Normal",
+       "power": 40,
+       "category": "physical"
+      },
+      {
+       "name": "Air Cutter",
+       "type": "Flying",
+       "power": 60,
+       "category": "special"
+      }
+     ]
+    },
+    {
+     "dex": 79,
+     "name": "Tentacool",
+     "level": 24,
+     "iv": 1,
+     "moves": [
+      {
+       "name": "Toxic Spikes",
+       "type": "Poison",
+       "category": "status"
+      },
+      {
+       "name": "Water Pulse",
+       "type": "Water",
+       "power": 60,
+       "category": "special"
+      },
+      {
+       "name": "Wrap",
+       "type": "Normal",
+       "power": 15,
+       "category": "physical"
+      },
+      {
+       "name": "Acid Spray",
+       "type": "Poison",
+       "power": 40,
+       "category": "special"
+      }
+     ]
+    }
+   ],
+   "id": "darrin"
+  },
+  {
+   "class": "Triathlete",
+   "name": "Camron",
+   "prize": 1040,
+   "party": [
+    {
+     "dex": 375,
+     "name": "Corphish",
+     "level": 26,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Protect",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Double Hit",
+       "type": "Normal",
+       "power": 40,
+       "category": "physical"
+      },
+      {
+       "name": "Knock Off",
+       "type": "Dark",
+       "power": 65,
+       "category": "physical"
+      },
+      {
+       "name": "Night Slash",
+       "type": "Dark",
+       "power": 70,
+       "category": "physical"
+      }
+     ]
+    }
+   ],
+   "id": "camron"
+  },
+  {
+   "class": "Swimmer♀",
+   "name": "Beth",
+   "prize": 208,
+   "party": [
+    {
+     "dex": 136,
+     "name": "Goldeen",
+     "level": 26,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Flail",
+       "type": "Normal",
+       "power": 1,
+       "category": "physical"
+      },
+      {
+       "name": "Water Pulse",
+       "type": "Water",
+       "power": 60,
+       "category": "special"
+      },
+      {
+       "name": "Aqua Ring",
+       "type": "Water",
+       "category": "status"
+      },
+      {
+       "name": "Fury Attack",
+       "type": "Normal",
+       "power": 15,
+       "category": "physical"
+      }
+     ]
+    }
+   ],
+   "id": "beth"
+  }
+ ],
+ "verified": true,
+ "sources": [
+  "https://mrwalkthroughs.com/pokemon-emerald-seaglass/"
+ ]
+}

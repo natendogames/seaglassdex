@@ -1,0 +1,509 @@
+{
+ "id": "route-131",
+ "name": "Route 131",
+ "encounters": [
+  {
+   "dex": 406,
+   "name": "Luvdisc",
+   "method": "surf",
+   "levels": "5-35",
+   "rate": "60%"
+  },
+  {
+   "dex": 80,
+   "name": "Tentacruel",
+   "method": "surf",
+   "levels": "25-30",
+   "rate": "30%"
+  },
+  {
+   "dex": 367,
+   "name": "Swablu",
+   "method": "surf",
+   "levels": "15-25",
+   "rate": "5%"
+  },
+  {
+   "dex": 368,
+   "name": "Altaria",
+   "method": "surf",
+   "levels": "30-40",
+   "rate": "5%"
+  },
+  {
+   "dex": 155,
+   "name": "Magikarp",
+   "method": "old-rod",
+   "levels": "5-10",
+   "rate": "70%"
+  },
+  {
+   "dex": 79,
+   "name": "Tentacool",
+   "method": "old-rod",
+   "levels": "5-10",
+   "rate": "30%"
+  },
+  {
+   "dex": 155,
+   "name": "Magikarp",
+   "method": "good-rod",
+   "levels": "10-30",
+   "rate": "60%"
+  },
+  {
+   "dex": 79,
+   "name": "Tentacool",
+   "method": "good-rod",
+   "levels": "10-30",
+   "rate": "20%"
+  },
+  {
+   "dex": 354,
+   "name": "Wailmer",
+   "method": "good-rod",
+   "levels": "10-30",
+   "rate": "20%"
+  },
+  {
+   "dex": 354,
+   "name": "Wailmer",
+   "method": "super-rod",
+   "levels": "25-45",
+   "rate": "60%"
+  },
+  {
+   "dex": 353,
+   "name": "Sharpedo",
+   "method": "super-rod",
+   "levels": "30-35",
+   "rate": "40%"
+  },
+  {
+   "dex": 137,
+   "name": "Seaking",
+   "method": "dexnav-surf",
+   "levels": "10-30",
+   "rate": "33%"
+  },
+  {
+   "dex": 138,
+   "name": "Staryu",
+   "method": "dexnav-surf",
+   "levels": "10-30",
+   "rate": "33%"
+  },
+  {
+   "dex": 139,
+   "name": "Starmie",
+   "method": "dexnav-surf",
+   "levels": "10-30",
+   "rate": "33%"
+  }
+ ],
+ "items": [],
+ "gifts": [],
+ "trainers": [
+  {
+   "class": "Swimmer♂",
+   "name": "Kevin",
+   "prize": 272,
+   "party": [
+    {
+     "dex": 399,
+     "name": "Spheal",
+     "level": 34,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Flip Turn",
+       "type": "Water",
+       "power": 60,
+       "category": "physical"
+      },
+      {
+       "name": "Body Slam",
+       "type": "Normal",
+       "power": 85,
+       "category": "physical"
+      },
+      {
+       "name": "Rest",
+       "type": "Psychic",
+       "category": "status"
+      },
+      {
+       "name": "Snore",
+       "type": "Normal",
+       "power": 50,
+       "category": "special"
+      }
+     ]
+    }
+   ],
+   "id": "kevin"
+  },
+  {
+   "class": "Triathlete",
+   "name": "Talia",
+   "prize": 1360,
+   "party": [
+    {
+     "dex": 138,
+     "name": "Staryu",
+     "level": 34,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Camouflage",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Gyro Ball",
+       "type": "Steel",
+       "power": 1,
+       "category": "physical"
+      },
+      {
+       "name": "Brine",
+       "type": "Water",
+       "power": 65,
+       "category": "special"
+      },
+      {
+       "name": "Minimize",
+       "type": "Normal",
+       "category": "status"
+      }
+     ]
+    }
+   ],
+   "id": "talia"
+  },
+  {
+   "class": "Swimmer♂",
+   "name": "Richard",
+   "prize": 272,
+   "party": [
+    {
+     "dex": 310,
+     "name": "Pelipper",
+     "level": 34,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Fling",
+       "type": "Dark",
+       "power": 1,
+       "category": "physical"
+      },
+      {
+       "name": "Stockpile",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Swallow",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Spit Up",
+       "type": "Normal",
+       "power": 1,
+       "category": "special"
+      }
+     ]
+    }
+   ],
+   "id": "richard"
+  },
+  {
+   "class": "Swimmer♀",
+   "name": "Kara",
+   "prize": 272,
+   "party": [
+    {
+     "dex": 96,
+     "name": "Dewgong",
+     "level": 34,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Aqua Ring",
+       "type": "Water",
+       "category": "status"
+      },
+      {
+       "name": "Aurora Beam",
+       "type": "Ice",
+       "power": 65,
+       "category": "special"
+      },
+      {
+       "name": "Aqua Jet",
+       "type": "Water",
+       "power": 40,
+       "category": "physical"
+      },
+      {
+       "name": "Brine",
+       "type": "Water",
+       "power": 65,
+       "category": "special"
+      }
+     ]
+    },
+    {
+     "dex": 100,
+     "name": "Cloyster",
+     "level": 34,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Protect",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Aurora Beam",
+       "type": "Ice",
+       "power": 65,
+       "category": "special"
+      },
+      {
+       "name": "Spike Cannon",
+       "type": "Steel",
+       "power": 20,
+       "category": "physical"
+      },
+      {
+       "name": "Spikes",
+       "type": "Ground",
+       "category": "status"
+      }
+     ]
+    }
+   ],
+   "id": "kara"
+  },
+  {
+   "class": "Swimmer♀",
+   "name": "Susie",
+   "prize": 272,
+   "party": [
+    {
+     "dex": 406,
+     "name": "Luvdisc",
+     "level": 34,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Flail",
+       "type": "Normal",
+       "power": 1,
+       "category": "physical"
+      },
+      {
+       "name": "Dazzling Gleam",
+       "type": "Fairy",
+       "power": 80,
+       "category": "special"
+      },
+      {
+       "name": "Sweet Kiss",
+       "type": "Fairy",
+       "category": "status"
+      },
+      {
+       "name": "Take Down",
+       "type": "Normal",
+       "power": 90,
+       "category": "physical"
+      }
+     ]
+    },
+    {
+     "dex": 113,
+     "name": "Exeggutor",
+     "level": 34,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Confusion",
+       "type": "Psychic",
+       "power": 50,
+       "category": "special"
+      },
+      {
+       "name": "Worry Seed",
+       "type": "Grass",
+       "category": "status"
+      },
+      {
+       "name": "Giga Drain",
+       "type": "Grass",
+       "power": 75,
+       "category": "special"
+      },
+      {
+       "name": "Extrasensory",
+       "type": "Psychic",
+       "power": 80,
+       "category": "special"
+      }
+     ]
+    }
+   ],
+   "id": "susie"
+  },
+  {
+   "class": "Swimmer♂",
+   "name": "Herman",
+   "prize": 264,
+   "party": [
+    {
+     "dex": 309,
+     "name": "Wingull",
+     "level": 33,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Air Cutter",
+       "type": "Flying",
+       "power": 60,
+       "category": "special"
+      },
+      {
+       "name": "Pursuit",
+       "type": "Dark",
+       "power": 40,
+       "category": "physical"
+      },
+      {
+       "name": "Aerial Ace",
+       "type": "Flying",
+       "power": 60,
+       "category": "physical"
+      },
+      {
+       "name": "Roost",
+       "type": "Flying",
+       "category": "status"
+      }
+     ]
+    },
+    {
+     "dex": 259,
+     "name": "Corsola",
+     "level": 33,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Pin Missile",
+       "type": "Bug",
+       "power": 25,
+       "category": "physical"
+      },
+      {
+       "name": "Brine",
+       "type": "Water",
+       "power": 65,
+       "category": "special"
+      },
+      {
+       "name": "Iron Defense",
+       "type": "Steel",
+       "category": "status"
+      },
+      {
+       "name": "Rock Blast",
+       "type": "Rock",
+       "power": 25,
+       "category": "physical"
+      }
+     ]
+    }
+   ],
+   "id": "herman"
+  },
+  {
+   "class": "Sis and Bro",
+   "name": "Reli ~ Ian",
+   "prize": 816,
+   "party": [
+    {
+     "dex": 215,
+     "name": "Azumarill",
+     "level": 34,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Aqua Tail",
+       "type": "Water",
+       "power": 90,
+       "category": "physical"
+      },
+      {
+       "name": "Play Rough",
+       "type": "Fairy",
+       "power": 90,
+       "category": "physical"
+      },
+      {
+       "name": "Aqua Ring",
+       "type": "Water",
+       "category": "status"
+      },
+      {
+       "name": "Body Slam",
+       "type": "Normal",
+       "power": 85,
+       "category": "physical"
+      }
+     ],
+     "ability": "Huge Power"
+    },
+    {
+     "dex": 43,
+     "name": "Wigglytuff",
+     "level": 34,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Spit Up",
+       "type": "Normal",
+       "power": 1,
+       "category": "special"
+      },
+      {
+       "name": "Wake-Up Slap",
+       "type": "Fighting",
+       "power": 70,
+       "category": "physical"
+      },
+      {
+       "name": "Rest",
+       "type": "Psychic",
+       "category": "status"
+      },
+      {
+       "name": "Body Slam",
+       "type": "Normal",
+       "power": 85,
+       "category": "physical"
+      }
+     ],
+     "ability": "Huge Power"
+    }
+   ],
+   "double": true,
+   "id": "reli-and-ian"
+  }
+ ],
+ "verified": true,
+ "sources": [
+  "https://mrwalkthroughs.com/pokemon-emerald-seaglass/"
+ ]
+}
