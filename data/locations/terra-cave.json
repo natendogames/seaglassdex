@@ -1,0 +1,21 @@
+{
+ "id": "terra-cave",
+ "name": "Terra Cave",
+ "encounters": [
+  {
+   "dex": 419,
+   "name": "Groudon",
+   "method": "static",
+   "levels": "70",
+   "area": "End",
+   "notes": "One chance: save first"
+  }
+ ],
+ "items": [],
+ "gifts": [],
+ "trainers": [],
+ "verified": true,
+ "sources": [
+  "https://mrwalkthroughs.com/pokemon-emerald-seaglass/"
+ ]
+}

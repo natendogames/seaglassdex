@@ -1,0 +1,141 @@
+{
+ "_about": "Written by scripts/build_data.py from the reachability walk (scripts/reach.py). Read by tests/item_reach.js.",
+ "abilities": {
+  "cut": {
+   "stage": 8.5,
+   "need": "Cut (HM01 from the Cutter's House in Rustboro City, used with the Stone Badge)"
+  },
+  "mach-bike": {
+   "stage": 17,
+   "need": "the Mach Bike (from Rydel in Mauville City; he swaps it for the Acro Bike any time)"
+  },
+  "acro-bike": {
+   "stage": 17,
+   "need": "the Acro Bike (from Rydel in Mauville City; he swaps it for the Mach Bike any time)"
+  },
+  "rock-smash": {
+   "stage": 17.5,
+   "need": "Rock Smash (HM06 from the Rock Smash Guy in Mauville City, used with the Dynamo Badge)"
+  },
+  "strength": {
+   "stage": 30.5,
+   "need": "Strength (HM04 from Rusturf Tunnel, used with the Heat Badge)"
+  },
+  "surf": {
+   "stage": 30.5,
+   "need": "Surf (HM03 from Wally's father after you beat Norman in Petalburg City)"
+  },
+  "devon-scope": {
+   "stage": 41,
+   "need": "the Devon Scope (from Steven on the Route 120 bridge) to reveal the hidden Kecleon"
+  },
+  "dive": {
+   "stage": 52.5,
+   "need": "Dive (HM08 from Steven in Mossdeep City, after the Mind Badge)"
+  },
+  "waterfall": {
+   "stage": 64.5,
+   "need": "Waterfall (HM07 from the Scuba Safari in Pacifidlog Town; usable outside battle once you have all 8 badges)"
+  }
+ },
+ "firstVisitUntil": {
+  "littleroot-town": 3,
+  "route-101": 3,
+  "oldale-town": 3,
+  "route-103": 3,
+  "route-102": 8,
+  "petalburg-city": 8,
+  "route-104": 8,
+  "petalburg-woods": 8,
+  "rustboro-city": 8,
+  "route-116": 11,
+  "rusturf-tunnel": 11,
+  "dewford-town": 11,
+  "granite-cave": 16,
+  "route-109": 16,
+  "slateport-city": 16,
+  "pacifidlog-town": 16,
+  "route-110": 16,
+  "mauville-city": 17,
+  "route-117": 28,
+  "verdanturf-town": 28,
+  "route-111": 28,
+  "route-112": 28,
+  "fiery-path": 28,
+  "route-113": 28,
+  "fallarbor-town": 28,
+  "route-114": 28,
+  "meteor-falls": 28,
+  "route-115": 28,
+  "mt-chimney": 28,
+  "jagged-pass": 30,
+  "lavaridge-town": 30,
+  "mirage-tower": 39,
+  "route-105": 39,
+  "route-106": 39,
+  "route-107": 39,
+  "route-108": 39,
+  "abandoned-ship": 39,
+  "new-mauville": 39,
+  "route-118": 39,
+  "route-119": 39,
+  "fortree-city": 40,
+  "route-120": 45,
+  "scorched-slab": 45,
+  "route-121": 45,
+  "safari-zone": 45,
+  "lilycove-city": 45,
+  "route-122": 49,
+  "mt-pyre": 49,
+  "route-123": 49,
+  "magma-hideout": 49,
+  "aqua-hideout": 50,
+  "route-124": 52,
+  "mossdeep-city": 52,
+  "route-125": 57,
+  "shoal-cave": 57,
+  "route-127": 57,
+  "route-128": 57,
+  "seafloor-cavern": 57,
+  "route-126": 59,
+  "sootopolis-city": 59,
+  "cave-of-origin": 69,
+  "route-129": 69,
+  "route-130": 69,
+  "route-131": 69,
+  "sky-pillar": 69,
+  "route-132": 69,
+  "route-133": 69,
+  "route-134": 69,
+  "ever-grande-city": 69,
+  "victory-road": 69,
+  "pokemon-league": 70,
+  "roaming": 71,
+  "ss-tidal": 72,
+  "battle-frontier": 73,
+  "artisan-cave": 74,
+  "desert-underpass": 75,
+  "altering-cave": 76,
+  "sealed-chamber": 77,
+  "desert-ruins": 78,
+  "island-cave": 79,
+  "ancient-tomb": 80,
+  "marine-cave": 81,
+  "terra-cave": 82,
+  "southern-island": 83,
+  "faraway-island": 84,
+  "birth-island": 85,
+  "navel-rock": 86
+ },
+ "puzzles": [
+  "route-110: Harbor Mail (Route110_TrickHousePuzzle2 3,13)",
+  "route-110: Wood Mail (Route110_TrickHousePuzzle3 1,2)",
+  "new-mauville: Electirizer (NewMauville_Inside 32,25)",
+  "new-mauville: Escape Rope (NewMauville_Inside 16,22)",
+  "new-mauville: Thunder Stone (NewMauville_Inside 39,4)",
+  "new-mauville: Full Heal (NewMauville_Inside 17,10)",
+  "new-mauville: Paralyze Heal (NewMauville_Inside 2,11)",
+  "shoal-cave: Big Pearl (ShoalCave_LowTideEntranceRoom 30,3)",
+  "shoal-cave: Rare Candy (ShoalCave_LowTideInnerRoom 26,14)"
+ ]
+}

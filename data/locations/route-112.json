@@ -1,0 +1,519 @@
+{
+ "id": "route-112",
+ "name": "Route 112",
+ "encounters": [
+  {
+   "dex": 356,
+   "name": "Numel",
+   "method": "grass",
+   "levels": "15",
+   "rate": "40%"
+  },
+  {
+   "dex": 216,
+   "name": "Bonsly",
+   "method": "grass",
+   "levels": "14-16",
+   "rate": "15%"
+  },
+  {
+   "dex": 37,
+   "name": "Clefairy",
+   "method": "grass",
+   "levels": "15",
+   "rate": "10%"
+  },
+  {
+   "dex": 42,
+   "name": "Jigglypuff",
+   "method": "grass",
+   "levels": "14",
+   "rate": "10%"
+  },
+  {
+   "dex": 238,
+   "name": "Pineco",
+   "method": "grass",
+   "levels": "14",
+   "rate": "10%"
+  },
+  {
+   "dex": 266,
+   "name": "Houndour",
+   "method": "grass",
+   "levels": "16",
+   "rate": "9%"
+  },
+  {
+   "dex": 229,
+   "name": "Murkrow",
+   "method": "grass",
+   "levels": "16",
+   "rate": "4%"
+  },
+  {
+   "dex": 176,
+   "name": "Munchlax",
+   "method": "grass",
+   "levels": "16",
+   "rate": "2%"
+  },
+  {
+   "dex": 249,
+   "name": "Sneasel",
+   "method": "dexnav",
+   "levels": "15-17",
+   "rate": "33%"
+  },
+  {
+   "dex": 273,
+   "name": "Miltank",
+   "method": "dexnav",
+   "levels": "15-17",
+   "rate": "33%"
+  },
+  {
+   "dex": 335,
+   "name": "Mawile",
+   "method": "dexnav",
+   "levels": "15-17",
+   "rate": "33%"
+  }
+ ],
+ "items": [
+  {
+   "id": "outside-nugget",
+   "name": "Nugget",
+   "hidden": false,
+   "where": "Outside",
+   "later": true,
+   "need": "Come in from Jagged Pass",
+   "after": "jagged-pass",
+   "stage": 29
+  }
+ ],
+ "gifts": [],
+ "trainers": [
+  {
+   "class": "Kindler",
+   "name": "Bryant",
+   "prize": 576,
+   "party": [
+    {
+     "dex": 356,
+     "name": "Numel",
+     "level": 18,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Focus Energy",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Magnitude",
+       "type": "Ground",
+       "power": 1,
+       "category": "physical"
+      },
+      {
+       "name": "Flame Burst",
+       "type": "Fire",
+       "power": 70,
+       "category": "special"
+      },
+      {
+       "name": "Headbutt",
+       "type": "Normal",
+       "power": 70,
+       "category": "physical"
+      }
+     ]
+    },
+    {
+     "dex": 254,
+     "name": "Slugma",
+     "level": 18,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Ember",
+       "type": "Fire",
+       "power": 40,
+       "category": "special"
+      },
+      {
+       "name": "Rock Throw",
+       "type": "Rock",
+       "power": 50,
+       "category": "physical"
+      },
+      {
+       "name": "Harden",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Incinerate",
+       "type": "Fire",
+       "power": 60,
+       "category": "special"
+      }
+     ]
+    }
+   ],
+   "id": "bryant"
+  },
+  {
+   "class": "Aroma Lady",
+   "name": "Shayla",
+   "prize": 720,
+   "party": [
+    {
+     "dex": 317,
+     "name": "Shroomish",
+     "level": 18,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Stun Spore",
+       "type": "Grass",
+       "category": "status"
+      },
+      {
+       "name": "Leech Seed",
+       "type": "Grass",
+       "category": "status"
+      },
+      {
+       "name": "Mega Drain",
+       "type": "Grass",
+       "power": 50,
+       "category": "special"
+      },
+      {
+       "name": "Headbutt",
+       "type": "Normal",
+       "power": 70,
+       "category": "physical"
+      }
+     ]
+    },
+    {
+     "dex": 247,
+     "name": "Shuckle",
+     "level": 18,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Encore",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Wrap",
+       "type": "Normal",
+       "power": 15,
+       "category": "physical"
+      },
+      {
+       "name": "Struggle Bug",
+       "type": "Bug",
+       "power": 50,
+       "category": "special"
+      },
+      {
+       "name": "Safeguard",
+       "type": "Normal",
+       "category": "status"
+      }
+     ]
+    }
+   ],
+   "id": "shayla"
+  },
+  {
+   "class": "Camper",
+   "name": "Larry",
+   "prize": 288,
+   "party": [
+    {
+     "dex": 305,
+     "name": "Nuzleaf",
+     "level": 18,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Growth",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Torment",
+       "type": "Dark",
+       "category": "status"
+      },
+      {
+       "name": "Fake Out",
+       "type": "Normal",
+       "power": 40,
+       "category": "physical"
+      },
+      {
+       "name": "Nature Power",
+       "type": "Normal",
+       "power": 1,
+       "category": "status"
+      }
+     ]
+    }
+   ],
+   "id": "larry"
+  },
+  {
+   "class": "Picnicker",
+   "name": "Carol",
+   "prize": 272,
+   "party": [
+    {
+     "dex": 307,
+     "name": "Taillow",
+     "level": 17,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Focus Energy",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Quick Attack",
+       "type": "Normal",
+       "power": 40,
+       "category": "physical"
+      },
+      {
+       "name": "Wing Attack",
+       "type": "Flying",
+       "power": 60,
+       "category": "physical"
+      },
+      {
+       "name": "Double Team",
+       "type": "Normal",
+       "category": "status"
+      }
+     ]
+    },
+    {
+     "dex": 302,
+     "name": "Lombre",
+     "level": 17,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Absorb",
+       "type": "Grass",
+       "power": 30,
+       "category": "special"
+      },
+      {
+       "name": "Bubble",
+       "type": "Water",
+       "power": 30,
+       "category": "special"
+      },
+      {
+       "name": "Fury Swipes",
+       "type": "Normal",
+       "power": 18,
+       "category": "physical"
+      },
+      {
+       "name": "Fake Out",
+       "type": "Normal",
+       "power": 40,
+       "category": "physical"
+      }
+     ]
+    }
+   ],
+   "id": "carol"
+  },
+  {
+   "class": "Hiker",
+   "name": "Trent",
+   "prize": 640,
+   "party": [
+    {
+     "dex": 268,
+     "name": "Phanpy",
+     "level": 16,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Flail",
+       "type": "Normal",
+       "power": 1,
+       "category": "physical"
+      },
+      {
+       "name": "Rollout",
+       "type": "Rock",
+       "power": 30,
+       "category": "physical"
+      },
+      {
+       "name": "Natural Gift",
+       "type": "Normal",
+       "power": 1,
+       "category": "physical"
+      },
+      {
+       "name": "Magnitude",
+       "type": "Ground",
+       "power": 1,
+       "category": "physical"
+      }
+     ]
+    },
+    {
+     "dex": 81,
+     "name": "Geodude",
+     "level": 17,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Rock Polish",
+       "type": "Rock",
+       "category": "status"
+      },
+      {
+       "name": "Rollout",
+       "type": "Rock",
+       "power": 30,
+       "category": "physical"
+      },
+      {
+       "name": "Magnitude",
+       "type": "Ground",
+       "power": 1,
+       "category": "physical"
+      },
+      {
+       "name": "Rock Throw",
+       "type": "Rock",
+       "power": 50,
+       "category": "physical"
+      }
+     ]
+    },
+    {
+     "dex": 104,
+     "name": "Onix",
+     "level": 16,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Rock Tomb",
+       "type": "Rock",
+       "power": 60,
+       "category": "physical"
+      },
+      {
+       "name": "Rage",
+       "type": "Normal",
+       "power": 20,
+       "category": "physical"
+      },
+      {
+       "name": "Bite",
+       "type": "Dark",
+       "power": 60,
+       "category": "physical"
+      },
+      {
+       "name": "Stealth Rock",
+       "type": "Rock",
+       "category": "status"
+      }
+     ]
+    }
+   ],
+   "id": "trent"
+  },
+  {
+   "class": "Hiker",
+   "name": "Brice",
+   "prize": 680,
+   "party": [
+    {
+     "dex": 356,
+     "name": "Numel",
+     "level": 17,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Focus Energy",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Magnitude",
+       "type": "Ground",
+       "power": 1,
+       "category": "physical"
+      },
+      {
+       "name": "Flame Burst",
+       "type": "Fire",
+       "power": 70,
+       "category": "special"
+      },
+      {
+       "name": "Headbutt",
+       "type": "Normal",
+       "power": 70,
+       "category": "physical"
+      }
+     ]
+    },
+    {
+     "dex": 116,
+     "name": "Tyrogue",
+     "level": 17,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Tackle",
+       "type": "Normal",
+       "power": 40,
+       "category": "physical"
+      },
+      {
+       "name": "Helping Hand",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Fake Out",
+       "type": "Normal",
+       "power": 40,
+       "category": "physical"
+      },
+      {
+       "name": "Foresight",
+       "type": "Normal",
+       "category": "status"
+      }
+     ]
+    }
+   ],
+   "id": "brice"
+  }
+ ],
+ "verified": true,
+ "sources": [
+  "https://mrwalkthroughs.com/pokemon-emerald-seaglass/"
+ ]
+}

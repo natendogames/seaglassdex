@@ -1,0 +1,1120 @@
+{
+ "id": "seafloor-cavern",
+ "name": "Seafloor Cavern",
+ "encounters": [
+  {
+   "dex": 79,
+   "name": "Tentacool",
+   "method": "surf",
+   "levels": "5-35",
+   "rate": "60%",
+   "area": "Entrance"
+  },
+  {
+   "dex": 44,
+   "name": "Zubat",
+   "method": "surf",
+   "levels": "5-35",
+   "rate": "35%",
+   "area": "Entrance"
+  },
+  {
+   "dex": 45,
+   "name": "Golbat",
+   "method": "surf",
+   "levels": "30-35",
+   "rate": "5%",
+   "area": "Entrance"
+  },
+  {
+   "dex": 155,
+   "name": "Magikarp",
+   "method": "old-rod",
+   "levels": "5-10",
+   "rate": "70%",
+   "area": "Entrance"
+  },
+  {
+   "dex": 79,
+   "name": "Tentacool",
+   "method": "old-rod",
+   "levels": "5-10",
+   "rate": "30%",
+   "area": "Entrance"
+  },
+  {
+   "dex": 155,
+   "name": "Magikarp",
+   "method": "good-rod",
+   "levels": "10-30",
+   "rate": "60%",
+   "area": "Entrance"
+  },
+  {
+   "dex": 79,
+   "name": "Tentacool",
+   "method": "good-rod",
+   "levels": "10-30",
+   "rate": "20%",
+   "area": "Entrance"
+  },
+  {
+   "dex": 354,
+   "name": "Wailmer",
+   "method": "good-rod",
+   "levels": "10-30",
+   "rate": "20%",
+   "area": "Entrance"
+  },
+  {
+   "dex": 354,
+   "name": "Wailmer",
+   "method": "super-rod",
+   "levels": "20-45",
+   "rate": "100%",
+   "area": "Entrance"
+  },
+  {
+   "dex": 28,
+   "name": "Sandshrew",
+   "method": "grass",
+   "levels": "30",
+   "rate": "20%",
+   "area": "Room 1"
+  },
+  {
+   "dex": 44,
+   "name": "Zubat",
+   "method": "grass",
+   "levels": "28-29",
+   "rate": "20%",
+   "area": "Room 1"
+  },
+  {
+   "dex": 104,
+   "name": "Onix",
+   "method": "grass",
+   "levels": "31",
+   "rate": "20%",
+   "area": "Room 1"
+  },
+  {
+   "dex": 97,
+   "name": "Grimer",
+   "method": "grass",
+   "levels": "32",
+   "rate": "10%",
+   "area": "Room 1"
+  },
+  {
+   "dex": 240,
+   "name": "Dunsparce",
+   "method": "grass",
+   "levels": "33",
+   "rate": "10%",
+   "area": "Room 1"
+  },
+  {
+   "dex": 45,
+   "name": "Golbat",
+   "method": "grass",
+   "levels": "34-35",
+   "rate": "8%",
+   "area": "Room 1"
+  },
+  {
+   "dex": 32,
+   "name": "Nidoqueen",
+   "method": "grass",
+   "levels": "34",
+   "rate": "5%",
+   "area": "Room 1"
+  },
+  {
+   "dex": 35,
+   "name": "Nidoking",
+   "method": "grass",
+   "levels": "35",
+   "rate": "5%",
+   "area": "Room 1"
+  },
+  {
+   "dex": 277,
+   "name": "Larvitar",
+   "method": "grass",
+   "levels": "33",
+   "rate": "1%",
+   "area": "Room 1"
+  },
+  {
+   "dex": 278,
+   "name": "Pupitar",
+   "method": "grass",
+   "levels": "36",
+   "rate": "1%",
+   "area": "Room 1"
+  },
+  {
+   "dex": 28,
+   "name": "Sandshrew",
+   "method": "grass",
+   "levels": "30",
+   "rate": "20%",
+   "area": "Room 2"
+  },
+  {
+   "dex": 44,
+   "name": "Zubat",
+   "method": "grass",
+   "levels": "28-29",
+   "rate": "20%",
+   "area": "Room 2"
+  },
+  {
+   "dex": 104,
+   "name": "Onix",
+   "method": "grass",
+   "levels": "31",
+   "rate": "20%",
+   "area": "Room 2"
+  },
+  {
+   "dex": 97,
+   "name": "Grimer",
+   "method": "grass",
+   "levels": "32",
+   "rate": "10%",
+   "area": "Room 2"
+  },
+  {
+   "dex": 240,
+   "name": "Dunsparce",
+   "method": "grass",
+   "levels": "33",
+   "rate": "10%",
+   "area": "Room 2"
+  },
+  {
+   "dex": 45,
+   "name": "Golbat",
+   "method": "grass",
+   "levels": "34-35",
+   "rate": "8%",
+   "area": "Room 2"
+  },
+  {
+   "dex": 32,
+   "name": "Nidoqueen",
+   "method": "grass",
+   "levels": "34",
+   "rate": "5%",
+   "area": "Room 2"
+  },
+  {
+   "dex": 35,
+   "name": "Nidoking",
+   "method": "grass",
+   "levels": "35",
+   "rate": "5%",
+   "area": "Room 2"
+  },
+  {
+   "dex": 277,
+   "name": "Larvitar",
+   "method": "grass",
+   "levels": "33",
+   "rate": "1%",
+   "area": "Room 2"
+  },
+  {
+   "dex": 278,
+   "name": "Pupitar",
+   "method": "grass",
+   "levels": "36",
+   "rate": "1%",
+   "area": "Room 2"
+  },
+  {
+   "dex": 28,
+   "name": "Sandshrew",
+   "method": "grass",
+   "levels": "30",
+   "rate": "20%",
+   "area": "Room 3"
+  },
+  {
+   "dex": 44,
+   "name": "Zubat",
+   "method": "grass",
+   "levels": "28-29",
+   "rate": "20%",
+   "area": "Room 3"
+  },
+  {
+   "dex": 104,
+   "name": "Onix",
+   "method": "grass",
+   "levels": "31",
+   "rate": "20%",
+   "area": "Room 3"
+  },
+  {
+   "dex": 97,
+   "name": "Grimer",
+   "method": "grass",
+   "levels": "32",
+   "rate": "10%",
+   "area": "Room 3"
+  },
+  {
+   "dex": 240,
+   "name": "Dunsparce",
+   "method": "grass",
+   "levels": "33",
+   "rate": "10%",
+   "area": "Room 3"
+  },
+  {
+   "dex": 45,
+   "name": "Golbat",
+   "method": "grass",
+   "levels": "34-35",
+   "rate": "8%",
+   "area": "Room 3"
+  },
+  {
+   "dex": 32,
+   "name": "Nidoqueen",
+   "method": "grass",
+   "levels": "34",
+   "rate": "5%",
+   "area": "Room 3"
+  },
+  {
+   "dex": 35,
+   "name": "Nidoking",
+   "method": "grass",
+   "levels": "35",
+   "rate": "5%",
+   "area": "Room 3"
+  },
+  {
+   "dex": 277,
+   "name": "Larvitar",
+   "method": "grass",
+   "levels": "33",
+   "rate": "1%",
+   "area": "Room 3"
+  },
+  {
+   "dex": 278,
+   "name": "Pupitar",
+   "method": "grass",
+   "levels": "36",
+   "rate": "1%",
+   "area": "Room 3"
+  },
+  {
+   "dex": 28,
+   "name": "Sandshrew",
+   "method": "grass",
+   "levels": "30",
+   "rate": "20%",
+   "area": "Room 4"
+  },
+  {
+   "dex": 44,
+   "name": "Zubat",
+   "method": "grass",
+   "levels": "28-29",
+   "rate": "20%",
+   "area": "Room 4"
+  },
+  {
+   "dex": 104,
+   "name": "Onix",
+   "method": "grass",
+   "levels": "31",
+   "rate": "20%",
+   "area": "Room 4"
+  },
+  {
+   "dex": 97,
+   "name": "Grimer",
+   "method": "grass",
+   "levels": "32",
+   "rate": "10%",
+   "area": "Room 4"
+  },
+  {
+   "dex": 240,
+   "name": "Dunsparce",
+   "method": "grass",
+   "levels": "33",
+   "rate": "10%",
+   "area": "Room 4"
+  },
+  {
+   "dex": 45,
+   "name": "Golbat",
+   "method": "grass",
+   "levels": "34-35",
+   "rate": "8%",
+   "area": "Room 4"
+  },
+  {
+   "dex": 32,
+   "name": "Nidoqueen",
+   "method": "grass",
+   "levels": "34",
+   "rate": "5%",
+   "area": "Room 4"
+  },
+  {
+   "dex": 35,
+   "name": "Nidoking",
+   "method": "grass",
+   "levels": "35",
+   "rate": "5%",
+   "area": "Room 4"
+  },
+  {
+   "dex": 277,
+   "name": "Larvitar",
+   "method": "grass",
+   "levels": "33",
+   "rate": "1%",
+   "area": "Room 4"
+  },
+  {
+   "dex": 278,
+   "name": "Pupitar",
+   "method": "grass",
+   "levels": "36",
+   "rate": "1%",
+   "area": "Room 4"
+  },
+  {
+   "dex": 28,
+   "name": "Sandshrew",
+   "method": "grass",
+   "levels": "30",
+   "rate": "20%",
+   "area": "Room 5"
+  },
+  {
+   "dex": 44,
+   "name": "Zubat",
+   "method": "grass",
+   "levels": "28-29",
+   "rate": "20%",
+   "area": "Room 5"
+  },
+  {
+   "dex": 104,
+   "name": "Onix",
+   "method": "grass",
+   "levels": "31",
+   "rate": "20%",
+   "area": "Room 5"
+  },
+  {
+   "dex": 97,
+   "name": "Grimer",
+   "method": "grass",
+   "levels": "32",
+   "rate": "10%",
+   "area": "Room 5"
+  },
+  {
+   "dex": 240,
+   "name": "Dunsparce",
+   "method": "grass",
+   "levels": "33",
+   "rate": "10%",
+   "area": "Room 5"
+  },
+  {
+   "dex": 45,
+   "name": "Golbat",
+   "method": "grass",
+   "levels": "34-35",
+   "rate": "8%",
+   "area": "Room 5"
+  },
+  {
+   "dex": 32,
+   "name": "Nidoqueen",
+   "method": "grass",
+   "levels": "34",
+   "rate": "5%",
+   "area": "Room 5"
+  },
+  {
+   "dex": 35,
+   "name": "Nidoking",
+   "method": "grass",
+   "levels": "35",
+   "rate": "5%",
+   "area": "Room 5"
+  },
+  {
+   "dex": 277,
+   "name": "Larvitar",
+   "method": "grass",
+   "levels": "33",
+   "rate": "1%",
+   "area": "Room 5"
+  },
+  {
+   "dex": 278,
+   "name": "Pupitar",
+   "method": "grass",
+   "levels": "36",
+   "rate": "1%",
+   "area": "Room 5"
+  },
+  {
+   "dex": 28,
+   "name": "Sandshrew",
+   "method": "grass",
+   "levels": "30",
+   "rate": "20%",
+   "area": "Room 6"
+  },
+  {
+   "dex": 44,
+   "name": "Zubat",
+   "method": "grass",
+   "levels": "28-29",
+   "rate": "20%",
+   "area": "Room 6"
+  },
+  {
+   "dex": 104,
+   "name": "Onix",
+   "method": "grass",
+   "levels": "31",
+   "rate": "20%",
+   "area": "Room 6"
+  },
+  {
+   "dex": 97,
+   "name": "Grimer",
+   "method": "grass",
+   "levels": "32",
+   "rate": "10%",
+   "area": "Room 6"
+  },
+  {
+   "dex": 240,
+   "name": "Dunsparce",
+   "method": "grass",
+   "levels": "33",
+   "rate": "10%",
+   "area": "Room 6"
+  },
+  {
+   "dex": 45,
+   "name": "Golbat",
+   "method": "grass",
+   "levels": "34-35",
+   "rate": "8%",
+   "area": "Room 6"
+  },
+  {
+   "dex": 32,
+   "name": "Nidoqueen",
+   "method": "grass",
+   "levels": "34",
+   "rate": "5%",
+   "area": "Room 6"
+  },
+  {
+   "dex": 35,
+   "name": "Nidoking",
+   "method": "grass",
+   "levels": "35",
+   "rate": "5%",
+   "area": "Room 6"
+  },
+  {
+   "dex": 277,
+   "name": "Larvitar",
+   "method": "grass",
+   "levels": "33",
+   "rate": "1%",
+   "area": "Room 6"
+  },
+  {
+   "dex": 278,
+   "name": "Pupitar",
+   "method": "grass",
+   "levels": "36",
+   "rate": "1%",
+   "area": "Room 6"
+  },
+  {
+   "dex": 79,
+   "name": "Tentacool",
+   "method": "surf",
+   "levels": "5-35",
+   "rate": "60%",
+   "area": "Room 6"
+  },
+  {
+   "dex": 44,
+   "name": "Zubat",
+   "method": "surf",
+   "levels": "5-35",
+   "rate": "35%",
+   "area": "Room 6"
+  },
+  {
+   "dex": 45,
+   "name": "Golbat",
+   "method": "surf",
+   "levels": "30-35",
+   "rate": "5%",
+   "area": "Room 6"
+  },
+  {
+   "dex": 155,
+   "name": "Magikarp",
+   "method": "old-rod",
+   "levels": "5-10",
+   "rate": "70%",
+   "area": "Room 6"
+  },
+  {
+   "dex": 79,
+   "name": "Tentacool",
+   "method": "old-rod",
+   "levels": "5-10",
+   "rate": "30%",
+   "area": "Room 6"
+  },
+  {
+   "dex": 155,
+   "name": "Magikarp",
+   "method": "good-rod",
+   "levels": "10-30",
+   "rate": "60%",
+   "area": "Room 6"
+  },
+  {
+   "dex": 79,
+   "name": "Tentacool",
+   "method": "good-rod",
+   "levels": "10-30",
+   "rate": "20%",
+   "area": "Room 6"
+  },
+  {
+   "dex": 354,
+   "name": "Wailmer",
+   "method": "good-rod",
+   "levels": "10-30",
+   "rate": "20%",
+   "area": "Room 6"
+  },
+  {
+   "dex": 354,
+   "name": "Wailmer",
+   "method": "super-rod",
+   "levels": "20-45",
+   "rate": "100%",
+   "area": "Room 6"
+  },
+  {
+   "dex": 28,
+   "name": "Sandshrew",
+   "method": "grass",
+   "levels": "30",
+   "rate": "20%",
+   "area": "Room 7"
+  },
+  {
+   "dex": 44,
+   "name": "Zubat",
+   "method": "grass",
+   "levels": "28-29",
+   "rate": "20%",
+   "area": "Room 7"
+  },
+  {
+   "dex": 104,
+   "name": "Onix",
+   "method": "grass",
+   "levels": "31",
+   "rate": "20%",
+   "area": "Room 7"
+  },
+  {
+   "dex": 97,
+   "name": "Grimer",
+   "method": "grass",
+   "levels": "32",
+   "rate": "10%",
+   "area": "Room 7"
+  },
+  {
+   "dex": 240,
+   "name": "Dunsparce",
+   "method": "grass",
+   "levels": "33",
+   "rate": "10%",
+   "area": "Room 7"
+  },
+  {
+   "dex": 45,
+   "name": "Golbat",
+   "method": "grass",
+   "levels": "34-35",
+   "rate": "8%",
+   "area": "Room 7"
+  },
+  {
+   "dex": 32,
+   "name": "Nidoqueen",
+   "method": "grass",
+   "levels": "34",
+   "rate": "5%",
+   "area": "Room 7"
+  },
+  {
+   "dex": 35,
+   "name": "Nidoking",
+   "method": "grass",
+   "levels": "35",
+   "rate": "5%",
+   "area": "Room 7"
+  },
+  {
+   "dex": 277,
+   "name": "Larvitar",
+   "method": "grass",
+   "levels": "33",
+   "rate": "1%",
+   "area": "Room 7"
+  },
+  {
+   "dex": 278,
+   "name": "Pupitar",
+   "method": "grass",
+   "levels": "36",
+   "rate": "1%",
+   "area": "Room 7"
+  },
+  {
+   "dex": 79,
+   "name": "Tentacool",
+   "method": "surf",
+   "levels": "5-35",
+   "rate": "60%",
+   "area": "Room 7"
+  },
+  {
+   "dex": 44,
+   "name": "Zubat",
+   "method": "surf",
+   "levels": "5-35",
+   "rate": "35%",
+   "area": "Room 7"
+  },
+  {
+   "dex": 45,
+   "name": "Golbat",
+   "method": "surf",
+   "levels": "30-35",
+   "rate": "5%",
+   "area": "Room 7"
+  },
+  {
+   "dex": 155,
+   "name": "Magikarp",
+   "method": "old-rod",
+   "levels": "5-10",
+   "rate": "70%",
+   "area": "Room 7"
+  },
+  {
+   "dex": 79,
+   "name": "Tentacool",
+   "method": "old-rod",
+   "levels": "5-10",
+   "rate": "30%",
+   "area": "Room 7"
+  },
+  {
+   "dex": 155,
+   "name": "Magikarp",
+   "method": "good-rod",
+   "levels": "10-30",
+   "rate": "60%",
+   "area": "Room 7"
+  },
+  {
+   "dex": 79,
+   "name": "Tentacool",
+   "method": "good-rod",
+   "levels": "10-30",
+   "rate": "20%",
+   "area": "Room 7"
+  },
+  {
+   "dex": 354,
+   "name": "Wailmer",
+   "method": "good-rod",
+   "levels": "10-30",
+   "rate": "20%",
+   "area": "Room 7"
+  },
+  {
+   "dex": 354,
+   "name": "Wailmer",
+   "method": "super-rod",
+   "levels": "20-45",
+   "rate": "100%",
+   "area": "Room 7"
+  },
+  {
+   "dex": 28,
+   "name": "Sandshrew",
+   "method": "grass",
+   "levels": "30",
+   "rate": "20%",
+   "area": "Room 8"
+  },
+  {
+   "dex": 44,
+   "name": "Zubat",
+   "method": "grass",
+   "levels": "28-29",
+   "rate": "20%",
+   "area": "Room 8"
+  },
+  {
+   "dex": 104,
+   "name": "Onix",
+   "method": "grass",
+   "levels": "31",
+   "rate": "20%",
+   "area": "Room 8"
+  },
+  {
+   "dex": 97,
+   "name": "Grimer",
+   "method": "grass",
+   "levels": "32",
+   "rate": "10%",
+   "area": "Room 8"
+  },
+  {
+   "dex": 240,
+   "name": "Dunsparce",
+   "method": "grass",
+   "levels": "33",
+   "rate": "10%",
+   "area": "Room 8"
+  },
+  {
+   "dex": 45,
+   "name": "Golbat",
+   "method": "grass",
+   "levels": "34-35",
+   "rate": "8%",
+   "area": "Room 8"
+  },
+  {
+   "dex": 32,
+   "name": "Nidoqueen",
+   "method": "grass",
+   "levels": "34",
+   "rate": "5%",
+   "area": "Room 8"
+  },
+  {
+   "dex": 35,
+   "name": "Nidoking",
+   "method": "grass",
+   "levels": "35",
+   "rate": "5%",
+   "area": "Room 8"
+  },
+  {
+   "dex": 277,
+   "name": "Larvitar",
+   "method": "grass",
+   "levels": "33",
+   "rate": "1%",
+   "area": "Room 8"
+  },
+  {
+   "dex": 278,
+   "name": "Pupitar",
+   "method": "grass",
+   "levels": "36",
+   "rate": "1%",
+   "area": "Room 8"
+  }
+ ],
+ "items": [
+  {
+   "id": "room-9-tm26",
+   "name": "TM26",
+   "hidden": false,
+   "where": "Room 9"
+  }
+ ],
+ "gifts": [],
+ "trainers": [
+  {
+   "class": "Team Aqua",
+   "name": "Grunt",
+   "prize": 720,
+   "party": [
+    {
+     "dex": 293,
+     "name": "Mightyena",
+     "level": 36,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Scary Face",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Crunch",
+       "type": "Dark",
+       "power": 80,
+       "category": "physical"
+      },
+      {
+       "name": "Embargo",
+       "type": "Dark",
+       "category": "status"
+      },
+      {
+       "name": "Taunt",
+       "type": "Dark",
+       "category": "status"
+      }
+     ]
+    }
+   ],
+   "id": "grunt-seafloor-cavern",
+   "area": "Room 1"
+  },
+  {
+   "class": "Aqua Admin",
+   "name": "Shelly",
+   "prize": 1480,
+   "party": [
+    {
+     "dex": 353,
+     "name": "Sharpedo",
+     "level": 37,
+     "iv": 12,
+     "moves": [
+      {
+       "name": "Flip Turn",
+       "type": "Water",
+       "power": 60,
+       "category": "physical"
+      },
+      {
+       "name": "Scary Face",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Poison Fang",
+       "type": "Poison",
+       "power": 50,
+       "category": "physical"
+      },
+      {
+       "name": "Crunch",
+       "type": "Dark",
+       "power": 80,
+       "category": "physical"
+      }
+     ]
+    },
+    {
+     "dex": 374,
+     "name": "Whiscash",
+     "level": 37,
+     "iv": 12,
+     "moves": [
+      {
+       "name": "Rest",
+       "type": "Psychic",
+       "category": "status"
+      },
+      {
+       "name": "Snore",
+       "type": "Normal",
+       "power": 50,
+       "category": "special"
+      },
+      {
+       "name": "Aqua Tail",
+       "type": "Water",
+       "power": 90,
+       "category": "physical"
+      },
+      {
+       "name": "Earthquake",
+       "type": "Ground",
+       "power": 100,
+       "category": "physical"
+      }
+     ]
+    }
+   ],
+   "id": "shelly-seafloor-cavern",
+   "area": "Room 3"
+  },
+  {
+   "class": "Aqua Leader",
+   "name": "Archie",
+   "prize": 3440,
+   "party": [
+    {
+     "dex": 355,
+     "name": "Wailord",
+     "level": 41,
+     "iv": 18,
+     "moves": [
+      {
+       "name": "Water Spout",
+       "type": "Water",
+       "power": 150,
+       "category": "special"
+      },
+      {
+       "name": "Amnesia",
+       "type": "Psychic",
+       "category": "status"
+      },
+      {
+       "name": "Slack Off",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Dive",
+       "type": "Water",
+       "power": 80,
+       "category": "physical"
+      }
+     ]
+    },
+    {
+     "dex": 318,
+     "name": "Breloom",
+     "level": 41,
+     "iv": 18,
+     "moves": [
+      {
+       "name": "Bullet Seed",
+       "type": "Grass",
+       "power": 25,
+       "category": "physical"
+      },
+      {
+       "name": "False Swipe",
+       "type": "Normal",
+       "power": 40,
+       "category": "physical"
+      },
+      {
+       "name": "Mind Reader",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Sky Uppercut",
+       "type": "Fighting",
+       "power": 85,
+       "category": "physical"
+      }
+     ]
+    },
+    {
+     "dex": 46,
+     "name": "Crobat",
+     "level": 41,
+     "iv": 18,
+     "moves": [
+      {
+       "name": "Poison Fang",
+       "type": "Poison",
+       "power": 50,
+       "category": "physical"
+      },
+      {
+       "name": "Mean Look",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Leech Life",
+       "type": "Bug",
+       "power": 80,
+       "category": "physical"
+      },
+      {
+       "name": "Haze",
+       "type": "Ice",
+       "category": "status"
+      }
+     ]
+    },
+    {
+     "dex": 353,
+     "name": "Sharpedo",
+     "level": 43,
+     "iv": 18,
+     "moves": [
+      {
+       "name": "Scary Face",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Poison Fang",
+       "type": "Poison",
+       "power": 50,
+       "category": "physical"
+      },
+      {
+       "name": "Crunch",
+       "type": "Dark",
+       "power": 80,
+       "category": "physical"
+      },
+      {
+       "name": "Liquidation",
+       "type": "Water",
+       "power": 85,
+       "category": "physical"
+      }
+     ]
+    }
+   ],
+   "uses": [
+    "Super Potion ×2"
+   ],
+   "id": "archie",
+   "area": "Room 9"
+  }
+ ],
+ "verified": true,
+ "sources": [
+  "https://mrwalkthroughs.com/pokemon-emerald-seaglass/"
+ ]
+}

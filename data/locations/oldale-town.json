@@ -1,0 +1,19 @@
+{
+ "id": "oldale-town",
+ "name": "Oldale Town",
+ "encounters": [],
+ "items": [],
+ "gifts": [
+  {
+   "id": "item-outside-potion",
+   "name": "Potion",
+   "from": "Clerk",
+   "where": "Outside"
+  }
+ ],
+ "trainers": [],
+ "verified": true,
+ "sources": [
+  "https://mrwalkthroughs.com/pokemon-emerald-seaglass/"
+ ]
+}

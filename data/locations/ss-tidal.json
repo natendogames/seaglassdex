@@ -1,0 +1,645 @@
+{
+ "id": "ss-tidal",
+ "name": "S.S. Tidal",
+ "encounters": [],
+ "items": [
+  {
+   "id": "hidden-outside-leftovers",
+   "name": "Leftovers",
+   "hidden": true,
+   "where": "Outside"
+  }
+ ],
+ "gifts": [
+  {
+   "id": "item-outside-tm49",
+   "name": "TM49",
+   "from": "Man in the cabin",
+   "where": "Outside"
+  }
+ ],
+ "trainers": [
+  {
+   "class": "Rich Boy",
+   "name": "Garret",
+   "prize": 9000,
+   "party": [
+    {
+     "dex": 215,
+     "name": "Azumarill",
+     "level": 45,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Body Slam",
+       "type": "Normal",
+       "power": 85,
+       "category": "physical"
+      },
+      {
+       "name": "Rain Dance",
+       "type": "Water",
+       "category": "status"
+      },
+      {
+       "name": "Liquidation",
+       "type": "Water",
+       "power": 85,
+       "category": "physical"
+      },
+      {
+       "name": "Double-Edge",
+       "type": "Normal",
+       "power": 120,
+       "category": "physical"
+      }
+     ],
+     "item": "Nugget"
+    }
+   ],
+   "uses": [
+    "Full Restore"
+   ],
+   "id": "garret"
+  },
+  {
+   "class": "Gentleman",
+   "name": "Micah",
+   "prize": 3520,
+   "party": [
+    {
+     "dex": 27,
+     "name": "Raichu",
+     "level": 44,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Thunder Shock",
+       "type": "Electric",
+       "power": 40,
+       "category": "special"
+      },
+      {
+       "name": "Tail Whip",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Quick Attack",
+       "type": "Normal",
+       "power": 40,
+       "category": "physical"
+      },
+      {
+       "name": "Thunderbolt",
+       "type": "Electric",
+       "power": 90,
+       "category": "special"
+      }
+     ]
+    },
+    {
+     "dex": 342,
+     "name": "Manectric",
+     "level": 44,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Discharge",
+       "type": "Electric",
+       "power": 80,
+       "category": "special"
+      },
+      {
+       "name": "Fire Fang",
+       "type": "Fire",
+       "power": 65,
+       "category": "physical"
+      },
+      {
+       "name": "Roar",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Rising Voltage",
+       "type": "Electric",
+       "power": 70,
+       "category": "special"
+      }
+     ]
+    }
+   ],
+   "id": "micah"
+  },
+  {
+   "class": "Pokéfan",
+   "name": "Colton",
+   "prize": 3360,
+   "party": [
+    {
+     "dex": 332,
+     "name": "Skitty",
+     "level": 22,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Assist",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Charm",
+       "type": "Fairy",
+       "category": "status"
+      },
+      {
+       "name": "Feint Attack",
+       "type": "Dark",
+       "power": 60,
+       "category": "physical"
+      },
+      {
+       "name": "Heal Bell",
+       "type": "Normal",
+       "category": "status"
+      }
+     ],
+     "item": "Oran Berry"
+    },
+    {
+     "dex": 332,
+     "name": "Skitty",
+     "level": 36,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Assist",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Charm",
+       "type": "Fairy",
+       "category": "status"
+      },
+      {
+       "name": "Feint Attack",
+       "type": "Dark",
+       "power": 60,
+       "category": "physical"
+      },
+      {
+       "name": "Heal Bell",
+       "type": "Normal",
+       "category": "status"
+      }
+     ],
+     "item": "Oran Berry"
+    },
+    {
+     "dex": 332,
+     "name": "Skitty",
+     "level": 40,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Assist",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Charm",
+       "type": "Fairy",
+       "category": "status"
+      },
+      {
+       "name": "Feint Attack",
+       "type": "Dark",
+       "power": 60,
+       "category": "physical"
+      },
+      {
+       "name": "Heal Bell",
+       "type": "Normal",
+       "category": "status"
+      }
+     ],
+     "item": "Oran Berry"
+    },
+    {
+     "dex": 332,
+     "name": "Skitty",
+     "level": 12,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Assist",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Charm",
+       "type": "Fairy",
+       "category": "status"
+      },
+      {
+       "name": "Feint Attack",
+       "type": "Dark",
+       "power": 60,
+       "category": "physical"
+      },
+      {
+       "name": "Heal Bell",
+       "type": "Normal",
+       "category": "status"
+      }
+     ],
+     "item": "Oran Berry"
+    },
+    {
+     "dex": 332,
+     "name": "Skitty",
+     "level": 30,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Assist",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Charm",
+       "type": "Fairy",
+       "category": "status"
+      },
+      {
+       "name": "Feint Attack",
+       "type": "Dark",
+       "power": 60,
+       "category": "physical"
+      },
+      {
+       "name": "Heal Bell",
+       "type": "Normal",
+       "category": "status"
+      }
+     ],
+     "item": "Oran Berry"
+    },
+    {
+     "dex": 333,
+     "name": "Delcatty",
+     "level": 42,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Assist",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Charm",
+       "type": "Fairy",
+       "category": "status"
+      },
+      {
+       "name": "Feint Attack",
+       "type": "Dark",
+       "power": 60,
+       "category": "physical"
+      },
+      {
+       "name": "Heal Bell",
+       "type": "Normal",
+       "category": "status"
+      }
+     ],
+     "item": "Oran Berry"
+    }
+   ],
+   "id": "colton"
+  },
+  {
+   "class": "Lady",
+   "name": "Naomi",
+   "prize": 9000,
+   "party": [
+    {
+     "dex": 349,
+     "name": "Roserade",
+     "level": 45,
+     "iv": 12,
+     "moves": [
+      {
+       "name": "Petal Blizzard",
+       "type": "Grass",
+       "power": 90,
+       "category": "physical"
+      },
+      {
+       "name": "Toxic",
+       "type": "Poison",
+       "category": "status"
+      },
+      {
+       "name": "Aromatherapy",
+       "type": "Grass",
+       "category": "status"
+      },
+      {
+       "name": "Sludge Bomb",
+       "type": "Poison",
+       "power": 90,
+       "category": "special"
+      }
+     ],
+     "item": "Nugget"
+    }
+   ],
+   "uses": [
+    "Full Restore"
+   ],
+   "id": "naomi"
+  },
+  {
+   "class": "Gentleman",
+   "name": "Thomas",
+   "prize": 3600,
+   "party": [
+    {
+     "dex": 177,
+     "name": "Snorlax",
+     "level": 45,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Giga Impact",
+       "type": "Normal",
+       "power": 150,
+       "category": "physical"
+      },
+      {
+       "name": "Rollout",
+       "type": "Rock",
+       "power": 30,
+       "category": "physical"
+      },
+      {
+       "name": "Block",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Belly Drum",
+       "type": "Normal",
+       "category": "status"
+      }
+     ]
+    }
+   ],
+   "id": "thomas"
+  },
+  {
+   "class": "Young Couple",
+   "name": "Lea ~ Jed",
+   "prize": 2880,
+   "party": [
+    {
+     "dex": 406,
+     "name": "Luvdisc",
+     "level": 45,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Captivate",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Aqua Ring",
+       "type": "Water",
+       "category": "status"
+      },
+      {
+       "name": "Soak",
+       "type": "Water",
+       "category": "status"
+      },
+      {
+       "name": "Alluring Voice",
+       "type": "Fairy",
+       "power": 80,
+       "category": "special"
+      }
+     ]
+    },
+    {
+     "dex": 406,
+     "name": "Luvdisc",
+     "level": 45,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Captivate",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Aqua Ring",
+       "type": "Water",
+       "category": "status"
+      },
+      {
+       "name": "Soak",
+       "type": "Water",
+       "category": "status"
+      },
+      {
+       "name": "Alluring Voice",
+       "type": "Fairy",
+       "power": 80,
+       "category": "special"
+      }
+     ]
+    }
+   ],
+   "double": true,
+   "id": "lea-and-jed"
+  },
+  {
+   "class": "Sailor",
+   "name": "Phillip",
+   "prize": 1408,
+   "party": [
+    {
+     "dex": 80,
+     "name": "Tentacruel",
+     "level": 44,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Poison Jab",
+       "type": "Poison",
+       "power": 80,
+       "category": "physical"
+      },
+      {
+       "name": "Brine",
+       "type": "Water",
+       "power": 65,
+       "category": "special"
+      },
+      {
+       "name": "Screech",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Hex",
+       "type": "Ghost",
+       "power": 65,
+       "category": "special"
+      }
+     ]
+    },
+    {
+     "dex": 132,
+     "name": "Kangaskhan",
+     "level": 44,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Crunch",
+       "type": "Dark",
+       "power": 80,
+       "category": "physical"
+      },
+      {
+       "name": "Body Slam",
+       "type": "Normal",
+       "power": 85,
+       "category": "physical"
+      },
+      {
+       "name": "Dire Claw",
+       "type": "Poison",
+       "power": 70,
+       "category": "physical"
+      },
+      {
+       "name": "Endure",
+       "type": "Normal",
+       "category": "status"
+      }
+     ]
+    }
+   ],
+   "id": "phillip"
+  },
+  {
+   "class": "Sailor",
+   "name": "Leonard",
+   "prize": 1376,
+   "party": [
+    {
+     "dex": 151,
+     "name": "Magmar",
+     "level": 43,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Fire Punch",
+       "type": "Fire",
+       "power": 75,
+       "category": "physical"
+      },
+      {
+       "name": "Sludge Bomb",
+       "type": "Poison",
+       "power": 90,
+       "category": "special"
+      },
+      {
+       "name": "Lava Plume",
+       "type": "Fire",
+       "power": 80,
+       "category": "special"
+      },
+      {
+       "name": "Sunny Day",
+       "type": "Fire",
+       "category": "status"
+      }
+     ]
+    },
+    {
+     "dex": 146,
+     "name": "Jynx",
+     "level": 43,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Mean Look",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Fake Tears",
+       "type": "Dark",
+       "category": "status"
+      },
+      {
+       "name": "Wake-Up Slap",
+       "type": "Fighting",
+       "power": 70,
+       "category": "physical"
+      },
+      {
+       "name": "Avalanche",
+       "type": "Ice",
+       "power": 60,
+       "category": "physical"
+      }
+     ]
+    },
+    {
+     "dex": 148,
+     "name": "Electabuzz",
+     "level": 43,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Thunder Punch",
+       "type": "Electric",
+       "power": 75,
+       "category": "physical"
+      },
+      {
+       "name": "Power-Up Punch",
+       "type": "Fighting",
+       "power": 40,
+       "category": "physical"
+      },
+      {
+       "name": "Brick Break",
+       "type": "Fighting",
+       "power": 75,
+       "category": "physical"
+      },
+      {
+       "name": "Screech",
+       "type": "Normal",
+       "category": "status"
+      }
+     ]
+    }
+   ],
+   "id": "leonard"
+  }
+ ],
+ "verified": true,
+ "sources": [
+  "https://mrwalkthroughs.com/pokemon-emerald-seaglass/"
+ ]
+}

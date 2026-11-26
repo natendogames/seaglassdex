@@ -1,0 +1,846 @@
+{
+ "id": "rustboro-city",
+ "name": "Rustboro City",
+ "encounters": [
+  {
+   "dex": 393,
+   "name": "Chingling",
+   "method": "grass",
+   "levels": "5-8",
+   "rate": "40%",
+   "area": "Outside"
+  },
+  {
+   "dex": 61,
+   "name": "Mankey",
+   "method": "grass",
+   "levels": "5",
+   "rate": "10%",
+   "area": "Outside"
+  },
+  {
+   "dex": 64,
+   "name": "Growlithe",
+   "method": "grass",
+   "levels": "5",
+   "rate": "10%",
+   "area": "Outside"
+  },
+  {
+   "dex": 234,
+   "name": "Wynaut",
+   "method": "grass",
+   "levels": "5",
+   "rate": "10%",
+   "area": "Outside"
+  },
+  {
+   "dex": 251,
+   "name": "Teddiursa",
+   "method": "grass",
+   "levels": "5",
+   "rate": "10%",
+   "area": "Outside"
+  },
+  {
+   "dex": 307,
+   "name": "Taillow",
+   "method": "grass",
+   "levels": "5",
+   "rate": "10%",
+   "area": "Outside"
+  },
+  {
+   "dex": 36,
+   "name": "Cleffa",
+   "method": "grass",
+   "levels": "5",
+   "rate": "5%",
+   "area": "Outside"
+  },
+  {
+   "dex": 41,
+   "name": "Igglybuff",
+   "method": "grass",
+   "levels": "5",
+   "rate": "5%",
+   "area": "Outside"
+  },
+  {
+   "dex": 379,
+   "name": "Lileep",
+   "method": "gift",
+   "area": "Devon Corp 2F",
+   "levels": "20",
+   "notes": "Lileep (Lv 20) · Devon scientist (revives the Root Fossil)",
+   "after": "mirage-tower"
+  },
+  {
+   "dex": 381,
+   "name": "Anorith",
+   "method": "gift",
+   "area": "Devon Corp 2F",
+   "levels": "20",
+   "notes": "Anorith (Lv 20) · Devon scientist (revives the Claw Fossil)",
+   "after": "mirage-tower"
+  },
+  {
+   "dex": 304,
+   "name": "Seedot",
+   "method": "trade",
+   "area": "House 1",
+   "notes": "Trade: give Ralts, get Seedot (\"Dots\") · Trader"
+  }
+ ],
+ "items": [
+  {
+   "id": "outside-wishing-star",
+   "name": "Wishing Star",
+   "hidden": false,
+   "where": "Outside"
+  }
+ ],
+ "gifts": [
+  {
+   "id": "item-outside-great-ball",
+   "name": "Great Ball",
+   "from": "Devon employee (return the Devon Goods)",
+   "where": "Outside"
+  },
+  {
+   "id": "item-outside-wishing-star-5",
+   "name": "Wishing Star ×5",
+   "from": "Little girl",
+   "where": "Outside"
+  },
+  {
+   "id": "item-cutter-s-house-hm01",
+   "name": "HM01",
+   "from": "Cutter",
+   "where": "Cutter's House"
+  },
+  {
+   "id": "mon-devon-corp-2f-lileep-lv-20",
+   "name": "Lileep (Lv 20)",
+   "from": "Devon scientist (revives the Root Fossil)",
+   "where": "Devon Corp 2F"
+  },
+  {
+   "id": "mon-devon-corp-2f-anorith-lv-20",
+   "name": "Anorith (Lv 20)",
+   "from": "Devon scientist (revives the Claw Fossil)",
+   "where": "Devon Corp 2F"
+  },
+  {
+   "id": "item-devon-corp-3f-letter",
+   "name": "Letter",
+   "from": "Mr. Stone",
+   "where": "Devon Corp 3F"
+  },
+  {
+   "id": "item-devon-corp-3f-z-power-ring",
+   "name": "Z-Power Ring",
+   "from": "Mr. Stone (after you deliver the letter)",
+   "where": "Devon Corp 3F"
+  },
+  {
+   "id": "item-flat-2-2f-premier-ball",
+   "name": "Premier Ball",
+   "from": "Ninja Boy",
+   "where": "Flat 2 2F"
+  },
+  {
+   "id": "item-gym-tm39",
+   "name": "TM39",
+   "from": "Roxanne (after winning)",
+   "where": "Gym"
+  },
+  {
+   "id": "trade-house-1-trade-give-ralts-get-seedot-dots",
+   "name": "Trade: give Ralts, get Seedot (\"Dots\")",
+   "from": "Trader",
+   "where": "House 1"
+  },
+  {
+   "id": "item-pok-mon-school-quick-claw",
+   "name": "Quick Claw",
+   "from": "Teacher",
+   "where": "Pokémon School"
+  },
+  {
+   "id": "item-devon-corp-3f-pok-nav",
+   "name": "PokéNav",
+   "from": "Mr. Stone (return the Devon Goods)",
+   "where": "Devon Corp 3F"
+  }
+ ],
+ "trainers": [
+  {
+   "class": "Rival",
+   "name": "May or Brendan",
+   "prize": 900,
+   "byStarter": {
+    "Treecko": [
+     {
+      "dex": 219,
+      "name": "Skiploom",
+      "level": 13,
+      "iv": 3,
+      "moves": [
+       {
+        "name": "Tail Whip",
+        "type": "Normal",
+        "category": "status"
+       },
+       {
+        "name": "Tackle",
+        "type": "Normal",
+        "power": 40,
+        "category": "physical"
+       },
+       {
+        "name": "Fairy Wind",
+        "type": "Fairy",
+        "power": 40,
+        "category": "special"
+       },
+       {
+        "name": "Poison Powder",
+        "type": "Poison",
+        "category": "status"
+       }
+      ]
+     },
+     {
+      "dex": 286,
+      "name": "Torchic",
+      "level": 15,
+      "iv": 6,
+      "moves": [
+       {
+        "name": "Growl",
+        "type": "Normal",
+        "category": "status"
+       },
+       {
+        "name": "Ember",
+        "type": "Fire",
+        "power": 40,
+        "category": "special"
+       },
+       {
+        "name": "Sand Attack",
+        "type": "Ground",
+        "category": "status"
+       },
+       {
+        "name": "Peck",
+        "type": "Flying",
+        "power": 35,
+        "category": "physical"
+       }
+      ]
+     }
+    ],
+    "Torchic": [
+     {
+      "dex": 358,
+      "name": "Torkoal",
+      "level": 13,
+      "iv": 3,
+      "moves": [
+       {
+        "name": "Smog",
+        "type": "Poison",
+        "power": 30,
+        "category": "special"
+       },
+       {
+        "name": "Withdraw",
+        "type": "Water",
+        "category": "status"
+       },
+       {
+        "name": "Rapid Spin",
+        "type": "Normal",
+        "power": 50,
+        "category": "physical"
+       },
+       {
+        "name": "Fire Spin",
+        "type": "Fire",
+        "power": 35,
+        "category": "special"
+       }
+      ]
+     },
+     {
+      "dex": 289,
+      "name": "Mudkip",
+      "level": 15,
+      "iv": 6,
+      "moves": [
+       {
+        "name": "Growl",
+        "type": "Normal",
+        "category": "status"
+       },
+       {
+        "name": "Water Gun",
+        "type": "Water",
+        "power": 40,
+        "category": "special"
+       },
+       {
+        "name": "Mud-Slap",
+        "type": "Ground",
+        "power": 20,
+        "category": "special"
+       },
+       {
+        "name": "Foresight",
+        "type": "Normal",
+        "category": "status"
+       }
+      ]
+     }
+    ],
+    "Mudkip": [
+     {
+      "dex": 309,
+      "name": "Wingull",
+      "level": 13,
+      "iv": 3,
+      "moves": [
+       {
+        "name": "Water Gun",
+        "type": "Water",
+        "power": 40,
+        "category": "special"
+       },
+       {
+        "name": "Supersonic",
+        "type": "Normal",
+        "category": "status"
+       },
+       {
+        "name": "Wing Attack",
+        "type": "Flying",
+        "power": 60,
+        "category": "physical"
+       },
+       {
+        "name": "Mist",
+        "type": "Ice",
+        "category": "status"
+       }
+      ]
+     },
+     {
+      "dex": 283,
+      "name": "Treecko",
+      "level": 15,
+      "iv": 6,
+      "moves": [
+       {
+        "name": "Leer",
+        "type": "Normal",
+        "category": "status"
+       },
+       {
+        "name": "Leafage",
+        "type": "Grass",
+        "power": 40,
+        "category": "physical"
+       },
+       {
+        "name": "Quick Attack",
+        "type": "Normal",
+        "power": 40,
+        "category": "physical"
+       },
+       {
+        "name": "Mega Drain",
+        "type": "Grass",
+        "power": 50,
+        "category": "special"
+       }
+      ]
+     }
+    ]
+   },
+   "byStarterBrendan": {
+    "Treecko": [
+     {
+      "dex": 301,
+      "name": "Lotad",
+      "level": 13,
+      "iv": 3,
+      "moves": [
+       {
+        "name": "Growl",
+        "type": "Normal",
+        "category": "status"
+       },
+       {
+        "name": "Absorb",
+        "type": "Grass",
+        "power": 30,
+        "category": "special"
+       },
+       {
+        "name": "Bubble",
+        "type": "Water",
+        "power": 30,
+        "category": "special"
+       },
+       {
+        "name": "Natural Gift",
+        "type": "Normal",
+        "power": 1,
+        "category": "physical"
+       }
+      ]
+     },
+     {
+      "dex": 286,
+      "name": "Torchic",
+      "level": 15,
+      "iv": 6,
+      "moves": [
+       {
+        "name": "Growl",
+        "type": "Normal",
+        "category": "status"
+       },
+       {
+        "name": "Ember",
+        "type": "Fire",
+        "power": 40,
+        "category": "special"
+       },
+       {
+        "name": "Sand Attack",
+        "type": "Ground",
+        "category": "status"
+       },
+       {
+        "name": "Peck",
+        "type": "Flying",
+        "power": 35,
+        "category": "physical"
+       }
+      ]
+     }
+    ],
+    "Torchic": [
+     {
+      "dex": 254,
+      "name": "Slugma",
+      "level": 13,
+      "iv": 3,
+      "moves": [
+       {
+        "name": "Smog",
+        "type": "Poison",
+        "power": 30,
+        "category": "special"
+       },
+       {
+        "name": "Ember",
+        "type": "Fire",
+        "power": 40,
+        "category": "special"
+       },
+       {
+        "name": "Rock Throw",
+        "type": "Rock",
+        "power": 50,
+        "category": "physical"
+       },
+       {
+        "name": "Harden",
+        "type": "Normal",
+        "category": "status"
+       }
+      ]
+     },
+     {
+      "dex": 289,
+      "name": "Mudkip",
+      "level": 15,
+      "iv": 6,
+      "moves": [
+       {
+        "name": "Growl",
+        "type": "Normal",
+        "category": "status"
+       },
+       {
+        "name": "Water Gun",
+        "type": "Water",
+        "power": 40,
+        "category": "special"
+       },
+       {
+        "name": "Mud-Slap",
+        "type": "Ground",
+        "power": 20,
+        "category": "special"
+       },
+       {
+        "name": "Foresight",
+        "type": "Normal",
+        "category": "status"
+       }
+      ]
+     }
+    ],
+    "Mudkip": [
+     {
+      "dex": 309,
+      "name": "Wingull",
+      "level": 13,
+      "iv": 3,
+      "moves": [
+       {
+        "name": "Water Gun",
+        "type": "Water",
+        "power": 40,
+        "category": "special"
+       },
+       {
+        "name": "Supersonic",
+        "type": "Normal",
+        "category": "status"
+       },
+       {
+        "name": "Wing Attack",
+        "type": "Flying",
+        "power": 60,
+        "category": "physical"
+       },
+       {
+        "name": "Mist",
+        "type": "Ice",
+        "category": "status"
+       }
+      ]
+     },
+     {
+      "dex": 283,
+      "name": "Treecko",
+      "level": 15,
+      "iv": 6,
+      "moves": [
+       {
+        "name": "Leer",
+        "type": "Normal",
+        "category": "status"
+       },
+       {
+        "name": "Leafage",
+        "type": "Grass",
+        "power": 40,
+        "category": "physical"
+       },
+       {
+        "name": "Quick Attack",
+        "type": "Normal",
+        "power": 40,
+        "category": "physical"
+       },
+       {
+        "name": "Mega Drain",
+        "type": "Grass",
+        "power": 50,
+        "category": "special"
+       }
+      ]
+     }
+    ]
+   },
+   "id": "rival-rustboro",
+   "area": "Outside"
+  },
+  {
+   "class": "Youngster",
+   "name": "Josh",
+   "prize": 160,
+   "party": [
+    {
+     "dex": 336,
+     "name": "Aron",
+     "level": 10,
+     "iv": 12,
+     "moves": [
+      {
+       "name": "Tackle",
+       "type": "Normal",
+       "power": 40,
+       "category": "physical"
+      },
+      {
+       "name": "Magnitude",
+       "type": "Ground",
+       "power": 1,
+       "category": "physical"
+      }
+     ]
+    }
+   ],
+   "id": "josh",
+   "area": "Gym"
+  },
+  {
+   "class": "Youngster",
+   "name": "Tommy",
+   "prize": 128,
+   "party": [
+    {
+     "dex": 81,
+     "name": "Geodude",
+     "level": 8,
+     "iv": 13,
+     "moves": [
+      {
+       "name": "Tackle",
+       "type": "Normal",
+       "power": 40,
+       "category": "physical"
+      },
+      {
+       "name": "Defense Curl",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Mud Sport",
+       "type": "Ground",
+       "category": "status"
+      },
+      {
+       "name": "Rock Polish",
+       "type": "Rock",
+       "category": "status"
+      }
+     ]
+    },
+    {
+     "dex": 216,
+     "name": "Bonsly",
+     "level": 8,
+     "iv": 14,
+     "moves": [
+      {
+       "name": "Fake Tears",
+       "type": "Dark",
+       "category": "status"
+      },
+      {
+       "name": "Copycat",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Flail",
+       "type": "Normal",
+       "power": 1,
+       "category": "physical"
+      },
+      {
+       "name": "Low Kick",
+       "type": "Fighting",
+       "power": 1,
+       "category": "physical"
+      }
+     ]
+    }
+   ],
+   "id": "tommy",
+   "area": "Gym"
+  },
+  {
+   "class": "Hiker",
+   "name": "Marc",
+   "prize": 320,
+   "party": [
+    {
+     "dex": 81,
+     "name": "Geodude",
+     "level": 8,
+     "iv": 14,
+     "moves": [
+      {
+       "name": "Tackle",
+       "type": "Normal",
+       "power": 40,
+       "category": "physical"
+      },
+      {
+       "name": "Defense Curl",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Mud Sport",
+       "type": "Ground",
+       "category": "status"
+      },
+      {
+       "name": "Rock Polish",
+       "type": "Rock",
+       "category": "status"
+      }
+     ]
+    },
+    {
+     "dex": 336,
+     "name": "Aron",
+     "level": 8,
+     "iv": 15,
+     "moves": [
+      {
+       "name": "Tackle",
+       "type": "Normal",
+       "power": 40,
+       "category": "physical"
+      },
+      {
+       "name": "Harden",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Mud-Slap",
+       "type": "Ground",
+       "power": 20,
+       "category": "special"
+      },
+      {
+       "name": "Headbutt",
+       "type": "Normal",
+       "power": 70,
+       "category": "physical"
+      }
+     ]
+    }
+   ],
+   "id": "marc",
+   "area": "Gym"
+  },
+  {
+   "class": "Leader",
+   "name": "Roxanne",
+   "prize": 1500,
+   "party": [
+    {
+     "dex": 381,
+     "name": "Anorith",
+     "level": 12,
+     "iv": 12,
+     "moves": [
+      {
+       "name": "Tackle",
+       "type": "Normal",
+       "power": 40,
+       "category": "physical"
+      },
+      {
+       "name": "Harden",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Bubble",
+       "type": "Water",
+       "power": 30,
+       "category": "special"
+      },
+      {
+       "name": "Smack Down",
+       "type": "Rock",
+       "power": 50,
+       "category": "physical"
+      }
+     ]
+    },
+    {
+     "dex": 379,
+     "name": "Lileep",
+     "level": 12,
+     "iv": 12,
+     "moves": [
+      {
+       "name": "Acid",
+       "type": "Poison",
+       "power": 40,
+       "category": "special"
+      },
+      {
+       "name": "Ingrain",
+       "type": "Grass",
+       "category": "status"
+      },
+      {
+       "name": "Absorb",
+       "type": "Grass",
+       "power": 30,
+       "category": "special"
+      },
+      {
+       "name": "Rock Tomb",
+       "type": "Rock",
+       "power": 60,
+       "category": "physical"
+      }
+     ]
+    },
+    {
+     "dex": 330,
+     "name": "Nosepass",
+     "level": 15,
+     "iv": 24,
+     "moves": [
+      {
+       "name": "Block",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Harden",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Tackle",
+       "type": "Normal",
+       "power": 40,
+       "category": "physical"
+      },
+      {
+       "name": "Rock Tomb",
+       "type": "Rock",
+       "power": 60,
+       "category": "physical"
+      }
+     ],
+     "item": "Oran Berry"
+    }
+   ],
+   "uses": [
+    "Potion ×2"
+   ],
+   "rewards": [
+    "Stone Badge",
+    "TM39"
+   ],
+   "id": "roxanne",
+   "area": "Gym"
+  }
+ ],
+ "verified": true,
+ "sources": [
+  "https://mrwalkthroughs.com/pokemon-emerald-seaglass/"
+ ]
+}

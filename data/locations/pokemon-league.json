@@ -1,0 +1,884 @@
+{
+ "id": "pokemon-league",
+ "name": "Pokémon League",
+ "encounters": [],
+ "items": [],
+ "gifts": [],
+ "trainers": [
+  {
+   "class": "Champion",
+   "name": "Wallace",
+   "prize": 11600,
+   "party": [
+    {
+     "dex": 355,
+     "name": "Wailord",
+     "level": 57,
+     "iv": 31,
+     "moves": [
+      {
+       "name": "Rain Dance",
+       "type": "Water",
+       "category": "status"
+      },
+      {
+       "name": "Water Spout",
+       "type": "Water",
+       "power": 150,
+       "category": "special"
+      },
+      {
+       "name": "Double-Edge",
+       "type": "Normal",
+       "power": 120,
+       "category": "physical"
+      },
+      {
+       "name": "Blizzard",
+       "type": "Ice",
+       "power": 110,
+       "category": "special"
+      }
+     ]
+    },
+    {
+     "dex": 80,
+     "name": "Tentacruel",
+     "level": 55,
+     "iv": 31,
+     "moves": [
+      {
+       "name": "Toxic",
+       "type": "Poison",
+       "category": "status"
+      },
+      {
+       "name": "Hydro Pump",
+       "type": "Water",
+       "power": 110,
+       "category": "special"
+      },
+      {
+       "name": "Sludge Bomb",
+       "type": "Poison",
+       "power": 90,
+       "category": "special"
+      },
+      {
+       "name": "Ice Beam",
+       "type": "Ice",
+       "power": 90,
+       "category": "special"
+      }
+     ]
+    },
+    {
+     "dex": 303,
+     "name": "Ludicolo",
+     "level": 56,
+     "iv": 31,
+     "moves": [
+      {
+       "name": "Giga Drain",
+       "type": "Grass",
+       "power": 75,
+       "category": "special"
+      },
+      {
+       "name": "Surf",
+       "type": "Water",
+       "power": 90,
+       "category": "special"
+      },
+      {
+       "name": "Leech Seed",
+       "type": "Grass",
+       "category": "status"
+      },
+      {
+       "name": "Double Team",
+       "type": "Normal",
+       "category": "status"
+      }
+     ]
+    },
+    {
+     "dex": 374,
+     "name": "Whiscash",
+     "level": 56,
+     "iv": 31,
+     "moves": [
+      {
+       "name": "Earthquake",
+       "type": "Ground",
+       "power": 100,
+       "category": "physical"
+      },
+      {
+       "name": "Surf",
+       "type": "Water",
+       "power": 90,
+       "category": "special"
+      },
+      {
+       "name": "Amnesia",
+       "type": "Psychic",
+       "category": "status"
+      },
+      {
+       "name": "Hyper Beam",
+       "type": "Normal",
+       "power": 150,
+       "category": "special"
+      }
+     ]
+    },
+    {
+     "dex": 156,
+     "name": "Gyarados",
+     "level": 56,
+     "iv": 31,
+     "moves": [
+      {
+       "name": "Dragon Dance",
+       "type": "Dragon",
+       "category": "status"
+      },
+      {
+       "name": "Earthquake",
+       "type": "Ground",
+       "power": 100,
+       "category": "physical"
+      },
+      {
+       "name": "Hyper Beam",
+       "type": "Normal",
+       "power": 150,
+       "category": "special"
+      },
+      {
+       "name": "Surf",
+       "type": "Water",
+       "power": 90,
+       "category": "special"
+      }
+     ]
+    },
+    {
+     "dex": 384,
+     "name": "Milotic",
+     "level": 58,
+     "iv": 31,
+     "moves": [
+      {
+       "name": "Recover",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Surf",
+       "type": "Water",
+       "power": 90,
+       "category": "special"
+      },
+      {
+       "name": "Ice Beam",
+       "type": "Ice",
+       "power": 90,
+       "category": "special"
+      },
+      {
+       "name": "Toxic",
+       "type": "Poison",
+       "category": "status"
+      }
+     ],
+     "item": "Sitrus Berry"
+    }
+   ],
+   "uses": [
+    "Full Restore ×4"
+   ],
+   "id": "wallace",
+   "area": "Champion's Room"
+  },
+  {
+   "class": "Elite Four",
+   "name": "Drake",
+   "prize": 5500,
+   "party": [
+    {
+     "dex": 135,
+     "name": "Kingdra",
+     "level": 52,
+     "iv": 30,
+     "moves": [
+      {
+       "name": "Hydro Pump",
+       "type": "Water",
+       "power": 110,
+       "category": "special"
+      },
+      {
+       "name": "Dragon Pulse",
+       "type": "Dragon",
+       "power": 85,
+       "category": "special"
+      },
+      {
+       "name": "Ice Beam",
+       "type": "Ice",
+       "power": 90,
+       "category": "special"
+      },
+      {
+       "name": "Dragon Dance",
+       "type": "Dragon",
+       "category": "status"
+      }
+     ]
+    },
+    {
+     "dex": 368,
+     "name": "Altaria",
+     "level": 54,
+     "iv": 30,
+     "moves": [
+      {
+       "name": "Dazzling Gleam",
+       "type": "Fairy",
+       "power": 80,
+       "category": "special"
+      },
+      {
+       "name": "Dragon Breath",
+       "type": "Dragon",
+       "power": 60,
+       "category": "special"
+      },
+      {
+       "name": "Dragon Dance",
+       "type": "Dragon",
+       "category": "status"
+      },
+      {
+       "name": "Aerial Ace",
+       "type": "Flying",
+       "power": 60,
+       "category": "physical"
+      }
+     ]
+    },
+    {
+     "dex": 105,
+     "name": "Steelix",
+     "level": 53,
+     "iv": 30,
+     "moves": [
+      {
+       "name": "Earthquake",
+       "type": "Ground",
+       "power": 100,
+       "category": "physical"
+      },
+      {
+       "name": "Dragon Tail",
+       "type": "Dragon",
+       "power": 60,
+       "category": "physical"
+      },
+      {
+       "name": "Crunch",
+       "type": "Dark",
+       "power": 80,
+       "category": "physical"
+      },
+      {
+       "name": "Iron Defense",
+       "type": "Steel",
+       "category": "status"
+      }
+     ]
+    },
+    {
+     "dex": 364,
+     "name": "Flygon",
+     "level": 53,
+     "iv": 30,
+     "moves": [
+      {
+       "name": "Flamethrower",
+       "type": "Fire",
+       "power": 90,
+       "category": "special"
+      },
+      {
+       "name": "Crunch",
+       "type": "Dark",
+       "power": 80,
+       "category": "physical"
+      },
+      {
+       "name": "Dragon Breath",
+       "type": "Dragon",
+       "power": 60,
+       "category": "special"
+      },
+      {
+       "name": "Earthquake",
+       "type": "Ground",
+       "power": 100,
+       "category": "physical"
+      }
+     ]
+    },
+    {
+     "dex": 409,
+     "name": "Salamence",
+     "level": 55,
+     "iv": 31,
+     "moves": [
+      {
+       "name": "Flamethrower",
+       "type": "Fire",
+       "power": 90,
+       "category": "special"
+      },
+      {
+       "name": "Dragon Claw",
+       "type": "Dragon",
+       "power": 80,
+       "category": "physical"
+      },
+      {
+       "name": "Rock Slide",
+       "type": "Rock",
+       "power": 75,
+       "category": "physical"
+      },
+      {
+       "name": "Crunch",
+       "type": "Dark",
+       "power": 80,
+       "category": "physical"
+      }
+     ],
+     "item": "Sitrus Berry"
+    }
+   ],
+   "uses": [
+    "Full Restore ×2"
+   ],
+   "id": "drake",
+   "area": "Drake's Room"
+  },
+  {
+   "class": "Elite Four",
+   "name": "Glacia",
+   "prize": 5300,
+   "party": [
+    {
+     "dex": 96,
+     "name": "Dewgong",
+     "level": 50,
+     "iv": 30,
+     "moves": [
+      {
+       "name": "Surf",
+       "type": "Water",
+       "power": 90,
+       "category": "special"
+      },
+      {
+       "name": "Signal Beam",
+       "type": "Bug",
+       "power": 75,
+       "category": "special"
+      },
+      {
+       "name": "Hail",
+       "type": "Ice",
+       "category": "status"
+      },
+      {
+       "name": "Ice Beam",
+       "type": "Ice",
+       "power": 90,
+       "category": "special"
+      }
+     ]
+    },
+    {
+     "dex": 397,
+     "name": "Glalie",
+     "level": 50,
+     "iv": 30,
+     "moves": [
+      {
+       "name": "Avalanche",
+       "type": "Ice",
+       "power": 60,
+       "category": "physical"
+      },
+      {
+       "name": "Crunch",
+       "type": "Dark",
+       "power": 80,
+       "category": "physical"
+      },
+      {
+       "name": "Rock Slide",
+       "type": "Rock",
+       "power": 75,
+       "category": "physical"
+      },
+      {
+       "name": "Ice Beam",
+       "type": "Ice",
+       "power": 90,
+       "category": "special"
+      }
+     ]
+    },
+    {
+     "dex": 166,
+     "name": "Glaceon",
+     "level": 52,
+     "iv": 30,
+     "moves": [
+      {
+       "name": "Attract",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Chilling Water",
+       "type": "Water",
+       "power": 50,
+       "category": "special"
+      },
+      {
+       "name": "Hail",
+       "type": "Ice",
+       "category": "status"
+      },
+      {
+       "name": "Blizzard",
+       "type": "Ice",
+       "power": 110,
+       "category": "special"
+      }
+     ]
+    },
+    {
+     "dex": 100,
+     "name": "Cloyster",
+     "level": 52,
+     "iv": 30,
+     "moves": [
+      {
+       "name": "Spike Cannon",
+       "type": "Steel",
+       "power": 20,
+       "category": "physical"
+      },
+      {
+       "name": "Icicle Crash",
+       "type": "Ice",
+       "power": 85,
+       "category": "physical"
+      },
+      {
+       "name": "Hail",
+       "type": "Ice",
+       "category": "status"
+      },
+      {
+       "name": "Hydro Pump",
+       "type": "Water",
+       "power": 110,
+       "category": "special"
+      }
+     ]
+    },
+    {
+     "dex": 401,
+     "name": "Walrein",
+     "level": 53,
+     "iv": 31,
+     "moves": [
+      {
+       "name": "Surf",
+       "type": "Water",
+       "power": 90,
+       "category": "special"
+      },
+      {
+       "name": "Body Slam",
+       "type": "Normal",
+       "power": 85,
+       "category": "physical"
+      },
+      {
+       "name": "Ice Beam",
+       "type": "Ice",
+       "power": 90,
+       "category": "special"
+      },
+      {
+       "name": "Sheer Cold",
+       "type": "Ice",
+       "power": 1,
+       "category": "special"
+      }
+     ],
+     "item": "Sitrus Berry"
+    }
+   ],
+   "uses": [
+    "Full Restore ×2"
+   ],
+   "id": "glacia",
+   "area": "Glacia's Room"
+  },
+  {
+   "class": "Elite Four",
+   "name": "Phoebe",
+   "prize": 5100,
+   "party": [
+    {
+     "dex": 390,
+     "name": "Dusclops",
+     "level": 48,
+     "iv": 30,
+     "moves": [
+      {
+       "name": "Shadow Punch",
+       "type": "Ghost",
+       "power": 60,
+       "category": "physical"
+      },
+      {
+       "name": "Confuse Ray",
+       "type": "Ghost",
+       "category": "status"
+      },
+      {
+       "name": "Curse",
+       "type": "Ghost",
+       "category": "status"
+      },
+      {
+       "name": "Protect",
+       "type": "Normal",
+       "category": "status"
+      }
+     ]
+    },
+    {
+     "dex": 398,
+     "name": "Froslass",
+     "level": 49,
+     "iv": 30,
+     "moves": [
+      {
+       "name": "Shadow Ball",
+       "type": "Ghost",
+       "power": 80,
+       "category": "special"
+      },
+      {
+       "name": "Ice Beam",
+       "type": "Ice",
+       "power": 90,
+       "category": "special"
+      },
+      {
+       "name": "Will-O-Wisp",
+       "type": "Fire",
+       "category": "status"
+      },
+      {
+       "name": "Infernal Parade",
+       "type": "Ghost",
+       "power": 65,
+       "category": "special"
+      }
+     ]
+    },
+    {
+     "dex": 232,
+     "name": "Mismagius",
+     "level": 50,
+     "iv": 30,
+     "moves": [
+      {
+       "name": "Shadow Ball",
+       "type": "Ghost",
+       "power": 80,
+       "category": "special"
+      },
+      {
+       "name": "Moonblast",
+       "type": "Fairy",
+       "power": 95,
+       "category": "special"
+      },
+      {
+       "name": "Night Shade",
+       "type": "Ghost",
+       "power": 1,
+       "category": "special"
+      },
+      {
+       "name": "Feint Attack",
+       "type": "Dark",
+       "power": 60,
+       "category": "physical"
+      }
+     ]
+    },
+    {
+     "dex": 388,
+     "name": "Banette",
+     "level": 49,
+     "iv": 30,
+     "moves": [
+      {
+       "name": "Shadow Ball",
+       "type": "Ghost",
+       "power": 80,
+       "category": "special"
+      },
+      {
+       "name": "Psychic",
+       "type": "Psychic",
+       "power": 90,
+       "category": "special"
+      },
+      {
+       "name": "Thunderbolt",
+       "type": "Electric",
+       "power": 90,
+       "category": "special"
+      },
+      {
+       "name": "Facade",
+       "type": "Normal",
+       "power": 70,
+       "category": "physical"
+      }
+     ]
+    },
+    {
+     "dex": 391,
+     "name": "Dusknoir",
+     "level": 51,
+     "iv": 31,
+     "moves": [
+      {
+       "name": "Raging Fury",
+       "type": "Fire",
+       "power": 100,
+       "category": "physical"
+      },
+      {
+       "name": "Ice Beam",
+       "type": "Ice",
+       "power": 90,
+       "category": "special"
+      },
+      {
+       "name": "Rock Slide",
+       "type": "Rock",
+       "power": 75,
+       "category": "physical"
+      },
+      {
+       "name": "Earthquake",
+       "type": "Ground",
+       "power": 100,
+       "category": "physical"
+      }
+     ],
+     "item": "Sitrus Berry"
+    }
+   ],
+   "uses": [
+    "Full Restore ×2"
+   ],
+   "id": "phoebe",
+   "area": "Phoebe's Room"
+  },
+  {
+   "class": "Elite Four",
+   "name": "Sidney",
+   "prize": 4900,
+   "party": [
+    {
+     "dex": 293,
+     "name": "Mightyena",
+     "level": 46,
+     "iv": 30,
+     "moves": [
+      {
+       "name": "Roar",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Double-Edge",
+       "type": "Normal",
+       "power": 120,
+       "category": "physical"
+      },
+      {
+       "name": "Fire Fang",
+       "type": "Fire",
+       "power": 65,
+       "category": "physical"
+      },
+      {
+       "name": "Crunch",
+       "type": "Dark",
+       "power": 80,
+       "category": "physical"
+      }
+     ]
+    },
+    {
+     "dex": 230,
+     "name": "Honchkrow",
+     "level": 48,
+     "iv": 30,
+     "moves": [
+      {
+       "name": "Torment",
+       "type": "Dark",
+       "category": "status"
+      },
+      {
+       "name": "Double Team",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Night Slash",
+       "type": "Dark",
+       "power": 70,
+       "category": "physical"
+      },
+      {
+       "name": "Dual Wingbeat",
+       "type": "Flying",
+       "power": 40,
+       "category": "physical"
+      }
+     ]
+    },
+    {
+     "dex": 366,
+     "name": "Cacturne",
+     "level": 46,
+     "iv": 30,
+     "moves": [
+      {
+       "name": "Leech Seed",
+       "type": "Grass",
+       "category": "status"
+      },
+      {
+       "name": "Feint Attack",
+       "type": "Dark",
+       "power": 60,
+       "category": "physical"
+      },
+      {
+       "name": "Needle Arm",
+       "type": "Grass",
+       "power": 60,
+       "category": "physical"
+      },
+      {
+       "name": "Cotton Spore",
+       "type": "Grass",
+       "category": "status"
+      }
+     ]
+    },
+    {
+     "dex": 376,
+     "name": "Crawdaunt",
+     "level": 48,
+     "iv": 30,
+     "moves": [
+      {
+       "name": "Surf",
+       "type": "Water",
+       "power": 90,
+       "category": "special"
+      },
+      {
+       "name": "Swords Dance",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Strength",
+       "type": "Normal",
+       "power": 80,
+       "category": "physical"
+      },
+      {
+       "name": "Facade",
+       "type": "Normal",
+       "power": 70,
+       "category": "physical"
+      }
+     ]
+    },
+    {
+     "dex": 395,
+     "name": "Absol",
+     "level": 49,
+     "iv": 31,
+     "moves": [
+      {
+       "name": "Aerial Ace",
+       "type": "Flying",
+       "power": 60,
+       "category": "physical"
+      },
+      {
+       "name": "Rock Slide",
+       "type": "Rock",
+       "power": 75,
+       "category": "physical"
+      },
+      {
+       "name": "Swords Dance",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Slash",
+       "type": "Normal",
+       "power": 70,
+       "category": "physical"
+      }
+     ],
+     "item": "Sitrus Berry"
+    }
+   ],
+   "uses": [
+    "Full Restore ×2"
+   ],
+   "id": "sidney",
+   "area": "Sidney's Room"
+  }
+ ],
+ "verified": true,
+ "sources": [
+  "https://mrwalkthroughs.com/pokemon-emerald-seaglass/"
+ ]
+}

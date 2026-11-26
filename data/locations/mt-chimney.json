@@ -1,0 +1,534 @@
+{
+ "id": "mt-chimney",
+ "name": "Mt. Chimney",
+ "encounters": [],
+ "items": [],
+ "gifts": [
+  {
+   "id": "item-outside-lava-cookie",
+   "name": "Lava Cookie",
+   "from": "Old woman",
+   "where": "Outside"
+  },
+  {
+   "id": "item-outside-meteorite",
+   "name": "Meteorite",
+   "from": "The machine at the summit (after Maxie leaves)",
+   "where": "Outside"
+  }
+ ],
+ "trainers": [
+  {
+   "class": "Beauty",
+   "name": "Shirley",
+   "prize": 1680,
+   "party": [
+    {
+     "dex": 39,
+     "name": "Vulpix",
+     "level": 21,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Confuse Ray",
+       "type": "Ghost",
+       "category": "status"
+      },
+      {
+       "name": "Fire Spin",
+       "type": "Fire",
+       "power": 35,
+       "category": "special"
+      },
+      {
+       "name": "Disarming Voice",
+       "type": "Fairy",
+       "power": 40,
+       "category": "special"
+      },
+      {
+       "name": "Will-O-Wisp",
+       "type": "Fire",
+       "category": "status"
+      }
+     ]
+    }
+   ],
+   "id": "shirley",
+   "stage": "lavaridge-town",
+   "later": true,
+   "reach": "After Lavaridge Town"
+  },
+  {
+   "class": "Expert",
+   "name": "Shelby",
+   "prize": 840,
+   "party": [
+    {
+     "dex": 61,
+     "name": "Mankey",
+     "level": 21,
+     "iv": 24,
+     "moves": [
+      {
+       "name": "Karate Chop",
+       "type": "Fighting",
+       "power": 50,
+       "category": "physical"
+      },
+      {
+       "name": "Pursuit",
+       "type": "Dark",
+       "power": 40,
+       "category": "physical"
+      },
+      {
+       "name": "Seismic Toss",
+       "type": "Fighting",
+       "power": 1,
+       "category": "physical"
+      },
+      {
+       "name": "Swagger",
+       "type": "Normal",
+       "category": "status"
+      }
+     ]
+    },
+    {
+     "dex": 328,
+     "name": "Makuhita",
+     "level": 21,
+     "iv": 24,
+     "moves": [
+      {
+       "name": "Fake Out",
+       "type": "Normal",
+       "power": 40,
+       "category": "physical"
+      },
+      {
+       "name": "Force Palm",
+       "type": "Fighting",
+       "power": 60,
+       "category": "physical"
+      },
+      {
+       "name": "Whirlwind",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Knock Off",
+       "type": "Dark",
+       "power": 65,
+       "category": "physical"
+      }
+     ]
+    }
+   ],
+   "id": "shelby",
+   "stage": "lavaridge-town",
+   "later": true,
+   "reach": "After Lavaridge Town"
+  },
+  {
+   "class": "Team Magma",
+   "name": "Grunt",
+   "prize": 400,
+   "party": [
+    {
+     "dex": 240,
+     "name": "Dunsparce",
+     "level": 20,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Screech",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Mud-Slap",
+       "type": "Ground",
+       "power": 20,
+       "category": "special"
+      },
+      {
+       "name": "Yawn",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Ancient Power",
+       "type": "Rock",
+       "power": 60,
+       "category": "special"
+      }
+     ]
+    }
+   ],
+   "id": "grunt-mt-chimney"
+  },
+  {
+   "class": "Beauty",
+   "name": "Sheila",
+   "prize": 1680,
+   "party": [
+    {
+     "dex": 317,
+     "name": "Shroomish",
+     "level": 21,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Leech Seed",
+       "type": "Grass",
+       "category": "status"
+      },
+      {
+       "name": "Mega Drain",
+       "type": "Grass",
+       "power": 50,
+       "category": "special"
+      },
+      {
+       "name": "Headbutt",
+       "type": "Normal",
+       "power": 70,
+       "category": "physical"
+      },
+      {
+       "name": "Poison Powder",
+       "type": "Poison",
+       "category": "status"
+      }
+     ]
+    }
+   ],
+   "id": "sheila",
+   "stage": "lavaridge-town",
+   "later": true,
+   "reach": "After Lavaridge Town"
+  },
+  {
+   "class": "Magma Admin",
+   "name": "Tabitha",
+   "prize": 880,
+   "party": [
+    {
+     "dex": 356,
+     "name": "Numel",
+     "level": 18,
+     "iv": 6,
+     "moves": [
+      {
+       "name": "Focus Energy",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Magnitude",
+       "type": "Ground",
+       "power": 1,
+       "category": "physical"
+      },
+      {
+       "name": "Flame Burst",
+       "type": "Fire",
+       "power": 70,
+       "category": "special"
+      },
+      {
+       "name": "Headbutt",
+       "type": "Normal",
+       "power": 70,
+       "category": "physical"
+      }
+     ]
+    },
+    {
+     "dex": 292,
+     "name": "Poochyena",
+     "level": 20,
+     "iv": 6,
+     "moves": [
+      {
+       "name": "Bite",
+       "type": "Dark",
+       "power": 60,
+       "category": "physical"
+      },
+      {
+       "name": "Odor Sleuth",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Roar",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Swagger",
+       "type": "Normal",
+       "category": "status"
+      }
+     ]
+    },
+    {
+     "dex": 240,
+     "name": "Dunsparce",
+     "level": 22,
+     "iv": 6,
+     "moves": [
+      {
+       "name": "Mud-Slap",
+       "type": "Ground",
+       "power": 20,
+       "category": "special"
+      },
+      {
+       "name": "Yawn",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Ancient Power",
+       "type": "Rock",
+       "power": 60,
+       "category": "special"
+      },
+      {
+       "name": "Body Slam",
+       "type": "Normal",
+       "power": 85,
+       "category": "physical"
+      }
+     ]
+    },
+    {
+     "dex": 266,
+     "name": "Houndour",
+     "level": 22,
+     "iv": 6,
+     "moves": [
+      {
+       "name": "Roar",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Bite",
+       "type": "Dark",
+       "power": 60,
+       "category": "physical"
+      },
+      {
+       "name": "Pounce",
+       "type": "Bug",
+       "power": 50,
+       "category": "physical"
+      },
+      {
+       "name": "Odor Sleuth",
+       "type": "Normal",
+       "category": "status"
+      }
+     ]
+    }
+   ],
+   "id": "tabitha-mt-chimney"
+  },
+  {
+   "class": "Hiker",
+   "name": "Sawyer",
+   "prize": 840,
+   "party": [
+    {
+     "dex": 104,
+     "name": "Onix",
+     "level": 21,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Bite",
+       "type": "Dark",
+       "power": 60,
+       "category": "physical"
+      },
+      {
+       "name": "Stealth Rock",
+       "type": "Rock",
+       "category": "status"
+      },
+      {
+       "name": "Rock Polish",
+       "type": "Rock",
+       "category": "status"
+      },
+      {
+       "name": "Gyro Ball",
+       "type": "Steel",
+       "power": 1,
+       "category": "physical"
+      }
+     ]
+    }
+   ],
+   "id": "sawyer",
+   "stage": "lavaridge-town",
+   "later": true,
+   "reach": "After Lavaridge Town"
+  },
+  {
+   "class": "Magma Leader",
+   "name": "Maxie",
+   "prize": 2000,
+   "party": [
+    {
+     "dex": 293,
+     "name": "Mightyena",
+     "level": 24,
+     "iv": 18,
+     "moves": [
+      {
+       "name": "Odor Sleuth",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Roar",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Swagger",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Dig",
+       "type": "Ground",
+       "power": 80,
+       "category": "physical"
+      }
+     ]
+    },
+    {
+     "dex": 242,
+     "name": "Gligar",
+     "level": 24,
+     "iv": 18,
+     "moves": [
+      {
+       "name": "Quick Attack",
+       "type": "Normal",
+       "power": 40,
+       "category": "physical"
+      },
+      {
+       "name": "Fury Cutter",
+       "type": "Bug",
+       "power": 40,
+       "category": "physical"
+      },
+      {
+       "name": "Feint Attack",
+       "type": "Dark",
+       "power": 60,
+       "category": "physical"
+      },
+      {
+       "name": "Acrobatics",
+       "type": "Flying",
+       "power": 55,
+       "category": "physical"
+      }
+     ]
+    },
+    {
+     "dex": 357,
+     "name": "Camerupt",
+     "level": 25,
+     "iv": 18,
+     "moves": [
+      {
+       "name": "Flame Burst",
+       "type": "Fire",
+       "power": 70,
+       "category": "special"
+      },
+      {
+       "name": "Headbutt",
+       "type": "Normal",
+       "power": 70,
+       "category": "physical"
+      },
+      {
+       "name": "Amnesia",
+       "type": "Psychic",
+       "category": "status"
+      },
+      {
+       "name": "Lava Plume",
+       "type": "Fire",
+       "power": 80,
+       "category": "special"
+      }
+     ]
+    }
+   ],
+   "uses": [
+    "Super Potion ×2"
+   ],
+   "id": "maxie-mt-chimney"
+  },
+  {
+   "class": "Beauty",
+   "name": "Melissa",
+   "prize": 1680,
+   "party": [
+    {
+     "dex": 203,
+     "name": "Chinchou",
+     "level": 21,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Electro Ball",
+       "type": "Electric",
+       "power": 1,
+       "category": "special"
+      },
+      {
+       "name": "Water Gun",
+       "type": "Water",
+       "power": 40,
+       "category": "special"
+      },
+      {
+       "name": "Confuse Ray",
+       "type": "Ghost",
+       "category": "status"
+      },
+      {
+       "name": "Bubble Beam",
+       "type": "Water",
+       "power": 65,
+       "category": "special"
+      }
+     ]
+    }
+   ],
+   "id": "melissa",
+   "stage": "lavaridge-town",
+   "later": true,
+   "reach": "After Lavaridge Town"
+  }
+ ],
+ "verified": true,
+ "sources": [
+  "https://mrwalkthroughs.com/pokemon-emerald-seaglass/"
+ ]
+}

@@ -1,0 +1,987 @@
+{
+ "id": "meteor-falls",
+ "name": "Meteor Falls",
+ "encounters": [
+  {
+   "dex": 30,
+   "name": "Nidoran♀",
+   "method": "grass",
+   "levels": "15-17",
+   "rate": "20%",
+   "area": "1F 1R"
+  },
+  {
+   "dex": 33,
+   "name": "Nidoran♂",
+   "method": "grass",
+   "levels": "15-17",
+   "rate": "20%",
+   "area": "1F 1R"
+  },
+  {
+   "dex": 44,
+   "name": "Zubat",
+   "method": "grass",
+   "levels": "16",
+   "rate": "20%",
+   "area": "1F 1R"
+  },
+  {
+   "dex": 31,
+   "name": "Nidorina",
+   "method": "grass",
+   "levels": "16-18",
+   "rate": "10%",
+   "area": "1F 1R"
+  },
+  {
+   "dex": 34,
+   "name": "Nidorino",
+   "method": "grass",
+   "levels": "16-18",
+   "rate": "10%",
+   "area": "1F 1R"
+  },
+  {
+   "dex": 372,
+   "name": "Solrock",
+   "method": "grass",
+   "levels": "17-20",
+   "rate": "10%",
+   "area": "1F 1R"
+  },
+  {
+   "dex": 371,
+   "name": "Lunatone",
+   "method": "grass",
+   "levels": "19-20",
+   "rate": "8%",
+   "area": "1F 1R"
+  },
+  {
+   "dex": 407,
+   "name": "Bagon",
+   "method": "grass",
+   "levels": "19-20",
+   "rate": "2%",
+   "area": "1F 1R"
+  },
+  {
+   "dex": 44,
+   "name": "Zubat",
+   "method": "surf",
+   "levels": "5-35",
+   "rate": "90%",
+   "area": "1F 1R"
+  },
+  {
+   "dex": 373,
+   "name": "Barboach",
+   "method": "surf",
+   "levels": "5-35",
+   "rate": "10%",
+   "area": "1F 1R"
+  },
+  {
+   "dex": 155,
+   "name": "Magikarp",
+   "method": "old-rod",
+   "levels": "5-10",
+   "rate": "70%",
+   "area": "1F 1R"
+  },
+  {
+   "dex": 136,
+   "name": "Goldeen",
+   "method": "old-rod",
+   "levels": "5-10",
+   "rate": "30%",
+   "area": "1F 1R"
+  },
+  {
+   "dex": 155,
+   "name": "Magikarp",
+   "method": "good-rod",
+   "levels": "10-30",
+   "rate": "60%",
+   "area": "1F 1R"
+  },
+  {
+   "dex": 181,
+   "name": "Dratini",
+   "method": "good-rod",
+   "levels": "10-30",
+   "rate": "20%",
+   "area": "1F 1R"
+  },
+  {
+   "dex": 373,
+   "name": "Barboach",
+   "method": "good-rod",
+   "levels": "10-30",
+   "rate": "20%",
+   "area": "1F 1R"
+  },
+  {
+   "dex": 181,
+   "name": "Dratini",
+   "method": "super-rod",
+   "levels": "25-35",
+   "rate": "80%",
+   "area": "1F 1R"
+  },
+  {
+   "dex": 373,
+   "name": "Barboach",
+   "method": "super-rod",
+   "levels": "20-45",
+   "rate": "20%",
+   "area": "1F 1R"
+  },
+  {
+   "dex": 45,
+   "name": "Golbat",
+   "method": "grass",
+   "levels": "33-40",
+   "rate": "63%",
+   "area": "1F 2R",
+   "after": "ever-grande-city",
+   "notes": "Needs Waterfall."
+  },
+  {
+   "dex": 37,
+   "name": "Clefairy",
+   "method": "grass",
+   "levels": "37-39",
+   "rate": "15%",
+   "area": "1F 2R",
+   "after": "ever-grande-city",
+   "notes": "Needs Waterfall."
+  },
+  {
+   "dex": 371,
+   "name": "Lunatone",
+   "method": "grass",
+   "levels": "33",
+   "rate": "10%",
+   "area": "1F 2R",
+   "after": "ever-grande-city",
+   "notes": "Needs Waterfall."
+  },
+  {
+   "dex": 372,
+   "name": "Solrock",
+   "method": "grass",
+   "levels": "35",
+   "rate": "10%",
+   "area": "1F 2R",
+   "after": "ever-grande-city",
+   "notes": "Needs Waterfall."
+  },
+  {
+   "dex": 407,
+   "name": "Bagon",
+   "method": "grass",
+   "levels": "38-40",
+   "rate": "2%",
+   "area": "1F 2R",
+   "after": "ever-grande-city",
+   "notes": "Needs Waterfall."
+  },
+  {
+   "dex": 45,
+   "name": "Golbat",
+   "method": "surf",
+   "levels": "30-35",
+   "rate": "90%",
+   "area": "1F 2R",
+   "after": "ever-grande-city",
+   "notes": "Needs Waterfall."
+  },
+  {
+   "dex": 372,
+   "name": "Solrock",
+   "method": "surf",
+   "levels": "5-35",
+   "rate": "10%",
+   "area": "1F 2R",
+   "after": "ever-grande-city",
+   "notes": "Needs Waterfall."
+  },
+  {
+   "dex": 155,
+   "name": "Magikarp",
+   "method": "old-rod",
+   "levels": "5-10",
+   "rate": "70%",
+   "area": "1F 2R",
+   "after": "ever-grande-city",
+   "notes": "Needs Waterfall."
+  },
+  {
+   "dex": 136,
+   "name": "Goldeen",
+   "method": "old-rod",
+   "levels": "5-10",
+   "rate": "30%",
+   "area": "1F 2R",
+   "after": "ever-grande-city",
+   "notes": "Needs Waterfall."
+  },
+  {
+   "dex": 155,
+   "name": "Magikarp",
+   "method": "good-rod",
+   "levels": "10-30",
+   "rate": "60%",
+   "area": "1F 2R",
+   "after": "ever-grande-city",
+   "notes": "Needs Waterfall."
+  },
+  {
+   "dex": 181,
+   "name": "Dratini",
+   "method": "good-rod",
+   "levels": "10-30",
+   "rate": "20%",
+   "area": "1F 2R",
+   "after": "ever-grande-city",
+   "notes": "Needs Waterfall."
+  },
+  {
+   "dex": 373,
+   "name": "Barboach",
+   "method": "good-rod",
+   "levels": "10-30",
+   "rate": "20%",
+   "area": "1F 2R",
+   "after": "ever-grande-city",
+   "notes": "Needs Waterfall."
+  },
+  {
+   "dex": 181,
+   "name": "Dratini",
+   "method": "super-rod",
+   "levels": "25-35",
+   "rate": "80%",
+   "area": "1F 2R",
+   "after": "ever-grande-city",
+   "notes": "Needs Waterfall."
+  },
+  {
+   "dex": 374,
+   "name": "Whiscash",
+   "method": "super-rod",
+   "levels": "30-45",
+   "rate": "20%",
+   "area": "1F 2R",
+   "after": "ever-grande-city",
+   "notes": "Needs Waterfall."
+  },
+  {
+   "dex": 45,
+   "name": "Golbat",
+   "method": "grass",
+   "levels": "33-40",
+   "rate": "63%",
+   "area": "B1F 1R",
+   "after": "ever-grande-city",
+   "notes": "Needs Waterfall."
+  },
+  {
+   "dex": 37,
+   "name": "Clefairy",
+   "method": "grass",
+   "levels": "37-39",
+   "rate": "15%",
+   "area": "B1F 1R",
+   "after": "ever-grande-city",
+   "notes": "Needs Waterfall."
+  },
+  {
+   "dex": 371,
+   "name": "Lunatone",
+   "method": "grass",
+   "levels": "33",
+   "rate": "10%",
+   "area": "B1F 1R",
+   "after": "ever-grande-city",
+   "notes": "Needs Waterfall."
+  },
+  {
+   "dex": 372,
+   "name": "Solrock",
+   "method": "grass",
+   "levels": "35",
+   "rate": "10%",
+   "area": "B1F 1R",
+   "after": "ever-grande-city",
+   "notes": "Needs Waterfall."
+  },
+  {
+   "dex": 407,
+   "name": "Bagon",
+   "method": "grass",
+   "levels": "38-40",
+   "rate": "2%",
+   "area": "B1F 1R",
+   "after": "ever-grande-city",
+   "notes": "Needs Waterfall."
+  },
+  {
+   "dex": 45,
+   "name": "Golbat",
+   "method": "surf",
+   "levels": "30-35",
+   "rate": "90%",
+   "area": "B1F 1R",
+   "after": "ever-grande-city",
+   "notes": "Needs Waterfall."
+  },
+  {
+   "dex": 372,
+   "name": "Solrock",
+   "method": "surf",
+   "levels": "5-35",
+   "rate": "10%",
+   "area": "B1F 1R",
+   "after": "ever-grande-city",
+   "notes": "Needs Waterfall."
+  },
+  {
+   "dex": 155,
+   "name": "Magikarp",
+   "method": "old-rod",
+   "levels": "5-10",
+   "rate": "70%",
+   "area": "B1F 1R",
+   "after": "ever-grande-city",
+   "notes": "Needs Waterfall."
+  },
+  {
+   "dex": 136,
+   "name": "Goldeen",
+   "method": "old-rod",
+   "levels": "5-10",
+   "rate": "30%",
+   "area": "B1F 1R",
+   "after": "ever-grande-city",
+   "notes": "Needs Waterfall."
+  },
+  {
+   "dex": 155,
+   "name": "Magikarp",
+   "method": "good-rod",
+   "levels": "10-30",
+   "rate": "60%",
+   "area": "B1F 1R",
+   "after": "ever-grande-city",
+   "notes": "Needs Waterfall."
+  },
+  {
+   "dex": 181,
+   "name": "Dratini",
+   "method": "good-rod",
+   "levels": "10-30",
+   "rate": "20%",
+   "area": "B1F 1R",
+   "after": "ever-grande-city",
+   "notes": "Needs Waterfall."
+  },
+  {
+   "dex": 373,
+   "name": "Barboach",
+   "method": "good-rod",
+   "levels": "10-30",
+   "rate": "20%",
+   "area": "B1F 1R",
+   "after": "ever-grande-city",
+   "notes": "Needs Waterfall."
+  },
+  {
+   "dex": 181,
+   "name": "Dratini",
+   "method": "super-rod",
+   "levels": "25-35",
+   "rate": "80%",
+   "area": "B1F 1R",
+   "after": "ever-grande-city",
+   "notes": "Needs Waterfall."
+  },
+  {
+   "dex": 374,
+   "name": "Whiscash",
+   "method": "super-rod",
+   "levels": "30-45",
+   "rate": "20%",
+   "area": "B1F 1R",
+   "after": "ever-grande-city",
+   "notes": "Needs Waterfall."
+  },
+  {
+   "dex": 45,
+   "name": "Golbat",
+   "method": "grass",
+   "levels": "33-35",
+   "rate": "40%",
+   "area": "B1F 2R",
+   "after": "ever-grande-city",
+   "notes": "Needs Waterfall."
+  },
+  {
+   "dex": 407,
+   "name": "Bagon",
+   "method": "grass",
+   "levels": "25-35",
+   "rate": "25%",
+   "area": "B1F 2R",
+   "after": "ever-grande-city",
+   "notes": "Needs Waterfall."
+  },
+  {
+   "dex": 37,
+   "name": "Clefairy",
+   "method": "grass",
+   "levels": "37-39",
+   "rate": "15%",
+   "area": "B1F 2R",
+   "after": "ever-grande-city",
+   "notes": "Needs Waterfall."
+  },
+  {
+   "dex": 371,
+   "name": "Lunatone",
+   "method": "grass",
+   "levels": "38-40",
+   "rate": "10%",
+   "area": "B1F 2R",
+   "after": "ever-grande-city",
+   "notes": "Needs Waterfall."
+  },
+  {
+   "dex": 372,
+   "name": "Solrock",
+   "method": "grass",
+   "levels": "35",
+   "rate": "10%",
+   "area": "B1F 2R",
+   "after": "ever-grande-city",
+   "notes": "Needs Waterfall."
+  },
+  {
+   "dex": 45,
+   "name": "Golbat",
+   "method": "surf",
+   "levels": "30-35",
+   "rate": "90%",
+   "area": "B1F 2R",
+   "after": "ever-grande-city",
+   "notes": "Needs Waterfall."
+  },
+  {
+   "dex": 372,
+   "name": "Solrock",
+   "method": "surf",
+   "levels": "5-35",
+   "rate": "10%",
+   "area": "B1F 2R",
+   "after": "ever-grande-city",
+   "notes": "Needs Waterfall."
+  },
+  {
+   "dex": 155,
+   "name": "Magikarp",
+   "method": "old-rod",
+   "levels": "5-10",
+   "rate": "70%",
+   "area": "B1F 2R",
+   "after": "ever-grande-city",
+   "notes": "Needs Waterfall."
+  },
+  {
+   "dex": 136,
+   "name": "Goldeen",
+   "method": "old-rod",
+   "levels": "5-10",
+   "rate": "30%",
+   "area": "B1F 2R",
+   "after": "ever-grande-city",
+   "notes": "Needs Waterfall."
+  },
+  {
+   "dex": 155,
+   "name": "Magikarp",
+   "method": "good-rod",
+   "levels": "10-30",
+   "rate": "60%",
+   "area": "B1F 2R",
+   "after": "ever-grande-city",
+   "notes": "Needs Waterfall."
+  },
+  {
+   "dex": 181,
+   "name": "Dratini",
+   "method": "good-rod",
+   "levels": "10-30",
+   "rate": "20%",
+   "area": "B1F 2R",
+   "after": "ever-grande-city",
+   "notes": "Needs Waterfall."
+  },
+  {
+   "dex": 373,
+   "name": "Barboach",
+   "method": "good-rod",
+   "levels": "10-30",
+   "rate": "20%",
+   "area": "B1F 2R",
+   "after": "ever-grande-city",
+   "notes": "Needs Waterfall."
+  },
+  {
+   "dex": 181,
+   "name": "Dratini",
+   "method": "super-rod",
+   "levels": "25-35",
+   "rate": "80%",
+   "area": "B1F 2R",
+   "after": "ever-grande-city",
+   "notes": "Needs Waterfall."
+  },
+  {
+   "dex": 374,
+   "name": "Whiscash",
+   "method": "super-rod",
+   "levels": "30-45",
+   "rate": "20%",
+   "area": "B1F 2R",
+   "after": "ever-grande-city",
+   "notes": "Needs Waterfall."
+  },
+  {
+   "dex": 45,
+   "name": "Golbat",
+   "method": "grass",
+   "levels": "33-40",
+   "rate": "63%",
+   "area": "Stevens Cave",
+   "after": "pokemon-league",
+   "notes": "Needs the Hall of Fame: the cave opens then."
+  },
+  {
+   "dex": 372,
+   "name": "Solrock",
+   "method": "grass",
+   "levels": "33-39",
+   "rate": "35%",
+   "area": "Stevens Cave",
+   "after": "pokemon-league",
+   "notes": "Needs the Hall of Fame: the cave opens then."
+  },
+  {
+   "dex": 407,
+   "name": "Bagon",
+   "method": "grass",
+   "levels": "38-40",
+   "rate": "2%",
+   "area": "Stevens Cave",
+   "after": "pokemon-league",
+   "notes": "Needs the Hall of Fame: the cave opens then."
+  }
+ ],
+ "items": [
+  {
+   "id": "1f-1r-tm23",
+   "name": "TM23",
+   "hidden": false,
+   "where": "1F 1R",
+   "later": true,
+   "need": "Waterfall (HM07 from the Scuba Safari in Pacifidlog Town; usable outside battle once you have all 8 badges)",
+   "after": "sky-pillar",
+   "stage": 64.5
+  },
+  {
+   "id": "1f-1r-moon-stone",
+   "name": "Moon Stone",
+   "hidden": false,
+   "where": "1F 1R"
+  },
+  {
+   "id": "1f-1r-wishing-star",
+   "name": "Wishing Star",
+   "hidden": false,
+   "where": "1F 1R"
+  },
+  {
+   "id": "1f-1r-pp-up",
+   "name": "PP Up",
+   "hidden": false,
+   "where": "1F 1R",
+   "later": true,
+   "need": "Waterfall (HM07 from the Scuba Safari in Pacifidlog Town; usable outside battle once you have all 8 badges)",
+   "after": "sky-pillar",
+   "stage": 64.5
+  },
+  {
+   "id": "b1f-2r-tm02",
+   "name": "TM02",
+   "hidden": false,
+   "where": "B1F 2R",
+   "later": true,
+   "need": "Waterfall (HM07 from the Scuba Safari in Pacifidlog Town; usable outside battle once you have all 8 badges)",
+   "after": "sky-pillar",
+   "stage": 64.5
+  }
+ ],
+ "gifts": [],
+ "trainers": [
+  {
+   "class": "Old Couple",
+   "name": "John ~ Jay",
+   "prize": 3120,
+   "party": [
+    {
+     "dex": 340,
+     "name": "Medicham",
+     "level": 39,
+     "iv": 24,
+     "moves": [
+      {
+       "name": "Psychic",
+       "type": "Psychic",
+       "power": 90,
+       "category": "special"
+      },
+      {
+       "name": "Fire Punch",
+       "type": "Fire",
+       "power": 75,
+       "category": "physical"
+      },
+      {
+       "name": "Psych Up",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Protect",
+       "type": "Normal",
+       "category": "status"
+      }
+     ]
+    },
+    {
+     "dex": 329,
+     "name": "Hariyama",
+     "level": 39,
+     "iv": 24,
+     "moves": [
+      {
+       "name": "Focus Punch",
+       "type": "Fighting",
+       "power": 150,
+       "category": "physical"
+      },
+      {
+       "name": "Rock Tomb",
+       "type": "Rock",
+       "power": 60,
+       "category": "physical"
+      },
+      {
+       "name": "Rest",
+       "type": "Psychic",
+       "category": "status"
+      },
+      {
+       "name": "Belly Drum",
+       "type": "Normal",
+       "category": "status"
+      }
+     ]
+    }
+   ],
+   "double": true,
+   "id": "john-and-jay",
+   "area": "1F 2R",
+   "stage": "sky-pillar",
+   "later": true,
+   "reach": "Waterfall (HM07 from the Scuba Safari in Pacifidlog Town; usable outside battle once you have all 8 badges)"
+  },
+  {
+   "class": "Dragon Tamer",
+   "name": "Nicolas",
+   "prize": 1776,
+   "party": [
+    {
+     "dex": 368,
+     "name": "Altaria",
+     "level": 37,
+     "iv": 12,
+     "moves": [
+      {
+       "name": "Refresh",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Dragon Dance",
+       "type": "Dragon",
+       "category": "status"
+      },
+      {
+       "name": "Cotton Guard",
+       "type": "Grass",
+       "category": "status"
+      },
+      {
+       "name": "Hyper Voice",
+       "type": "Normal",
+       "power": 90,
+       "category": "special"
+      }
+     ]
+    },
+    {
+     "dex": 368,
+     "name": "Altaria",
+     "level": 37,
+     "iv": 12,
+     "moves": [
+      {
+       "name": "Refresh",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Dragon Dance",
+       "type": "Dragon",
+       "category": "status"
+      },
+      {
+       "name": "Cotton Guard",
+       "type": "Grass",
+       "category": "status"
+      },
+      {
+       "name": "Hyper Voice",
+       "type": "Normal",
+       "power": 90,
+       "category": "special"
+      }
+     ]
+    }
+   ],
+   "id": "nicolas",
+   "area": "1F 2R",
+   "stage": "sky-pillar",
+   "later": true,
+   "reach": "Waterfall (HM07 from the Scuba Safari in Pacifidlog Town; usable outside battle once you have all 8 badges)"
+  },
+  {
+   "class": "Pokémon Trainer",
+   "name": "Steven",
+   "prize": 4680,
+   "party": [
+    {
+     "dex": 265,
+     "name": "Skarmory",
+     "level": 77,
+     "iv": 31,
+     "moves": [
+      {
+       "name": "Toxic",
+       "type": "Poison",
+       "category": "status"
+      },
+      {
+       "name": "Aerial Ace",
+       "type": "Flying",
+       "power": 60,
+       "category": "physical"
+      },
+      {
+       "name": "Spikes",
+       "type": "Ground",
+       "category": "status"
+      },
+      {
+       "name": "Steel Wing",
+       "type": "Steel",
+       "power": 70,
+       "category": "physical"
+      }
+     ]
+    },
+    {
+     "dex": 378,
+     "name": "Claydol",
+     "level": 75,
+     "iv": 31,
+     "moves": [
+      {
+       "name": "Reflect",
+       "type": "Psychic",
+       "category": "status"
+      },
+      {
+       "name": "Light Screen",
+       "type": "Psychic",
+       "category": "status"
+      },
+      {
+       "name": "Ancient Power",
+       "type": "Rock",
+       "power": 60,
+       "category": "special"
+      },
+      {
+       "name": "Earthquake",
+       "type": "Ground",
+       "power": 100,
+       "category": "physical"
+      }
+     ]
+    },
+    {
+     "dex": 338,
+     "name": "Aggron",
+     "level": 76,
+     "iv": 31,
+     "moves": [
+      {
+       "name": "Thunder",
+       "type": "Electric",
+       "power": 110,
+       "category": "special"
+      },
+      {
+       "name": "Earthquake",
+       "type": "Ground",
+       "power": 100,
+       "category": "physical"
+      },
+      {
+       "name": "Solar Beam",
+       "type": "Grass",
+       "power": 120,
+       "category": "special"
+      },
+      {
+       "name": "Dragon Claw",
+       "type": "Dragon",
+       "power": 80,
+       "category": "physical"
+      }
+     ]
+    },
+    {
+     "dex": 380,
+     "name": "Cradily",
+     "level": 76,
+     "iv": 31,
+     "moves": [
+      {
+       "name": "Giga Drain",
+       "type": "Grass",
+       "power": 75,
+       "category": "special"
+      },
+      {
+       "name": "Ancient Power",
+       "type": "Rock",
+       "power": 60,
+       "category": "special"
+      },
+      {
+       "name": "Ingrain",
+       "type": "Grass",
+       "category": "status"
+      },
+      {
+       "name": "Confuse Ray",
+       "type": "Ghost",
+       "category": "status"
+      }
+     ]
+    },
+    {
+     "dex": 382,
+     "name": "Armaldo",
+     "level": 76,
+     "iv": 31,
+     "moves": [
+      {
+       "name": "Water Pulse",
+       "type": "Water",
+       "power": 60,
+       "category": "special"
+      },
+      {
+       "name": "Ancient Power",
+       "type": "Rock",
+       "power": 60,
+       "category": "special"
+      },
+      {
+       "name": "Aerial Ace",
+       "type": "Flying",
+       "power": 60,
+       "category": "physical"
+      },
+      {
+       "name": "Slash",
+       "type": "Normal",
+       "power": 70,
+       "category": "physical"
+      }
+     ]
+    },
+    {
+     "dex": 412,
+     "name": "Metagross",
+     "level": 78,
+     "iv": 31,
+     "moves": [
+      {
+       "name": "Earthquake",
+       "type": "Ground",
+       "power": 100,
+       "category": "physical"
+      },
+      {
+       "name": "Psychic",
+       "type": "Psychic",
+       "power": 90,
+       "category": "special"
+      },
+      {
+       "name": "Meteor Mash",
+       "type": "Steel",
+       "power": 90,
+       "category": "physical"
+      },
+      {
+       "name": "Shadow Ball",
+       "type": "Ghost",
+       "power": 80,
+       "category": "special"
+      }
+     ],
+     "item": "Sitrus Berry"
+    }
+   ],
+   "uses": [
+    "Full Restore ×4"
+   ],
+   "id": "steven",
+   "area": "Stevens Cave",
+   "stage": "pokemon-league",
+   "later": true
+  }
+ ],
+ "verified": true,
+ "sources": [
+  "https://mrwalkthroughs.com/pokemon-emerald-seaglass/"
+ ]
+}

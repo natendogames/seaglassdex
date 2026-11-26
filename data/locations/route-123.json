@@ -1,0 +1,1285 @@
+{
+ "id": "route-123",
+ "name": "Route 123",
+ "encounters": [
+  {
+   "dex": 176,
+   "name": "Munchlax",
+   "method": "grass",
+   "levels": "26",
+   "rate": "20%"
+  },
+  {
+   "dex": 348,
+   "name": "Roselia",
+   "method": "grass",
+   "levels": "26",
+   "rate": "20%"
+  },
+  {
+   "dex": 272,
+   "name": "Smeargle",
+   "method": "grass",
+   "levels": "26-28",
+   "rate": "13%"
+  },
+  {
+   "dex": 84,
+   "name": "Ponyta",
+   "method": "grass",
+   "levels": "28",
+   "rate": "10%"
+  },
+  {
+   "dex": 298,
+   "name": "Beautifly",
+   "method": "grass",
+   "levels": "26",
+   "rate": "10%"
+  },
+  {
+   "dex": 345,
+   "name": "Volbeat",
+   "method": "grass",
+   "levels": "26",
+   "rate": "10%"
+  },
+  {
+   "dex": 346,
+   "name": "Illumise",
+   "method": "grass",
+   "levels": "28",
+   "rate": "10%"
+  },
+  {
+   "dex": 300,
+   "name": "Dustox",
+   "method": "grass",
+   "levels": "28",
+   "rate": "5%"
+  },
+  {
+   "dex": 177,
+   "name": "Snorlax",
+   "method": "grass",
+   "levels": "25-28",
+   "rate": "2%"
+  },
+  {
+   "dex": 247,
+   "name": "Shuckle",
+   "method": "surf",
+   "levels": "5-35",
+   "rate": "60%"
+  },
+  {
+   "dex": 309,
+   "name": "Wingull",
+   "method": "surf",
+   "levels": "10-30",
+   "rate": "35%"
+  },
+  {
+   "dex": 310,
+   "name": "Pelipper",
+   "method": "surf",
+   "levels": "25-30",
+   "rate": "5%"
+  },
+  {
+   "dex": 155,
+   "name": "Magikarp",
+   "method": "old-rod",
+   "levels": "5-10",
+   "rate": "70%"
+  },
+  {
+   "dex": 79,
+   "name": "Tentacool",
+   "method": "old-rod",
+   "levels": "5-10",
+   "rate": "30%"
+  },
+  {
+   "dex": 155,
+   "name": "Magikarp",
+   "method": "good-rod",
+   "levels": "10-30",
+   "rate": "60%"
+  },
+  {
+   "dex": 79,
+   "name": "Tentacool",
+   "method": "good-rod",
+   "levels": "10-30",
+   "rate": "20%"
+  },
+  {
+   "dex": 228,
+   "name": "Quagsire",
+   "method": "good-rod",
+   "levels": "10-30",
+   "rate": "20%"
+  },
+  {
+   "dex": 354,
+   "name": "Wailmer",
+   "method": "super-rod",
+   "levels": "20-45",
+   "rate": "60%"
+  },
+  {
+   "dex": 228,
+   "name": "Quagsire",
+   "method": "super-rod",
+   "levels": "25-30",
+   "rate": "40%"
+  },
+  {
+   "dex": 113,
+   "name": "Exeggutor",
+   "method": "dexnav",
+   "levels": "25-28",
+   "rate": "33%"
+  },
+  {
+   "dex": 120,
+   "name": "Lickitung",
+   "method": "dexnav",
+   "levels": "25-28",
+   "rate": "33%"
+  },
+  {
+   "dex": 128,
+   "name": "Chansey",
+   "method": "dexnav",
+   "levels": "25-28",
+   "rate": "33%"
+  }
+ ],
+ "items": [
+  {
+   "id": "outside-calcium",
+   "name": "Calcium",
+   "hidden": false,
+   "where": "Outside"
+  },
+  {
+   "id": "outside-ultra-ball",
+   "name": "Ultra Ball",
+   "hidden": false,
+   "where": "Outside"
+  },
+  {
+   "id": "outside-elixir",
+   "name": "Elixir",
+   "hidden": false,
+   "where": "Outside"
+  },
+  {
+   "id": "outside-pp-up",
+   "name": "PP Up",
+   "hidden": false,
+   "where": "Outside"
+  },
+  {
+   "id": "outside-revival-herb",
+   "name": "Revival Herb",
+   "hidden": false,
+   "where": "Outside"
+  },
+  {
+   "id": "hidden-outside-super-repel",
+   "name": "Super Repel",
+   "hidden": true,
+   "where": "Outside"
+  },
+  {
+   "id": "hidden-outside-revive",
+   "name": "Revive",
+   "hidden": true,
+   "where": "Outside"
+  },
+  {
+   "id": "hidden-outside-hyper-potion",
+   "name": "Hyper Potion",
+   "hidden": true,
+   "where": "Outside"
+  },
+  {
+   "id": "hidden-outside-pp-up",
+   "name": "PP Up",
+   "hidden": true,
+   "where": "Outside"
+  },
+  {
+   "id": "hidden-outside-rare-candy",
+   "name": "Rare Candy",
+   "hidden": true,
+   "where": "Outside"
+  }
+ ],
+ "gifts": [
+  {
+   "id": "item-outside-tm19",
+   "name": "TM19",
+   "from": "Girl (if your lead knows a Grass move)",
+   "where": "Outside"
+  },
+  {
+   "id": "item-berry-master-s-house-spelon-berry",
+   "name": "Spelon Berry",
+   "from": "Old woman",
+   "where": "Berry Master's House"
+  },
+  {
+   "id": "item-berry-master-s-house-pamtre-berry",
+   "name": "Pamtre Berry",
+   "from": "Old woman",
+   "where": "Berry Master's House"
+  },
+  {
+   "id": "item-berry-master-s-house-watmel-berry",
+   "name": "Watmel Berry",
+   "from": "Old woman",
+   "where": "Berry Master's House"
+  },
+  {
+   "id": "item-berry-master-s-house-durin-berry",
+   "name": "Durin Berry",
+   "from": "Old woman",
+   "where": "Berry Master's House"
+  },
+  {
+   "id": "item-berry-master-s-house-belue-berry",
+   "name": "Belue Berry",
+   "from": "Old woman",
+   "where": "Berry Master's House"
+  }
+ ],
+ "trainers": [
+  {
+   "class": "Cool Trainer",
+   "name": "Wendy",
+   "prize": 1392,
+   "party": [
+    {
+     "dex": 335,
+     "name": "Mawile",
+     "level": 29,
+     "iv": 12,
+     "moves": [
+      {
+       "name": "Baton Pass",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Feint Attack",
+       "type": "Dark",
+       "power": 60,
+       "category": "physical"
+      },
+      {
+       "name": "Fake Tears",
+       "type": "Dark",
+       "category": "status"
+      },
+      {
+       "name": "Bite",
+       "type": "Dark",
+       "power": 60,
+       "category": "physical"
+      }
+     ]
+    },
+    {
+     "dex": 348,
+     "name": "Roselia",
+     "level": 29,
+     "iv": 12,
+     "moves": [
+      {
+       "name": "Mega Drain",
+       "type": "Grass",
+       "power": 50,
+       "category": "special"
+      },
+      {
+       "name": "Magical Leaf",
+       "type": "Grass",
+       "power": 60,
+       "category": "special"
+      },
+      {
+       "name": "Grass Whistle",
+       "type": "Grass",
+       "category": "status"
+      },
+      {
+       "name": "Leech Seed",
+       "type": "Grass",
+       "category": "status"
+      }
+     ]
+    },
+    {
+     "dex": 310,
+     "name": "Pelipper",
+     "level": 29,
+     "iv": 12,
+     "moves": [
+      {
+       "name": "Fly",
+       "type": "Flying",
+       "power": 90,
+       "category": "physical"
+      },
+      {
+       "name": "Water Gun",
+       "type": "Water",
+       "power": 40,
+       "category": "special"
+      },
+      {
+       "name": "Mist",
+       "type": "Ice",
+       "category": "status"
+      },
+      {
+       "name": "Protect",
+       "type": "Normal",
+       "category": "status"
+      }
+     ]
+    }
+   ],
+   "uses": [
+    "Full Restore"
+   ],
+   "id": "wendy"
+  },
+  {
+   "class": "Guitarist",
+   "name": "Fernando",
+   "prize": 960,
+   "party": [
+    {
+     "dex": 341,
+     "name": "Electrike",
+     "level": 30,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Odor Sleuth",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Thunder Fang",
+       "type": "Electric",
+       "power": 65,
+       "category": "physical"
+      },
+      {
+       "name": "Bite",
+       "type": "Dark",
+       "power": 60,
+       "category": "physical"
+      },
+      {
+       "name": "Discharge",
+       "type": "Electric",
+       "power": 80,
+       "category": "special"
+      }
+     ]
+    },
+    {
+     "dex": 326,
+     "name": "Loudred",
+     "level": 30,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Supersonic",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Stomp",
+       "type": "Normal",
+       "power": 65,
+       "category": "physical"
+      },
+      {
+       "name": "Uproar",
+       "type": "Normal",
+       "power": 90,
+       "category": "special"
+      },
+      {
+       "name": "Crunch",
+       "type": "Dark",
+       "power": 80,
+       "category": "physical"
+      }
+     ]
+    }
+   ],
+   "id": "fernando"
+  },
+  {
+   "class": "Bird Keeper",
+   "name": "Alberto",
+   "prize": 960,
+   "party": [
+    {
+     "dex": 264,
+     "name": "Mantine",
+     "level": 30,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Headbutt",
+       "type": "Normal",
+       "power": 70,
+       "category": "physical"
+      },
+      {
+       "name": "Water Pulse",
+       "type": "Water",
+       "power": 60,
+       "category": "special"
+      },
+      {
+       "name": "Wide Guard",
+       "type": "Rock",
+       "category": "status"
+      },
+      {
+       "name": "Take Down",
+       "type": "Normal",
+       "power": 90,
+       "category": "physical"
+      }
+     ]
+    },
+    {
+     "dex": 209,
+     "name": "Xatu",
+     "level": 30,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Stored Power",
+       "type": "Psychic",
+       "power": 20,
+       "category": "special"
+      },
+      {
+       "name": "Ominous Wind",
+       "type": "Ghost",
+       "power": 60,
+       "category": "special"
+      },
+      {
+       "name": "Confuse Ray",
+       "type": "Ghost",
+       "category": "status"
+      },
+      {
+       "name": "Wish",
+       "type": "Normal",
+       "category": "status"
+      }
+     ]
+    }
+   ],
+   "id": "alberto"
+  },
+  {
+   "class": "Cool Trainer",
+   "name": "Braxton",
+   "prize": 1344,
+   "party": [
+    {
+     "dex": 22,
+     "name": "Fearow",
+     "level": 28,
+     "iv": 12,
+     "moves": [
+      {
+       "name": "Focus Energy",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Quick Attack",
+       "type": "Normal",
+       "power": 40,
+       "category": "physical"
+      },
+      {
+       "name": "Wing Attack",
+       "type": "Flying",
+       "power": 60,
+       "category": "physical"
+      },
+      {
+       "name": "Endeavor",
+       "type": "Normal",
+       "power": 1,
+       "category": "physical"
+      }
+     ]
+    },
+    {
+     "dex": 362,
+     "name": "Trapinch",
+     "level": 28,
+     "iv": 12,
+     "moves": [
+      {
+       "name": "Bite",
+       "type": "Dark",
+       "power": 60,
+       "category": "physical"
+      },
+      {
+       "name": "Dig",
+       "type": "Ground",
+       "power": 80,
+       "category": "physical"
+      },
+      {
+       "name": "Feint Attack",
+       "type": "Dark",
+       "power": 60,
+       "category": "physical"
+      },
+      {
+       "name": "Sand Tomb",
+       "type": "Ground",
+       "power": 35,
+       "category": "physical"
+      }
+     ]
+    },
+    {
+     "dex": 303,
+     "name": "Ludicolo",
+     "level": 28,
+     "iv": 12,
+     "moves": [
+      {
+       "name": "Water Sport",
+       "type": "Water",
+       "category": "status"
+      },
+      {
+       "name": "Bubble Beam",
+       "type": "Water",
+       "power": 65,
+       "category": "special"
+      },
+      {
+       "name": "Giga Drain",
+       "type": "Grass",
+       "power": 75,
+       "category": "special"
+      },
+      {
+       "name": "Nature Power",
+       "type": "Normal",
+       "power": 1,
+       "category": "status"
+      }
+     ]
+    },
+    {
+     "dex": 90,
+     "name": "Magneton",
+     "level": 28,
+     "iv": 12,
+     "moves": [
+      {
+       "name": "Thunderbolt",
+       "type": "Electric",
+       "power": 90,
+       "category": "special"
+      },
+      {
+       "name": "Supersonic",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Thunder Wave",
+       "type": "Electric",
+       "category": "status"
+      },
+      {
+       "name": "Sonic Boom",
+       "type": "Normal",
+       "power": 1,
+       "category": "special"
+      }
+     ]
+    },
+    {
+     "dex": 306,
+     "name": "Shiftry",
+     "level": 28,
+     "iv": 12,
+     "moves": [
+      {
+       "name": "Giga Drain",
+       "type": "Grass",
+       "power": 75,
+       "category": "special"
+      },
+      {
+       "name": "Feint Attack",
+       "type": "Dark",
+       "power": 60,
+       "category": "physical"
+      },
+      {
+       "name": "Double Team",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Swagger",
+       "type": "Normal",
+       "category": "status"
+      }
+     ]
+    }
+   ],
+   "uses": [
+    "Hyper Potion"
+   ],
+   "id": "braxton"
+  },
+  {
+   "class": "Psychic",
+   "name": "Jacki",
+   "prize": 720,
+   "party": [
+    {
+     "dex": 71,
+     "name": "Kadabra",
+     "level": 30,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Psybeam",
+       "type": "Psychic",
+       "power": 65,
+       "category": "special"
+      },
+      {
+       "name": "Miracle Eye",
+       "type": "Psychic",
+       "category": "status"
+      },
+      {
+       "name": "Reflect",
+       "type": "Psychic",
+       "category": "status"
+      },
+      {
+       "name": "Psycho Cut",
+       "type": "Psychic",
+       "power": 70,
+       "category": "physical"
+      }
+     ]
+    },
+    {
+     "dex": 371,
+     "name": "Lunatone",
+     "level": 30,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Embargo",
+       "type": "Dark",
+       "category": "status"
+      },
+      {
+       "name": "Rock Slide",
+       "type": "Rock",
+       "power": 75,
+       "category": "physical"
+      },
+      {
+       "name": "Cosmic Power",
+       "type": "Psychic",
+       "category": "status"
+      },
+      {
+       "name": "Psychic",
+       "type": "Psychic",
+       "power": 90,
+       "category": "special"
+      }
+     ]
+    }
+   ],
+   "id": "jacki"
+  },
+  {
+   "class": "Expert",
+   "name": "Fredrick",
+   "prize": 1200,
+   "party": [
+    {
+     "dex": 62,
+     "name": "Primeape",
+     "level": 30,
+     "iv": 12,
+     "moves": [
+      {
+       "name": "Swagger",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Cross Chop",
+       "type": "Fighting",
+       "power": 100,
+       "category": "physical"
+      },
+      {
+       "name": "Assurance",
+       "type": "Dark",
+       "power": 60,
+       "category": "physical"
+      },
+      {
+       "name": "Punishment",
+       "type": "Dark",
+       "power": 60,
+       "category": "physical"
+      }
+     ]
+    },
+    {
+     "dex": 74,
+     "name": "Machoke",
+     "level": 30,
+     "iv": 12,
+     "moves": [
+      {
+       "name": "Revenge",
+       "type": "Fighting",
+       "power": 60,
+       "category": "physical"
+      },
+      {
+       "name": "Knock Off",
+       "type": "Dark",
+       "power": 65,
+       "category": "physical"
+      },
+      {
+       "name": "Vital Throw",
+       "type": "Fighting",
+       "power": 70,
+       "category": "physical"
+      },
+      {
+       "name": "Wake-Up Slap",
+       "type": "Fighting",
+       "power": 70,
+       "category": "physical"
+      }
+     ]
+    }
+   ],
+   "id": "fredrick"
+  },
+  {
+   "class": "Twins",
+   "name": "Miu ~ Yuki",
+   "prize": 624,
+   "party": [
+    {
+     "dex": 298,
+     "name": "Beautifly",
+     "level": 26,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Morning Sun",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Air Cutter",
+       "type": "Flying",
+       "power": 60,
+       "category": "special"
+      },
+      {
+       "name": "Mega Drain",
+       "type": "Grass",
+       "power": 50,
+       "category": "special"
+      },
+      {
+       "name": "Silver Wind",
+       "type": "Bug",
+       "power": 60,
+       "category": "special"
+      }
+     ]
+    },
+    {
+     "dex": 300,
+     "name": "Dustox",
+     "level": 26,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Moonlight",
+       "type": "Fairy",
+       "category": "status"
+      },
+      {
+       "name": "Venoshock",
+       "type": "Poison",
+       "power": 65,
+       "category": "special"
+      },
+      {
+       "name": "Psybeam",
+       "type": "Psychic",
+       "power": 65,
+       "category": "special"
+      },
+      {
+       "name": "U-turn",
+       "type": "Bug",
+       "power": 70,
+       "category": "physical"
+      }
+     ]
+    }
+   ],
+   "double": true,
+   "id": "miu-and-yuki"
+  },
+  {
+   "class": "Aroma Lady",
+   "name": "Violet",
+   "prize": 1040,
+   "party": [
+    {
+     "dex": 77,
+     "name": "Weepinbell",
+     "level": 26,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Poison Powder",
+       "type": "Poison",
+       "category": "status"
+      },
+      {
+       "name": "Stun Spore",
+       "type": "Grass",
+       "category": "status"
+      },
+      {
+       "name": "Acid",
+       "type": "Poison",
+       "power": 40,
+       "category": "special"
+      },
+      {
+       "name": "Razor Leaf",
+       "type": "Grass",
+       "power": 55,
+       "category": "physical"
+      }
+     ]
+    },
+    {
+     "dex": 48,
+     "name": "Gloom",
+     "level": 26,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Stun Spore",
+       "type": "Grass",
+       "category": "status"
+      },
+      {
+       "name": "Sleep Powder",
+       "type": "Grass",
+       "category": "status"
+      },
+      {
+       "name": "Mega Drain",
+       "type": "Grass",
+       "power": 50,
+       "category": "special"
+      },
+      {
+       "name": "Lucky Chant",
+       "type": "Normal",
+       "category": "status"
+      }
+     ]
+    }
+   ],
+   "id": "violet"
+  },
+  {
+   "class": "Bug Catcher",
+   "name": "Davis",
+   "prize": 432,
+   "party": [
+    {
+     "dex": 153,
+     "name": "Pinsir",
+     "level": 27,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Vital Throw",
+       "type": "Fighting",
+       "power": 70,
+       "category": "physical"
+      },
+      {
+       "name": "Power-Up Punch",
+       "type": "Fighting",
+       "power": 40,
+       "category": "physical"
+      },
+      {
+       "name": "Rock Tomb",
+       "type": "Rock",
+       "power": 60,
+       "category": "physical"
+      },
+      {
+       "name": "Brick Break",
+       "type": "Fighting",
+       "power": 75,
+       "category": "physical"
+      }
+     ]
+    }
+   ],
+   "id": "davis"
+  },
+  {
+   "class": "Cool Trainer",
+   "name": "Jazmyn",
+   "prize": 540,
+   "party": [
+    {
+     "dex": 395,
+     "name": "Absol",
+     "level": 27,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Double Team",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Slash",
+       "type": "Normal",
+       "power": 70,
+       "category": "physical"
+      },
+      {
+       "name": "Aerial Ace",
+       "type": "Flying",
+       "power": 60,
+       "category": "physical"
+      },
+      {
+       "name": "Swords Dance",
+       "type": "Normal",
+       "category": "status"
+      }
+     ]
+    }
+   ],
+   "uses": [
+    "Hyper Potion"
+   ],
+   "id": "jazmyn"
+  },
+  {
+   "class": "Parasol Lady",
+   "name": "Kayley",
+   "prize": 1240,
+   "party": [
+    {
+     "dex": 385,
+     "name": "Castform",
+     "level": 31,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Sunny Day",
+       "type": "Fire",
+       "category": "status"
+      },
+      {
+       "name": "Weather Ball",
+       "type": "Normal",
+       "power": 50,
+       "category": "special"
+      },
+      {
+       "name": "Flamethrower",
+       "type": "Fire",
+       "power": 90,
+       "category": "special"
+      },
+      {
+       "name": "Solar Beam",
+       "type": "Grass",
+       "power": 120,
+       "category": "special"
+      }
+     ]
+    }
+   ],
+   "id": "kayley"
+  },
+  {
+   "class": "Ninja Boy",
+   "name": "Jonas",
+   "prize": 372,
+   "party": [
+    {
+     "dex": 122,
+     "name": "Koffing",
+     "level": 31,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Toxic",
+       "type": "Poison",
+       "category": "status"
+      },
+      {
+       "name": "Thunder",
+       "type": "Electric",
+       "power": 110,
+       "category": "special"
+      },
+      {
+       "name": "Self-Destruct",
+       "type": "Normal",
+       "power": 200,
+       "category": "physical"
+      },
+      {
+       "name": "Sludge Bomb",
+       "type": "Poison",
+       "power": 90,
+       "category": "special"
+      }
+     ]
+    }
+   ],
+   "id": "jonas"
+  },
+  {
+   "class": "Psychic",
+   "name": "Cameron",
+   "prize": 744,
+   "party": [
+    {
+     "dex": 372,
+     "name": "Solrock",
+     "level": 31,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Embargo",
+       "type": "Dark",
+       "category": "status"
+      },
+      {
+       "name": "Rock Slide",
+       "type": "Rock",
+       "power": 75,
+       "category": "physical"
+      },
+      {
+       "name": "Cosmic Power",
+       "type": "Psychic",
+       "category": "status"
+      },
+      {
+       "name": "Psychic",
+       "type": "Psychic",
+       "power": 90,
+       "category": "special"
+      }
+     ]
+    }
+   ],
+   "id": "cameron"
+  },
+  {
+   "class": "Collector",
+   "name": "Ed",
+   "prize": 1800,
+   "party": [
+    {
+     "dex": 369,
+     "name": "Zangoose",
+     "level": 30,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Revenge",
+       "type": "Fighting",
+       "power": 60,
+       "category": "physical"
+      },
+      {
+       "name": "Night Slash",
+       "type": "Dark",
+       "power": 70,
+       "category": "physical"
+      },
+      {
+       "name": "Crush Claw",
+       "type": "Normal",
+       "power": 75,
+       "category": "physical"
+      },
+      {
+       "name": "False Swipe",
+       "type": "Normal",
+       "power": 40,
+       "category": "physical"
+      }
+     ]
+    },
+    {
+     "dex": 370,
+     "name": "Seviper",
+     "level": 30,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Venom Drench",
+       "type": "Poison",
+       "category": "status"
+      },
+      {
+       "name": "Fire Fang",
+       "type": "Fire",
+       "power": 65,
+       "category": "physical"
+      },
+      {
+       "name": "Night Slash",
+       "type": "Dark",
+       "power": 70,
+       "category": "physical"
+      },
+      {
+       "name": "Gastro Acid",
+       "type": "Poison",
+       "category": "status"
+      }
+     ]
+    }
+   ],
+   "id": "ed"
+  },
+  {
+   "class": "Hex Maniac",
+   "name": "Kindra",
+   "prize": 720,
+   "party": [
+    {
+     "dex": 232,
+     "name": "Mismagius",
+     "level": 30,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Draining Kiss",
+       "type": "Fairy",
+       "power": 55,
+       "category": "special"
+      },
+      {
+       "name": "Hex",
+       "type": "Ghost",
+       "power": 65,
+       "category": "special"
+      },
+      {
+       "name": "Psybeam",
+       "type": "Psychic",
+       "power": 65,
+       "category": "special"
+      },
+      {
+       "name": "Magical Leaf",
+       "type": "Grass",
+       "power": 60,
+       "category": "special"
+      }
+     ]
+    },
+    {
+     "dex": 387,
+     "name": "Shuppet",
+     "level": 30,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Hex",
+       "type": "Ghost",
+       "power": 65,
+       "category": "special"
+      },
+      {
+       "name": "Curse",
+       "type": "Ghost",
+       "category": "status"
+      },
+      {
+       "name": "Glare",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Shadow Ball",
+       "type": "Ghost",
+       "power": 80,
+       "category": "special"
+      }
+     ]
+    }
+   ],
+   "id": "kindra"
+  }
+ ],
+ "verified": true,
+ "sources": [
+  "https://mrwalkthroughs.com/pokemon-emerald-seaglass/"
+ ]
+}

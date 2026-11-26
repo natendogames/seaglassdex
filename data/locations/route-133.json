@@ -1,0 +1,520 @@
+{
+ "id": "route-133",
+ "name": "Route 133",
+ "encounters": [
+  {
+   "dex": 79,
+   "name": "Tentacool",
+   "method": "surf",
+   "levels": "5-35",
+   "rate": "60%"
+  },
+  {
+   "dex": 246,
+   "name": "Qwilfish",
+   "method": "surf",
+   "levels": "10-30",
+   "rate": "30%"
+  },
+  {
+   "dex": 157,
+   "name": "Lapras",
+   "method": "surf",
+   "levels": "25-30",
+   "rate": "5%"
+  },
+  {
+   "dex": 309,
+   "name": "Wingull",
+   "method": "surf",
+   "levels": "15-25",
+   "rate": "5%"
+  },
+  {
+   "dex": 155,
+   "name": "Magikarp",
+   "method": "old-rod",
+   "levels": "5-10",
+   "rate": "70%"
+  },
+  {
+   "dex": 79,
+   "name": "Tentacool",
+   "method": "old-rod",
+   "levels": "5-10",
+   "rate": "30%"
+  },
+  {
+   "dex": 155,
+   "name": "Magikarp",
+   "method": "good-rod",
+   "levels": "10-30",
+   "rate": "60%"
+  },
+  {
+   "dex": 79,
+   "name": "Tentacool",
+   "method": "good-rod",
+   "levels": "10-30",
+   "rate": "20%"
+  },
+  {
+   "dex": 354,
+   "name": "Wailmer",
+   "method": "good-rod",
+   "levels": "10-30",
+   "rate": "20%"
+  },
+  {
+   "dex": 354,
+   "name": "Wailmer",
+   "method": "super-rod",
+   "levels": "30-45",
+   "rate": "45%"
+  },
+  {
+   "dex": 353,
+   "name": "Sharpedo",
+   "method": "super-rod",
+   "levels": "30-35",
+   "rate": "40%"
+  },
+  {
+   "dex": 135,
+   "name": "Kingdra",
+   "method": "super-rod",
+   "levels": "25-30",
+   "rate": "15%"
+  }
+ ],
+ "items": [
+  {
+   "id": "outside-big-pearl",
+   "name": "Big Pearl",
+   "hidden": false,
+   "where": "Outside"
+  },
+  {
+   "id": "outside-star-piece",
+   "name": "Star Piece",
+   "hidden": false,
+   "where": "Outside"
+  },
+  {
+   "id": "outside-max-revive",
+   "name": "Max Revive",
+   "hidden": false,
+   "where": "Outside"
+  }
+ ],
+ "gifts": [],
+ "trainers": [
+  {
+   "class": "Swimmer♂",
+   "name": "Franklin",
+   "prize": 272,
+   "party": [
+    {
+     "dex": 400,
+     "name": "Sealeo",
+     "level": 34,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Body Slam",
+       "type": "Normal",
+       "power": 85,
+       "category": "physical"
+      },
+      {
+       "name": "Anchor Shot",
+       "type": "Steel",
+       "power": 80,
+       "category": "physical"
+      },
+      {
+       "name": "Rest",
+       "type": "Psychic",
+       "category": "status"
+      },
+      {
+       "name": "Snore",
+       "type": "Normal",
+       "power": 50,
+       "category": "special"
+      }
+     ]
+    }
+   ],
+   "id": "franklin"
+  },
+  {
+   "class": "Swimmer♀",
+   "name": "Debra",
+   "prize": 272,
+   "party": [
+    {
+     "dex": 134,
+     "name": "Seadra",
+     "level": 34,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Water Pulse",
+       "type": "Water",
+       "power": 60,
+       "category": "special"
+      },
+      {
+       "name": "Focus Energy",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Brine",
+       "type": "Water",
+       "power": 65,
+       "category": "special"
+      },
+      {
+       "name": "Aura Sphere",
+       "type": "Fighting",
+       "power": 80,
+       "category": "special"
+      }
+     ]
+    }
+   ],
+   "id": "debra"
+  },
+  {
+   "class": "Expert",
+   "name": "Mollie",
+   "prize": 1320,
+   "party": [
+    {
+     "dex": 374,
+     "name": "Whiscash",
+     "level": 33,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Flip Turn",
+       "type": "Water",
+       "power": 60,
+       "category": "physical"
+      },
+      {
+       "name": "Rest",
+       "type": "Psychic",
+       "category": "status"
+      },
+      {
+       "name": "Snore",
+       "type": "Normal",
+       "power": 50,
+       "category": "special"
+      },
+      {
+       "name": "Aqua Tail",
+       "type": "Water",
+       "power": 90,
+       "category": "physical"
+      }
+     ]
+    },
+    {
+     "dex": 146,
+     "name": "Jynx",
+     "level": 33,
+     "iv": 24,
+     "moves": [
+      {
+       "name": "Heart Stamp",
+       "type": "Psychic",
+       "power": 60,
+       "category": "physical"
+      },
+      {
+       "name": "Mean Look",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Fake Tears",
+       "type": "Dark",
+       "category": "status"
+      },
+      {
+       "name": "Wake-Up Slap",
+       "type": "Fighting",
+       "power": 70,
+       "category": "physical"
+      }
+     ]
+    }
+   ],
+   "id": "mollie"
+  },
+  {
+   "class": "Expert",
+   "name": "Conor",
+   "prize": 1320,
+   "party": [
+    {
+     "dex": 204,
+     "name": "Lanturn",
+     "level": 33,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Bubble Beam",
+       "type": "Water",
+       "power": 65,
+       "category": "special"
+      },
+      {
+       "name": "Spark",
+       "type": "Electric",
+       "power": 65,
+       "category": "physical"
+      },
+      {
+       "name": "Signal Beam",
+       "type": "Bug",
+       "power": 75,
+       "category": "special"
+      },
+      {
+       "name": "Flail",
+       "type": "Normal",
+       "power": 1,
+       "category": "physical"
+      }
+     ]
+    },
+    {
+     "dex": 329,
+     "name": "Hariyama",
+     "level": 33,
+     "iv": 24,
+     "moves": [
+      {
+       "name": "Knock Off",
+       "type": "Dark",
+       "power": 65,
+       "category": "physical"
+      },
+      {
+       "name": "Vital Throw",
+       "type": "Fighting",
+       "power": 70,
+       "category": "physical"
+      },
+      {
+       "name": "Belly Drum",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Smelling Salts",
+       "type": "Normal",
+       "power": 70,
+       "category": "physical"
+      }
+     ]
+    }
+   ],
+   "id": "conor"
+  },
+  {
+   "class": "Cool Trainer",
+   "name": "Warren",
+   "prize": 1584,
+   "party": [
+    {
+     "dex": 105,
+     "name": "Steelix",
+     "level": 33,
+     "iv": 12,
+     "moves": [
+      {
+       "name": "Smack Down",
+       "type": "Rock",
+       "power": 50,
+       "category": "physical"
+      },
+      {
+       "name": "Dragon Breath",
+       "type": "Dragon",
+       "power": 60,
+       "category": "special"
+      },
+      {
+       "name": "Slam",
+       "type": "Normal",
+       "power": 75,
+       "category": "physical"
+      },
+      {
+       "name": "Screech",
+       "type": "Normal",
+       "category": "status"
+      }
+     ]
+    },
+    {
+     "dex": 303,
+     "name": "Ludicolo",
+     "level": 33,
+     "iv": 12,
+     "moves": [
+      {
+       "name": "Giga Drain",
+       "type": "Grass",
+       "power": 75,
+       "category": "special"
+      },
+      {
+       "name": "Nature Power",
+       "type": "Normal",
+       "power": 1,
+       "category": "status"
+      },
+      {
+       "name": "Water Pulse",
+       "type": "Water",
+       "power": 60,
+       "category": "special"
+      },
+      {
+       "name": "Uproar",
+       "type": "Normal",
+       "power": 90,
+       "category": "special"
+      }
+     ]
+    }
+   ],
+   "uses": [
+    "Full Restore"
+   ],
+   "id": "warren"
+  },
+  {
+   "class": "Swimmer♀",
+   "name": "Linda",
+   "prize": 264,
+   "party": [
+    {
+     "dex": 204,
+     "name": "Lanturn",
+     "level": 33,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Bubble Beam",
+       "type": "Water",
+       "power": 65,
+       "category": "special"
+      },
+      {
+       "name": "Spark",
+       "type": "Electric",
+       "power": 65,
+       "category": "physical"
+      },
+      {
+       "name": "Signal Beam",
+       "type": "Bug",
+       "power": 75,
+       "category": "special"
+      },
+      {
+       "name": "Flail",
+       "type": "Normal",
+       "power": 1,
+       "category": "physical"
+      }
+     ]
+    },
+    {
+     "dex": 134,
+     "name": "Seadra",
+     "level": 33,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Twister",
+       "type": "Dragon",
+       "power": 40,
+       "category": "special"
+      },
+      {
+       "name": "Water Pulse",
+       "type": "Water",
+       "power": 60,
+       "category": "special"
+      },
+      {
+       "name": "Focus Energy",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Brine",
+       "type": "Water",
+       "power": 65,
+       "category": "special"
+      }
+     ]
+    }
+   ],
+   "id": "linda"
+  },
+  {
+   "class": "Bird Keeper",
+   "name": "Beck",
+   "prize": 1088,
+   "party": [
+    {
+     "dex": 392,
+     "name": "Tropius",
+     "level": 34,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Dragon Breath",
+       "type": "Dragon",
+       "power": 60,
+       "category": "special"
+      },
+      {
+       "name": "Leaf Tornado",
+       "type": "Grass",
+       "power": 65,
+       "category": "special"
+      },
+      {
+       "name": "Natural Gift",
+       "type": "Normal",
+       "power": 1,
+       "category": "physical"
+      },
+      {
+       "name": "Air Slash",
+       "type": "Flying",
+       "power": 75,
+       "category": "special"
+      }
+     ]
+    }
+   ],
+   "id": "beck"
+  }
+ ],
+ "verified": true,
+ "sources": [
+  "https://mrwalkthroughs.com/pokemon-emerald-seaglass/"
+ ]
+}

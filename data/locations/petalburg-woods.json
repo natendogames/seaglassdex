@@ -1,0 +1,370 @@
+{
+ "id": "petalburg-woods",
+ "name": "Petalburg Woods",
+ "encounters": [
+  {
+   "dex": 296,
+   "name": "Wurmple",
+   "method": "grass",
+   "levels": "5-6",
+   "rate": "25%"
+  },
+  {
+   "dex": 199,
+   "name": "Ledyba",
+   "method": "grass",
+   "levels": "5",
+   "rate": "20%"
+  },
+  {
+   "dex": 201,
+   "name": "Spinarak",
+   "method": "grass",
+   "levels": "6",
+   "rate": "10%"
+  },
+  {
+   "dex": 297,
+   "name": "Silcoon",
+   "method": "grass",
+   "levels": "5",
+   "rate": "10%"
+  },
+  {
+   "dex": 299,
+   "name": "Cascoon",
+   "method": "grass",
+   "levels": "5",
+   "rate": "10%"
+  },
+  {
+   "dex": 317,
+   "name": "Shroomish",
+   "method": "grass",
+   "levels": "5",
+   "rate": "10%"
+  },
+  {
+   "dex": 10,
+   "name": "Caterpie",
+   "method": "grass",
+   "levels": "6",
+   "rate": "5%"
+  },
+  {
+   "dex": 13,
+   "name": "Weedle",
+   "method": "grass",
+   "levels": "5",
+   "rate": "4%"
+  },
+  {
+   "dex": 319,
+   "name": "Slakoth",
+   "method": "grass",
+   "levels": "5",
+   "rate": "4%"
+  },
+  {
+   "dex": 25,
+   "name": "Pichu",
+   "method": "grass",
+   "levels": "6",
+   "rate": "2%"
+  },
+  {
+   "dex": 25,
+   "name": "Pichu",
+   "method": "dexnav",
+   "levels": "4-6",
+   "rate": "33%"
+  },
+  {
+   "dex": 26,
+   "name": "Pikachu",
+   "method": "dexnav",
+   "levels": "4-6",
+   "rate": "33%"
+  },
+  {
+   "dex": 319,
+   "name": "Slakoth",
+   "method": "dexnav",
+   "levels": "4-6",
+   "rate": "33%"
+  }
+ ],
+ "items": [
+  {
+   "id": "outside-great-ball",
+   "name": "Great Ball",
+   "hidden": false,
+   "where": "Outside",
+   "later": true,
+   "need": "Cut (HM01 from the Cutter's House in Rustboro City, used with the Stone Badge)",
+   "after": "rustboro-city",
+   "stage": 8.5
+  },
+  {
+   "id": "outside-x-attack",
+   "name": "X Attack",
+   "hidden": false,
+   "where": "Outside",
+   "later": true,
+   "need": "Cut (HM01 from the Cutter's House in Rustboro City, used with the Stone Badge)",
+   "after": "rustboro-city",
+   "stage": 8.5
+  },
+  {
+   "id": "outside-ether",
+   "name": "Ether",
+   "hidden": false,
+   "where": "Outside"
+  },
+  {
+   "id": "outside-paralyze-heal",
+   "name": "Paralyze Heal",
+   "hidden": false,
+   "where": "Outside"
+  },
+  {
+   "id": "hidden-outside-potion",
+   "name": "Potion",
+   "hidden": true,
+   "where": "Outside"
+  },
+  {
+   "id": "hidden-outside-tiny-mushroom",
+   "name": "Tiny Mushroom",
+   "hidden": true,
+   "where": "Outside",
+   "later": true,
+   "need": "Cut (HM01 from the Cutter's House in Rustboro City, used with the Stone Badge)",
+   "after": "rustboro-city",
+   "stage": 8.5
+  },
+  {
+   "id": "hidden-outside-tiny-mushroom-2",
+   "name": "Tiny Mushroom",
+   "hidden": true,
+   "where": "Outside",
+   "later": true,
+   "need": "Cut (HM01 from the Cutter's House in Rustboro City, used with the Stone Badge)",
+   "after": "rustboro-city",
+   "stage": 8.5
+  },
+  {
+   "id": "hidden-outside-pok-ball",
+   "name": "Poké Ball",
+   "hidden": true,
+   "where": "Outside"
+  }
+ ],
+ "gifts": [
+  {
+   "id": "item-outside-great-ball",
+   "name": "Great Ball",
+   "from": "Devon researcher (after you beat the Aqua Grunt)",
+   "where": "Outside"
+  },
+  {
+   "id": "item-outside-miracle-seed",
+   "name": "Miracle Seed",
+   "from": "Girl",
+   "where": "Outside",
+   "later": true,
+   "need": "Cut (HM01 from the Cutter's House in Rustboro City, used with the Stone Badge)",
+   "after": "rustboro-city",
+   "stage": 8.5
+  }
+ ],
+ "trainers": [
+  {
+   "class": "Bug Catcher",
+   "name": "Lyle",
+   "prize": 48,
+   "party": [
+    {
+     "dex": 10,
+     "name": "Caterpie",
+     "level": 3,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Tackle",
+       "type": "Normal",
+       "power": 40,
+       "category": "physical"
+      },
+      {
+       "name": "String Shot",
+       "type": "Bug",
+       "category": "status"
+      }
+     ]
+    },
+    {
+     "dex": 13,
+     "name": "Weedle",
+     "level": 3,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Poison Sting",
+       "type": "Poison",
+       "power": 15,
+       "category": "physical"
+      },
+      {
+       "name": "String Shot",
+       "type": "Bug",
+       "category": "status"
+      }
+     ]
+    },
+    {
+     "dex": 296,
+     "name": "Wurmple",
+     "level": 3,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Tackle",
+       "type": "Normal",
+       "power": 40,
+       "category": "physical"
+      },
+      {
+       "name": "String Shot",
+       "type": "Bug",
+       "category": "status"
+      }
+     ]
+    },
+    {
+     "dex": 201,
+     "name": "Spinarak",
+     "level": 3,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Poison Sting",
+       "type": "Poison",
+       "power": 15,
+       "category": "physical"
+      },
+      {
+       "name": "String Shot",
+       "type": "Bug",
+       "category": "status"
+      },
+      {
+       "name": "Constrict",
+       "type": "Normal",
+       "power": 10,
+       "category": "physical"
+      }
+     ]
+    }
+   ],
+   "id": "lyle"
+  },
+  {
+   "class": "Team Aqua",
+   "name": "Grunt",
+   "prize": 180,
+   "party": [
+    {
+     "dex": 354,
+     "name": "Wailmer",
+     "level": 9,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Splash",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Growl",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Water Gun",
+       "type": "Water",
+       "power": 40,
+       "category": "special"
+      }
+     ]
+    }
+   ],
+   "rewards": [
+    "Great Ball"
+   ],
+   "id": "grunt-petalburg-woods"
+  },
+  {
+   "class": "Bug Catcher",
+   "name": "James",
+   "prize": 96,
+   "party": [
+    {
+     "dex": 322,
+     "name": "Nincada",
+     "level": 6,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Scratch",
+       "type": "Normal",
+       "power": 40,
+       "category": "physical"
+      },
+      {
+       "name": "Harden",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Absorb",
+       "type": "Grass",
+       "power": 30,
+       "category": "special"
+      }
+     ]
+    },
+    {
+     "dex": 322,
+     "name": "Nincada",
+     "level": 6,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Scratch",
+       "type": "Normal",
+       "power": 40,
+       "category": "physical"
+      },
+      {
+       "name": "Harden",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Absorb",
+       "type": "Grass",
+       "power": 30,
+       "category": "special"
+      }
+     ]
+    }
+   ],
+   "id": "james"
+  }
+ ],
+ "verified": true,
+ "sources": [
+  "https://mrwalkthroughs.com/pokemon-emerald-seaglass/"
+ ]
+}

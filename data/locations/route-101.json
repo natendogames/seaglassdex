@@ -1,0 +1,97 @@
+{
+ "id": "route-101",
+ "name": "Route 101",
+ "encounters": [
+  {
+   "dex": 294,
+   "name": "Zigzagoon",
+   "method": "grass",
+   "levels": "2-3",
+   "rate": "35%"
+  },
+  {
+   "dex": 292,
+   "name": "Poochyena",
+   "method": "grass",
+   "levels": "2",
+   "rate": "20%"
+  },
+  {
+   "dex": 296,
+   "name": "Wurmple",
+   "method": "grass",
+   "levels": "2",
+   "rate": "20%"
+  },
+  {
+   "dex": 195,
+   "name": "Sentret",
+   "method": "grass",
+   "levels": "3",
+   "rate": "15%"
+  },
+  {
+   "dex": 197,
+   "name": "Hoothoot",
+   "method": "grass",
+   "levels": "3",
+   "rate": "10%"
+  },
+  {
+   "dex": 26,
+   "name": "Pikachu",
+   "method": "dexnav",
+   "levels": "3-5",
+   "rate": "33%"
+  },
+  {
+   "dex": 30,
+   "name": "Nidoran♀",
+   "method": "dexnav",
+   "levels": "3-5",
+   "rate": "33%"
+  },
+  {
+   "dex": 33,
+   "name": "Nidoran♂",
+   "method": "dexnav",
+   "levels": "3-5",
+   "rate": "33%"
+  },
+  {
+   "dex": 283,
+   "name": "Treecko",
+   "method": "gift",
+   "levels": "5",
+   "notes": "Starter: choose one from Professor Birch's bag. Get the other two by trading."
+  },
+  {
+   "dex": 286,
+   "name": "Torchic",
+   "method": "gift",
+   "levels": "5",
+   "notes": "Starter: choose one from Professor Birch's bag. Get the other two by trading."
+  },
+  {
+   "dex": 289,
+   "name": "Mudkip",
+   "method": "gift",
+   "levels": "5",
+   "notes": "Starter: choose one from Professor Birch's bag. Get the other two by trading."
+  }
+ ],
+ "items": [],
+ "gifts": [
+  {
+   "id": "mon-outside-starter-pok-mon-treecko-torchic-or-mudkip",
+   "name": "Starter Pokémon (Treecko, Torchic or Mudkip)",
+   "from": "Professor Birch's bag",
+   "where": "Outside"
+  }
+ ],
+ "trainers": [],
+ "verified": true,
+ "sources": [
+  "https://mrwalkthroughs.com/pokemon-emerald-seaglass/"
+ ]
+}

@@ -1,0 +1,686 @@
+{
+ "id": "abandoned-ship",
+ "name": "Abandoned Ship",
+ "encounters": [
+  {
+   "dex": 79,
+   "name": "Tentacool",
+   "method": "surf",
+   "levels": "5-35",
+   "rate": "99%",
+   "area": "Hidden Floor Corridors",
+   "after": "seafloor-cavern",
+   "notes": "Below deck: needs Dive."
+  },
+  {
+   "dex": 80,
+   "name": "Tentacruel",
+   "method": "surf",
+   "levels": "30-35",
+   "rate": "1%",
+   "area": "Hidden Floor Corridors",
+   "after": "seafloor-cavern",
+   "notes": "Below deck: needs Dive."
+  },
+  {
+   "dex": 155,
+   "name": "Magikarp",
+   "method": "old-rod",
+   "levels": "5-10",
+   "rate": "70%",
+   "area": "Hidden Floor Corridors",
+   "after": "seafloor-cavern",
+   "notes": "Below deck: needs Dive."
+  },
+  {
+   "dex": 79,
+   "name": "Tentacool",
+   "method": "old-rod",
+   "levels": "5-10",
+   "rate": "30%",
+   "area": "Hidden Floor Corridors",
+   "after": "seafloor-cavern",
+   "notes": "Below deck: needs Dive."
+  },
+  {
+   "dex": 155,
+   "name": "Magikarp",
+   "method": "good-rod",
+   "levels": "10-30",
+   "rate": "60%",
+   "area": "Hidden Floor Corridors",
+   "after": "seafloor-cavern",
+   "notes": "Below deck: needs Dive."
+  },
+  {
+   "dex": 79,
+   "name": "Tentacool",
+   "method": "good-rod",
+   "levels": "10-30",
+   "rate": "40%",
+   "area": "Hidden Floor Corridors",
+   "after": "seafloor-cavern",
+   "notes": "Below deck: needs Dive."
+  },
+  {
+   "dex": 79,
+   "name": "Tentacool",
+   "method": "super-rod",
+   "levels": "25-35",
+   "rate": "80%",
+   "area": "Hidden Floor Corridors",
+   "after": "seafloor-cavern",
+   "notes": "Below deck: needs Dive."
+  },
+  {
+   "dex": 80,
+   "name": "Tentacruel",
+   "method": "super-rod",
+   "levels": "20-35",
+   "rate": "20%",
+   "area": "Hidden Floor Corridors",
+   "after": "seafloor-cavern",
+   "notes": "Below deck: needs Dive."
+  },
+  {
+   "dex": 79,
+   "name": "Tentacool",
+   "method": "surf",
+   "levels": "5-35",
+   "rate": "99%",
+   "area": "Rooms B1F"
+  },
+  {
+   "dex": 80,
+   "name": "Tentacruel",
+   "method": "surf",
+   "levels": "30-35",
+   "rate": "1%",
+   "area": "Rooms B1F"
+  },
+  {
+   "dex": 155,
+   "name": "Magikarp",
+   "method": "old-rod",
+   "levels": "5-10",
+   "rate": "70%",
+   "area": "Rooms B1F"
+  },
+  {
+   "dex": 79,
+   "name": "Tentacool",
+   "method": "old-rod",
+   "levels": "5-10",
+   "rate": "30%",
+   "area": "Rooms B1F"
+  },
+  {
+   "dex": 155,
+   "name": "Magikarp",
+   "method": "good-rod",
+   "levels": "10-30",
+   "rate": "60%",
+   "area": "Rooms B1F"
+  },
+  {
+   "dex": 79,
+   "name": "Tentacool",
+   "method": "good-rod",
+   "levels": "10-30",
+   "rate": "40%",
+   "area": "Rooms B1F"
+  },
+  {
+   "dex": 79,
+   "name": "Tentacool",
+   "method": "super-rod",
+   "levels": "25-35",
+   "rate": "80%",
+   "area": "Rooms B1F"
+  },
+  {
+   "dex": 80,
+   "name": "Tentacruel",
+   "method": "super-rod",
+   "levels": "20-35",
+   "rate": "20%",
+   "area": "Rooms B1F"
+  }
+ ],
+ "items": [
+  {
+   "id": "captain-s-office-storage-key",
+   "name": "Storage Key",
+   "hidden": false,
+   "where": "Captain's Office"
+  },
+  {
+   "id": "deck-metal-coat",
+   "name": "Metal Coat",
+   "hidden": false,
+   "where": "Deck"
+  },
+  {
+   "id": "hidden-floor-rooms-luxury-ball",
+   "name": "Luxury Ball",
+   "hidden": false,
+   "where": "Hidden Floor Rooms",
+   "later": true,
+   "need": "Dive (HM08 from Steven in Mossdeep City, after the Mind Badge)",
+   "after": "mossdeep-city",
+   "stage": 52.5
+  },
+  {
+   "id": "hidden-floor-rooms-scanner",
+   "name": "Scanner",
+   "hidden": false,
+   "where": "Hidden Floor Rooms",
+   "later": true,
+   "need": "Dive (HM08 from Steven in Mossdeep City, after the Mind Badge)",
+   "after": "mossdeep-city",
+   "stage": 52.5
+  },
+  {
+   "id": "hidden-floor-rooms-tm18",
+   "name": "TM18",
+   "hidden": false,
+   "where": "Hidden Floor Rooms",
+   "later": true,
+   "need": "Dive (HM08 from Steven in Mossdeep City, after the Mind Badge)",
+   "after": "mossdeep-city",
+   "stage": 52.5
+  },
+  {
+   "id": "hidden-floor-rooms-water-stone",
+   "name": "Water Stone",
+   "hidden": false,
+   "where": "Hidden Floor Rooms",
+   "later": true,
+   "need": "Dive (HM08 from Steven in Mossdeep City, after the Mind Badge)",
+   "after": "mossdeep-city",
+   "stage": 52.5
+  },
+  {
+   "id": "hidden-hidden-floor-rooms-key-to-room-1",
+   "name": "Key to Room 1",
+   "hidden": true,
+   "where": "Hidden Floor Rooms",
+   "later": true,
+   "need": "Dive (HM08 from Steven in Mossdeep City, after the Mind Badge)",
+   "after": "mossdeep-city",
+   "stage": 52.5
+  },
+  {
+   "id": "hidden-hidden-floor-rooms-key-to-room-2",
+   "name": "Key to Room 2",
+   "hidden": true,
+   "where": "Hidden Floor Rooms",
+   "later": true,
+   "need": "Dive (HM08 from Steven in Mossdeep City, after the Mind Badge)",
+   "after": "mossdeep-city",
+   "stage": 52.5
+  },
+  {
+   "id": "hidden-hidden-floor-rooms-key-to-room-4",
+   "name": "Key to Room 4",
+   "hidden": true,
+   "where": "Hidden Floor Rooms",
+   "later": true,
+   "need": "Dive (HM08 from Steven in Mossdeep City, after the Mind Badge)",
+   "after": "mossdeep-city",
+   "stage": 52.5
+  },
+  {
+   "id": "hidden-hidden-floor-rooms-key-to-room-6",
+   "name": "Key to Room 6",
+   "hidden": true,
+   "where": "Hidden Floor Rooms",
+   "later": true,
+   "need": "Dive (HM08 from Steven in Mossdeep City, after the Mind Badge)",
+   "after": "mossdeep-city",
+   "stage": 52.5
+  },
+  {
+   "id": "room-b1f-tm13",
+   "name": "TM13",
+   "hidden": false,
+   "where": "Room B1F"
+  },
+  {
+   "id": "rooms-2-1f-revive",
+   "name": "Revive",
+   "hidden": false,
+   "where": "Rooms 2 1F"
+  },
+  {
+   "id": "rooms-2-b1f-dive-ball",
+   "name": "Dive Ball",
+   "hidden": false,
+   "where": "Rooms 2 B1F"
+  },
+  {
+   "id": "rooms-1f-harbor-mail",
+   "name": "Harbor Mail",
+   "hidden": false,
+   "where": "Rooms 1F"
+  },
+  {
+   "id": "rooms-b1f-escape-rope",
+   "name": "Escape Rope",
+   "hidden": false,
+   "where": "Rooms B1F"
+  }
+ ],
+ "gifts": [],
+ "trainers": [
+  {
+   "class": "Tuber",
+   "name": "Charlie",
+   "prize": 104,
+   "party": [
+    {
+     "dex": 335,
+     "name": "Mawile",
+     "level": 26,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Vise Grip",
+       "type": "Normal",
+       "power": 55,
+       "category": "physical"
+      },
+      {
+       "name": "Covet",
+       "type": "Fairy",
+       "power": 60,
+       "category": "physical"
+      },
+      {
+       "name": "Feint Attack",
+       "type": "Dark",
+       "power": 60,
+       "category": "physical"
+      },
+      {
+       "name": "Baton Pass",
+       "type": "Normal",
+       "category": "status"
+      }
+     ]
+    }
+   ],
+   "id": "charlie",
+   "area": "Corridors 1F"
+  },
+  {
+   "class": "Sailor",
+   "name": "Duncan",
+   "prize": 800,
+   "party": [
+    {
+     "dex": 399,
+     "name": "Spheal",
+     "level": 25,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Ice Ball",
+       "type": "Ice",
+       "power": 30,
+       "category": "physical"
+      },
+      {
+       "name": "Brine",
+       "type": "Water",
+       "power": 65,
+       "category": "special"
+      },
+      {
+       "name": "Aurora Beam",
+       "type": "Ice",
+       "power": 65,
+       "category": "special"
+      },
+      {
+       "name": "Flip Turn",
+       "type": "Water",
+       "power": 60,
+       "category": "physical"
+      }
+     ]
+    },
+    {
+     "dex": 154,
+     "name": "Tauros",
+     "level": 25,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Scary Face",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Pursuit",
+       "type": "Dark",
+       "power": 40,
+       "category": "physical"
+      },
+      {
+       "name": "Rest",
+       "type": "Psychic",
+       "category": "status"
+      },
+      {
+       "name": "Payback",
+       "type": "Dark",
+       "power": 50,
+       "category": "physical"
+      }
+     ]
+    }
+   ],
+   "id": "duncan",
+   "area": "Corridors B1F"
+  },
+  {
+   "class": "Beauty",
+   "name": "Thalia",
+   "prize": 2000,
+   "party": [
+    {
+     "dex": 354,
+     "name": "Wailmer",
+     "level": 25,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Water Pulse",
+       "type": "Water",
+       "power": 60,
+       "category": "special"
+      },
+      {
+       "name": "Echoed Voice",
+       "type": "Normal",
+       "power": 40,
+       "category": "special"
+      },
+      {
+       "name": "Mist",
+       "type": "Ice",
+       "category": "status"
+      },
+      {
+       "name": "Brine",
+       "type": "Water",
+       "power": 65,
+       "category": "special"
+      }
+     ]
+    },
+    {
+     "dex": 133,
+     "name": "Horsea",
+     "level": 25,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Leer",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Water Gun",
+       "type": "Water",
+       "power": 40,
+       "category": "special"
+      },
+      {
+       "name": "Twister",
+       "type": "Dragon",
+       "power": 40,
+       "category": "special"
+      },
+      {
+       "name": "Water Pulse",
+       "type": "Water",
+       "power": 60,
+       "category": "special"
+      }
+     ]
+    }
+   ],
+   "id": "thalia",
+   "area": "Rooms 1F"
+  },
+  {
+   "class": "Youngster",
+   "name": "Demetrius",
+   "prize": 400,
+   "party": [
+    {
+     "dex": 20,
+     "name": "Raticate",
+     "level": 25,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Pursuit",
+       "type": "Dark",
+       "power": 40,
+       "category": "physical"
+      },
+      {
+       "name": "Hyper Fang",
+       "type": "Normal",
+       "power": 80,
+       "category": "physical"
+      },
+      {
+       "name": "Assurance",
+       "type": "Dark",
+       "power": 60,
+       "category": "physical"
+      },
+      {
+       "name": "Crunch",
+       "type": "Dark",
+       "power": 80,
+       "category": "physical"
+      }
+     ]
+    },
+    {
+     "dex": 161,
+     "name": "Jolteon",
+     "level": 25,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Quick Attack",
+       "type": "Normal",
+       "power": 40,
+       "category": "physical"
+      },
+      {
+       "name": "Double Kick",
+       "type": "Fighting",
+       "power": 30,
+       "category": "physical"
+      },
+      {
+       "name": "Thunder Fang",
+       "type": "Electric",
+       "power": 65,
+       "category": "physical"
+      },
+      {
+       "name": "Pin Missile",
+       "type": "Bug",
+       "power": 25,
+       "category": "physical"
+      }
+     ]
+    }
+   ],
+   "id": "demetrius",
+   "area": "Rooms 1F"
+  },
+  {
+   "class": "Young Couple",
+   "name": "Kira ~ Dan",
+   "prize": 1600,
+   "party": [
+    {
+     "dex": 345,
+     "name": "Volbeat",
+     "level": 25,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Struggle Bug",
+       "type": "Bug",
+       "power": 50,
+       "category": "special"
+      },
+      {
+       "name": "Thunder Shock",
+       "type": "Electric",
+       "power": 40,
+       "category": "special"
+      },
+      {
+       "name": "Moonlight",
+       "type": "Fairy",
+       "category": "status"
+      },
+      {
+       "name": "Tail Glow",
+       "type": "Bug",
+       "category": "status"
+      }
+     ]
+    },
+    {
+     "dex": 346,
+     "name": "Illumise",
+     "level": 25,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Struggle Bug",
+       "type": "Bug",
+       "power": 50,
+       "category": "special"
+      },
+      {
+       "name": "Fairy Wind",
+       "type": "Fairy",
+       "power": 40,
+       "category": "special"
+      },
+      {
+       "name": "Moonlight",
+       "type": "Fairy",
+       "category": "status"
+      },
+      {
+       "name": "Wish",
+       "type": "Normal",
+       "category": "status"
+      }
+     ]
+    }
+   ],
+   "double": true,
+   "id": "kira-and-dan",
+   "area": "Rooms 2 1F"
+  },
+  {
+   "class": "Ruin Maniac",
+   "name": "Garrison",
+   "prize": 1560,
+   "party": [
+    {
+     "dex": 217,
+     "name": "Sudowoodo",
+     "level": 26,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Mimic",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Feint Attack",
+       "type": "Dark",
+       "power": 60,
+       "category": "physical"
+      },
+      {
+       "name": "Tearful Look",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Rock Tomb",
+       "type": "Rock",
+       "power": 60,
+       "category": "physical"
+      }
+     ]
+    }
+   ],
+   "id": "garrison",
+   "area": "Rooms 2 1F"
+  },
+  {
+   "class": "Tuber",
+   "name": "Jani",
+   "prize": 104,
+   "party": [
+    {
+     "dex": 239,
+     "name": "Forretress",
+     "level": 26,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Take Down",
+       "type": "Normal",
+       "power": 90,
+       "category": "physical"
+      },
+      {
+       "name": "Rapid Spin",
+       "type": "Normal",
+       "power": 50,
+       "category": "physical"
+      },
+      {
+       "name": "Bide",
+       "type": "Normal",
+       "power": 1,
+       "category": "physical"
+      },
+      {
+       "name": "Natural Gift",
+       "type": "Normal",
+       "power": 1,
+       "category": "physical"
+      }
+     ]
+    }
+   ],
+   "id": "jani",
+   "area": "Rooms 2 1F"
+  }
+ ],
+ "verified": true,
+ "sources": [
+  "https://mrwalkthroughs.com/pokemon-emerald-seaglass/"
+ ]
+}

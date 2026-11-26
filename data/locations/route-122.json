@@ -1,0 +1,83 @@
+{
+ "id": "route-122",
+ "name": "Route 122",
+ "encounters": [
+  {
+   "dex": 86,
+   "name": "Slowpoke",
+   "method": "surf",
+   "levels": "5-35",
+   "rate": "60%"
+  },
+  {
+   "dex": 95,
+   "name": "Seel",
+   "method": "surf",
+   "levels": "10-30",
+   "rate": "30%"
+  },
+  {
+   "dex": 156,
+   "name": "Gyarados",
+   "method": "surf",
+   "levels": "15-30",
+   "rate": "10%"
+  },
+  {
+   "dex": 155,
+   "name": "Magikarp",
+   "method": "old-rod",
+   "levels": "5-10",
+   "rate": "70%"
+  },
+  {
+   "dex": 79,
+   "name": "Tentacool",
+   "method": "old-rod",
+   "levels": "5-10",
+   "rate": "30%"
+  },
+  {
+   "dex": 155,
+   "name": "Magikarp",
+   "method": "good-rod",
+   "levels": "10-30",
+   "rate": "60%"
+  },
+  {
+   "dex": 99,
+   "name": "Shellder",
+   "method": "good-rod",
+   "levels": "10-30",
+   "rate": "40%"
+  },
+  {
+   "dex": 99,
+   "name": "Shellder",
+   "method": "super-rod",
+   "levels": "30-35",
+   "rate": "40%"
+  },
+  {
+   "dex": 353,
+   "name": "Sharpedo",
+   "method": "super-rod",
+   "levels": "30-35",
+   "rate": "40%"
+  },
+  {
+   "dex": 100,
+   "name": "Cloyster",
+   "method": "super-rod",
+   "levels": "25-45",
+   "rate": "20%"
+  }
+ ],
+ "items": [],
+ "gifts": [],
+ "trainers": [],
+ "verified": true,
+ "sources": [
+  "https://mrwalkthroughs.com/pokemon-emerald-seaglass/"
+ ]
+}

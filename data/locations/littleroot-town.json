@@ -1,0 +1,225 @@
+{
+ "id": "littleroot-town",
+ "name": "Littleroot Town",
+ "encounters": [
+  {
+   "dex": 106,
+   "name": "Drowzee",
+   "method": "grass",
+   "levels": "5-8",
+   "rate": "20%",
+   "area": "Outside",
+   "after": "rustboro-city",
+   "notes": "Needs Cut (HM01 from the Cutter's House in Rustboro City, used with the Stone Badge)."
+  },
+  {
+   "dex": 208,
+   "name": "Natu",
+   "method": "grass",
+   "levels": "5-8",
+   "rate": "20%",
+   "area": "Outside",
+   "after": "rustboro-city",
+   "notes": "Needs Cut (HM01 from the Cutter's House in Rustboro City, used with the Stone Badge)."
+  },
+  {
+   "dex": 210,
+   "name": "Mareep",
+   "method": "grass",
+   "levels": "5-8",
+   "rate": "20%",
+   "area": "Outside",
+   "after": "rustboro-city",
+   "notes": "Needs Cut (HM01 from the Cutter's House in Rustboro City, used with the Stone Badge)."
+  },
+  {
+   "dex": 159,
+   "name": "Eevee",
+   "method": "grass",
+   "levels": "5-8",
+   "rate": "10%",
+   "area": "Outside",
+   "after": "rustboro-city",
+   "notes": "Needs Cut (HM01 from the Cutter's House in Rustboro City, used with the Stone Badge)."
+  },
+  {
+   "dex": 225,
+   "name": "Yanma",
+   "method": "grass",
+   "levels": "5-8",
+   "rate": "10%",
+   "area": "Outside",
+   "after": "rustboro-city",
+   "notes": "Needs Cut (HM01 from the Cutter's House in Rustboro City, used with the Stone Badge)."
+  },
+  {
+   "dex": 268,
+   "name": "Phanpy",
+   "method": "grass",
+   "levels": "5-8",
+   "rate": "10%",
+   "area": "Outside",
+   "after": "rustboro-city",
+   "notes": "Needs Cut (HM01 from the Cutter's House in Rustboro City, used with the Stone Badge)."
+  },
+  {
+   "dex": 19,
+   "name": "Rattata",
+   "method": "grass",
+   "levels": "5-8",
+   "rate": "4%",
+   "area": "Outside",
+   "after": "rustboro-city",
+   "notes": "Needs Cut (HM01 from the Cutter's House in Rustboro City, used with the Stone Badge)."
+  },
+  {
+   "dex": 21,
+   "name": "Spearow",
+   "method": "grass",
+   "levels": "5-8",
+   "rate": "4%",
+   "area": "Outside",
+   "after": "rustboro-city",
+   "notes": "Needs Cut (HM01 from the Cutter's House in Rustboro City, used with the Stone Badge)."
+  },
+  {
+   "dex": 423,
+   "name": "Applin",
+   "method": "grass",
+   "levels": "2-3",
+   "rate": "2%",
+   "area": "Outside",
+   "after": "rustboro-city",
+   "notes": "Needs Cut (HM01 from the Cutter's House in Rustboro City, used with the Stone Badge)."
+  },
+  {
+   "dex": 189,
+   "name": "Cyndaquil",
+   "method": "gift",
+   "area": "Professor Birch's Lab",
+   "levels": "5",
+   "notes": "Cyndaquil (Lv 5) · Professor Birch (after the Hall of Fame; choose one)",
+   "after": "pokemon-league"
+  },
+  {
+   "dex": 192,
+   "name": "Totodile",
+   "method": "gift",
+   "area": "Professor Birch's Lab",
+   "levels": "5",
+   "notes": "Totodile (Lv 5) · Professor Birch (after the Hall of Fame; choose one)",
+   "after": "pokemon-league"
+  },
+  {
+   "dex": 186,
+   "name": "Chikorita",
+   "method": "gift",
+   "area": "Professor Birch's Lab",
+   "levels": "5",
+   "notes": "Chikorita (Lv 5) · Professor Birch (after the Hall of Fame; choose one)",
+   "after": "pokemon-league"
+  }
+ ],
+ "items": [],
+ "gifts": [
+  {
+   "id": "item-professor-birch-s-lab-catching-charm",
+   "name": "Catching Charm",
+   "from": "Professor Birch (after the Hall of Fame)",
+   "where": "Professor Birch's Lab",
+   "later": true,
+   "need": "After the Hall of Fame",
+   "after": "pokemon-league",
+   "stage": 70.5
+  },
+  {
+   "id": "mon-professor-birch-s-lab-cyndaquil-lv-5",
+   "name": "Cyndaquil (Lv 5)",
+   "from": "Professor Birch (after the Hall of Fame; choose one)",
+   "where": "Professor Birch's Lab",
+   "later": true,
+   "need": "After the Hall of Fame (choose one)",
+   "after": "pokemon-league",
+   "stage": 70.5
+  },
+  {
+   "id": "item-professor-birch-s-lab-exp-charm",
+   "name": "Exp. Charm",
+   "from": "Professor Birch (with your Johto starter)",
+   "where": "Professor Birch's Lab",
+   "later": true,
+   "need": "After the Hall of Fame (comes with your Johto starter)",
+   "after": "pokemon-league",
+   "stage": 70.5
+  },
+  {
+   "id": "mon-professor-birch-s-lab-totodile-lv-5",
+   "name": "Totodile (Lv 5)",
+   "from": "Professor Birch (after the Hall of Fame; choose one)",
+   "where": "Professor Birch's Lab",
+   "later": true,
+   "need": "After the Hall of Fame (choose one)",
+   "after": "pokemon-league",
+   "stage": 70.5
+  },
+  {
+   "id": "mon-professor-birch-s-lab-chikorita-lv-5",
+   "name": "Chikorita (Lv 5)",
+   "from": "Professor Birch (after the Hall of Fame; choose one)",
+   "where": "Professor Birch's Lab",
+   "later": true,
+   "need": "After the Hall of Fame (choose one)",
+   "after": "pokemon-league",
+   "stage": 70.5
+  },
+  {
+   "id": "item-professor-birch-s-lab-pok-ball-5",
+   "name": "Poké Ball ×5",
+   "from": "Your rival (after you get the Pokédex)",
+   "where": "Professor Birch's Lab"
+  },
+  {
+   "id": "item-professor-birch-s-lab-pok-dex",
+   "name": "Pokédex",
+   "from": "Professor Birch (after your first rival battle)",
+   "where": "Professor Birch's Lab"
+  },
+  {
+   "id": "item-your-house-2f-potion-in-your-pc",
+   "name": "Potion (in your PC)",
+   "from": "Your bedroom PC",
+   "where": "Your house 2F"
+  },
+  {
+   "id": "item-outside-running-shoes",
+   "name": "Running Shoes",
+   "from": "Mom (as you leave with the Pokédex)",
+   "where": "Outside"
+  },
+  {
+   "id": "item-your-house-1f-amulet-coin",
+   "name": "Amulet Coin",
+   "from": "Mom (once you have Dad's badge, the fifth)",
+   "where": "Your house 1F",
+   "later": true,
+   "need": "Norman's Balance Badge (your fifth)",
+   "after": "lavaridge-town",
+   "stage": 30.5
+  },
+  {
+   "id": "item-your-house-1f-s-s-ticket",
+   "name": "S.S. Ticket",
+   "from": "Dad (after you enter the Hall of Fame)",
+   "where": "Your house 1F",
+   "later": true,
+   "need": "After the Hall of Fame",
+   "after": "pokemon-league",
+   "stage": 70.5
+  }
+ ],
+ "trainers": [],
+ "verified": true,
+ "sources": [
+  "https://mrwalkthroughs.com/pokemon-emerald-seaglass/"
+ ]
+}

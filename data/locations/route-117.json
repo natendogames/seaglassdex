@@ -1,0 +1,872 @@
+{
+ "id": "route-117",
+ "name": "Route 117",
+ "encounters": [
+  {
+   "dex": 345,
+   "name": "Volbeat",
+   "method": "grass",
+   "levels": "13",
+   "rate": "20%"
+  },
+  {
+   "dex": 346,
+   "name": "Illumise",
+   "method": "grass",
+   "levels": "13",
+   "rate": "20%"
+  },
+  {
+   "dex": 93,
+   "name": "Doduo",
+   "method": "grass",
+   "levels": "13",
+   "rate": "10%"
+  },
+  {
+   "dex": 145,
+   "name": "Smoochum",
+   "method": "grass",
+   "levels": "13",
+   "rate": "10%"
+  },
+  {
+   "dex": 147,
+   "name": "Elekid",
+   "method": "grass",
+   "levels": "14",
+   "rate": "10%"
+  },
+  {
+   "dex": 150,
+   "name": "Magby",
+   "method": "grass",
+   "levels": "14",
+   "rate": "10%"
+  },
+  {
+   "dex": 347,
+   "name": "Budew",
+   "method": "grass",
+   "levels": "13",
+   "rate": "10%"
+  },
+  {
+   "dex": 116,
+   "name": "Tyrogue",
+   "method": "grass",
+   "levels": "14",
+   "rate": "4%"
+  },
+  {
+   "dex": 130,
+   "name": "Tangela",
+   "method": "grass",
+   "levels": "14",
+   "rate": "4%"
+  },
+  {
+   "dex": 205,
+   "name": "Togepi",
+   "method": "grass",
+   "levels": "13",
+   "rate": "2%"
+  },
+  {
+   "dex": 214,
+   "name": "Marill",
+   "method": "surf",
+   "levels": "5-35",
+   "rate": "99%"
+  },
+  {
+   "dex": 136,
+   "name": "Goldeen",
+   "method": "surf",
+   "levels": "20-30",
+   "rate": "1%"
+  },
+  {
+   "dex": 155,
+   "name": "Magikarp",
+   "method": "old-rod",
+   "levels": "5-10",
+   "rate": "70%"
+  },
+  {
+   "dex": 136,
+   "name": "Goldeen",
+   "method": "old-rod",
+   "levels": "5-10",
+   "rate": "30%"
+  },
+  {
+   "dex": 155,
+   "name": "Magikarp",
+   "method": "good-rod",
+   "levels": "10-30",
+   "rate": "60%"
+  },
+  {
+   "dex": 227,
+   "name": "Wooper",
+   "method": "good-rod",
+   "levels": "10-30",
+   "rate": "20%"
+  },
+  {
+   "dex": 375,
+   "name": "Corphish",
+   "method": "good-rod",
+   "levels": "10-30",
+   "rate": "20%"
+  },
+  {
+   "dex": 375,
+   "name": "Corphish",
+   "method": "super-rod",
+   "levels": "20-45",
+   "rate": "100%"
+  },
+  {
+   "dex": 92,
+   "name": "Farfetch'd",
+   "method": "dexnav",
+   "levels": "12-15",
+   "rate": "33%"
+  },
+  {
+   "dex": 116,
+   "name": "Tyrogue",
+   "method": "dexnav",
+   "levels": "12-15",
+   "rate": "33%"
+  },
+  {
+   "dex": 208,
+   "name": "Natu",
+   "method": "dexnav",
+   "levels": "12-15",
+   "rate": "33%"
+  }
+ ],
+ "items": [
+  {
+   "id": "outside-great-ball",
+   "name": "Great Ball",
+   "hidden": false,
+   "where": "Outside"
+  },
+  {
+   "id": "outside-revive",
+   "name": "Revive",
+   "hidden": false,
+   "where": "Outside"
+  },
+  {
+   "id": "hidden-outside-repel",
+   "name": "Repel",
+   "hidden": true,
+   "where": "Outside"
+  }
+ ],
+ "gifts": [],
+ "trainers": [
+  {
+   "class": "Sr. and Jr.",
+   "name": "Anna ~ Meg",
+   "prize": 544,
+   "party": [
+    {
+     "dex": 196,
+     "name": "Furret",
+     "level": 15,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Growl",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Tail Whip",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Headbutt",
+       "type": "Normal",
+       "power": 70,
+       "category": "physical"
+      },
+      {
+       "name": "Odor Sleuth",
+       "type": "Normal",
+       "category": "status"
+      }
+     ]
+    },
+    {
+     "dex": 328,
+     "name": "Makuhita",
+     "level": 17,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Tackle",
+       "type": "Normal",
+       "power": 40,
+       "category": "physical"
+      },
+      {
+       "name": "Focus Energy",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Arm Thrust",
+       "type": "Fighting",
+       "power": 15,
+       "category": "physical"
+      }
+     ]
+    }
+   ],
+   "double": true,
+   "id": "anna-and-meg"
+  },
+  {
+   "class": "Triathlete",
+   "name": "Dylan",
+   "prize": 680,
+   "party": [
+    {
+     "dex": 93,
+     "name": "Doduo",
+     "level": 17,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Rage",
+       "type": "Normal",
+       "power": 20,
+       "category": "physical"
+      },
+      {
+       "name": "Mud-Slap",
+       "type": "Ground",
+       "power": 20,
+       "category": "special"
+      },
+      {
+       "name": "Fury Attack",
+       "type": "Normal",
+       "power": 15,
+       "category": "physical"
+      },
+      {
+       "name": "Pursuit",
+       "type": "Dark",
+       "power": 40,
+       "category": "physical"
+      }
+     ]
+    }
+   ],
+   "id": "dylan"
+  },
+  {
+   "class": "Pokémon Breeder",
+   "name": "Isaac",
+   "prize": 440,
+   "party": [
+    {
+     "dex": 325,
+     "name": "Whismur",
+     "level": 11,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Pound",
+       "type": "Normal",
+       "power": 40,
+       "category": "physical"
+      },
+      {
+       "name": "Echoed Voice",
+       "type": "Normal",
+       "power": 40,
+       "category": "special"
+      },
+      {
+       "name": "Astonish",
+       "type": "Ghost",
+       "power": 30,
+       "category": "physical"
+      },
+      {
+       "name": "Howl",
+       "type": "Normal",
+       "category": "status"
+      }
+     ]
+    },
+    {
+     "dex": 294,
+     "name": "Zigzagoon",
+     "level": 11,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Growl",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Tail Whip",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Sand Attack",
+       "type": "Ground",
+       "category": "status"
+      },
+      {
+       "name": "Headbutt",
+       "type": "Normal",
+       "power": 70,
+       "category": "physical"
+      }
+     ]
+    },
+    {
+     "dex": 336,
+     "name": "Aron",
+     "level": 11,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Harden",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Mud-Slap",
+       "type": "Ground",
+       "power": 20,
+       "category": "special"
+      },
+      {
+       "name": "Headbutt",
+       "type": "Normal",
+       "power": 70,
+       "category": "physical"
+      },
+      {
+       "name": "Metal Claw",
+       "type": "Steel",
+       "power": 50,
+       "category": "physical"
+      }
+     ]
+    },
+    {
+     "dex": 292,
+     "name": "Poochyena",
+     "level": 11,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Tackle",
+       "type": "Normal",
+       "power": 40,
+       "category": "physical"
+      },
+      {
+       "name": "Howl",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Sand Attack",
+       "type": "Ground",
+       "category": "status"
+      },
+      {
+       "name": "Bite",
+       "type": "Dark",
+       "power": 60,
+       "category": "physical"
+      }
+     ]
+    },
+    {
+     "dex": 307,
+     "name": "Taillow",
+     "level": 11,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Peck",
+       "type": "Flying",
+       "power": 35,
+       "category": "physical"
+      },
+      {
+       "name": "Growl",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Focus Energy",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Quick Attack",
+       "type": "Normal",
+       "power": 40,
+       "category": "physical"
+      }
+     ]
+    },
+    {
+     "dex": 328,
+     "name": "Makuhita",
+     "level": 11,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Focus Energy",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Sand Attack",
+       "type": "Ground",
+       "category": "status"
+      },
+      {
+       "name": "Arm Thrust",
+       "type": "Fighting",
+       "power": 15,
+       "category": "physical"
+      },
+      {
+       "name": "Fake Out",
+       "type": "Normal",
+       "power": 40,
+       "category": "physical"
+      }
+     ]
+    }
+   ],
+   "id": "isaac"
+  },
+  {
+   "class": "Triathlete",
+   "name": "Maria",
+   "prize": 680,
+   "party": [
+    {
+     "dex": 93,
+     "name": "Doduo",
+     "level": 17,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Rage",
+       "type": "Normal",
+       "power": 20,
+       "category": "physical"
+      },
+      {
+       "name": "Mud-Slap",
+       "type": "Ground",
+       "power": 20,
+       "category": "special"
+      },
+      {
+       "name": "Fury Attack",
+       "type": "Normal",
+       "power": 15,
+       "category": "physical"
+      },
+      {
+       "name": "Pursuit",
+       "type": "Dark",
+       "power": 40,
+       "category": "physical"
+      }
+     ]
+    }
+   ],
+   "id": "maria"
+  },
+  {
+   "class": "Battle Girl",
+   "name": "Aisha",
+   "prize": 408,
+   "party": [
+    {
+     "dex": 339,
+     "name": "Meditite",
+     "level": 17,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Detect",
+       "type": "Fighting",
+       "category": "status"
+      },
+      {
+       "name": "Endure",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Feint",
+       "type": "Normal",
+       "power": 30,
+       "category": "physical"
+      },
+      {
+       "name": "Force Palm",
+       "type": "Fighting",
+       "power": 60,
+       "category": "physical"
+      }
+     ]
+    }
+   ],
+   "id": "aisha"
+  },
+  {
+   "class": "Bug Maniac",
+   "name": "Derek",
+   "prize": 960,
+   "party": [
+    {
+     "dex": 300,
+     "name": "Dustox",
+     "level": 16,
+     "iv": 18,
+     "moves": [
+      {
+       "name": "Gust",
+       "type": "Flying",
+       "power": 40,
+       "category": "special"
+      },
+      {
+       "name": "Confusion",
+       "type": "Psychic",
+       "power": 50,
+       "category": "special"
+      },
+      {
+       "name": "Poison Powder",
+       "type": "Poison",
+       "category": "status"
+      }
+     ]
+    },
+    {
+     "dex": 298,
+     "name": "Beautifly",
+     "level": 16,
+     "iv": 18,
+     "moves": [
+      {
+       "name": "Gust",
+       "type": "Flying",
+       "power": 40,
+       "category": "special"
+      },
+      {
+       "name": "Absorb",
+       "type": "Grass",
+       "power": 30,
+       "category": "special"
+      },
+      {
+       "name": "Stun Spore",
+       "type": "Grass",
+       "category": "status"
+      }
+     ]
+    }
+   ],
+   "id": "derek"
+  },
+  {
+   "class": "Triathlete",
+   "name": "Melina",
+   "prize": 680,
+   "party": [
+    {
+     "dex": 93,
+     "name": "Doduo",
+     "level": 17,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Rage",
+       "type": "Normal",
+       "power": 20,
+       "category": "physical"
+      },
+      {
+       "name": "Mud-Slap",
+       "type": "Ground",
+       "power": 20,
+       "category": "special"
+      },
+      {
+       "name": "Fury Attack",
+       "type": "Normal",
+       "power": 15,
+       "category": "physical"
+      },
+      {
+       "name": "Pursuit",
+       "type": "Dark",
+       "power": 40,
+       "category": "physical"
+      }
+     ]
+    }
+   ],
+   "id": "melina"
+  },
+  {
+   "class": "Psychic",
+   "name": "Brandi",
+   "prize": 408,
+   "party": [
+    {
+     "dex": 141,
+     "name": "Mr. Mime",
+     "level": 17,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Meditate",
+       "type": "Psychic",
+       "category": "status"
+      },
+      {
+       "name": "Double Slap",
+       "type": "Normal",
+       "power": 15,
+       "category": "physical"
+      },
+      {
+       "name": "Mimic",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Psywave",
+       "type": "Psychic",
+       "power": 1,
+       "category": "special"
+      }
+     ]
+    }
+   ],
+   "id": "brandi"
+  },
+  {
+   "class": "Pokémon Breeder",
+   "name": "Lydia",
+   "prize": 440,
+   "party": [
+    {
+     "dex": 309,
+     "name": "Wingull",
+     "level": 11,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Growl",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Water Gun",
+       "type": "Water",
+       "power": 40,
+       "category": "special"
+      },
+      {
+       "name": "Supersonic",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Wing Attack",
+       "type": "Flying",
+       "power": 60,
+       "category": "physical"
+      }
+     ]
+    },
+    {
+     "dex": 317,
+     "name": "Shroomish",
+     "level": 11,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Absorb",
+       "type": "Grass",
+       "power": 30,
+       "category": "special"
+      },
+      {
+       "name": "Tackle",
+       "type": "Normal",
+       "power": 40,
+       "category": "physical"
+      },
+      {
+       "name": "Stun Spore",
+       "type": "Grass",
+       "category": "status"
+      },
+      {
+       "name": "Leech Seed",
+       "type": "Grass",
+       "category": "status"
+      }
+     ]
+    },
+    {
+     "dex": 214,
+     "name": "Marill",
+     "level": 11,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Water Sport",
+       "type": "Water",
+       "category": "status"
+      },
+      {
+       "name": "Bubble",
+       "type": "Water",
+       "power": 30,
+       "category": "special"
+      },
+      {
+       "name": "Defense Curl",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Rollout",
+       "type": "Rock",
+       "power": 30,
+       "category": "physical"
+      }
+     ]
+    },
+    {
+     "dex": 348,
+     "name": "Roselia",
+     "level": 11,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Absorb",
+       "type": "Grass",
+       "power": 30,
+       "category": "special"
+      },
+      {
+       "name": "Growth",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Poison Sting",
+       "type": "Poison",
+       "power": 15,
+       "category": "physical"
+      },
+      {
+       "name": "Stun Spore",
+       "type": "Grass",
+       "category": "status"
+      }
+     ]
+    },
+    {
+     "dex": 332,
+     "name": "Skitty",
+     "level": 11,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Tackle",
+       "type": "Normal",
+       "power": 40,
+       "category": "physical"
+      },
+      {
+       "name": "Foresight",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Sing",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Attract",
+       "type": "Normal",
+       "category": "status"
+      }
+     ]
+    },
+    {
+     "dex": 136,
+     "name": "Goldeen",
+     "level": 11,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Tail Whip",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Water Sport",
+       "type": "Water",
+       "category": "status"
+      },
+      {
+       "name": "Supersonic",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Horn Attack",
+       "type": "Normal",
+       "power": 65,
+       "category": "physical"
+      }
+     ]
+    }
+   ],
+   "id": "lydia"
+  }
+ ],
+ "verified": true,
+ "sources": [
+  "https://mrwalkthroughs.com/pokemon-emerald-seaglass/"
+ ]
+}

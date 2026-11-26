@@ -1,0 +1,338 @@
+{
+ "id": "route-102",
+ "name": "Route 102",
+ "encounters": [
+  {
+   "dex": 292,
+   "name": "Poochyena",
+   "method": "grass",
+   "levels": "3",
+   "rate": "20%"
+  },
+  {
+   "dex": 296,
+   "name": "Wurmple",
+   "method": "grass",
+   "levels": "3",
+   "rate": "20%"
+  },
+  {
+   "dex": 47,
+   "name": "Oddish",
+   "method": "grass",
+   "levels": "4",
+   "rate": "10%"
+  },
+  {
+   "dex": 76,
+   "name": "Bellsprout",
+   "method": "grass",
+   "levels": "4",
+   "rate": "10%"
+  },
+  {
+   "dex": 213,
+   "name": "Azurill",
+   "method": "grass",
+   "levels": "4",
+   "rate": "10%"
+  },
+  {
+   "dex": 301,
+   "name": "Lotad",
+   "method": "grass",
+   "levels": "3",
+   "rate": "10%"
+  },
+  {
+   "dex": 315,
+   "name": "Surskit",
+   "method": "grass",
+   "levels": "3-4",
+   "rate": "9%"
+  },
+  {
+   "dex": 223,
+   "name": "Sunkern",
+   "method": "grass",
+   "levels": "3",
+   "rate": "5%"
+  },
+  {
+   "dex": 311,
+   "name": "Ralts",
+   "method": "grass",
+   "levels": "4",
+   "rate": "4%"
+  },
+  {
+   "dex": 304,
+   "name": "Seedot",
+   "method": "grass",
+   "levels": "3-4",
+   "rate": "2%"
+  },
+  {
+   "dex": 214,
+   "name": "Marill",
+   "method": "surf",
+   "levels": "5-35",
+   "rate": "99%"
+  },
+  {
+   "dex": 136,
+   "name": "Goldeen",
+   "method": "surf",
+   "levels": "20-30",
+   "rate": "1%"
+  },
+  {
+   "dex": 155,
+   "name": "Magikarp",
+   "method": "old-rod",
+   "levels": "5-10",
+   "rate": "70%"
+  },
+  {
+   "dex": 136,
+   "name": "Goldeen",
+   "method": "old-rod",
+   "levels": "5-10",
+   "rate": "30%"
+  },
+  {
+   "dex": 155,
+   "name": "Magikarp",
+   "method": "good-rod",
+   "levels": "10-30",
+   "rate": "60%"
+  },
+  {
+   "dex": 136,
+   "name": "Goldeen",
+   "method": "good-rod",
+   "levels": "10-30",
+   "rate": "20%"
+  },
+  {
+   "dex": 375,
+   "name": "Corphish",
+   "method": "good-rod",
+   "levels": "10-30",
+   "rate": "20%"
+  },
+  {
+   "dex": 375,
+   "name": "Corphish",
+   "method": "super-rod",
+   "levels": "20-45",
+   "rate": "100%"
+  },
+  {
+   "dex": 47,
+   "name": "Oddish",
+   "method": "dexnav",
+   "levels": "3-5",
+   "rate": "33%"
+  },
+  {
+   "dex": 70,
+   "name": "Abra",
+   "method": "dexnav",
+   "levels": "3-5",
+   "rate": "33%"
+  },
+  {
+   "dex": 76,
+   "name": "Bellsprout",
+   "method": "dexnav",
+   "levels": "3-5",
+   "rate": "33%"
+  }
+ ],
+ "items": [
+  {
+   "id": "outside-potion",
+   "name": "Potion",
+   "hidden": false,
+   "where": "Outside"
+  }
+ ],
+ "gifts": [],
+ "trainers": [
+  {
+   "class": "Youngster",
+   "name": "Calvin",
+   "prize": 80,
+   "party": [
+    {
+     "dex": 197,
+     "name": "Hoothoot",
+     "level": 5,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Tackle",
+       "type": "Normal",
+       "power": 40,
+       "category": "physical"
+      },
+      {
+       "name": "Growl",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Foresight",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Hypnosis",
+       "type": "Psychic",
+       "category": "status"
+      }
+     ]
+    }
+   ],
+   "id": "calvin"
+  },
+  {
+   "class": "Bug Catcher",
+   "name": "Rick",
+   "prize": 64,
+   "party": [
+    {
+     "dex": 296,
+     "name": "Wurmple",
+     "level": 4,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Tackle",
+       "type": "Normal",
+       "power": 40,
+       "category": "physical"
+      },
+      {
+       "name": "String Shot",
+       "type": "Bug",
+       "category": "status"
+      }
+     ]
+    },
+    {
+     "dex": 199,
+     "name": "Ledyba",
+     "level": 4,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Tackle",
+       "type": "Normal",
+       "power": 40,
+       "category": "physical"
+      }
+     ]
+    }
+   ],
+   "id": "rick"
+  },
+  {
+   "class": "Youngster",
+   "name": "Allen",
+   "prize": 48,
+   "party": [
+    {
+     "dex": 21,
+     "name": "Spearow",
+     "level": 4,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Peck",
+       "type": "Flying",
+       "power": 35,
+       "category": "physical"
+      },
+      {
+       "name": "Growl",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Leer",
+       "type": "Normal",
+       "category": "status"
+      }
+     ]
+    },
+    {
+     "dex": 307,
+     "name": "Taillow",
+     "level": 3,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Peck",
+       "type": "Flying",
+       "power": 35,
+       "category": "physical"
+      },
+      {
+       "name": "Growl",
+       "type": "Normal",
+       "category": "status"
+      }
+     ]
+    }
+   ],
+   "id": "allen"
+  },
+  {
+   "class": "Lass",
+   "name": "Tiana",
+   "prize": 64,
+   "party": [
+    {
+     "dex": 294,
+     "name": "Zigzagoon",
+     "level": 4,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Tackle",
+       "type": "Normal",
+       "power": 40,
+       "category": "physical"
+      },
+      {
+       "name": "Growl",
+       "type": "Normal",
+       "category": "status"
+      }
+     ]
+    },
+    {
+     "dex": 76,
+     "name": "Bellsprout",
+     "level": 4,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Vine Whip",
+       "type": "Grass",
+       "power": 45,
+       "category": "physical"
+      }
+     ]
+    }
+   ],
+   "id": "tiana"
+  }
+ ],
+ "verified": true,
+ "sources": [
+  "https://mrwalkthroughs.com/pokemon-emerald-seaglass/"
+ ]
+}

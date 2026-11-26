@@ -1,0 +1,706 @@
+{
+ "id": "route-128",
+ "name": "Route 128",
+ "encounters": [
+  {
+   "dex": 217,
+   "name": "Sudowoodo",
+   "method": "grass",
+   "levels": "30-34",
+   "rate": "20%"
+  },
+  {
+   "dex": 223,
+   "name": "Sunkern",
+   "method": "grass",
+   "levels": "30-34",
+   "rate": "20%"
+  },
+  {
+   "dex": 17,
+   "name": "Pidgeotto",
+   "method": "grass",
+   "levels": "30-34",
+   "rate": "10%"
+  },
+  {
+   "dex": 50,
+   "name": "Bellossom",
+   "method": "grass",
+   "levels": "30-34",
+   "rate": "10%"
+  },
+  {
+   "dex": 198,
+   "name": "Noctowl",
+   "method": "grass",
+   "levels": "30-34",
+   "rate": "10%"
+  },
+  {
+   "dex": 202,
+   "name": "Ariados",
+   "method": "grass",
+   "levels": "30-34",
+   "rate": "10%"
+  },
+  {
+   "dex": 113,
+   "name": "Exeggutor",
+   "method": "grass",
+   "levels": "30-34",
+   "rate": "8%"
+  },
+  {
+   "dex": 18,
+   "name": "Pidgeot",
+   "method": "grass",
+   "levels": "30-34",
+   "rate": "5%"
+  },
+  {
+   "dex": 131,
+   "name": "Tangrowth",
+   "method": "grass",
+   "levels": "30-34",
+   "rate": "5%"
+  },
+  {
+   "dex": 175,
+   "name": "Aerodactyl",
+   "method": "grass",
+   "levels": "30-34",
+   "rate": "2%"
+  },
+  {
+   "dex": 79,
+   "name": "Tentacool",
+   "method": "surf",
+   "levels": "5-35",
+   "rate": "60%"
+  },
+  {
+   "dex": 406,
+   "name": "Luvdisc",
+   "method": "surf",
+   "levels": "10-30",
+   "rate": "35%"
+  },
+  {
+   "dex": 264,
+   "name": "Mantine",
+   "method": "surf",
+   "levels": "25-30",
+   "rate": "5%"
+  },
+  {
+   "dex": 155,
+   "name": "Magikarp",
+   "method": "old-rod",
+   "levels": "5-10",
+   "rate": "70%"
+  },
+  {
+   "dex": 79,
+   "name": "Tentacool",
+   "method": "old-rod",
+   "levels": "5-10",
+   "rate": "30%"
+  },
+  {
+   "dex": 155,
+   "name": "Magikarp",
+   "method": "good-rod",
+   "levels": "10-30",
+   "rate": "60%"
+  },
+  {
+   "dex": 354,
+   "name": "Wailmer",
+   "method": "good-rod",
+   "levels": "10-30",
+   "rate": "20%"
+  },
+  {
+   "dex": 406,
+   "name": "Luvdisc",
+   "method": "good-rod",
+   "levels": "10-30",
+   "rate": "20%"
+  },
+  {
+   "dex": 403,
+   "name": "Huntail",
+   "method": "super-rod",
+   "levels": "30-35",
+   "rate": "40%"
+  },
+  {
+   "dex": 404,
+   "name": "Gorebyss",
+   "method": "super-rod",
+   "levels": "30-35",
+   "rate": "40%"
+  },
+  {
+   "dex": 259,
+   "name": "Corsola",
+   "method": "super-rod",
+   "levels": "30-35",
+   "rate": "15%"
+  },
+  {
+   "dex": 354,
+   "name": "Wailmer",
+   "method": "super-rod",
+   "levels": "35-45",
+   "rate": "5%"
+  },
+  {
+   "dex": 400,
+   "name": "Sealeo",
+   "method": "dexnav-surf",
+   "levels": "10-30",
+   "rate": "66%"
+  },
+  {
+   "dex": 406,
+   "name": "Luvdisc",
+   "method": "dexnav-surf",
+   "levels": "10-30",
+   "rate": "33%"
+  }
+ ],
+ "items": [
+  {
+   "id": "hidden-outside-heart-scale",
+   "name": "Heart Scale",
+   "hidden": true,
+   "where": "Outside"
+  },
+  {
+   "id": "hidden-outside-heart-scale-2",
+   "name": "Heart Scale",
+   "hidden": true,
+   "where": "Outside"
+  },
+  {
+   "id": "hidden-outside-heart-scale-3",
+   "name": "Heart Scale",
+   "hidden": true,
+   "where": "Outside"
+  },
+  {
+   "id": "hidden-underwater-protein",
+   "name": "Protein",
+   "hidden": true,
+   "where": "Underwater"
+  },
+  {
+   "id": "hidden-underwater-pearl",
+   "name": "Pearl",
+   "hidden": true,
+   "where": "Underwater"
+  }
+ ],
+ "gifts": [],
+ "trainers": [
+  {
+   "class": "Cool Trainer",
+   "name": "Alexa",
+   "prize": 1632,
+   "party": [
+    {
+     "dex": 113,
+     "name": "Exeggutor",
+     "level": 34,
+     "iv": 12,
+     "moves": [
+      {
+       "name": "Confusion",
+       "type": "Psychic",
+       "power": 50,
+       "category": "special"
+      },
+      {
+       "name": "Worry Seed",
+       "type": "Grass",
+       "category": "status"
+      },
+      {
+       "name": "Giga Drain",
+       "type": "Grass",
+       "power": 75,
+       "category": "special"
+      },
+      {
+       "name": "Extrasensory",
+       "type": "Psychic",
+       "power": 80,
+       "category": "special"
+      }
+     ]
+    },
+    {
+     "dex": 215,
+     "name": "Azumarill",
+     "level": 34,
+     "iv": 12,
+     "moves": [
+      {
+       "name": "Aqua Tail",
+       "type": "Water",
+       "power": 90,
+       "category": "physical"
+      },
+      {
+       "name": "Play Rough",
+       "type": "Fairy",
+       "power": 90,
+       "category": "physical"
+      },
+      {
+       "name": "Aqua Ring",
+       "type": "Water",
+       "category": "status"
+      },
+      {
+       "name": "Body Slam",
+       "type": "Normal",
+       "power": 85,
+       "category": "physical"
+      }
+     ]
+    }
+   ],
+   "uses": [
+    "Full Restore"
+   ],
+   "id": "alexa"
+  },
+  {
+   "class": "Triathlete",
+   "name": "Isaiah",
+   "prize": 1400,
+   "party": [
+    {
+     "dex": 142,
+     "name": "Scyther",
+     "level": 35,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Wing Attack",
+       "type": "Flying",
+       "power": 60,
+       "category": "physical"
+      },
+      {
+       "name": "Fury Cutter",
+       "type": "Bug",
+       "power": 40,
+       "category": "physical"
+      },
+      {
+       "name": "Slash",
+       "type": "Normal",
+       "power": 70,
+       "category": "physical"
+      },
+      {
+       "name": "Swords Dance",
+       "type": "Normal",
+       "category": "status"
+      }
+     ]
+    },
+    {
+     "dex": 374,
+     "name": "Whiscash",
+     "level": 35,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Rest",
+       "type": "Psychic",
+       "category": "status"
+      },
+      {
+       "name": "Snore",
+       "type": "Normal",
+       "power": 50,
+       "category": "special"
+      },
+      {
+       "name": "Aqua Tail",
+       "type": "Water",
+       "power": 90,
+       "category": "physical"
+      },
+      {
+       "name": "Earthquake",
+       "type": "Ground",
+       "power": 100,
+       "category": "physical"
+      }
+     ]
+    }
+   ],
+   "id": "isaiah"
+  },
+  {
+   "class": "Cool Trainer",
+   "name": "Ruben",
+   "prize": 1632,
+   "party": [
+    {
+     "dex": 306,
+     "name": "Shiftry",
+     "level": 34,
+     "iv": 12,
+     "moves": [
+      {
+       "name": "Feint Attack",
+       "type": "Dark",
+       "power": 60,
+       "category": "physical"
+      },
+      {
+       "name": "Leaf Blade",
+       "type": "Grass",
+       "power": 90,
+       "category": "physical"
+      },
+      {
+       "name": "Lash Out",
+       "type": "Dark",
+       "power": 75,
+       "category": "physical"
+      },
+      {
+       "name": "Swagger",
+       "type": "Normal",
+       "category": "status"
+      }
+     ]
+    },
+    {
+     "dex": 331,
+     "name": "Probopass",
+     "level": 34,
+     "iv": 12,
+     "moves": [
+      {
+       "name": "Power Gem",
+       "type": "Rock",
+       "power": 80,
+       "category": "special"
+      },
+      {
+       "name": "Rock Blast",
+       "type": "Rock",
+       "power": 25,
+       "category": "physical"
+      },
+      {
+       "name": "Discharge",
+       "type": "Electric",
+       "power": 80,
+       "category": "special"
+      },
+      {
+       "name": "Sandstorm",
+       "type": "Rock",
+       "category": "status"
+      }
+     ]
+    }
+   ],
+   "uses": [
+    "Hyper Potion"
+   ],
+   "id": "ruben"
+  },
+  {
+   "class": "Fisherman",
+   "name": "Wayne",
+   "prize": 1440,
+   "party": [
+    {
+     "dex": 79,
+     "name": "Tentacool",
+     "level": 31,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Acid Spray",
+       "type": "Poison",
+       "power": 40,
+       "category": "special"
+      },
+      {
+       "name": "Bubble Beam",
+       "type": "Water",
+       "power": 65,
+       "category": "special"
+      },
+      {
+       "name": "Barrier",
+       "type": "Psychic",
+       "category": "status"
+      },
+      {
+       "name": "Poison Jab",
+       "type": "Poison",
+       "power": 80,
+       "category": "physical"
+      }
+     ]
+    },
+    {
+     "dex": 95,
+     "name": "Seel",
+     "level": 31,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Rest",
+       "type": "Psychic",
+       "category": "status"
+      },
+      {
+       "name": "Aqua Ring",
+       "type": "Water",
+       "category": "status"
+      },
+      {
+       "name": "Aurora Beam",
+       "type": "Ice",
+       "power": 65,
+       "category": "special"
+      },
+      {
+       "name": "Aqua Jet",
+       "type": "Water",
+       "power": 40,
+       "category": "physical"
+      }
+     ]
+    },
+    {
+     "dex": 354,
+     "name": "Wailmer",
+     "level": 36,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Mist",
+       "type": "Ice",
+       "category": "status"
+      },
+      {
+       "name": "Brine",
+       "type": "Water",
+       "power": 65,
+       "category": "special"
+      },
+      {
+       "name": "Rest",
+       "type": "Psychic",
+       "category": "status"
+      },
+      {
+       "name": "Water Spout",
+       "type": "Water",
+       "power": 150,
+       "category": "special"
+      }
+     ]
+    }
+   ],
+   "id": "wayne"
+  },
+  {
+   "class": "Triathlete",
+   "name": "Katelyn",
+   "prize": 1400,
+   "party": [
+    {
+     "dex": 88,
+     "name": "Slowking",
+     "level": 35,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Disable",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Headbutt",
+       "type": "Normal",
+       "power": 70,
+       "category": "physical"
+      },
+      {
+       "name": "Water Pulse",
+       "type": "Water",
+       "power": 60,
+       "category": "special"
+      },
+      {
+       "name": "Zen Headbutt",
+       "type": "Psychic",
+       "power": 80,
+       "category": "physical"
+      }
+     ]
+    }
+   ],
+   "id": "katelyn"
+  },
+  {
+   "class": "Swimmer♂",
+   "name": "Harrison",
+   "prize": 280,
+   "party": [
+    {
+     "dex": 80,
+     "name": "Tentacruel",
+     "level": 35,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Acid Spray",
+       "type": "Poison",
+       "power": 40,
+       "category": "special"
+      },
+      {
+       "name": "Bubble Beam",
+       "type": "Water",
+       "power": 65,
+       "category": "special"
+      },
+      {
+       "name": "Barrier",
+       "type": "Psychic",
+       "category": "status"
+      },
+      {
+       "name": "Poison Jab",
+       "type": "Poison",
+       "power": 80,
+       "category": "physical"
+      }
+     ]
+    },
+    {
+     "dex": 259,
+     "name": "Corsola",
+     "level": 35,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Iron Defense",
+       "type": "Steel",
+       "category": "status"
+      },
+      {
+       "name": "Rock Blast",
+       "type": "Rock",
+       "power": 25,
+       "category": "physical"
+      },
+      {
+       "name": "Icicle Spear",
+       "type": "Ice",
+       "power": 25,
+       "category": "physical"
+      },
+      {
+       "name": "Endure",
+       "type": "Normal",
+       "category": "status"
+      }
+     ]
+    }
+   ],
+   "id": "harrison"
+  },
+  {
+   "class": "Swimmer♀",
+   "name": "Carlee",
+   "prize": 280,
+   "party": [
+    {
+     "dex": 137,
+     "name": "Seaking",
+     "level": 35,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Psycho Cut",
+       "type": "Psychic",
+       "power": 70,
+       "category": "physical"
+      },
+      {
+       "name": "Agility",
+       "type": "Psychic",
+       "category": "status"
+      },
+      {
+       "name": "Waterfall",
+       "type": "Water",
+       "power": 80,
+       "category": "physical"
+      },
+      {
+       "name": "Aqua Cutter",
+       "type": "Water",
+       "power": 70,
+       "category": "physical"
+      }
+     ]
+    },
+    {
+     "dex": 87,
+     "name": "Slowbro",
+     "level": 35,
+     "iv": 0,
+     "moves": [
+      {
+       "name": "Disable",
+       "type": "Normal",
+       "category": "status"
+      },
+      {
+       "name": "Headbutt",
+       "type": "Normal",
+       "power": 70,
+       "category": "physical"
+      },
+      {
+       "name": "Water Pulse",
+       "type": "Water",
+       "power": 60,
+       "category": "special"
+      },
+      {
+       "name": "Zen Headbutt",
+       "type": "Psychic",
+       "power": 80,
+       "category": "physical"
+      }
+     ]
+    }
+   ],
+   "id": "carlee"
+  }
+ ],
+ "verified": true,
+ "sources": [
+  "https://mrwalkthroughs.com/pokemon-emerald-seaglass/"
+ ]
+}

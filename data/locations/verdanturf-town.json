@@ -1,0 +1,37 @@
+{
+ "id": "verdanturf-town",
+ "name": "Verdanturf Town",
+ "encounters": [],
+ "items": [],
+ "gifts": [
+  {
+   "id": "item-outside-wishing-star-3",
+   "name": "Wishing Star ×3",
+   "from": "Camper",
+   "where": "Outside"
+  },
+  {
+   "id": "item-contest-lobby-pecha-berry",
+   "name": "Pecha Berry",
+   "from": "Contest Lobby",
+   "where": "Contest Lobby"
+  },
+  {
+   "id": "item-contest-lobby-pok-block-case",
+   "name": "Pokéblock Case",
+   "from": "Teala",
+   "where": "Contest Lobby"
+  },
+  {
+   "id": "item-contest-lobby-luxury-ball",
+   "name": "Luxury Ball",
+   "from": "Teala",
+   "where": "Contest Lobby"
+  }
+ ],
+ "trainers": [],
+ "verified": true,
+ "sources": [
+  "https://mrwalkthroughs.com/pokemon-emerald-seaglass/"
+ ]
+}

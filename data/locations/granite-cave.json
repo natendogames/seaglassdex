@@ -1,0 +1,311 @@
+{
+ "id": "granite-cave",
+ "name": "Granite Cave",
+ "encounters": [
+  {
+   "dex": 44,
+   "name": "Zubat",
+   "method": "grass",
+   "levels": "7-8",
+   "rate": "30%",
+   "area": "1F"
+  },
+  {
+   "dex": 328,
+   "name": "Makuhita",
+   "method": "grass",
+   "levels": "7-8",
+   "rate": "30%",
+   "area": "1F"
+  },
+  {
+   "dex": 55,
+   "name": "Diglett",
+   "method": "grass",
+   "levels": "9",
+   "rate": "10%",
+   "area": "1F"
+  },
+  {
+   "dex": 70,
+   "name": "Abra",
+   "method": "grass",
+   "levels": "8",
+   "rate": "10%",
+   "area": "1F"
+  },
+  {
+   "dex": 73,
+   "name": "Machop",
+   "method": "grass",
+   "levels": "6-10",
+   "rate": "10%",
+   "area": "1F"
+  },
+  {
+   "dex": 81,
+   "name": "Geodude",
+   "method": "grass",
+   "levels": "6-9",
+   "rate": "10%",
+   "area": "1F"
+  },
+  {
+   "dex": 336,
+   "name": "Aron",
+   "method": "grass",
+   "levels": "9-11",
+   "rate": "40%",
+   "area": "B1F"
+  },
+  {
+   "dex": 44,
+   "name": "Zubat",
+   "method": "grass",
+   "levels": "9-10",
+   "rate": "30%",
+   "area": "B1F"
+  },
+  {
+   "dex": 73,
+   "name": "Machop",
+   "method": "grass",
+   "levels": "9",
+   "rate": "10%",
+   "area": "B1F"
+  },
+  {
+   "dex": 328,
+   "name": "Makuhita",
+   "method": "grass",
+   "levels": "10-11",
+   "rate": "10%",
+   "area": "B1F"
+  },
+  {
+   "dex": 81,
+   "name": "Geodude",
+   "method": "grass",
+   "levels": "10",
+   "rate": "8%",
+   "area": "B1F"
+  },
+  {
+   "dex": 334,
+   "name": "Sableye",
+   "method": "grass",
+   "levels": "9-11",
+   "rate": "2%",
+   "area": "B1F"
+  },
+  {
+   "dex": 336,
+   "name": "Aron",
+   "method": "grass",
+   "levels": "10-11",
+   "rate": "30%",
+   "area": "B2F"
+  },
+  {
+   "dex": 44,
+   "name": "Zubat",
+   "method": "grass",
+   "levels": "10",
+   "rate": "20%",
+   "area": "B2F"
+  },
+  {
+   "dex": 114,
+   "name": "Cubone",
+   "method": "grass",
+   "levels": "12",
+   "rate": "10%",
+   "area": "B2F"
+  },
+  {
+   "dex": 334,
+   "name": "Sableye",
+   "method": "grass",
+   "levels": "10-12",
+   "rate": "10%",
+   "area": "B2F"
+  },
+  {
+   "dex": 335,
+   "name": "Mawile",
+   "method": "grass",
+   "levels": "11",
+   "rate": "10%",
+   "area": "B2F"
+  },
+  {
+   "dex": 387,
+   "name": "Shuppet",
+   "method": "grass",
+   "levels": "10",
+   "rate": "10%",
+   "area": "B2F"
+  },
+  {
+   "dex": 101,
+   "name": "Gastly",
+   "method": "grass",
+   "levels": "10",
+   "rate": "5%",
+   "area": "B2F"
+  },
+  {
+   "dex": 231,
+   "name": "Misdreavus",
+   "method": "grass",
+   "levels": "11",
+   "rate": "5%",
+   "area": "B2F"
+  },
+  {
+   "dex": 81,
+   "name": "Geodude",
+   "method": "rock-smash",
+   "levels": "5-20",
+   "rate": "70%",
+   "area": "B2F"
+  },
+  {
+   "dex": 330,
+   "name": "Nosepass",
+   "method": "rock-smash",
+   "levels": "10-20",
+   "rate": "30%",
+   "area": "B2F"
+  },
+  {
+   "dex": 104,
+   "name": "Onix",
+   "method": "grass",
+   "levels": "8",
+   "rate": "30%",
+   "area": "Steven's Room"
+  },
+  {
+   "dex": 44,
+   "name": "Zubat",
+   "method": "grass",
+   "levels": "7",
+   "rate": "20%",
+   "area": "Steven's Room"
+  },
+  {
+   "dex": 328,
+   "name": "Makuhita",
+   "method": "grass",
+   "levels": "6-7",
+   "rate": "15%",
+   "area": "Steven's Room"
+  },
+  {
+   "dex": 356,
+   "name": "Numel",
+   "method": "grass",
+   "levels": "9-10",
+   "rate": "15%",
+   "area": "Steven's Room"
+  },
+  {
+   "dex": 70,
+   "name": "Abra",
+   "method": "grass",
+   "levels": "8",
+   "rate": "10%",
+   "area": "Steven's Room"
+  },
+  {
+   "dex": 336,
+   "name": "Aron",
+   "method": "grass",
+   "levels": "7-8",
+   "rate": "10%",
+   "area": "Steven's Room"
+  }
+ ],
+ "items": [
+  {
+   "id": "1f-escape-rope",
+   "name": "Escape Rope",
+   "hidden": false,
+   "where": "1F"
+  },
+  {
+   "id": "b1f-pok-ball",
+   "name": "Poké Ball",
+   "hidden": false,
+   "where": "B1F"
+  },
+  {
+   "id": "b2f-repel",
+   "name": "Repel",
+   "hidden": false,
+   "where": "B2F",
+   "later": true,
+   "need": "the Mach Bike (from Rydel in Mauville City; he swaps it for the Acro Bike any time)",
+   "after": "mauville-city",
+   "stage": 17
+  },
+  {
+   "id": "b2f-rare-candy",
+   "name": "Rare Candy",
+   "hidden": false,
+   "where": "B2F",
+   "later": true,
+   "need": "the Mach Bike (from Rydel in Mauville City; he swaps it for the Acro Bike any time)",
+   "after": "mauville-city",
+   "stage": 17
+  },
+  {
+   "id": "b2f-wishing-star",
+   "name": "Wishing Star",
+   "hidden": false,
+   "where": "B2F"
+  },
+  {
+   "id": "hidden-b2f-everstone",
+   "name": "Everstone",
+   "hidden": true,
+   "where": "B2F",
+   "later": true,
+   "need": "the Mach Bike (from Rydel in Mauville City; he swaps it for the Acro Bike any time)",
+   "after": "mauville-city",
+   "stage": 17
+  },
+  {
+   "id": "hidden-b2f-everstone-2",
+   "name": "Everstone",
+   "hidden": true,
+   "where": "B2F"
+  }
+ ],
+ "gifts": [
+  {
+   "id": "item-1f-hm05",
+   "name": "HM05",
+   "from": "Hiker",
+   "where": "1F"
+  },
+  {
+   "id": "item-b1f-wishing-star-4",
+   "name": "Wishing Star ×4",
+   "from": "Hiker",
+   "where": "B1F"
+  },
+  {
+   "id": "item-steven-s-room-tm47",
+   "name": "TM47",
+   "from": "Steven",
+   "where": "Steven's Room"
+  }
+ ],
+ "trainers": [],
+ "verified": true,
+ "sources": [
+  "https://mrwalkthroughs.com/pokemon-emerald-seaglass/"
+ ]
+}
