@@ -1,7 +1,24 @@
 {
  "id": "navel-rock",
  "name": "Navel Rock",
- "encounters": [],
+ "encounters": [
+  {
+   "dex": 280,
+   "name": "Lugia",
+   "method": "static",
+   "levels": "50",
+   "area": "Bottom",
+   "notes": "Mystic Ticket from the old sailor in Mossdeep (show him an Octillery). Comes back after you beat the Elite Four again if it faints or you run."
+  },
+  {
+   "dex": 281,
+   "name": "Ho-Oh",
+   "method": "static",
+   "levels": "50",
+   "area": "Top",
+   "notes": "Mystic Ticket from the old sailor in Mossdeep (show him an Octillery). Comes back after you beat the Elite Four again if it faints or you run."
+  }
+ ],
  "items": [
   {
    "id": "hidden-top-sacred-ash",

@@ -427,12 +427,6 @@
    "file": "locations/pokemon-league.json"
   },
   {
-   "id": "roaming",
-   "name": "Roaming Legendary",
-   "region": "Post-game",
-   "file": "locations/roaming.json"
-  },
-  {
    "id": "ss-tidal",
    "name": "S.S. Tidal",
    "region": "Post-game",

@@ -1,7 +1,24 @@
 {
  "id": "southern-island",
  "name": "Southern Island",
- "encounters": [],
+ "encounters": [
+  {
+   "dex": 417,
+   "name": "Latios",
+   "method": "static",
+   "levels": "50",
+   "area": "Interior",
+   "notes": "Latias or Latios: one of the two waits here, at random each time you come in (Eon Ticket from the old sailor in Mossdeep). After the Hall of Fame you can come back for the other."
+  },
+  {
+   "dex": 416,
+   "name": "Latias",
+   "method": "static",
+   "levels": "50",
+   "area": "Interior",
+   "notes": "Latias or Latios: one of the two waits here, at random each time you come in (Eon Ticket from the old sailor in Mossdeep). After the Hall of Fame you can come back for the other."
+  }
+ ],
  "items": [],
  "gifts": [],
  "trainers": [],

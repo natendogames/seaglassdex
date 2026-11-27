@@ -123,7 +123,7 @@
   {
    "id": "item-harbor-deep-sea-tooth",
    "name": "Deep Sea Tooth",
-   "from": "Scientist",
+   "from": "Capt. Stern in the harbor (trade him the Scanner from the Abandoned Ship; choose one)",
    "where": "Harbor",
    "later": true,
    "need": "After Magma Hideout",
@@ -133,7 +133,7 @@
   {
    "id": "item-harbor-deep-sea-scale",
    "name": "Deep Sea Scale",
-   "from": "Scientist",
+   "from": "Capt. Stern in the harbor (trade him the Scanner from the Abandoned Ship; choose one)",
    "where": "Harbor",
    "later": true,
    "need": "After Magma Hideout",

@@ -80,6 +80,11 @@ const KANTO_OK = [/A peculiar box made by Silph Co\./, /Pewter Crunchies/];
     scan(f, fs.readFileSync(path.join(ROOT, f), 'utf8').split('\n').map(l => l.replace(/\s\/\/ .*$/, '')).join('\n'));
   }
 
+  // Seaglass: you can run from the start (no Running Shoes); Mom enables the DexNav; the S.S. Ticket comes from Mossdeep, not Dad
+  const lr = J('data/locations/littleroot-town.json').gifts.map(g => g.name);
+  if (lr.includes('Running Shoes') || !lr.includes('DexNav')) fail(`Littleroot should list Mom's DexNav and no Running Shoes: ${lr.join(', ')}`);
+  if (lr.includes('S.S. Ticket')) fail('Littleroot lists an S.S. Ticket from Dad; Seaglass gives it in Mossdeep');
+  if (!J('data/locations/mossdeep-city.json').gifts.some(g => g.name === 'S.S. Ticket')) fail('Mossdeep is missing the S.S. Ticket');
   // Seaglass's new-game PC holds a Shiny Charm (vanilla Emerald's is a Potion)
   const pc = J('data/locations/littleroot-town.json').gifts.filter(g => /in your PC/.test(g.name)).map(g => g.name);
   if (pc.join() !== 'Shiny Charm (in your PC)') fail(`Littleroot bedroom PC should hold a Shiny Charm, got: ${pc.join(', ') || 'nothing'}`);

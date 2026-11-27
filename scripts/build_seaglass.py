@@ -293,17 +293,23 @@ gift_pos = {}  # (location id, gift id) -> (map, script label)
 def add_gift(k, name, label):
     gifts.setdefault(k, True); gift_src.setdefault(k, (name, label))
 statics = collections.OrderedDict()
+SP_BY_ID = {x['id']: x['const'].replace('SPECIES_', '') for x in TB['species']}
 for name in sorted(maps):
     m = maps[name]
     if map_skipped(name) or name == 'Route110_TrickHouseEntrance': continue  # the entrance only re-offers Trick House prizes your bag had no room for
     f = os.path.join(m['_dir'], 'scripts.inc')
     if not os.path.exists(f): continue
     lid = map_loc(name); area = area_name(name)
-    label = ''
+    label = ''; ev = {}
     for line in open(f, encoding='utf-8'):
         lm = re.match(r'(\w+)::', line)
-        if lm: label = lm.group(1); continue
+        if lm: label = lm.group(1); ev = {}; continue
         s = line.strip()
+        # Seaglass's event legendaries: setvar VAR_0x8004 <species id>, VAR_0x8005 <level>, then special CreateEnemyEventMon
+        vm = re.match(r'setvar VAR_0x800([45]), (\d+)$', s)
+        if vm: ev[vm.group(1)] = int(vm.group(2)); continue
+        if s == 'special CreateEnemyEventMon' and ev.get('4') in SP_BY_ID:
+            statics.setdefault((lid, area, SP_BY_ID[ev['4']], str(ev.get('5', ''))), True); continue
         gm = re.match(r'(?:giveitem|giveitem_msg)\s+(ITEM_\w+)(?:,\s*(\d+))?', s)
         if gm:
             it, q = gm.group(1), int(gm.group(2) or 1)
@@ -324,7 +330,6 @@ for name in sorted(maps):
             add_gift((lid, 'trade', f'Trade: give {species_const[give]}, get {species_const[get]} ("{title(nick)}")', area, who(label, name), get), name, label)
 # Seaglass: a sailor in the Game Corner hands out a random Alolan egg for 2 Pinball points (giveegg VAR_RESULT after a
 # random pick of setorcopyvar VAR_RESULT, <species id>)
-SP_BY_ID = {x['id']: x['const'].replace('SPECIES_', '') for x in TB['species']}
 RANDOM_EGGS = []  # (location id, area, [species consts])
 for name in sorted(maps):
     f = os.path.join(maps[name]['_dir'], 'scripts.inc')
@@ -347,10 +352,10 @@ EXTRA_GIFTS = [
     # and {ITEM_SHINY_CHARM (691), 1}, {ITEM_NONE, 0} sits at 0x6bb92c
     ('littleroot-town', 'item', 'Shiny Charm (in your PC)', 'Your house 2F', 'Your bedroom PC', None),
     # gifts from shared scripts (data/scripts/*.inc), which the map pass doesn't see
-    ('littleroot-town', 'item', 'Running Shoes', 'Outside', 'Mom (as you leave with the Pokédex)', None),
+    # Seaglass: you can run from the start (the truck intro sets FLAG_SYS_B_DASH); Mom's scene enables the DexNav instead
+    ('littleroot-town', 'item', 'DexNav', 'Outside', 'Mom (as you leave with the Pokédex)', None),
     ('littleroot-town', 'item', 'Amulet Coin', 'Your house 1F', "Mom (once you have Dad's badge, the fifth)", None),
-    ('littleroot-town', 'item', 'S.S. Ticket', 'Your house 1F', 'Dad (after you enter the Hall of Fame)', None),
-    ('lilycove-city', 'item', 'Pokéblock Case', 'Contest Lobby', 'Contest receptionist', None),
+    # (no S.S. Ticket from Dad: the Hall of Fame skips his scene; the old sailor in Mossdeep gives it)
     ('route-111', 'item', 'TM43', 'Outside', 'Boy by the Secret Base tree', None),
     ('rustboro-city', 'item', 'PokéNav', 'Devon Corp 3F', 'Mr. Stone (return the Devon Goods)', None),
 ]
@@ -389,6 +394,8 @@ FROM_FIX = {'Give Red Scarf': 'Fan Club chairman (lead Pokémon with high Cool)'
     'Soft Sand Girl': 'Girl', 'Boy 2': 'Boy', 'White Herb Florist': 'Florist', 'Rock Smash Dude': 'Rock Smash Guy', 'Glass Worker': 'Glass Workshop (trade volcanic ash)'}
 # Seaglass gifts whose script is new (hex label), named from the ROM's own dialogue
 SG_FROM = {
+    ('slateport-city', 'Deep Sea Tooth'): 'Capt. Stern in the harbor (trade him the Scanner from the Abandoned Ship; choose one)',
+    ('slateport-city', 'Deep Sea Scale'): 'Capt. Stern in the harbor (trade him the Scanner from the Abandoned Ship; choose one)',
     ('fallarbor-town', 'Spiky-eared Pichu (Lv 5)'): 'Professor Elm (catch 50 species; he checks your Pokédex)',
     ('fortree-city', 'Shiny Charm'): "The little shrines around Fortree (follow the glimmers from shrine to shrine)",
     ('lavaridge-town', 'Go-Goggles'): 'Your rival',
@@ -426,7 +433,6 @@ SG_LATER = {
     ('littleroot-town', 'Exp. Charm'): ('pokemon-league', 'After the Hall of Fame (comes with your Johto starter)'),
     **{('littleroot-town', f'{n} (Lv 5)'): ('pokemon-league', 'After the Hall of Fame (choose one)') for n in ('Chikorita', 'Cyndaquil', 'Totodile')},
     ('littleroot-town', 'Amulet Coin'): ('lavaridge-town', "Norman's Balance Badge (your fifth)"),
-    ('littleroot-town', 'S.S. Ticket'): ('pokemon-league', 'After the Hall of Fame'),
     ('mossdeep-city', 'Aurora Ticket'): ('sky-pillar', 'A caught Rayquaza to show the old sailor'),
     ('fallarbor-town', 'Spiky-eared Pichu (Lv 5)'): ('fallarbor-town', '50 species caught in your Pokédex'),
 }
@@ -449,6 +455,39 @@ for k in gifts:
         loc['encounters'].append({**mon('SPECIES_' + k[5]), 'method': GMETHOD[kind], 'area': area,
                                   **({'levels': lvl} if lvl else {}), 'notes': nm + ' · ' + frm,
                                   **({'after': GIFT_AFTER[k[5]]} if k[5] in GIFT_AFTER else {})})
+# ROM evidence for the hand-added gifts above (shared scripts the map pass doesn't read). The build fails if the ROM
+# doesn't have it, and every gift in the app gets a source in data/verify/rom-sources.json (tests/rom_sources.js).
+EXTRA_EVIDENCE = {
+    'Starter Pokémon (Treecko, Torchic or Mudkip)': ('data/maps/Route101/scripts.inc', r'ChooseStarter|BirchsBag|BIRCH'),
+    'Pokédex': ('data/maps/LittlerootTown_ProfessorBirchsLab/scripts.inc', r'FLAG_SYS_POKEDEX_GET'),
+    'Shiny Charm (in your PC)': (None, 'PC item table {ITEM_SHINY_CHARM, 1} at ROM 0x6bb92c'),
+    'DexNav': ('data/maps/LittlerootTown/scripts.inc', r'MOM enabled the ~~~DEXNAV'),
+    'Amulet Coin': ('data/scripts/shared.inc', r'giveitem ITEM_AMULET_COIN'),
+    'TM43': ('data/maps/Route111/scripts.inc', r'giveitem ITEM_TM43'),
+    'PokéNav': ('data/maps/RustboroCity_DevonCorp_3F/scripts.inc', r'setflag FLAG_RECEIVED_POKENAV'),
+}
+rom_sources = {}
+for k in EXTRA_GIFTS:
+    f, rx = EXTRA_EVIDENCE[k[2]]
+    if f:
+        txt = open(os.path.join(SRC, f), encoding='utf-8', errors='replace').read()
+        m = re.search(rx, txt)
+        assert m, f'ROM has no evidence for hand-added gift {k[2]} ({f}: {rx})'
+        line = txt[:m.start()].count('\n') + 1
+        rom_sources[(k[0], k[2])] = f'{f}:{line}'
+    else:
+        rom_sources[(k[0], k[2])] = rx
+src_out = {}
+for lid, l in locs.items():
+    for g in l['gifts']:
+        pos = gift_pos.get((lid, g['id']))
+        src = f'{pos[0]}: {pos[1]}' if pos else rom_sources.get((lid, g['name']))
+        assert src, f'gift with no ROM source: {lid} {g["name"]}'
+        src_out.setdefault(lid, {})[g['id']] = src
+json.dump(src_out, open(os.path.join(OUT, 'verify', 'rom-sources.json'), 'w'), ensure_ascii=False, indent=0, sort_keys=True)
+if os.environ.get('GIFT_SRC_OUT'):  # ROM audit: every gift with the map script label it comes from
+    json.dump([[lid, gid, g['from'], g['name'], *gift_pos[(lid, gid)]] for lid, l in locs.items() for g in l['gifts'] for gid in [g['id']] if (lid, gid) in gift_pos],
+              open(os.environ['GIFT_SRC_OUT'], 'w'), ensure_ascii=False)
 for lid, area, pool in RANDOM_EGGS:
     for sp in pool:
         locs[lid]['encounters'].append({**mon('SPECIES_' + sp), 'method': 'gift', 'levels': '1', 'area': area,
@@ -456,13 +495,25 @@ for lid, area, pool in RANDOM_EGGS:
 for sp in ('TREECKO', 'TORCHIC', 'MUDKIP'):
     locs['route-101']['encounters'].append({**mon('SPECIES_' + sp), 'method': 'gift', 'levels': '5', 'area': 'Outside',
                                             'notes': "Starter: choose one from Professor Birch's bag. Get the other two by trading."})
+SAILOR = 'The old sailor from Mossdeep calls it here, once he has given you the Aurora Ticket (show him a caught Rayquaza) and you talk to him again. If it faints or you run, beat the Elite Four again to retry.'
 STATIC_AFTER = {('route-119', 'KECLEON'): ('route-120', 'Invisible until you have the Devon Scope from Steven on Route 120.'),
                ('route-120', 'KECLEON'): ('route-120', 'Invisible until you have the Devon Scope from Steven on the bridge.'),
+               # The old sailor (Mossdeep) waits at these spots once he has given you the Aurora Ticket (needs a caught Rayquaza) and you talk to him again
+               **{sp: ('sky-pillar', SAILOR) for sp in ('CELEBI', 'MEWTWO')},
+               **{sp: ('sky-pillar', SAILOR + ' Only one of Articuno, Zapdos and Moltres comes each time.') for sp in ('ARTICUNO', 'ZAPDOS', 'MOLTRES')},
+               **{sp: ('sky-pillar', SAILOR + ' Only one of Raikou, Entei and Suicune comes each time.') for sp in ('RAIKOU', 'ENTEI', 'SUICUNE')},
+               'JIRACHI': (None, 'Place a Wishing Star at the white rock (the girl in Rustboro gives you some). If it faints or you run, it comes back after you beat the Elite Four again.'),
+               'LATIAS': (None, 'Latias or Latios: one of the two waits here, at random each time you come in (Eon Ticket from the old sailor in Mossdeep). After the Hall of Fame you can come back for the other.'),
+               'LATIOS': (None, 'Latias or Latios: one of the two waits here, at random each time you come in (Eon Ticket from the old sailor in Mossdeep). After the Hall of Fame you can come back for the other.'),
+               'LUGIA': (None, 'Mystic Ticket from the old sailor in Mossdeep (show him an Octillery). Comes back after you beat the Elite Four again if it faints or you run.'),
+               'HO_OH': (None, 'Mystic Ticket from the old sailor in Mossdeep (show him an Octillery). Comes back after you beat the Elite Four again if it faints or you run.'),
+               'DEOXYS': (None, 'Aurora Ticket from the old sailor in Mossdeep (show him a Rayquaza). Solve the triangle puzzle. Comes back after you beat the Elite Four again if it faints or you run.'),
+               'MEW': (None, 'Old Sea Map from the old sailor in Mossdeep (show him a Rhydon). Comes back after you beat the Elite Four again if it faints or you run.'),
                'RAYQUAZA': ('sootopolis-city', 'Asleep at the top until the story wakes it; back at the top and catchable once it has calmed Groudon and Kyogre in Sootopolis. Needs the Mach Bike. Save first.')}
 for (lid, area, sp, lvl) in statics:
     a = STATIC_AFTER.get((lid, sp)) or STATIC_AFTER.get(sp)
     locs[lid]['encounters'].append({**mon('SPECIES_' + sp), 'method': 'static', 'levels': lvl, 'area': area, 'notes': a[1] if a else 'One chance: save first',
-                                    **({'after': a[0]} if a else {})})
+                                    **({'after': a[0]} if a and a[0] else {})})
 # Feebas lives on six random water tiles of Route 119 (any rod); the tiles change when the trendy phrase changes.
 if not any(k[2] == 'FEEBAS' for k in locs['route-119']['_enc']): locs['route-119']['encounters'].append({**mon('SPECIES_FEEBAS'), 'method': 'old-rod', 'levels': '20-25', 'area': 'Outside', 'rate': '50%',
                                         'notes': 'Feebas: only on 6 random water tiles along the river. Fish each tile a few times with any rod.'})
@@ -807,11 +858,7 @@ for k, nm in move_names.items():
                      **({'flags': m_['flags']} if m_.get('flags') else {})}
 
 # ---------- roaming legendary + story order ----------
-locs['roaming'] = {'id': 'roaming', 'name': 'Roaming Legendary', 'encounters': [
-    {**mon('SPECIES_LATIOS'), 'method': 'roaming', 'levels': '40', 'notes': 'If you answer "blue" about the TV report after the Hall of Fame'},
-    {**mon('SPECIES_LATIAS'), 'method': 'roaming', 'levels': '40', 'notes': 'If you answer "red" about the TV report after the Hall of Fame'}],
-    'notes': "After you enter the Hall of Fame, your mom asks what color the Pokémon on the TV was. Your answer decides whether Latias (red) or Latios (blue) roams Hoenn's routes.",
-    'items': [], 'gifts': [], 'trainers': []}
+# (no roaming Latias/Latios in Seaglass: the Hall of Fame skips the TV scene; Southern Island has them instead)
 
 ORDER = [('Hoenn: Badge 1', 'littleroot-town route-101 oldale-town route-103 route-102 petalburg-city route-104 petalburg-woods rustboro-city'),
          ('Hoenn: Badges 2–3', 'route-116 rusturf-tunnel dewford-town granite-cave route-109 slateport-city pacifidlog-town route-110 mauville-city'),
@@ -819,7 +866,7 @@ ORDER = [('Hoenn: Badge 1', 'littleroot-town route-101 oldale-town route-103 rou
          ('Hoenn: Badges 5–6', 'mirage-tower route-105 route-106 route-107 route-108 abandoned-ship new-mauville route-118 route-119 fortree-city route-120 scorched-slab'),
          ('Hoenn: Badge 7', 'route-121 safari-zone lilycove-city route-122 mt-pyre route-123 magma-hideout aqua-hideout route-124 mossdeep-city route-125 shoal-cave'),
          ('Hoenn: Badge 8 & League', 'route-127 route-128 seafloor-cavern route-126 sootopolis-city cave-of-origin route-129 route-130 route-131 sky-pillar route-132 route-133 route-134 ever-grande-city victory-road pokemon-league'),
-         ('Post-game', 'roaming ss-tidal battle-frontier artisan-cave desert-underpass altering-cave sealed-chamber desert-ruins island-cave ancient-tomb marine-cave terra-cave'),
+         ('Post-game', 'ss-tidal battle-frontier artisan-cave desert-underpass altering-cave sealed-chamber desert-ruins island-cave ancient-tomb marine-cave terra-cave'),
          ('Event islands', 'southern-island faraway-island birth-island navel-rock')]
 walk = json.load(open(os.path.join(OUT, 'walkthrough.json')))
 index = []

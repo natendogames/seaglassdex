@@ -225,6 +225,15 @@
    "levels": "7-8",
    "rate": "10%",
    "area": "Steven's Room"
+  },
+  {
+   "dex": 184,
+   "name": "Mewtwo",
+   "method": "static",
+   "levels": "80",
+   "area": "Steven's Room",
+   "notes": "The old sailor from Mossdeep calls it here, once he has given you the Aurora Ticket (show him a caught Rayquaza) and you talk to him again. If it faints or you run, beat the Elite Four again to retry.",
+   "after": "sky-pillar"
   }
  ],
  "items": [

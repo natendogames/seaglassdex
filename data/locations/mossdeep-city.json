@@ -170,6 +170,14 @@
    "levels": "5",
    "notes": "Beldum (Lv 5) · Steven's house (after you enter the Hall of Fame)",
    "after": "pokemon-league"
+  },
+  {
+   "dex": 421,
+   "name": "Jirachi",
+   "method": "static",
+   "levels": "10",
+   "area": "Outside",
+   "notes": "Place a Wishing Star at the white rock (the girl in Rustboro gives you some). If it faints or you run, it comes back after you beat the Elite Four again."
   }
  ],
  "items": [

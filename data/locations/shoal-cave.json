@@ -385,6 +385,33 @@
    "levels": "32",
    "rate": "2%",
    "area": "Low Tide Stairs Room"
+  },
+  {
+   "dex": 276,
+   "name": "Suicune",
+   "method": "static",
+   "levels": "50",
+   "area": "Low Tide Ice Room",
+   "notes": "The old sailor from Mossdeep calls it here, once he has given you the Aurora Ticket (show him a caught Rayquaza) and you talk to him again. If it faints or you run, beat the Elite Four again to retry. Only one of Raikou, Entei and Suicune comes each time.",
+   "after": "sky-pillar"
+  },
+  {
+   "dex": 274,
+   "name": "Raikou",
+   "method": "static",
+   "levels": "50",
+   "area": "Low Tide Ice Room",
+   "notes": "The old sailor from Mossdeep calls it here, once he has given you the Aurora Ticket (show him a caught Rayquaza) and you talk to him again. If it faints or you run, beat the Elite Four again to retry. Only one of Raikou, Entei and Suicune comes each time.",
+   "after": "sky-pillar"
+  },
+  {
+   "dex": 275,
+   "name": "Entei",
+   "method": "static",
+   "levels": "50",
+   "area": "Low Tide Ice Room",
+   "notes": "The old sailor from Mossdeep calls it here, once he has given you the Aurora Ticket (show him a caught Rayquaza) and you talk to him again. If it faints or you run, beat the Elite Four again to retry. Only one of Raikou, Entei and Suicune comes each time.",
+   "after": "sky-pillar"
   }
  ],
  "items": [

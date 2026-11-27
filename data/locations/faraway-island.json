@@ -1,7 +1,16 @@
 {
  "id": "faraway-island",
  "name": "Faraway Island",
- "encounters": [],
+ "encounters": [
+  {
+   "dex": 185,
+   "name": "Mew",
+   "method": "static",
+   "levels": "30",
+   "area": "Interior",
+   "notes": "Old Sea Map from the old sailor in Mossdeep (show him a Rhydon). Comes back after you beat the Elite Four again if it faints or you run."
+  }
+ ],
  "items": [],
  "gifts": [],
  "trainers": [],
