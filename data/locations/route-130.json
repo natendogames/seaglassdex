@@ -182,7 +182,12 @@
     }
    ],
    "id": "rodney",
-   "map": true
+   "map": true,
+   "mo": [
+    0,
+    0
+   ],
+   "lbl": "A"
   },
   {
    "class": "Swimmer♀",
@@ -253,7 +258,12 @@
     }
    ],
    "id": "katie",
-   "map": true
+   "map": true,
+   "mo": [
+    0,
+    1
+   ],
+   "lbl": "B"
   },
   {
    "class": "Swimmer♂",
@@ -324,7 +334,12 @@
     }
    ],
    "id": "santiago",
-   "map": true
+   "map": true,
+   "mo": [
+    0,
+    2
+   ],
+   "lbl": "C"
   }
  ],
  "mapCount": 1,

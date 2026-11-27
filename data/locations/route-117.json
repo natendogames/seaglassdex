@@ -156,21 +156,36 @@
    "name": "Great Ball",
    "hidden": false,
    "where": "Outside",
-   "map": true
+   "map": true,
+   "mo": [
+    0,
+    1
+   ],
+   "lbl": "2"
   },
   {
    "id": "outside-revive",
    "name": "Revive",
    "hidden": false,
    "where": "Outside",
-   "map": true
+   "map": true,
+   "mo": [
+    0,
+    0
+   ],
+   "lbl": "1"
   },
   {
    "id": "hidden-outside-repel",
    "name": "Repel",
    "hidden": true,
    "where": "Outside",
-   "map": true
+   "map": true,
+   "mo": [
+    0,
+    2
+   ],
+   "lbl": "3"
   }
  ],
  "gifts": [],
@@ -237,7 +252,12 @@
    ],
    "double": true,
    "id": "anna-and-meg",
-   "map": true
+   "map": true,
+   "mo": [
+    0,
+    0
+   ],
+   "lbl": "A"
   },
   {
    "class": "Triathlete",
@@ -278,7 +298,12 @@
     }
    ],
    "id": "dylan",
-   "map": true
+   "map": true,
+   "mo": [
+    0,
+    2
+   ],
+   "lbl": "C"
   },
   {
    "class": "Pokémon Breeder",
@@ -468,7 +493,12 @@
     }
    ],
    "id": "isaac",
-   "map": true
+   "map": true,
+   "mo": [
+    0,
+    3
+   ],
+   "lbl": "D"
   },
   {
    "class": "Triathlete",
@@ -509,7 +539,12 @@
     }
    ],
    "id": "maria",
-   "map": true
+   "map": true,
+   "mo": [
+    0,
+    4
+   ],
+   "lbl": "E"
   },
   {
    "class": "Battle Girl",
@@ -548,7 +583,12 @@
     }
    ],
    "id": "aisha",
-   "map": true
+   "map": true,
+   "mo": [
+    0,
+    5
+   ],
+   "lbl": "F"
   },
   {
    "class": "Bug Maniac",
@@ -607,7 +647,12 @@
     }
    ],
    "id": "derek",
-   "map": true
+   "map": true,
+   "mo": [
+    0,
+    8
+   ],
+   "lbl": "I"
   },
   {
    "class": "Triathlete",
@@ -648,7 +693,12 @@
     }
    ],
    "id": "melina",
-   "map": true
+   "map": true,
+   "mo": [
+    0,
+    6
+   ],
+   "lbl": "G"
   },
   {
    "class": "Psychic",
@@ -687,7 +737,12 @@
     }
    ],
    "id": "brandi",
-   "map": true
+   "map": true,
+   "mo": [
+    0,
+    7
+   ],
+   "lbl": "H"
   },
   {
    "class": "Pokémon Breeder",
@@ -874,7 +929,12 @@
     }
    ],
    "id": "lydia",
-   "map": true
+   "map": true,
+   "mo": [
+    0,
+    9
+   ],
+   "lbl": "J"
   }
  ],
  "mapCount": 1,

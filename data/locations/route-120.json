@@ -185,63 +185,108 @@
    "name": "Nugget",
    "hidden": false,
    "where": "Outside",
-   "map": true
+   "map": true,
+   "mo": [
+    0,
+    6
+   ],
+   "lbl": "7"
   },
   {
    "id": "outside-full-heal",
    "name": "Full Heal",
    "hidden": false,
    "where": "Outside",
-   "map": true
+   "map": true,
+   "mo": [
+    0,
+    9
+   ],
+   "lbl": "10"
   },
   {
    "id": "outside-wide-lens",
    "name": "Wide Lens",
    "hidden": false,
    "where": "Outside",
-   "map": true
+   "map": true,
+   "mo": [
+    0,
+    2
+   ],
+   "lbl": "3"
   },
   {
    "id": "outside-hyper-potion",
    "name": "Hyper Potion",
    "hidden": false,
    "where": "Outside",
-   "map": true
+   "map": true,
+   "mo": [
+    0,
+    7
+   ],
+   "lbl": "8"
   },
   {
    "id": "outside-revive",
    "name": "Revive",
    "hidden": false,
    "where": "Outside",
-   "map": true
+   "map": true,
+   "mo": [
+    0,
+    4
+   ],
+   "lbl": "5"
   },
   {
    "id": "hidden-outside-rare-candy",
    "name": "Rare Candy",
    "hidden": true,
    "where": "Outside",
-   "map": true
+   "map": true,
+   "mo": [
+    0,
+    0
+   ],
+   "lbl": "1"
   },
   {
    "id": "hidden-outside-revive",
    "name": "Revive",
    "hidden": true,
    "where": "Outside",
-   "map": true
+   "map": true,
+   "mo": [
+    0,
+    1
+   ],
+   "lbl": "2"
   },
   {
    "id": "hidden-outside-rare-candy-2",
    "name": "Rare Candy",
    "hidden": true,
    "where": "Outside",
-   "map": true
+   "map": true,
+   "mo": [
+    0,
+    8
+   ],
+   "lbl": "9"
   },
   {
    "id": "hidden-outside-zinc",
    "name": "Zinc",
    "hidden": true,
    "where": "Outside",
-   "map": true
+   "map": true,
+   "mo": [
+    0,
+    5
+   ],
+   "lbl": "6"
   }
  ],
  "gifts": [
@@ -249,7 +294,13 @@
    "id": "item-outside-devon-scope",
    "name": "Devon Scope",
    "from": "Steven (after the Kecleon on the bridge)",
-   "where": "Outside"
+   "where": "Outside",
+   "map": true,
+   "mo": [
+    0,
+    3
+   ],
+   "lbl": "4"
   }
  ],
  "trainers": [
@@ -320,7 +371,12 @@
     }
    ],
    "id": "clarissa",
-   "map": true
+   "map": true,
+   "mo": [
+    0,
+    0
+   ],
+   "lbl": "A"
   },
   {
    "class": "Bird Keeper",
@@ -360,7 +416,12 @@
     }
    ],
    "id": "robert",
-   "map": true
+   "map": true,
+   "mo": [
+    0,
+    1
+   ],
+   "lbl": "B"
   },
   {
    "class": "Bird Keeper",
@@ -431,7 +492,12 @@
     }
    ],
    "id": "colin",
-   "map": true
+   "map": true,
+   "mo": [
+    0,
+    2
+   ],
+   "lbl": "C"
   },
   {
    "class": "Ninja Boy",
@@ -502,7 +568,12 @@
     }
    ],
    "id": "riley",
-   "map": true
+   "map": true,
+   "mo": [
+    0,
+    3
+   ],
+   "lbl": "D"
   },
   {
    "class": "Battle Girl",
@@ -573,7 +644,12 @@
     }
    ],
    "id": "callie",
-   "map": true
+   "map": true,
+   "mo": [
+    0,
+    6
+   ],
+   "lbl": "G"
   },
   {
    "class": "Cool Trainer",
@@ -610,7 +686,12 @@
     "Hyper Potion"
    ],
    "id": "leonel",
-   "map": true
+   "map": true,
+   "mo": [
+    0,
+    4
+   ],
+   "lbl": "E"
   },
   {
    "class": "Parasol Lady",
@@ -650,7 +731,12 @@
     }
    ],
    "id": "angelica",
-   "map": true
+   "map": true,
+   "mo": [
+    0,
+    5
+   ],
+   "lbl": "F"
   },
   {
    "class": "Cool Trainer",
@@ -693,7 +779,12 @@
     "Full Restore"
    ],
    "id": "jennifer",
-   "map": true
+   "map": true,
+   "mo": [
+    0,
+    7
+   ],
+   "lbl": "H"
   },
   {
    "class": "Pokémon Ranger",
@@ -797,7 +888,12 @@
     "Full Restore"
    ],
    "id": "jenna",
-   "map": true
+   "map": true,
+   "mo": [
+    0,
+    9
+   ],
+   "lbl": "J"
   },
   {
    "class": "Pokémon Ranger",
@@ -902,7 +998,12 @@
     "Full Restore"
    ],
    "id": "lorenzo",
-   "map": true
+   "map": true,
+   "mo": [
+    0,
+    8
+   ],
+   "lbl": "I"
   },
   {
    "class": "Ruin Maniac",
@@ -1004,7 +1105,12 @@
     }
    ],
    "id": "chip",
-   "map": true
+   "map": true,
+   "mo": [
+    0,
+    10
+   ],
+   "lbl": "K"
   },
   {
    "class": "Ninja Boy",
@@ -1072,7 +1178,12 @@
     }
    ],
    "id": "keigo",
-   "map": true
+   "map": true,
+   "mo": [
+    0,
+    11
+   ],
+   "lbl": "L"
   },
   {
    "class": "Bug Maniac",
@@ -1173,7 +1284,12 @@
     }
    ],
    "id": "jeffrey",
-   "map": true
+   "map": true,
+   "mo": [
+    0,
+    12
+   ],
+   "lbl": "M"
   }
  ],
  "mapCount": 1,

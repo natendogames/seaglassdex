@@ -105,35 +105,60 @@
    "name": "Electirizer",
    "hidden": false,
    "where": "Inside",
-   "map": true
+   "map": true,
+   "mo": [
+    0,
+    4
+   ],
+   "lbl": "5"
   },
   {
    "id": "inside-escape-rope",
    "name": "Escape Rope",
    "hidden": false,
    "where": "Inside",
-   "map": true
+   "map": true,
+   "mo": [
+    0,
+    3
+   ],
+   "lbl": "4"
   },
   {
    "id": "inside-thunder-stone",
    "name": "Thunder Stone",
    "hidden": false,
    "where": "Inside",
-   "map": true
+   "map": true,
+   "mo": [
+    0,
+    0
+   ],
+   "lbl": "1"
   },
   {
    "id": "inside-full-heal",
    "name": "Full Heal",
    "hidden": false,
    "where": "Inside",
-   "map": true
+   "map": true,
+   "mo": [
+    0,
+    1
+   ],
+   "lbl": "2"
   },
   {
    "id": "inside-paralyze-heal",
    "name": "Paralyze Heal",
    "hidden": false,
    "where": "Inside",
-   "map": true
+   "map": true,
+   "mo": [
+    0,
+    2
+   ],
+   "lbl": "3"
   }
  ],
  "gifts": [],

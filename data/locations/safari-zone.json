@@ -749,7 +749,12 @@
    "name": "Calcium",
    "hidden": false,
    "where": "North",
-   "map": true
+   "map": true,
+   "mo": [
+    0,
+    0
+   ],
+   "lbl": "1"
   },
   {
    "id": "northeast-nugget",
@@ -760,7 +765,12 @@
    "need": "After the Hall of Fame (the Safari Zone expansion opens then)",
    "after": "pokemon-league",
    "stage": 70,
-   "map": true
+   "map": true,
+   "mo": [
+    1,
+    2
+   ],
+   "lbl": "3"
   },
   {
    "id": "hidden-northeast-rare-candy",
@@ -771,7 +781,12 @@
    "need": "After the Hall of Fame (the Safari Zone expansion opens then)",
    "after": "pokemon-league",
    "stage": 70,
-   "map": true
+   "map": true,
+   "mo": [
+    1,
+    1
+   ],
+   "lbl": "2"
   },
   {
    "id": "hidden-northeast-zinc",
@@ -782,14 +797,24 @@
    "need": "After the Hall of Fame (the Safari Zone expansion opens then)",
    "after": "pokemon-league",
    "stage": 70,
-   "map": true
+   "map": true,
+   "mo": [
+    1,
+    0
+   ],
+   "lbl": "1"
   },
   {
    "id": "northwest-tm22",
    "name": "TM22",
    "hidden": false,
    "where": "Northwest",
-   "map": true
+   "map": true,
+   "mo": [
+    2,
+    0
+   ],
+   "lbl": "1"
   },
   {
    "id": "southeast-big-pearl",
@@ -800,7 +825,12 @@
    "need": "After the Hall of Fame (the Safari Zone expansion opens then)",
    "after": "pokemon-league",
    "stage": 70,
-   "map": true
+   "map": true,
+   "mo": [
+    3,
+    2
+   ],
+   "lbl": "3"
   },
   {
    "id": "hidden-southeast-pp-up",
@@ -811,7 +841,12 @@
    "need": "After the Hall of Fame (the Safari Zone expansion opens then)",
    "after": "pokemon-league",
    "stage": 70,
-   "map": true
+   "map": true,
+   "mo": [
+    3,
+    0
+   ],
+   "lbl": "1"
   },
   {
    "id": "hidden-southeast-full-restore",
@@ -822,14 +857,24 @@
    "need": "After the Hall of Fame (the Safari Zone expansion opens then)",
    "after": "pokemon-league",
    "stage": 70,
-   "map": true
+   "map": true,
+   "mo": [
+    3,
+    1
+   ],
+   "lbl": "2"
   },
   {
    "id": "southwest-max-revive",
    "name": "Max Revive",
    "hidden": false,
    "where": "Southwest",
-   "map": true
+   "map": true,
+   "mo": [
+    4,
+    0
+   ],
+   "lbl": "1"
   }
  ],
  "gifts": [],

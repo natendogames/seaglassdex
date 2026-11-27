@@ -57,37 +57,73 @@
    "id": "item-outside-figy-berry",
    "name": "Figy Berry",
    "from": "Kiri (daily berry)",
-   "where": "Outside"
+   "where": "Outside",
+   "map": true,
+   "mo": [
+    0,
+    0
+   ],
+   "lbl": "1"
   },
   {
    "id": "item-outside-iapapa-berry",
    "name": "Iapapa Berry",
    "from": "Kiri (daily berry)",
-   "where": "Outside"
+   "where": "Outside",
+   "map": true,
+   "mo": [
+    0,
+    0
+   ],
+   "lbl": "1"
   },
   {
    "id": "item-outside-master-ball",
    "name": "Master Ball",
    "from": "Wallace",
-   "where": "Outside"
+   "where": "Outside",
+   "map": true,
+   "mo": [
+    0,
+    1
+   ],
+   "lbl": "2"
   },
   {
    "id": "item-gym-1f-tm13",
    "name": "TM13",
    "from": "Juan (after winning)",
-   "where": "Gym 1F"
+   "where": "Gym 1F",
+   "map": true,
+   "mo": [
+    1,
+    0
+   ],
+   "lbl": "1"
   },
   {
    "id": "item-house-1-tm31",
    "name": "TM31",
    "from": "Black Belt",
-   "where": "House 1"
+   "where": "House 1",
+   "map": true,
+   "mo": [
+    3,
+    0
+   ],
+   "lbl": "1"
   },
   {
    "id": "item-lotad-and-seedot-house-elixir",
    "name": "Elixir",
    "from": "Man (show him a big Seedot)",
-   "where": "Lotad And Seedot House"
+   "where": "Lotad And Seedot House",
+   "map": true,
+   "mo": [
+    4,
+    0
+   ],
+   "lbl": "1"
   }
  ],
  "trainers": [
@@ -264,7 +300,12 @@
    ],
    "id": "juan",
    "area": "Gym 1F",
-   "map": true
+   "map": true,
+   "mo": [
+    1,
+    0
+   ],
+   "lbl": "A"
   },
   {
    "class": "Beauty",
@@ -305,7 +346,12 @@
    ],
    "id": "connie",
    "area": "Gym B1F",
-   "map": true
+   "map": true,
+   "mo": [
+    2,
+    0
+   ],
+   "lbl": "A"
   },
   {
    "class": "Lass",
@@ -345,7 +391,12 @@
    ],
    "id": "andrea",
    "area": "Gym B1F",
-   "map": true
+   "map": true,
+   "mo": [
+    2,
+    1
+   ],
+   "lbl": "B"
   },
   {
    "class": "Pokéfan",
@@ -418,7 +469,12 @@
    ],
    "id": "annika",
    "area": "Gym B1F",
-   "map": true
+   "map": true,
+   "mo": [
+    2,
+    3
+   ],
+   "lbl": "D"
   },
   {
    "class": "Lady",
@@ -493,7 +549,12 @@
    ],
    "id": "daphne",
    "area": "Gym B1F",
-   "map": true
+   "map": true,
+   "mo": [
+    2,
+    2
+   ],
+   "lbl": "C"
   },
   {
    "class": "Pokéfan",
@@ -596,7 +657,12 @@
    ],
    "id": "bethany",
    "area": "Gym B1F",
-   "map": true
+   "map": true,
+   "mo": [
+    2,
+    4
+   ],
+   "lbl": "E"
   },
   {
    "class": "Beauty",
@@ -636,7 +702,12 @@
    ],
    "id": "bridget",
    "area": "Gym B1F",
-   "map": true
+   "map": true,
+   "mo": [
+    2,
+    6
+   ],
+   "lbl": "G"
   },
   {
    "class": "Beauty",
@@ -735,7 +806,12 @@
    ],
    "id": "olivia",
    "area": "Gym B1F",
-   "map": true
+   "map": true,
+   "mo": [
+    2,
+    5
+   ],
+   "lbl": "F"
   },
   {
    "class": "Lass",
@@ -805,7 +881,12 @@
    ],
    "id": "crissy",
    "area": "Gym B1F",
-   "map": true
+   "map": true,
+   "mo": [
+    2,
+    7
+   ],
+   "lbl": "H"
   },
   {
    "class": "Lady",
@@ -850,7 +931,12 @@
    ],
    "id": "brianna",
    "area": "Gym B1F",
-   "map": true
+   "map": true,
+   "mo": [
+    2,
+    9
+   ],
+   "lbl": "J"
   },
   {
    "class": "Beauty",
@@ -922,10 +1008,15 @@
    ],
    "id": "tiffany",
    "area": "Gym B1F",
-   "map": true
+   "map": true,
+   "mo": [
+    2,
+    8
+   ],
+   "lbl": "I"
   }
  ],
- "mapCount": 3,
+ "mapCount": 5,
  "verified": true,
  "sources": [
   "https://mrwalkthroughs.com/pokemon-emerald-seaglass/"

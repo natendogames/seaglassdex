@@ -132,7 +132,12 @@
    "need": "the Go-Goggles from your rival in Lavaridge Town",
    "after": "lavaridge-town",
    "stage": 30.5,
-   "map": true
+   "map": true,
+   "mo": [
+    0,
+    8
+   ],
+   "lbl": "9"
   },
   {
    "id": "outside-stardust",
@@ -143,7 +148,12 @@
    "need": "the Go-Goggles from your rival in Lavaridge Town",
    "after": "lavaridge-town",
    "stage": 30.5,
-   "map": true
+   "map": true,
+   "mo": [
+    0,
+    4
+   ],
+   "lbl": "5"
   },
   {
    "id": "outside-hp-up",
@@ -154,21 +164,36 @@
    "need": "Surf (HM03 from Wally's father after you beat Norman in Petalburg City)",
    "after": "lavaridge-town",
    "stage": 30.5,
-   "map": true
+   "map": true,
+   "mo": [
+    0,
+    9
+   ],
+   "lbl": "10"
   },
   {
    "id": "outside-elixir",
    "name": "Elixir",
    "hidden": false,
    "where": "Outside",
-   "map": true
+   "map": true,
+   "mo": [
+    0,
+    0
+   ],
+   "lbl": "1"
   },
   {
    "id": "outside-wishing-star",
    "name": "Wishing Star",
    "hidden": false,
    "where": "Outside",
-   "map": true
+   "map": true,
+   "mo": [
+    0,
+    1
+   ],
+   "lbl": "2"
   },
   {
    "id": "hidden-outside-stardust",
@@ -179,7 +204,12 @@
    "need": "the Go-Goggles from your rival in Lavaridge Town",
    "after": "lavaridge-town",
    "stage": 30.5,
-   "map": true
+   "map": true,
+   "mo": [
+    0,
+    7
+   ],
+   "lbl": "8"
   },
   {
    "id": "hidden-outside-protein",
@@ -190,7 +220,12 @@
    "need": "the Go-Goggles from your rival in Lavaridge Town",
    "after": "lavaridge-town",
    "stage": 30.5,
-   "map": true
+   "map": true,
+   "mo": [
+    0,
+    5
+   ],
+   "lbl": "6"
   },
   {
    "id": "hidden-outside-rare-candy",
@@ -201,7 +236,12 @@
    "need": "the Go-Goggles from your rival in Lavaridge Town",
    "after": "lavaridge-town",
    "stage": 30.5,
-   "map": true
+   "map": true,
+   "mo": [
+    0,
+    6
+   ],
+   "lbl": "7"
   }
  ],
  "gifts": [
@@ -209,19 +249,37 @@
    "id": "item-outside-razz-berry",
    "name": "Razz Berry",
    "from": "Girl",
-   "where": "Outside"
+   "where": "Outside",
+   "map": true,
+   "mo": [
+    0,
+    2
+   ],
+   "lbl": "3"
   },
   {
    "id": "item-outside-tm43",
    "name": "TM43",
    "from": "Boy",
-   "where": "Outside"
+   "where": "Outside",
+   "map": true,
+   "mo": [
+    0,
+    3
+   ],
+   "lbl": "4"
   },
   {
    "id": "item-winstrate-family-s-house-macho-brace",
    "name": "Macho Brace",
    "from": "Victoria (after you beat the Winstrate family)",
-   "where": "Winstrate Family's House"
+   "where": "Winstrate Family's House",
+   "map": true,
+   "mo": [
+    1,
+    0
+   ],
+   "lbl": "1"
   }
  ],
  "trainers": [
@@ -262,7 +320,12 @@
     }
    ],
    "id": "celina",
-   "map": true
+   "map": true,
+   "mo": [
+    0,
+    0
+   ],
+   "lbl": "A"
   },
   {
    "class": "Camper",
@@ -303,7 +366,12 @@
     }
    ],
    "id": "tyron",
-   "map": true
+   "map": true,
+   "mo": [
+    0,
+    1
+   ],
+   "lbl": "B"
   },
   {
    "class": "Picnicker",
@@ -341,7 +409,12 @@
     }
    ],
    "id": "bianca",
-   "map": true
+   "map": true,
+   "mo": [
+    0,
+    2
+   ],
+   "lbl": "C"
   },
   {
    "class": "Kindler",
@@ -381,7 +454,12 @@
     }
    ],
    "id": "hayden",
-   "map": true
+   "map": true,
+   "mo": [
+    0,
+    3
+   ],
+   "lbl": "D"
   },
   {
    "class": "Winstrate",
@@ -452,7 +530,12 @@
     }
    ],
    "id": "victor",
-   "map": true
+   "map": true,
+   "mo": [
+    0,
+    4
+   ],
+   "lbl": "E"
   },
   {
    "class": "Winstrate",
@@ -699,7 +782,12 @@
    ],
    "double": true,
    "id": "gabby-and-ty",
-   "map": true
+   "map": true,
+   "mo": [
+    0,
+    5
+   ],
+   "lbl": "F"
   },
   {
    "class": "Picnicker",
@@ -769,7 +857,12 @@
     }
    ],
    "id": "irene",
-   "map": true
+   "map": true,
+   "mo": [
+    0,
+    7
+   ],
+   "lbl": "H"
   },
   {
    "class": "Camper",
@@ -808,7 +901,12 @@
     }
    ],
    "id": "travis",
-   "map": true
+   "map": true,
+   "mo": [
+    0,
+    8
+   ],
+   "lbl": "I"
   },
   {
    "class": "Ruin Maniac",
@@ -851,7 +949,12 @@
    "stage": "lavaridge-town",
    "later": true,
    "reach": "the Go-Goggles from your rival in Lavaridge Town",
-   "map": true
+   "map": true,
+   "mo": [
+    0,
+    16
+   ],
+   "lbl": "Q"
   },
   {
    "class": "Picnicker",
@@ -924,7 +1027,12 @@
    "stage": "lavaridge-town",
    "later": true,
    "reach": "the Go-Goggles from your rival in Lavaridge Town",
-   "map": true
+   "map": true,
+   "mo": [
+    0,
+    15
+   ],
+   "lbl": "P"
   },
   {
    "class": "Picnicker",
@@ -998,7 +1106,12 @@
    "stage": "lavaridge-town",
    "later": true,
    "reach": "the Go-Goggles from your rival in Lavaridge Town",
-   "map": true
+   "map": true,
+   "mo": [
+    0,
+    17
+   ],
+   "lbl": "R"
   },
   {
    "class": "Camper",
@@ -1104,7 +1217,12 @@
    "stage": "lavaridge-town",
    "later": true,
    "reach": "the Go-Goggles from your rival in Lavaridge Town",
-   "map": true
+   "map": true,
+   "mo": [
+    0,
+    13
+   ],
+   "lbl": "N"
   },
   {
    "class": "Picnicker",
@@ -1179,7 +1297,12 @@
    "stage": "lavaridge-town",
    "later": true,
    "reach": "the Go-Goggles from your rival in Lavaridge Town",
-   "map": true
+   "map": true,
+   "mo": [
+    0,
+    14
+   ],
+   "lbl": "O"
   },
   {
    "class": "Ruin Maniac",
@@ -1253,7 +1376,12 @@
    "stage": "lavaridge-town",
    "later": true,
    "reach": "the Go-Goggles from your rival in Lavaridge Town",
-   "map": true
+   "map": true,
+   "mo": [
+    0,
+    18
+   ],
+   "lbl": "S"
   },
   {
    "class": "Camper",
@@ -1327,7 +1455,12 @@
    "stage": "lavaridge-town",
    "later": true,
    "reach": "the Go-Goggles from your rival in Lavaridge Town",
-   "map": true
+   "map": true,
+   "mo": [
+    0,
+    19
+   ],
+   "lbl": "T"
   },
   {
    "class": "Camper",
@@ -1369,7 +1502,12 @@
    "stage": "lavaridge-town",
    "later": true,
    "reach": "the Go-Goggles from your rival in Lavaridge Town",
-   "map": true
+   "map": true,
+   "mo": [
+    0,
+    12
+   ],
+   "lbl": "M"
   },
   {
    "class": "Black Belt",
@@ -1410,7 +1548,12 @@
     }
    ],
    "id": "daisuke",
-   "map": true
+   "map": true,
+   "mo": [
+    0,
+    11
+   ],
+   "lbl": "L"
   },
   {
    "class": "Cool Trainer",
@@ -1516,7 +1659,12 @@
     "Super Potion"
    ],
    "id": "wilton",
-   "map": true
+   "map": true,
+   "mo": [
+    0,
+    10
+   ],
+   "lbl": "K"
   },
   {
    "class": "Cool Trainer",
@@ -1619,10 +1767,15 @@
     "Super Potion"
    ],
    "id": "brooke",
-   "map": true
+   "map": true,
+   "mo": [
+    0,
+    9
+   ],
+   "lbl": "J"
   }
  ],
- "mapCount": 1,
+ "mapCount": 2,
  "verified": true,
  "sources": [
   "https://mrwalkthroughs.com/pokemon-emerald-seaglass/"

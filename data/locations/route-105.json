@@ -86,21 +86,36 @@
    "name": "Iron",
    "hidden": false,
    "where": "Outside",
-   "map": true
+   "map": true,
+   "mo": [
+    0,
+    1
+   ],
+   "lbl": "2"
   },
   {
    "id": "hidden-outside-heart-scale",
    "name": "Heart Scale",
    "hidden": true,
    "where": "Outside",
-   "map": true
+   "map": true,
+   "mo": [
+    0,
+    0
+   ],
+   "lbl": "1"
   },
   {
    "id": "hidden-outside-big-pearl",
    "name": "Big Pearl",
    "hidden": true,
    "where": "Outside",
-   "map": true
+   "map": true,
+   "mo": [
+    0,
+    2
+   ],
+   "lbl": "3"
   }
  ],
  "gifts": [],
@@ -142,7 +157,12 @@
     }
    ],
    "id": "imani",
-   "map": true
+   "map": true,
+   "mo": [
+    0,
+    0
+   ],
+   "lbl": "A"
   },
   {
    "class": "Swimmer♂",
@@ -183,7 +203,12 @@
     }
    ],
    "id": "dominik",
-   "map": true
+   "map": true,
+   "mo": [
+    0,
+    1
+   ],
+   "lbl": "B"
   },
   {
    "class": "Ruin Maniac",
@@ -254,7 +279,12 @@
     }
    ],
    "id": "foster",
-   "map": true
+   "map": true,
+   "mo": [
+    0,
+    2
+   ],
+   "lbl": "C"
   },
   {
    "class": "Swimmer♂",
@@ -294,7 +324,12 @@
     }
    ],
    "id": "luis",
-   "map": true
+   "map": true,
+   "mo": [
+    0,
+    3
+   ],
+   "lbl": "D"
   },
   {
    "class": "Ruin Maniac",
@@ -367,7 +402,12 @@
     }
    ],
    "id": "andres",
-   "map": true
+   "map": true,
+   "mo": [
+    0,
+    4
+   ],
+   "lbl": "E"
   },
   {
    "class": "Bird Keeper",
@@ -437,7 +477,12 @@
     }
    ],
    "id": "josue",
-   "map": true
+   "map": true,
+   "mo": [
+    0,
+    5
+   ],
+   "lbl": "F"
   },
   {
    "class": "Swimmer♀",
@@ -508,7 +553,12 @@
     }
    ],
    "id": "beverly",
-   "map": true
+   "map": true,
+   "mo": [
+    0,
+    6
+   ],
+   "lbl": "G"
   }
  ],
  "mapCount": 1,

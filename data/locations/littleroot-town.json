@@ -140,7 +140,13 @@
    "later": true,
    "need": "After the Hall of Fame (choose one)",
    "after": "pokemon-league",
-   "stage": 70.5
+   "stage": 70.5,
+   "map": true,
+   "mo": [
+    1,
+    0
+   ],
+   "lbl": "1"
   },
   {
    "id": "item-professor-birch-s-lab-exp-charm",
@@ -150,7 +156,13 @@
    "later": true,
    "need": "After the Hall of Fame (comes with your Johto starter)",
    "after": "pokemon-league",
-   "stage": 70.5
+   "stage": 70.5,
+   "map": true,
+   "mo": [
+    1,
+    0
+   ],
+   "lbl": "1"
   },
   {
    "id": "mon-professor-birch-s-lab-totodile-lv-5",
@@ -160,7 +172,13 @@
    "later": true,
    "need": "After the Hall of Fame (choose one)",
    "after": "pokemon-league",
-   "stage": 70.5
+   "stage": 70.5,
+   "map": true,
+   "mo": [
+    1,
+    0
+   ],
+   "lbl": "1"
   },
   {
    "id": "mon-professor-birch-s-lab-chikorita-lv-5",
@@ -170,7 +188,13 @@
    "later": true,
    "need": "After the Hall of Fame (choose one)",
    "after": "pokemon-league",
-   "stage": 70.5
+   "stage": 70.5,
+   "map": true,
+   "mo": [
+    1,
+    0
+   ],
+   "lbl": "1"
   },
   {
    "id": "item-professor-birch-s-lab-pok-ball-5",
@@ -208,7 +232,7 @@
   }
  ],
  "trainers": [],
- "mapCount": 1,
+ "mapCount": 2,
  "verified": true,
  "sources": [
   "https://mrwalkthroughs.com/pokemon-emerald-seaglass/"

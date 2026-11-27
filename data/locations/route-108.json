@@ -79,14 +79,24 @@
    "name": "Star Piece",
    "hidden": false,
    "where": "Outside",
-   "map": true
+   "map": true,
+   "mo": [
+    0,
+    0
+   ],
+   "lbl": "1"
   },
   {
    "id": "hidden-outside-rare-candy",
    "name": "Rare Candy",
    "hidden": true,
    "where": "Outside",
-   "map": true
+   "map": true,
+   "mo": [
+    0,
+    1
+   ],
+   "lbl": "2"
   }
  ],
  "gifts": [],
@@ -130,7 +140,12 @@
     }
    ],
    "id": "missy",
-   "map": true
+   "map": true,
+   "mo": [
+    0,
+    4
+   ],
+   "lbl": "E"
   },
   {
    "class": "Swimmer♂",
@@ -170,7 +185,12 @@
     }
    ],
    "id": "matthew",
-   "map": true
+   "map": true,
+   "mo": [
+    0,
+    5
+   ],
+   "lbl": "F"
   },
   {
    "class": "Swimmer♀",
@@ -241,7 +261,12 @@
     }
    ],
    "id": "tara",
-   "map": true
+   "map": true,
+   "mo": [
+    0,
+    3
+   ],
+   "lbl": "D"
   },
   {
    "class": "Cool Trainer",
@@ -345,7 +370,12 @@
     "Hyper Potion"
    ],
    "id": "carolina",
-   "map": true
+   "map": true,
+   "mo": [
+    0,
+    2
+   ],
+   "lbl": "C"
   },
   {
    "class": "Sailor",
@@ -448,7 +478,12 @@
     }
    ],
    "id": "cory",
-   "map": true
+   "map": true,
+   "mo": [
+    0,
+    1
+   ],
+   "lbl": "B"
   },
   {
    "class": "Swimmer♂",
@@ -489,7 +524,12 @@
     }
    ],
    "id": "jerome",
-   "map": true
+   "map": true,
+   "mo": [
+    0,
+    0
+   ],
+   "lbl": "A"
   }
  ],
  "mapCount": 1,

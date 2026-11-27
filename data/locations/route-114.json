@@ -167,49 +167,84 @@
    "need": "Waterfall (HM07 from the Scuba Safari in Pacifidlog Town; usable outside battle once you have all 8 badges)",
    "after": "sky-pillar",
    "stage": 64.5,
-   "map": true
+   "map": true,
+   "mo": [
+    0,
+    6
+   ],
+   "lbl": "7"
   },
   {
    "id": "outside-protein",
    "name": "Protein",
    "hidden": false,
    "where": "Outside",
-   "map": true
+   "map": true,
+   "mo": [
+    0,
+    3
+   ],
+   "lbl": "4"
   },
   {
    "id": "outside-energy-powder",
    "name": "Energy Powder",
    "hidden": false,
    "where": "Outside",
-   "map": true
+   "map": true,
+   "mo": [
+    0,
+    1
+   ],
+   "lbl": "2"
   },
   {
    "id": "outside-wishing-star",
    "name": "Wishing Star",
    "hidden": false,
    "where": "Outside",
-   "map": true
+   "map": true,
+   "mo": [
+    0,
+    4
+   ],
+   "lbl": "5"
   },
   {
    "id": "hidden-outside-carbos",
    "name": "Carbos",
    "hidden": true,
    "where": "Outside",
-   "map": true
+   "map": true,
+   "mo": [
+    0,
+    5
+   ],
+   "lbl": "6"
   },
   {
    "id": "hidden-outside-revive",
    "name": "Revive",
    "hidden": true,
    "where": "Outside",
-   "map": true
+   "map": true,
+   "mo": [
+    0,
+    2
+   ],
+   "lbl": "3"
   },
   {
    "id": "lanette-s-house-linking-cord",
    "name": "Linking Cord",
    "hidden": false,
    "where": "Lanette's House",
-   "map": true
+   "map": true,
+   "mo": [
+    2,
+    0
+   ],
+   "lbl": "1"
   }
  ],
  "gifts": [
@@ -217,13 +252,25 @@
    "id": "item-outside-tm05",
    "name": "TM05",
    "from": "Gentleman",
-   "where": "Outside"
+   "where": "Outside",
+   "map": true,
+   "mo": [
+    0,
+    0
+   ],
+   "lbl": "1"
   },
   {
    "id": "item-fossil-maniac-s-house-tm28",
    "name": "TM28",
    "from": "Fossil Maniac's brother",
-   "where": "Fossil Maniac's House"
+   "where": "Fossil Maniac's House",
+   "map": true,
+   "mo": [
+    1,
+    0
+   ],
+   "lbl": "1"
   }
  ],
  "trainers": [
@@ -296,7 +343,12 @@
     }
    ],
    "id": "angelina",
-   "map": true
+   "map": true,
+   "mo": [
+    0,
+    11
+   ],
+   "lbl": "L"
   },
   {
    "class": "Hiker",
@@ -367,7 +419,12 @@
     }
    ],
    "id": "lucas",
-   "map": true
+   "map": true,
+   "mo": [
+    0,
+    10
+   ],
+   "lbl": "K"
   },
   {
    "class": "Hiker",
@@ -439,7 +496,12 @@
     }
    ],
    "id": "lenny",
-   "map": true
+   "map": true,
+   "mo": [
+    0,
+    12
+   ],
+   "lbl": "M"
   },
   {
    "class": "Kindler",
@@ -509,7 +571,12 @@
     }
    ],
    "id": "bernie",
-   "map": true
+   "map": true,
+   "mo": [
+    0,
+    9
+   ],
+   "lbl": "J"
   },
   {
    "class": "Poké Maniac",
@@ -548,7 +615,12 @@
     }
    ],
    "id": "steve",
-   "map": true
+   "map": true,
+   "mo": [
+    0,
+    8
+   ],
+   "lbl": "I"
   },
   {
    "class": "Camper",
@@ -619,7 +691,12 @@
     }
    ],
    "id": "shane",
-   "map": true
+   "map": true,
+   "mo": [
+    0,
+    7
+   ],
+   "lbl": "H"
   },
   {
    "class": "Sr. and Jr.",
@@ -689,7 +766,12 @@
    ],
    "double": true,
    "id": "tyra-and-ivy",
-   "map": true
+   "map": true,
+   "mo": [
+    0,
+    5
+   ],
+   "lbl": "F"
   },
   {
    "class": "Picnicker",
@@ -759,7 +841,12 @@
     }
    ],
    "id": "nancy",
-   "map": true
+   "map": true,
+   "mo": [
+    0,
+    4
+   ],
+   "lbl": "E"
   },
   {
    "class": "Fisherman",
@@ -860,7 +947,12 @@
     }
    ],
    "id": "claude",
-   "map": true
+   "map": true,
+   "mo": [
+    0,
+    3
+   ],
+   "lbl": "D"
   },
   {
    "class": "Picnicker",
@@ -899,7 +991,12 @@
     }
    ],
    "id": "charlotte",
-   "map": true
+   "map": true,
+   "mo": [
+    0,
+    2
+   ],
+   "lbl": "C"
   },
   {
    "class": "Fisherman",
@@ -939,7 +1036,12 @@
     }
    ],
    "id": "kai",
-   "map": true
+   "map": true,
+   "mo": [
+    0,
+    1
+   ],
+   "lbl": "B"
   },
   {
    "class": "Fisherman",
@@ -979,10 +1081,15 @@
     }
    ],
    "id": "nolan",
-   "map": true
+   "map": true,
+   "mo": [
+    0,
+    0
+   ],
+   "lbl": "A"
   }
  ],
- "mapCount": 2,
+ "mapCount": 3,
  "verified": true,
  "sources": [
   "https://mrwalkthroughs.com/pokemon-emerald-seaglass/"

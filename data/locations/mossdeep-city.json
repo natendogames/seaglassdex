@@ -186,7 +186,12 @@
    "name": "Net Ball",
    "hidden": false,
    "where": "Outside",
-   "map": true
+   "map": true,
+   "mo": [
+    0,
+    1
+   ],
+   "lbl": "2"
   }
  ],
  "gifts": [
@@ -194,31 +199,61 @@
    "id": "item-outside-king-s-rock",
    "name": "King's Rock",
    "from": "Boy (trade a Big Pearl)",
-   "where": "Outside"
+   "where": "Outside",
+   "map": true,
+   "mo": [
+    0,
+    0
+   ],
+   "lbl": "1"
   },
   {
    "id": "item-outside-s-s-ticket",
    "name": "S.S. Ticket",
    "from": "Old sailor (after the Mind Badge)",
-   "where": "Outside"
+   "where": "Outside",
+   "map": true,
+   "mo": [
+    0,
+    2
+   ],
+   "lbl": "3"
   },
   {
    "id": "item-outside-eon-ticket",
    "name": "Eon Ticket",
    "from": "Old sailor (clipped to the S.S. Ticket)",
-   "where": "Outside"
+   "where": "Outside",
+   "map": true,
+   "mo": [
+    0,
+    2
+   ],
+   "lbl": "3"
   },
   {
    "id": "item-outside-old-sea-map",
    "name": "Old Sea Map",
    "from": "Old sailor (show him a caught Rhydon)",
-   "where": "Outside"
+   "where": "Outside",
+   "map": true,
+   "mo": [
+    0,
+    2
+   ],
+   "lbl": "3"
   },
   {
    "id": "item-outside-mystic-ticket",
    "name": "Mystic Ticket",
    "from": "Old sailor (show him a caught Octillery)",
-   "where": "Outside"
+   "where": "Outside",
+   "map": true,
+   "mo": [
+    0,
+    2
+   ],
+   "lbl": "3"
   },
   {
    "id": "item-outside-aurora-ticket",
@@ -228,31 +263,61 @@
    "later": true,
    "need": "A caught Rayquaza to show the old sailor",
    "after": "sky-pillar",
-   "stage": 64.5
+   "stage": 64.5,
+   "map": true,
+   "mo": [
+    0,
+    2
+   ],
+   "lbl": "3"
   },
   {
    "id": "item-game-corner-1f-lucky-egg",
    "name": "Lucky Egg",
    "from": "Game Corner prize",
-   "where": "Game Corner 1F"
+   "where": "Game Corner 1F",
+   "map": true,
+   "mo": [
+    1,
+    0
+   ],
+   "lbl": "1"
   },
   {
    "id": "item-gym-tm04",
    "name": "TM04",
    "from": "Tate and Liza (after winning)",
-   "where": "Gym"
+   "where": "Gym",
+   "map": true,
+   "mo": [
+    2,
+    0
+   ],
+   "lbl": "1"
   },
   {
    "id": "item-house-3-super-rod",
    "name": "Super Rod",
    "from": "Fisherman",
-   "where": "House 3"
+   "where": "House 3",
+   "map": true,
+   "mo": [
+    3,
+    0
+   ],
+   "lbl": "1"
   },
   {
    "id": "item-space-center-1f-sun-stone",
    "name": "Sun Stone",
    "from": "Scientist",
-   "where": "Space Center 1F"
+   "where": "Space Center 1F",
+   "map": true,
+   "mo": [
+    4,
+    0
+   ],
+   "lbl": "1"
   },
   {
    "id": "item-steven-s-house-hm08",
@@ -268,7 +333,13 @@
    "later": true,
    "need": "After Pokémon League",
    "after": "pokemon-league",
-   "stage": 70
+   "stage": 70,
+   "map": true,
+   "mo": [
+    6,
+    0
+   ],
+   "lbl": "1"
   }
  ],
  "trainers": [
@@ -342,7 +413,12 @@
    ],
    "id": "clifford",
    "area": "Gym",
-   "map": true
+   "map": true,
+   "mo": [
+    2,
+    12
+   ],
+   "lbl": "M"
   },
   {
    "class": "Psychic",
@@ -412,7 +488,12 @@
    ],
    "id": "macey",
    "area": "Gym",
-   "map": true
+   "map": true,
+   "mo": [
+    2,
+    13
+   ],
+   "lbl": "N"
   },
   {
    "class": "Psychic",
@@ -451,7 +532,12 @@
    ],
    "id": "samantha",
    "area": "Gym",
-   "map": true
+   "map": true,
+   "mo": [
+    2,
+    10
+   ],
+   "lbl": "K"
   },
   {
    "class": "Hex Maniac",
@@ -521,7 +607,12 @@
    ],
    "id": "kathleen",
    "area": "Gym",
-   "map": true
+   "map": true,
+   "mo": [
+    2,
+    11
+   ],
+   "lbl": "L"
   },
   {
    "class": "Psychic",
@@ -590,7 +681,12 @@
    ],
    "id": "nicholas",
    "area": "Gym",
-   "map": true
+   "map": true,
+   "mo": [
+    2,
+    9
+   ],
+   "lbl": "J"
   },
   {
    "class": "Psychic",
@@ -631,7 +727,12 @@
    ],
    "id": "blake",
    "area": "Gym",
-   "map": true
+   "map": true,
+   "mo": [
+    2,
+    8
+   ],
+   "lbl": "I"
   },
   {
    "class": "Psychic",
@@ -703,7 +804,12 @@
    ],
    "id": "virgil",
    "area": "Gym",
-   "map": true
+   "map": true,
+   "mo": [
+    2,
+    7
+   ],
+   "lbl": "H"
   },
   {
    "class": "Gentleman",
@@ -773,7 +879,12 @@
    ],
    "id": "nate",
    "area": "Gym",
-   "map": true
+   "map": true,
+   "mo": [
+    2,
+    6
+   ],
+   "lbl": "G"
   },
   {
    "class": "Hex Maniac",
@@ -815,7 +926,12 @@
    ],
    "id": "sylvia",
    "area": "Gym",
-   "map": true
+   "map": true,
+   "mo": [
+    2,
+    3
+   ],
+   "lbl": "D"
   },
   {
    "class": "Psychic",
@@ -855,7 +971,12 @@
    ],
    "id": "hannah",
    "area": "Gym",
-   "map": true
+   "map": true,
+   "mo": [
+    2,
+    2
+   ],
+   "lbl": "C"
   },
   {
    "class": "Psychic",
@@ -897,7 +1018,12 @@
    ],
    "id": "maura",
    "area": "Gym",
-   "map": true
+   "map": true,
+   "mo": [
+    2,
+    0
+   ],
+   "lbl": "A"
   },
   {
    "class": "Psychic",
@@ -936,7 +1062,12 @@
    ],
    "id": "preston",
    "area": "Gym",
-   "map": true
+   "map": true,
+   "mo": [
+    2,
+    1
+   ],
+   "lbl": "B"
   },
   {
    "class": "Leader",
@@ -1078,7 +1209,12 @@
    ],
    "id": "tate-and-liza",
    "area": "Gym",
-   "map": true
+   "map": true,
+   "mo": [
+    2,
+    4
+   ],
+   "lbl": "E"
   },
   {
    "class": "Team Magma",
@@ -1120,7 +1256,12 @@
    ],
    "id": "grunt-space-center",
    "area": "Space Center 1F",
-   "map": true
+   "map": true,
+   "mo": [
+    4,
+    0
+   ],
+   "lbl": "A"
   },
   {
    "class": "Magma Leader",
@@ -1318,10 +1459,15 @@
    "double": true,
    "id": "maxie-mossdeep",
    "area": "Space Center 2F",
-   "map": true
+   "map": true,
+   "mo": [
+    5,
+    0
+   ],
+   "lbl": "A"
   }
  ],
- "mapCount": 4,
+ "mapCount": 7,
  "verified": true,
  "sources": [
   "https://mrwalkthroughs.com/pokemon-emerald-seaglass/"

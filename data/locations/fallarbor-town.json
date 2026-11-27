@@ -17,7 +17,12 @@
    "name": "Nugget",
    "hidden": true,
    "where": "Outside",
-   "map": true
+   "map": true,
+   "mo": [
+    0,
+    0
+   ],
+   "lbl": "1"
   }
  ],
  "gifts": [
@@ -29,7 +34,13 @@
    "later": true,
    "need": "50 species caught in your Pokédex",
    "after": "fallarbor-town",
-   "stage": 24.5
+   "stage": 24.5,
+   "map": true,
+   "mo": [
+    0,
+    1
+   ],
+   "lbl": "2"
   },
   {
    "id": "item-cozmo-s-house-tm27",
@@ -39,11 +50,17 @@
    "later": true,
    "need": "After Mt. Chimney",
    "after": "mt-chimney",
-   "stage": 28
+   "stage": 28,
+   "map": true,
+   "mo": [
+    1,
+    0
+   ],
+   "lbl": "1"
   }
  ],
  "trainers": [],
- "mapCount": 1,
+ "mapCount": 2,
  "verified": true,
  "sources": [
   "https://mrwalkthroughs.com/pokemon-emerald-seaglass/"

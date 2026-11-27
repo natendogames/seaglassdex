@@ -104,7 +104,13 @@
    "id": "item-outside-shiny-charm",
    "name": "Shiny Charm",
    "from": "The little shrines around Fortree (follow the glimmers from shrine to shrine)",
-   "where": "Outside"
+   "where": "Outside",
+   "map": true,
+   "mo": [
+    0,
+    0
+   ],
+   "lbl": "1"
   },
   {
    "id": "item-gym-tm40",
@@ -114,19 +120,37 @@
    "later": true,
    "need": "the Devon Scope (from Steven on the Route 120 bridge) to reveal the hidden Kecleon",
    "after": "route-120",
-   "stage": 41
+   "stage": 41,
+   "map": true,
+   "mo": [
+    1,
+    0
+   ],
+   "lbl": "1"
   },
   {
    "id": "trade-house-1-trade-give-volbeat-get-plusle-pluses",
    "name": "Trade: give Volbeat, get Plusle (\"Pluses\")",
    "from": "Trader",
-   "where": "House 1"
+   "where": "House 1",
+   "map": true,
+   "mo": [
+    2,
+    0
+   ],
+   "lbl": "1"
   },
   {
    "id": "item-house-2-tm10",
    "name": "TM10",
    "from": "Old woman (guess the coin)",
-   "where": "House 2"
+   "where": "House 2",
+   "map": true,
+   "mo": [
+    3,
+    0
+   ],
+   "lbl": "1"
   },
   {
    "id": "item-house-4-mental-herb",
@@ -136,7 +160,13 @@
    "later": true,
    "need": "After you visit the Wingull in a Mossdeep City house (it carries the mail back)",
    "after": "mossdeep-city",
-   "stage": 52.5
+   "stage": 52.5,
+   "map": true,
+   "mo": [
+    4,
+    0
+   ],
+   "lbl": "1"
   }
  ],
  "trainers": [
@@ -182,7 +212,12 @@
    "stage": "route-120",
    "later": true,
    "reach": "the Devon Scope (from Steven on the Route 120 bridge) to reveal the hidden Kecleon",
-   "map": true
+   "map": true,
+   "mo": [
+    1,
+    0
+   ],
+   "lbl": "A"
   },
   {
    "class": "Picnicker",
@@ -287,7 +322,12 @@
    "stage": "route-120",
    "later": true,
    "reach": "the Devon Scope (from Steven on the Route 120 bridge) to reveal the hidden Kecleon",
-   "map": true
+   "map": true,
+   "mo": [
+    1,
+    1
+   ],
+   "lbl": "B"
   },
   {
    "class": "Bird Keeper",
@@ -395,7 +435,12 @@
    "stage": "route-120",
    "later": true,
    "reach": "the Devon Scope (from Steven on the Route 120 bridge) to reveal the hidden Kecleon",
-   "map": true
+   "map": true,
+   "mo": [
+    1,
+    2
+   ],
+   "lbl": "C"
   },
   {
    "class": "Camper",
@@ -469,7 +514,12 @@
    "stage": "route-120",
    "later": true,
    "reach": "the Devon Scope (from Steven on the Route 120 bridge) to reveal the hidden Kecleon",
-   "map": true
+   "map": true,
+   "mo": [
+    1,
+    3
+   ],
+   "lbl": "D"
   },
   {
    "class": "Bird Keeper",
@@ -545,7 +595,12 @@
    "stage": "route-120",
    "later": true,
    "reach": "the Devon Scope (from Steven on the Route 120 bridge) to reveal the hidden Kecleon",
-   "map": true
+   "map": true,
+   "mo": [
+    1,
+    4
+   ],
+   "lbl": "E"
   },
   {
    "class": "Bird Keeper",
@@ -589,7 +644,12 @@
    "stage": "route-120",
    "later": true,
    "reach": "the Devon Scope (from Steven on the Route 120 bridge) to reveal the hidden Kecleon",
-   "map": true
+   "map": true,
+   "mo": [
+    1,
+    5
+   ],
+   "lbl": "F"
   },
   {
    "class": "Leader",
@@ -764,10 +824,15 @@
    "stage": "route-120",
    "later": true,
    "reach": "the Devon Scope (from Steven on the Route 120 bridge) to reveal the hidden Kecleon",
-   "map": true
+   "map": true,
+   "mo": [
+    1,
+    6
+   ],
+   "lbl": "G"
   }
  ],
- "mapCount": 2,
+ "mapCount": 5,
  "verified": true,
  "sources": [
   "https://mrwalkthroughs.com/pokemon-emerald-seaglass/"
