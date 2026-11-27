@@ -343,7 +343,9 @@ for lid in ('route-119', 'route-120'):
 EXTRA_GIFTS = [
     ('route-101', 'mon', 'Starter Pokémon (Treecko, Torchic or Mudkip)', 'Outside', "Professor Birch's bag", None),
     ('littleroot-town', 'item', 'Pokédex', "Professor Birch's Lab", 'Professor Birch (after your first rival battle)', None),
-    ('littleroot-town', 'item', 'Potion (in your PC)', 'Your house 2F', 'Your bedroom PC', None),
+    # Seaglass's new-game PC holds a Shiny Charm, not vanilla's Potion: the ROM has no {Potion, 1} PC item table,
+    # and {ITEM_SHINY_CHARM (691), 1}, {ITEM_NONE, 0} sits at 0x6bb92c
+    ('littleroot-town', 'item', 'Shiny Charm (in your PC)', 'Your house 2F', 'Your bedroom PC', None),
     # gifts from shared scripts (data/scripts/*.inc), which the map pass doesn't see
     ('littleroot-town', 'item', 'Running Shoes', 'Outside', 'Mom (as you leave with the Pokédex)', None),
     ('littleroot-town', 'item', 'Amulet Coin', 'Your house 1F', "Mom (once you have Dad's badge, the fifth)", None),

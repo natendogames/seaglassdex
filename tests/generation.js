@@ -80,6 +80,10 @@ const KANTO_OK = [/A peculiar box made by Silph Co\./, /Pewter Crunchies/];
     scan(f, fs.readFileSync(path.join(ROOT, f), 'utf8').split('\n').map(l => l.replace(/\s\/\/ .*$/, '')).join('\n'));
   }
 
+  // Seaglass's new-game PC holds a Shiny Charm (vanilla Emerald's is a Potion)
+  const pc = J('data/locations/littleroot-town.json').gifts.filter(g => /in your PC/.test(g.name)).map(g => g.name);
+  if (pc.join() !== 'Shiny Charm (in your PC)') fail(`Littleroot bedroom PC should hold a Shiny Charm, got: ${pc.join(', ') || 'nothing'}`);
+
   if (failures) { console.log(`${failures} generation check(s) failed`); process.exit(1); }
   console.log('Generation checks passed: Seaglass dex, picks, Pokémon, items and text');
 })().catch(e => { console.error(e); process.exit(1); });
