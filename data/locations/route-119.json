@@ -211,6 +211,15 @@
    "notes": "Castform (Lv 25) · Weather Institute scientist (after you beat Shelly)"
   },
   {
+   "dex": 282,
+   "name": "Celebi",
+   "method": "static",
+   "levels": "40",
+   "area": "Outside",
+   "notes": "The old sailor from Mossdeep calls it here, once he has given you the Aurora Ticket (show him a caught Rayquaza) and you talk to him again. If it faints or you run, beat the Elite Four again to retry.",
+   "after": "sky-pillar"
+  },
+  {
    "dex": 386,
    "name": "Kecleon",
    "method": "static",

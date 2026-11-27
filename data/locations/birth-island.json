@@ -1,7 +1,16 @@
 {
  "id": "birth-island",
  "name": "Birth Island",
- "encounters": [],
+ "encounters": [
+  {
+   "dex": 422,
+   "name": "Deoxys",
+   "method": "static",
+   "levels": "70",
+   "area": "Exterior",
+   "notes": "Aurora Ticket from the old sailor in Mossdeep (show him a Rayquaza). Solve the triangle puzzle. Comes back after you beat the Elite Four again if it faints or you run."
+  }
+ ],
  "items": [],
  "gifts": [],
  "trainers": [],

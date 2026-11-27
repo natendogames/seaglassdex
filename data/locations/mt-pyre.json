@@ -401,6 +401,33 @@
    "levels": "28",
    "rate": "5%",
    "area": "Summit"
+  },
+  {
+   "dex": 180,
+   "name": "Moltres",
+   "method": "static",
+   "levels": "50",
+   "area": "Summit",
+   "notes": "The old sailor from Mossdeep calls it here, once he has given you the Aurora Ticket (show him a caught Rayquaza) and you talk to him again. If it faints or you run, beat the Elite Four again to retry. Only one of Articuno, Zapdos and Moltres comes each time.",
+   "after": "sky-pillar"
+  },
+  {
+   "dex": 178,
+   "name": "Articuno",
+   "method": "static",
+   "levels": "50",
+   "area": "Summit",
+   "notes": "The old sailor from Mossdeep calls it here, once he has given you the Aurora Ticket (show him a caught Rayquaza) and you talk to him again. If it faints or you run, beat the Elite Four again to retry. Only one of Articuno, Zapdos and Moltres comes each time.",
+   "after": "sky-pillar"
+  },
+  {
+   "dex": 179,
+   "name": "Zapdos",
+   "method": "static",
+   "levels": "50",
+   "area": "Summit",
+   "notes": "The old sailor from Mossdeep calls it here, once he has given you the Aurora Ticket (show him a caught Rayquaza) and you talk to him again. If it faints or you run, beat the Elite Four again to retry. Only one of Articuno, Zapdos and Moltres comes each time.",
+   "after": "sky-pillar"
   }
  ],
  "items": [

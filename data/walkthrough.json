@@ -4,9 +4,9 @@
   "You arrive in the moving truck. Go upstairs, set the clock, then watch the TV with Mom: Dad is the new Petalburg Gym Leader.",
   "Visit the house next door and go upstairs to meet Professor Birch's child, your rival (May if you play as Brendan, Brendan if you play as May). Then head north to {loc:route-101}.",
   "After you save Birch, he lets you keep the Pokémon you picked and sends you to find your rival on {loc:route-103}.",
-  "Come back after that battle: Birch gives you the {gift:item-professor-birch-s-lab-pok-dex}, your rival gives you {gift:item-professor-birch-s-lab-pok-ball-5}, and Mom stops you on the way out with the {gift:item-outside-running-shoes}.",
+  "Come back after that battle: Birch gives you the {gift:item-professor-birch-s-lab-pok-dex}, your rival gives you {gift:item-professor-birch-s-lab-pok-ball-5}, and Mom stops you on the way out to enable the {gift:item-outside-dexnav}. You can already run from the start, so there are no Running Shoes in Seaglass.",
   "Your bedroom PC holds a {gift:item-your-house-2f-shiny-charm-in-your-pc}.",
-  "Later: once you have Dad's badge (your fifth), Mom gives you the {gift:item-your-house-1f-amulet-coin}. After the Hall of Fame, Dad gives you the {gift:item-your-house-1f-s-s-ticket}.",
+  "Later: once you have Dad's badge (your fifth), Mom gives you the {gift:item-your-house-1f-amulet-coin}..",
   "After the Hall of Fame, Birch gives you the {gift:item-professor-birch-s-lab-catching-charm} and lets you pick {mon:186}, {mon:189} or {mon:192}, which comes with the {gift:item-professor-birch-s-lab-exp-charm}."
  ],
  "route-101": [
@@ -94,7 +94,7 @@
   "The old man outside holds any Egg your Pokémon make."
  ],
  "verdanturf-town": [
-  "Wally is staying here with his cousin Wanda's family. The Contest Hall is the place to start contests.",
+  "Wally is staying here with his cousin Wanda's family. Contests are held here (Seaglass moved them from Lilycove), and the Contest Lobby's receptionist gives you the {gift:item-contest-lobby-pok-block-case}.",
   "Seaglass has no Battle Tent here, so TM45 is only sold by the TM clerk.",
   "{loc:rusturf-tunnel} on the west side joins Rustboro once you Rock Smash the boulders."
  ],
@@ -193,13 +193,13 @@
   "Team Aqua is heading for {loc:mt-pyre}. The {loc:safari-zone} is on the way to Lilycove."
  ],
  "safari-zone": [
-  "You need the Pokéblock Case from the {loc:lilycove-city} Contest Hall to get in, so pick it up on your first stop in Lilycove.",
+  "You need the Pokéblock Case from the Contest Lobby in {loc:verdanturf-town} to get in.",
   "500 steps and 30 Safari Balls a visit. No battling; a Pokéblock feeder helps keep a Pokémon from running.",
-  "Some areas need the Mach or Acro Bike. Two extra areas open once you have the National Pokédex (after the Hall of Fame)."
+  "Some areas need the Mach or Acro Bike. Two extra areas open after the Hall of Fame."
  ],
  "lilycove-city": [
   "{trainer:rival-lilycove} battles you outside the Department Store. Team Aqua Grunts block the cove for now.",
-  "The Contest Lobby's receptionist gives you the {gift:item-contest-lobby-pok-block-case}. The Department Store sells TMs, and the Move Deleter lives here.",
+  "The Department Store sells TMs, and the Move Deleter lives here.",
   "Surf east to {loc:route-122} and {loc:mt-pyre}."
  ],
  "route-122": [
@@ -296,10 +296,7 @@
  "pokemon-league": [
   "Beat {trainer:sidney} (Dark), {trainer:phoebe} (Ghost), {trainer:glacia} (Ice) and {trainer:drake} (Dragon) in a row, then {trainer:wallace} (Water).",
   "Fighting and Bug moves for Sidney, Dark and Ghost for Phoebe, Fire, Fighting or Rock for Glacia, Ice or Dragon for Drake, Electric and Grass for Wallace.",
-  "After the Hall of Fame: Dad gives you the S.S. Ticket, the Battle Frontier opens, and the Safari Zone grows."
- ],
- "roaming": [
-  "After the Hall of Fame, Mom asks what color the Pokémon on the TV was. Red sends {mon:416} roaming, blue sends {mon:417}."
+  "After the Hall of Fame: the Battle Frontier opens and the Safari Zone grows. The S.S. Ticket comes from the old sailor in Mossdeep City, not from Dad."
  ],
  "ss-tidal": [
   "The ferry between Slateport, Lilycove and the Battle Frontier, once you have the S.S. Ticket. A man in one cabin gives you {gift:item-outside-tm49}."
@@ -317,7 +314,7 @@
   "On Route 103. Only Zubat appear without an event."
  ],
  "sealed-chamber": [
-  "Dive on Route 134. With Wailord first and Relicanth last in your party, the Braille puzzle opens the three Regi caves."
+  "Dive on Route 134. With Relicanth first and Wailord last in your party, the Braille puzzle opens the three Regi caves."
  ],
  "desert-ruins": [
   "In the Route 111 desert. Regirock (Lv 40)."

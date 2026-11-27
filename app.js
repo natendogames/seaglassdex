@@ -56,9 +56,6 @@ const CHOICES = [
       { key: 'Chikorita', dex: 186, gift: 'mon-professor-birch-s-lab-chikorita-lv-5' },
       { key: 'Cyndaquil', dex: 189, gift: 'mon-professor-birch-s-lab-cyndaquil-lv-5' },
       { key: 'Totodile', dex: 192, gift: 'mon-professor-birch-s-lab-totodile-lv-5' }] },
-  { id: 'eon', loc: 'roaming', title: 'Roaming Latias or Latios', where: 'Your house, after the Hall of Fame',
-    note: 'Your mom asks what color the Pokémon on the TV was. Red sends Latias roaming; blue sends Latios.',
-    options: [{ key: 'Latias', dex: 416 }, { key: 'Latios', dex: 417 }] }
 ];
 for (const c of CHOICES) for (const o of c.options) o.label ||= o.key;
 // `${loc}:dex:${n}` / `${loc}:gift:${id}` -> the choice (and option) that entry belongs to

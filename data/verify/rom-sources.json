@@ -1,0 +1,230 @@
+{
+"battle-frontier": {
+"item-scott-s-house-lansat-berry": "BattleFrontier_ScottsHouse: BattleFrontier_ScottsHouse_EventScript_CheckSilverSymbols",
+"item-scott-s-house-starf-berry": "BattleFrontier_ScottsHouse: BattleFrontier_ScottsHouse_EventScript_CheckGoldSymbols",
+"trade-lounge-6-trade-give-skitty-get-meowth-meowow": "BattleFrontier_Lounge6: BattleFrontier_Lounge6_EventScript_Trader"
+},
+"desert-underpass": {
+"item-outside-claw-fossil": "DesertUnderpass: DesertUnderpass_EventScript_GiveClawFossil",
+"item-outside-root-fossil": "DesertUnderpass: DesertUnderpass_EventScript_GiveRootFossil"
+},
+"dewford-town": {
+"item-gym-tm08": "DewfordTown_Gym: DewfordTown_Gym_EventScript_8295BA1",
+"item-hall-tm36": "DewfordTown_Hall: DewfordTown_Hall_EventScript_SludgeBombMan",
+"item-house-2-silk-scarf": "DewfordTown_House2: DewfordTown_House2_EventScript_Man",
+"item-outside-old-rod": "DewfordTown: DewfordTown_EventScript_GiveOldRod",
+"item-outside-salac-berry": "DewfordTown: DewfordTown_EventScript_82808DD"
+},
+"fallarbor-town": {
+"item-cozmo-s-house-tm27": "FallarborTown_CozmosHouse: FallarborTown_CozmosHouse_EventScript_PlayerHasMeteorite",
+"mon-outside-spiky-eared-pichu-lv-5": "FallarborTown: FallarborTown_EventScript_8281C87"
+},
+"fortree-city": {
+"item-gym-tm40": "FortreeCity_Gym: FortreeCity_Gym_EventScript_82B051D",
+"item-house-2-tm10": "FortreeCity_House2: FortreeCity_House2_EventScript_HiddenPowerGiver",
+"item-house-4-mental-herb": "FortreeCity_House4: FortreeCity_House4_EventScript_WingullReturned",
+"item-outside-shiny-charm": "FortreeCity: FortreeCity_EventScript_8276F6E",
+"trade-house-1-trade-give-volbeat-get-plusle-pluses": "FortreeCity_House1: FortreeCity_House1_EventScript_Trader"
+},
+"granite-cave": {
+"item-1f-hm05": "GraniteCave_1F: GraniteCave_1F_EventScript_Hiker",
+"item-b1f-wishing-star-4": "GraniteCave_B1F: GraniteCave_B1F_EventScript_82C8F08",
+"item-steven-s-room-tm47": "GraniteCave_StevensRoom: GraniteCave_StevensRoom_EventScript_Steven"
+},
+"lavaridge-town": {
+"item-gym-1f-tm50": "LavaridgeTown_Gym_1F: LavaridgeTown_Gym_1F_EventScript_8297B78",
+"item-herb-shop-charcoal": "LavaridgeTown_HerbShop: LavaridgeTown_HerbShop_EventScript_OldMan",
+"item-outside-go-goggles": "LavaridgeTown: LavaridgeTown_EventScript_8280CD6",
+"mon-outside-wynaut-egg": "LavaridgeTown: LavaridgeTown_EventScript_EggWoman"
+},
+"lilycove-city": {
+"item-battle-tent-lobby-tm45": "LilycoveCity_BattleTentLobby: LilycoveCity_BattleTentLobby_EventScript_AttractGiver",
+"item-house-2-tm44": "LilycoveCity_House2: LilycoveCity_House2_EventScript_FatMan"
+},
+"littleroot-town": {
+"item-outside-dexnav": "data/maps/LittlerootTown/scripts.inc:672",
+"item-professor-birch-s-lab-catching-charm": "LittlerootTown_ProfessorBirchsLab: LittlerootTown_ProfessorBirchsLab_EventScript_82931E6",
+"item-professor-birch-s-lab-exp-charm": "LittlerootTown_ProfessorBirchsLab: LittlerootTown_ProfessorBirchsLab_EventScript_ReceivedCyndaquil",
+"item-professor-birch-s-lab-pok-ball-5": "LittlerootTown_ProfessorBirchsLab: LittlerootTown_ProfessorBirchsLab_EventScript_829366A",
+"item-professor-birch-s-lab-pok-dex": "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.inc:410",
+"item-your-house-1f-amulet-coin": "data/scripts/shared.inc:7433",
+"item-your-house-2f-shiny-charm-in-your-pc": "PC item table {ITEM_SHINY_CHARM, 1} at ROM 0x6bb92c",
+"mon-professor-birch-s-lab-chikorita-lv-5": "LittlerootTown_ProfessorBirchsLab: LittlerootTown_ProfessorBirchsLab_EventScript_82934BA",
+"mon-professor-birch-s-lab-cyndaquil-lv-5": "LittlerootTown_ProfessorBirchsLab: LittlerootTown_ProfessorBirchsLab_EventScript_GiveCyndaquil",
+"mon-professor-birch-s-lab-totodile-lv-5": "LittlerootTown_ProfessorBirchsLab: LittlerootTown_ProfessorBirchsLab_EventScript_829340D"
+},
+"mauville-city": {
+"item-bike-shop-acro-bike": "MauvilleCity_BikeShop: MauvilleCity_BikeShop_EventScript_82A8250",
+"item-bike-shop-mach-bike": "MauvilleCity_BikeShop: MauvilleCity_BikeShop_EventScript_82A822B",
+"item-gym-tm34": "MauvilleCity_Gym: MauvilleCity_Gym_EventScript_82A7565",
+"item-house-1-hm06": "MauvilleCity_House1: MauvilleCity_House1_EventScript_RockSmashDude",
+"item-house-2-coin-case": "MauvilleCity_House2: MauvilleCity_House2_EventScript_AcceptTrade",
+"item-outside-basement-key": "MauvilleCity: MauvilleCity_EventScript_Wattson",
+"item-outside-tm24": "MauvilleCity: MauvilleCity_EventScript_827259D",
+"mon-game-corner-alolan-egg-random-one-of-9": "MauvilleCity_GameCorner: "
+},
+"mirage-tower": {
+"item-4f-claw-fossil": "MirageTower_4F: MirageTower_4F_EventScript_ClawFossil",
+"item-4f-root-fossil": "MirageTower_4F: MirageTower_4F_EventScript_RootFossil"
+},
+"mossdeep-city": {
+"item-game-corner-1f-lucky-egg": "MossdeepCity_GameCorner_1F: MossdeepCity_GameCorner_1F_EventScript_82BF2E0",
+"item-gym-tm04": "MossdeepCity_Gym: MossdeepCity_Gym_EventScript_82BACF0",
+"item-house-3-super-rod": "MossdeepCity_House3: MossdeepCity_House3_EventScript_SuperRodFisherman",
+"item-outside-aurora-ticket": "MossdeepCity: MossdeepCity_EventScript_827A19E",
+"item-outside-eon-ticket": "MossdeepCity: MossdeepCity_EventScript_827A0BC",
+"item-outside-king-s-rock": "MossdeepCity: MossdeepCity_EventScript_KingsRockBoy",
+"item-outside-mystic-ticket": "MossdeepCity: MossdeepCity_EventScript_827A15B",
+"item-outside-old-sea-map": "MossdeepCity: MossdeepCity_EventScript_827A10E",
+"item-outside-s-s-ticket": "MossdeepCity: MossdeepCity_EventScript_827A0BC",
+"item-space-center-1f-sun-stone": "MossdeepCity_SpaceCenter_1F: MossdeepCity_SpaceCenter_1F_EventScript_SunStoneMan",
+"item-steven-s-house-hm08": "MossdeepCity_StevensHouse: MossdeepCity_StevensHouse_EventScript_82BCB8D",
+"mon-steven-s-house-beldum-lv-5": "MossdeepCity_StevensHouse: MossdeepCity_StevensHouse_EventScript_GiveBeldum"
+},
+"mt-chimney": {
+"item-outside-lava-cookie": "MtChimney: MtChimney_EventScript_82CA477",
+"item-outside-meteorite": "MtChimney: MtChimney_EventScript_MeteoriteMachine"
+},
+"mt-pyre": {
+"item-1f-cleanse-tag": "MtPyre_1F: MtPyre_1F_EventScript_CleanseTagWoman",
+"item-summit-magma-emblem": "MtPyre_Summit: MtPyre_Summit_EventScript_TeamAquaExits"
+},
+"oldale-town": {
+"item-outside-potion": "OldaleTown: OldaleTown_EventScript_827EC24"
+},
+"pacifidlog-town": {
+"item-house-2-tm21": "PacifidlogTown_House2: PacifidlogTown_House2_EventScript_GiveFrustration",
+"item-house-2-tm27": "PacifidlogTown_House2: PacifidlogTown_House2_EventScript_GiveReturn",
+"item-outside-big-pearl": "PacifidlogTown: PacifidlogTown_EventScript_82832A8",
+"item-outside-heart-scale-5": "PacifidlogTown: PacifidlogTown_EventScript_828340C",
+"item-outside-hm07": "PacifidlogTown: PacifidlogTown_EventScript_828367E",
+"trade-house-3-trade-give-bagon-get-horsea-seasor": "PacifidlogTown_House3: PacifidlogTown_House3_EventScript_Trader"
+},
+"petalburg-city": {
+"item-gym-enigma-berry": "PetalburgCity_Gym: PetalburgCity_Gym_EventScript_829E1A1",
+"item-gym-tm42": "PetalburgCity_Gym: PetalburgCity_Gym_EventScript_829E256",
+"item-outside-exp-share": "PetalburgCity: PetalburgCity_EventScript_Scott",
+"item-wally-s-house-hm03": "PetalburgCity_WallysHouse: PetalburgCity_WallysHouse_EventScript_829D5D5"
+},
+"petalburg-woods": {
+"item-outside-great-ball": "PetalburgWoods: PetalburgWoods_EventScript_DevonResearcherPostBattle",
+"item-outside-miracle-seed": "PetalburgWoods: PetalburgWoods_EventScript_Girl"
+},
+"route-101": {
+"mon-outside-starter-pok-mon-treecko-torchic-or-mudkip": "data/maps/Route101/scripts.inc:83"
+},
+"route-104": {
+"item-outside-chesto-berry": "Route104: Route104_EventScript_ExpertF",
+"item-outside-tm09": "Route104: Route104_EventScript_Boy2",
+"item-outside-white-herb": "Route104: Route104_EventScript_WhiteHerbFlorist",
+"item-pretty-petal-flower-shop-wailmer-pail": "Route104_PrettyPetalFlowerShop: Route104_PrettyPetalFlowerShop_EventScript_GiveWailmerPail"
+},
+"route-109": {
+"item-outside-soft-sand": "Route109: Route109_EventScript_SoftSandGirl",
+"item-seashore-house-soda-pop": "Route109_SeashoreHouse: Route109_SeashoreHouse_EventScript_BuySodaPop",
+"item-seashore-house-soda-pop-6": "Route109_SeashoreHouse: Route109_SeashoreHouse_EventScript_DefeatedTrainers"
+},
+"route-110": {
+"item-outside-itemfinder": "Route110: Route110_EventScript_82881A0",
+"item-trick-house-end-hard-stone": "Route110_TrickHouseEnd: Route110_TrickHouseEnd_EventScript_83070AC",
+"item-trick-house-end-magnet": "Route110_TrickHouseEnd: Route110_TrickHouseEnd_EventScript_8307160",
+"item-trick-house-end-pp-max": "Route110_TrickHouseEnd: Route110_TrickHouseEnd_EventScript_830719C",
+"item-trick-house-end-rare-candy": "Route110_TrickHouseEnd: Route110_TrickHouseEnd_EventScript_8307034",
+"item-trick-house-end-smoke-ball": "Route110_TrickHouseEnd: Route110_TrickHouseEnd_EventScript_83070E8",
+"item-trick-house-end-timer-ball": "Route110_TrickHouseEnd: Route110_TrickHouseEnd_EventScript_8307070",
+"item-trick-house-end-tm12": "Route110_TrickHouseEnd: Route110_TrickHouseEnd_EventScript_8307124"
+},
+"route-111": {
+"item-outside-razz-berry": "Route111: Route111_EventScript_Girl",
+"item-outside-tm43": "Route111: Route111_EventScript_8314B72",
+"item-winstrate-family-s-house-macho-brace": "Route111_WinstrateFamilysHouse: Route111_WinstrateFamilysHouse_EventScript_Victoria"
+},
+"route-113": {
+"item-glass-workshop-soot-sack": "Route113_GlassWorkshop: Route113_GlassWorkshop_EventScript_GlassWorker"
+},
+"route-114": {
+"item-fossil-maniac-s-house-tm28": "Route114_FossilManiacsHouse: Route114_FossilManiacsHouse_EventScript_FossilManiacsBrother",
+"item-outside-tm05": "Route114: Route114_EventScript_RoarGentleman"
+},
+"route-115": {
+"mon-outside-tinkatink-egg": "Route115: Route115_EventScript_828B5F3"
+},
+"route-116": {
+"item-outside-repeat-ball": "Route116: Route116_EventScript_GiveRepeatBall"
+},
+"route-118": {
+"item-outside-good-rod": "Route118: Route118_EventScript_828CB31"
+},
+"route-119": {
+"item-outside-hm02": "Route119: Route119_EventScript_828D2FD",
+"mon-weather-institute-2f-castform-lv-25": "Route119_WeatherInstitute_2F: Route119_WeatherInstitute_2F_EventScript_ReceiveCastform"
+},
+"route-120": {
+"item-outside-devon-scope": "Route120: Route120_EventScript_StevenGiveDeconScope"
+},
+"route-123": {
+"item-berry-master-s-house-belue-berry": "Route123_BerryMastersHouse: Route123_BerryMastersHouse_EventScript_830BCF2",
+"item-berry-master-s-house-durin-berry": "Route123_BerryMastersHouse: Route123_BerryMastersHouse_EventScript_830BCC1",
+"item-berry-master-s-house-pamtre-berry": "Route123_BerryMastersHouse: Route123_BerryMastersHouse_EventScript_830BC5F",
+"item-berry-master-s-house-spelon-berry": "Route123_BerryMastersHouse: Route123_BerryMastersHouse_EventScript_830BC2E",
+"item-berry-master-s-house-watmel-berry": "Route123_BerryMastersHouse: Route123_BerryMastersHouse_EventScript_830BC90",
+"item-outside-tm19": "Route123: Route123_EventScript_GigaDrainGirl"
+},
+"rustboro-city": {
+"item-cutter-s-house-hm01": "RustboroCity_CuttersHouse: RustboroCity_CuttersHouse_EventScript_Cutter",
+"item-devon-corp-3f-letter": "RustboroCity_DevonCorp_3F: RustboroCity_DevonCorp_3F_EventScript_82AC314",
+"item-devon-corp-3f-pok-nav": "data/maps/RustboroCity_DevonCorp_3F/scripts.inc:56",
+"item-devon-corp-3f-z-power-ring": "RustboroCity_DevonCorp_3F: RustboroCity_DevonCorp_3F_EventScript_GiveExpShare",
+"item-flat-2-2f-premier-ball": "RustboroCity_Flat2_2F: RustboroCity_Flat2_2F_EventScript_NinjaBoy",
+"item-gym-tm39": "RustboroCity_Gym: RustboroCity_Gym_EventScript_82ACE75",
+"item-outside-great-ball": "RustboroCity: RustboroCity_EventScript_ReturnGoods",
+"item-outside-wishing-star-5": "RustboroCity: RustboroCity_EventScript_827661E",
+"item-pok-mon-school-quick-claw": "RustboroCity_PokemonSchool: RustboroCity_PokemonSchool_EventScript_Teacher",
+"mon-devon-corp-2f-anorith-lv-20": "RustboroCity_DevonCorp_2F: RustboroCity_DevonCorp_2F_EventScript_ReceiveAnorith",
+"mon-devon-corp-2f-lileep-lv-20": "RustboroCity_DevonCorp_2F: RustboroCity_DevonCorp_2F_EventScript_ReceiveLileep",
+"trade-house-1-trade-give-ralts-get-seedot-dots": "RustboroCity_House1: RustboroCity_House1_EventScript_Trader"
+},
+"rusturf-tunnel": {
+"item-outside-devon-parts": "RusturfTunnel: RusturfTunnel_EventScript_Grunt",
+"item-outside-hm04": "RusturfTunnel: RusturfTunnel_EventScript_82C811F"
+},
+"shoal-cave": {
+"item-low-tide-entrance-room-shell-bell": "ShoalCave_LowTideEntranceRoom: ShoalCave_LowTideEntranceRoom_EventScript_ShellBellExpert",
+"item-low-tide-inner-room-shoal-salt": "ShoalCave_LowTideInnerRoom: ShoalCave_LowTideInnerRoom_EventScript_ShoalSalt1",
+"item-low-tide-inner-room-shoal-shell": "ShoalCave_LowTideInnerRoom: ShoalCave_LowTideInnerRoom_EventScript_ShoalShell1",
+"item-low-tide-lower-room-focus-band": "ShoalCave_LowTideLowerRoom: ShoalCave_LowTideLowerRoom_EventScript_BlackBelt",
+"item-low-tide-lower-room-shoal-salt": "ShoalCave_LowTideLowerRoom: ShoalCave_LowTideLowerRoom_EventScript_ShoalSalt4",
+"item-low-tide-stairs-room-shoal-salt": "ShoalCave_LowTideStairsRoom: ShoalCave_LowTideStairsRoom_EventScript_ShoalSalt3"
+},
+"slateport-city": {
+"item-battle-tent-lobby-tm41": "SlateportCity_BattleTentLobby: SlateportCity_BattleTentLobby_EventScript_TormentGiver",
+"item-harbor-deep-sea-scale": "SlateportCity_Harbor: SlateportCity_Harbor_EventScript_82A613F",
+"item-harbor-deep-sea-tooth": "SlateportCity_Harbor: SlateportCity_Harbor_EventScript_82A60FF",
+"item-oceanic-museum-1f-tm46": "SlateportCity_OceanicMuseum_1F: SlateportCity_OceanicMuseum_1F_EventScript_FamiliarGrunt",
+"item-outside-powder-jar": "SlateportCity: SlateportCity_EventScript_BerryPowderClerk",
+"item-pok-mon-center-1f-pok-mon-box-link": "SlateportCity_PokemonCenter_1F: SlateportCity_PokemonCenter_1F_EventScript_82A6FCF",
+"item-pok-mon-fan-club-blue-scarf": "SlateportCity_PokemonFanClub: SlateportCity_PokemonFanClub_EventScript_82A3374",
+"item-pok-mon-fan-club-green-scarf": "SlateportCity_PokemonFanClub: SlateportCity_PokemonFanClub_EventScript_82A33D6",
+"item-pok-mon-fan-club-pink-scarf": "SlateportCity_PokemonFanClub: SlateportCity_PokemonFanClub_EventScript_82A33A5",
+"item-pok-mon-fan-club-red-scarf": "SlateportCity_PokemonFanClub: SlateportCity_PokemonFanClub_EventScript_82A3343",
+"item-pok-mon-fan-club-soothe-bell": "SlateportCity_PokemonFanClub: SlateportCity_PokemonFanClub_EventScript_GiveSootheBell",
+"item-pok-mon-fan-club-yellow-scarf": "SlateportCity_PokemonFanClub: SlateportCity_PokemonFanClub_EventScript_82A3407"
+},
+"sootopolis-city": {
+"item-gym-1f-tm13": "SootopolisCity_Gym_1F: SootopolisCity_Gym_1F_EventScript_82BFE9F",
+"item-house-1-tm31": "SootopolisCity_House1: SootopolisCity_House1_EventScript_BrickBreakBlackBelt",
+"item-lotad-and-seedot-house-elixir": "SootopolisCity_LotadAndSeedotHouse: SootopolisCity_LotadAndSeedotHouse_EventScript_BigSeedot",
+"item-outside-figy-berry": "SootopolisCity: SootopolisCity_EventScript_GiveFigyBerry",
+"item-outside-iapapa-berry": "SootopolisCity: SootopolisCity_EventScript_GiveIapapaBerry",
+"item-outside-master-ball": "SootopolisCity: SootopolisCity_EventScript_827BEB7"
+},
+"ss-tidal": {
+"item-outside-tm49": "SSTidalRooms: SSTidalRooms_EventScript_SnatchGiver"
+},
+"verdanturf-town": {
+"item-contest-lobby-luxury-ball": "VerdanturfTown_ContestLobby: VerdanturfTown_ContestLobby_EventScript_831828B",
+"item-contest-lobby-pecha-berry": "VerdanturfTown_ContestLobby: VerdanturfTown_ContestLobby_EventScript_8330DED",
+"item-contest-lobby-pok-block-case": "VerdanturfTown_ContestLobby: VerdanturfTown_ContestLobby_EventScript_8318247",
+"item-outside-wishing-star-3": "VerdanturfTown: VerdanturfTown_EventScript_828273D"
+}
+}
