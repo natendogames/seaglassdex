@@ -60,5 +60,7 @@ GitHub Actions runs these on every push and pull request:
 - `tests/generation.js`: the dex is Seaglass's (430, numbered as in the ROM), the starters are right, and no FRLG-only items or Kanto places leak in.
 - `tests/item_reach.js`: first-visit vs "come back later" for items, gifts, shops and tutors.
 - `tests/caught_link.js`: caught status is shared across pages.
+- `tests/later_hidden.js`: nothing marked "come back later" shows on a first visit.
+- `tests/high_value.js`: the ★ "worth catching" flags only name your next key battles (up to the second Gym Leader you haven't beaten), never a legendary or a Pokémon you already have, and only one you can catch by then.
 
 Progress keys are `dex:<number>` for Pokémon and `<location-id>:item:<id>` or `<location-id>:gift:<id>` for checklists, so keep ids stable.
