@@ -131,7 +131,8 @@
    "later": true,
    "need": "the Go-Goggles from your rival in Lavaridge Town",
    "after": "lavaridge-town",
-   "stage": 30.5
+   "stage": 30.5,
+   "map": true
   },
   {
    "id": "outside-stardust",
@@ -141,7 +142,8 @@
    "later": true,
    "need": "the Go-Goggles from your rival in Lavaridge Town",
    "after": "lavaridge-town",
-   "stage": 30.5
+   "stage": 30.5,
+   "map": true
   },
   {
    "id": "outside-hp-up",
@@ -151,19 +153,22 @@
    "later": true,
    "need": "Surf (HM03 from Wally's father after you beat Norman in Petalburg City)",
    "after": "lavaridge-town",
-   "stage": 30.5
+   "stage": 30.5,
+   "map": true
   },
   {
    "id": "outside-elixir",
    "name": "Elixir",
    "hidden": false,
-   "where": "Outside"
+   "where": "Outside",
+   "map": true
   },
   {
    "id": "outside-wishing-star",
    "name": "Wishing Star",
    "hidden": false,
-   "where": "Outside"
+   "where": "Outside",
+   "map": true
   },
   {
    "id": "hidden-outside-stardust",
@@ -173,7 +178,8 @@
    "later": true,
    "need": "the Go-Goggles from your rival in Lavaridge Town",
    "after": "lavaridge-town",
-   "stage": 30.5
+   "stage": 30.5,
+   "map": true
   },
   {
    "id": "hidden-outside-protein",
@@ -183,7 +189,8 @@
    "later": true,
    "need": "the Go-Goggles from your rival in Lavaridge Town",
    "after": "lavaridge-town",
-   "stage": 30.5
+   "stage": 30.5,
+   "map": true
   },
   {
    "id": "hidden-outside-rare-candy",
@@ -193,7 +200,8 @@
    "later": true,
    "need": "the Go-Goggles from your rival in Lavaridge Town",
    "after": "lavaridge-town",
-   "stage": 30.5
+   "stage": 30.5,
+   "map": true
   }
  ],
  "gifts": [
@@ -253,7 +261,8 @@
      ]
     }
    ],
-   "id": "celina"
+   "id": "celina",
+   "map": true
   },
   {
    "class": "Camper",
@@ -293,7 +302,8 @@
      ]
     }
    ],
-   "id": "tyron"
+   "id": "tyron",
+   "map": true
   },
   {
    "class": "Picnicker",
@@ -330,7 +340,8 @@
      ]
     }
    ],
-   "id": "bianca"
+   "id": "bianca",
+   "map": true
   },
   {
    "class": "Kindler",
@@ -369,7 +380,8 @@
      ]
     }
    ],
-   "id": "hayden"
+   "id": "hayden",
+   "map": true
   },
   {
    "class": "Winstrate",
@@ -439,7 +451,8 @@
      "item": "Oran Berry"
     }
    ],
-   "id": "victor"
+   "id": "victor",
+   "map": true
   },
   {
    "class": "Winstrate",
@@ -685,7 +698,8 @@
     }
    ],
    "double": true,
-   "id": "gabby-and-ty"
+   "id": "gabby-and-ty",
+   "map": true
   },
   {
    "class": "Picnicker",
@@ -754,7 +768,8 @@
      ]
     }
    ],
-   "id": "irene"
+   "id": "irene",
+   "map": true
   },
   {
    "class": "Camper",
@@ -792,7 +807,8 @@
      ]
     }
    ],
-   "id": "travis"
+   "id": "travis",
+   "map": true
   },
   {
    "class": "Ruin Maniac",
@@ -834,7 +850,8 @@
    "id": "dusty",
    "stage": "lavaridge-town",
    "later": true,
-   "reach": "the Go-Goggles from your rival in Lavaridge Town"
+   "reach": "the Go-Goggles from your rival in Lavaridge Town",
+   "map": true
   },
   {
    "class": "Picnicker",
@@ -906,7 +923,8 @@
    "id": "becky",
    "stage": "lavaridge-town",
    "later": true,
-   "reach": "the Go-Goggles from your rival in Lavaridge Town"
+   "reach": "the Go-Goggles from your rival in Lavaridge Town",
+   "map": true
   },
   {
    "class": "Picnicker",
@@ -979,7 +997,8 @@
    "id": "celia",
    "stage": "lavaridge-town",
    "later": true,
-   "reach": "the Go-Goggles from your rival in Lavaridge Town"
+   "reach": "the Go-Goggles from your rival in Lavaridge Town",
+   "map": true
   },
   {
    "class": "Camper",
@@ -1084,7 +1103,8 @@
    "id": "beau",
    "stage": "lavaridge-town",
    "later": true,
-   "reach": "the Go-Goggles from your rival in Lavaridge Town"
+   "reach": "the Go-Goggles from your rival in Lavaridge Town",
+   "map": true
   },
   {
    "class": "Picnicker",
@@ -1158,7 +1178,8 @@
    "id": "heidi",
    "stage": "lavaridge-town",
    "later": true,
-   "reach": "the Go-Goggles from your rival in Lavaridge Town"
+   "reach": "the Go-Goggles from your rival in Lavaridge Town",
+   "map": true
   },
   {
    "class": "Ruin Maniac",
@@ -1231,7 +1252,8 @@
    "id": "bryan",
    "stage": "lavaridge-town",
    "later": true,
-   "reach": "the Go-Goggles from your rival in Lavaridge Town"
+   "reach": "the Go-Goggles from your rival in Lavaridge Town",
+   "map": true
   },
   {
    "class": "Camper",
@@ -1304,7 +1326,8 @@
    "id": "branden",
    "stage": "lavaridge-town",
    "later": true,
-   "reach": "the Go-Goggles from your rival in Lavaridge Town"
+   "reach": "the Go-Goggles from your rival in Lavaridge Town",
+   "map": true
   },
   {
    "class": "Camper",
@@ -1345,7 +1368,8 @@
    "id": "drew",
    "stage": "lavaridge-town",
    "later": true,
-   "reach": "the Go-Goggles from your rival in Lavaridge Town"
+   "reach": "the Go-Goggles from your rival in Lavaridge Town",
+   "map": true
   },
   {
    "class": "Black Belt",
@@ -1385,7 +1409,8 @@
      ]
     }
    ],
-   "id": "daisuke"
+   "id": "daisuke",
+   "map": true
   },
   {
    "class": "Cool Trainer",
@@ -1490,7 +1515,8 @@
    "uses": [
     "Super Potion"
    ],
-   "id": "wilton"
+   "id": "wilton",
+   "map": true
   },
   {
    "class": "Cool Trainer",
@@ -1592,9 +1618,11 @@
    "uses": [
     "Super Potion"
    ],
-   "id": "brooke"
+   "id": "brooke",
+   "map": true
   }
  ],
+ "mapCount": 1,
  "verified": true,
  "sources": [
   "https://mrwalkthroughs.com/pokemon-emerald-seaglass/"

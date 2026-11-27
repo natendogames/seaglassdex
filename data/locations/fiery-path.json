@@ -75,7 +75,8 @@
    "later": true,
    "need": "Strength (HM04 from Rusturf Tunnel, used with the Heat Badge)",
    "after": "lavaridge-town",
-   "stage": 30.5
+   "stage": 30.5,
+   "map": true
   },
   {
    "id": "outside-fire-stone",
@@ -85,11 +86,13 @@
    "later": true,
    "need": "Strength (HM04 from Rusturf Tunnel, used with the Heat Badge)",
    "after": "lavaridge-town",
-   "stage": 30.5
+   "stage": 30.5,
+   "map": true
   }
  ],
  "gifts": [],
  "trainers": [],
+ "mapCount": 1,
  "verified": true,
  "sources": [
   "https://mrwalkthroughs.com/pokemon-emerald-seaglass/"

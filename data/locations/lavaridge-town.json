@@ -16,7 +16,8 @@
    "id": "hidden-outside-ice-heal",
    "name": "Ice Heal",
    "hidden": true,
-   "where": "Outside"
+   "where": "Outside",
+   "map": true
   }
  ],
  "gifts": [
@@ -88,7 +89,8 @@
     "Hyper Potion"
    ],
    "id": "gerald",
-   "area": "Gym 1F"
+   "area": "Gym 1F",
+   "map": true
   },
   {
    "class": "Kindler",
@@ -157,7 +159,8 @@
     }
    ],
    "id": "cole",
-   "area": "Gym 1F"
+   "area": "Gym 1F",
+   "map": true
   },
   {
    "class": "Kindler",
@@ -197,7 +200,8 @@
     }
    ],
    "id": "axle",
-   "area": "Gym 1F"
+   "area": "Gym 1F",
+   "map": true
   },
   {
    "class": "Battle Girl",
@@ -237,7 +241,8 @@
     }
    ],
    "id": "danielle",
-   "area": "Gym 1F"
+   "area": "Gym 1F",
+   "map": true
   },
   {
    "class": "Leader",
@@ -377,7 +382,8 @@
     "TM50"
    ],
    "id": "flannery",
-   "area": "Gym 1F"
+   "area": "Gym 1F",
+   "map": true
   },
   {
    "class": "Kindler",
@@ -417,7 +423,8 @@
     }
    ],
    "id": "jace",
-   "area": "Gym B1F"
+   "area": "Gym B1F",
+   "map": true
   },
   {
    "class": "Hiker",
@@ -458,7 +465,8 @@
     }
    ],
    "id": "eli",
-   "area": "Gym B1F"
+   "area": "Gym B1F",
+   "map": true
   },
   {
    "class": "Kindler",
@@ -499,7 +507,8 @@
     }
    ],
    "id": "keegan",
-   "area": "Gym B1F"
+   "area": "Gym B1F",
+   "map": true
   },
   {
    "class": "Kindler",
@@ -570,9 +579,11 @@
     }
    ],
    "id": "jeff",
-   "area": "Gym B1F"
+   "area": "Gym B1F",
+   "map": true
   }
  ],
+ "mapCount": 3,
  "verified": true,
  "sources": [
   "https://mrwalkthroughs.com/pokemon-emerald-seaglass/"

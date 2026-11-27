@@ -864,7 +864,8 @@
    "id": "room-9-tm26",
    "name": "TM26",
    "hidden": false,
-   "where": "Room 9"
+   "where": "Room 9",
+   "map": true
   }
  ],
  "gifts": [],
@@ -905,7 +906,8 @@
     }
    ],
    "id": "grunt-seafloor-cavern",
-   "area": "Room 1"
+   "area": "Room 1",
+   "map": true
   },
   {
    "class": "Aqua Admin",
@@ -976,7 +978,8 @@
     }
    ],
    "id": "shelly-seafloor-cavern",
-   "area": "Room 3"
+   "area": "Room 3",
+   "map": true
   },
   {
    "class": "Aqua Leader",
@@ -1113,6 +1116,7 @@
    "area": "Room 9"
   }
  ],
+ "mapCount": 3,
  "verified": true,
  "sources": [
   "https://mrwalkthroughs.com/pokemon-emerald-seaglass/"

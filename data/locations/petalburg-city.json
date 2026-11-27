@@ -76,7 +76,8 @@
    "later": true,
    "need": "Surf (HM03 from Wally's father after you beat Norman in Petalburg City)",
    "after": "lavaridge-town",
-   "stage": 30.5
+   "stage": 30.5,
+   "map": true
   },
   {
    "id": "outside-ether",
@@ -86,7 +87,8 @@
    "later": true,
    "need": "Surf (HM03 from Wally's father after you beat Norman in Petalburg City)",
    "after": "lavaridge-town",
-   "stage": 30.5
+   "stage": 30.5,
+   "map": true
   },
   {
    "id": "hidden-outside-rare-candy",
@@ -96,7 +98,8 @@
    "later": true,
    "need": "Surf (HM03 from Wally's father after you beat Norman in Petalburg City)",
    "after": "lavaridge-town",
-   "stage": 30.5
+   "stage": 30.5,
+   "map": true
   }
  ],
  "gifts": [
@@ -176,7 +179,8 @@
    "id": "mary",
    "area": "Gym",
    "stage": "lavaridge-town",
-   "later": true
+   "later": true,
+   "map": true
   },
   {
    "class": "Cool Trainer",
@@ -215,7 +219,8 @@
    "id": "randall",
    "area": "Gym",
    "stage": "lavaridge-town",
-   "later": true
+   "later": true,
+   "map": true
   },
   {
    "class": "Cool Trainer",
@@ -261,7 +266,8 @@
    "id": "george",
    "area": "Gym",
    "stage": "lavaridge-town",
-   "later": true
+   "later": true,
+   "map": true
   },
   {
    "class": "Cool Trainer",
@@ -300,7 +306,8 @@
    "id": "alexia",
    "area": "Gym",
    "stage": "lavaridge-town",
-   "later": true
+   "later": true,
+   "map": true
   },
   {
    "class": "Cool Trainer",
@@ -339,7 +346,8 @@
    "id": "parker",
    "area": "Gym",
    "stage": "lavaridge-town",
-   "later": true
+   "later": true,
+   "map": true
   },
   {
    "class": "Cool Trainer",
@@ -382,7 +390,8 @@
    "id": "berke",
    "area": "Gym",
    "stage": "lavaridge-town",
-   "later": true
+   "later": true,
+   "map": true
   },
   {
    "class": "Cool Trainer",
@@ -426,7 +435,8 @@
    "id": "jody",
    "area": "Gym",
    "stage": "lavaridge-town",
-   "later": true
+   "later": true,
+   "map": true
   },
   {
    "class": "Leader",
@@ -570,9 +580,11 @@
    "id": "norman",
    "area": "Gym",
    "stage": "lavaridge-town",
-   "later": true
+   "later": true,
+   "map": true
   }
  ],
+ "mapCount": 2,
  "verified": true,
  "sources": [
   "https://mrwalkthroughs.com/pokemon-emerald-seaglass/"

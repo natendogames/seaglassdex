@@ -222,7 +222,8 @@
     }
    ],
    "id": "laura",
-   "area": "Gym"
+   "area": "Gym",
+   "map": true
   },
   {
    "class": "Sailor",
@@ -261,7 +262,8 @@
     }
    ],
    "id": "brenden",
-   "area": "Gym"
+   "area": "Gym",
+   "map": true
   },
   {
    "class": "Black Belt",
@@ -301,7 +303,8 @@
     }
    ],
    "id": "cristian",
-   "area": "Gym"
+   "area": "Gym",
+   "map": true
   },
   {
    "class": "Battle Girl",
@@ -339,7 +342,8 @@
     }
    ],
    "id": "lilith",
-   "area": "Gym"
+   "area": "Gym",
+   "map": true
   },
   {
    "class": "Black Belt",
@@ -378,7 +382,8 @@
     }
    ],
    "id": "takao",
-   "area": "Gym"
+   "area": "Gym",
+   "map": true
   },
   {
    "class": "Battle Girl",
@@ -417,7 +422,8 @@
     }
    ],
    "id": "jocelyn",
-   "area": "Gym"
+   "area": "Gym",
+   "map": true
   },
   {
    "class": "Leader",
@@ -526,9 +532,11 @@
     "TM08"
    ],
    "id": "brawly",
-   "area": "Gym"
+   "area": "Gym",
+   "map": true
   }
  ],
+ "mapCount": 2,
  "verified": true,
  "sources": [
   "https://mrwalkthroughs.com/pokemon-emerald-seaglass/"

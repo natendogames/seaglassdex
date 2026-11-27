@@ -89,7 +89,8 @@
    "later": true,
    "need": "Come in from Jagged Pass",
    "after": "jagged-pass",
-   "stage": 29
+   "stage": 29,
+   "map": true
   }
  ],
  "gifts": [],
@@ -162,7 +163,8 @@
      ]
     }
    ],
-   "id": "bryant"
+   "id": "bryant",
+   "map": true
   },
   {
    "class": "Aroma Lady",
@@ -230,7 +232,8 @@
      ]
     }
    ],
-   "id": "shayla"
+   "id": "shayla",
+   "map": true
   },
   {
    "class": "Camper",
@@ -268,7 +271,8 @@
      ]
     }
    ],
-   "id": "larry"
+   "id": "larry",
+   "map": true
   },
   {
    "class": "Picnicker",
@@ -338,7 +342,8 @@
      ]
     }
    ],
-   "id": "carol"
+   "id": "carol",
+   "map": true
   },
   {
    "class": "Hiker",
@@ -440,7 +445,8 @@
      ]
     }
    ],
-   "id": "trent"
+   "id": "trent",
+   "map": true
   },
   {
    "class": "Hiker",
@@ -509,9 +515,11 @@
      ]
     }
    ],
-   "id": "brice"
+   "id": "brice",
+   "map": true
   }
  ],
+ "mapCount": 1,
  "verified": true,
  "sources": [
   "https://mrwalkthroughs.com/pokemon-emerald-seaglass/"

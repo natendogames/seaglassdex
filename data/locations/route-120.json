@@ -184,55 +184,64 @@
    "id": "outside-nugget",
    "name": "Nugget",
    "hidden": false,
-   "where": "Outside"
+   "where": "Outside",
+   "map": true
   },
   {
    "id": "outside-full-heal",
    "name": "Full Heal",
    "hidden": false,
-   "where": "Outside"
+   "where": "Outside",
+   "map": true
   },
   {
    "id": "outside-wide-lens",
    "name": "Wide Lens",
    "hidden": false,
-   "where": "Outside"
+   "where": "Outside",
+   "map": true
   },
   {
    "id": "outside-hyper-potion",
    "name": "Hyper Potion",
    "hidden": false,
-   "where": "Outside"
+   "where": "Outside",
+   "map": true
   },
   {
    "id": "outside-revive",
    "name": "Revive",
    "hidden": false,
-   "where": "Outside"
+   "where": "Outside",
+   "map": true
   },
   {
    "id": "hidden-outside-rare-candy",
    "name": "Rare Candy",
    "hidden": true,
-   "where": "Outside"
+   "where": "Outside",
+   "map": true
   },
   {
    "id": "hidden-outside-revive",
    "name": "Revive",
    "hidden": true,
-   "where": "Outside"
+   "where": "Outside",
+   "map": true
   },
   {
    "id": "hidden-outside-rare-candy-2",
    "name": "Rare Candy",
    "hidden": true,
-   "where": "Outside"
+   "where": "Outside",
+   "map": true
   },
   {
    "id": "hidden-outside-zinc",
    "name": "Zinc",
    "hidden": true,
-   "where": "Outside"
+   "where": "Outside",
+   "map": true
   }
  ],
  "gifts": [
@@ -310,7 +319,8 @@
      ]
     }
    ],
-   "id": "clarissa"
+   "id": "clarissa",
+   "map": true
   },
   {
    "class": "Bird Keeper",
@@ -349,7 +359,8 @@
      ]
     }
    ],
-   "id": "robert"
+   "id": "robert",
+   "map": true
   },
   {
    "class": "Bird Keeper",
@@ -419,7 +430,8 @@
      ]
     }
    ],
-   "id": "colin"
+   "id": "colin",
+   "map": true
   },
   {
    "class": "Ninja Boy",
@@ -489,7 +501,8 @@
      ]
     }
    ],
-   "id": "riley"
+   "id": "riley",
+   "map": true
   },
   {
    "class": "Battle Girl",
@@ -559,7 +572,8 @@
      ]
     }
    ],
-   "id": "callie"
+   "id": "callie",
+   "map": true
   },
   {
    "class": "Cool Trainer",
@@ -595,7 +609,8 @@
    "uses": [
     "Hyper Potion"
    ],
-   "id": "leonel"
+   "id": "leonel",
+   "map": true
   },
   {
    "class": "Parasol Lady",
@@ -634,7 +649,8 @@
      ]
     }
    ],
-   "id": "angelica"
+   "id": "angelica",
+   "map": true
   },
   {
    "class": "Cool Trainer",
@@ -676,7 +692,8 @@
    "uses": [
     "Full Restore"
    ],
-   "id": "jennifer"
+   "id": "jennifer",
+   "map": true
   },
   {
    "class": "Pokémon Ranger",
@@ -779,7 +796,8 @@
    "uses": [
     "Full Restore"
    ],
-   "id": "jenna"
+   "id": "jenna",
+   "map": true
   },
   {
    "class": "Pokémon Ranger",
@@ -883,7 +901,8 @@
    "uses": [
     "Full Restore"
    ],
-   "id": "lorenzo"
+   "id": "lorenzo",
+   "map": true
   },
   {
    "class": "Ruin Maniac",
@@ -984,7 +1003,8 @@
      ]
     }
    ],
-   "id": "chip"
+   "id": "chip",
+   "map": true
   },
   {
    "class": "Ninja Boy",
@@ -1051,7 +1071,8 @@
      ]
     }
    ],
-   "id": "keigo"
+   "id": "keigo",
+   "map": true
   },
   {
    "class": "Bug Maniac",
@@ -1151,9 +1172,11 @@
      ]
     }
    ],
-   "id": "jeffrey"
+   "id": "jeffrey",
+   "map": true
   }
  ],
+ "mapCount": 1,
  "verified": true,
  "sources": [
   "https://mrwalkthroughs.com/pokemon-emerald-seaglass/"

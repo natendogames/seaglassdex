@@ -176,31 +176,36 @@
    "id": "hidden-outside-heart-scale",
    "name": "Heart Scale",
    "hidden": true,
-   "where": "Outside"
+   "where": "Outside",
+   "map": true
   },
   {
    "id": "hidden-outside-heart-scale-2",
    "name": "Heart Scale",
    "hidden": true,
-   "where": "Outside"
+   "where": "Outside",
+   "map": true
   },
   {
    "id": "hidden-outside-heart-scale-3",
    "name": "Heart Scale",
    "hidden": true,
-   "where": "Outside"
+   "where": "Outside",
+   "map": true
   },
   {
    "id": "hidden-underwater-protein",
    "name": "Protein",
    "hidden": true,
-   "where": "Underwater"
+   "where": "Underwater",
+   "map": true
   },
   {
    "id": "hidden-underwater-pearl",
    "name": "Pearl",
    "hidden": true,
-   "where": "Underwater"
+   "where": "Underwater",
+   "map": true
   }
  ],
  "gifts": [],
@@ -276,7 +281,8 @@
    "uses": [
     "Full Restore"
    ],
-   "id": "alexa"
+   "id": "alexa",
+   "map": true
   },
   {
    "class": "Triathlete",
@@ -346,7 +352,8 @@
      ]
     }
    ],
-   "id": "isaiah"
+   "id": "isaiah",
+   "map": true
   },
   {
    "class": "Cool Trainer",
@@ -419,7 +426,8 @@
    "uses": [
     "Hyper Potion"
    ],
-   "id": "ruben"
+   "id": "ruben",
+   "map": true
   },
   {
    "class": "Fisherman",
@@ -518,7 +526,8 @@
      ]
     }
    ],
-   "id": "wayne"
+   "id": "wayne",
+   "map": true
   },
   {
    "class": "Triathlete",
@@ -557,7 +566,8 @@
      ]
     }
    ],
-   "id": "katelyn"
+   "id": "katelyn",
+   "map": true
   },
   {
    "class": "Swimmer♂",
@@ -626,7 +636,8 @@
      ]
     }
    ],
-   "id": "harrison"
+   "id": "harrison",
+   "map": true
   },
   {
    "class": "Swimmer♀",
@@ -696,9 +707,11 @@
      ]
     }
    ],
-   "id": "carlee"
+   "id": "carlee",
+   "map": true
   }
  ],
+ "mapCount": 2,
  "verified": true,
  "sources": [
   "https://mrwalkthroughs.com/pokemon-emerald-seaglass/"

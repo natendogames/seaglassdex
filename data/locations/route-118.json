@@ -169,19 +169,22 @@
    "id": "outside-dragon-scale",
    "name": "Dragon Scale",
    "hidden": false,
-   "where": "Outside"
+   "where": "Outside",
+   "map": true
   },
   {
    "id": "hidden-outside-iron",
    "name": "Iron",
    "hidden": true,
-   "where": "Outside"
+   "where": "Outside",
+   "map": true
   },
   {
    "id": "hidden-outside-heart-scale",
    "name": "Heart Scale",
    "hidden": true,
-   "where": "Outside"
+   "where": "Outside",
+   "map": true
   }
  ],
  "gifts": [
@@ -284,7 +287,8 @@
      ]
     }
    ],
-   "id": "deandre"
+   "id": "deandre",
+   "map": true
   },
   {
    "class": "Aroma Lady",
@@ -382,7 +386,8 @@
      ]
     }
    ],
-   "id": "rose"
+   "id": "rose",
+   "map": true
   },
   {
    "class": "Fisherman",
@@ -421,7 +426,8 @@
      ]
     }
    ],
-   "id": "wade"
+   "id": "wade",
+   "map": true
   },
   {
    "class": "Guitarist",
@@ -488,7 +494,8 @@
      ]
     }
    ],
-   "id": "dalton"
+   "id": "dalton",
+   "map": true
   },
   {
    "class": "Fisherman",
@@ -558,7 +565,8 @@
      ]
     }
    ],
-   "id": "barny"
+   "id": "barny",
+   "map": true
   },
   {
    "class": "Bird Keeper",
@@ -628,7 +636,8 @@
      ]
     }
    ],
-   "id": "chester"
+   "id": "chester",
+   "map": true
   },
   {
    "class": "Bird Keeper",
@@ -667,9 +676,11 @@
      ]
     }
    ],
-   "id": "perry"
+   "id": "perry",
+   "map": true
   }
  ],
+ "mapCount": 1,
  "verified": true,
  "sources": [
   "https://mrwalkthroughs.com/pokemon-emerald-seaglass/"

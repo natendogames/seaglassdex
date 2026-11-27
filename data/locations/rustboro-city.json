@@ -97,7 +97,8 @@
    "id": "outside-wishing-star",
    "name": "Wishing Star",
    "hidden": false,
-   "where": "Outside"
+   "where": "Outside",
+   "map": true
   }
  ],
  "gifts": [
@@ -573,7 +574,8 @@
     ]
    },
    "id": "rival-rustboro",
-   "area": "Outside"
+   "area": "Outside",
+   "map": true
   },
   {
    "class": "Youngster",
@@ -602,7 +604,8 @@
     }
    ],
    "id": "josh",
-   "area": "Gym"
+   "area": "Gym",
+   "map": true
   },
   {
    "class": "Youngster",
@@ -670,7 +673,8 @@
     }
    ],
    "id": "tommy",
-   "area": "Gym"
+   "area": "Gym",
+   "map": true
   },
   {
    "class": "Hiker",
@@ -739,7 +743,8 @@
     }
    ],
    "id": "marc",
-   "area": "Gym"
+   "area": "Gym",
+   "map": true
   },
   {
    "class": "Leader",
@@ -848,9 +853,11 @@
     "TM39"
    ],
    "id": "roxanne",
-   "area": "Gym"
+   "area": "Gym",
+   "map": true
   }
  ],
+ "mapCount": 2,
  "verified": true,
  "sources": [
   "https://mrwalkthroughs.com/pokemon-emerald-seaglass/"

@@ -234,91 +234,106 @@
    "id": "outside-razor-fang",
    "name": "Razor Fang",
    "hidden": false,
-   "where": "Outside"
+   "where": "Outside",
+   "map": true
   },
   {
    "id": "outside-zinc",
    "name": "Zinc",
    "hidden": false,
-   "where": "Outside"
+   "where": "Outside",
+   "map": true
   },
   {
    "id": "outside-black-augurite",
    "name": "Black Augurite",
    "hidden": false,
-   "where": "Outside"
+   "where": "Outside",
+   "map": true
   },
   {
    "id": "outside-leaf-stone",
    "name": "Leaf Stone",
    "hidden": false,
-   "where": "Outside"
+   "where": "Outside",
+   "map": true
   },
   {
    "id": "outside-rare-candy",
    "name": "Rare Candy",
    "hidden": false,
-   "where": "Outside"
+   "where": "Outside",
+   "map": true
   },
   {
    "id": "outside-hyper-potion",
    "name": "Hyper Potion",
    "hidden": false,
-   "where": "Outside"
+   "where": "Outside",
+   "map": true
   },
   {
    "id": "outside-hyper-potion-2",
    "name": "Hyper Potion",
    "hidden": false,
-   "where": "Outside"
+   "where": "Outside",
+   "map": true
   },
   {
    "id": "outside-nugget",
    "name": "Nugget",
    "hidden": false,
-   "where": "Outside"
+   "where": "Outside",
+   "map": true
   },
   {
    "id": "outside-elixir",
    "name": "Elixir",
    "hidden": false,
-   "where": "Outside"
+   "where": "Outside",
+   "map": true
   },
   {
    "id": "hidden-outside-calcium",
    "name": "Calcium",
    "hidden": true,
-   "where": "Outside"
+   "where": "Outside",
+   "map": true
   },
   {
    "id": "hidden-outside-ultra-ball",
    "name": "Ultra Ball",
    "hidden": true,
-   "where": "Outside"
+   "where": "Outside",
+   "map": true
   },
   {
    "id": "hidden-outside-full-heal",
    "name": "Full Heal",
    "hidden": true,
-   "where": "Outside"
+   "where": "Outside",
+   "map": true
   },
   {
    "id": "hidden-outside-max-ether",
    "name": "Max Ether",
    "hidden": true,
-   "where": "Outside"
+   "where": "Outside",
+   "map": true
   },
   {
    "id": "weather-institute-1f-upgrade",
    "name": "Upgrade",
    "hidden": false,
-   "where": "Weather Institute 1F"
+   "where": "Weather Institute 1F",
+   "map": true
   },
   {
    "id": "weather-institute-2f-linking-cord",
    "name": "Linking Cord",
    "hidden": false,
-   "where": "Weather Institute 2F"
+   "where": "Weather Institute 2F",
+   "map": true
   }
  ],
  "gifts": [
@@ -442,7 +457,8 @@
     }
    ],
    "id": "chris",
-   "area": "Outside"
+   "area": "Outside",
+   "map": true
   },
   {
    "class": "Bug Catcher",
@@ -482,7 +498,8 @@
     }
    ],
    "id": "kent",
-   "area": "Outside"
+   "area": "Outside",
+   "map": true
   },
   {
    "class": "Bug Catcher",
@@ -551,7 +568,8 @@
     }
    ],
    "id": "greg",
-   "area": "Outside"
+   "area": "Outside",
+   "map": true
   },
   {
    "class": "Bug Maniac",
@@ -652,7 +670,8 @@
     }
    ],
    "id": "taylor",
-   "area": "Outside"
+   "area": "Outside",
+   "map": true
   },
   {
    "class": "Bug Maniac",
@@ -751,7 +770,8 @@
     }
    ],
    "id": "donald",
-   "area": "Outside"
+   "area": "Outside",
+   "map": true
   },
   {
    "class": "Bug Maniac",
@@ -791,7 +811,8 @@
     }
    ],
    "id": "brent",
-   "area": "Outside"
+   "area": "Outside",
+   "map": true
   },
   {
    "class": "Bug Catcher",
@@ -862,7 +883,8 @@
     }
    ],
    "id": "doug",
-   "area": "Outside"
+   "area": "Outside",
+   "map": true
   },
   {
    "class": "Pokémon Ranger",
@@ -934,7 +956,8 @@
     "Full Restore"
    ],
    "id": "catherine",
-   "area": "Outside"
+   "area": "Outside",
+   "map": true
   },
   {
    "class": "Pokémon Ranger",
@@ -978,7 +1001,8 @@
     "Full Restore"
    ],
    "id": "jackson",
-   "area": "Outside"
+   "area": "Outside",
+   "map": true
   },
   {
    "class": "Parasol Lady",
@@ -1018,7 +1042,8 @@
     }
    ],
    "id": "rachel",
-   "area": "Outside"
+   "area": "Outside",
+   "map": true
   },
   {
    "class": "Bird Keeper",
@@ -1058,7 +1083,8 @@
     }
    ],
    "id": "phil",
-   "area": "Outside"
+   "area": "Outside",
+   "map": true
   },
   {
    "class": "Bird Keeper",
@@ -1129,7 +1155,8 @@
     }
    ],
    "id": "hugh",
-   "area": "Outside"
+   "area": "Outside",
+   "map": true
   },
   {
    "class": "Ninja Boy",
@@ -1201,7 +1228,8 @@
     }
    ],
    "id": "takashi",
-   "area": "Outside"
+   "area": "Outside",
+   "map": true
   },
   {
    "class": "Kindler",
@@ -1272,7 +1300,8 @@
     }
    ],
    "id": "dayton",
-   "area": "Outside"
+   "area": "Outside",
+   "map": true
   },
   {
    "class": "Ninja Boy",
@@ -1312,7 +1341,8 @@
     }
    ],
    "id": "yasu",
-   "area": "Outside"
+   "area": "Outside",
+   "map": true
   },
   {
    "class": "Guitarist",
@@ -1351,7 +1381,8 @@
     }
    ],
    "id": "fabian",
-   "area": "Outside"
+   "area": "Outside",
+   "map": true
   },
   {
    "class": "Ninja Boy",
@@ -1421,7 +1452,8 @@
     }
    ],
    "id": "hideo",
-   "area": "Outside"
+   "area": "Outside",
+   "map": true
   },
   {
    "class": "Rival",
@@ -2080,7 +2112,8 @@
     }
    ],
    "id": "grunt-weather-inst",
-   "area": "Weather Institute 1F"
+   "area": "Weather Institute 1F",
+   "map": true
   },
   {
    "class": "Aqua Admin",
@@ -2150,9 +2183,11 @@
     }
    ],
    "id": "shelly-weather-institute",
-   "area": "Weather Institute 2F"
+   "area": "Weather Institute 2F",
+   "map": true
   }
  ],
+ "mapCount": 3,
  "verified": true,
  "sources": [
   "https://mrwalkthroughs.com/pokemon-emerald-seaglass/"

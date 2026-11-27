@@ -155,19 +155,22 @@
    "id": "outside-great-ball",
    "name": "Great Ball",
    "hidden": false,
-   "where": "Outside"
+   "where": "Outside",
+   "map": true
   },
   {
    "id": "outside-revive",
    "name": "Revive",
    "hidden": false,
-   "where": "Outside"
+   "where": "Outside",
+   "map": true
   },
   {
    "id": "hidden-outside-repel",
    "name": "Repel",
    "hidden": true,
-   "where": "Outside"
+   "where": "Outside",
+   "map": true
   }
  ],
  "gifts": [],
@@ -233,7 +236,8 @@
     }
    ],
    "double": true,
-   "id": "anna-and-meg"
+   "id": "anna-and-meg",
+   "map": true
   },
   {
    "class": "Triathlete",
@@ -273,7 +277,8 @@
      ]
     }
    ],
-   "id": "dylan"
+   "id": "dylan",
+   "map": true
   },
   {
    "class": "Pokémon Breeder",
@@ -462,7 +467,8 @@
      ]
     }
    ],
-   "id": "isaac"
+   "id": "isaac",
+   "map": true
   },
   {
    "class": "Triathlete",
@@ -502,7 +508,8 @@
      ]
     }
    ],
-   "id": "maria"
+   "id": "maria",
+   "map": true
   },
   {
    "class": "Battle Girl",
@@ -540,7 +547,8 @@
      ]
     }
    ],
-   "id": "aisha"
+   "id": "aisha",
+   "map": true
   },
   {
    "class": "Bug Maniac",
@@ -598,7 +606,8 @@
      ]
     }
    ],
-   "id": "derek"
+   "id": "derek",
+   "map": true
   },
   {
    "class": "Triathlete",
@@ -638,7 +647,8 @@
      ]
     }
    ],
-   "id": "melina"
+   "id": "melina",
+   "map": true
   },
   {
    "class": "Psychic",
@@ -676,7 +686,8 @@
      ]
     }
    ],
-   "id": "brandi"
+   "id": "brandi",
+   "map": true
   },
   {
    "class": "Pokémon Breeder",
@@ -862,9 +873,11 @@
      ]
     }
    ],
-   "id": "lydia"
+   "id": "lydia",
+   "map": true
   }
  ],
+ "mapCount": 1,
  "verified": true,
  "sources": [
   "https://mrwalkthroughs.com/pokemon-emerald-seaglass/"

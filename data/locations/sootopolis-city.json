@@ -263,7 +263,8 @@
     "TM13"
    ],
    "id": "juan",
-   "area": "Gym 1F"
+   "area": "Gym 1F",
+   "map": true
   },
   {
    "class": "Beauty",
@@ -303,7 +304,8 @@
     }
    ],
    "id": "connie",
-   "area": "Gym B1F"
+   "area": "Gym B1F",
+   "map": true
   },
   {
    "class": "Lass",
@@ -342,7 +344,8 @@
     }
    ],
    "id": "andrea",
-   "area": "Gym B1F"
+   "area": "Gym B1F",
+   "map": true
   },
   {
    "class": "Pokéfan",
@@ -414,7 +417,8 @@
     }
    ],
    "id": "annika",
-   "area": "Gym B1F"
+   "area": "Gym B1F",
+   "map": true
   },
   {
    "class": "Lady",
@@ -488,7 +492,8 @@
     "Full Restore"
    ],
    "id": "daphne",
-   "area": "Gym B1F"
+   "area": "Gym B1F",
+   "map": true
   },
   {
    "class": "Pokéfan",
@@ -590,7 +595,8 @@
     }
    ],
    "id": "bethany",
-   "area": "Gym B1F"
+   "area": "Gym B1F",
+   "map": true
   },
   {
    "class": "Beauty",
@@ -629,7 +635,8 @@
     }
    ],
    "id": "bridget",
-   "area": "Gym B1F"
+   "area": "Gym B1F",
+   "map": true
   },
   {
    "class": "Beauty",
@@ -727,7 +734,8 @@
     }
    ],
    "id": "olivia",
-   "area": "Gym B1F"
+   "area": "Gym B1F",
+   "map": true
   },
   {
    "class": "Lass",
@@ -796,7 +804,8 @@
     }
    ],
    "id": "crissy",
-   "area": "Gym B1F"
+   "area": "Gym B1F",
+   "map": true
   },
   {
    "class": "Lady",
@@ -840,7 +849,8 @@
     "Full Restore"
    ],
    "id": "brianna",
-   "area": "Gym B1F"
+   "area": "Gym B1F",
+   "map": true
   },
   {
    "class": "Beauty",
@@ -911,9 +921,11 @@
     }
    ],
    "id": "tiffany",
-   "area": "Gym B1F"
+   "area": "Gym B1F",
+   "map": true
   }
  ],
+ "mapCount": 3,
  "verified": true,
  "sources": [
   "https://mrwalkthroughs.com/pokemon-emerald-seaglass/"

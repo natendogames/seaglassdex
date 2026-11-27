@@ -92,43 +92,50 @@
    "later": true,
    "need": "Surf (HM03 from Wally's father after you beat Norman in Petalburg City)",
    "after": "lavaridge-town",
-   "stage": 30.5
+   "stage": 30.5,
+   "map": true
   },
   {
    "id": "outside-potion",
    "name": "Potion",
    "hidden": false,
-   "where": "Outside"
+   "where": "Outside",
+   "map": true
   },
   {
    "id": "hidden-outside-revive",
    "name": "Revive",
    "hidden": true,
-   "where": "Outside"
+   "where": "Outside",
+   "map": true
   },
   {
    "id": "hidden-outside-heart-scale",
    "name": "Heart Scale",
    "hidden": true,
-   "where": "Outside"
+   "where": "Outside",
+   "map": true
   },
   {
    "id": "hidden-outside-great-ball",
    "name": "Great Ball",
    "hidden": true,
-   "where": "Outside"
+   "where": "Outside",
+   "map": true
   },
   {
    "id": "hidden-outside-ether",
    "name": "Ether",
    "hidden": true,
-   "where": "Outside"
+   "where": "Outside",
+   "map": true
   },
   {
    "id": "hidden-outside-heart-scale-2",
    "name": "Heart Scale",
    "hidden": true,
-   "where": "Outside"
+   "where": "Outside",
+   "map": true
   },
   {
    "id": "hidden-outside-heart-scale-3",
@@ -138,7 +145,8 @@
    "later": true,
    "need": "Surf (HM03 from Wally's father after you beat Norman in Petalburg City)",
    "after": "lavaridge-town",
-   "stage": 30.5
+   "stage": 30.5,
+   "map": true
   }
  ],
  "gifts": [
@@ -235,7 +243,8 @@
    "area": "Outside",
    "stage": "lavaridge-town",
    "later": true,
-   "reach": "Surf (HM03 from Wally's father after you beat Norman in Petalburg City)"
+   "reach": "Surf (HM03 from Wally's father after you beat Norman in Petalburg City)",
+   "map": true
   },
   {
    "class": "Fisherman",
@@ -310,7 +319,8 @@
    "area": "Outside",
    "stage": "lavaridge-town",
    "later": true,
-   "reach": "Surf (HM03 from Wally's father after you beat Norman in Petalburg City)"
+   "reach": "Surf (HM03 from Wally's father after you beat Norman in Petalburg City)",
+   "map": true
   },
   {
    "class": "Young Couple",
@@ -383,7 +393,8 @@
    "area": "Outside",
    "stage": "lavaridge-town",
    "later": true,
-   "reach": "Surf (HM03 from Wally's father after you beat Norman in Petalburg City)"
+   "reach": "Surf (HM03 from Wally's father after you beat Norman in Petalburg City)",
+   "map": true
   },
   {
    "class": "Swimmer♀",
@@ -488,7 +499,8 @@
    "area": "Outside",
    "stage": "lavaridge-town",
    "later": true,
-   "need": "surf"
+   "need": "surf",
+   "map": true
   },
   {
    "class": "Swimmer♂",
@@ -562,7 +574,8 @@
    "area": "Outside",
    "stage": "lavaridge-town",
    "later": true,
-   "need": "surf"
+   "need": "surf",
+   "map": true
   },
   {
    "class": "Tuber",
@@ -634,7 +647,8 @@
    "area": "Outside",
    "stage": "lavaridge-town",
    "later": true,
-   "reach": "Surf (HM03 from Wally's father after you beat Norman in Petalburg City)"
+   "reach": "Surf (HM03 from Wally's father after you beat Norman in Petalburg City)",
+   "map": true
   },
   {
    "class": "Tuber",
@@ -676,7 +690,8 @@
    "area": "Outside",
    "stage": "lavaridge-town",
    "later": true,
-   "reach": "Surf (HM03 from Wally's father after you beat Norman in Petalburg City)"
+   "reach": "Surf (HM03 from Wally's father after you beat Norman in Petalburg City)",
+   "map": true
   },
   {
    "class": "Sailor",
@@ -744,7 +759,8 @@
     }
    ],
    "id": "huey",
-   "area": "Outside"
+   "area": "Outside",
+   "map": true
   },
   {
    "class": "Tuber",
@@ -778,7 +794,8 @@
     }
    ],
    "id": "hailey",
-   "area": "Outside"
+   "area": "Outside",
+   "map": true
   },
   {
    "class": "Sailor",
@@ -800,7 +817,8 @@
     }
    ],
    "id": "edmond",
-   "area": "Outside"
+   "area": "Outside",
+   "map": true
   },
   {
    "class": "Tuber",
@@ -839,7 +857,8 @@
     }
    ],
    "id": "ricky",
-   "area": "Outside"
+   "area": "Outside",
+   "map": true
   },
   {
    "class": "Tuber",
@@ -905,7 +924,8 @@
     }
    ],
    "id": "lola",
-   "area": "Outside"
+   "area": "Outside",
+   "map": true
   },
   {
    "class": "Tuber",
@@ -975,7 +995,8 @@
     }
    ],
    "id": "chandler",
-   "area": "Outside"
+   "area": "Outside",
+   "map": true
   },
   {
    "class": "Sailor",
@@ -1074,7 +1095,8 @@
     }
    ],
    "id": "dwayne",
-   "area": "Seashore House"
+   "area": "Seashore House",
+   "map": true
   },
   {
    "class": "Beauty",
@@ -1113,7 +1135,8 @@
     }
    ],
    "id": "johanna",
-   "area": "Seashore House"
+   "area": "Seashore House",
+   "map": true
   },
   {
    "class": "Tuber",
@@ -1181,9 +1204,11 @@
     }
    ],
    "id": "simon",
-   "area": "Seashore House"
+   "area": "Seashore House",
+   "map": true
   }
  ],
+ "mapCount": 2,
  "verified": true,
  "sources": [
   "https://mrwalkthroughs.com/pokemon-emerald-seaglass/"
