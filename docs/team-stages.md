@@ -633,9 +633,9 @@ Changes:
 - Nuzleaf learns Razor Wind (Lv 20)
 - Evolve Eevee into Jolteon
 - Jolteon learns Thunder Fang (Lv 20)
+- Evolve Spearow into Fearow
 - Teach TM03 Water Pulse to Quagsire (Oldale Town (TM clerk · 2 badges), ₽2,000; or Petalburg City (TM clerk · 2 badges), ₽2,000; or Rustboro City (TM clerk · 2 badges), ₽2,000 (and 8 more places))
 - Teach TM46 Thief to Quagsire (Slateport City (Oceanic Museum 1F), from Aqua Grunt (after you beat him); or Oldale Town (TM clerk · 3 badges), ₽2,500; or Petalburg City (TM clerk · 3 badges), ₽2,500 (and 9 more places))
-- Evolve Spearow into Fearow
 
 | Pokémon | Lv | Moves |
 | --- | --- | --- |
@@ -643,8 +643,8 @@ Changes:
 | Lapras | 30 | Waterfall, Body Slam |
 | Nuzleaf | 20 | Bullet Seed, Razor Wind |
 | Jolteon | 20 | Thunder Fang, Swift, Bite |
-| Quagsire | 20 | Mud Bomb, Slam, Water Pulse, Thief |
 | Fearow | 20 | Aerial Ace, Fury Attack, Pursuit |
+| Quagsire | 20 | Mud Bomb, Slam, Water Pulse, Thief |
 
 Lead against each Pokémon: Lombre 18 → Fearow (Aerial Ace); Growlithe 18 → Quagsire (Mud Bomb); Marshtomp 20 → Nuzleaf (Bullet Seed)
 
@@ -666,8 +666,8 @@ Changes:
 | Lapras | 30 | Ice Beam, Waterfall, Psychic, Body Slam |
 | Nuzleaf | 20 | Bullet Seed, Rock Smash, Razor Wind |
 | Jolteon | 20 | Thunderbolt, Swift, Bite |
-| Quagsire | 20 | Mud Bomb, Slam, Water Pulse, Thief |
 | Fearow | 20 | Aerial Ace, Fury Attack, Pursuit |
+| Quagsire | 20 | Mud Bomb, Slam, Water Pulse, Thief |
 
 Lead against each Pokémon: Ralts 16 → Lapras (Ice Beam)
 
@@ -687,8 +687,8 @@ Changes:
 | Lapras | 30 | Ice Beam, Waterfall, Psychic, Body Slam |
 | Nuzleaf | 24 | Bullet Seed, Feint Attack, Rock Smash, Razor Wind |
 | Jolteon | 24 | Thunderbolt, Swift, Bite |
-| Quagsire | 24 | Mud Bomb, Slam, Water Pulse, Thief |
 | Fearow | 24 | Aerial Ace, Fury Attack, Assurance |
+| Quagsire | 24 | Mud Bomb, Slam, Water Pulse, Thief |
 
 Lead against each Pokémon: Volbeat 20 → Lapras (Ice Beam); Flaaffy 20 → Lapras (Ice Beam); Magneton 22 → Quagsire (Mud Bomb); Manectric 24 → Lapras (Ice Beam)
 
@@ -711,8 +711,8 @@ Changes:
 | Lapras | 30 | Ice Beam, Waterfall, Psychic, Body Slam |
 | Nuzleaf | 24 | Bullet Seed, Feint Attack, Pound, Rock Smash |
 | Jolteon | 24 | Thunderbolt, Swift, Bite, Double Kick |
-| Quagsire | 24 | Mud Bomb, Slam, Water Pulse, Thief |
 | Fearow | 24 | Pluck, Drill Run, Fury Attack, Assurance |
+| Quagsire | 24 | Mud Bomb, Slam, Water Pulse, Thief |
 
 Lead against each Pokémon: Numel 18 → Lapras (Waterfall); Poochyena 20 → Lapras (Ice Beam); Dunsparce 22 → Lapras (Ice Beam); Houndour 22 → Lapras (Waterfall)
 
@@ -731,8 +731,8 @@ Changes:
 | Lapras | 30 | Ice Beam, Waterfall, Psychic, Body Slam |
 | Nuzleaf | 25 | Bullet Seed, Feint Attack, Pound, Rock Smash |
 | Jolteon | 25 | Thunderbolt, Pin Missile, Swift, Bite |
-| Quagsire | 25 | Triple Dive, Mud Bomb, Slam, Thief |
 | Fearow | 25 | Pluck, Drill Run, Fury Attack, Assurance |
+| Quagsire | 25 | Triple Dive, Mud Bomb, Slam, Thief |
 
 Lead against each Pokémon: Mightyena 24 → Lapras (Ice Beam); Gligar 24 → Lapras (Ice Beam); Camerupt 25 → Lapras (Waterfall)
 
@@ -754,8 +754,8 @@ Changes:
 | Lapras | 30 | Ice Beam, Waterfall, Psychic, Body Slam |
 | Shiftry | 29 | Leaf Blade, Feint Attack, Pound, Rock Smash |
 | Jolteon | 29 | Thunderbolt, Pin Missile, Swift, Bite |
-| Quagsire | 29 | Triple Dive, Body Slam, Mud Bomb, Sludge Bomb |
 | Fearow | 29 | Pluck, Drill Run, Fury Attack, Assurance |
+| Quagsire | 29 | Triple Dive, Body Slam, Mud Bomb, Sludge Bomb |
 
 Lead against each Pokémon: Slugma 24 → Quagsire (Triple Dive); Flareon 24 → Quagsire (Triple Dive); Camerupt 26 → Lapras (Waterfall); Torkoal 29 → Quagsire (Triple Dive)
 
@@ -773,8 +773,8 @@ Changes:
 | Lapras | 31 | Ice Beam, Waterfall, Psychic, Body Slam |
 | Shiftry | 31 | Leaf Blade, Feint Attack, Pound, Rock Smash |
 | Jolteon | 31 | Thunderbolt, Triple Kick, Pin Missile, Swift |
-| Quagsire | 31 | Triple Dive, Body Slam, Mud Bomb, Sludge Bomb |
 | Fearow | 31 | Pluck, Drill Run, Fury Attack, Assurance |
+| Quagsire | 31 | Triple Dive, Body Slam, Mud Bomb, Sludge Bomb |
 
 Lead against each Pokémon: Spinda 27 → Quagsire (Triple Dive); Vigoroth 27 → Lapras (Ice Beam); Politoed 29 → Shiftry (Leaf Blade); Slaking 31 → Quagsire (Triple Dive)
 
@@ -798,8 +798,8 @@ Changes:
 | Lapras | 31 | Surf, Ice Beam, Psychic, Iron Tail |
 | Shiftry | 31 | Leaf Blade, Feint Attack, Facade, Aerial Ace |
 | Jolteon | 31 | Thunderbolt, Iron Tail, Triple Kick, Pin Missile |
-| Quagsire | 31 | Triple Dive, Body Slam, Mud Bomb, Brick Break |
 | Fearow | 31 | Pluck, Drill Run, Fury Attack, Assurance |
+| Quagsire | 31 | Triple Dive, Body Slam, Mud Bomb, Brick Break |
 
 Lead against each Pokémon: Ludicolo 28 → Fearow (Pluck); Mightyena 28 → Quagsire (Triple Dive)
 
@@ -813,8 +813,8 @@ This leg: 106 of 106 trainer Pokémon won.
 | Lapras | 31 | Surf, Ice Beam, Psychic, Iron Tail |
 | Shiftry | 31 | Leaf Blade, Feint Attack, Facade, Aerial Ace |
 | Jolteon | 31 | Thunderbolt, Iron Tail, Triple Kick, Pin Missile |
-| Quagsire | 31 | Triple Dive, Body Slam, Mud Bomb, Brick Break |
 | Fearow | 31 | Pluck, Drill Run, Fury Attack, Assurance |
+| Quagsire | 31 | Triple Dive, Body Slam, Mud Bomb, Brick Break |
 
 Lead against each Pokémon: Lombre 29 → Fearow (Pluck); Ninetales 29 → Quagsire (Triple Dive); Marshtomp 31 → Shiftry (Leaf Blade)
 
@@ -835,8 +835,8 @@ Changes:
 | Lapras | 33 | Surf, Ice Beam, Psychic, Iron Tail |
 | Shiftry | 33 | Leaf Blade, Lash Out, Shadow Ball, Facade |
 | Jolteon | 33 | Thunderbolt, Iron Tail, Triple Kick, Hyper Beam |
-| Quagsire | 33 | Triple Dive, Body Slam, Mud Bomb, Brick Break |
 | Fearow | 33 | Pluck, Drill Run, Hyper Beam, Assurance |
+| Quagsire | 33 | Triple Dive, Body Slam, Mud Bomb, Brick Break |
 
 Lead against each Pokémon: Fearow 29 → Lapras (Ice Beam); Tropius 29 → Lapras (Ice Beam); Pelipper 30 → Jolteon (Thunderbolt); Skarmory 31 → Jolteon (Thunderbolt); Altaria 33 → Lapras (Ice Beam)
 
@@ -861,8 +861,8 @@ Changes:
 | Lapras | 36 | Blizzard, Surf, Thunder, Psychic |
 | Shiftry | 36 | Leaf Blade, Lash Out, Extrasensory, Shadow Ball |
 | Jolteon | 36 | Thunder, Iron Tail, Triple Kick, Hyper Beam |
-| Quagsire | 36 | Triple Dive, Earthquake, Body Slam, Brick Break |
 | Fearow | 36 | Pluck, Drill Run, Hyper Beam, Assurance |
+| Quagsire | 36 | Triple Dive, Earthquake, Body Slam, Brick Break |
 
 Lead against each Pokémon: Tropius 33 → Lapras (Blizzard); Ludicolo 34 → Fearow (Pluck); Ninetales 32 → Quagsire (Triple Dive); Swampert 36 → Shiftry (Leaf Blade)
 
@@ -876,8 +876,8 @@ This leg: 30 of 30 trainer Pokémon won.
 | Lapras | 36 | Blizzard, Surf, Thunder, Psychic |
 | Shiftry | 36 | Leaf Blade, Lash Out, Extrasensory, Shadow Ball |
 | Jolteon | 36 | Thunder, Iron Tail, Triple Kick, Hyper Beam |
-| Quagsire | 36 | Triple Dive, Earthquake, Body Slam, Brick Break |
 | Fearow | 36 | Pluck, Drill Run, Hyper Beam, Assurance |
+| Quagsire | 36 | Triple Dive, Earthquake, Body Slam, Brick Break |
 
 Lead against each Pokémon: Numel 26 → Lapras (Surf); Dodrio 28 → Lapras (Blizzard); Murkrow 30 → Lapras (Blizzard); Camerupt 33 → Lapras (Surf)
 
@@ -891,8 +891,8 @@ This leg: 64 of 64 trainer Pokémon won.
 | Lapras | 39 | Blizzard, Surf, Thunder, Psychic |
 | Shiftry | 39 | Leaf Blade, Lash Out, Extrasensory, Shadow Ball |
 | Jolteon | 39 | Thunder, Iron Tail, Triple Kick, Hyper Beam |
-| Quagsire | 39 | Triple Dive, Earthquake, Body Slam, Brick Break |
 | Fearow | 39 | Pluck, Drill Run, Hyper Beam, Assurance |
+| Quagsire | 39 | Triple Dive, Earthquake, Body Slam, Brick Break |
 
 Lead against each Pokémon: Gliscor 37 → Lapras (Blizzard); Crobat 38 → Jolteon (Thunder); Ursaring 38 → Blaziken (High Jump Kick); Camerupt 39 → Lapras (Surf)
 
@@ -906,8 +906,8 @@ This leg: 4 of 4 trainer Pokémon won.
 | Lapras | 39 | Blizzard, Surf, Thunder, Psychic |
 | Shiftry | 39 | Leaf Blade, Lash Out, Extrasensory, Shadow Ball |
 | Jolteon | 39 | Thunder, Iron Tail, Triple Kick, Hyper Beam |
-| Quagsire | 39 | Triple Dive, Earthquake, Body Slam, Brick Break |
 | Fearow | 39 | Pluck, Drill Run, Hyper Beam, Assurance |
+| Quagsire | 39 | Triple Dive, Earthquake, Body Slam, Brick Break |
 
 Lead against each Pokémon: Mightyena 34 → Blaziken (High Jump Kick); Golbat 34 → Lapras (Blizzard)
 
@@ -926,8 +926,8 @@ Changes:
 | Lapras | 42 | Blizzard, Surf, Thunder, Psychic |
 | Shiftry | 42 | Leaf Blade, Lash Out, Floaty Fall, Extrasensory |
 | Jolteon | 42 | Thunder, Iron Tail, Triple Kick, Hyper Beam |
-| Quagsire | 42 | Triple Dive, Earthquake, Body Slam, Brick Break |
 | Fearow | 42 | Drill Peck, Drill Run, Hyper Beam, Assurance |
+| Quagsire | 42 | Triple Dive, Earthquake, Body Slam, Brick Break |
 
 Lead against each Pokémon: Claydol 41 → Quagsire (Triple Dive); Mismagius 41 → Jolteon (Iron Tail); Lunatone 42 → Quagsire (Triple Dive); Solrock 42 → Lapras (Surf)
 
@@ -945,8 +945,8 @@ Changes:
 | Lapras | 44 | Blizzard, Surf, Thunder, Psychic |
 | Shiftry | 44 | Leaf Blade, Lash Out, Floaty Fall, Extrasensory |
 | Jolteon | 44 | Thunder, Iron Tail, Triple Kick, Hyper Beam |
-| Quagsire | 44 | Triple Dive, Earthquake, Body Slam, Brick Break |
 | Fearow | 44 | Drill Peck, Drill Run, Hyper Beam, Assurance |
+| Quagsire | 44 | Triple Dive, Earthquake, Body Slam, Brick Break |
 
 Lead against each Pokémon: Gliscor 42 → Lapras (Blizzard); Crobat 43 → Jolteon (Thunder); Shiftry 43 → Blaziken (High Jump Kick); Ursaluna 43 → Lapras (Blizzard); Dodrio 43 → Lapras (Blizzard); Camerupt 44 → Lapras (Surf)
 
@@ -960,8 +960,8 @@ This leg: 6 of 6 trainer Pokémon won.
 | Lapras | 44 | Blizzard, Surf, Thunder, Psychic |
 | Shiftry | 44 | Leaf Blade, Lash Out, Floaty Fall, Extrasensory |
 | Jolteon | 44 | Thunder, Iron Tail, Triple Kick, Hyper Beam |
-| Quagsire | 44 | Triple Dive, Earthquake, Body Slam, Brick Break |
 | Fearow | 44 | Drill Peck, Drill Run, Hyper Beam, Assurance |
+| Quagsire | 44 | Triple Dive, Earthquake, Body Slam, Brick Break |
 
 Lead against each Pokémon: Sharpedo 37 → Lapras (Thunder); Whiscash 37 → Shiftry (Leaf Blade)
 
@@ -975,8 +975,8 @@ This leg: 48 of 48 trainer Pokémon won.
 | Lapras | 44 | Blizzard, Surf, Thunder, Psychic |
 | Shiftry | 44 | Leaf Blade, Lash Out, Floaty Fall, Extrasensory |
 | Jolteon | 44 | Thunder, Iron Tail, Triple Kick, Hyper Beam |
-| Quagsire | 44 | Triple Dive, Earthquake, Body Slam, Brick Break |
 | Fearow | 44 | Drill Peck, Drill Run, Hyper Beam, Assurance |
+| Quagsire | 44 | Triple Dive, Earthquake, Body Slam, Brick Break |
 
 Lead against each Pokémon: Wailord 41 → Jolteon (Thunder); Breloom 41 → Blaziken (Flare Blitz); Crobat 41 → Lapras (Blizzard); Sharpedo 43 → Lapras (Thunder)
 
@@ -990,8 +990,8 @@ This leg: 4 of 4 trainer Pokémon won.
 | Lapras | 46 | Blizzard, Surf, Thunder, Psychic |
 | Shiftry | 46 | Leaf Blade, Lash Out, Floaty Fall, Extrasensory |
 | Jolteon | 46 | Thunder, Iron Tail, Triple Kick, Hyper Beam |
-| Quagsire | 46 | Triple Dive, Earthquake, Body Slam, Brick Break |
 | Fearow | 46 | Drill Peck, Drill Run, Hyper Beam, Assurance |
+| Quagsire | 46 | Triple Dive, Earthquake, Body Slam, Brick Break |
 
 Lead against each Pokémon: Starmie 41 → Shiftry (Leaf Blade); Whiscash 41 → Shiftry (Leaf Blade); Sealeo 43 → Jolteon (Thunder); Octillery 43 → Jolteon (Thunder); Kingdra 46 → Lapras (Blizzard)
 
@@ -1005,8 +1005,8 @@ This leg: 86 of 86 trainer Pokémon won.
 | Lapras | 46 | Blizzard, Surf, Thunder, Psychic |
 | Shiftry | 46 | Leaf Blade, Lash Out, Floaty Fall, Extrasensory |
 | Jolteon | 46 | Thunder, Iron Tail, Triple Kick, Hyper Beam |
-| Quagsire | 46 | Triple Dive, Earthquake, Body Slam, Brick Break |
 | Fearow | 46 | Drill Peck, Drill Run, Hyper Beam, Assurance |
+| Quagsire | 46 | Triple Dive, Earthquake, Body Slam, Brick Break |
 
 Lead against each Pokémon: Altaria 44 → Lapras (Blizzard); Delcatty 43 → Blaziken (High Jump Kick); Roserade 44 → Blaziken (Flare Blitz); Magnezone 41 → Quagsire (Earthquake); Gardevoir 45 → Jolteon (Iron Tail)
 
@@ -1025,8 +1025,8 @@ Changes:
 | Lapras | 49 | Hydro Pump, Blizzard, Thunder, Psychic |
 | Shiftry | 49 | Leaf Blade, Darkest Lariat, Floaty Fall, Extrasensory |
 | Jolteon | 49 | Thunder, Iron Tail, Triple Kick, Hyper Beam |
-| Quagsire | 49 | Triple Dive, Earthquake, Body Slam, Brick Break |
 | Fearow | 49 | Drill Peck, Drill Run, Hyper Beam, Assurance |
+| Quagsire | 49 | Triple Dive, Earthquake, Body Slam, Brick Break |
 
 Lead against each Pokémon: Mightyena 46 → Blaziken (High Jump Kick); Honchkrow 48 → Lapras (Blizzard); Cacturne 46 → Blaziken (High Jump Kick); Crawdaunt 48 → Jolteon (Thunder); Absol 49 → Blaziken (High Jump Kick)
 
@@ -1044,8 +1044,8 @@ Changes:
 | Lapras | 51 | Hydro Pump, Blizzard, Thunder, Psychic |
 | Shiftry | 51 | Leaf Blade, Darkest Lariat, Floaty Fall, Extrasensory |
 | Jolteon | 51 | Thunder, Iron Tail, Triple Kick, Hyper Beam |
-| Quagsire | 51 | Triple Dive, Earthquake, Body Slam, Brick Break |
 | Fearow | 51 | Drill Peck, Drill Run, Hyper Beam, Assurance |
+| Quagsire | 51 | Triple Dive, Earthquake, Body Slam, Brick Break |
 
 Lead against each Pokémon: Dusclops 48 → Shiftry (Darkest Lariat); Froslass 49 → Blaziken (Flare Blitz); Mismagius 50 → Jolteon (Iron Tail); Banette 49 → Lapras (Hydro Pump); Dusknoir 51 → Quagsire (Triple Dive)
 
@@ -1059,8 +1059,8 @@ This leg: 5 of 5 trainer Pokémon won.
 | Lapras | 53 | Hydro Pump, Blizzard, Thunder, Psychic |
 | Shiftry | 53 | Leaf Blade, Darkest Lariat, Floaty Fall, Extrasensory |
 | Jolteon | 53 | Thunder, Iron Tail, Triple Kick, Hyper Beam |
-| Quagsire | 53 | Triple Dive, Earthquake, Body Slam, Brick Break |
 | Fearow | 53 | Drill Peck, Drill Run, Hyper Beam, Assurance |
+| Quagsire | 53 | Triple Dive, Earthquake, Body Slam, Brick Break |
 
 Lead against each Pokémon: Dewgong 50 → Blaziken (High Jump Kick); Glalie 50 → Blaziken (High Jump Kick); Glaceon 52 → Blaziken (High Jump Kick); Cloyster 52 → Lapras (Thunder); Walrein 53 → Jolteon (Thunder)
 
@@ -1074,8 +1074,8 @@ This leg: 5 of 5 trainer Pokémon won.
 | Lapras | 55 | Hydro Pump, Blizzard, Thunder, Psychic |
 | Shiftry | 55 | Leaf Blade, Darkest Lariat, Floaty Fall, Extrasensory |
 | Jolteon | 55 | Thunder, Iron Tail, Triple Kick, Hyper Beam |
-| Quagsire | 55 | Triple Dive, Earthquake, Body Slam, Brick Break |
 | Fearow | 55 | Drill Peck, Drill Run, Hyper Beam, Assurance |
+| Quagsire | 55 | Triple Dive, Earthquake, Body Slam, Brick Break |
 
 Lead against each Pokémon: Kingdra 52 → Lapras (Blizzard); Altaria 54 → Lapras (Blizzard); Steelix 53 → Lapras (Hydro Pump); Flygon 53 → Lapras (Blizzard); Salamence 55 → Lapras (Blizzard)
 
@@ -1089,8 +1089,8 @@ This leg: 5 of 5 trainer Pokémon won.
 | Lapras | 58 | Hydro Pump, Blizzard, Thunder, Psychic |
 | Shiftry | 58 | Leaf Blade, Darkest Lariat, Floaty Fall, Extrasensory |
 | Jolteon | 58 | Thunder, Iron Tail, Triple Kick, Hyper Beam |
-| Quagsire | 58 | Triple Dive, Earthquake, Body Slam, Brick Break |
 | Fearow | 58 | Drill Peck, Drill Run, Hyper Beam, Assurance |
+| Quagsire | 58 | Triple Dive, Earthquake, Body Slam, Brick Break |
 
 Lead against each Pokémon: Wailord 57 → Jolteon (Thunder); Tentacruel 55 → Quagsire (Earthquake); Ludicolo 56 → Shiftry (Floaty Fall); Whiscash 56 → Shiftry (Leaf Blade); Gyarados 56 → Jolteon (Thunder); Milotic 58 → Shiftry (Leaf Blade)
 
@@ -1114,8 +1114,8 @@ This leg: 0 of 1 trainer Pokémon won.
 
 Changes:
 
-- Add Seedot: Route 102, grass (Lv 3-4)
 - Add Spearow: Route 103, grass (Lv 3)
+- Add Seedot: Route 102, grass (Lv 3-4)
 - Add Mankey: Rustboro City, grass (Lv 5)
 - Add Pikachu: Route 101, dexnav (Lv 3-5)
 - Mudkip learns Water Gun (Lv 6)
@@ -1125,8 +1125,8 @@ Changes:
 | Pokémon | Lv | Moves |
 | --- | --- | --- |
 | Mudkip | 15 | Water Gun, Tackle, Mud-Slap |
-| Nuzleaf | 15 | Bullet Seed |
 | Spearow | 15 | Aerial Ace, Fury Attack, Pursuit |
+| Nuzleaf | 15 | Bullet Seed |
 | Mankey | 15 | Low Kick, Karate Chop, Fury Swipes, Pursuit |
 | Pikachu | 15 | Thunder Shock, Quick Attack |
 
@@ -1139,8 +1139,8 @@ This leg: 34 of 34 trainer Pokémon won.
 | Pokémon | Lv | Moves |
 | --- | --- | --- |
 | Mudkip | 15 | Water Gun, Tackle, Mud-Slap |
-| Nuzleaf | 15 | Bullet Seed |
 | Spearow | 15 | Aerial Ace, Fury Attack, Pursuit |
+| Nuzleaf | 15 | Bullet Seed |
 | Mankey | 15 | Low Kick, Karate Chop, Fury Swipes, Pursuit |
 | Pikachu | 15 | Thunder Shock, Quick Attack |
 
@@ -1152,15 +1152,15 @@ This leg: 2 of 2 trainer Pokémon won.
 
 Changes:
 
-- Add Snorunt: Rusturf Tunnel, grass (Lv 6)
+- Add Eevee: Littleroot Town, grass (Lv 5-8)
 - Evolve Mudkip into Marshtomp
 
 | Pokémon | Lv | Moves |
 | --- | --- | --- |
 | Marshtomp | 19 | Water Gun, Tackle, Mud-Slap |
-| Snorunt | 19 | Icy Wind, Bite |
-| Nuzleaf | 19 | Bullet Seed |
 | Spearow | 19 | Aerial Ace, Fury Attack, Pursuit |
+| Eevee | 19 | Swift, Bite |
+| Nuzleaf | 19 | Bullet Seed |
 | Mankey | 19 | Low Kick, Karate Chop, Fury Swipes, Pursuit |
 | Pikachu | 19 | Thunder Shock, Quick Attack |
 
@@ -1172,25 +1172,25 @@ This leg: 24 of 25 trainer Pokémon won.
 
 Changes:
 
-- Add Relicanth: Pacifidlog Town, scuba (Lv 30-55)
+- Add Lapras: Pacifidlog Town, scuba (Lv 30-50)
 - Box Mankey
 - Teach HM07 Waterfall to Marshtomp (Pacifidlog Town, from Scuba Safari (your first high score))
-- Nuzleaf learns Razor Wind (Lv 20)
 - Evolve Spearow into Fearow
-- Teach HM07 Waterfall to Relicanth (Pacifidlog Town, from Scuba Safari (your first high score))
-- Teach TM39 Rock Tomb to Relicanth (Rustboro City (Gym), from Roxanne (after winning); or Rustboro City (TM clerk · 2 badges), ₽3,000; or Oldale Town (TM clerk · 2 badges), ₽3,000 (and 9 more places))
+- Evolve Eevee into Jolteon
+- Jolteon learns Thunder Fang (Lv 20)
+- Nuzleaf learns Razor Wind (Lv 20)
 - Evolve Pikachu into Raichu
 
 | Pokémon | Lv | Moves |
 | --- | --- | --- |
 | Marshtomp | 20 | Waterfall, Tackle, Mud-Slap |
-| Snorunt | 20 | Icy Wind, Bite |
-| Nuzleaf | 20 | Bullet Seed, Razor Wind |
 | Fearow | 20 | Aerial Ace, Fury Attack, Pursuit |
-| Relicanth | 30 | Waterfall, Rock Tomb, Psyshield Bash |
+| Jolteon | 20 | Thunder Fang, Swift, Bite |
+| Nuzleaf | 20 | Bullet Seed, Razor Wind |
+| Lapras | 30 | Water Pulse, Body Slam |
 | Raichu | 20 | Thunder Shock, Quick Attack |
 
-Lead against each Pokémon: Wingull 18 → Relicanth (Rock Tomb); Growlithe 18 → Relicanth (Waterfall); Grovyle 20 → Fearow (Aerial Ace)
+Lead against each Pokémon: Wingull 18 → Lapras (Body Slam); Growlithe 18 → Lapras (Water Pulse); Grovyle 20 → Fearow (Aerial Ace)
 
 This leg: 51 of 51 trainer Pokémon won.
 
@@ -1199,20 +1199,21 @@ This leg: 51 of 51 trainer Pokémon won.
 Changes:
 
 - Teach HM06 Rock Smash to Marshtomp (Mauville City (House 1), from Rock Smash Guy)
-- Teach TM13 Ice Beam to Snorunt (Mauville City (Game Corner prize counter), 4,000 coins; or Abandoned Ship (Room B1F); or Oldale Town (TM clerk · 6 badges), ₽4,000 (and 11 more places))
+- Teach TM24 Thunderbolt to Jolteon (Mauville City (Game Corner prize counter), 4,000 coins; or Mauville City, from Wattson; or Oldale Town (TM clerk · 6 badges), ₽4,000 (and 10 more places))
 - Teach HM06 Rock Smash to Nuzleaf (Mauville City (House 1), from Rock Smash Guy)
-- Teach TM13 Ice Beam to Relicanth (Mauville City (Game Corner prize counter), 4,000 coins; or Abandoned Ship (Room B1F); or Oldale Town (TM clerk · 6 badges), ₽4,000 (and 11 more places))
+- Teach TM13 Ice Beam to Lapras (Mauville City (Game Corner prize counter), 4,000 coins; or Abandoned Ship (Room B1F); or Oldale Town (TM clerk · 6 badges), ₽4,000 (and 11 more places))
+- Teach TM29 Psychic to Lapras (Mauville City (Game Corner prize counter), 3,500 coins; or Oldale Town (TM clerk · 7 badges), ₽3,500; or Petalburg City (TM clerk · 7 badges), ₽3,500 (and 10 more places))
 
 | Pokémon | Lv | Moves |
 | --- | --- | --- |
 | Marshtomp | 20 | Waterfall, Tackle, Rock Smash, Mud-Slap |
-| Snorunt | 20 | Ice Beam, Bite |
-| Nuzleaf | 20 | Bullet Seed, Rock Smash, Razor Wind |
 | Fearow | 20 | Aerial Ace, Fury Attack, Pursuit |
-| Relicanth | 30 | Waterfall, Rock Tomb, Psyshield Bash, Ice Beam |
+| Jolteon | 20 | Thunderbolt, Swift, Bite |
+| Nuzleaf | 20 | Bullet Seed, Rock Smash, Razor Wind |
+| Lapras | 30 | Ice Beam, Water Pulse, Psychic, Body Slam |
 | Raichu | 20 | Thunder Shock, Quick Attack |
 
-Lead against each Pokémon: Ralts 16 → Relicanth (Waterfall)
+Lead against each Pokémon: Ralts 16 → Lapras (Ice Beam)
 
 This leg: 20 of 20 trainer Pokémon won.
 
@@ -1221,19 +1222,19 @@ This leg: 20 of 20 trainer Pokémon won.
 Changes:
 
 - Marshtomp learns Mud Bomb (Lv 22)
-- Nuzleaf learns Feint Attack (Lv 24)
 - Fearow learns Assurance (Lv 23)
+- Nuzleaf learns Feint Attack (Lv 24)
 
 | Pokémon | Lv | Moves |
 | --- | --- | --- |
 | Marshtomp | 24 | Waterfall, Mud Bomb, Tackle, Rock Smash |
-| Snorunt | 24 | Ice Beam, Bite |
-| Nuzleaf | 24 | Bullet Seed, Feint Attack, Rock Smash, Razor Wind |
 | Fearow | 24 | Aerial Ace, Fury Attack, Assurance |
-| Relicanth | 30 | Waterfall, Rock Tomb, Psyshield Bash, Ice Beam |
+| Jolteon | 24 | Thunderbolt, Swift, Bite |
+| Nuzleaf | 24 | Bullet Seed, Feint Attack, Rock Smash, Razor Wind |
+| Lapras | 30 | Ice Beam, Water Pulse, Psychic, Body Slam |
 | Raichu | 24 | Thunder Shock, Quick Attack |
 
-Lead against each Pokémon: Volbeat 20 → Relicanth (Rock Tomb); Flaaffy 20 → Marshtomp (Mud Bomb); Magneton 22 → Marshtomp (Mud Bomb); Manectric 24 → Marshtomp (Mud Bomb)
+Lead against each Pokémon: Volbeat 20 → Lapras (Ice Beam); Flaaffy 20 → Lapras (Ice Beam); Magneton 22 → Marshtomp (Mud Bomb); Manectric 24 → Lapras (Ice Beam)
 
 This leg: 4 of 4 trainer Pokémon won.
 
@@ -1243,36 +1244,40 @@ Changes:
 
 - Add Tyrogue: Route 117, grass (Lv 14)
 - Box Pikachu
-- Nuzleaf learns Pound
 - Fearow learns Pluck
 - Fearow learns Drill Run
-- Relicanth learns Head Smash
+- Jolteon learns Double Kick (Lv 17)
+- Nuzleaf learns Pound
 
 | Pokémon | Lv | Moves |
 | --- | --- | --- |
 | Marshtomp | 24 | Waterfall, Mud Bomb, Tackle, Rock Smash |
-| Snorunt | 24 | Ice Beam, Bite |
-| Hitmonlee | 24 | Close Combat, Mega Kick |
-| Nuzleaf | 24 | Bullet Seed, Feint Attack, Pound, Rock Smash |
 | Fearow | 24 | Pluck, Drill Run, Fury Attack, Assurance |
-| Relicanth | 30 | Head Smash, Waterfall, Psyshield Bash, Ice Beam |
+| Jolteon | 24 | Thunderbolt, Swift, Bite, Double Kick |
+| Nuzleaf | 24 | Bullet Seed, Feint Attack, Pound, Rock Smash |
+| Lapras | 30 | Ice Beam, Water Pulse, Psychic, Body Slam |
+| Hitmonlee | 24 | Close Combat, Mega Kick |
 
-Lead against each Pokémon: Numel 18 → Relicanth (Waterfall); Poochyena 20 → Relicanth (Head Smash); Dunsparce 22 → Relicanth (Head Smash); Houndour 22 → Relicanth (Head Smash)
+Lead against each Pokémon: Numel 18 → Lapras (Water Pulse); Poochyena 20 → Lapras (Ice Beam); Dunsparce 22 → Hitmonlee (Close Combat); Houndour 22 → Lapras (Water Pulse)
 
 This leg: 107 of 107 trainer Pokémon won.
 
 ### 9. Magma Leader Maxie (Mt. Chimney), ace Lv 25
 
+Changes:
+
+- Jolteon learns Pin Missile (Lv 25)
+
 | Pokémon | Lv | Moves |
 | --- | --- | --- |
 | Marshtomp | 25 | Waterfall, Mud Bomb, Tackle, Rock Smash |
-| Snorunt | 25 | Ice Beam, Bite |
-| Hitmonlee | 25 | Close Combat, Mega Kick |
-| Nuzleaf | 25 | Bullet Seed, Feint Attack, Pound, Rock Smash |
 | Fearow | 25 | Pluck, Drill Run, Fury Attack, Assurance |
-| Relicanth | 30 | Head Smash, Waterfall, Psyshield Bash, Ice Beam |
+| Jolteon | 25 | Thunderbolt, Pin Missile, Swift, Bite |
+| Nuzleaf | 25 | Bullet Seed, Feint Attack, Pound, Rock Smash |
+| Lapras | 30 | Ice Beam, Water Pulse, Psychic, Body Slam |
+| Hitmonlee | 25 | Close Combat, Mega Kick |
 
-Lead against each Pokémon: Mightyena 24 → Relicanth (Head Smash); Gligar 24 → Relicanth (Ice Beam); Camerupt 25 → Relicanth (Waterfall)
+Lead against each Pokémon: Mightyena 24 → Hitmonlee (Close Combat); Gligar 24 → Lapras (Ice Beam); Camerupt 25 → Lapras (Water Pulse)
 
 This leg: 3 of 3 trainer Pokémon won.
 
@@ -1282,25 +1287,21 @@ Changes:
 
 - Marshtomp learns Rock Slide (Lv 28)
 - Marshtomp learns Sludge (Lv 26)
-- Evolve Snorunt into Froslass
-- Froslass learns Ominous Wind
-- Teach TM24 Thunderbolt to Froslass (Mauville City (Game Corner prize counter), 4,000 coins; or Mauville City, from Wattson; or Oldale Town (TM clerk · 6 badges), ₽4,000 (and 10 more places))
-- Teach TM29 Psychic to Froslass (Mauville City (Game Corner prize counter), 3,500 coins; or Oldale Town (TM clerk · 7 badges), ₽3,500; or Petalburg City (TM clerk · 7 badges), ₽3,500 (and 10 more places))
-- Hitmonlee learns High Jump Kick (Lv 29)
-- Hitmonlee learns Blaze Kick (Lv 27)
 - Evolve Nuzleaf into Shiftry
 - Shiftry learns Leaf Blade (Lv 28)
+- Hitmonlee learns High Jump Kick (Lv 29)
+- Hitmonlee learns Blaze Kick (Lv 27)
 
 | Pokémon | Lv | Moves |
 | --- | --- | --- |
 | Marshtomp | 29 | Waterfall, Rock Slide, Mud Bomb, Sludge |
-| Froslass | 29 | Ice Beam, Ominous Wind, Thunderbolt, Psychic |
-| Hitmonlee | 29 | High Jump Kick, Mega Kick, Blaze Kick |
-| Shiftry | 29 | Leaf Blade, Feint Attack, Pound, Rock Smash |
 | Fearow | 29 | Pluck, Drill Run, Fury Attack, Assurance |
-| Relicanth | 30 | Head Smash, Waterfall, Psyshield Bash, Ice Beam |
+| Jolteon | 29 | Thunderbolt, Pin Missile, Swift, Bite |
+| Shiftry | 29 | Leaf Blade, Feint Attack, Pound, Rock Smash |
+| Lapras | 30 | Ice Beam, Water Pulse, Psychic, Body Slam |
+| Hitmonlee | 29 | High Jump Kick, Mega Kick, Blaze Kick |
 
-Lead against each Pokémon: Slugma 24 → Relicanth (Head Smash); Flareon 24 → Relicanth (Head Smash); Camerupt 26 → Marshtomp (Waterfall); Torkoal 29 → Relicanth (Head Smash)
+Lead against each Pokémon: Slugma 24 → Lapras (Water Pulse); Flareon 24 → Lapras (Water Pulse); Camerupt 26 → Lapras (Water Pulse); Torkoal 29 → Lapras (Water Pulse)
 
 This leg: 83 of 83 trainer Pokémon won.
 
@@ -1308,16 +1309,16 @@ This leg: 83 of 83 trainer Pokémon won.
 
 Changes:
 
-- Relicanth learns Body Slam (Lv 31)
+- Jolteon learns Triple Kick (Lv 31)
 
 | Pokémon | Lv | Moves |
 | --- | --- | --- |
 | Marshtomp | 31 | Waterfall, Rock Slide, Mud Bomb, Sludge |
-| Froslass | 31 | Ice Beam, Ominous Wind, Thunderbolt, Psychic |
-| Hitmonlee | 31 | High Jump Kick, Mega Kick, Blaze Kick |
-| Shiftry | 31 | Leaf Blade, Feint Attack, Pound, Rock Smash |
 | Fearow | 31 | Pluck, Drill Run, Fury Attack, Assurance |
-| Relicanth | 31 | Head Smash, Waterfall, Body Slam, Psyshield Bash |
+| Jolteon | 31 | Thunderbolt, Triple Kick, Pin Missile, Swift |
+| Shiftry | 31 | Leaf Blade, Feint Attack, Pound, Rock Smash |
+| Lapras | 31 | Ice Beam, Water Pulse, Psychic, Body Slam |
+| Hitmonlee | 31 | High Jump Kick, Mega Kick, Blaze Kick |
 
 Lead against each Pokémon: Spinda 27 → Hitmonlee (High Jump Kick); Vigoroth 27 → Hitmonlee (High Jump Kick); Politoed 29 → Hitmonlee (High Jump Kick); Slaking 31 → Hitmonlee (High Jump Kick)
 
@@ -1329,18 +1330,20 @@ Changes:
 
 - Teach TM23 Iron Tail to Marshtomp (Oldale Town (TM clerk · 4 badges), ₽2,500; or Petalburg City (TM clerk · 4 badges), ₽2,500; or Rustboro City (TM clerk · 4 badges), ₽2,500 (and 9 more places))
 - Teach TM31 Brick Break to Marshtomp (Oldale Town (TM clerk · 5 badges), ₽3,000; or Petalburg City (TM clerk · 5 badges), ₽3,000; or Rustboro City (TM clerk · 5 badges), ₽3,000 (and 9 more places))
-- Teach TM56 Stomping Tantrum to Hitmonlee (Oldale Town (TM clerk · 5 badges), ₽3,000; or Petalburg City (TM clerk · 5 badges), ₽3,000; or Rustboro City (TM clerk · 5 badges), ₽3,000 (and 8 more places))
+- Teach TM23 Iron Tail to Jolteon (Oldale Town (TM clerk · 4 badges), ₽2,500; or Petalburg City (TM clerk · 4 badges), ₽2,500; or Rustboro City (TM clerk · 4 badges), ₽2,500 (and 9 more places))
 - Teach TM42 Facade to Shiftry (Oldale Town (TM clerk · 5 badges), ₽3,500; or Petalburg City (Gym), from Norman (after winning); or Petalburg City (TM clerk · 5 badges), ₽3,500 (and 9 more places))
 - Teach TM40 Aerial Ace to Shiftry (Oldale Town (TM clerk · 4 badges), ₽2,500; or Petalburg City (TM clerk · 4 badges), ₽2,500; or Rustboro City (TM clerk · 4 badges), ₽2,500 (and 9 more places))
+- Teach HM03 Surf to Lapras (Petalburg City (Wally's House), from Wally's father (after you beat Norman))
+- Teach TM23 Iron Tail to Lapras (Oldale Town (TM clerk · 4 badges), ₽2,500; or Petalburg City (TM clerk · 4 badges), ₽2,500; or Rustboro City (TM clerk · 4 badges), ₽2,500 (and 9 more places))
 
 | Pokémon | Lv | Moves |
 | --- | --- | --- |
 | Marshtomp | 31 | Waterfall, Iron Tail, Rock Slide, Brick Break |
-| Froslass | 31 | Ice Beam, Ominous Wind, Thunderbolt, Psychic |
-| Hitmonlee | 31 | High Jump Kick, Mega Kick, Blaze Kick, Stomping Tantrum |
-| Shiftry | 31 | Leaf Blade, Feint Attack, Facade, Aerial Ace |
 | Fearow | 31 | Pluck, Drill Run, Fury Attack, Assurance |
-| Relicanth | 31 | Head Smash, Waterfall, Body Slam, Psyshield Bash |
+| Jolteon | 31 | Thunderbolt, Iron Tail, Triple Kick, Pin Missile |
+| Shiftry | 31 | Leaf Blade, Feint Attack, Facade, Aerial Ace |
+| Lapras | 31 | Surf, Ice Beam, Psychic, Iron Tail |
+| Hitmonlee | 31 | High Jump Kick, Mega Kick, Blaze Kick |
 
 Lead against each Pokémon: Ludicolo 28 → Fearow (Pluck); Mightyena 28 → Hitmonlee (High Jump Kick)
 
@@ -1351,13 +1354,13 @@ This leg: 106 of 106 trainer Pokémon won.
 | Pokémon | Lv | Moves |
 | --- | --- | --- |
 | Marshtomp | 31 | Waterfall, Iron Tail, Rock Slide, Brick Break |
-| Froslass | 31 | Ice Beam, Ominous Wind, Thunderbolt, Psychic |
-| Hitmonlee | 31 | High Jump Kick, Mega Kick, Blaze Kick, Stomping Tantrum |
-| Shiftry | 31 | Leaf Blade, Feint Attack, Facade, Aerial Ace |
 | Fearow | 31 | Pluck, Drill Run, Fury Attack, Assurance |
-| Relicanth | 31 | Head Smash, Waterfall, Body Slam, Psyshield Bash |
+| Jolteon | 31 | Thunderbolt, Iron Tail, Triple Kick, Pin Missile |
+| Shiftry | 31 | Leaf Blade, Feint Attack, Facade, Aerial Ace |
+| Lapras | 31 | Surf, Ice Beam, Psychic, Iron Tail |
+| Hitmonlee | 31 | High Jump Kick, Mega Kick, Blaze Kick |
 
-Lead against each Pokémon: Ninetales 29 → Relicanth (Head Smash); Ludicolo 29 → Hitmonlee (High Jump Kick); Grovyle 31 → Relicanth (Head Smash)
+Lead against each Pokémon: Ninetales 29 → Lapras (Surf); Ludicolo 29 → Hitmonlee (High Jump Kick); Grovyle 31 → Lapras (Ice Beam)
 
 This leg: 3 of 3 trainer Pokémon won.
 
@@ -1365,21 +1368,22 @@ This leg: 3 of 3 trainer Pokémon won.
 
 Changes:
 
-- Hitmonlee learns Thunderous Kick (Lv 33)
+- Teach TM15 Hyper Beam to Fearow (Oldale Town (TM clerk · 6 badges), ₽7,500; or Petalburg City (TM clerk · 6 badges), ₽7,500; or Rustboro City (TM clerk · 6 badges), ₽7,500 (and 9 more places))
+- Teach TM15 Hyper Beam to Jolteon (Oldale Town (TM clerk · 6 badges), ₽7,500; or Petalburg City (TM clerk · 6 badges), ₽7,500; or Rustboro City (TM clerk · 6 badges), ₽7,500 (and 9 more places))
 - Shiftry learns Lash Out (Lv 32)
 - Teach TM30 Shadow Ball to Shiftry (Oldale Town (TM clerk · 6 badges), ₽3,500; or Petalburg City (TM clerk · 6 badges), ₽3,500; or Rustboro City (TM clerk · 6 badges), ₽3,500 (and 9 more places))
-- Teach TM15 Hyper Beam to Fearow (Oldale Town (TM clerk · 6 badges), ₽7,500; or Petalburg City (TM clerk · 6 badges), ₽7,500; or Rustboro City (TM clerk · 6 badges), ₽7,500 (and 9 more places))
+- Hitmonlee learns Thunderous Kick (Lv 33)
 
 | Pokémon | Lv | Moves |
 | --- | --- | --- |
 | Marshtomp | 33 | Waterfall, Iron Tail, Rock Slide, Brick Break |
-| Froslass | 33 | Ice Beam, Ominous Wind, Thunderbolt, Psychic |
-| Hitmonlee | 33 | High Jump Kick, Mega Kick, Blaze Kick, Thunderous Kick |
-| Shiftry | 33 | Leaf Blade, Lash Out, Shadow Ball, Facade |
 | Fearow | 33 | Pluck, Drill Run, Hyper Beam, Assurance |
-| Relicanth | 33 | Head Smash, Waterfall, Body Slam, Psyshield Bash |
+| Jolteon | 33 | Thunderbolt, Iron Tail, Triple Kick, Hyper Beam |
+| Shiftry | 33 | Leaf Blade, Lash Out, Shadow Ball, Facade |
+| Lapras | 33 | Surf, Ice Beam, Psychic, Iron Tail |
+| Hitmonlee | 33 | High Jump Kick, Mega Kick, Blaze Kick, Thunderous Kick |
 
-Lead against each Pokémon: Fearow 29 → Relicanth (Head Smash); Tropius 29 → Froslass (Ice Beam); Pelipper 30 → Relicanth (Head Smash); Skarmory 31 → Froslass (Thunderbolt); Altaria 33 → Froslass (Ice Beam)
+Lead against each Pokémon: Fearow 29 → Lapras (Ice Beam); Tropius 29 → Lapras (Ice Beam); Pelipper 30 → Jolteon (Thunderbolt); Skarmory 31 → Jolteon (Thunderbolt); Altaria 33 → Lapras (Ice Beam)
 
 This leg: 43 of 43 trainer Pokémon won.
 
@@ -1390,21 +1394,21 @@ Changes:
 - Evolve Marshtomp into Swampert
 - Swampert learns Hammer Arm
 - Teach TM14 Blizzard to Swampert (Lilycove City (Department Store 4F), ₽6,500; or Oldale Town (TM clerk · 7 badges), ₽6,500; or Petalburg City (TM clerk · 7 badges), ₽6,500 (and 9 more places))
-- Teach TM14 Blizzard to Froslass (Lilycove City (Department Store 4F), ₽6,500; or Oldale Town (TM clerk · 7 badges), ₽6,500; or Petalburg City (TM clerk · 7 badges), ₽6,500 (and 9 more places))
-- Teach TM25 Thunder to Froslass (Lilycove City (Department Store 4F), ₽6,500; or Oldale Town (TM clerk · 7 badges), ₽6,500; or Petalburg City (TM clerk · 7 badges), ₽6,500 (and 9 more places))
-- Froslass learns Infernal Parade (Lv 35)
+- Teach TM25 Thunder to Jolteon (Lilycove City (Department Store 4F), ₽6,500; or Oldale Town (TM clerk · 7 badges), ₽6,500; or Petalburg City (TM clerk · 7 badges), ₽6,500 (and 9 more places))
 - Shiftry learns Extrasensory (Lv 36)
+- Teach TM14 Blizzard to Lapras (Lilycove City (Department Store 4F), ₽6,500; or Oldale Town (TM clerk · 7 badges), ₽6,500; or Petalburg City (TM clerk · 7 badges), ₽6,500 (and 9 more places))
+- Teach TM25 Thunder to Lapras (Lilycove City (Department Store 4F), ₽6,500; or Oldale Town (TM clerk · 7 badges), ₽6,500; or Petalburg City (TM clerk · 7 badges), ₽6,500 (and 9 more places))
 
 | Pokémon | Lv | Moves |
 | --- | --- | --- |
 | Swampert | 36 | Waterfall, Hammer Arm, Iron Tail, Blizzard |
-| Froslass | 36 | Blizzard, Thunder, Infernal Parade, Psychic |
-| Hitmonlee | 36 | High Jump Kick, Mega Kick, Blaze Kick, Thunderous Kick |
-| Shiftry | 36 | Leaf Blade, Lash Out, Extrasensory, Shadow Ball |
 | Fearow | 36 | Pluck, Drill Run, Hyper Beam, Assurance |
-| Relicanth | 36 | Head Smash, Waterfall, Body Slam, Psyshield Bash |
+| Jolteon | 36 | Thunder, Iron Tail, Triple Kick, Hyper Beam |
+| Shiftry | 36 | Leaf Blade, Lash Out, Extrasensory, Shadow Ball |
+| Lapras | 36 | Blizzard, Surf, Thunder, Psychic |
+| Hitmonlee | 36 | High Jump Kick, Mega Kick, Blaze Kick, Thunderous Kick |
 
-Lead against each Pokémon: Tropius 33 → Froslass (Blizzard); Ninetales 32 → Swampert (Waterfall); Pelipper 34 → Froslass (Thunder); Sceptile 36 → Swampert (Blizzard)
+Lead against each Pokémon: Tropius 33 → Lapras (Blizzard); Ninetales 32 → Swampert (Waterfall); Pelipper 34 → Jolteon (Thunder); Sceptile 36 → Swampert (Blizzard)
 
 This leg: 30 of 30 trainer Pokémon won.
 
@@ -1413,13 +1417,13 @@ This leg: 30 of 30 trainer Pokémon won.
 | Pokémon | Lv | Moves |
 | --- | --- | --- |
 | Swampert | 36 | Waterfall, Hammer Arm, Iron Tail, Blizzard |
-| Froslass | 36 | Blizzard, Thunder, Infernal Parade, Psychic |
-| Hitmonlee | 36 | High Jump Kick, Mega Kick, Blaze Kick, Thunderous Kick |
-| Shiftry | 36 | Leaf Blade, Lash Out, Extrasensory, Shadow Ball |
 | Fearow | 36 | Pluck, Drill Run, Hyper Beam, Assurance |
-| Relicanth | 36 | Head Smash, Waterfall, Body Slam, Psyshield Bash |
+| Jolteon | 36 | Thunder, Iron Tail, Triple Kick, Hyper Beam |
+| Shiftry | 36 | Leaf Blade, Lash Out, Extrasensory, Shadow Ball |
+| Lapras | 36 | Blizzard, Surf, Thunder, Psychic |
+| Hitmonlee | 36 | High Jump Kick, Mega Kick, Blaze Kick, Thunderous Kick |
 
-Lead against each Pokémon: Numel 26 → Swampert (Waterfall); Dodrio 28 → Swampert (Blizzard); Murkrow 30 → Swampert (Blizzard); Camerupt 33 → Swampert (Waterfall)
+Lead against each Pokémon: Numel 26 → Lapras (Surf); Dodrio 28 → Swampert (Blizzard); Murkrow 30 → Swampert (Blizzard); Camerupt 33 → Lapras (Surf)
 
 This leg: 64 of 64 trainer Pokémon won.
 
@@ -1428,13 +1432,13 @@ This leg: 64 of 64 trainer Pokémon won.
 | Pokémon | Lv | Moves |
 | --- | --- | --- |
 | Swampert | 39 | Waterfall, Hammer Arm, Iron Tail, Blizzard |
-| Froslass | 39 | Blizzard, Thunder, Infernal Parade, Psychic |
-| Hitmonlee | 39 | High Jump Kick, Mega Kick, Blaze Kick, Thunderous Kick |
-| Shiftry | 39 | Leaf Blade, Lash Out, Extrasensory, Shadow Ball |
 | Fearow | 39 | Pluck, Drill Run, Hyper Beam, Assurance |
-| Relicanth | 39 | Head Smash, Waterfall, Body Slam, Psyshield Bash |
+| Jolteon | 39 | Thunder, Iron Tail, Triple Kick, Hyper Beam |
+| Shiftry | 39 | Leaf Blade, Lash Out, Extrasensory, Shadow Ball |
+| Lapras | 39 | Blizzard, Surf, Thunder, Psychic |
+| Hitmonlee | 39 | High Jump Kick, Mega Kick, Blaze Kick, Thunderous Kick |
 
-Lead against each Pokémon: Gliscor 37 → Swampert (Blizzard); Crobat 38 → Froslass (Blizzard); Ursaring 38 → Hitmonlee (High Jump Kick); Camerupt 39 → Swampert (Waterfall)
+Lead against each Pokémon: Gliscor 37 → Swampert (Blizzard); Crobat 38 → Jolteon (Thunder); Ursaring 38 → Hitmonlee (High Jump Kick); Camerupt 39 → Swampert (Waterfall)
 
 This leg: 4 of 4 trainer Pokémon won.
 
@@ -1443,13 +1447,13 @@ This leg: 4 of 4 trainer Pokémon won.
 | Pokémon | Lv | Moves |
 | --- | --- | --- |
 | Swampert | 39 | Waterfall, Hammer Arm, Iron Tail, Blizzard |
-| Froslass | 39 | Blizzard, Thunder, Infernal Parade, Psychic |
-| Hitmonlee | 39 | High Jump Kick, Mega Kick, Blaze Kick, Thunderous Kick |
-| Shiftry | 39 | Leaf Blade, Lash Out, Extrasensory, Shadow Ball |
 | Fearow | 39 | Pluck, Drill Run, Hyper Beam, Assurance |
-| Relicanth | 39 | Head Smash, Waterfall, Body Slam, Psyshield Bash |
+| Jolteon | 39 | Thunder, Iron Tail, Triple Kick, Hyper Beam |
+| Shiftry | 39 | Leaf Blade, Lash Out, Extrasensory, Shadow Ball |
+| Lapras | 39 | Blizzard, Surf, Thunder, Psychic |
+| Hitmonlee | 39 | High Jump Kick, Mega Kick, Blaze Kick, Thunderous Kick |
 
-Lead against each Pokémon: Mightyena 34 → Relicanth (Head Smash); Golbat 34 → Relicanth (Head Smash)
+Lead against each Pokémon: Mightyena 34 → Swampert (Hammer Arm); Golbat 34 → Lapras (Blizzard)
 
 This leg: 4 of 4 trainer Pokémon won.
 
@@ -1457,20 +1461,19 @@ This leg: 4 of 4 trainer Pokémon won.
 
 Changes:
 
-- Froslass learns Shadow Ball (Lv 42)
-- Shiftry learns Floaty Fall (Lv 40)
 - Fearow learns Drill Peck (Lv 41)
+- Shiftry learns Floaty Fall (Lv 40)
 
 | Pokémon | Lv | Moves |
 | --- | --- | --- |
 | Swampert | 42 | Waterfall, Hammer Arm, Iron Tail, Blizzard |
-| Froslass | 42 | Blizzard, Shadow Ball, Thunder, Psychic |
-| Hitmonlee | 42 | High Jump Kick, Mega Kick, Blaze Kick, Thunderous Kick |
-| Shiftry | 42 | Leaf Blade, Lash Out, Floaty Fall, Extrasensory |
 | Fearow | 42 | Drill Peck, Drill Run, Hyper Beam, Assurance |
-| Relicanth | 42 | Head Smash, Waterfall, Body Slam, Psyshield Bash |
+| Jolteon | 42 | Thunder, Iron Tail, Triple Kick, Hyper Beam |
+| Shiftry | 42 | Leaf Blade, Lash Out, Floaty Fall, Extrasensory |
+| Lapras | 42 | Blizzard, Surf, Thunder, Psychic |
+| Hitmonlee | 42 | High Jump Kick, Mega Kick, Blaze Kick, Thunderous Kick |
 
-Lead against each Pokémon: Claydol 41 → Shiftry (Leaf Blade); Mismagius 41 → Froslass (Shadow Ball); Lunatone 42 → Shiftry (Leaf Blade); Solrock 42 → Swampert (Waterfall)
+Lead against each Pokémon: Claydol 41 → Shiftry (Leaf Blade); Mismagius 41 → Jolteon (Iron Tail); Lunatone 42 → Shiftry (Leaf Blade); Solrock 42 → Lapras (Surf)
 
 This leg: 41 of 41 trainer Pokémon won.
 
@@ -1479,13 +1482,13 @@ This leg: 41 of 41 trainer Pokémon won.
 | Pokémon | Lv | Moves |
 | --- | --- | --- |
 | Swampert | 44 | Waterfall, Hammer Arm, Iron Tail, Blizzard |
-| Froslass | 44 | Blizzard, Shadow Ball, Thunder, Psychic |
-| Hitmonlee | 44 | High Jump Kick, Mega Kick, Blaze Kick, Thunderous Kick |
-| Shiftry | 44 | Leaf Blade, Lash Out, Floaty Fall, Extrasensory |
 | Fearow | 44 | Drill Peck, Drill Run, Hyper Beam, Assurance |
-| Relicanth | 44 | Head Smash, Waterfall, Body Slam, Psyshield Bash |
+| Jolteon | 44 | Thunder, Iron Tail, Triple Kick, Hyper Beam |
+| Shiftry | 44 | Leaf Blade, Lash Out, Floaty Fall, Extrasensory |
+| Lapras | 44 | Blizzard, Surf, Thunder, Psychic |
+| Hitmonlee | 44 | High Jump Kick, Mega Kick, Blaze Kick, Thunderous Kick |
 
-Lead against each Pokémon: Gliscor 42 → Swampert (Blizzard); Crobat 43 → Froslass (Blizzard); Shiftry 43 → Froslass (Blizzard); Ursaluna 43 → Froslass (Blizzard); Dodrio 43 → Swampert (Blizzard); Camerupt 44 → Swampert (Waterfall)
+Lead against each Pokémon: Gliscor 42 → Swampert (Blizzard); Crobat 43 → Jolteon (Thunder); Shiftry 43 → Lapras (Blizzard); Ursaluna 43 → Lapras (Blizzard); Dodrio 43 → Swampert (Blizzard); Camerupt 44 → Swampert (Waterfall)
 
 This leg: 6 of 6 trainer Pokémon won.
 
@@ -1498,13 +1501,13 @@ Changes:
 | Pokémon | Lv | Moves |
 | --- | --- | --- |
 | Swampert | 44 | Earthquake, Waterfall, Hammer Arm, Iron Tail |
-| Froslass | 44 | Blizzard, Shadow Ball, Thunder, Psychic |
-| Hitmonlee | 44 | High Jump Kick, Mega Kick, Blaze Kick, Thunderous Kick |
-| Shiftry | 44 | Leaf Blade, Lash Out, Floaty Fall, Extrasensory |
 | Fearow | 44 | Drill Peck, Drill Run, Hyper Beam, Assurance |
-| Relicanth | 44 | Head Smash, Waterfall, Body Slam, Psyshield Bash |
+| Jolteon | 44 | Thunder, Iron Tail, Triple Kick, Hyper Beam |
+| Shiftry | 44 | Leaf Blade, Lash Out, Floaty Fall, Extrasensory |
+| Lapras | 44 | Blizzard, Surf, Thunder, Psychic |
+| Hitmonlee | 44 | High Jump Kick, Mega Kick, Blaze Kick, Thunderous Kick |
 
-Lead against each Pokémon: Sharpedo 37 → Relicanth (Head Smash); Whiscash 37 → Shiftry (Leaf Blade)
+Lead against each Pokémon: Sharpedo 37 → Swampert (Hammer Arm); Whiscash 37 → Shiftry (Leaf Blade)
 
 This leg: 48 of 48 trainer Pokémon won.
 
@@ -1513,32 +1516,28 @@ This leg: 48 of 48 trainer Pokémon won.
 | Pokémon | Lv | Moves |
 | --- | --- | --- |
 | Swampert | 44 | Earthquake, Waterfall, Hammer Arm, Iron Tail |
-| Froslass | 44 | Blizzard, Shadow Ball, Thunder, Psychic |
-| Hitmonlee | 44 | High Jump Kick, Mega Kick, Blaze Kick, Thunderous Kick |
-| Shiftry | 44 | Leaf Blade, Lash Out, Floaty Fall, Extrasensory |
 | Fearow | 44 | Drill Peck, Drill Run, Hyper Beam, Assurance |
-| Relicanth | 44 | Head Smash, Waterfall, Body Slam, Psyshield Bash |
+| Jolteon | 44 | Thunder, Iron Tail, Triple Kick, Hyper Beam |
+| Shiftry | 44 | Leaf Blade, Lash Out, Floaty Fall, Extrasensory |
+| Lapras | 44 | Blizzard, Surf, Thunder, Psychic |
+| Hitmonlee | 44 | High Jump Kick, Mega Kick, Blaze Kick, Thunderous Kick |
 
-Lead against each Pokémon: Wailord 41 → Shiftry (Leaf Blade); Breloom 41 → Froslass (Blizzard); Crobat 41 → Froslass (Blizzard); Sharpedo 43 → Relicanth (Head Smash)
+Lead against each Pokémon: Wailord 41 → Jolteon (Thunder); Breloom 41 → Fearow (Drill Peck); Crobat 41 → Lapras (Blizzard); Sharpedo 43 → Swampert (Hammer Arm)
 
 This leg: 4 of 4 trainer Pokémon won.
 
 ### 23. Juan (Sootopolis City), ace Lv 46
 
-Changes:
-
-- Relicanth learns Liquidation (Lv 46)
-
 | Pokémon | Lv | Moves |
 | --- | --- | --- |
 | Swampert | 46 | Earthquake, Waterfall, Hammer Arm, Iron Tail |
-| Froslass | 46 | Blizzard, Shadow Ball, Thunder, Psychic |
-| Hitmonlee | 46 | High Jump Kick, Mega Kick, Blaze Kick, Thunderous Kick |
-| Shiftry | 46 | Leaf Blade, Lash Out, Floaty Fall, Extrasensory |
 | Fearow | 46 | Drill Peck, Drill Run, Hyper Beam, Assurance |
-| Relicanth | 46 | Head Smash, Liquidation, Body Slam, Psyshield Bash |
+| Jolteon | 46 | Thunder, Iron Tail, Triple Kick, Hyper Beam |
+| Shiftry | 46 | Leaf Blade, Lash Out, Floaty Fall, Extrasensory |
+| Lapras | 46 | Blizzard, Surf, Thunder, Psychic |
+| Hitmonlee | 46 | High Jump Kick, Mega Kick, Blaze Kick, Thunderous Kick |
 
-Lead against each Pokémon: Starmie 41 → Shiftry (Leaf Blade); Whiscash 41 → Shiftry (Leaf Blade); Sealeo 43 → Relicanth (Head Smash); Octillery 43 → Froslass (Thunder); Kingdra 46 → Hitmonlee (High Jump Kick)
+Lead against each Pokémon: Starmie 41 → Shiftry (Leaf Blade); Whiscash 41 → Shiftry (Leaf Blade); Sealeo 43 → Hitmonlee (High Jump Kick); Octillery 43 → Jolteon (Thunder); Kingdra 46 → Hitmonlee (High Jump Kick)
 
 This leg: 86 of 86 trainer Pokémon won.
 
@@ -1547,13 +1546,13 @@ This leg: 86 of 86 trainer Pokémon won.
 | Pokémon | Lv | Moves |
 | --- | --- | --- |
 | Swampert | 46 | Earthquake, Waterfall, Hammer Arm, Iron Tail |
-| Froslass | 46 | Blizzard, Shadow Ball, Thunder, Psychic |
-| Hitmonlee | 46 | High Jump Kick, Mega Kick, Blaze Kick, Thunderous Kick |
-| Shiftry | 46 | Leaf Blade, Lash Out, Floaty Fall, Extrasensory |
 | Fearow | 46 | Drill Peck, Drill Run, Hyper Beam, Assurance |
-| Relicanth | 46 | Head Smash, Liquidation, Body Slam, Psyshield Bash |
+| Jolteon | 46 | Thunder, Iron Tail, Triple Kick, Hyper Beam |
+| Shiftry | 46 | Leaf Blade, Lash Out, Floaty Fall, Extrasensory |
+| Lapras | 46 | Blizzard, Surf, Thunder, Psychic |
+| Hitmonlee | 46 | High Jump Kick, Mega Kick, Blaze Kick, Thunderous Kick |
 
-Lead against each Pokémon: Altaria 44 → Swampert (Iron Tail); Delcatty 43 → Hitmonlee (High Jump Kick); Roserade 44 → Fearow (Drill Peck); Magnezone 41 → Swampert (Earthquake); Gardevoir 45 → Froslass (Shadow Ball)
+Lead against each Pokémon: Altaria 44 → Swampert (Iron Tail); Delcatty 43 → Hitmonlee (High Jump Kick); Roserade 44 → Fearow (Drill Peck); Magnezone 41 → Swampert (Earthquake); Gardevoir 45 → Jolteon (Iron Tail)
 
 This leg: 83 of 83 trainer Pokémon won.
 
@@ -1562,37 +1561,33 @@ This leg: 83 of 83 trainer Pokémon won.
 Changes:
 
 - Shiftry learns Darkest Lariat (Lv 48)
+- Lapras learns Hydro Pump (Lv 47)
 
 | Pokémon | Lv | Moves |
 | --- | --- | --- |
 | Swampert | 49 | Earthquake, Waterfall, Hammer Arm, Iron Tail |
-| Froslass | 49 | Blizzard, Shadow Ball, Thunder, Psychic |
-| Hitmonlee | 49 | High Jump Kick, Mega Kick, Blaze Kick, Thunderous Kick |
-| Shiftry | 49 | Leaf Blade, Darkest Lariat, Floaty Fall, Extrasensory |
 | Fearow | 49 | Drill Peck, Drill Run, Hyper Beam, Assurance |
-| Relicanth | 49 | Head Smash, Liquidation, Body Slam, Psyshield Bash |
+| Jolteon | 49 | Thunder, Iron Tail, Triple Kick, Hyper Beam |
+| Shiftry | 49 | Leaf Blade, Darkest Lariat, Floaty Fall, Extrasensory |
+| Lapras | 49 | Hydro Pump, Blizzard, Thunder, Psychic |
+| Hitmonlee | 49 | High Jump Kick, Mega Kick, Blaze Kick, Thunderous Kick |
 
-Lead against each Pokémon: Mightyena 46 → Hitmonlee (High Jump Kick); Honchkrow 48 → Relicanth (Head Smash); Cacturne 46 → Froslass (Blizzard); Crawdaunt 48 → Hitmonlee (High Jump Kick); Absol 49 → Hitmonlee (High Jump Kick)
+Lead against each Pokémon: Mightyena 46 → Hitmonlee (High Jump Kick); Honchkrow 48 → Lapras (Blizzard); Cacturne 46 → Lapras (Blizzard); Crawdaunt 48 → Jolteon (Thunder); Absol 49 → Hitmonlee (High Jump Kick)
 
 This leg: 5 of 5 trainer Pokémon won.
 
 ### 26. Elite Four Phoebe (Pokémon League), ace Lv 51
 
-Changes:
-
-- Froslass learns Energy Ball (Lv 50)
-- Relicanth learns Double-Edge (Lv 50)
-
 | Pokémon | Lv | Moves |
 | --- | --- | --- |
 | Swampert | 51 | Earthquake, Waterfall, Hammer Arm, Iron Tail |
-| Froslass | 51 | Blizzard, Shadow Ball, Thunder, Energy Ball |
-| Hitmonlee | 51 | High Jump Kick, Mega Kick, Blaze Kick, Thunderous Kick |
-| Shiftry | 51 | Leaf Blade, Darkest Lariat, Floaty Fall, Extrasensory |
 | Fearow | 51 | Drill Peck, Drill Run, Hyper Beam, Assurance |
-| Relicanth | 51 | Head Smash, Liquidation, Double-Edge, Psyshield Bash |
+| Jolteon | 51 | Thunder, Iron Tail, Triple Kick, Hyper Beam |
+| Shiftry | 51 | Leaf Blade, Darkest Lariat, Floaty Fall, Extrasensory |
+| Lapras | 51 | Hydro Pump, Blizzard, Thunder, Psychic |
+| Hitmonlee | 51 | High Jump Kick, Mega Kick, Blaze Kick, Thunderous Kick |
 
-Lead against each Pokémon: Dusclops 48 → Shiftry (Darkest Lariat); Froslass 49 → Relicanth (Head Smash); Mismagius 50 → Swampert (Iron Tail); Banette 49 → Swampert (Earthquake); Dusknoir 51 → Swampert (Earthquake)
+Lead against each Pokémon: Dusclops 48 → Shiftry (Darkest Lariat); Froslass 49 → Lapras (Hydro Pump); Mismagius 50 → Swampert (Iron Tail); Banette 49 → Lapras (Hydro Pump); Dusknoir 51 → Swampert (Earthquake)
 
 This leg: 5 of 5 trainer Pokémon won.
 
@@ -1605,13 +1600,13 @@ Changes:
 | Pokémon | Lv | Moves |
 | --- | --- | --- |
 | Swampert | 53 | Earthquake, Liquidation, Hammer Arm, Iron Tail |
-| Froslass | 53 | Blizzard, Shadow Ball, Thunder, Energy Ball |
-| Hitmonlee | 53 | High Jump Kick, Mega Kick, Blaze Kick, Thunderous Kick |
-| Shiftry | 53 | Leaf Blade, Darkest Lariat, Floaty Fall, Extrasensory |
 | Fearow | 53 | Drill Peck, Drill Run, Hyper Beam, Assurance |
-| Relicanth | 53 | Head Smash, Liquidation, Double-Edge, Psyshield Bash |
+| Jolteon | 53 | Thunder, Iron Tail, Triple Kick, Hyper Beam |
+| Shiftry | 53 | Leaf Blade, Darkest Lariat, Floaty Fall, Extrasensory |
+| Lapras | 53 | Hydro Pump, Blizzard, Thunder, Psychic |
+| Hitmonlee | 53 | High Jump Kick, Mega Kick, Blaze Kick, Thunderous Kick |
 
-Lead against each Pokémon: Dewgong 50 → Relicanth (Head Smash); Glalie 50 → Hitmonlee (High Jump Kick); Glaceon 52 → Hitmonlee (High Jump Kick); Cloyster 52 → Froslass (Thunder); Walrein 53 → Hitmonlee (High Jump Kick)
+Lead against each Pokémon: Dewgong 50 → Hitmonlee (High Jump Kick); Glalie 50 → Hitmonlee (High Jump Kick); Glaceon 52 → Hitmonlee (High Jump Kick); Cloyster 52 → Lapras (Thunder); Walrein 53 → Hitmonlee (High Jump Kick)
 
 This leg: 5 of 5 trainer Pokémon won.
 
@@ -1620,13 +1615,13 @@ This leg: 5 of 5 trainer Pokémon won.
 | Pokémon | Lv | Moves |
 | --- | --- | --- |
 | Swampert | 55 | Earthquake, Liquidation, Hammer Arm, Iron Tail |
-| Froslass | 55 | Blizzard, Shadow Ball, Thunder, Energy Ball |
-| Hitmonlee | 55 | High Jump Kick, Mega Kick, Blaze Kick, Thunderous Kick |
-| Shiftry | 55 | Leaf Blade, Darkest Lariat, Floaty Fall, Extrasensory |
 | Fearow | 55 | Drill Peck, Drill Run, Hyper Beam, Assurance |
-| Relicanth | 55 | Head Smash, Liquidation, Double-Edge, Psyshield Bash |
+| Jolteon | 55 | Thunder, Iron Tail, Triple Kick, Hyper Beam |
+| Shiftry | 55 | Leaf Blade, Darkest Lariat, Floaty Fall, Extrasensory |
+| Lapras | 55 | Hydro Pump, Blizzard, Thunder, Psychic |
+| Hitmonlee | 55 | High Jump Kick, Mega Kick, Blaze Kick, Thunderous Kick |
 
-Lead against each Pokémon: Kingdra 52 → Hitmonlee (High Jump Kick); Altaria 54 → Swampert (Iron Tail); Steelix 53 → Froslass (Blizzard); Flygon 53 → Froslass (Blizzard); Salamence 55 → Froslass (Blizzard)
+Lead against each Pokémon: Kingdra 52 → Hitmonlee (High Jump Kick); Altaria 54 → Lapras (Blizzard); Steelix 53 → Lapras (Hydro Pump); Flygon 53 → Lapras (Blizzard); Salamence 55 → Lapras (Blizzard)
 
 This leg: 5 of 5 trainer Pokémon won.
 
@@ -1635,12 +1630,12 @@ This leg: 5 of 5 trainer Pokémon won.
 | Pokémon | Lv | Moves |
 | --- | --- | --- |
 | Swampert | 58 | Earthquake, Liquidation, Hammer Arm, Iron Tail |
-| Froslass | 58 | Blizzard, Shadow Ball, Thunder, Energy Ball |
-| Hitmonlee | 58 | High Jump Kick, Mega Kick, Blaze Kick, Thunderous Kick |
-| Shiftry | 58 | Leaf Blade, Darkest Lariat, Floaty Fall, Extrasensory |
 | Fearow | 58 | Drill Peck, Drill Run, Hyper Beam, Assurance |
-| Relicanth | 58 | Head Smash, Liquidation, Double-Edge, Psyshield Bash |
+| Jolteon | 58 | Thunder, Iron Tail, Triple Kick, Hyper Beam |
+| Shiftry | 58 | Leaf Blade, Darkest Lariat, Floaty Fall, Extrasensory |
+| Lapras | 58 | Hydro Pump, Blizzard, Thunder, Psychic |
+| Hitmonlee | 58 | High Jump Kick, Mega Kick, Blaze Kick, Thunderous Kick |
 
-Lead against each Pokémon: Wailord 57 → Froslass (Thunder); Tentacruel 55 → Swampert (Earthquake); Ludicolo 56 → Shiftry (Floaty Fall); Whiscash 56 → Shiftry (Leaf Blade); Gyarados 56 → Froslass (Thunder); Milotic 58 → Shiftry (Leaf Blade)
+Lead against each Pokémon: Wailord 57 → Jolteon (Thunder); Tentacruel 55 → Swampert (Earthquake); Ludicolo 56 → Shiftry (Floaty Fall); Whiscash 56 → Shiftry (Leaf Blade); Gyarados 56 → Jolteon (Thunder); Milotic 58 → Shiftry (Leaf Blade)
 
 This leg: 6 of 6 trainer Pokémon won.

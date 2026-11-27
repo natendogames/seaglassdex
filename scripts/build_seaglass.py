@@ -435,6 +435,11 @@ SG_LATER = {
     ('littleroot-town', 'Amulet Coin'): ('lavaridge-town', "Norman's Balance Badge (your fifth)"),
     ('mossdeep-city', 'Aurora Ticket'): ('sky-pillar', 'A caught Rayquaza to show the old sailor'),
     ('fallarbor-town', 'Spiky-eared Pichu (Lv 5)'): ('fallarbor-town', '50 species caught in your Pokédex'),
+    # story flags set somewhere else (the map walk can't see them), checked in the ROM scripts
+    ('petalburg-city', 'HM03'): ('lavaridge-town', "After you beat Norman (Wally's father thanks you for Wally)"),
+    ('rusturf-tunnel', 'HM04'): ('mauville-city', 'Rock Smash, to break the rock in the tunnel so Wanda and her boyfriend meet'),
+    ('rustboro-city', 'Z-Power Ring'): ('granite-cave', "After you deliver Mr. Stone's letter to Steven in Granite Cave"),
+    ('fortree-city', 'Mental Herb'): ('mossdeep-city', 'After you visit the Wingull in a Mossdeep City house (it carries the mail back)'),
 }
 GIFT_AFTER = {'CHIKORITA': 'pokemon-league', 'CYNDAQUIL': 'pokemon-league', 'TOTODILE': 'pokemon-league', 'BELDUM': 'pokemon-league',
               'LILEEP': 'mirage-tower', 'ANORITH': 'mirage-tower'}

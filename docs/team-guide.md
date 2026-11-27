@@ -286,7 +286,7 @@ Key battles (best lead per Pokémon):
 
 Not answered one-on-one: Mudkip 5 (Rival, Route 103); Aron 10 (Youngster Josh, Rustboro City); Aron 8 (Hiker Marc, Rustboro City); Heracross 19 (Leader Brawly, Dewford Town)
 
-Closest alternative for each slot: Alolan Ninetales for Lapras (−1.0); Victreebel for Shiftry (−0.1); Manectric for Jolteon (−1.7); Quagsire for Quagsire (−0.0); Pelipper for Fearow (−2.4)
+Closest alternative for each slot: Alolan Ninetales for Lapras (−1.0); Victreebel for Shiftry (−0.1); Manectric for Jolteon (−1.7); Pelipper for Fearow (−2.4); Quagsire for Quagsire (−0.0)
 
 ## Seaglass, Mudkip
 
@@ -352,50 +352,51 @@ Answers 880 of 882 trainer Pokémon (100%) one-on-one; key battles 106 of 108.
   - TM40 Aerial Ace: Oldale Town (TM clerk · 4 badges), ₽2,500; or Petalburg City (TM clerk · 4 badges), ₽2,500; or Rustboro City (TM clerk · 4 badges), ₽2,500 (and 9 more places)
   - TM30 Shadow Ball: Oldale Town (TM clerk · 6 badges), ₽3,500; or Petalburg City (TM clerk · 6 badges), ₽3,500; or Rustboro City (TM clerk · 6 badges), ₽3,500 (and 9 more places)
 
-### Froslass (Snorunt → Froslass)
+### Jolteon (Eevee → Jolteon)
 
-- Get it: Rusturf Tunnel, Grass / cave (Lv 6)
-- Evolves: Froslass at Dawn Stone
+- Get it: Littleroot Town, Grass / cave (Lv 5-8), once you can (Rustboro City)
+- Evolves: Jolteon at Thunder Stone
 - Moves over the game:
-  - when you get it, Lv 15 Snorunt: Icy Wind
-  - Brawly (Dewford Town), Lv 19 Snorunt: Icy Wind, Bite
-  - Wally (Mauville City), Lv 20 Snorunt: Ice Beam (TM13), Bite
-  - Flannery (Lavaridge Town), Lv 29 Froslass: Ice Beam (TM13), Ominous Wind, Thunderbolt (TM24), Psychic (TM29)
-  - May or Brendan (Lilycove City), Lv 36 Froslass: Blizzard (TM14), Thunder (TM25), Infernal Parade, Psychic (TM29)
-  - Tate~liza (Mossdeep City), Lv 42 Froslass: Blizzard (TM14), Shadow Ball, Thunder (TM25), Psychic (TM29)
-  - Phoebe (Pokémon League), Lv 51 Froslass: Blizzard, Shadow Ball, Thunder (TM25), Energy Ball
-  - TM13 Ice Beam: Mauville City (Game Corner prize counter), 4,000 coins; or Abandoned Ship (Room B1F); or Oldale Town (TM clerk · 6 badges), ₽4,000 (and 11 more places)
+  - when you get it, Lv 15 Eevee: Quick Attack
+  - Brawly (Dewford Town), Lv 19 Eevee: Swift, Bite
+  - May or Brendan (Route 110), Lv 20 Jolteon: Thunder Fang, Swift, Bite
+  - Wally (Mauville City), Lv 20 Jolteon: Thunderbolt (TM24), Swift, Bite
+  - Tabitha (Mt. Chimney), Lv 24 Jolteon: Thunderbolt (TM24), Swift, Bite, Double Kick
+  - Maxie (Mt. Chimney), Lv 25 Jolteon: Thunderbolt (TM24), Pin Missile, Swift, Bite
+  - Norman (Petalburg City), Lv 31 Jolteon: Thunderbolt (TM24), Triple Kick, Pin Missile, Swift
+  - Shelly (Route 119), Lv 31 Jolteon: Thunderbolt (TM24), Iron Tail (TM23), Triple Kick, Pin Missile
+  - Winona (Fortree City), Lv 33 Jolteon: Thunderbolt (TM24), Iron Tail (TM23), Triple Kick, Hyper Beam (TM15)
+  - May or Brendan (Lilycove City), Lv 36 Jolteon: Thunder (TM25), Iron Tail (TM23), Triple Kick, Hyper Beam (TM15)
   - TM24 Thunderbolt: Mauville City (Game Corner prize counter), 4,000 coins; or Mauville City, from Wattson; or Oldale Town (TM clerk · 6 badges), ₽4,000 (and 10 more places)
-  - TM29 Psychic: Mauville City (Game Corner prize counter), 3,500 coins; or Oldale Town (TM clerk · 7 badges), ₽3,500; or Petalburg City (TM clerk · 7 badges), ₽3,500 (and 10 more places)
-  - TM14 Blizzard: Lilycove City (Department Store 4F), ₽6,500; or Oldale Town (TM clerk · 7 badges), ₽6,500; or Petalburg City (TM clerk · 7 badges), ₽6,500 (and 9 more places)
+  - TM23 Iron Tail: Oldale Town (TM clerk · 4 badges), ₽2,500; or Petalburg City (TM clerk · 4 badges), ₽2,500; or Rustboro City (TM clerk · 4 badges), ₽2,500 (and 9 more places)
+  - TM15 Hyper Beam: Oldale Town (TM clerk · 6 badges), ₽7,500; or Petalburg City (TM clerk · 6 badges), ₽7,500; or Rustboro City (TM clerk · 6 badges), ₽7,500 (and 9 more places)
   - TM25 Thunder: Lilycove City (Department Store 4F), ₽6,500; or Oldale Town (TM clerk · 7 badges), ₽6,500; or Petalburg City (TM clerk · 7 badges), ₽6,500 (and 9 more places)
 
-### Relicanth
+### Lapras
 
-- Get it: Pacifidlog Town, Scuba Safari (no HM needed) (Lv 30-55). The Scuba Safari costs ₽100 a dive and gives you 200 steps or five encounters, so bring Poké Balls and a False Swipe user
+- Get it: Pacifidlog Town, Scuba Safari (no HM needed) (Lv 30-50). The Scuba Safari costs ₽100 a dive and gives you 200 steps or five encounters, so bring Poké Balls and a False Swipe user
 - Moves over the game:
-  - when you get it, Lv 30 Relicanth: Waterfall (HM07), Rock Tomb (TM39), Psyshield Bash
-  - Wally (Mauville City), Lv 30 Relicanth: Waterfall (HM07), Rock Tomb (TM39), Psyshield Bash, Ice Beam (TM13)
-  - Tabitha (Mt. Chimney), Lv 30 Relicanth: Head Smash, Waterfall (HM07), Psyshield Bash, Ice Beam (TM13)
-  - Norman (Petalburg City), Lv 31 Relicanth: Head Smash, Waterfall (HM07), Body Slam, Psyshield Bash
-  - Juan (Sootopolis City), Lv 46 Relicanth: Head Smash, Liquidation, Body Slam, Psyshield Bash
-  - Phoebe (Pokémon League), Lv 51 Relicanth: Head Smash, Liquidation, Double-Edge, Psyshield Bash
-  - HM07 Waterfall: Pacifidlog Town, from Scuba Safari (your first high score)
-  - TM39 Rock Tomb: Rustboro City (Gym), from Roxanne (after winning); or Rustboro City (TM clerk · 2 badges), ₽3,000; or Oldale Town (TM clerk · 2 badges), ₽3,000 (and 9 more places)
+  - when you get it, Lv 30 Lapras: Water Pulse, Body Slam
+  - Wally (Mauville City), Lv 30 Lapras: Ice Beam (TM13), Water Pulse, Psychic (TM29), Body Slam
+  - Shelly (Route 119), Lv 31 Lapras: Surf (HM03), Ice Beam (TM13), Psychic (TM29), Iron Tail (TM23)
+  - May or Brendan (Lilycove City), Lv 36 Lapras: Blizzard (TM14), Surf (HM03), Thunder (TM25), Psychic (TM29)
+  - Sidney (Pokémon League), Lv 49 Lapras: Hydro Pump, Blizzard (TM14), Thunder (TM25), Psychic (TM29)
   - TM13 Ice Beam: Mauville City (Game Corner prize counter), 4,000 coins; or Abandoned Ship (Room B1F); or Oldale Town (TM clerk · 6 badges), ₽4,000 (and 11 more places)
+  - TM29 Psychic: Mauville City (Game Corner prize counter), 3,500 coins; or Oldale Town (TM clerk · 7 badges), ₽3,500; or Petalburg City (TM clerk · 7 badges), ₽3,500 (and 10 more places)
+  - HM03 Surf: Petalburg City (Wally's House), from Wally's father (after you beat Norman)
+  - TM23 Iron Tail: Oldale Town (TM clerk · 4 badges), ₽2,500; or Petalburg City (TM clerk · 4 badges), ₽2,500; or Rustboro City (TM clerk · 4 badges), ₽2,500 (and 9 more places)
+  - TM14 Blizzard: Lilycove City (Department Store 4F), ₽6,500; or Oldale Town (TM clerk · 7 badges), ₽6,500; or Petalburg City (TM clerk · 7 badges), ₽6,500 (and 9 more places)
+  - TM25 Thunder: Lilycove City (Department Store 4F), ₽6,500; or Oldale Town (TM clerk · 7 badges), ₽6,500; or Petalburg City (TM clerk · 7 badges), ₽6,500 (and 9 more places)
 
 ### Hitmonlee (Tyrogue → Hitmonlee)
 
 - Get it: Route 117, Grass / cave (Lv 14)
 - Evolves: Hitmonlee at Lv 20
 - Moves over the game:
-  - when you get it, Lv 24 Hitmonlee: Rock Smash (HM06), Tackle
+  - when you get it, Lv 24 Hitmonlee: Tackle
   - Tabitha (Mt. Chimney), Lv 24 Hitmonlee: Close Combat, Mega Kick
   - Flannery (Lavaridge Town), Lv 29 Hitmonlee: High Jump Kick, Mega Kick, Blaze Kick
-  - Shelly (Route 119), Lv 31 Hitmonlee: High Jump Kick, Mega Kick, Blaze Kick, Stomping Tantrum (TM56)
   - Winona (Fortree City), Lv 33 Hitmonlee: High Jump Kick, Mega Kick, Blaze Kick, Thunderous Kick
-  - HM06 Rock Smash: Mauville City (House 1), from Rock Smash Guy
-  - TM56 Stomping Tantrum: Oldale Town (TM clerk · 5 badges), ₽3,000; or Petalburg City (TM clerk · 5 badges), ₽3,000; or Rustboro City (TM clerk · 5 badges), ₽3,000 (and 8 more places)
 
 Key battles (best lead per Pokémon):
 
@@ -403,32 +404,32 @@ Key battles (best lead per Pokémon):
 - Roxanne (Rustboro City): Anorith 12 → Mudkip Water Gun; Lileep 12 → Nuzleaf Bullet Seed; Nosepass 15 → Nuzleaf Bullet Seed
 - May or Brendan (Rustboro City): Wingull 13 → Spearow Aerial Ace; Treecko 15 → Spearow Aerial Ace
 - Brawly (Dewford Town): Makuhita 16 → Spearow Aerial Ace; Meditite 16 → Spearow Aerial Ace; Heracross 19 → Spearow (no clean win) Aerial Ace
-- May or Brendan (Route 110): Wingull 18 → Relicanth Rock Tomb; Growlithe 18 → Relicanth Waterfall; Grovyle 20 → Fearow Aerial Ace
-- Wally (Mauville City): Ralts 16 → Relicanth Waterfall
-- Wattson (Mauville City): Volbeat 20 → Relicanth Rock Tomb; Flaaffy 20 → Marshtomp Mud Bomb; Magneton 22 → Marshtomp Mud Bomb; Manectric 24 → Marshtomp Mud Bomb
-- Tabitha (Mt. Chimney): Numel 18 → Relicanth Waterfall; Poochyena 20 → Relicanth Head Smash; Dunsparce 22 → Relicanth Head Smash; Houndour 22 → Relicanth Head Smash
-- Maxie (Mt. Chimney): Mightyena 24 → Relicanth Head Smash; Gligar 24 → Relicanth Ice Beam; Camerupt 25 → Relicanth Waterfall
-- Flannery (Lavaridge Town): Slugma 24 → Relicanth Head Smash; Flareon 24 → Relicanth Head Smash; Camerupt 26 → Marshtomp Waterfall; Torkoal 29 → Relicanth Head Smash
+- May or Brendan (Route 110): Wingull 18 → Lapras Body Slam; Growlithe 18 → Lapras Water Pulse; Grovyle 20 → Fearow Aerial Ace
+- Wally (Mauville City): Ralts 16 → Lapras Ice Beam
+- Wattson (Mauville City): Volbeat 20 → Lapras Ice Beam; Flaaffy 20 → Lapras Ice Beam; Magneton 22 → Marshtomp Mud Bomb; Manectric 24 → Lapras Ice Beam
+- Tabitha (Mt. Chimney): Numel 18 → Lapras Water Pulse; Poochyena 20 → Lapras Ice Beam; Dunsparce 22 → Hitmonlee Close Combat; Houndour 22 → Lapras Water Pulse
+- Maxie (Mt. Chimney): Mightyena 24 → Hitmonlee Close Combat; Gligar 24 → Lapras Ice Beam; Camerupt 25 → Lapras Water Pulse
+- Flannery (Lavaridge Town): Slugma 24 → Lapras Water Pulse; Flareon 24 → Lapras Water Pulse; Camerupt 26 → Lapras Water Pulse; Torkoal 29 → Lapras Water Pulse
 - Norman (Petalburg City): Spinda 27 → Hitmonlee High Jump Kick; Vigoroth 27 → Hitmonlee High Jump Kick; Politoed 29 → Hitmonlee High Jump Kick; Slaking 31 → Hitmonlee High Jump Kick
 - Shelly (Route 119): Ludicolo 28 → Fearow Pluck; Mightyena 28 → Hitmonlee High Jump Kick
-- May or Brendan (Route 119): Ninetales 29 → Relicanth Head Smash; Ludicolo 29 → Hitmonlee High Jump Kick; Grovyle 31 → Relicanth Head Smash
-- Winona (Fortree City): Fearow 29 → Relicanth Head Smash; Tropius 29 → Froslass Ice Beam; Pelipper 30 → Relicanth Head Smash; Skarmory 31 → Froslass Thunderbolt; Altaria 33 → Froslass Ice Beam
-- May or Brendan (Lilycove City): Tropius 33 → Froslass Blizzard; Ninetales 32 → Swampert Waterfall; Pelipper 34 → Froslass Thunder; Sceptile 36 → Swampert Blizzard
-- Tabitha (Magma Hideout): Numel 26 → Swampert Waterfall; Dodrio 28 → Swampert Blizzard; Murkrow 30 → Swampert Blizzard; Camerupt 33 → Swampert Waterfall
-- Maxie (Magma Hideout): Gliscor 37 → Swampert Blizzard; Crobat 38 → Froslass Blizzard; Ursaring 38 → Hitmonlee High Jump Kick; Camerupt 39 → Swampert Waterfall
-- Matt (Aqua Hideout): Mightyena 34 → Relicanth Head Smash; Golbat 34 → Relicanth Head Smash
-- Tate~liza (Mossdeep City): Claydol 41 → Shiftry Leaf Blade; Mismagius 41 → Froslass Shadow Ball; Lunatone 42 → Shiftry Leaf Blade; Solrock 42 → Swampert Waterfall
-- Maxie (Mossdeep City): Gliscor 42 → Swampert Blizzard; Crobat 43 → Froslass Blizzard; Shiftry 43 → Froslass Blizzard; Ursaluna 43 → Froslass Blizzard; Dodrio 43 → Swampert Blizzard; Camerupt 44 → Swampert Waterfall
-- Shelly (Seafloor Cavern): Sharpedo 37 → Relicanth Head Smash; Whiscash 37 → Shiftry Leaf Blade
-- Archie (Seafloor Cavern): Wailord 41 → Shiftry Leaf Blade; Breloom 41 → Froslass Blizzard; Crobat 41 → Froslass Blizzard; Sharpedo 43 → Relicanth Head Smash
-- Juan (Sootopolis City): Starmie 41 → Shiftry Leaf Blade; Whiscash 41 → Shiftry Leaf Blade; Sealeo 43 → Relicanth Head Smash; Octillery 43 → Froslass Thunder; Kingdra 46 → Hitmonlee High Jump Kick
-- Wally (Victory Road): Altaria 44 → Swampert Iron Tail; Delcatty 43 → Hitmonlee High Jump Kick; Roserade 44 → Fearow Drill Peck; Magnezone 41 → Swampert Earthquake; Gardevoir 45 → Froslass Shadow Ball
-- Sidney (Pokémon League): Mightyena 46 → Hitmonlee High Jump Kick; Honchkrow 48 → Relicanth Head Smash; Cacturne 46 → Froslass Blizzard; Crawdaunt 48 → Hitmonlee High Jump Kick; Absol 49 → Hitmonlee High Jump Kick
-- Phoebe (Pokémon League): Dusclops 48 → Shiftry Darkest Lariat; Froslass 49 → Relicanth Head Smash; Mismagius 50 → Swampert Iron Tail; Banette 49 → Swampert Earthquake; Dusknoir 51 → Swampert Earthquake
-- Glacia (Pokémon League): Dewgong 50 → Relicanth Head Smash; Glalie 50 → Hitmonlee High Jump Kick; Glaceon 52 → Hitmonlee High Jump Kick; Cloyster 52 → Froslass Thunder; Walrein 53 → Hitmonlee High Jump Kick
-- Drake (Pokémon League): Kingdra 52 → Hitmonlee High Jump Kick; Altaria 54 → Swampert Iron Tail; Steelix 53 → Froslass Blizzard; Flygon 53 → Froslass Blizzard; Salamence 55 → Froslass Blizzard
-- Wallace (Pokémon League): Wailord 57 → Froslass Thunder; Tentacruel 55 → Swampert Earthquake; Ludicolo 56 → Shiftry Floaty Fall; Whiscash 56 → Shiftry Leaf Blade; Gyarados 56 → Froslass Thunder; Milotic 58 → Shiftry Leaf Blade
+- May or Brendan (Route 119): Ninetales 29 → Lapras Surf; Ludicolo 29 → Hitmonlee High Jump Kick; Grovyle 31 → Lapras Ice Beam
+- Winona (Fortree City): Fearow 29 → Lapras Ice Beam; Tropius 29 → Lapras Ice Beam; Pelipper 30 → Jolteon Thunderbolt; Skarmory 31 → Jolteon Thunderbolt; Altaria 33 → Lapras Ice Beam
+- May or Brendan (Lilycove City): Tropius 33 → Lapras Blizzard; Ninetales 32 → Swampert Waterfall; Pelipper 34 → Jolteon Thunder; Sceptile 36 → Swampert Blizzard
+- Tabitha (Magma Hideout): Numel 26 → Lapras Surf; Dodrio 28 → Swampert Blizzard; Murkrow 30 → Swampert Blizzard; Camerupt 33 → Lapras Surf
+- Maxie (Magma Hideout): Gliscor 37 → Swampert Blizzard; Crobat 38 → Jolteon Thunder; Ursaring 38 → Hitmonlee High Jump Kick; Camerupt 39 → Swampert Waterfall
+- Matt (Aqua Hideout): Mightyena 34 → Swampert Hammer Arm; Golbat 34 → Lapras Blizzard
+- Tate~liza (Mossdeep City): Claydol 41 → Shiftry Leaf Blade; Mismagius 41 → Jolteon Iron Tail; Lunatone 42 → Shiftry Leaf Blade; Solrock 42 → Lapras Surf
+- Maxie (Mossdeep City): Gliscor 42 → Swampert Blizzard; Crobat 43 → Jolteon Thunder; Shiftry 43 → Lapras Blizzard; Ursaluna 43 → Lapras Blizzard; Dodrio 43 → Swampert Blizzard; Camerupt 44 → Swampert Waterfall
+- Shelly (Seafloor Cavern): Sharpedo 37 → Swampert Hammer Arm; Whiscash 37 → Shiftry Leaf Blade
+- Archie (Seafloor Cavern): Wailord 41 → Jolteon Thunder; Breloom 41 → Fearow Drill Peck; Crobat 41 → Lapras Blizzard; Sharpedo 43 → Swampert Hammer Arm
+- Juan (Sootopolis City): Starmie 41 → Shiftry Leaf Blade; Whiscash 41 → Shiftry Leaf Blade; Sealeo 43 → Hitmonlee High Jump Kick; Octillery 43 → Jolteon Thunder; Kingdra 46 → Hitmonlee High Jump Kick
+- Wally (Victory Road): Altaria 44 → Swampert Iron Tail; Delcatty 43 → Hitmonlee High Jump Kick; Roserade 44 → Fearow Drill Peck; Magnezone 41 → Swampert Earthquake; Gardevoir 45 → Jolteon Iron Tail
+- Sidney (Pokémon League): Mightyena 46 → Hitmonlee High Jump Kick; Honchkrow 48 → Lapras Blizzard; Cacturne 46 → Lapras Blizzard; Crawdaunt 48 → Jolteon Thunder; Absol 49 → Hitmonlee High Jump Kick
+- Phoebe (Pokémon League): Dusclops 48 → Shiftry Darkest Lariat; Froslass 49 → Lapras Hydro Pump; Mismagius 50 → Swampert Iron Tail; Banette 49 → Lapras Hydro Pump; Dusknoir 51 → Swampert Earthquake
+- Glacia (Pokémon League): Dewgong 50 → Hitmonlee High Jump Kick; Glalie 50 → Hitmonlee High Jump Kick; Glaceon 52 → Hitmonlee High Jump Kick; Cloyster 52 → Lapras Thunder; Walrein 53 → Hitmonlee High Jump Kick
+- Drake (Pokémon League): Kingdra 52 → Hitmonlee High Jump Kick; Altaria 54 → Lapras Blizzard; Steelix 53 → Lapras Hydro Pump; Flygon 53 → Lapras Blizzard; Salamence 55 → Lapras Blizzard
+- Wallace (Pokémon League): Wailord 57 → Jolteon Thunder; Tentacruel 55 → Swampert Earthquake; Ludicolo 56 → Shiftry Floaty Fall; Whiscash 56 → Shiftry Leaf Blade; Gyarados 56 → Jolteon Thunder; Milotic 58 → Shiftry Leaf Blade
 
 Not answered one-on-one: Treecko 5 (Rival, Route 103); Heracross 19 (Leader Brawly, Dewford Town)
 
-Closest alternative for each slot: Alolan Ninetales for Froslass (−3.5); Gallade for Hitmonlee (−1.2); Victreebel for Shiftry (−1.8); Swellow for Fearow (−4.2); Jolteon for Relicanth (−0.1)
+Closest alternative for each slot: Swellow for Fearow (−2.6); Alolan Raichu for Jolteon (−1.5); Victreebel for Shiftry (−2.4); Froslass for Lapras (−0.9); Gallade for Hitmonlee (−1.3)
