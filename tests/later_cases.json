@@ -8,5 +8,9 @@
  ["mauville-city", "gift", "TM24"],
  ["slateport-city", "gift", "Deep Sea Tooth"],
  ["littleroot-town", "gift", "Catching Charm"],
- ["fallarbor-town", "gift", "Spiky-eared Pichu (Lv 5)"]
+ ["fallarbor-town", "gift", "Spiky-eared Pichu (Lv 5)"],
+ ["petalburg-city", "gift", "HM03"],
+ ["rusturf-tunnel", "gift", "HM04"],
+ ["rustboro-city", "gift", "Z-Power Ring"],
+ ["fortree-city", "gift", "Mental Herb"]
 ]
