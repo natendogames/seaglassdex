@@ -254,6 +254,8 @@ async function loadData() {
 // then raises every trainer Pokémon's level by 1-4, more as you earn badges (ROM function at 0x080AC538): +1 with 0-1
 // badges, +2 with 2-4, +3 with 5-7 and +4 with all eight (or once you're Champion), up to Lv 100. Wild, gift and
 // legendary Pokémon are not changed. Hard Mode also turns off the Bag in battle.
+// Seaglass's level caps (settings book, on by default): EXP is cut once you pass the next Gym Leader's top level
+const SOFT_LEVEL_CAP = true;
 const hardOn = () => !!cur()?.hardMode;
 const hardBoost = badges => badges >= 8 ? 4 : badges >= 5 ? 3 : badges >= 2 ? 2 : 1;
 function prepareHardMode() {
@@ -541,6 +543,7 @@ function renderLocation(id) {
   if (!encs.length) html += '<div class="empty">No Pokémon to catch here.</div>';
   else if (!now.length) html += '<div class="empty">Nothing to catch on your first visit.</div>';
   html += encList(now, false) + `</div>`;
+  if (typeof grindCard === 'function') html += grindCard(id, now, later);
   if (later.length) html += `<details class="later"><summary><h2>Pokémon: come back later (${new Set(later.map(e => e.dex)).size})</h2></summary><div class="card"><p class="note">You can't fish, Surf, Dive or Rock Smash here on your first visit, or this part isn't open yet. These open up later in the story.</p>${encList(later, true)}</div></details>`;
 
   const section = (title, list, kind, subFn) => {
