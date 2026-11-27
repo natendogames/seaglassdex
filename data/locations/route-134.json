@@ -93,14 +93,24 @@
    "name": "Carbos",
    "hidden": false,
    "where": "Outside",
-   "map": true
+   "map": true,
+   "mo": [
+    0,
+    1
+   ],
+   "lbl": "2"
   },
   {
    "id": "outside-star-piece",
    "name": "Star Piece",
    "hidden": false,
    "where": "Outside",
-   "map": true
+   "map": true,
+   "mo": [
+    0,
+    0
+   ],
+   "lbl": "1"
   }
  ],
  "gifts": [],
@@ -142,7 +152,12 @@
     }
    ],
    "id": "hudson",
-   "map": true
+   "map": true,
+   "mo": [
+    0,
+    7
+   ],
+   "lbl": "H"
   },
   {
    "class": "Swimmer♀",
@@ -212,7 +227,12 @@
     }
    ],
    "id": "laurel",
-   "map": true
+   "map": true,
+   "mo": [
+    0,
+    8
+   ],
+   "lbl": "I"
   },
   {
    "class": "Battle Girl",
@@ -284,7 +304,12 @@
     }
    ],
    "id": "reyna",
-   "map": true
+   "map": true,
+   "mo": [
+    0,
+    6
+   ],
+   "lbl": "G"
   },
   {
    "class": "Swimmer♂",
@@ -324,7 +349,12 @@
     }
    ],
    "id": "jack",
-   "map": true
+   "map": true,
+   "mo": [
+    0,
+    5
+   ],
+   "lbl": "F"
   },
   {
    "class": "Black Belt",
@@ -397,7 +427,12 @@
     }
    ],
    "id": "hitoshi",
-   "map": true
+   "map": true,
+   "mo": [
+    0,
+    4
+   ],
+   "lbl": "E"
   },
   {
    "class": "Cool Trainer",
@@ -439,7 +474,12 @@
     "Hyper Potion"
    ],
    "id": "marley",
-   "map": true
+   "map": true,
+   "mo": [
+    0,
+    3
+   ],
+   "lbl": "D"
   },
   {
    "class": "Dragon Tamer",
@@ -479,7 +519,12 @@
     }
    ],
    "id": "aaron",
-   "map": true
+   "map": true,
+   "mo": [
+    0,
+    2
+   ],
+   "lbl": "C"
   },
   {
    "class": "Bird Keeper",
@@ -548,7 +593,12 @@
     }
    ],
    "id": "alex",
-   "map": true
+   "map": true,
+   "mo": [
+    0,
+    0
+   ],
+   "lbl": "A"
   },
   {
    "class": "Sailor",
@@ -620,7 +670,12 @@
     }
    ],
    "id": "kelvin",
-   "map": true
+   "map": true,
+   "mo": [
+    0,
+    1
+   ],
+   "lbl": "B"
   }
  ],
  "mapCount": 1,

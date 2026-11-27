@@ -44,7 +44,12 @@
    "name": "Wishing Star",
    "hidden": false,
    "where": "Outside",
-   "map": true
+   "map": true,
+   "mo": [
+    0,
+    1
+   ],
+   "lbl": "2"
   },
   {
    "id": "outside-max-ether",
@@ -55,7 +60,12 @@
    "need": "Rock Smash (HM06 from the Rock Smash Guy in Mauville City, used with the Dynamo Badge)",
    "after": "mauville-city",
    "stage": 17.5,
-   "map": true
+   "map": true,
+   "mo": [
+    0,
+    2
+   ],
+   "lbl": "3"
   },
   {
    "id": "outside-metal-coat",
@@ -66,7 +76,12 @@
    "need": "Rock Smash (HM06 from the Rock Smash Guy in Mauville City, used with the Dynamo Badge)",
    "after": "mauville-city",
    "stage": 17.5,
-   "map": true
+   "map": true,
+   "mo": [
+    0,
+    3
+   ],
+   "lbl": "4"
   }
  ],
  "gifts": [
@@ -84,7 +99,13 @@
    "id": "item-outside-devon-parts",
    "name": "Devon Parts",
    "from": "Aqua Grunt (after you beat him)",
-   "where": "Outside"
+   "where": "Outside",
+   "map": true,
+   "mo": [
+    0,
+    0
+   ],
+   "lbl": "1"
   }
  ],
  "trainers": [
@@ -191,7 +212,12 @@
    "stage": "mauville-city",
    "later": true,
    "reach": "Rock Smash (HM06 from the Rock Smash Guy in Mauville City, used with the Dynamo Badge)",
-   "map": true
+   "map": true,
+   "mo": [
+    0,
+    1
+   ],
+   "lbl": "B"
   },
   {
    "class": "Team Aqua",
@@ -233,7 +259,12 @@
     "Devon Parts"
    ],
    "id": "grunt-rusturf-tunnel",
-   "map": true
+   "map": true,
+   "mo": [
+    0,
+    0
+   ],
+   "lbl": "A"
   }
  ],
  "mapCount": 1,

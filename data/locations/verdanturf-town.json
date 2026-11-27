@@ -8,29 +8,53 @@
    "id": "item-outside-wishing-star-3",
    "name": "Wishing Star ×3",
    "from": "Camper",
-   "where": "Outside"
+   "where": "Outside",
+   "map": true,
+   "mo": [
+    0,
+    0
+   ],
+   "lbl": "1"
   },
   {
    "id": "item-contest-lobby-pecha-berry",
    "name": "Pecha Berry",
    "from": "Contest Lobby",
-   "where": "Contest Lobby"
+   "where": "Contest Lobby",
+   "map": true,
+   "mo": [
+    1,
+    0
+   ],
+   "lbl": "1"
   },
   {
    "id": "item-contest-lobby-pok-block-case",
    "name": "Pokéblock Case",
    "from": "Teala",
-   "where": "Contest Lobby"
+   "where": "Contest Lobby",
+   "map": true,
+   "mo": [
+    1,
+    1
+   ],
+   "lbl": "2"
   },
   {
    "id": "item-contest-lobby-luxury-ball",
    "name": "Luxury Ball",
    "from": "Teala",
-   "where": "Contest Lobby"
+   "where": "Contest Lobby",
+   "map": true,
+   "mo": [
+    1,
+    1
+   ],
+   "lbl": "2"
   }
  ],
  "trainers": [],
- "mapCount": 1,
+ "mapCount": 2,
  "verified": true,
  "sources": [
   "https://mrwalkthroughs.com/pokemon-emerald-seaglass/"

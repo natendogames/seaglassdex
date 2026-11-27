@@ -86,14 +86,24 @@
    "name": "Ether",
    "hidden": false,
    "where": "Outside",
-   "map": true
+   "map": true,
+   "mo": [
+    0,
+    3
+   ],
+   "lbl": "4"
   },
   {
    "id": "outside-repel",
    "name": "Repel",
    "hidden": false,
    "where": "Outside",
-   "map": true
+   "map": true,
+   "mo": [
+    0,
+    0
+   ],
+   "lbl": "1"
   },
   {
    "id": "outside-hp-up",
@@ -104,28 +114,48 @@
    "need": "Rock Smash (HM06 from the Rock Smash Guy in Mauville City, used with the Dynamo Badge)",
    "after": "mauville-city",
    "stage": 17.5,
-   "map": true
+   "map": true,
+   "mo": [
+    0,
+    6
+   ],
+   "lbl": "7"
   },
   {
    "id": "outside-x-sp-atk",
    "name": "X Sp. Atk",
    "hidden": false,
    "where": "Outside",
-   "map": true
+   "map": true,
+   "mo": [
+    0,
+    4
+   ],
+   "lbl": "5"
   },
   {
    "id": "outside-potion",
    "name": "Potion",
    "hidden": false,
    "where": "Outside",
-   "map": true
+   "map": true,
+   "mo": [
+    0,
+    1
+   ],
+   "lbl": "2"
   },
   {
    "id": "hidden-outside-super-potion",
    "name": "Super Potion",
    "hidden": true,
    "where": "Outside",
-   "map": true
+   "map": true,
+   "mo": [
+    0,
+    2
+   ],
+   "lbl": "3"
   },
   {
    "id": "hidden-outside-black-glasses",
@@ -136,7 +166,12 @@
    "need": "Rock Smash (HM06 from the Rock Smash Guy in Mauville City, used with the Dynamo Badge)",
    "after": "mauville-city",
    "stage": 17.5,
-   "map": true
+   "map": true,
+   "mo": [
+    0,
+    7
+   ],
+   "lbl": "8"
   }
  ],
  "gifts": [
@@ -148,7 +183,13 @@
    "later": true,
    "need": "After Slateport City",
    "after": "slateport-city",
-   "stage": 14
+   "stage": 14,
+   "map": true,
+   "mo": [
+    0,
+    5
+   ],
+   "lbl": "6"
   }
  ],
  "trainers": [
@@ -189,7 +230,12 @@
     }
    ],
    "id": "joey",
-   "map": true
+   "map": true,
+   "mo": [
+    0,
+    1
+   ],
+   "lbl": "B"
   },
   {
    "class": "Bug Catcher",
@@ -248,7 +294,12 @@
     }
    ],
    "id": "jose",
-   "map": true
+   "map": true,
+   "mo": [
+    0,
+    0
+   ],
+   "lbl": "A"
   },
   {
    "class": "School Kid",
@@ -287,7 +338,12 @@
     }
    ],
    "id": "karen",
-   "map": true
+   "map": true,
+   "mo": [
+    0,
+    2
+   ],
+   "lbl": "C"
   },
   {
    "class": "Hiker",
@@ -325,7 +381,12 @@
     }
    ],
    "id": "clark",
-   "map": true
+   "map": true,
+   "mo": [
+    0,
+    3
+   ],
+   "lbl": "D"
   },
   {
    "class": "Youngster",
@@ -389,7 +450,12 @@
     }
    ],
    "id": "johnson",
-   "map": true
+   "map": true,
+   "mo": [
+    0,
+    4
+   ],
+   "lbl": "E"
   },
   {
    "class": "Hiker",
@@ -451,7 +517,12 @@
     }
    ],
    "id": "devan",
-   "map": true
+   "map": true,
+   "mo": [
+    0,
+    9
+   ],
+   "lbl": "J"
   },
   {
    "class": "Lady",
@@ -518,7 +589,12 @@
     "Full Restore"
    ],
    "id": "sarah",
-   "map": true
+   "map": true,
+   "mo": [
+    0,
+    5
+   ],
+   "lbl": "F"
   },
   {
    "class": "School Kid",
@@ -556,7 +632,12 @@
     }
    ],
    "id": "jerry",
-   "map": true
+   "map": true,
+   "mo": [
+    0,
+    8
+   ],
+   "lbl": "I"
   },
   {
    "class": "Lass",
@@ -595,7 +676,12 @@
     }
    ],
    "id": "janice",
-   "map": true
+   "map": true,
+   "mo": [
+    0,
+    7
+   ],
+   "lbl": "H"
   },
   {
    "class": "Rich Boy",
@@ -659,7 +745,12 @@
     }
    ],
    "id": "dawson",
-   "map": true
+   "map": true,
+   "mo": [
+    0,
+    6
+   ],
+   "lbl": "G"
   }
  ],
  "mapCount": 1,

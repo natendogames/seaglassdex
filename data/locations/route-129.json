@@ -144,7 +144,12 @@
     }
    ],
    "id": "reed",
-   "map": true
+   "map": true,
+   "mo": [
+    0,
+    0
+   ],
+   "lbl": "A"
   },
   {
    "class": "Triathlete",
@@ -214,7 +219,12 @@
     }
    ],
    "id": "chase",
-   "map": true
+   "map": true,
+   "mo": [
+    0,
+    1
+   ],
+   "lbl": "B"
   },
   {
    "class": "Swimmer♀",
@@ -286,7 +296,12 @@
     }
    ],
    "id": "tisha",
-   "map": true
+   "map": true,
+   "mo": [
+    0,
+    3
+   ],
+   "lbl": "D"
   },
   {
    "class": "Swimmer♂",
@@ -357,7 +372,12 @@
     }
    ],
    "id": "clarence",
-   "map": true
+   "map": true,
+   "mo": [
+    0,
+    2
+   ],
+   "lbl": "C"
   },
   {
    "class": "Triathlete",
@@ -429,7 +449,12 @@
     }
    ],
    "id": "allison",
-   "map": true
+   "map": true,
+   "mo": [
+    0,
+    4
+   ],
+   "lbl": "E"
   }
  ],
  "mapCount": 1,

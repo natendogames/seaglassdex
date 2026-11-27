@@ -105,7 +105,12 @@
    "name": "Wishing Star",
    "hidden": false,
    "where": "Outside",
-   "map": true
+   "map": true,
+   "mo": [
+    0,
+    0
+   ],
+   "lbl": "1"
   }
  ],
  "gifts": [
@@ -113,13 +118,25 @@
    "id": "item-outside-powder-jar",
    "name": "Powder Jar",
    "from": "Berry Powder Clerk",
-   "where": "Outside"
+   "where": "Outside",
+   "map": true,
+   "mo": [
+    0,
+    1
+   ],
+   "lbl": "2"
   },
   {
    "id": "item-battle-tent-lobby-tm41",
    "name": "TM41",
    "from": "Battle Tent lobby",
-   "where": "Battle Tent Lobby"
+   "where": "Battle Tent Lobby",
+   "map": true,
+   "mo": [
+    1,
+    0
+   ],
+   "lbl": "1"
   },
   {
    "id": "item-harbor-deep-sea-tooth",
@@ -129,7 +146,13 @@
    "later": true,
    "need": "After Magma Hideout",
    "after": "magma-hideout",
-   "stage": 49
+   "stage": 49,
+   "map": true,
+   "mo": [
+    2,
+    0
+   ],
+   "lbl": "1"
   },
   {
    "id": "item-harbor-deep-sea-scale",
@@ -139,55 +162,109 @@
    "later": true,
    "need": "After Magma Hideout",
    "after": "magma-hideout",
-   "stage": 49
+   "stage": 49,
+   "map": true,
+   "mo": [
+    2,
+    0
+   ],
+   "lbl": "1"
   },
   {
    "id": "item-oceanic-museum-1f-tm46",
    "name": "TM46",
    "from": "Aqua Grunt (after you beat him)",
-   "where": "Oceanic Museum 1F"
+   "where": "Oceanic Museum 1F",
+   "map": true,
+   "mo": [
+    3,
+    0
+   ],
+   "lbl": "1"
   },
   {
    "id": "item-pok-mon-center-1f-pok-mon-box-link",
    "name": "Pokémon Box Link",
    "from": "Scientist",
-   "where": "Pokémon Center 1F"
+   "where": "Pokémon Center 1F",
+   "map": true,
+   "mo": [
+    5,
+    0
+   ],
+   "lbl": "1"
   },
   {
    "id": "item-pok-mon-fan-club-red-scarf",
    "name": "Red Scarf",
    "from": "Gentleman",
-   "where": "Pokémon Fan Club"
+   "where": "Pokémon Fan Club",
+   "map": true,
+   "mo": [
+    6,
+    0
+   ],
+   "lbl": "1"
   },
   {
    "id": "item-pok-mon-fan-club-blue-scarf",
    "name": "Blue Scarf",
    "from": "Gentleman",
-   "where": "Pokémon Fan Club"
+   "where": "Pokémon Fan Club",
+   "map": true,
+   "mo": [
+    6,
+    0
+   ],
+   "lbl": "1"
   },
   {
    "id": "item-pok-mon-fan-club-pink-scarf",
    "name": "Pink Scarf",
    "from": "Gentleman",
-   "where": "Pokémon Fan Club"
+   "where": "Pokémon Fan Club",
+   "map": true,
+   "mo": [
+    6,
+    0
+   ],
+   "lbl": "1"
   },
   {
    "id": "item-pok-mon-fan-club-green-scarf",
    "name": "Green Scarf",
    "from": "Gentleman",
-   "where": "Pokémon Fan Club"
+   "where": "Pokémon Fan Club",
+   "map": true,
+   "mo": [
+    6,
+    0
+   ],
+   "lbl": "1"
   },
   {
    "id": "item-pok-mon-fan-club-yellow-scarf",
    "name": "Yellow Scarf",
    "from": "Gentleman",
-   "where": "Pokémon Fan Club"
+   "where": "Pokémon Fan Club",
+   "map": true,
+   "mo": [
+    6,
+    0
+   ],
+   "lbl": "1"
   },
   {
    "id": "item-pok-mon-fan-club-soothe-bell",
    "name": "Soothe Bell",
    "from": "Woman (if your lead Pokémon is very friendly)",
-   "where": "Pokémon Fan Club"
+   "where": "Pokémon Fan Club",
+   "map": true,
+   "mo": [
+    6,
+    1
+   ],
+   "lbl": "2"
   }
  ],
  "trainers": [
@@ -230,10 +307,15 @@
    ],
    "id": "grunt-museum",
    "area": "Oceanic Museum 2F",
-   "map": true
+   "map": true,
+   "mo": [
+    4,
+    0
+   ],
+   "lbl": "A"
   }
  ],
- "mapCount": 2,
+ "mapCount": 7,
  "verified": true,
  "sources": [
   "https://mrwalkthroughs.com/pokemon-emerald-seaglass/"
