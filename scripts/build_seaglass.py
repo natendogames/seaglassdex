@@ -837,22 +837,28 @@ EFFECT_KEEP = {'LEVEL_DAMAGE': 'level', 'SUPER_FANG': 'half', 'OHKO': 'ohko', 'M
                'FOCUS_PUNCH': 'varies', 'FIRST_TURN_ONLY': 'fakeout', 'SNORE': 'dream', 'TRIPLE_KICK': 'triple', 'HEAT_CRASH': 'varies',
                'GYRO_BALL': 'varies', 'ENDEAVOR': 'varies', 'FINAL_GAMBIT': 'varies', 'STORED_POWER': 'varies', 'POPULATION_BOMB': 'multi',
                'PUNISHMENT': 'varies', 'NATURAL_GIFT': 'varies', 'FLING': 'varies', 'TRUMP_CARD': 'varies', 'WRING_OUT': 'varies', 'BEAT_UP': 'varies',
-               'RAGE_FIST': 'varies', 'FOUL_PLAY': 'foulplay', 'BODY_PRESS': 'bodypress', 'PSYSHOCK': 'psyshock'}
+               'RAGE_FIST': 'varies', 'FOUL_PLAY': 'foulplay', 'BODY_PRESS': 'bodypress', 'PSYSHOCK': 'psyshock',
+               'LAST_RESORT': 'lastresort', 'SUPER_EFFECTIVE_ON_ARG': 'freezedry'}
 FIXED = {'SONIC_BOOM': 'fixed20', 'DRAGON_RAGE': 'fixed40'}
 # The expansion keeps two-hit moves and recharge moves as plain hits with extra fields this dump doesn't read: list them by name.
 DOUBLE = {'DOUBLE_KICK', 'TWINEEDLE', 'BONEMERANG', 'DOUBLE_HIT', 'DUAL_CHOP', 'GEAR_GRIND', 'DUAL_WINGBEAT', 'DRAGON_DARTS', 'DOUBLE_IRON_BASH',
           'TWIN_BEAM', 'TACHYON_CUTTER', 'TRIPLE_DIVE'}
 RECHARGE = {'HYPER_BEAM', 'GIGA_IMPACT', 'BLAST_BURN', 'FRENZY_PLANT', 'HYDRO_CANNON', 'ROCK_WRECKER', 'ROAR_OF_TIME', 'PRISMATIC_LASER',
             'ETERNABEAM', 'METEOR_ASSAULT'}
+# Moves that drop the user's Sp. Atk by 2 after each hit (an additional effect the dump doesn't read: listed by name)
+SELF_DROP = {'OVERHEAT', 'LEAF_STORM', 'DRACO_METEOR', 'PSYCHO_BOOST', 'FLEUR_CANNON'}
 VARIES_HIDDEN = {'HIDDEN_POWER'}  # 60 power in Seaglass; type depends on IVs
 moves_out = {}
 for k, nm in move_names.items():
     if k == 'NONE' or not nm or nm.startswith('-'): continue
     e = FIXED.get(k) or ('double' if k in DOUBLE else 'recharge' if k in RECHARGE else EFFECT_KEEP.get(move_effects.get(k)))
     if k == 'TRIPLE_DIVE': e = 'triple'
+    if k in SELF_DROP: e = 'selfdrop'
     m_ = MV[k]
+    # Freeze-Dry: super effective on the type in its argument (make_src's argType, read from the ROM)
+    se_ = {'seType': m_['argType']} if e == 'freezedry' else {}
     moves_out[nm] = {'type': move_types.get(k), 'power': move_power.get(k, 0), 'category': move_cat.get(k), 'acc': m_['acc'], 'pp': m_['pp'],
-                     **({'priority': m_['prio']} if m_['prio'] else {}), **({'effect': e} if e else {}),
+                     **({'priority': m_['prio']} if m_['prio'] else {}), **({'effect': e} if e else {}), **se_,
                      **({'desc': m_['desc'].replace('\n', ' ')} if m_.get('desc') else {}),
                      # contact / punch / bite / pulse / sound / ballistic / powder / wind / slice, from the ROM's move flags
                      **({'flags': m_['flags']} if m_.get('flags') else {})}

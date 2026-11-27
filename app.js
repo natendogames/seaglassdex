@@ -661,14 +661,15 @@ function learnedBy(dex, level, from = {}, relearn = false) {
 const relearnAt = () => stageOf('fallarbor-town');
 function moveScore(dex, level, name) {
   const m = state.moves[name];
-  if (!m || !m.power || ['counter', 'dream', 'ohko', 'explode', 'fakeout'].includes(m.effect) || name === 'Focus Punch') return 0;
+  if (!m || !m.power || ['counter', 'dream', 'ohko', 'explode', 'fakeout', 'lastresort'].includes(m.effect) || name === 'Focus Punch') return 0;
   let power = { level: level, fixed20: 20 * 1.5, fixed40: 40 * 1.5, half: 60 }[m.effect] ?? (m.power === 1 ? VARIES_POWER[name] || 0 : m.power);
   if (name === 'Low Kick') power = 60;
   if (!m.effect || !['level', 'fixed20', 'fixed40', 'half'].includes(m.effect)) {
     if (mon(dex).types.includes(m.type)) power *= 1.5;
     power *= HITS[m.effect] || 1;
   }
-  return m.effect === 'charge' || m.effect === 'recharge' ? power / 2 : power;
+  // Overheat, Leaf Storm, Draco Meteor...: Sp. Atk -2 after each use, so a second hit has half the power
+  return m.effect === 'charge' || m.effect === 'recharge' ? power / 2 : m.effect === 'selfdrop' ? power * 0.75 : power;
 }
 // TMs and HMs you can have by a point in the story: found or given at a location you've reached, bought at the
 // Lilycove Department Store or the Slateport market, or won at the Mauville Game Corner. One handed over after a
@@ -763,7 +764,8 @@ const foeBattler = p => ({ ...battler(p.dex, p.level, p.ivs || (p.iv ?? 0), (p.m
 function hit(att, def, name, crit = false) {
   const m = state.moves[name];
   // Focus Punch fails if the target hits first, which in a one-on-one it nearly always does
-  if (!m || !m.power || ['counter', 'dream', 'ohko'].includes(m.effect) || name === 'Focus Punch') return null;
+  // Last Resort only works once every other move it knows has been used, so it is never a move to plan around
+  if (!m || !m.power || ['counter', 'dream', 'ohko', 'lastresort'].includes(m.effect) || name === 'Focus Punch') return null;
   const aAb = att.ability || soleAbility(att.dex), dAb = def.ability || soleAbility(def.dex);
   const fl = m.flags || [];
   // -ate abilities, Normalize and Liquid Voice change the move's type (and the first two its power)
@@ -773,7 +775,8 @@ function hit(att, def, name, crit = false) {
   else if (aAb === 'Liquid Voice' && fl.includes('sound')) type = 'Water';
   // Scrappy and Mind's Eye let Normal and Fighting moves hit Ghost types
   const dTypes = ['Scrappy', "Mind's Eye"].includes(aAb) && (type === 'Normal' || type === 'Fighting') ? mon(def.dex).types.filter(t => t !== 'Ghost') : mon(def.dex).types;
-  let mult = eff(type, dTypes);
+  // Freeze-Dry is super effective on its listed type (Water) whatever the type chart says
+  let mult = m.seType && dTypes.includes(m.seType) ? 2 * eff(type, dTypes.filter(t => t !== m.seType)) : eff(type, dTypes);
   if (IMMUNE_AB[dAb] === type || (dAb === 'Wonder Guard' && mult < 2) || fl.includes(IMMUNE_FLAG[dAb])) mult = 0;
   const out = (min, max) => ({ name, type, mult, min, max });
   if (mult === 0) return out(0, 0);
@@ -824,11 +827,19 @@ function hit(att, def, name, crit = false) {
   return out(Math.max(1, Math.floor(dmg * 85 / 100)) * hits, dmg * hits);
 }
 // Turns to KO with one move, using its low roll for your side and high roll for theirs. Charge moves (Solarbeam, Fly,
-// Dig, Sky Attack...) take two turns per hit and Hyper Beam needs a turn to recharge between hits.
+// Dig, Sky Attack...) take two turns per hit, Hyper Beam needs a turn to recharge between hits, and Overheat-style
+// moves lose power with each use.
 function turnsToKO(h, hp, low) {
   if (!h || !h.max) return Infinity;
-  const n = Math.ceil(hp / Math.max(1, low ? h.min : h.max));
   const e = state.moves[h.name]?.effect;
+  // a move that drops the user's Sp. Atk by 2 each use: full, then 1/2, 1/3, 1/4... of its first hit
+  if (e === 'selfdrop') {
+    const d = Math.max(1, low ? h.min : h.max);
+    let left = hp, n = 0;
+    while (left > 0 && n < 50) { left -= Math.max(1, Math.floor(d * 2 / (2 + 2 * Math.min(n, 3)))); n++; }
+    return n;
+  }
+  const n = Math.ceil(hp / Math.max(1, low ? h.min : h.max));
   return e === 'charge' ? 2 * n : e === 'recharge' ? 2 * n - 1 : n;
 }
 function bestHit(att, def) {

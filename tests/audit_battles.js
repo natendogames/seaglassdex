@@ -83,6 +83,22 @@ const strip = h => h.replace(/<table[\s\S]*?<\/table>/g, ' [duel table] ').repla
   for (const [n, e] of Object.entries({ 'Solar Beam': 'charge', Fly: 'charge', Dig: 'charge', 'Sky Attack': 'charge', 'Hyper Beam': 'recharge', 'Fake Out': 'fakeout', 'Triple Kick': 'triple', Explosion: 'explode' }))
     if (state.moves[n]?.effect !== e) fail(`move ${n} effect is ${state.moves[n]?.effect}, expected ${e}`);
   for (const p of state.dex) for (const [, mv] of p.learnset || []) if (!state.moves[mv]) fail(`${p.name} learns unknown move ${mv}`);
+  // move effects the damage maths needs, read from the ROM: Freeze-Dry hits Water super effectively, Last Resort can't be
+  // planned around, and Overheat-style moves lose Sp. Atk with each use
+  for (const [n, e] of Object.entries({ 'Freeze-Dry': 'freezedry', 'Last Resort': 'lastresort', Overheat: 'selfdrop', 'Leaf Storm': 'selfdrop', 'Draco Meteor': 'selfdrop', 'Psycho Boost': 'selfdrop' }))
+    if (state.moves[n]?.effect !== e) fail(`move ${n} effect is ${state.moves[n]?.effect}, expected ${e}`);
+  {
+    const Dn = n => state.dexByName[n], at = (n, mv) => app.battler(Dn(n), 50, 31, mv);
+    const fd = app.hit(at('Walrein', ['Freeze-Dry']), at('Milotic', []), 'Freeze-Dry'), ib = app.hit(at('Walrein', ['Ice Beam']), at('Milotic', []), 'Ice Beam');
+    if (!(fd.mult >= 2 && ib.mult <= 1)) fail(`Freeze-Dry vs Milotic should be super effective (got x${fd.mult}; Ice Beam x${ib.mult})`);
+    const lud = app.hit(at('Walrein', ['Freeze-Dry']), at('Ludicolo', []), 'Freeze-Dry');
+    if (lud.mult !== 4) fail(`Freeze-Dry vs Ludicolo (Water/Grass) should be x4, got x${lud.mult}`);
+    if (app.hit(at('Ambipom', ['Last Resort']), at('Milotic', []), 'Last Resort') !== null) fail('Last Resort should not count as a usable attack');
+    if (app.bestMoves(Dn('Ambipom'), 50).includes('Last Resort')) fail('Ambipom should not plan around Last Resort');
+    // Leaf Storm loses half, then two thirds... of its power: 40, 20, 13, 10, 10, 10 for 100 HP
+    const g = app.get('turnsToKO'), ls = { name: 'Leaf Storm', min: 40, max: 40 };
+    if (g(ls, 100, true) !== 6) fail(`Leaf Storm doing 40 then 20, 13, 10, 10, 10 should need 6 hits for 100 HP, got ${g(ls, 100, true)}`);
+  }
 
   // ---- move choice for your side ----
   const D = n => state.dexByName[n];
