@@ -41,6 +41,11 @@ function visible(h) {
     for (const c of CHOICES) if (c.loc === l.id && choiceLater(c, loc) && picks.has(c.id)) bad('pick', { name: c.title, need: choiceLater(c, loc) });
     for (const e of loc.encounters) if (encStage(l.id, e) > app.stageOf(l.id) && new RegExp(`data-key="dex:${e.dex}"[^>]*>[\\s\\S]{0,400}?${e.name}`).test(h)
       && !loc.encounters.some(x => x.dex === e.dex && encStage(l.id, x) <= app.stageOf(l.id))) bad('Pokémon', e);
+    // a gift Pokémon that only comes later (its Pokémon row waits) must have its gift row waiting too
+    for (const e of loc.encounters) if (e.method === 'gift' && encStage(l.id, e) > app.stageOf(l.id)) {
+      const gf = loc.gifts.find(x => (e.notes || '').startsWith(x.name));
+      if (gf && !gf.later) fail(`${l.id}: gift "${gf.name}" isn't marked "come back later", but its Pokémon only comes later`);
+    }
     checked++;
   }
   if (fails.length) { console.log(fails.join('\n')); console.log(`${fails.length} failures`); process.exit(1); }
