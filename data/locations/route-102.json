@@ -155,7 +155,8 @@
    "id": "outside-potion",
    "name": "Potion",
    "hidden": false,
-   "where": "Outside"
+   "where": "Outside",
+   "map": true
   }
  ],
  "gifts": [],
@@ -195,7 +196,8 @@
      ]
     }
    ],
-   "id": "calvin"
+   "id": "calvin",
+   "map": true
   },
   {
    "class": "Bug Catcher",
@@ -236,7 +238,8 @@
      ]
     }
    ],
-   "id": "rick"
+   "id": "rick",
+   "map": true
   },
   {
    "class": "Youngster",
@@ -287,7 +290,8 @@
      ]
     }
    ],
-   "id": "allen"
+   "id": "allen",
+   "map": true
   },
   {
    "class": "Lass",
@@ -328,9 +332,11 @@
      ]
     }
    ],
-   "id": "tiana"
+   "id": "tiana",
+   "map": true
   }
  ],
+ "mapCount": 1,
  "verified": true,
  "sources": [
   "https://mrwalkthroughs.com/pokemon-emerald-seaglass/"

@@ -104,35 +104,41 @@
    "id": "inside-electirizer",
    "name": "Electirizer",
    "hidden": false,
-   "where": "Inside"
+   "where": "Inside",
+   "map": true
   },
   {
    "id": "inside-escape-rope",
    "name": "Escape Rope",
    "hidden": false,
-   "where": "Inside"
+   "where": "Inside",
+   "map": true
   },
   {
    "id": "inside-thunder-stone",
    "name": "Thunder Stone",
    "hidden": false,
-   "where": "Inside"
+   "where": "Inside",
+   "map": true
   },
   {
    "id": "inside-full-heal",
    "name": "Full Heal",
    "hidden": false,
-   "where": "Inside"
+   "where": "Inside",
+   "map": true
   },
   {
    "id": "inside-paralyze-heal",
    "name": "Paralyze Heal",
    "hidden": false,
-   "where": "Inside"
+   "where": "Inside",
+   "map": true
   }
  ],
  "gifts": [],
  "trainers": [],
+ "mapCount": 1,
  "verified": true,
  "sources": [
   "https://mrwalkthroughs.com/pokemon-emerald-seaglass/"

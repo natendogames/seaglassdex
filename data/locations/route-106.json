@@ -134,25 +134,29 @@
    "id": "outside-protein",
    "name": "Protein",
    "hidden": false,
-   "where": "Outside"
+   "where": "Outside",
+   "map": true
   },
   {
    "id": "outside-king-s-rock",
    "name": "King's Rock",
    "hidden": false,
-   "where": "Outside"
+   "where": "Outside",
+   "map": true
   },
   {
    "id": "hidden-outside-stardust",
    "name": "Stardust",
    "hidden": true,
-   "where": "Outside"
+   "where": "Outside",
+   "map": true
   },
   {
    "id": "hidden-outside-heart-scale",
    "name": "Heart Scale",
    "hidden": true,
-   "where": "Outside"
+   "where": "Outside",
+   "map": true
   }
  ],
  "gifts": [],
@@ -223,7 +227,8 @@
      ]
     }
    ],
-   "id": "douglas"
+   "id": "douglas",
+   "map": true
   },
   {
    "class": "Swimmer♀",
@@ -262,7 +267,8 @@
      ]
     }
    ],
-   "id": "kyla"
+   "id": "kyla",
+   "map": true
   },
   {
    "class": "Fisherman",
@@ -321,7 +327,8 @@
      ]
     }
    ],
-   "id": "elliot"
+   "id": "elliot",
+   "map": true
   },
   {
    "class": "Fisherman",
@@ -360,9 +367,11 @@
      ]
     }
    ],
-   "id": "ned"
+   "id": "ned",
+   "map": true
   }
  ],
+ "mapCount": 1,
  "verified": true,
  "sources": [
   "https://mrwalkthroughs.com/pokemon-emerald-seaglass/"

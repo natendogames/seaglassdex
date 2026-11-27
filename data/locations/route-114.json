@@ -166,43 +166,50 @@
    "later": true,
    "need": "Waterfall (HM07 from the Scuba Safari in Pacifidlog Town; usable outside battle once you have all 8 badges)",
    "after": "sky-pillar",
-   "stage": 64.5
+   "stage": 64.5,
+   "map": true
   },
   {
    "id": "outside-protein",
    "name": "Protein",
    "hidden": false,
-   "where": "Outside"
+   "where": "Outside",
+   "map": true
   },
   {
    "id": "outside-energy-powder",
    "name": "Energy Powder",
    "hidden": false,
-   "where": "Outside"
+   "where": "Outside",
+   "map": true
   },
   {
    "id": "outside-wishing-star",
    "name": "Wishing Star",
    "hidden": false,
-   "where": "Outside"
+   "where": "Outside",
+   "map": true
   },
   {
    "id": "hidden-outside-carbos",
    "name": "Carbos",
    "hidden": true,
-   "where": "Outside"
+   "where": "Outside",
+   "map": true
   },
   {
    "id": "hidden-outside-revive",
    "name": "Revive",
    "hidden": true,
-   "where": "Outside"
+   "where": "Outside",
+   "map": true
   },
   {
    "id": "lanette-s-house-linking-cord",
    "name": "Linking Cord",
    "hidden": false,
-   "where": "Lanette's House"
+   "where": "Lanette's House",
+   "map": true
   }
  ],
  "gifts": [
@@ -288,7 +295,8 @@
      ]
     }
    ],
-   "id": "angelina"
+   "id": "angelina",
+   "map": true
   },
   {
    "class": "Hiker",
@@ -358,7 +366,8 @@
      ]
     }
    ],
-   "id": "lucas"
+   "id": "lucas",
+   "map": true
   },
   {
    "class": "Hiker",
@@ -429,7 +438,8 @@
      ]
     }
    ],
-   "id": "lenny"
+   "id": "lenny",
+   "map": true
   },
   {
    "class": "Kindler",
@@ -498,7 +508,8 @@
      ]
     }
    ],
-   "id": "bernie"
+   "id": "bernie",
+   "map": true
   },
   {
    "class": "Poké Maniac",
@@ -536,7 +547,8 @@
      ]
     }
    ],
-   "id": "steve"
+   "id": "steve",
+   "map": true
   },
   {
    "class": "Camper",
@@ -606,7 +618,8 @@
      ]
     }
    ],
-   "id": "shane"
+   "id": "shane",
+   "map": true
   },
   {
    "class": "Sr. and Jr.",
@@ -675,7 +688,8 @@
     }
    ],
    "double": true,
-   "id": "tyra-and-ivy"
+   "id": "tyra-and-ivy",
+   "map": true
   },
   {
    "class": "Picnicker",
@@ -744,7 +758,8 @@
      ]
     }
    ],
-   "id": "nancy"
+   "id": "nancy",
+   "map": true
   },
   {
    "class": "Fisherman",
@@ -844,7 +859,8 @@
      ]
     }
    ],
-   "id": "claude"
+   "id": "claude",
+   "map": true
   },
   {
    "class": "Picnicker",
@@ -882,7 +898,8 @@
      ]
     }
    ],
-   "id": "charlotte"
+   "id": "charlotte",
+   "map": true
   },
   {
    "class": "Fisherman",
@@ -921,7 +938,8 @@
      ]
     }
    ],
-   "id": "kai"
+   "id": "kai",
+   "map": true
   },
   {
    "class": "Fisherman",
@@ -960,9 +978,11 @@
      ]
     }
    ],
-   "id": "nolan"
+   "id": "nolan",
+   "map": true
   }
  ],
+ "mapCount": 2,
  "verified": true,
  "sources": [
   "https://mrwalkthroughs.com/pokemon-emerald-seaglass/"

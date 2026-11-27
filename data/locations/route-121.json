@@ -162,43 +162,50 @@
    "id": "outside-carbos",
    "name": "Carbos",
    "hidden": false,
-   "where": "Outside"
+   "where": "Outside",
+   "map": true
   },
   {
    "id": "outside-razor-claw",
    "name": "Razor Claw",
    "hidden": false,
-   "where": "Outside"
+   "where": "Outside",
+   "map": true
   },
   {
    "id": "outside-zinc",
    "name": "Zinc",
    "hidden": false,
-   "where": "Outside"
+   "where": "Outside",
+   "map": true
   },
   {
    "id": "hidden-outside-hp-up",
    "name": "HP Up",
    "hidden": true,
-   "where": "Outside"
+   "where": "Outside",
+   "map": true
   },
   {
    "id": "hidden-outside-nugget",
    "name": "Nugget",
    "hidden": true,
-   "where": "Outside"
+   "where": "Outside",
+   "map": true
   },
   {
    "id": "hidden-outside-full-heal",
    "name": "Full Heal",
    "hidden": true,
-   "where": "Outside"
+   "where": "Outside",
+   "map": true
   },
   {
    "id": "hidden-outside-max-revive",
    "name": "Max Revive",
    "hidden": true,
-   "where": "Outside"
+   "where": "Outside",
+   "map": true
   }
  ],
  "gifts": [],
@@ -270,7 +277,8 @@
      ]
     }
    ],
-   "id": "tammy"
+   "id": "tammy",
+   "map": true
   },
   {
    "class": "Bug Maniac",
@@ -340,7 +348,8 @@
      ]
     }
    ],
-   "id": "cale"
+   "id": "cale",
+   "map": true
   },
   {
    "class": "Beauty",
@@ -411,7 +420,8 @@
      ]
     }
    ],
-   "id": "jessica"
+   "id": "jessica",
+   "map": true
   },
   {
    "class": "Sr. and Jr.",
@@ -482,7 +492,8 @@
     }
    ],
    "double": true,
-   "id": "kate-and-joy"
+   "id": "kate-and-joy",
+   "map": true
   },
   {
    "class": "Pokémon Breeder",
@@ -670,7 +681,8 @@
      ]
     }
    ],
-   "id": "pat"
+   "id": "pat",
+   "map": true
   },
   {
    "class": "Pokémon Breeder",
@@ -860,7 +872,8 @@
      ]
     }
    ],
-   "id": "myles"
+   "id": "myles",
+   "map": true
   },
   {
    "class": "Pokéfan",
@@ -900,7 +913,8 @@
      "item": "Oran Berry"
     }
    ],
-   "id": "vanessa"
+   "id": "vanessa",
+   "map": true
   },
   {
    "class": "Gentleman",
@@ -939,7 +953,8 @@
      ]
     }
    ],
-   "id": "walter"
+   "id": "walter",
+   "map": true
   },
   {
    "class": "Cool Trainer",
@@ -1013,7 +1028,8 @@
    "uses": [
     "Hyper Potion"
    ],
-   "id": "marcel"
+   "id": "marcel",
+   "map": true
   },
   {
    "class": "Cool Trainer",
@@ -1085,9 +1101,11 @@
    "uses": [
     "Hyper Potion"
    ],
-   "id": "cristin"
+   "id": "cristin",
+   "map": true
   }
  ],
+ "mapCount": 1,
  "verified": true,
  "sources": [
   "https://mrwalkthroughs.com/pokemon-emerald-seaglass/"

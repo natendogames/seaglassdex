@@ -92,13 +92,15 @@
    "id": "outside-rare-candy",
    "name": "Rare Candy",
    "hidden": false,
-   "where": "Outside"
+   "where": "Outside",
+   "map": true
   },
   {
    "id": "outside-protein",
    "name": "Protein",
    "hidden": false,
-   "where": "Outside"
+   "where": "Outside",
+   "map": true
   }
  ],
  "gifts": [],
@@ -277,7 +279,8 @@
      ]
     }
    ],
-   "id": "ronald"
+   "id": "ronald",
+   "map": true
   },
   {
    "class": "Cool Trainer",
@@ -348,7 +351,8 @@
    "uses": [
     "Hyper Potion"
    ],
-   "id": "darcy"
+   "id": "darcy",
+   "map": true
   },
   {
    "class": "Cool Trainer",
@@ -419,7 +423,8 @@
    "uses": [
     "Hyper Potion"
    ],
-   "id": "jonathan"
+   "id": "jonathan",
+   "map": true
   },
   {
    "class": "Black Belt",
@@ -458,7 +463,8 @@
      ]
     }
    ],
-   "id": "kiyo"
+   "id": "kiyo",
+   "map": true
   },
   {
    "class": "Swimmer♂",
@@ -497,7 +503,8 @@
      ]
     }
    ],
-   "id": "gilbert"
+   "id": "gilbert",
+   "map": true
   },
   {
    "class": "Expert",
@@ -567,7 +574,8 @@
      ]
     }
    ],
-   "id": "paxton"
+   "id": "paxton",
+   "map": true
   },
   {
    "class": "Expert",
@@ -636,7 +644,8 @@
    "uses": [
     "Hyper Potion"
    ],
-   "id": "makayla"
+   "id": "makayla",
+   "map": true
   },
   {
    "class": "Swimmer♀",
@@ -675,9 +684,11 @@
      ]
     }
    ],
-   "id": "dana"
+   "id": "dana",
+   "map": true
   }
  ],
+ "mapCount": 1,
  "verified": true,
  "sources": [
   "https://mrwalkthroughs.com/pokemon-emerald-seaglass/"

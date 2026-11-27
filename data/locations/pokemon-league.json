@@ -370,7 +370,8 @@
     "Full Restore ×2"
    ],
    "id": "drake",
-   "area": "Drake's Room"
+   "area": "Drake's Room",
+   "map": true
   },
   {
    "class": "Elite Four",
@@ -539,7 +540,8 @@
     "Full Restore ×2"
    ],
    "id": "glacia",
-   "area": "Glacia's Room"
+   "area": "Glacia's Room",
+   "map": true
   },
   {
    "class": "Elite Four",
@@ -708,7 +710,8 @@
     "Full Restore ×2"
    ],
    "id": "phoebe",
-   "area": "Phoebe's Room"
+   "area": "Phoebe's Room",
+   "map": true
   },
   {
    "class": "Elite Four",
@@ -874,9 +877,11 @@
     "Full Restore ×2"
    ],
    "id": "sidney",
-   "area": "Sidney's Room"
+   "area": "Sidney's Room",
+   "map": true
   }
  ],
+ "mapCount": 4,
  "verified": true,
  "sources": [
   "https://mrwalkthroughs.com/pokemon-emerald-seaglass/"

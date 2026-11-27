@@ -145,7 +145,8 @@
    "later": true,
    "need": "Come in from Route 110",
    "after": "route-110",
-   "stage": 16
+   "stage": 16,
+   "map": true
   },
   {
    "id": "outside-pp-up",
@@ -155,7 +156,8 @@
    "later": true,
    "need": "Come in from Route 110",
    "after": "route-110",
-   "stage": 16
+   "stage": 16,
+   "map": true
   }
  ],
  "gifts": [],
@@ -199,7 +201,8 @@
    "id": "pete",
    "stage": "lavaridge-town",
    "later": true,
-   "need": "surf"
+   "need": "surf",
+   "map": true
   },
   {
    "class": "Pokéfan",
@@ -239,7 +242,8 @@
    ],
    "id": "miguel",
    "stage": "route-110",
-   "later": true
+   "later": true,
+   "map": true
   },
   {
    "class": "Twins",
@@ -308,7 +312,8 @@
    "double": true,
    "id": "amy-and-liv",
    "stage": "route-110",
-   "later": true
+   "later": true,
+   "map": true
   },
   {
    "class": "Aroma Lady",
@@ -377,7 +382,8 @@
    ],
    "id": "daisy",
    "stage": "route-110",
-   "later": true
+   "later": true,
+   "map": true
   },
   {
    "class": "Guitarist",
@@ -417,7 +423,8 @@
    ],
    "id": "marcos",
    "stage": "route-110",
-   "later": true
+   "later": true,
+   "map": true
   },
   {
    "class": "Fisherman",
@@ -488,7 +495,8 @@
    ],
    "id": "andrew",
    "stage": "route-110",
-   "later": true
+   "later": true,
+   "map": true
   },
   {
    "class": "Swimmer♀",
@@ -530,7 +538,8 @@
    "id": "isabelle",
    "stage": "lavaridge-town",
    "later": true,
-   "need": "surf"
+   "need": "surf",
+   "map": true
   },
   {
    "class": "Black Belt",
@@ -571,7 +580,8 @@
    ],
    "id": "rhett",
    "stage": "route-110",
-   "later": true
+   "later": true,
+   "map": true
   },
   {
    "class": "Rival",
@@ -642,9 +652,11 @@
      }
     ]
    },
-   "id": "rival-route-103"
+   "id": "rival-route-103",
+   "map": true
   }
  ],
+ "mapCount": 1,
  "verified": true,
  "sources": [
   "https://mrwalkthroughs.com/pokemon-emerald-seaglass/"

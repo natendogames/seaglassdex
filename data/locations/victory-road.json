@@ -312,49 +312,57 @@
    "id": "1f-max-elixir",
    "name": "Max Elixir",
    "hidden": false,
-   "where": "1F"
+   "where": "1F",
+   "map": true
   },
   {
    "id": "1f-pp-up",
    "name": "PP Up",
    "hidden": false,
-   "where": "1F"
+   "where": "1F",
+   "map": true
   },
   {
    "id": "hidden-1f-ultra-ball",
    "name": "Ultra Ball",
    "hidden": true,
-   "where": "1F"
+   "where": "1F",
+   "map": true
   },
   {
    "id": "b1f-tm29",
    "name": "TM29",
    "hidden": false,
-   "where": "B1F"
+   "where": "B1F",
+   "map": true
   },
   {
    "id": "b1f-full-restore",
    "name": "Full Restore",
    "hidden": false,
-   "where": "B1F"
+   "where": "B1F",
+   "map": true
   },
   {
    "id": "b2f-full-heal",
    "name": "Full Heal",
    "hidden": false,
-   "where": "B2F"
+   "where": "B2F",
+   "map": true
   },
   {
    "id": "hidden-b2f-elixir",
    "name": "Elixir",
    "hidden": true,
-   "where": "B2F"
+   "where": "B2F",
+   "map": true
   },
   {
    "id": "hidden-b2f-max-repel",
    "name": "Max Repel",
    "hidden": true,
-   "where": "B2F"
+   "where": "B2F",
+   "map": true
   }
  ],
  "gifts": [],
@@ -431,7 +439,8 @@
     "Full Restore"
    ],
    "id": "albert",
-   "area": "1F"
+   "area": "1F",
+   "map": true
   },
   {
    "class": "Pokémon Trainer",
@@ -635,7 +644,8 @@
     "Full Restore"
    ],
    "id": "hope",
-   "area": "1F"
+   "area": "1F",
+   "map": true
   },
   {
    "class": "Cool Trainer",
@@ -709,7 +719,8 @@
     "Full Restore"
    ],
    "id": "katelynn",
-   "area": "1F"
+   "area": "1F",
+   "map": true
   },
   {
    "class": "Cool Trainer",
@@ -784,7 +795,8 @@
     "Full Restore"
    ],
    "id": "edgar",
-   "area": "1F"
+   "area": "1F",
+   "map": true
   },
   {
    "class": "Cool Trainer",
@@ -856,7 +868,8 @@
     "Full Restore"
    ],
    "id": "quincy",
-   "area": "1F"
+   "area": "1F",
+   "map": true
   },
   {
    "class": "Cool Trainer",
@@ -898,7 +911,8 @@
     "Full Restore"
    ],
    "id": "shannon",
-   "area": "B1F"
+   "area": "B1F",
+   "map": true
   },
   {
    "class": "Cool Trainer",
@@ -1001,7 +1015,8 @@
     "Full Restore"
    ],
    "id": "samuel",
-   "area": "B1F"
+   "area": "B1F",
+   "map": true
   },
   {
    "class": "Cool Trainer",
@@ -1106,7 +1121,8 @@
     "Full Restore"
    ],
    "id": "michelle",
-   "area": "B1F"
+   "area": "B1F",
+   "map": true
   },
   {
    "class": "Cool Trainer",
@@ -1175,7 +1191,8 @@
     }
    ],
    "id": "mitchell",
-   "area": "B1F"
+   "area": "B1F",
+   "map": true
   },
   {
    "class": "Cool Trainer",
@@ -1247,7 +1264,8 @@
     "Full Restore"
    ],
    "id": "halle",
-   "area": "B1F"
+   "area": "B1F",
+   "map": true
   },
   {
    "class": "Cool Trainer",
@@ -1382,7 +1400,8 @@
     "Full Restore"
    ],
    "id": "vito",
-   "area": "B2F"
+   "area": "B2F",
+   "map": true
   },
   {
    "class": "Cool Trainer",
@@ -1445,7 +1464,8 @@
     "Full Restore"
    ],
    "id": "felix",
-   "area": "B2F"
+   "area": "B2F",
+   "map": true
   },
   {
    "class": "Cool Trainer",
@@ -1520,7 +1540,8 @@
     "Full Restore"
    ],
    "id": "caroline",
-   "area": "B2F"
+   "area": "B2F",
+   "map": true
   },
   {
    "class": "Cool Trainer",
@@ -1571,7 +1592,8 @@
     "Full Restore"
    ],
    "id": "dianne",
-   "area": "B2F"
+   "area": "B2F",
+   "map": true
   },
   {
    "class": "Cool Trainer",
@@ -1676,7 +1698,8 @@
     "Full Restore"
    ],
    "id": "julie",
-   "area": "B2F"
+   "area": "B2F",
+   "map": true
   },
   {
    "class": "Cool Trainer",
@@ -1780,9 +1803,11 @@
     "Full Restore"
    ],
    "id": "owen",
-   "area": "B2F"
+   "area": "B2F",
+   "map": true
   }
  ],
+ "mapCount": 3,
  "verified": true,
  "sources": [
   "https://mrwalkthroughs.com/pokemon-emerald-seaglass/"
