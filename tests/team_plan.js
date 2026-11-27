@@ -33,9 +33,10 @@ const ok = (cond, msg) => { checks++; if (!cond) fail(msg); };
   ok(want.every(k => data.plans[k]), 'a plan for every starter');
 
   for (const [key, plan] of Object.entries(data.plans)) {
-    const [V, starter] = key.split(':');
+    const [V, starter, mode] = key.split(':');
     state.progress.version = V;
-    state.progress.saves[V] = { caught: {}, checks: {}, team: [], picks: { starter } };
+    // Hard Mode plans are checked against Hard Mode trainer levels
+    state.progress.saves[V] = { caught: {}, checks: {}, team: [], picks: { starter }, hardMode: mode === 'hard' };
     const startDex = app.STARTER_BASE[starter];
     let prevStage = -1, prevAce = 0;
     const got = new Set([startDex]), single = new Set(), level = {};

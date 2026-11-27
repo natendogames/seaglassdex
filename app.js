@@ -246,6 +246,53 @@ async function loadData() {
       stage: e.method === 'gift' ? encStage(l.id, e) : Math.max(firstBalls, encStage(l.id, e)), later: encStage(l.id, e) > stageOf(l.id), need: needName(e) });
   }
   for (const list of Object.values(state.found)) list.sort((a, b) => a.stage - b.stage);
+  prepareHardMode();
+}
+
+// ---------- Hard Mode ----------
+// Seaglass's settings book (your bedroom desk) can turn on Hard Mode (VAR 0x40F7 = 1). The game's trainer party builder
+// then raises every trainer Pokémon's level by 1-4, more as you earn badges (ROM function at 0x080AC538): +1 with 0-1
+// badges, +2 with 2-4, +3 with 5-7 and +4 with all eight (or once you're Champion), up to Lv 100. Wild, gift and
+// legendary Pokémon are not changed. Hard Mode also turns off the Bag in battle.
+// Seaglass's level caps (settings book, on by default): EXP is cut once you pass the next Gym Leader's top level
+const SOFT_LEVEL_CAP = true;
+const hardOn = () => !!cur()?.hardMode;
+const hardBoost = badges => badges >= 8 ? 4 : badges >= 5 ? 3 : badges >= 2 ? 2 : 1;
+function prepareHardMode() {
+  const leaders = state.trainers.filter(t => t.class === 'Leader').map(t => battleStage(t, t.location));
+  const badgesAt = st => leaders.filter(x => x < st).length;
+  const boostMon = (p, badges) => {
+    if (p.baseLevel !== undefined) return;
+    const base = p.level, plus = hardBoost(badges);
+    Object.defineProperty(p, 'baseLevel', { value: base, enumerable: false });
+    Object.defineProperty(p, 'hardPlus', { value: Math.min(100, base + plus) - base, enumerable: false });
+    Object.defineProperty(p, 'level', { get: () => hardOn() ? Math.min(100, base + plus) : base, enumerable: true, configurable: true });
+  };
+  const boostParty = (t, st) => {
+    const b = badgesAt(st);
+    for (const p of t.party || []) boostMon(p, b);
+    for (const party of Object.values(t.byStarter || {})) for (const p of party) boostMon(p, b);
+  };
+  for (const t of state.trainers) boostParty(t, battleStage(t, t.location));
+  for (const l of state.index) for (const t of state.locations[l.id].trainers || []) boostParty(t, battleStage(t, l.id));
+  const tierAt = { 'Rematch 1': 'route-105', 'Rematch 2': 'lilycove-city', 'Rematch 3': 'sootopolis-city', 'Rematch 4': 'pokemon-league' };
+  for (const [locId, list] of Object.entries(state.extras.rematches || {})) for (const r of list) for (const x of r.tiers)
+    for (const p of x.party) boostMon(p, badgesAt(Math.max(stageOf(locId), stageOf(tierAt[x.after] || 'pokemon-league'))));
+}
+function setHardMode(on) {
+  cur().hardMode = !!on;
+  if (typeof catchCache !== 'undefined') for (const k in catchCache) delete catchCache[k];
+  save();
+}
+// the Hard Mode switch, shown on the home page, Littleroot Town and the Battle plan
+function hardCard() {
+  return `<div class="card hardcard"><label class="row"><input type="checkbox" id="hardmode" ${hardOn() ? 'checked' : ''}><span><b>Hard Mode</b> (the settings book on your bedroom desk)<span class="sub">${hardOn()
+    ? 'On: trainer levels are raised (+1 with 0-1 badges, +2 with 2-4, +3 with 5-7, +4 with 8) and battle plans use them. No items from the Bag in battle.'
+    : 'Off. Tick this if you turned Hard Mode on: trainers get +1 to +4 levels as you earn badges, and battle plans and the Team plan use the higher levels.'}</span></span></label></div>`;
+}
+function bindHard(rerender) {
+  const el = document.getElementById('hardmode');
+  if (el) el.onchange = e => { setHardMode(e.target.checked); rerender(); };
 }
 
 // ---------- story progress ----------
@@ -359,6 +406,7 @@ function renderHome() {
   const g = globalStats();
   const stat = (label, [a, b]) => `<div class="stat"><b>${a}/${b}</b><span>${label}</span>${bar(a, b)}</div>`;
   let html = `<a class="card stats linkcard" href="#/progress">${stat('Hoenn Dex', g.dex)}${stat('Items', g.items)}${stat('NPC gifts', g.gifts)}${stat('Trainers', g.trainers)}</a>`;
+  html += hardCard();
   html += `<div class="chips" style="margin-bottom:4px"><a class="chip" href="#/map">Town map</a><a class="chip" href="#/missing">Still missing</a><a class="chip" href="#/progress">Progress</a>${typeof nuzOn === 'function' && nuzOn() ? '<a class="chip" href="#/nuzlocke">Nuzlocke</a>' : ''}</div>`;
   let region = '';
   for (const l of state.index) {
@@ -370,6 +418,7 @@ function renderHome() {
         <div class="meta">${done}/${total} done</div>${bar(done, total)}</div><span>&rsaquo;</span></a>`;
   }
   view.innerHTML = html;
+  bindHard(renderHome);
 }
 
 let rowSeq = 0;
@@ -440,6 +489,7 @@ function renderLocation(id) {
   const s = cur();
   let html = '';
   const steps = state.walk[id];
+  if (id === 'littleroot-town') html += hardCard();
   if (loc.notes) html += `<div class="card note">${esc(loc.notes)}</div>`;
   if (steps?.length) {
     // the parts of steps about things you can't get yet (a gift behind a Cut tree) wait under "come back later"
@@ -493,6 +543,7 @@ function renderLocation(id) {
   if (!encs.length) html += '<div class="empty">No Pokémon to catch here.</div>';
   else if (!now.length) html += '<div class="empty">Nothing to catch on your first visit.</div>';
   html += encList(now, false) + `</div>`;
+  if (typeof grindCard === 'function') html += grindCard(id, now, later);
   if (later.length) html += `<details class="later"><summary><h2>Pokémon: come back later (${new Set(later.map(e => e.dex)).size})</h2></summary><div class="card"><p class="note">You can't fish, Surf, Dive or Rock Smash here on your first visit, or this part isn't open yet. These open up later in the story.</p>${encList(later, true)}</div></details>`;
 
   const section = (title, list, kind, subFn) => {
@@ -514,6 +565,7 @@ function renderLocation(id) {
   html += laterSection('NPC gifts &amp; trades', v.gifts.filter(g => g.later), g => { const k = `${loc.id}:gift:${g.id}`; return checkRow(k, s.checks[k], esc(g.name), giftSub(g)); }, g => s.checks[`${loc.id}:gift:${g.id}`]);
   for (const f of LOC_SECTIONS) html += f(loc);
   view.innerHTML = html;
+  bindHard(() => renderLocation(id));
 }
 
 // Extra location page sections (shops, move tutors...) registered by features.js and friends: loc -> html
@@ -1008,7 +1060,7 @@ function foeRow(p, stage, party) {
     }).join('<br>or ')}</div>`
       : `<div class="note">Nothing you can catch by ${esc(state.index[Math.floor(stage)]?.name || 'now')} learns or can be taught (TM/HM) a super-effective move by Lv ${p.level}.</div>`;
   }
-  return `<div class="foe"><div><b>${esc(p.name)}</b> Lv ${p.level} ${types(p.dex)} <span class="note">${foe.hp} HP</span></div>
+  return `<div class="foe"><div><b>${esc(p.name)}</b> Lv ${p.level}${hardOn() && p.hardPlus ? ` <span class="note">(+${p.hardPlus} Hard Mode)</span>` : ''} ${types(p.dex)} <span class="note">${foe.hp} HP</span></div>
     ${p.moves?.length ? `<div class="moves">${p.moves.map(m => `<span class="mv">${esc(m.name)}${m.type ? ` <i class="t-${m.type}"></i>` : ''}${m.power ? ` <small>${m.power === 1 ? '—' : m.power}</small>` : ''}</span>`).join('')}</div>` : ''}
     <div class="note">Weak to: ${weak.length ? weak.map(w => typeTag(w.t) + (w.m === 4 ? '×4' : '')).join(' ') : 'nothing'}</div>
     ${(() => { const n = foeNotes(p); return n.length ? `<div class="note">${n.map(esc).join(' · ')}</div>` : ''; })()}
@@ -1045,7 +1097,7 @@ function renderPlanner() {
   const s = cur();
   s.teamMeta ||= {};
   const moveNames = Object.keys(state.moves).sort();
-  let html = `<div class="card"><b>Your team</b> <span class="note">(up to 6). Set each one's level and moves for exact damage; blank moves assume it kept the strongest attack of each type it learns by level up.</span>
+  let html = hardCard() + `<div class="card"><b>Your team</b> <span class="note">(up to 6). Set each one's level and moves for exact damage; blank moves assume it kept the strongest attack of each type it learns by level up.</span>
     ${s.team.map((n, i) => {
       const meta = s.teamMeta[n] || {};
       const lvl = meta.level || '';
@@ -1070,6 +1122,7 @@ function renderPlanner() {
   }
   html += `<p class="note">Damage uses the Gen 6+ formula Seaglass's battle engine runs, with each move's own physical/special category and Seaglass's type chart, your levels and moves, their real moves, IVs, abilities and items, average IVs for yours and no EVs. Abilities are counted when the species can only have one (Levitate, Thick Fat, Intimidate, Truant...), held type boosters and berries are counted, and a critical hit that could KO you sooner is flagged. Stat-changing moves and two-ability Pokémon are shown as warnings, not counted.</p>`;
   view.innerHTML = html;
+  bindHard(renderPlanner);
   view.querySelectorAll('[data-rm]').forEach(b => b.onclick = () => { s.team.splice(+b.dataset.rm, 1); save(); renderPlanner(); });
   view.querySelectorAll('[data-lvl]').forEach(inp => inp.onchange = () => {
     const n = inp.dataset.lvl, v = Math.max(0, Math.min(100, parseInt(inp.value, 10) || 0));
@@ -1104,7 +1157,7 @@ function renderPlanner() {
 // checkboxes saved per version and starter; the battle row shares its "defeated" check with the route page.
 const planKey = id => `plan:${pickOf('starter')}:${id}`;
 const STEP_TAG = { catch: 'Catch', box: 'Box', evolve: 'Evolve', teach: 'TM/HM', learn: 'Level up' };
-function planOf(version, starter) { return state.teamPlan?.plans[`${version}:${starter}`] || null; }
+function planOf(version, starter) { const p = state.teamPlan?.plans; return (hardOn() && p?.[`${version}:${starter}:hard`]) || p?.[`${version}:${starter}`] || null; }
 // Catch and evolve steps are the Pokémon's own caught box (evolving registers it in the Pokédex), so ticking one
 // ticks it on its route and Pokédex pages and the other way round.
 const stepKey = x => (['catch', 'evolve'].includes(x.kind) && x.dex ? `dex:${x.dex}` : planKey(x.id));
@@ -1119,12 +1172,13 @@ function renderPlan() {
     return;
   }
   const st = pickOf('starter'), s = cur();
-  let html = `<div class="card"><b>The best team at every point of the game</b>
+  let html = hardCard() + `<div class="card"><b>The best team at every point of the game</b>
     <p class="note">Before each key battle: who to catch or box, who evolves, which moves and TMs to teach, your lineup and who to lead with. Tick steps off as you go. Levels assume your team is near the leader's ace level.</p>
     <div class="note">Your starter from <a href="#/loc/route-101">Professor Birch's bag</a>${st ? '' : ': <b class="bad">not picked yet</b>'}</div>${starterChips()}</div>`;
   const plan = st && planOf(V(), st);
   if (!plan) {
     view.innerHTML = html + `<p class="note">Pick your starter to see its plan.${state.teamPlan.best ? ` ${esc(state.teamPlan.best)} gives the strongest run.` : ''}</p>`;
+    bindHard(renderPlan);
     return;
   }
   const keys = [...new Set(plan.legs.flatMap(legKeys))], done = keys.filter(keyDone).length;
@@ -1145,6 +1199,7 @@ function renderPlan() {
   });
   html += '<p class="note">Made by the same damage engine as the Battle plan, against every trainer up to the Champion. It ignores accuracy, critical hits, abilities, held items and status moves, so treat close calls with care.</p>';
   view.innerHTML = html;
+  bindHard(renderPlan);
   view.querySelectorAll('[data-copyteam]').forEach(btn => btn.onclick = () => copyLineup(plan.legs[+btn.dataset.copyteam]));
 }
 // Put a leg's lineup, levels and moves into the Battle plan team.
@@ -1252,7 +1307,7 @@ function renderExclusives() {
 
 function renderSettings() {
   setHeader('Backup & settings', true, '');
-  view.innerHTML = `
+  view.innerHTML = hardCard() + `
     <div class="card"><label class="row"><input type="checkbox" id="hideDone" ${state.progress.hideDone ? 'checked' : ''}><span>Hide completed locations</span></label>
       <label class="row"><input type="checkbox" id="hideRows" ${state.progress.hideRows ? 'checked' : ''}><span>Hide ticked-off rows on location pages</span></label>
       <div class="row"><span>Theme</span><select id="theme" style="width:auto;margin-left:auto">${['auto', 'light', 'dark'].map(t => `<option ${(state.progress.theme || 'auto') === t ? 'selected' : ''}>${t}</option>`).join('')}</select></div></div>
@@ -1264,6 +1319,7 @@ function renderSettings() {
     <h2>Reset</h2>
     <div class="card"><button class="btn" id="reset">Reset ${VNAME[V()]} progress</button></div>
     <p class="note">Pokémon, move, item, gift, shop and trainer data, wild encounters (DexNav too), maps and the type chart are read straight out of Pokémon Emerald Seaglass 3.0 (by Nemo622). Walkthrough steps are written guidance, cross-checked against the Seaglass documentation and <a href="https://mrwalkthroughs.com/pokemon-emerald-seaglass/">mrwalkthroughs.com</a>.</p>`;
+  bindHard(renderSettings);
   document.getElementById('hideDone').onchange = e => { state.progress.hideDone = e.target.checked; save(); };
   document.getElementById('hideRows').onchange = e => { state.progress.hideRows = e.target.checked; save(); applyVersion(); };
   document.getElementById('theme').onchange = e => { state.progress.theme = e.target.value; save(); applyVersion(); };

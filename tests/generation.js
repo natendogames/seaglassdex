@@ -40,7 +40,8 @@ const KANTO_OK = [/A peculiar box made by Silph Co\./, /Pewter Crunchies/];
   if (app.get('HOENN_COUNT') !== 430) fail('HOENN_COUNT is not 430');
   if (app.state.dexFilter.scope !== 'hoenn') fail('the Pokédex does not open on the Hoenn dex');
   const plans = Object.keys(J('data/team-plan.json').plans).sort().join(',');
-  if (plans !== 'E:Mudkip,E:Torchic,E:Treecko') fail(`team plans are ${plans}`);
+  // one plan per Hoenn starter, plus a Hard Mode plan for each
+  if (plans !== 'E:Mudkip,E:Mudkip:hard,E:Torchic,E:Torchic:hard,E:Treecko,E:Treecko:hard') fail(`team plans are ${plans}`);
 
   // every Pokémon you can meet, battle or be given
   const seen = new Map();
